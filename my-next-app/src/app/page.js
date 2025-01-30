@@ -7,6 +7,7 @@ import { CiBookmarkPlus } from "react-icons/ci";
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedUnit, setSelectedUnit] = useState(null);
+  const [selectedWeapon, setSelectedWeapon] = useState(""); // New state for weapon selection
 
   const openModal = (unit) => {
     setSelectedUnit(unit);
@@ -16,6 +17,7 @@ export default function Home() {
   const closeModal = () => {
     setIsOpen(false);
     setSelectedUnit(null);
+    setSelectedWeapon(""); // Reset weapon selection when closing the modal
   };
 
   const unitImage =
@@ -30,6 +32,12 @@ export default function Home() {
     LD: 7,
     OC: 1,
   };
+
+  // Weapon options
+  const weapons = [
+    { name: "Chainsword", stats: "Ranged, 10 damage"},
+    { name: "Boltgun", stats: "Melee, 35 damage"},
+  ];
 
   return (
     <div className="flex flex-wrap justify-center w-full min-h-screen bg-gray-900 p-6">
@@ -55,79 +63,104 @@ export default function Home() {
         </div>
       ))}
 
-{isOpen && (
-  <div
-    className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
-    onClick={closeModal}
-  >
-    <div
-      className="bg-white p-4 rounded-lg h-5/6 w-full max-w-4xl cursor-auto overflow-hidden flex relative"
-      onClick={(e) => e.stopPropagation()} // Prevent modal close when clicking inside modal
-    >
-      {/* Wishlist Button - Positioned in the Top Right */}
-<div className="absolute top-2 right-2 flex items-center cursor-pointer group">
-  {/* Text appears to the left on hover */}
-  <span className="absolute right-8 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-0 translate-x-2 transition-all duration-200 ease-in-out text-gray-400 text-sm whitespace-nowrap">
-    Add to army list
-  </span>
-  
-  {/* Bookmark Icon */}
-  <CiBookmarkPlus className=" text-3xl text-gray-800 hover:text-red-500 text-lg"/>
-</div>
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          onClick={closeModal}
+        >
+          <div
+            className="bg-white p-4 rounded-lg h-5/6 w-full max-w-4xl cursor-auto overflow-hidden flex relative"
+            onClick={(e) => e.stopPropagation()} // Prevent modal close when clicking inside modal
+          >
+            {/* Wishlist Button - Positioned in the Top Right */}
+            <div className="absolute top-2 right-2 flex items-center cursor-pointer group">
+              {/* Text appears to the left on hover */}
+              <span className="absolute right-8 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-0 translate-x-2 transition-all duration-200 ease-in-out text-gray-400 text-sm whitespace-nowrap">
+                Add to army list
+              </span>
 
+              {/* Bookmark Icon */}
+              <CiBookmarkPlus className=" text-3xl text-gray-800 hover:text-red-500 text-lg" />
+            </div>
 
-      {/* Left Side: Image */}
-      <div className="h-4/6 w-2/6 bg-black flex justify-center items-center overflow-hidden rounded-lg shadow-2xl">
-        <img
-          src={selectedUnit.image}
-          alt="Selected Image"
-          className="object-cover w-full h-full"
-        />
-      </div>
+            {/* Left Side: Image */}
+            <div className="h-4/6 w-2/6 bg-black flex justify-center items-center overflow-hidden rounded-lg shadow-2xl">
+              <img
+                src={selectedUnit.image}
+                alt="Selected Image"
+                className="object-cover w-full h-full"
+              />
+            </div>
 
-      {/* Right Side: Unit Details */}
-      <div className="flex-1 p-4 ml-6">
-        <h3 className="text-2xl font-bold text-gray-900 mb-4">{selectedUnit.name}</h3>
+            {/* Right Side: Unit Details */}
+            <div className="flex-1 p-4 ml-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{selectedUnit.name}</h3>
 
-        {/* Unit Stats Table */}
-        <table className="min-w-full text-sm text-left text-gray-600 table-fixed">
-        <thead className="bg-gray-900 text-gray-100">
-  <tr>
-    {[
-      { key: "M", desc: "Movement (in inches)" },
-      { key: "T", desc: "Toughness" },
-      { key: "Sv", desc: "Save (Armor Save)" },
-      { key: "W", desc: "Wounds" },
-      { key: "LD", desc: "Leadership" },
-      { key: "OC", desc: "Objective Control" },
-    ].map((stat) => (
-      <th key={stat.key} className="px-6 py-3 font-medium text-center relative group">
-        {/* Tooltip */}
-        <span className="absolute bottom-full mb-1 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-all duration-200 ease-in-out whitespace-nowrap">
-          {stat.desc}
-        </span>
-        {stat.key}
-      </th>
-    ))}
-  </tr>
-</thead>
+              {/* Unit Stats Table */}
+              <table className="min-w-full text-sm text-left text-gray-600 table-fixed">
+                <thead className="bg-gray-900 text-gray-100">
+                  <tr>
+                    {[
+                      { key: "M", desc: "Movement (in inches)" },
+                      { key: "T", desc: "Toughness" },
+                      { key: "Sv", desc: "Save (Armor Save)" },
+                      { key: "W", desc: "Wounds" },
+                      { key: "LD", desc: "Leadership" },
+                      { key: "OC", desc: "Objective Control" },
+                    ].map((stat) => (
+                      <th key={stat.key} className="px-6 py-3 font-medium text-center relative group">
+                        {/* Tooltip */}
+                        <span className="absolute bottom-full mb-1 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-all duration-200 ease-in-out whitespace-nowrap">
+                          {stat.desc}
+                        </span>
+                        {stat.key}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
 
-          <tbody>
-            <tr className="bg-gray-200">
-              <td className="px-6 py-4 text-center">{unitStats.M}"</td>
-              <td className="px-6 py-4 text-center">{unitStats.T}</td>
-              <td className="px-6 py-4 text-center">{unitStats.Sv}+</td>
-              <td className="px-6 py-4 text-center">{unitStats.W}</td>
-              <td className="px-6 py-4 text-center">{unitStats.LD}</td>
-              <td className="px-6 py-4 text-center">{unitStats.OC}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-)}
+                <tbody>
+                  <tr className="bg-gray-200">
+                    <td className="px-6 py-4 text-center">{unitStats.M}"</td>
+                    <td className="px-6 py-4 text-center">{unitStats.T}</td>
+                    <td className="px-6 py-4 text-center">{unitStats.Sv}+</td>
+                    <td className="px-6 py-4 text-center">{unitStats.W}</td>
+                    <td className="px-6 py-4 text-center">{unitStats.LD}</td>
+                    <td className="px-6 py-4 text-center">{unitStats.OC}</td>
+                  </tr>
+                </tbody>
+              </table>
 
+              {/* Weapon Selector Dropdown */}
+              <div className="mt-1 text-left ">
+                <select
+                  id="weapon-select"
+                  className="mt-2 p-2 bg-gray-800 text-white border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+                  onChange={(e) => setSelectedWeapon(e.target.value)}
+                  value={selectedWeapon}
+                >
+                  <option value="" disabled>Select a weapon</option>
+                  {weapons.map((weapon, index) => (
+                    <option key={index} value={weapon.name}>
+                      {weapon.name}
+                    </option>
+                  ))}
+                </select>
+
+                {/* Display Selected Weapon */}
+                {selectedWeapon && (
+                  <div className="mt-2 text-left p-4 bg-gray-800 text-white rounded-lg shadow-lg flex flex-col ">
+                    <h3 className="text-xl font-semibold">{selectedWeapon}</h3>
+                    <p className="text-sm text-gray-400 mt-2">
+                      {weapons.find((w) => w.name === selectedWeapon)?.stats}
+                    </p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
