@@ -157,23 +157,6 @@ export default function Home() {
     })
   )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 {selectedUnit.abilities.unit.map((ability, idx) => (
                   <div key={idx} className="mt-2 text-gray-200 text-sm bg-gray-700 p-4 rounded">
                     <h4 className="font-semibold border-b border-gray-600 pb-1 mb-1">{ability.name}</h4>

@@ -222,7 +222,6 @@ const units = [
             coreRules: ["Precision"] 
           }
         ],
-        rangedWeapons: [],
         abilities: {
           core: ["Fights First", "Infiltrators", "Lone Operative", "Stealth"],
           faction: ["Synapse"],
