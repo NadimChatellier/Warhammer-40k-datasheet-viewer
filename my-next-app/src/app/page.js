@@ -183,7 +183,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-full bg-gray-300 p-2 rounded-lg shadow-lg text-center mt-4">
+            <div className="w-full bg-gray-500 p-2 rounded-lg shadow-lg text-center mt-4">
               <p className="text-sm"><strong>Keywords:</strong> {selectedUnit.keywords.join(', ')}</p>
             </div>
           </div>
