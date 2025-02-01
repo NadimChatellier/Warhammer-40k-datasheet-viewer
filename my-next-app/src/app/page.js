@@ -39,16 +39,25 @@ export default function Home() {
   }, [isOpen]);
 
   return (
+    <>
+    
     <div className="flex flex-wrap justify-center w-full min-h-screen bg-gray-900 p-6">
+
       {units.map((unit, index) => (
-        <UnitCard key={index} unit={unit} openModal={openModal} />
+        
+        <><UnitCard key={index} unit={unit} openModal={openModal} /></>
       ))}
 
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50" onClick={closeModal}>
           <div
-            className="bg-white p-6 rounded-lg h-[90%] w-full max-w-4xl cursor-auto overflow-hidden flex flex-col relative"
+            className=" p-6 rounded-lg h-[90%] w-full max-w-4xl cursor-auto overflow-hidden flex flex-col relative"
             onClick={(e) => e.stopPropagation()}
+            style={{
+              backgroundImage: "url('http://wallpapercave.com/wp/6weLGjt.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center"
+            }}
           >
             <div className="absolute top-2 right-2 flex items-center cursor-pointer group">
               <span className="absolute right-10 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-0 translate-x-2 transition-all duration-200 ease-in-out text-gray-400 text-sm whitespace-nowrap">
@@ -68,6 +77,7 @@ export default function Home() {
                   <h3 className="font-extrabold text-white uppercase tracking-wide drop-shadow-lg">{selectedUnit.name}</h3>
                   <div className="mt-2 text-sm text-gray-400 italic">{selectedUnit.faction}</div>
                 </div>
+                <button className="mt-2 bg-green-200 rounded-lg p-1">100 points</button>
               </div>
 
               <div className="flex-1 p-4 overflow-y-auto max-h-full" style={{ scrollBehavior: 'smooth' }}>
@@ -91,7 +101,7 @@ export default function Home() {
                 {[{ title: 'Melee Weapons', weapons: selectedUnit.meleeWeapons, state: meleeWeaponsOpen, setState: setMeleeWeaponsOpen },
                   { title: 'Ranged Weapons', weapons: selectedUnit.rangedWeapons, state: rangedWeaponsOpen, setState: setRangedWeaponsOpen }].map((section, index) => (
                     section.weapons && (
-                      <div key={index} className="mt-4 bg-gray-900 p-4 rounded-lg shadow-lg">
+                      <div key={index} className="mt-2 bg-gray-900 p-3 rounded-lg shadow-lg">
                         <div className="flex justify-between items-center cursor-pointer" onClick={() => section.setState(!section.state)}>
                           <h3 className="font-semibold text-white">{section.title}</h3>
                           <span className="text-white">{section.state ? '▲' : '▼'}</span>
@@ -105,14 +115,14 @@ export default function Home() {
                             <table className="w-full text-sm text-center text-gray-600 border border-gray-700">
                               <thead className="bg-gray-900 text-gray-100">
                                 <tr>
-                                  {['Type', 'Range', 'A', 'BS', 'S', 'AP', 'D'].map((col) => (
+                                  {['Range', 'A', 'BS', 'S', 'AP', 'D'].map((col) => (
                                     <th key={col} className="px-4 py-2">{col}</th>
                                   ))}
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr className="bg-gray-200">
-                                  {[`${weapon.type}`, section.title === 'Melee Weapons' ? 'Melee' : weapon.range, weapon.attacks, `${weapon.skill}+`, weapon.strength, weapon.AP, weapon.damage].map((val, idx) => (
+                                  {[section.title === 'Melee Weapons' ? 'Melee' : weapon.range, weapon.attacks, `${weapon.skill}+`, weapon.strength, weapon.AP, weapon.damage].map((val, idx) => (
                                     <td key={idx} className="px-4 py-2">{val}</td>
                                   ))}
                                 </tr>
@@ -190,5 +200,6 @@ export default function Home() {
         </div>
       )}
     </div>
+    </>
   );
 }
