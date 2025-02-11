@@ -13,7 +13,7 @@ Follow these steps to get the project running locally on your machine:
 
 1. **Clone the repository**:
 
-   git clone [https://github.com/yourusername/warhammer-40k-datasheet-viewer.git](https://github.com/NadimChatellier/Warhammer-40k-datasheet-viewer/blob/main/README.md)
+   git clone (https://github.com/NadimChatellier/Warhammer-40k-datasheet-viewer)](https://github.com/NadimChatellier/Warhammer-40k-datasheet-viewer)
    
 2.**Install dependencies**
 
