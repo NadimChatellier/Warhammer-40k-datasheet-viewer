@@ -18,6 +18,7 @@ Follow these steps to get the project running locally on your machine:
 2.**Install dependencies**
 
    cd my-next-app
+   
    npm i
    
 3.**Run file**
