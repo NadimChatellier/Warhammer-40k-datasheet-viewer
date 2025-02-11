@@ -12,11 +12,14 @@ It's a bit of a passion project as I mix my passion for problem solving and prog
 Follow these steps to get the project running locally on your machine:
 
 1. **Clone the repository**:
+
    git clone https://github.com/yourusername/warhammer-40k-datasheet-viewer.git
    
 2.**Install dependencies**
+
    cd my-next-app
    npm i
    
 3.**Run file**
+
    npm run dev
