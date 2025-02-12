@@ -1,0 +1,858 @@
+{
+  "models": {
+    "Angron": {
+      "name": "Angron",
+      "stats": {
+        "M": "14\"",
+        "T": "11",
+        "SV": "2+",
+        "W": "16",
+        "LD": "5+",
+        "OC": "6"
+      },
+      "meleeWeapons": [
+        {
+          "name": "➤ Samni’arius and Spinegrinder - strike",
+          "type": "Melee",
+          "attacks": "8",
+          "skill": "2+",
+          "strength": "16",
+          "AP": "-4",
+          "damage": "D6+2",
+          "coreRules": []
+        },
+        {
+          "name": "➤ Samni’arius and Spinegrinder - sweep",
+          "type": "Melee",
+          "attacks": "18",
+          "skill": "2+",
+          "strength": "8",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Khârn the Betrayer": {
+      "name": "Khârn the Betrayer",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Gorechild",
+          "type": "Melee",
+          "attacks": "8",
+          "skill": "2+",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "3",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Khârn's plasma pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "8",
+          "AP": "-3",
+          "damage": "2",
+          "coreRules": [
+            "Pistol"
+          ]
+        }
+      ]
+    },
+    "Lord Invocatus": {
+      "name": "Lord Invocatus",
+      "stats": {
+        "M": "12\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Coward's Bane",
+          "type": "Melee",
+          "attacks": "7",
+          "skill": "2+",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Juggernaught's bladed horn",
+          "type": "Melee",
+          "attacks": "4",
+          "skill": "3+",
+          "strength": "6",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": [
+            "Extra Attacks",
+            "Lance"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Pistol"
+          ]
+        }
+      ]
+    },
+    "World Eaters Daemon Prince": {
+      "name": "World Eaters Daemon Prince",
+      "stats": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [
+        {
+          "name": "➤ Hellforged weapons - strike",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "2+",
+          "strength": "10",
+          "AP": "-2",
+          "damage": "3",
+          "coreRules": []
+        },
+        {
+          "name": "➤ Hellforged weapons - sweep",
+          "type": "Melee",
+          "attacks": "14",
+          "skill": "2+",
+          "strength": "8",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Infernal cannon",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "3",
+          "strength": "5",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": []
+        }
+      ]
+    },
+    "World Eaters Daemon Prince with wings": {
+      "name": "World Eaters Daemon Prince with wings",
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [
+        {
+          "name": "➤ Hellforged weapons - strike",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "2+",
+          "strength": "10",
+          "AP": "-2",
+          "damage": "3",
+          "coreRules": []
+        },
+        {
+          "name": "➤ Hellforged weapons - sweep",
+          "type": "Melee",
+          "attacks": "14",
+          "skill": "2+",
+          "strength": "8",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Infernal cannon",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "3",
+          "strength": "5",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": []
+        }
+      ]
+    },
+    "World Eaters Lord on Juggernaut": {
+      "name": "World Eaters Lord on Juggernaut",
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Juggernaught's bladed horn",
+          "type": "Melee",
+          "attacks": "4",
+          "skill": "3+",
+          "strength": "6",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": [
+            "Extra Attacks",
+            "Lance"
+          ]
+        },
+        {
+          "name": "Exalted chainblade",
+          "type": "Melee",
+          "attacks": "7",
+          "skill": "2+",
+          "strength": "6",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "➤ Plasma pistol - standard",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "7",
+          "AP": "-2",
+          "damage": "1",
+          "coreRules": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "8",
+          "AP": "-3",
+          "damage": "2",
+          "coreRules": [
+            "Hazardous",
+            "Pistol"
+          ]
+        }
+      ]
+    },
+    "World Eaters Master of Executions": {
+      "name": "World Eaters Master of Executions",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Axe of dismemberment",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "2+",
+          "strength": "7",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": [
+            "Devastating Wounds",
+            "Precision"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Pistol"
+          ]
+        }
+      ]
+    },
+    "World Eaters Land Raider": {
+      "name": "World Eaters Land Raider",
+      "stats": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "4+",
+          "strength": "8",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Soulshatter lascannon",
+          "type": "Ranged",
+          "range": "48\"",
+          "attacks": "2",
+          "strength": "12",
+          "AP": "-3",
+          "damage": "D6+1",
+          "coreRules": []
+        }
+      ]
+    },
+    "World Eaters Predator Annihilator": {
+      "name": "World Eaters Predator Annihilator",
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "4"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Predator twin lascannon",
+          "type": "Ranged",
+          "range": "48\"",
+          "attacks": "1",
+          "strength": "14",
+          "AP": "-3",
+          "damage": "D6+1",
+          "coreRules": [
+            "Twin-linked"
+          ]
+        }
+      ]
+    },
+    "World Eaters Predator Destructor": {
+      "name": "World Eaters Predator Destructor",
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "4"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Predator autocannon",
+          "type": "Ranged",
+          "range": "48\"",
+          "attacks": "4",
+          "strength": "9",
+          "AP": "-1",
+          "damage": "3",
+          "coreRules": [
+            "Rapid Fire 2"
+          ]
+        }
+      ]
+    },
+    "World Eaters Defiler": {
+      "name": "World Eaters Defiler",
+      "stats": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Defiler claws",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "3+",
+          "strength": "16",
+          "AP": "-3",
+          "damage": "D6+1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Defiler cannon",
+          "type": "Ranged",
+          "range": "48\"",
+          "attacks": "D6+3",
+          "strength": "10",
+          "AP": "-1",
+          "damage": "3",
+          "coreRules": [
+            "Blast"
+          ]
+        }
+      ]
+    },
+    "World Eaters Forgefiend": {
+      "name": "World Eaters Forgefiend",
+      "stats": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "World Eaters Helbrute": {
+      "name": "World Eaters Helbrute",
+      "stats": {
+        "M": "6\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "3+",
+          "strength": "6",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "World Eaters Heldrake": {
+      "name": "World Eaters Heldrake",
+      "stats": {
+        "M": "20\"+",
+        "T": "9",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Heldrake claws",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "3+",
+          "strength": "7",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": [
+            "Anti-FLY 2+",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "World Eaters Maulerfiend": {
+      "name": "World Eaters Maulerfiend",
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Maulerfiend fists",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "3+",
+          "strength": "14",
+          "AP": "-2",
+          "damage": "D6+1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "World Eaters Rhino": {
+      "name": "World Eaters Rhino",
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Khorne Lord of Skulls": {
+      "name": "Khorne Lord of Skulls",
+      "stats": {
+        "M": "8\"",
+        "T": "13",
+        "SV": "3+",
+        "W": "24",
+        "LD": "6+",
+        "OC": "8"
+      },
+      "meleeWeapons": [
+        {
+          "name": "➤ Great cleaver of Khorne - strike",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "3+",
+          "strength": "16",
+          "AP": "-4",
+          "damage": "8",
+          "coreRules": []
+        },
+        {
+          "name": "➤ Great cleaver of Khorne - sweep",
+          "type": "Melee",
+          "attacks": "15",
+          "skill": "3+",
+          "strength": "8",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Hell Talon [Legends]": {
+      "name": "Hell Talon [Legends]",
+      "stats": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "14",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "4+",
+          "strength": "6",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Hellblade [Legends]": {
+      "name": "Hellblade [Legends]",
+      "stats": {
+        "M": "20+\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "type": "Melee",
+          "attacks": "3",
+          "skill": "4+",
+          "strength": "6",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Jakhal": {
+      "name": "Jakhal",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    }
+  },
+  "upgrades": {
+    "Warlord": {
+      "name": "Warlord",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Berserker chainblade": {
+      "name": "Berserker chainblade",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Bolt pistol": {
+      "name": "Bolt pistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Plasma pistol": {
+      "name": "Plasma pistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Autopistol": {
+      "name": "Autopistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Jakhal chainblades": {
+      "name": "Jakhal chainblades",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Icon of Khorne": {
+      "name": "Icon of Khorne",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Paired accursed weapons": {
+      "name": "Paired accursed weapons",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Chainfist": {
+      "name": "Chainfist",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Power fist": {
+      "name": "Power fist",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Accursed weapon": {
+      "name": "Accursed weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Combi-bolter": {
+      "name": "Combi-bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Combi-weapon": {
+      "name": "Combi-weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Twin heavy bolter": {
+      "name": "Twin heavy bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Havoc launcher": {
+      "name": "Havoc launcher",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Armoured tracks": {
+      "name": "Armoured tracks",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Heavy bolter": {
+      "name": "Heavy bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Lascannon": {
+      "name": "Lascannon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Hades autocannon": {
+      "name": "Hades autocannon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Ectoplasma cannon": {
+      "name": "Ectoplasma cannon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Twin lascannon": {
+      "name": "Twin lascannon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Helbrute fist": {
+      "name": "Helbrute fist",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Heavy flamer": {
+      "name": "Heavy flamer",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Detachment Choice": {
+      "name": "Detachment Choice",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Blessings of Khorne Reference": {
+      "name": "Blessings of Khorne Reference",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    }
+  },
+  "units": {
+    "Khorne Berserkers": {
+      "name": "Khorne Berserkers",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "World Eaters Terminator Squad": {
+      "name": "World Eaters Terminator Squad",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Jakhals": {
+      "name": "Jakhals",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Eightbound": {
+      "name": "Eightbound",
+      "stats": {
+        "M": "9\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Exalted Eightbound": {
+      "name": "Exalted Eightbound",
+      "stats": {
+        "M": "9\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "World Eaters Chaos Spawn": {
+      "name": "World Eaters Chaos Spawn",
+      "stats": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    }
+  }
+}

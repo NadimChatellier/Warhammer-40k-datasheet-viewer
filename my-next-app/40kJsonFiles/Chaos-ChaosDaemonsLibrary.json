@@ -1,0 +1,908 @@
+{
+  "models": {
+    "Skarbrand": {
+      "name": "Skarbrand",
+      "stats": {
+        "M": "8\"",
+        "T": "11",
+        "SV": "4+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Bloodthirster": {
+      "name": "Bloodthirster",
+      "stats": {
+        "M": "12\"",
+        "T": "11",
+        "SV": "4+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Skulltaker": {
+      "name": "Skulltaker",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Bloodmaster": {
+      "name": "Bloodmaster",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Skullmaster": {
+      "name": "Skullmaster",
+      "stats": {
+        "M": "10\"",
+        "T": "7",
+        "SV": "4+",
+        "W": "6",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Rendmaster on Blood Throne": {
+      "name": "Rendmaster on Blood Throne",
+      "stats": {
+        "M": "8\"",
+        "T": "9",
+        "SV": "4+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Karanak": {
+      "name": "Karanak",
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Skull Cannon": {
+      "name": "Skull Cannon",
+      "stats": {
+        "M": "8\"",
+        "T": "9",
+        "SV": "4+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Skull Altar": {
+      "name": "Skull Altar",
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Be'lakor": {
+      "name": "Be'lakor",
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "4+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Khorne Soul Grinder": {
+      "name": "Khorne Soul Grinder",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Tzeentch Soul Grinder": {
+      "name": "Tzeentch Soul Grinder",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Nurgle Soul Grinder": {
+      "name": "Nurgle Soul Grinder",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Slaanesh Soul Grinder": {
+      "name": "Slaanesh Soul Grinder",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Daemon Prince of Chaos": {
+      "name": "Daemon Prince of Chaos",
+      "stats": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Daemon Prince of Chaos with wings": {
+      "name": "Daemon Prince of Chaos with wings",
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Kairos Fateweaver": {
+      "name": "Kairos Fateweaver",
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "6+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Lord of Change": {
+      "name": "Lord of Change",
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "6+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "The Changeling": {
+      "name": "The Changeling",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Fateskimmer": {
+      "name": "Fateskimmer",
+      "stats": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "6+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Fluxmaster": {
+      "name": "Fluxmaster",
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "The Blue Scribes": {
+      "name": "The Blue Scribes",
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "6",
+        "LD": "8+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Changecaster": {
+      "name": "Changecaster",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Exalted Flamer": {
+      "name": "Exalted Flamer",
+      "stats": {
+        "M": "9\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "6",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Burning Chariot": {
+      "name": "Burning Chariot",
+      "stats": {
+        "M": "12\"",
+        "T": "8",
+        "SV": "7+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Rotigus": {
+      "name": "Rotigus",
+      "stats": {
+        "M": "7\"",
+        "T": "12",
+        "SV": "5+",
+        "W": "22",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Great Unclean One": {
+      "name": "Great Unclean One",
+      "stats": {
+        "M": "7\"",
+        "T": "12",
+        "SV": "5+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Poxbringer": {
+      "name": "Poxbringer",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "7+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Spoilpox Scrivener": {
+      "name": "Spoilpox Scrivener",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "7+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Epidemius": {
+      "name": "Epidemius",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "6+",
+        "W": "8",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Sloppity Bilepiper": {
+      "name": "Sloppity Bilepiper",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "7+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Horticulous Slimux": {
+      "name": "Horticulous Slimux",
+      "stats": {
+        "M": "6\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Feculent Gnarlmaw": {
+      "name": "Feculent Gnarlmaw",
+      "stats": {
+        "M": "-",
+        "T": "9",
+        "SV": "4+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Shalaxi Helbane": {
+      "name": "Shalaxi Helbane",
+      "stats": {
+        "M": "14\"",
+        "T": "10",
+        "SV": "5+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Keeper of Secrets": {
+      "name": "Keeper of Secrets",
+      "stats": {
+        "M": "14\"",
+        "T": "10",
+        "SV": "5+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Infernal Enrapturess": {
+      "name": "Infernal Enrapturess",
+      "stats": {
+        "M": "9\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "The Masque of Slaanesh": {
+      "name": "The Masque of Slaanesh",
+      "stats": {
+        "M": "9\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Syll'esske": {
+      "name": "Syll'esske",
+      "stats": {
+        "M": "9\"",
+        "T": "6",
+        "SV": "6+",
+        "W": "9",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Contorted Epitome": {
+      "name": "Contorted Epitome",
+      "stats": {
+        "M": "9\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "8",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Tormentbringer on Exalted Seeker Chariot": {
+      "name": "Tormentbringer on Exalted Seeker Chariot",
+      "stats": {
+        "M": "14\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Tranceweaver": {
+      "name": "Tranceweaver",
+      "stats": {
+        "M": "9\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Exalted Seeker Chariot": {
+      "name": "Exalted Seeker Chariot",
+      "stats": {
+        "M": "14\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Giant Chaos Spawn [Legends]": {
+      "name": "Giant Chaos Spawn [Legends]",
+      "stats": {
+        "M": "10\"",
+        "T": "8",
+        "SV": "4+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Spined Chaos Beast [Legends]": {
+      "name": "Spined Chaos Beast [Legends]",
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "4+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "4"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "An'ggrath the Unbound [Legends]": {
+      "name": "An'ggrath the Unbound [Legends]",
+      "stats": {
+        "M": "12\"",
+        "T": "11",
+        "SV": "4+",
+        "W": "24",
+        "LD": "6+",
+        "OC": "6"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Aetaos'rau'keres [Legends]": {
+      "name": "Aetaos'rau'keres [Legends]",
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "6+",
+        "W": "24",
+        "LD": "6+",
+        "OC": "6"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Scabeiathrax the Bloated [Legends]": {
+      "name": "Scabeiathrax the Bloated [Legends]",
+      "stats": {
+        "M": "7\"",
+        "T": "12",
+        "SV": "5+",
+        "W": "22",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Zarakynel [Legends]": {
+      "name": "Zarakynel [Legends]",
+      "stats": {
+        "M": "14\"",
+        "T": "10",
+        "SV": "5+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Herald of Slaanesh on Steed of Slaanesh [Legends]": {
+      "name": "Herald of Slaanesh on Steed of Slaanesh [Legends]",
+      "stats": {
+        "M": "14\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    }
+  },
+  "upgrades": {
+    "Detachment Choice": "Detachment Choice",
+    "Warlord": "Warlord",
+    "Blade of blood": "Blade of blood",
+    "Juggernaut's bladed horn": "Juggernaut's bladed horn",
+    "Hellblade": "Hellblade",
+    "Daemonic Icon": "Daemonic Icon",
+    "Instrument of Chaos": "Instrument of Chaos",
+    "Collar of Khorne": "Collar of Khorne",
+    "Gore-drenched fangs": "Gore-drenched fangs",
+    "Herald combat weapon": "Herald combat weapon",
+    "Arcane Fireball": "Arcane Fireball",
+    "Fires of Tzeentch": "Fires of Tzeentch",
+    "Harvester cannon": "Harvester cannon",
+    "Iron claw": "Iron claw",
+    "Show Tzeentch Daemons": "Show Tzeentch Daemons",
+    "Show Khorne Daemons": "Show Khorne Daemons",
+    "Show Slaanesh Daemons": "Show Slaanesh Daemons",
+    "Show Nurgle Daemons": "Show Nurgle Daemons"
+  },
+  "units": {
+    "Bloodletters": {
+      "name": "Bloodletters",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Bloodcrushers": {
+      "name": "Bloodcrushers",
+      "stats": {
+        "M": "10\"",
+        "T": "7",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Flesh Hounds": {
+      "name": "Flesh Hounds",
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Blue Horrors": {
+      "name": "Blue Horrors",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Pink Horrors": {
+      "name": "Pink Horrors",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Flamers": {
+      "name": "Flamers",
+      "stats": {
+        "M": "9\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Screamers": {
+      "name": "Screamers",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Plaguebearers": {
+      "name": "Plaguebearers",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "7+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Nurglings": {
+      "name": "Nurglings",
+      "stats": {
+        "M": "5\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "4",
+        "LD": "8+",
+        "OC": "0"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Beasts of Nurgle": {
+      "name": "Beasts of Nurgle",
+      "stats": {
+        "M": "6\"",
+        "T": "9",
+        "SV": "6+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Plague Drones": {
+      "name": "Plague Drones",
+      "stats": {
+        "M": "10\"",
+        "T": "8",
+        "SV": "6+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Daemonettes": {
+      "name": "Daemonettes",
+      "stats": {
+        "M": "9\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Fiends": {
+      "name": "Fiends",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Seekers": {
+      "name": "Seekers",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Hellflayer": {
+      "name": "Hellflayer",
+      "stats": {
+        "M": "14\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Seeker Chariot": {
+      "name": "Seeker Chariot",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Pox Riders [Legends]": {
+      "name": "Pox Riders [Legends]",
+      "stats": {
+        "M": "7\"",
+        "T": "8",
+        "SV": "6+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Plague Toads [Legends]": {
+      "name": "Plague Toads [Legends]",
+      "stats": {
+        "M": "7\"",
+        "T": "8",
+        "SV": "6+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    },
+    "Furies [Legends]": {
+      "name": "Furies [Legends]",
+      "stats": {
+        "M": "12\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "1",
+        "LD": "8+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [],
+      "unitImage": ""
+    }
+  }
+}

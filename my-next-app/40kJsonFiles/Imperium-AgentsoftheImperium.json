@@ -1,0 +1,1353 @@
+{
+  "models": {
+    "Vindicare Assassin": {
+      "name": "Vindicare Assassin",
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Vindicare combat knife",
+          "type": "Melee",
+          "attacks": "4",
+          "skill": "2+",
+          "strength": "4",
+          "AP": "-1",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Exitus rifle",
+          "type": "Ranged",
+          "range": "48\"",
+          "attacks": "1",
+          "strength": "8",
+          "AP": "-3",
+          "damage": "D3+3",
+          "coreRules": [
+            "Devastating Wounds",
+            "Heavy",
+            "Ignores Cover",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Exitus pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "3",
+          "coreRules": [
+            "Devastating Wounds",
+            "Ignores Cover",
+            "Pistol",
+            "Precision"
+          ]
+        }
+      ]
+    },
+    "Culexus Assassin": {
+      "name": "Culexus Assassin",
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Life-draining touch",
+          "type": "Melee",
+          "attacks": "4",
+          "skill": "2+",
+          "strength": "4",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": [
+            "Anti-PSYKER 2+",
+            "Devastating Wounds",
+            "Precision"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Animus speculum",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "3",
+          "strength": "5",
+          "AP": "-2",
+          "damage": "D3",
+          "coreRules": [
+            "Anti-PSYKER 2+",
+            "Assault",
+            "Precision",
+            "Psychic Assassin"
+          ]
+        }
+      ]
+    },
+    "Eversor Assassin": {
+      "name": "Eversor Assassin",
+      "stats": {
+        "M": "9\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Power sword and neuro gauntlet",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "2+",
+          "strength": "5",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": [
+            "Anti-INFANTRY 3+",
+            "Precision",
+            "Sustained Hits 3"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Executioner pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "4",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Anti-INFANTRY 3+",
+            "Pistol",
+            "Precision",
+            "Sustained Hits 3"
+          ]
+        }
+      ]
+    },
+    "Callidus Assassin": {
+      "name": "Callidus Assassin",
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Phase sword and poison blades",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "2+",
+          "strength": "5",
+          "AP": "-4",
+          "damage": "2",
+          "coreRules": [
+            "Lethal Hits",
+            "Precision"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Neural shredder",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "D6",
+          "strength": "5",
+          "AP": "-2",
+          "damage": "1",
+          "coreRules": [
+            "Anti-INFANTRY 2+",
+            "Precision",
+            "Torrent"
+          ]
+        }
+      ]
+    },
+    "Cyber-mastiff": {
+      "name": "Cyber-mastiff",
+      "stats": {},
+      "meleeWeapons": [
+        {
+          "name": "Mechanical bite",
+          "type": "Melee",
+          "attacks": "3",
+          "skill": "4+",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Inquisitor Draxus": {
+      "name": "Inquisitor Draxus",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Power fist",
+          "type": "Melee",
+          "attacks": "3",
+          "skill": "3+",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Dirgesinger",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "4",
+          "strength": "4",
+          "AP": "0",
+          "damage": "2",
+          "coreRules": [
+            "Anti-INFANTRY 4+",
+            "Assault",
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Psychic Tempest",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "6",
+          "strength": "6",
+          "AP": "0",
+          "damage": "2",
+          "coreRules": [
+            "Psychic",
+            "Sustained Hits 2"
+          ]
+        }
+      ]
+    },
+    "Inquisitor Coteaz": {
+      "name": "Inquisitor Coteaz",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Nemesis daemon hammer",
+          "type": "Melee",
+          "attacks": "3",
+          "skill": "3+",
+          "strength": "9",
+          "AP": "-3",
+          "damage": "3",
+          "coreRules": [
+            "Psychic"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Psychic Blast",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "D6",
+          "strength": "3",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": [
+            "Anti-DAEMON 4+",
+            "Anti-INFANTRY 5+",
+            "Devastating Wounds",
+            "Psychic"
+          ]
+        }
+      ]
+    },
+    "Inquisitor Greyfax": {
+      "name": "Inquisitor Greyfax",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Master-crafted power sword",
+          "type": "Melee",
+          "attacks": "4",
+          "skill": "3+",
+          "strength": "4",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Castigation",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "1",
+          "strength": "8",
+          "AP": "-2",
+          "damage": "3",
+          "coreRules": [
+            "Anti-CHARACTER 4+",
+            "Devastating Wounds",
+            "Precision",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Condemnor stake",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "1",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Anti-PSYKER 2+",
+            "Devastating Wounds",
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        }
+      ]
+    },
+    "Inquisitor Karamazov [Legends]": {
+      "name": "Inquisitor Karamazov [Legends]",
+      "stats": {
+        "M": "5\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "9",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Master-crafted power sword",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "3+",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Master-crafted multi-melta",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "3",
+          "strength": "10",
+          "AP": "-4",
+          "damage": "D6",
+          "coreRules": [
+            "Melta 2"
+          ]
+        }
+      ]
+    },
+    "Inquisitor": {
+      "name": "Inquisitor",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Inquisitor Eisenhorn [Legends]": {
+      "name": "Inquisitor Eisenhorn [Legends]",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Runestaff and Barbarisater",
+          "type": "Melee",
+          "attacks": "5",
+          "skill": "3+",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": [
+            "Psychic"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Artificer bolt pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "4",
+          "strength": "4",
+          "AP": "0",
+          "damage": "2",
+          "coreRules": []
+        },
+        {
+          "name": "Mind Assault",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "strength": "5",
+          "AP": "-2",
+          "damage": "3",
+          "coreRules": [
+            "Devastating Wounds",
+            "Precision",
+            "Psychic",
+            "Sustained Hits 1"
+          ]
+        }
+      ]
+    },
+    "UR-025 [Legends]": {
+      "name": "UR-025 [Legends]",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Power claw",
+          "type": "Melee",
+          "attacks": "2",
+          "skill": "4+",
+          "strength": "8",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Mk 1 assault weapon",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "4",
+          "strength": "5",
+          "AP": "-1",
+          "damage": "1",
+          "coreRules": [
+            "Assault"
+          ]
+        }
+      ]
+    },
+    "Espern Locarno [Legends]": {
+      "name": "Espern Locarno [Legends]",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Force-orb cane",
+          "type": "Melee",
+          "attacks": "1",
+          "skill": "4+",
+          "strength": "6",
+          "AP": "-1",
+          "damage": "D3",
+          "coreRules": [
+            "Psychic"
+          ]
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Neyam Shai Murad [Legends]": {
+      "name": "Neyam Shai Murad [Legends]",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "type": "Melee",
+          "attacks": "3",
+          "skill": "3+",
+          "strength": "3",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Negotiator pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "2",
+          "strength": "4",
+          "AP": "-2",
+          "damage": "1",
+          "coreRules": [
+            "Precision"
+          ]
+        }
+      ]
+    },
+    "Janus Draik [Legends]": {
+      "name": "Janus Draik [Legends]",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Monomolecular rapier",
+          "type": "Melee",
+          "attacks": "4",
+          "skill": "3+",
+          "strength": "3",
+          "AP": "-2",
+          "damage": "1",
+          "coreRules": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Heirloom pistol",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "strength": "4",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": [
+            "Anti-INFANTRY 4+",
+            "Pistol"
+          ]
+        }
+      ]
+    },
+    "Inquisitor in Terminator Armour [Legends]": {
+      "name": "Inquisitor in Terminator Armour [Legends]",
+      "stats": {
+        "M": "5\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Psychic shockwave",
+          "type": "Ranged",
+          "range": "18\"",
+          "attacks": "2D6",
+          "strength": "3",
+          "AP": "-1",
+          "damage": "1",
+          "coreRules": [
+            "Devastating Wounds",
+            "Psychic",
+            "Torrent"
+          ]
+        }
+      ]
+    },
+    "Navigator": {
+      "name": "Navigator",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Force-orb cane",
+          "type": "Melee",
+          "attacks": "1",
+          "skill": "4+",
+          "strength": "6",
+          "AP": "-1",
+          "damage": "D3",
+          "coreRules": [
+            "Psychic"
+          ]
+        }
+      ],
+      "rangedWeapons": []
+    },
+    "Ministorum Priest": {
+      "name": "Ministorum Priest",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Inquisitorial Chimera": {
+      "name": "Inquisitorial Chimera",
+      "stats": {
+        "M": "10\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "11",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Lasgun array",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "6",
+          "strength": "3",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Rapid Fire 6"
+          ]
+        }
+      ]
+    },
+    "Imperial Rhino": {
+      "name": "Imperial Rhino",
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Storm bolter",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "2",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Rapid Fire 2"
+          ]
+        }
+      ]
+    },
+    "Sisters of Battle Immolator": {
+      "name": "Sisters of Battle Immolator",
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Jokaero Weaponsmith [Legends]": {
+      "name": "Jokaero Weaponsmith [Legends]",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "type": "Melee",
+          "attacks": "2",
+          "skill": "5+",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Jokaero weapons - focused",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "1",
+          "strength": "10",
+          "AP": "-1",
+          "damage": "3",
+          "coreRules": []
+        },
+        {
+          "name": "Jokaero weapons - scattered",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "D6",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Torrent"
+          ]
+        }
+      ]
+    },
+    "Corvus Blackstar": {
+      "name": "Corvus Blackstar",
+      "stats": {
+        "M": "20+\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "type": "Melee",
+          "attacks": "3",
+          "skill": "4+",
+          "strength": "6",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Hurricane bolter",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "6",
+          "strength": "4",
+          "AP": "0",
+          "damage": "1",
+          "coreRules": [
+            "Rapid Fire 6",
+            "Twin-Linked"
+          ]
+        }
+      ]
+    },
+    "Watch Captain Artemis": {
+      "name": "Watch Captain Artemis",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Master-crafted power weapon",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "2+",
+          "strength": "5",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": []
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Hellfire Extremis",
+          "type": "Ranged",
+          "range": "12\"",
+          "attacks": "D6",
+          "strength": "4",
+          "AP": "-1",
+          "damage": "1",
+          "coreRules": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ]
+    },
+    "Watch Master": {
+      "name": "Watch Master",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Vigil spear",
+          "type": "Melee",
+          "attacks": "6",
+          "skill": "2+",
+          "strength": "6",
+          "AP": "-2",
+          "damage": "D3",
+          "coreRules": [
+            "Lance"
+          ]
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Vigil spear",
+          "type": "Ranged",
+          "range": "24\"",
+          "attacks": "2",
+          "strength": "4",
+          "AP": "-1",
+          "damage": "2",
+          "coreRules": []
+        }
+      ]
+    }
+  },
+  "upgrades": {
+    "Warlord": {
+      "name": "Warlord",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Close combat weapon": {
+      "name": "Close combat weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Laspistol": {
+      "name": "Laspistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Arbites shotpistol": {
+      "name": "Arbites shotpistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Shock maul": {
+      "name": "Shock maul",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Nuncio-aquila": {
+      "name": "Nuncio-aquila",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Arbites combat shotgun": {
+      "name": "Arbites combat shotgun",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Acolyte melee weapon": {
+      "name": "Acolyte melee weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Acolyte firearm": {
+      "name": "Acolyte firearm",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Show Agents of the Imperium": {
+      "name": "Show Agents of the Imperium",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Boltgun": {
+      "name": "Boltgun",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Detachment Choice": {
+      "name": "Detachment Choice",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Agent firearm": {
+      "name": "Agent firearm",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Agent melee weapon": {
+      "name": "Agent melee weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Storm bolter": {
+      "name": "Storm bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Nemesis force weapon": {
+      "name": "Nemesis force weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Ancient's Banner": {
+      "name": "Ancient's Banner",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Heavy bolter": {
+      "name": "Heavy bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Heavy flamer": {
+      "name": "Heavy flamer",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Armoured tracks": {
+      "name": "Armoured tracks",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Bolt pistol": {
+      "name": "Bolt pistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Ministorum flamer": {
+      "name": "Ministorum flamer",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Artificer-crafted storm bolter": {
+      "name": "Artificer-crafted storm bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Meltagun": {
+      "name": "Meltagun",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Hunter-killer missile": {
+      "name": "Hunter-killer missile",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Combi-weapon": {
+      "name": "Combi-weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Astartes shield": {
+      "name": "Astartes shield",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Xenophase blade": {
+      "name": "Xenophase blade",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Power weapon": {
+      "name": "Power weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Long Vigil melee weapon": {
+      "name": "Long Vigil melee weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Long Vigil ranged weapon": {
+      "name": "Long Vigil ranged weapon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Infernus heavy bolter": {
+      "name": "Infernus heavy bolter",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Plasma incinerator": {
+      "name": "Plasma incinerator",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Plasma pistol": {
+      "name": "Plasma pistol",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Astartes chainsword": {
+      "name": "Astartes chainsword",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Twin boltgun": {
+      "name": "Twin boltgun",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Assault cannon": {
+      "name": "Assault cannon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Cyclone missile launcher": {
+      "name": "Cyclone missile launcher",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Chainfist": {
+      "name": "Chainfist",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Power fist": {
+      "name": "Power fist",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Plasma cannon": {
+      "name": "Plasma cannon",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    }
+  },
+  "units": {
+    "Rogue Trader Entourage": {
+      "name": "Rogue Trader Entourage",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Voidsmen-at-Arms": {
+      "name": "Voidsmen-at-Arms",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Imperial Navy Breachers": {
+      "name": "Imperial Navy Breachers",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "8+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Demolition charge",
+          "type": "Ranged",
+          "range": "6\"",
+          "attacks": "D6",
+          "strength": "9",
+          "AP": "-2",
+          "damage": "2",
+          "coreRules": [
+            "Assault",
+            "Blast",
+            "Hazardous",
+            "One Shot"
+          ]
+        }
+      ]
+    },
+    "Subductor Squad": {
+      "name": "Subductor Squad",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Exaction Squad": {
+      "name": "Exaction Squad",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Vigilant Squad": {
+      "name": "Vigilant Squad",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Damned Legionnaires [Legends]": {
+      "name": "Damned Legionnaires [Legends]",
+      "stats": {
+        "M": "5\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Inquisitorial Agents": {
+      "name": "Inquisitorial Agents",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Grey Knights Terminator Squad": {
+      "name": "Grey Knights Terminator Squad",
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Sisters of Battle Squad": {
+      "name": "Sisters of Battle Squad",
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Daemonhost [Legends]": {
+      "name": "Daemonhost [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Deathwatch Kill Team": {
+      "name": "Deathwatch Kill Team",
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Deathwatch Terminator Squad [Legends]": {
+      "name": "Deathwatch Terminator Squad [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Fortis Kill Team [Legends]": {
+      "name": "Fortis Kill Team [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Indomitor Kill Team [Legends]": {
+      "name": "Indomitor Kill Team [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Kill Team Cassius [Legends]": {
+      "name": "Kill Team Cassius [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Proteus Kill Team [Legends]": {
+      "name": "Proteus Kill Team [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Spectrus Kill Team [Legends]": {
+      "name": "Spectrus Kill Team [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    },
+    "Veteran Bike Squad [Legends]": {
+      "name": "Veteran Bike Squad [Legends]",
+      "stats": {},
+      "meleeWeapons": [],
+      "rangedWeapons": []
+    }
+  }
+}
