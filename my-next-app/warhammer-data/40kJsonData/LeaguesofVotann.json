@@ -1,0 +1,1306 @@
+{
+  "id": "LoV",
+  "name": "Leagues of Votann",
+  "units": [
+    {
+      "id": "000002593",
+      "name": "Ûthar the Destined",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "This model is equipped with: volkanite disintegrator; Blade of the Ancestors; rampart crest.",
+      "profiles": [
+        {
+          "name": "Ûthar The Destined",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Volkanite disintegrator",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Blade of the Ancestors",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002594",
+      "name": "Kâhl",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Autoch-pattern combi-bolter; forgewrought plasma axe; rampart crest.",
+      "profiles": [
+        {
+          "name": "Kâhl",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autoch-pattern combi-bolter",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Volkanite disintegrator",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Forgewrought plasma axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Mass gauntlet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002595",
+      "name": "Einhyr Champion",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Autoch-pattern combi-bolter; mass hammer; weavefield crest.",
+      "profiles": [
+        {
+          "name": "Einhyr Champion",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autoch-pattern combi-bolter",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Darkstar axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Mass hammer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002596",
+      "name": "Grimnyr",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "* If this unit’s Grimnyr model is ever destroyed, all of this unit’s remaining CORV models are also destroyed.The Grimnyr is equipped with: Ancestral Wrath; ancestral ward stave. Every CORV is equipped with: Autoch-pattern bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "GRIMNYR",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "CORV",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autoch-pattern bolter",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Ancestral Wrath – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Ancestral Wrath – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Ancestral ward stave",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000002597",
+      "name": "Brôkhyr Iron-master",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "* If this unit’s Iron-master is ever destroyed, this unit’s Ironkyn Assistant and all remaining E-COGs are also destroyed.The Iron-master is equipped with: graviton rifle; graviton hammer. The Ironkin Assistant is equipped with: las-beam cutter; close combat weapon. One E-COG is equipped with: Autoch-pattern bolt pistol; close combat weapon. One other E-COG is equipped with: plasma torch. One other E-COG is equipped with: manipulator arms.",
+      "profiles": [
+        {
+          "name": "BRÔKHYR IRON-MASTER",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "IRONKIN ASSISTANT",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "E-COG",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autoch-pattern bolt pistol",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Graviton rifle",
+          "special_rules": [
+            "anti-vehicle 2+"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Las-beam cutter",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Manipulator arms",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma torch",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Graviton hammer",
+          "special_rules": [
+            "anti-vehicle 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002598",
+      "name": "Hearthkyn Warriors",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Autoch-pattern bolt pistol; Autoch-pattern bolter; close combat weapon. The Theyn is additionally equipped with: weavefield crest.",
+      "profiles": [
+        {
+          "name": "Hearthkyn Warriors",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autoch-pattern bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Autoch-pattern bolter",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "EtaCarn plasma beamer",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "EtaCarn plasma pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "HYLas auto rifle",
+          "special_rules": [
+            "assault",
+            "rapid fire 3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "HYLas rotary cannon",
+          "special_rules": [
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Ion blaster",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Ion pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "L7 missile launcher – focused",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "L7 missile launcher – blast",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Magna-rail rifle",
+          "special_rules": [
+            "devastating wounds",
+            "heavy"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D3+3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Kin melee weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002599",
+      "name": "Einhyr Hearthguard",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: EtaCarn plasma gun; exo-armour grenade launcher; concussion gauntlet.The Hesyr is additionally equipped with: weavefield crest.",
+      "profiles": [
+        {
+          "name": "Einhyr Hearthguard",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "EtaCarn plasma gun",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Exo-armour grenade launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Volkanite disintegrator",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Concussion gauntlet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Concussion hammer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma blade gauntlet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002600",
+      "name": "Cthonian Beserks",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: heavy plasma axe.",
+      "profiles": [
+        {
+          "name": "Cthonian Beserks",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": "50mm with mole grenade launcher"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mole grenade launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Concussion maul",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy plasma axe – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy plasma axe – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Twin concussion gauntlet",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002601",
+      "name": "Hernkyn Pioneers",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: bolt revolver; bolt shotgun; magna-coil autocannon; plasma knife.",
+      "profiles": [
+        {
+          "name": "Hernkyn Pioneers",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt revolver",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Bolt shotgun",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "HYLas rotary cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Ion beamer",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Magna-coil autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma knife",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002602",
+      "name": "Sagitaur",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "This model is equipped with: HYLas beam cannon; twin bolt cannon; armoured wheels.",
+      "profiles": [
+        {
+          "name": "Sagitaur",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "HYLas beam cannon",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "L7 missile launcher – blast",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "L7 missile launcher – focused",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "MATR autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Sagitaur missile launcher",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin bolt cannon",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002603",
+      "name": "Brôkhyr Thunderkyn",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: bolt cannon; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Brôkhyr Thunderkyn",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Graviton blast cannon",
+          "special_rules": [
+            "anti-vehicle 2+",
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "SP conversion beamer",
+          "special_rules": [
+            "conversion",
+            "sustained hits d3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002604",
+      "name": "Hekaton Land Fortress",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "This model is equipped with: cyclic ion cannon; MATR autocannon; 2 twin bolt cannons; armoured wheels; pan spectral scanner.",
+      "profiles": [
+        {
+          "name": "Hekaton Land Fortress",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cyclic ion cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Heavy magna-rail cannon",
+          "special_rules": [
+            "devastating wounds",
+            "heavy"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6"
+        },
+        {
+          "name": "Hekaton warhead",
+          "special_rules": [
+            "blast",
+            "indirect fire",
+            "one shot"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "SP heavy conversion beamer",
+          "special_rules": [
+            "conversion",
+            "sustained hits d3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "4"
+        },
+        {
+          "name": "MATR autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin bolt cannon ",
+          "special_rules": [
+            "SUSTAINED HITS 1",
+            "TWIN-LINKED"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin ion beamer",
+          "special_rules": [
+            "sustained hits d3",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Armoured wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003710",
+      "name": "Hernkyn Yaegirs",
+      "faction_id": "LoV",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: bolt shotgun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "APM launcher",
+          "special_rules": [
+            "anti-monster 3+",
+            "anti-vehicle 3+"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Bolt revolver",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Bolt shotgun",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Magna-coil rifle",
+          "special_rules": [
+            "ignores cover",
+            "precision"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma knife",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

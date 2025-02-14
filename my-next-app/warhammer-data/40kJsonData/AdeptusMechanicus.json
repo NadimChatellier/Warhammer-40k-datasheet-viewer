@@ -1,0 +1,2694 @@
+{
+  "id": "AdM",
+  "name": "Adeptus Mechanicus",
+  "units": [
+    {
+      "id": "000000838",
+      "name": "Belisarius Cawl",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: solar atomiser; arc scourge; Cawl’s Omnissian axe; mechadendrite hive.",
+      "profiles": [
+        {
+          "name": "Belisarius Cawl",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Solar atomiser",
+          "special_rules": [
+            "blast",
+            "melta d3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "3"
+        },
+        {
+          "name": "Cawl’s Omnissian axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Arc scourge",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Mechadendrite hive",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000839",
+      "name": "Tech-priest Dominus",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: macrostubber; volkite blaster; Omnissian axe.",
+      "profiles": [
+        {
+          "name": "Tech-priest Dominus",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eradication ray – dissipated",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Eradication ray – focused",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Macrostubber",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Phosphor serpenta",
+          "special_rules": [
+            "ignores cover",
+            "pistol"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Volkite blaster",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Omnissian axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000840",
+      "name": "Tech-priest Enginseer",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mechanicus pistol; Omnissian axe; servo-arm.",
+      "profiles": [
+        {
+          "name": "Tech-priest Enginseer",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Omnissian axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Servo-arm",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000841",
+      "name": "Kataphron Breachers",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: heavy arc rifle; arc claw.",
+      "profiles": [
+        {
+          "name": "Kataphron Breachers",
+          "movement": "5\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy arc rifle",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "rapid fire 2"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Torsion cannon",
+          "special_rules": [
+            "anti-infantry 2+",
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Hydraulic claw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Arc claw",
+          "special_rules": [
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000842",
+      "name": "Kataphron Destroyers",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: heavy grav-cannon; phosphor blaster; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Kataphron Destroyers",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cognis flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy grav-cannon",
+          "special_rules": [
+            "anti-vehicle 2+"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Kataphron plasma culverin – standard",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Kataphron plasma culverin – supercharge",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Phosphor blaster",
+          "special_rules": [
+            "ignores cover",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000843",
+      "name": "Fulgurite Electro-priests",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: electroleech stave.",
+      "profiles": [
+        {
+          "name": "Fulgurite Electro-priests",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Electroleech stave",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000844",
+      "name": "Corpuscarii Electro-priests",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: electrostatic gauntlets.",
+      "profiles": [
+        {
+          "name": "Corpuscarii Electro-priests",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Electrostatic gauntlets",
+          "special_rules": [
+            "pistol",
+            "sustained hits 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Electrostatic gauntlets",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000845",
+      "name": "Kastelan Robots",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: incendine combustor; twin Kastelan fist.",
+      "profiles": [
+        {
+          "name": "Kastelan Robots",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy phosphor blaster",
+          "special_rules": [
+            "ignores cover"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Incendine combustor",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Kastelan phosphor blaster",
+          "special_rules": [
+            "ignores cover"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin Kastelan phosphor blaster",
+          "special_rules": [
+            "ignores cover",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Kastelan fist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Twin Kastelan fist",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000846",
+      "name": "Cybernetica Datasmith",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mechanicus pistol; power fist.",
+      "profiles": [
+        {
+          "name": "Cybernetica Datasmith",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Power fist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000847",
+      "name": "Servitors",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Servitor’s servo-arm.",
+      "profiles": [
+        {
+          "name": "Servitors",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "6",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "heavy",
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "6",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Plasma cannon – standard",
+          "special_rules": [
+            "heavy",
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "6",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma cannon – supercharge",
+          "special_rules": [
+            "heavy",
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "6",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Servitor’s servo-arm",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Servitor’s tools",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000848",
+      "name": "Skitarii Rangers",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: galvanic rifle; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Skitarii Rangers",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": "60 x 35mm if equipped with transuranic arquebus"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Arc rifle",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Galvanic rifle",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma caliver – standard",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma caliver – supercharge",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Transuranic arquebus",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Alpha combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000849",
+      "name": "Skitarii Vanguard",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: radium carbine; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Skitarii Vanguard",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": "60 x 35mm if equipped with transuranic arquebus"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Arc rifle",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Plasma caliver – standard",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma caliver – supercharge",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Radium carbine",
+          "special_rules": [
+            "anti-infantry 4+"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Transuranic arquebus",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Alpha combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000850",
+      "name": "Sicarian Infiltrators",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: stubcarbine; power weapon.",
+      "profiles": [
+        {
+          "name": "Sicarian Infiltrators",
+          "movement": "8\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Flechette blaster",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Stubcarbine",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Power weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Taser goad",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000851",
+      "name": "Sicarian Ruststalkers",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: transonic razor and chordclaw.",
+      "profiles": [
+        {
+          "name": "Sicarian Ruststalkers",
+          "movement": "8\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Transonic blades",
+          "special_rules": [
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Transonic blades and chordclaw",
+          "special_rules": [
+            "anti-infantry 3+",
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Transonic razor and chordclaw",
+          "special_rules": [
+            "anti-infantry 3+",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000852",
+      "name": "Ironstrider Ballistarii",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin cognis autocannon; Ironstrider feet.",
+      "profiles": [
+        {
+          "name": "Ironstrider Ballistarii",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin cognis autocannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin cognis lascannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Ironstrider feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000853",
+      "name": "Sydonian Dragoons With Taser Lances",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: phosphor serpenta; taser lance.",
+      "profiles": [
+        {
+          "name": "Sydonian Dragoons",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Phosphor serpenta",
+          "special_rules": [
+            "ignores cover",
+            "pistol"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Taser lance",
+          "special_rules": [
+            "anti-walker 2+",
+            "lance",
+            "sustained hits 2"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000854",
+      "name": "Onager Dunecrawler",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: eradication beamer; Dunecrawler legs.",
+      "profiles": [
+        {
+          "name": "Onager Dunecrawler",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "130mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cognis heavy stubber",
+          "special_rules": [
+            "rapid fire 3",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Daedalus missile launcher",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        {
+          "name": "Eradication beamer – dissipated",
+          "special_rules": [
+            "blast",
+            "sustained hits d3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Eradication beamer – focused",
+          "special_rules": [
+            "blast",
+            "sustained hits d3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Neutron laser",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+2"
+        },
+        {
+          "name": "Icarus array",
+          "special_rules": [
+            "anti-fly 4+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin Onager heavy phosphor blaster",
+          "special_rules": [
+            "ignores cover",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Dunecrawler legs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001525",
+      "name": "Secutarii Hoplites",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: arc lance.",
+      "profiles": [
+        {
+          "name": "Secutarii Hoplites",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arc lance",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Archeotech pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Alpha close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Arc lance",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001526",
+      "name": "Secutarii Peltasts",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: galvanic caster; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Secutarii Peltasts",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Archeotech pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Galvanic caster – flechette",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Galvanic caster – hammershot",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Alpha close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001533",
+      "name": "Terrax-pattern Termite",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Terrax melta cutter; 2 combi-bolters; Termite drill.",
+      "profiles": [
+        {
+          "name": "Terrax-pattern Termite",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Terrax melta cutter",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin volkite charger",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Termite drill",
+          "special_rules": [
+            "anti-vehicle 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-2",
+          "D": "D3+3"
+        }
+      ]
+    },
+    {
+      "id": "000001580",
+      "name": "Tech-priest Manipulus",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: magnarail lance; Omnissian staff.",
+      "profiles": [
+        {
+          "name": "Tech-priest Manipulus",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Magnarail lance",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Transonic cannon",
+          "special_rules": [
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Omnissian staff",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001650",
+      "name": "Skorpius Dunerider",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: cognis heavy stubber array; armoured hull.",
+      "profiles": [
+        {
+          "name": "Skorpius Dunerider",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cognis heavy stubber array",
+          "special_rules": [
+            "rapid fire 9",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001651",
+      "name": "Skorpius Disintegrator",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: belleros energy cannon; 3 cognis heavy stubbers; disruptor missile launcher; armoured hull.",
+      "profiles": [
+        {
+          "name": "Skorpius Disintegrator",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Belleros energy cannon",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Cognis heavy stubber",
+          "special_rules": [
+            "rapid fire 3",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Disruptor missile launcher",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Ferrumite cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001822",
+      "name": "X-101",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: grav-gun; hydraulic claw.",
+      "profiles": [
+        {
+          "name": "X-101",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grav-gun",
+          "special_rules": [
+            "anti-vehicle 4+"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Hydraulic claw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002081",
+      "name": "Serberys Sulphurhounds",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "The Serberys Sulphurhound Alpha model is equipped with: Mechanicus pistol; sulphur breath; cavalry arc maul; clawed limbs.Every Serberys Sulphurhound model is equipped with: 2 phosphor pistols; sulphur breath; clawed limbs.",
+      "profiles": [
+        {
+          "name": "Serberys Sulphurhounds",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "pistol",
+            "DEVASTATING WOUNDS"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Phosphor blast carbine",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Phosphor pistol",
+          "special_rules": [
+            "ignores cover",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Sulphur breath",
+          "special_rules": [
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Clawed limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Cavalry arc maul",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002082",
+      "name": "Serberys Raiders",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "The Serberys Raider Alpha model is equipped with: Mechanicus pistol; galvanic carbine; cavalry sabre and clawed limbs. Every Serberys Raider model is equipped with: galvanic carbine; cavalry sabre and clawed limbs.",
+      "profiles": [
+        {
+          "name": "Serberys Raiders",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Galvanic carbine",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Cavalry sabre and clawed limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002083",
+      "name": "Pteraxii Sterylizors",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "The Pteraxii Sterylizor Alpha model is equipped with: flechette blaster; Pteraxii talons; taser goad. Every Pteraxii Sterylizor model is equipped with: phosphor torch; Pteraxii talons.",
+      "profiles": [
+        {
+          "name": "Pteraxii Sterylizors",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Flechette blaster",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Phosphor torch",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Pteraxii talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Taser goad",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002084",
+      "name": "Pteraxii Skystalkers",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "The Pteraxii Skystalker Alpha model is equipped with: flechette blaster; taser goad. Every Pteraxii Skystalker model is equipped with: flechette carbine; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Pteraxii Skystalkers",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Flechette blaster",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Flechette carbine",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Taser goad",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002085",
+      "name": "Archaeopter Transvector",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: cognis heavy stubber array; armoured hull; command uplink.",
+      "profiles": [
+        {
+          "name": "Archaeopter Transvector",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cognis heavy stubber array",
+          "special_rules": [
+            "rapid fire 9",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002086",
+      "name": "Archaeopter Stratoraptor",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 cognis heavy stubbers; 2 heavy phosphor blasters; twin cognis lascannon; armoured hull; command uplink.",
+      "profiles": [
+        {
+          "name": "Archaeopter Stratoraptor",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cognis heavy stubber",
+          "special_rules": [
+            "rapid fire 3",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy phosphor blaster",
+          "special_rules": [
+            "ignores cover"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin cognis lascannon",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002087",
+      "name": "Archaeopter Fusilave",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: cognis heavy stubber array; armoured hull; command uplink.",
+      "profiles": [
+        {
+          "name": "Archaeopter Fusilave",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cognis heavy stubber array",
+          "special_rules": [
+            "rapid fire 9",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002477",
+      "name": "Technoarcheologist",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mechanicus pistol; servo-arc claw.",
+      "profiles": [
+        {
+          "name": "Technoarcheologist",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Servo-arc claw",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002478",
+      "name": "Skitarii Marshal",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mechanicus pistol; control stave.",
+      "profiles": [
+        {
+          "name": "Skitarii Marshal",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Control stave",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003694",
+      "name": "Sydonian Dragoons With Radium Jezzails",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: phosphor serpenta; radium jezzail; Ironstrider feet.",
+      "profiles": [
+        {
+          "name": "Sydonian Dragoons",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Phosphor serpenta",
+          "special_rules": [
+            "ignores cover",
+            "PISTOL"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Radium jezzail",
+          "special_rules": [
+            "ANTI-INFANTRY 3+",
+            "HEAVY",
+            "PRECISION"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Ironstrider feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003695",
+      "name": "Sydonian Skatros",
+      "faction_id": "AdM",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mechanicus pistol; radium jezzail; Sydonian feet.",
+      "profiles": [
+        {
+          "name": "Sydonian Skatros",
+          "movement": "8\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mechanicus pistol",
+          "special_rules": [
+            "DEVASTATING WOUNDS",
+            "PISTOL"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Radium jezzail",
+          "special_rules": [
+            "ANTI-INFANTRY 3+",
+            "HEAVY",
+            "PRECISION"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skatros transuranic arquebus",
+          "special_rules": [
+            "ANTI-MONSTER 4+",
+            "ANTI-VEHICLE 4+",
+            "HEAVY",
+            "PRECISION"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Sydonian feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

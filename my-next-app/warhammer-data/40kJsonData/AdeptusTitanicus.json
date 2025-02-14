@@ -1,0 +1,563 @@
+{
+  "id": "TL",
+  "name": "Adeptus Titanicus",
+  "units": [
+    {
+      "id": "000000867",
+      "name": "Warhound Titan",
+      "faction_id": "TL",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Warhound plasma blastgun; Warhound vulcan mega-bolter; Warhound feet.",
+      "profiles": [
+        {
+          "name": "Warhound Titan",
+          "movement": "14\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "40",
+          "leadership": "6+",
+          "objective_control": "16",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Warhound inferno gun",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Warhound plasma blastgun – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "2D6+3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Warhound plasma blastgun – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "2D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "5"
+        },
+        {
+          "name": "Warhound turbo-laser destructor",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "2D6"
+        },
+        {
+          "name": "Warhound vulcan mega-bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Warhound feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000868",
+      "name": "Reaver Titan",
+      "faction_id": "TL",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Reaver apocalypse launcher; Reaver gatling blaster; Reaver laser blaster; Reaver feet.",
+      "profiles": [
+        {
+          "name": "Reaver Titan",
+          "movement": "12\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "60",
+          "leadership": "6+",
+          "objective_control": "20",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Reaver apocalypse launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "200",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Reaver gatling blaster",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Reaver laser blaster",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Reaver melta cannon",
+          "special_rules": [
+            "blast",
+            "melta 4"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+2",
+          "BS_WS": "3",
+          "S": "13",
+          "AP": "-4",
+          "D": "6"
+        },
+        {
+          "name": "Reaver volcano cannon",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "120",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "3",
+          "S": "24",
+          "AP": "-5",
+          "D": "14"
+        },
+        {
+          "name": "Reaver feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaver power fist – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaver power fist – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000869",
+      "name": "Warlord Titan",
+      "faction_id": "TL",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 apocalypse launchers; 2 ardex-defensor lascannons; 2 ardex-defensor maulers; macro gatling blaster; arioch power claw; Warlord feet.",
+      "profiles": [
+        {
+          "name": "Warlord Titan",
+          "movement": "10\"",
+          "toughness": "16",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "100",
+          "leadership": "6+",
+          "objective_control": "30",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Apocalypse launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "200",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Ardex-defensor lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Ardex-defensor mauler",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Arioch power claw",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Belicosa volcano cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "120",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "3",
+          "S": "32",
+          "AP": "-5",
+          "D": "18"
+        },
+        {
+          "name": "Laser blaster",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+3"
+        },
+        {
+          "name": "Macro gatling blaster",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "100",
+          "type": "Ranged",
+          "A": "30",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Mori quake cannon",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "280",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "6"
+        },
+        {
+          "name": "Sunfury plasma annihilator – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "2D6+6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "5"
+        },
+        {
+          "name": "Sunfury plasma annihilator – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "2D6+6",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "8"
+        },
+        {
+          "name": "Arioch power claw – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Arioch power claw – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Warlord feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002077",
+      "name": "Warbringer Nemesis Titan",
+      "faction_id": "TL",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 anvillus defence batteries; 3 ardex-defensor maulers; Nemesis quake cannon; Reaver gatling blaster; Reaver laser blaster; Nemesis feet.",
+      "profiles": [
+        {
+          "name": "Warbringer Nemesis Titan",
+          "movement": "12\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "80",
+          "leadership": "6+",
+          "objective_control": "20",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Anvillus defence battery",
+          "special_rules": [
+            "anti-fly 4+"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ardex-defensor mauler",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Nemesis quake cannon",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "480",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "4"
+        },
+        {
+          "name": "Nemesis volcano cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "120",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "3",
+          "S": "24",
+          "AP": "-5",
+          "D": "14"
+        },
+        {
+          "name": "Reaver gatling blaster",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Reaver laser blaster",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Reaver melta cannon",
+          "special_rules": [
+            "blast",
+            "melta 4"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+2",
+          "BS_WS": "3",
+          "S": "13",
+          "AP": "-4",
+          "D": "6"
+        },
+        {
+          "name": "Reaver volcano cannon",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "120",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "3",
+          "S": "24",
+          "AP": "-5",
+          "D": "14"
+        },
+        {
+          "name": "Nemesis feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

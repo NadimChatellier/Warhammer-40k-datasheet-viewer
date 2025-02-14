@@ -1,0 +1,3514 @@
+{
+  "id": "NEC",
+  "name": "Necrons",
+  "units": [
+    {
+      "id": "000000522",
+      "name": "Imotekh The Stormlord",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Gauntlet of Fire; Staff of the Destroyer.",
+      "profiles": [
+        {
+          "name": "Imotekh The Stormlord",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauntlet of Fire",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Staff of the Destroyer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Staff of the Destroyer",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000523",
+      "name": "Overlord",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: tachyon arrow; Overlord’s blade.",
+      "profiles": [
+        {
+          "name": "Overlord",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tachyon arrow",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Overlord’s blade",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Voidscythe",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000524",
+      "name": "Lord",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: staff of light.",
+      "profiles": [
+        {
+          "name": "Lord",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Lord’s blade",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000527",
+      "name": "Nemesor Zahndrekh",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: staff of light.",
+      "profiles": [
+        {
+          "name": "Nemesor Zahndrekh",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000528",
+      "name": "Vargard Obyron",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: warscythe.",
+      "profiles": [
+        {
+          "name": "Vargard Obyron",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Warscythe",
+          "special_rules": [
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000530",
+      "name": "Orikan The Diviner",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Staff of Tomorrow.",
+      "profiles": [
+        {
+          "name": "Orikan The Diviner",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Staff of Tomorrow",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000531",
+      "name": "Anrakyr The Traveller",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: tachyon arrow; warscythe.",
+      "profiles": [
+        {
+          "name": "Anrakyr The Traveller",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Tachyon arrow",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Warscythe",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000532",
+      "name": "Trazyn The Infinite",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Empathic Obliterator.",
+      "profiles": [
+        {
+          "name": "Trazyn The Infinite",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Empathic Obliterator",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "0",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000533",
+      "name": "Catacomb Command Barge",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gauss cannon; staff of light.",
+      "profiles": [
+        {
+          "name": "Catacomb Command Barge",
+          "movement": "10\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss cannon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tesla cannon",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Overlord’s blade",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000534",
+      "name": "Necron Warriors",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: gauss flayer; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Necron Warriors",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss flayer",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Gauss reaper",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000535",
+      "name": "Immortals",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: gauss blaster; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Immortals",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss blaster",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Tesla carbine",
+          "special_rules": [
+            "assault",
+            "sustained hits 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000536",
+      "name": "Lychguard",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: warscythe.",
+      "profiles": [
+        {
+          "name": "Lychguard",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hyperphase sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Warscythe",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000537",
+      "name": "Deathmarks",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: synaptic disintegrator; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Deathmarks",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Synaptic disintegrator",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000538",
+      "name": "Flayed Ones",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: flayer claws.",
+      "profiles": [
+        {
+          "name": "Flayed Ones",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Flayer claws",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000539",
+      "name": "Triarch Praetorians",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: rod of covenant.",
+      "profiles": [
+        {
+          "name": "Triarch Praetorians",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Particle caster",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rod of covenant",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Rod of covenant",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Voidblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000540",
+      "name": "Triarch Stalker",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heat ray; Stalker’s forelimbs.",
+      "profiles": [
+        {
+          "name": "Triarch Stalker",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heat ray – dispersed",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heat ray – focused",
+          "special_rules": [
+            "melta 4"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Particle shredder",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy gauss cannon array",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Stalker’s forelimbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000541",
+      "name": "C’tan Shard Of The Nightbringer",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gaze of death; Scythe of the Nightbringer.",
+      "profiles": [
+        {
+          "name": "C’tan Shard Of The Nightbringer",
+          "movement": "6\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gaze of death",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scythe of the Nightbringer – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Scythe of the Nightbringer – strike",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+2"
+        }
+      ]
+    },
+    {
+      "id": "000000542",
+      "name": "C’tan Shard Of The Deceiver",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: cosmic insanity; golden fists.",
+      "profiles": [
+        {
+          "name": "C’tan Shard Of The Deceiver",
+          "movement": "6\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cosmic insanity",
+          "special_rules": [
+            "anti-character 4+",
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Golden fists",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000543",
+      "name": "Ghost Ark",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 gauss flayer arrays; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Ghost Ark",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss flayer array",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 5"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000544",
+      "name": "Night Scythe",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin tesla destructor; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Night Scythe",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin tesla destructor",
+          "special_rules": [
+            "sustained hits 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000545",
+      "name": "Doom Scythe",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy death ray; twin tesla destructor; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Doom Scythe",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy death ray",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Twin tesla destructor",
+          "special_rules": [
+            "sustained hits 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000546",
+      "name": "Canoptek Wraiths",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: vicious claws.",
+      "profiles": [
+        {
+          "name": "Canoptek Wraiths",
+          "movement": "10\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Particle caster",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Transdimensional beamer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Vicious claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Whip coils",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000548",
+      "name": "Tomb Blades",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin gauss blaster; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Tomb Blades",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Particle beamer",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin gauss blaster",
+          "special_rules": [
+            "lethal hits",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin tesla carbine",
+          "special_rules": [
+            "assault",
+            "sustained hits 2",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000551",
+      "name": "Canoptek Spyders",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: automaton claws.",
+      "profiles": [
+        {
+          "name": "Canoptek Spyders",
+          "movement": "5\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Particle beamer",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Automaton claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000552",
+      "name": "Monolith",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 4 gauss flux arcs; particle whip; portal of exile.",
+      "profiles": [
+        {
+          "name": "Monolith",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "160mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Death ray",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Gauss flux arc",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Particle whip",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Portal of exile",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000553",
+      "name": "Annihilation Barge",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gauss cannon; twin tesla destructor; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Annihilation Barge",
+          "movement": "10\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss cannon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Tesla cannon",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin tesla destructor",
+          "special_rules": [
+            "sustained hits 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000554",
+      "name": "Doomsday Ark",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: doomsday cannon; 2 gauss flayer arrays; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Doomsday Ark",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Doomsday cannon",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "4"
+        },
+        {
+          "name": "Gauss flayer array",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 5"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000555",
+      "name": "Transcendent C’tan",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: seismic assault; crackling tendrils.",
+      "profiles": [
+        {
+          "name": "Transcendent C’tan",
+          "movement": "6\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Seismic assault",
+          "special_rules": [
+            "assault",
+            "sustained hits 1"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Crackling tendrils",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-3",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000000556",
+      "name": "Tesseract Vault",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 4 tesla spheres; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Tesseract Vault",
+          "movement": "8\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Tesla spheres",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Antimatter Meteor",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "indirect fire",
+            "c'tan power"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Cosmic Fire",
+          "special_rules": [
+            "ignores cover",
+            "devastating wounds",
+            "torrent",
+            "c'tan power"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Time’s Arrow",
+          "special_rules": [
+            "anti-character 4+",
+            "devastating wounds",
+            "precision",
+            "c'tan power"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "6"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000557",
+      "name": "Obelisk",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 4 tesla spheres; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Obelisk",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Tesla sphere",
+          "special_rules": [
+            "anti-fly 4+",
+            "sustained hits 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000558",
+      "name": "Canoptek Tomb Stalker",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gauss slicers; Tomb Stalker claws; gloom prism.",
+      "profiles": [
+        {
+          "name": "Canoptek Tomb Stalker",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss slicers",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Tomb Stalker claws",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000559",
+      "name": "Canoptek Acanthrites",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: cutting beam; voidblade.",
+      "profiles": [
+        {
+          "name": "Canoptek Acanthrites",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cutting beam",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Voidblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000560",
+      "name": "Canoptek Tomb Sentinel",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: exile cannon; Tomb Sentinel claws; gloom prism.",
+      "profiles": [
+        {
+          "name": "Canoptek Tomb Sentinel",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Exile cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Tomb Sentinel claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000561",
+      "name": "Night Shroud",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin tesla destructor; armoured bulk",
+      "profiles": [
+        {
+          "name": "Night Shroud",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin tesla destructor",
+          "special_rules": [
+            "sustained hits 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000562",
+      "name": "Sentry Pylon",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gauss exterminator.",
+      "profiles": [
+        {
+          "name": "Sentry Pylon",
+          "movement": "-",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Focused death ray",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Gauss exterminator",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "6"
+        },
+        {
+          "name": "Heat cannon",
+          "special_rules": [
+            "melta 4"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000564",
+      "name": "Tesseract Ark",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: tesseract singularity chamber; 2 tesla cannons; armoured bulk.",
+      "profiles": [
+        {
+          "name": "Tesseract Ark",
+          "movement": "9\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss cannon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Particle beamer",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Tesla cannon",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Tesseract singularity chamber – particle hurricane",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Tesseract singularity chamber – seismic lash",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000567",
+      "name": "Gauss Pylon",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gauss annihilator; tesla arc.",
+      "profiles": [
+        {
+          "name": "Gauss Pylon",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss annihilator",
+          "special_rules": [
+            "anti-fly 2+",
+            "lethal hits"
+          ],
+          "range": "120",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+6"
+        },
+        {
+          "name": "Tesla arc",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001577",
+      "name": "Seraptek Heavy Construct",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 singularity generators; titanic forelimbs.",
+      "profiles": [
+        {
+          "name": "Seraptek Heavy Construct",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "10",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Singularity generator",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Synaptic obliterator",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Transdimensional projector",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Titanic forelimbs – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Titanic forelimbs – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002092",
+      "name": "Illuminor Szeras",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: eldritch lance; impaling legs.",
+      "profiles": [
+        {
+          "name": "Illuminor Szeras",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eldritch lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Eldritch lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Impaling legs",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002108",
+      "name": "Plasmancer",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plasmic lance.",
+      "profiles": [
+        {
+          "name": "Plasmancer",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plasmic lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasmic lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002109",
+      "name": "Skorpekh Lord",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: enmitic annihilator; flensing claw; hyperphase harvester.",
+      "profiles": [
+        {
+          "name": "Skorpekh Lord",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Enmitic annihilator",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Flensing claw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hyperphase harvester",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002110",
+      "name": "Skorpekh Destroyers",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Skorpekh hyperphase weapons.",
+      "profiles": [
+        {
+          "name": "Skorpekh Destroyers",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Skorpekh hyperphase weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002111",
+      "name": "Cryptothralls",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: scouring eye; scythed limbs.",
+      "profiles": [
+        {
+          "name": "Cryptothralls",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scouring eye",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scythed limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002112",
+      "name": "Canoptek Reanimator",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 atomiser beams; Reanimator’s claws.",
+      "profiles": [
+        {
+          "name": "Canoptek Reanimator",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Atomiser beam",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reanimator’s claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002114",
+      "name": "Canoptek Scarab Swarms",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: feeder mandibles.",
+      "profiles": [
+        {
+          "name": "Canoptek Scarab Swarms",
+          "movement": "10\"",
+          "toughness": "2",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Feeder mandibles",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002115",
+      "name": "Canoptek Doomstalker",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: doomsday blaster; twin gauss flayer; Doomstalker limbs.",
+      "profiles": [
+        {
+          "name": "Canoptek Doomstalker",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "90mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Doomsday blaster",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Twin gauss flayer",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Doomstalker limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002116",
+      "name": "Lokhust Heavy Destroyers",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: gauss destructor; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Lokhust Heavy Destroyers",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Enmitic exterminator",
+          "special_rules": [
+            "heavy",
+            "rapid fire 6",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Gauss destructor",
+          "special_rules": [
+            "heavy",
+            "lethal hits"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002350",
+      "name": "Royal Warden",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: relic gauss blaster; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Royal Warden",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Relic gauss blaster",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002351",
+      "name": "Lokhust Lord",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: staff of light.",
+      "profiles": [
+        {
+          "name": "Lokhust Lord",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Lord’s blade",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002352",
+      "name": "Technomancer",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: staff of light; Canoptek cloak.",
+      "profiles": [
+        {
+          "name": "Technomancer",
+          "movement": "10\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002353",
+      "name": "Psychomancer",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: abyssal lance.",
+      "profiles": [
+        {
+          "name": "Psychomancer",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Abyssal lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Abyssal lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002354",
+      "name": "Chronomancer",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: aeonstave.",
+      "profiles": [
+        {
+          "name": "Chronomancer",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeonstave",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeonstave",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002355",
+      "name": "Hexmark Destroyer",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: enmitic disintegrator pistols; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Hexmark Destroyer",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Enmitic disintegrator pistols",
+          "special_rules": [
+            "pistol",
+            "Ignores Cover"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002357",
+      "name": "C’tan Shard Of The Void Dragon",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Spear of the Void Dragon; voltaic storm; Canoptek tail blades.",
+      "profiles": [
+        {
+          "name": "C’tan Shard Of The Void Dragon",
+          "movement": "6\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Spear of the Void Dragon",
+          "special_rules": [
+            "anti-vehicle 2+"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Voltaic storm",
+          "special_rules": [
+            "blast",
+            "sustained hits 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Spear of the Void Dragon – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Spear of the Void Dragon – strike",
+          "special_rules": [
+            "anti-vehicle 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Canoptek tail blades",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002358",
+      "name": "Ophydian Destroyers",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Ophydian hyperphase weapons.",
+      "profiles": [
+        {
+          "name": "Ophydian Destroyers",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ophydian hyperphase weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002359",
+      "name": "Lokhust Destroyers",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: gauss cannon; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Lokhust Destroyers",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss cannon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002360",
+      "name": "The Silent King",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Szarekh is equipped with: Sceptre of Eternal Glory; Staff of Stars; Weapons of the Final Triarch.Every Triarchal Menhir is equipped with: annihilator beam; armoured bulk.",
+      "profiles": [
+        {
+          "name": "SZAREKH",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "100mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "TRIARCHAL MENHIR",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Annihilator beam",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Sceptre of Eternal Glory",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Staff of Stars",
+          "special_rules": [
+            "indirect fire"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Weapons of the Final Triarch",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002361",
+      "name": "Convergence Of Dominion",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: transdimensional abductor.",
+      "profiles": [
+        {
+          "name": "Convergence Of Dominion",
+          "movement": "-",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Transdimensional abductor",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002362",
+      "name": "Tomb Citadel Walls",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This unit is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Tomb Citadel Walls",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "50",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gauss exterminator",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "6"
+        },
+        {
+          "name": "Twin tesla destructor",
+          "special_rules": [
+            "sustained hits 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003693",
+      "name": "Overlord with translocation shroud",
+      "faction_id": "NEC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Overlord’s blade; resurrection orb.",
+      "profiles": [
+        {
+          "name": "",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Overlord's blade",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    }
+  ]
+}

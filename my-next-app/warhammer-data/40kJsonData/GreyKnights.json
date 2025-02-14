@@ -1,0 +1,3283 @@
+{
+  "id": "GK",
+  "name": "Grey Knights",
+  "units": [
+    {
+      "id": "000000373",
+      "name": "Kaldor Draigo",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Scourging; storm bolter; the Titansword.",
+      "profiles": [
+        {
+          "name": "Kaldor Draigo",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scourging",
+          "special_rules": [
+            "anti-daemon 2+",
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "The Titansword",
+          "special_rules": [
+            "anti-daemon 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-4",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000374",
+      "name": "Grand Master Voldus",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; Malleus Argyrum.",
+      "profiles": [
+        {
+          "name": "Grand Master Voldus",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Malleus Argyrum",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000375",
+      "name": "Grand Master",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Grand Master",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000376",
+      "name": "Brother-captain",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Brother-captain",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000377",
+      "name": "Brother-captain Stern",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; Nemesis force sword.",
+      "profiles": [
+        {
+          "name": "Brother-captain Stern",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force sword",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000379",
+      "name": "Brotherhood Champion",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Brotherhood Champion",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "precision",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000380",
+      "name": "Castellan Crowe",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Purifying Flame; storm bolter; Black Blade of Antwyr.",
+      "profiles": [
+        {
+          "name": "Castellan Crowe",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Purifying Flame",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Black Blade of Antwyr",
+          "special_rules": [
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000381",
+      "name": "Strike Squad",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Strike Squad",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000382",
+      "name": "Brotherhood Terminator Squad",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Brotherhood Terminator Squad",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000383",
+      "name": "Purifier Squad",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Purifying Flame; storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Purifier Squad",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Purifying Flame",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000384",
+      "name": "Paladin Squad",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Paladin Squad",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000387",
+      "name": "Interceptor Squad",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Interceptor Squad",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000388",
+      "name": "Purgation Squad",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: storm bolter; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Purgation Squad",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000389",
+      "name": "Nemesis Dreadknight",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: dreadfists.",
+      "profiles": [
+        {
+          "name": "Nemesis Dreadknight",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gatling psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy psycannon",
+          "special_rules": [
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Dreadfists",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis daemon greathammer",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Nemesis greatsword – sweep",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Nemesis greatsword – strike",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000000390",
+      "name": "Grey Knights Dreadnought",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: assault cannon; storm bolter; Dreadnought combat weapon.",
+      "profiles": [
+        {
+          "name": "Grey Knights Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Assault cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy plasma cannon – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Heavy plasma cannon – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Heavy psycannon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dreadnought combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis doomglaive",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000391",
+      "name": "Grey Knights Land Raider",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 godhammer lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Grey Knights Land Raider",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Godhammer lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000392",
+      "name": "Grey Knights Land Raider Crusader",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 hurricane bolters; twin assault cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Grey Knights Land Raider Crusader",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hurricane bolter",
+          "special_rules": [
+            "rapid fire 6",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000393",
+      "name": "Grey Knights Land Raider Redeemer",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 flamestorm cannons; twin assault cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Grey Knights Land Raider Redeemer",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Flamestorm cannon",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000395",
+      "name": "Grey Knights Razorback",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Grey Knights Razorback",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000396",
+      "name": "Grey Knights Rhino",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Grey Knights Rhino",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000397",
+      "name": "Servitors",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Servitor’s servo-arm.",
+      "profiles": [
+        {
+          "name": "Servitors",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "heavy",
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Plasma cannon – standard",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma cannon – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous",
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Servitor’s servo-arm",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Servitor’s tools",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000398",
+      "name": "Grey Knights Stormraven Gunship",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 stormstrike missile launchers; twin assault cannon; typhoon missile launcher; armoured hull.",
+      "profiles": [
+        {
+          "name": "Grey Knights Stormraven Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hurricane bolter",
+          "special_rules": [
+            "rapid fire 6",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Stormstrike missile launcher",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy plasma cannon – standard",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy plasma cannon – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Twin multi-melta",
+          "special_rules": [
+            "melta 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Typhoon missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Typhoon missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000399",
+      "name": "Brotherhood Techmarine",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: boltgun; flamer; plasma cutter; Omnissian power axe; servo-arms.",
+      "profiles": [
+        {
+          "name": "Brotherhood Techmarine",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Boltgun",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Omnissian power axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Plasma cutter – standard",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma cutter – supercharge",
+          "special_rules": [
+            "extra attacks",
+            "hazardous"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Servo-arms",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000400",
+      "name": "Grey Knights Venerable Dreadnought",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: assault cannon; storm bolter; Dreadnought combat weapon.",
+      "profiles": [
+        {
+          "name": "Grey Knights Venerable Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Assault cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy plasma cannon – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Heavy plasma cannon – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dreadnought combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001196",
+      "name": "Land Raider Banisher",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy incinerators; twin psycannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Banisher",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin psycannon",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001197",
+      "name": "Grey Knights Thunderhawk Gunship",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.",
+      "profiles": [
+        {
+          "name": "Grey Knights Thunderhawk Gunship",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hellstrike missile battery",
+          "special_rules": [
+            "anti-fly 4+"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderhawk heavy cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Turbo-laser destructor",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "96",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-4",
+          "D": "D6+6"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001360",
+      "name": "Grand Master In Nemesis Dreadknight",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: dreadfists.",
+      "profiles": [
+        {
+          "name": "Grand Master In Nemesis Dreadknight",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gatling psilencer",
+          "special_rules": [
+            "psychic",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy psycannon",
+          "special_rules": [
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Dreadfists",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis daemon greathammer",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Nemesis greatsword – sweep",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Nemesis greatsword – strike",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000001361",
+      "name": "Brotherhood Librarian",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Purge Soul; Nemesis force weapon.",
+      "profiles": [
+        {
+          "name": "Brotherhood Librarian",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Purge Soul – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "precision",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Purge Soul – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Nemesis force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001362",
+      "name": "Brotherhood Chaplain",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; crozius arcanum.",
+      "profiles": [
+        {
+          "name": "Brotherhood Chaplain",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Crozius arcanum",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001363",
+      "name": "Grey Knights Stormhawk Interceptor",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: las-talon; skyhammer missile launcher; twin assault cannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Grey Knights Stormhawk Interceptor",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus stormcannon",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Las-talon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Skyhammer missile launcher",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Typhoon missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Typhoon missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001364",
+      "name": "Grey Knights Stormtalon Gunship",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: skyhammer missile launcher; twin assault cannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Grey Knights Stormtalon Gunship",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Skyhammer missile launcher",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Typhoon missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Typhoon missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002768",
+      "name": "Grey Knights Relic Razorback",
+      "faction_id": "GK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Grey Knights Relic Razorback",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Twin psycannon",
+          "special_rules": [
+            "psychic",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

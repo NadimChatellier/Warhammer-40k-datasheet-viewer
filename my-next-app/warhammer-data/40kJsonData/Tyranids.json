@@ -1,0 +1,3040 @@
+{
+  "id": "TYR",
+  "name": "Tyranids",
+  "units": [
+    {
+      "id": "000000460",
+      "name": "Hive Tyrant",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: monstrous bonesword and lash whip; monstrous scything talons.",
+      "profiles": [
+        {
+          "name": "Hive Tyrant",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy venom cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Stranglethorn cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Monstrous bonesword and lash whip",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Monstrous scything talons",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000461",
+      "name": "The Swarmlord",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Synaptic pulse; bone sabres.",
+      "profiles": [
+        {
+          "name": "The Swarmlord",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Synaptic pulse",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Bone sabres",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000462",
+      "name": "Old One Eye",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Old One Eye’s claws and talons.",
+      "profiles": [
+        {
+          "name": "Old One Eye",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Old One Eye’s claws and talons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Old One Eye’s claws and talons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000463",
+      "name": "Broodlord",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Broodlord claws and talons.",
+      "profiles": [
+        {
+          "name": "Broodlord",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Broodlord claws and talons",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000465",
+      "name": "Tervigon",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: stinger salvoes; massive scything talons.",
+      "profiles": [
+        {
+          "name": "Tervigon",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Stinger salvoes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Massive crushing claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Massive scything talons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Massive scything talons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000467",
+      "name": "Genestealers",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Genestealer claws and talons.",
+      "profiles": [
+        {
+          "name": "Genestealers",
+          "movement": "8\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Genestealer claws and talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000468",
+      "name": "Termagants",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: fleshborer; xenos claws and teeth.",
+      "profiles": [
+        {
+          "name": "Termagants",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fleshborer",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shardlauncher",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Spike rifle",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Strangleweb",
+          "special_rules": [
+            "assault",
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Termagant devourer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Termagant spinefists",
+          "special_rules": [
+            "assault",
+            "pistol",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000469",
+      "name": "Hormagaunts",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Hormagaunt talons.",
+      "profiles": [
+        {
+          "name": "Hormagaunts",
+          "movement": "10\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hormagaunt talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000470",
+      "name": "Ripper Swarms",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: chitinous claws and teeth.",
+      "profiles": [
+        {
+          "name": "Ripper Swarms",
+          "movement": "6\"",
+          "toughness": "2",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Spinemaws",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000471",
+      "name": "Tyrant Guard",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: scything talons and rending claws.",
+      "profiles": [
+        {
+          "name": "Tyrant Guard",
+          "movement": "6\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bone cleaver, lash whip and rending claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scything talons and rending claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Crushing claws and rending claws",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000472",
+      "name": "Hive Guard",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shockcannon; chitinous claws and teeth.",
+      "profiles": [
+        {
+          "name": "Hive Guard",
+          "movement": "6\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Impaler cannon",
+          "special_rules": [
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shockcannon",
+          "special_rules": [
+            "anti-vehicle 2+"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000473",
+      "name": "Lictor",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Lictor claws and talons.",
+      "profiles": [
+        {
+          "name": "Lictor",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Lictor claws and talons",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000474",
+      "name": "Maleceptor",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: psychic overload; massive scything talons.",
+      "profiles": [
+        {
+          "name": "Maleceptor",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "7+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Psychic overload",
+          "special_rules": [
+            "blast",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Massive scything talons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Massive scything talons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000475",
+      "name": "Zoanthropes",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Warp Blast; chitinous claws and teeth.",
+      "profiles": [
+        {
+          "name": "Zoanthropes",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Warp Blast – witchfire",
+          "special_rules": [
+            "blast",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Warp Blast – focused witchfire",
+          "special_rules": [
+            "lethal hits",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000476",
+      "name": "Venomthropes",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: toxic lashes.",
+      "profiles": [
+        {
+          "name": "Venomthropes",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Toxic lashes",
+          "special_rules": [
+            "anti-infantry 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000477",
+      "name": "Pyrovores",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: flamespurt; chitin-barbed limbs.",
+      "profiles": [
+        {
+          "name": "Pyrovores",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Flamespurt",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Chitin-barbed limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000478",
+      "name": "Haruspex",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: grasping tongue; ravenous maw; shovelling claws.",
+      "profiles": [
+        {
+          "name": "Haruspex",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grasping tongue",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        {
+          "name": "Ravenous maw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Shovelling claws",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6+1"
+        }
+      ]
+    },
+    {
+      "id": "000000479",
+      "name": "Deathleaper",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Lictor claws and talons.",
+      "profiles": [
+        {
+          "name": "Deathleaper",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Lictor claws and talons",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000482",
+      "name": "Raveners",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: thoracic bio-weapon; Ravener claws and talons.",
+      "profiles": [
+        {
+          "name": "Raveners",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Thoracic bio-weapon",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Ravener claws and talons",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000483",
+      "name": "Sky-slasher Swarms",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: claws and teeth.",
+      "profiles": [
+        {
+          "name": "Sky-slasher Swarms",
+          "movement": "12\"",
+          "toughness": "2",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Spinemaws",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Claws and teeth",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000484",
+      "name": "Gargoyles",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: fleshborer; blinding venom.",
+      "profiles": [
+        {
+          "name": "Gargoyles",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fleshborer",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Blinding venom",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000485",
+      "name": "Harpy",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: stinger salvoes; twin stranglethorn cannon; scything wings.",
+      "profiles": [
+        {
+          "name": "Harpy",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Stinger salvoes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin heavy venom cannon",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Twin stranglethorn cannon",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Scything wings",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000486",
+      "name": "Hive Crone",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: drool cannon; stinger salvoes; tentaclids; scything wings; thorax spur.",
+      "profiles": [
+        {
+          "name": "Hive Crone",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Drool cannon",
+          "special_rules": [
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Stinger salvoes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tentaclids",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Scything wings",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Thorax spur",
+          "special_rules": [
+            "anti-fly 2+",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000000487",
+      "name": "Mucolid Spores",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Mucolid Spores",
+          "movement": "4\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000488",
+      "name": "Spore Mines",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Spore Mines",
+          "movement": "4\"",
+          "toughness": "1",
+          "save": "7+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000489",
+      "name": "Tyrannocyte",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Tyrannocyte bio-weapons; flensing whips.",
+      "profiles": [
+        {
+          "name": "Tyrannocyte",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Tyrannocyte bio-weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Flensing whips",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000490",
+      "name": "Carnifexes",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Carnifex scything talons; Carnifex extra scything talons; chitinous claws and teeth.",
+      "profiles": [
+        {
+          "name": "Carnifexes",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-plasma",
+          "special_rules": [
+            "assault",
+            "blast"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Deathspitters with slimer maggots",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Devourers with brainleech worms",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy venom cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Spine banks",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Stranglethorn cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Carnifex crushing claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Carnifex scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Carnifex extra scything talons",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000491",
+      "name": "Biovores",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Spore Mine launcher; chitin-barbed limbs.",
+      "profiles": [
+        {
+          "name": "Biovores",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Spore Mine launcher",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Chitin-barbed limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000493",
+      "name": "Trygon",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bio-electric pulse; Trygon scything talons.",
+      "profiles": [
+        {
+          "name": "Trygon",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-electric pulse",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Trygon scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000494",
+      "name": "Mawloc",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: distensible jaw; Mawloc scything talons.",
+      "profiles": [
+        {
+          "name": "Mawloc",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mawloc scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Distensible jaw",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000495",
+      "name": "Exocrine",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bio-plasmic cannon; powerful limbs.",
+      "profiles": [
+        {
+          "name": "Exocrine",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-plasmic cannon",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Powerful limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000496",
+      "name": "Tyrannofex",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: fleshborer hive; stinger salvoes; powerful limbs.",
+      "profiles": [
+        {
+          "name": "Tyrannofex",
+          "movement": "9\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "8+",
+          "objective_control": "5",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Acid spray",
+          "special_rules": [
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Fleshborer hive",
+          "special_rules": [
+            "heavy",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rupture cannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6"
+        },
+        {
+          "name": "Stinger salvoes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Powerful limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000497",
+      "name": "Toxicrene",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: massive toxic lashes.",
+      "profiles": [
+        {
+          "name": "Toxicrene",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Massive toxic lashes",
+          "special_rules": [
+            "anti-infantry 2+"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Massive toxic lashes",
+          "special_rules": [
+            "anti-infantry 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000498",
+      "name": "Sporocyst",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Sporocyst bio-weapons; flensing whips.",
+      "profiles": [
+        {
+          "name": "Sporocyst",
+          "movement": "-",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Sporocyst bio-weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Flensing whips",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000499",
+      "name": "Malanthrope",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: grasping tail.",
+      "profiles": [
+        {
+          "name": "Malanthrope",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grasping tail",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000500",
+      "name": "Dimachaeron",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: massive scything sickle-talons.",
+      "profiles": [
+        {
+          "name": "Dimachaeron",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Massive scything sickle-talons",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000503",
+      "name": "Barbed Hierodule",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 bio-cannons; Hierodule scything talons.",
+      "profiles": [
+        {
+          "name": "Barbed Hierodule",
+          "movement": "8\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "8+",
+          "objective_control": "5",
+          "base_size": "127mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Hierodule scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000504",
+      "name": "Harridan",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 dire bio-cannons; gargantuan scything talons.",
+      "profiles": [
+        {
+          "name": "Harridan",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dire bio-cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Gargantuan scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000505",
+      "name": "Hierophant",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bio-plasma torrent; 2 dire bio-cannons; lashwhip pods; titanic scything talons.",
+      "profiles": [
+        {
+          "name": "Hierophant",
+          "movement": "12\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "8+",
+          "objective_control": "12",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-plasma torrent",
+          "special_rules": [
+            "assault",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Dire bio-cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Titanic scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Lashwhip pods",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000506",
+      "name": "Scythed Hierodule",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bio-acid spray; Hierodule scything talons.",
+      "profiles": [
+        {
+          "name": "Scythed Hierodule",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "8+",
+          "objective_control": "5",
+          "base_size": "127mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-acid spray",
+          "special_rules": [
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Hierodule scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002528",
+      "name": "Winged Hive Tyrant",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: monstrous bonesword and lash whip; Tyrant talons.",
+      "profiles": [
+        {
+          "name": "Winged Hive Tyrant",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy venom cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Stranglethorn cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Tyrant talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Monstrous bonesword and lash whip",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Monstrous scything talons",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002529",
+      "name": "Parasite Of Mortrex",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: barbed ovipositor; clawed limbs.",
+      "profiles": [
+        {
+          "name": "Parasite Of Mortrex",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Clawed limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Barbed ovipositor",
+          "special_rules": [
+            "anti-infantry 3+",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002686",
+      "name": "Barbgaunts",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: barblauncher; chitinous claws and teeth.",
+      "profiles": [
+        {
+          "name": "Barbgaunts",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Barblauncher",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002687",
+      "name": "Neurogaunts",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: chitinous claws and teeth. *This unit can only contain 2 Neurogaunt Nodebeasts if it contains 20 Neurogaunts.",
+      "profiles": [
+        {
+          "name": "Neurogaunts",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": "Nodebeast 28mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002688",
+      "name": "Neurotyrant",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Psychic Scream; Neurotyrant claws and lashes.",
+      "profiles": [
+        {
+          "name": "Neurotyrant",
+          "movement": "6\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Psychic scream",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Neurotyrant claws and lashes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002689",
+      "name": "Psychophage",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: psychoclastic torrent; talons and betentacled maw.",
+      "profiles": [
+        {
+          "name": "Psychophage",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Psychoclastic torrent",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Talons and betentacled maw",
+          "special_rules": [
+            "anti-psyker 4+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002690",
+      "name": "Screamer-killer",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bio-plasmic scream; Screamer-Killer talons.",
+      "profiles": [
+        {
+          "name": "Screamer-killer",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "90mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bio-plasmic scream",
+          "special_rules": [
+            "assault",
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Screamer-killer talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002691",
+      "name": "Tyranid Warriors With Melee Bio-weapons",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Tyranid Warrior claws and talons.",
+      "profiles": [
+        {
+          "name": "Tyranid Warriors With Melee Bio-weapons",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Tyranid Warrior claws and talons",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002692",
+      "name": "Tyranid Warriors With Ranged Bio-weapons",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: devourer; Tyranid Warrior claws and talons.",
+      "profiles": [
+        {
+          "name": "Tyranid Warriors With Ranged Bio-weapons",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Barbed strangler",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Deathspitter",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Devourer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spinefists",
+          "special_rules": [
+            "assault",
+            "pistol",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Venom cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Tyranid Warrior claws and talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002693",
+      "name": "Von Ryan’s Leapers",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Leaper’s talons.",
+      "profiles": [
+        {
+          "name": "Von Ryan’s Leapers",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Leaper’s talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002694",
+      "name": "Winged Tyranid Prime",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Prime talons.",
+      "profiles": [
+        {
+          "name": "Winged Tyranid Prime",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Prime talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002751",
+      "name": "Norn Emissary",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Psychic Tendril; monstrous scything talons; monstrous rending claws.",
+      "profiles": [
+        {
+          "name": "Norn Emissary",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Psychic Tendril – neuroparasite",
+          "special_rules": [
+            "precision",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Psychic Tendril – neuroblast",
+          "special_rules": [
+            "blast",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Psychic Tendril – neurolance",
+          "special_rules": [
+            "melta 2",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "Monstrous scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Monstrous rending claws",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002752",
+      "name": "Norn Assimilator",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: toxinjector harpoon; monstrous scything talons.",
+      "profiles": [
+        {
+          "name": "Norn Assimilator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Toxinjector Harpoon",
+          "special_rules": [
+            "harpooned"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Monstrous scything talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Toxinjector harpoon",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ]
+    },
+    {
+      "id": "000002753",
+      "name": "Neurolictor",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "This model is equipped with: piercing claws and talons.",
+      "profiles": [
+        {
+          "name": "Neurolictor",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Piercing claws and talons",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    }
+  ]
+}

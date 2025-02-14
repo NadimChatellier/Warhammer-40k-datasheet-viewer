@@ -1,0 +1,1262 @@
+{
+  "id": "UN",
+  "name": "Unaligned Forces",
+  "units": [
+    {
+      "id": "000000243",
+      "name": "Fortress Of Redemption",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: redemptor lascannons; redemptor missile silo.",
+      "profiles": [
+        {
+          "name": "Fortress Of Redemption",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Redemptor lascannons",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Redemptor missile silo – superfrag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6+2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Redemptor missile silo – superkrak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000785",
+      "name": "Imperial Fortress Walls",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "Every gate tower section is equipped with: twin heavy bolter. Every tower section is equipped with: twin long-barrelled autocannon.",
+      "profiles": [
+        {
+          "name": "Imperial Fortress Walls",
+          "movement": "-",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "80",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin long-barrelled autocannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000786",
+      "name": "Primaris Redoubt",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Primaris Redoubt turbo-laser destructor.",
+      "profiles": [
+        {
+          "name": "Primaris Redoubt",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Battle cannon",
+          "special_rules": [
+            "BLAST"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "SUSTAINED HITS 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "MELTA 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Primaris Icarus lascannon",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Primaris Icarus quad lascannon",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Primaris air defence missiles",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Primaris castellan launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Primaris quad-gun",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Primaris Redoubt turbo-laser destructor",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "96",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "4",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+3"
+        },
+        {
+          "name": "Primaris vengeance launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "SUSTAINED HITS 1",
+            "TWIN-LINKED"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy flamer",
+          "special_rules": [
+            "IGNORES COVER",
+            "TORRENT",
+            "TWIN-LINKED"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "TWIN-LINKED"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000914",
+      "name": "Bastion",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 4 heavy bolters.",
+      "profiles": [
+        {
+          "name": "Bastion",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Icarus lascannon",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Quad-gun",
+          "special_rules": [
+            "anti-fly 3+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000917",
+      "name": "Vengeance Weapon Battery",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: battle cannon.",
+      "profiles": [
+        {
+          "name": "Vengeance Weapon Battery",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Battle cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Punisher gatling cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Quad-lascannon",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000918",
+      "name": "Firestorm Redoubt",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons.",
+      "profiles": [
+        {
+          "name": "Firestorm Redoubt",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Battle cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Icarus lascannon",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Punisher gatling cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Quad-gun",
+          "special_rules": [
+            "anti-fly 3+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Quad lascannon",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000919",
+      "name": "Plasma Obliterator",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plasma obliterator.",
+      "profiles": [
+        {
+          "name": "Plasma Obliterator",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plasma obliterator – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Plasma obliterator – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "10",
+          "AP": "-4",
+          "D": "4"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000920",
+      "name": "Macro-cannon Aquila Strongpoint",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Aquila macro-cannon.",
+      "profiles": [
+        {
+          "name": "Macro-cannon Aquila Strongpoint",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aquila macro-cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000921",
+      "name": "Vortex Missile Strongpoint",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: vortex missile battery.",
+      "profiles": [
+        {
+          "name": "Vortex Missile Strongpoint",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Vortex missile battery",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "hazardous",
+            "indirect fire"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000922",
+      "name": "Void Shield Generator",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Void Shield Generator",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000923",
+      "name": "Skyshield Landing Pad",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This unit is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Skyshield Landing Pad",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001603",
+      "name": "Spindle Drones",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: drone pulse; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Spindle Drones",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Drone pulse",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001630",
+      "name": "Ambull",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: enormous claws.",
+      "profiles": [
+        {
+          "name": "Ambull",
+          "movement": "6\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "8+",
+          "objective_control": "3",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Enormous claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002093",
+      "name": "The Archivist",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: atomic disassembler; eradicator glove.",
+      "profiles": [
+        {
+          "name": "The Archivist",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Atomic disassembler",
+          "special_rules": [
+            "ignores cover",
+            "pistol"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Eradicator glove",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002363",
+      "name": "Guardian Drone",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: destroyer pulse; Guardian salvo launchers; manipulator limbs.",
+      "profiles": [
+        {
+          "name": "Guardian Drone",
+          "movement": "5\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Destroyer pulse",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Guardian salvo launchers",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Manipulator limbs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002807",
+      "name": "Castellum Stronghold",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Castellum Stronghold",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "50",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Castellum air defence missiles",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Castellum battle cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Castellum Icarus quad lascannon",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin assault cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Whirlwind castellan launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002808",
+      "name": "Wall Of Martyrs Bunker",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Wall Of Martyrs Bunker",
+          "movement": "-",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus lascannon",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Quad-gun",
+          "special_rules": [
+            "anti-fly 3+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002809",
+      "name": "Wall Of Martyrs Defence Line",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This unit is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Wall Of Martyrs Defence Line",
+          "movement": "-",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002810",
+      "name": "Wall Of Martyrs Defence Emplacement",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Wall Of Martyrs Defence Emplacement",
+          "movement": "-",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002811",
+      "name": "Aegis Defence Line With Weapon Emplacement",
+      "faction_id": "UN",
+      "unit_img": "",
+      "loadout": "This unit is equipped with: quad-gun.",
+      "profiles": [
+        {
+          "name": "Aegis Defence Line With Weapon Emplacement",
+          "movement": "-",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus lascannon",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Quad-gun",
+          "special_rules": [
+            "anti-fly 3+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

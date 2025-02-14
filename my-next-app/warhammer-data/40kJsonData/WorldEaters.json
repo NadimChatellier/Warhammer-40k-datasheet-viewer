@@ -1,0 +1,2622 @@
+{
+  "id": "WE",
+  "name": "World Eaters",
+  "units": [
+    {
+      "id": "000002621",
+      "name": "Angron",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Samni’arius and Spinegrinder.",
+      "profiles": [
+        {
+          "name": "Angron",
+          "movement": "14\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "5+",
+          "objective_control": "6",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Samni’arius and Spinegrinder – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Samni’arius and Spinegrinder – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002622",
+      "name": "Khârn The Betrayer",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Khârn’s plasma pistol; Gorechild.",
+      "profiles": [
+        {
+          "name": "Khârn The Betrayer",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Khârn’s plasma pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Gorechild",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002623",
+      "name": "Lord Invocatus",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bolt pistol; Coward’s Bane, Juggernaut’s bladed horn.",
+      "profiles": [
+        {
+          "name": "Lord Invocatus",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Coward’s Bane",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Juggernaut’s bladed horn",
+          "special_rules": [
+            "extra attacks",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002624",
+      "name": "World Eaters Daemon Prince",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "World Eaters Daemon Prince",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002625",
+      "name": "World Eaters Lord On Juggernaut",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plasma pistol; exalted chainblade; Juggernaut’s bladed horn.",
+      "profiles": [
+        {
+          "name": "World Eaters Lord On Juggernaut",
+          "movement": "10\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Exalted chainblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Juggernaut’s bladed horn",
+          "special_rules": [
+            "extra attacks",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002626",
+      "name": "World Eaters Master Of Executions",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bolt pistol; axe of dismemberment.",
+      "profiles": [
+        {
+          "name": "World Eaters Master Of Executions",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Axe of dismemberment",
+          "special_rules": [
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002627",
+      "name": "Khorne Berzerkers",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: bolt pistol; Berzerker chainblade.",
+      "profiles": [
+        {
+          "name": "Khorne Berzerkers",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Berzerker chainblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Khornate eviscerator",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002628",
+      "name": "Jakhals",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "The Jakhal Pack Leader and every Jakhal is equipped with: autopistol; Jakhal chainblades. Every Dishonoured is equipped with: Dishonoured chainblades.",
+      "profiles": [
+        {
+          "name": "Jakhals",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": "Dishonoured model 40mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Skullsmasher",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Jakhal chainblades",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Dishonoured chainblades",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Mauler chainblade",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002629",
+      "name": "World Eaters Terminator Squad",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: combi-bolter; accursed weapon.",
+      "profiles": [
+        {
+          "name": "World Eaters Terminator Squad",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Reaper autocannon",
+          "special_rules": [
+            "devastating wounds",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Accursed weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power fist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Paired accursed weapons",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Chainfist",
+          "special_rules": [
+            "anti-vehicle 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002630",
+      "name": "Eightbound",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "The Eightbound Champion model is equipped with: lacerators. Every Eightbound model is equipped with: Eightbound eviscerators.",
+      "profiles": [
+        {
+          "name": "Eightbound",
+          "movement": "9\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eightbound eviscerators",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy chainglaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Lacerators",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002631",
+      "name": "Exalted Eightbound",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Eightbound eviscerator; Eightbound chainfist.",
+      "profiles": [
+        {
+          "name": "Exalted Eightbound",
+          "movement": "9\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eightbound chainfist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Eightbound eviscerator",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy chainglaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Paired Eightbound chainfists",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002632",
+      "name": "World Eaters Helbrute",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: missile launcher; multi-melta; close combat weapon.",
+      "profiles": [
+        {
+          "name": "World Eaters Helbrute",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Helbrute plasma cannon",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin autocannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Helbrute fist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Helbrute hammer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power scourge",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002633",
+      "name": "World Eaters Chaos Spawn",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: hideous mutations.",
+      "profiles": [
+        {
+          "name": "World Eaters Chaos Spawn",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hideous mutations",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002634",
+      "name": "World Eaters Land Raider",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 soulshatter lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "World Eaters Land Raider",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Soulshatter lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002635",
+      "name": "World Eaters Defiler",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws.",
+      "profiles": [
+        {
+          "name": "World Eaters Defiler",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Defiler cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Reaper autocannon",
+          "special_rules": [
+            "devastating wounds",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Defiler claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Defiler scourge",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002636",
+      "name": "World Eaters Predator Destructor",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Predator autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "World Eaters Predator Destructor",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Predator autocannon",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002637",
+      "name": "World Eaters Predator Annihilator",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Predator twin lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "World Eaters Predator Annihilator",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Predator twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002638",
+      "name": "World Eaters Forgefiend",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Hades autocannons; 1 Forgefiend jaws.",
+      "profiles": [
+        {
+          "name": "World Eaters Forgefiend",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ectoplasma cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Hades autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Forgefiend claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Forgefiend jaws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002639",
+      "name": "World Eaters Maulerfiend",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lasher tendrils; Maulerfiend fists.",
+      "profiles": [
+        {
+          "name": "World Eaters Maulerfiend",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Magma cutter",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Maulerfiend fists",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Lasher tendrils",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002640",
+      "name": "World Eaters Rhino",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: combi-bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "World Eaters Rhino",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002641",
+      "name": "World Eaters Heldrake",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Hades autocannon; Heldrake claws.",
+      "profiles": [
+        {
+          "name": "World Eaters Heldrake",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Baleflamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Hades autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Heldrake claws",
+          "special_rules": [
+            "anti-fly 2+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002642",
+      "name": "Khorne Lord Of Skulls",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gorestorm cannon; Hades gatling cannon; great cleaver of Khorne.",
+      "profiles": [
+        {
+          "name": "Khorne Lord Of Skulls",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Daemongore cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+2"
+        },
+        {
+          "name": "Gorestorm cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Hades gatling cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Ichor cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Skullhurler",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Great cleaver of Khorne – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Great cleaver of Khorne – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002757",
+      "name": "World Eaters Daemon Prince With Wings",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "World Eaters Daemon Prince With Wings",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003587",
+      "name": "Blood Slaughterer",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: impaler harpoon; slaughter blade.",
+      "profiles": [
+        {
+          "name": "Blood Slaughterer",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003588",
+      "name": "Chaos Thunderhawk",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.",
+      "profiles": [
+        {
+          "name": "Chaos Thunderhawk",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003589",
+      "name": "Greater Brass Scorpion",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; Scorpion cannon; hellmaw flame cannons; hellcrusher claws.",
+      "profiles": [
+        {
+          "name": "Greater Brass Scorpion",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "26",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003590",
+      "name": "Kytan Ravager",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Kytan gatling cannon; Kytan cleaver.",
+      "profiles": [
+        {
+          "name": "Kytan Ravager",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003601",
+      "name": "Hell Blade",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin autocannons; armoured hull.",
+      "profiles": [
+        {
+          "name": "Hell Blade",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003602",
+      "name": "Hell Talon",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; twin lascannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Hell Talon",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003605",
+      "name": "Terrax-pattern Termite",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Terrax melta cutter; 2 combi-bolters; Termite drill.",
+      "profiles": [
+        {
+          "name": "Terrax-pattern Termite",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003609",
+      "name": "Land Raider Achilles",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: quad launcher; 2 twin volkite culverins; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Achilles",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003613",
+      "name": "Land Raider Proteus",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin lascannons; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Proteus",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003617",
+      "name": "Fire Raptor Gunship",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin avenger bolt cannon; 2 twin autocannons; 2 twin hellstrike launchers; armoured hull",
+      "profiles": [
+        {
+          "name": "Fire Raptor Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003621",
+      "name": "Spartan",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Spartan",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003625",
+      "name": "Deredeo Dreadnought",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: anvilus autocannon battery; twin heavy bolter; armoured feet.",
+      "profiles": [
+        {
+          "name": "Deredeo Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003629",
+      "name": "Cerberus",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Cerberus neutron pulse array; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Cerberus",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003633",
+      "name": "Kratos",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; Kratos battle cannon; 4 heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Kratos",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003637",
+      "name": "Sokar-pattern Stormbird",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: hellstrike missile battery; 3 twin heavy bolters; 4 twin lascannons; armoured hull.",
+      "profiles": [
+        {
+          "name": "Sokar-pattern Stormbird",
+          "movement": "20+\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "40",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003641",
+      "name": "Sicaran Battle Tank",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Herakles-pattern autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Battle Tank",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003645",
+      "name": "Mastodon",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy flamers; 2 lascannons; siege melta array; skyreaper battery; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Mastodon",
+          "movement": "9\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "12",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003649",
+      "name": "Leviathan Dreadnought",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy flamers; 2 grav-flux bombards; armoured feet.",
+      "profiles": [
+        {
+          "name": "Leviathan Dreadnought",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003653",
+      "name": "Fellblade",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; Fellblade accelerator cannon; 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Fellblade",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003657",
+      "name": "Relic Contemptor Dreadnought",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy plasma cannons; armoured feet.",
+      "profiles": [
+        {
+          "name": "Relic Contemptor Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003661",
+      "name": "Whirlwind Scorpius",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Scorpius multi-launcher; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Whirlwind Scorpius",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003665",
+      "name": "Xiphon Interceptor",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin lascannons; Xiphon missile battery; armoured hull.",
+      "profiles": [
+        {
+          "name": "Xiphon Interceptor",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003669",
+      "name": "Rapier Carrier",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: boltgun; quad heavy bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Rapier Carrier",
+          "movement": "3\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003673",
+      "name": "Storm Eagle Gunship",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin heavy bolter; 2 twin hellstrike launchers; vengeance launcher; armoured hull.",
+      "profiles": [
+        {
+          "name": "Storm Eagle Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003677",
+      "name": "Sicaran Venator",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Venator neutron laser; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Venator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003681",
+      "name": "Typhon",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: dreadhammer siege cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Typhon",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003685",
+      "name": "Sicaran Punisher",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Punisher rotary cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Punisher",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003689",
+      "name": "Falchion",
+      "faction_id": "WE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons; twin heavy bolter; twin Falchion volcano cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Falchion",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    }
+  ]
+}

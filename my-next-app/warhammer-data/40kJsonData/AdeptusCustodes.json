@@ -1,0 +1,2161 @@
+{
+  "id": "AC",
+  "name": "Adeptus Custodes",
+  "units": [
+    {
+      "id": "000000882",
+      "name": "Custodian Guard",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: guardian spear.",
+      "profiles": [
+        {
+          "name": "Custodian Guard",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Guardian spear",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Sentinel blade",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Misericordia",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Sentinel blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000883",
+      "name": "Venerable Contemptor Dreadnought",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: combi-bolter; multi-melta; Contemptor combat weapon.",
+      "profiles": [
+        {
+          "name": "Venerable Contemptor Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kheres-pattern assault cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Contemptor combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000884",
+      "name": "Venerable Land Raider",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 godhammer lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Venerable Land Raider",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Godhammer lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001446",
+      "name": "Trajann Valoris",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Watcher’s Axe.",
+      "profiles": [
+        {
+          "name": "Trajann Valoris",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "5+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eagle's Scream",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Watcher’s Axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001447",
+      "name": "Shield-captain",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: guardian spear.",
+      "profiles": [
+        {
+          "name": "Shield-captain",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Castellan axe",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Pyrithite spear",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Sentinel blade",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Castellan axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Pyrithite spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Sentinel blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001448",
+      "name": "Shield-captain In Allarus Terminator Armour",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: balistus grenade launcher; guardian spear.",
+      "profiles": [
+        {
+          "name": "Shield-captain In Allarus Terminator Armour",
+          "movement": "5\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Balistus grenade launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Castellan axe",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Castellan axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001449",
+      "name": "Shield-captain On Dawneagle Jetbike",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: salvo launcher; interceptor lance.",
+      "profiles": [
+        {
+          "name": "Shield-captain On Dawneagle Jetbike",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": "May use 60mm flying base instead"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Vertus hurricane bolter",
+          "special_rules": [
+            "rapid fire 3",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Salvo launcher",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Interceptor lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001450",
+      "name": "Custodian Wardens",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: guardian spear.",
+      "profiles": [
+        {
+          "name": "Custodian Wardens",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Castellan axe",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Castellan axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001453",
+      "name": "Allarus Custodians",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: balistus grenade launcher; guardian spear.",
+      "profiles": [
+        {
+          "name": "Allarus Custodians",
+          "movement": "5\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Balistus grenade launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Castellan axe",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Castellan axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Guardian spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Misericordia",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001454",
+      "name": "Vertus Praetors",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: salvo launcher; interceptor lance.",
+      "profiles": [
+        {
+          "name": "Vertus Praetors",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": "May use 60mm flying base instead"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Salvo launcher",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Vertus hurricane bolter",
+          "special_rules": [
+            "rapid fire 3",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Interceptor lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001458",
+      "name": "Contemptor-achillus Dreadnought",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lastrum storm bolters; Achillus dreadspear.",
+      "profiles": [
+        {
+          "name": "Contemptor-achillus Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Achillus dreadspear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Infernus incinerator",
+          "special_rules": [
+            "torrent",
+            "ignores cover"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Lastrum storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin adrathic destructor",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Achillus dreadspear",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+1"
+        }
+      ]
+    },
+    {
+      "id": "000001460",
+      "name": "Caladius Grav-tank",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin iliastus accelerator cannon; twin lastrum bolt cannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Caladius Grav-tank",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin arachnus heavy blaze cannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Twin iliastus accelerator cannon",
+          "special_rules": [
+            "rapid fire 4",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin lastrum bolt cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001461",
+      "name": "Coronus Grav-carrier",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin arachnus blaze cannon; twin lastrum bolt cannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Coronus Grav-carrier",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin arachnus blaze cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin lastrum bolt cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001479",
+      "name": "Telemon Heavy Dreadnought",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 iliastus accelerator culverins; spiculus bolt launcher; armoured feet.",
+      "profiles": [
+        {
+          "name": "Telemon Heavy Dreadnought",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arachnus storm cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Iliastus accelerator culverin",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spiculus bolt launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin plasma projector",
+          "special_rules": [
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Armoured feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Telemon caestus",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001557",
+      "name": "Contemptor-galatus Dreadnought",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Galatus warblade.",
+      "profiles": [
+        {
+          "name": "Contemptor-galatus Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Galatus warblade",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Galatus warblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001558",
+      "name": "Aquilon Custodians",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lastrum storm bolter; solerite power gauntlet.",
+      "profiles": [
+        {
+          "name": "Aquilon Custodians",
+          "movement": "5\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernus firepike",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Lastrum storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin adrathic destructor",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Solerite power gauntlet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Solerite power talon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001559",
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: adrasite spear.",
+      "profiles": [
+        {
+          "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Adrasite spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Pyrithite spear",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Adrasite spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Pyrithite spear",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001560",
+      "name": "Agamatus Custodians",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lastrum bolt cannon; interceptor lance.",
+      "profiles": [
+        {
+          "name": "Agamatus Custodians",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Adrathic devastator",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Lastrum bolt cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin las-pulsar",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Interceptor lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001561",
+      "name": "Venatari Custodians",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Venatari lance.",
+      "profiles": [
+        {
+          "name": "Venatari Custodians",
+          "movement": "10\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kinetic destroyer",
+          "special_rules": [
+            "pistol",
+            "sustained hits 1"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Venatari lance",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Tarsis buckler",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Venatari lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001562",
+      "name": "Pallas Grav-attack",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin arachnus blaze cannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Pallas Grav-attack",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "105 x 70mm",
+          "base_size_description": "May use 50mm base instead"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin arachnus blaze cannon",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001563",
+      "name": "Sagittarum Custodians",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: adrastus bolt caliver; misericordia.",
+      "profiles": [
+        {
+          "name": "Sagittarum Custodians",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Adrastus bolt caliver",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Misericordia",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001564",
+      "name": "Orion Assault Dropship",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 arachnus heavy blaze cannons; 2 twin lastrum bolt cannons; 2 spiculus heavy bolt launchers; armoured hull.",
+      "profiles": [
+        {
+          "name": "Orion Assault Dropship",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "160mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arachnus heavy blaze cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spiculus heavy bolt launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin lastrum bolt cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001680",
+      "name": "Ares Gunship",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 arachnus heavy blaze cannons; arachnus magna-blaze cannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Ares Gunship",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "160mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arachnus heavy blaze cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Arachnus magna-blaze cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002088",
+      "name": "Aleya",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Somnus.",
+      "profiles": [
+        {
+          "name": "Aleya",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Somnus",
+          "special_rules": [
+            "anti-psyker 5+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002518",
+      "name": "Blade Champion",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: vaultswords.",
+      "profiles": [
+        {
+          "name": "Blade Champion",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Vaultswords – Behemor",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Vaultswords – Hurricanus",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Vaultswords – Victus",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002519",
+      "name": "Valerian",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Gnosis.",
+      "profiles": [
+        {
+          "name": "Valerian",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gnosis",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Gnosis",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002520",
+      "name": "Knight-centura",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: executioner greatblade.",
+      "profiles": [
+        {
+          "name": "Knight-centura",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Master-crafted boltgun",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Witchseeker flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Executioner greatblade",
+          "special_rules": [
+            "anti-psyker 5+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002521",
+      "name": "Prosecutors",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: boltgun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Prosecutors",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Boltgun",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002522",
+      "name": "Vigilators",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: executioner greatblade.",
+      "profiles": [
+        {
+          "name": "Vigilators",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Executioner greatblade",
+          "special_rules": [
+            "anti-psyker 5+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002523",
+      "name": "Witchseekers",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Witchseeker flamer; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Witchseekers",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Witchseeker flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002524",
+      "name": "Anathema Psykana Rhino",
+      "faction_id": "AC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Anathema Psykana Rhino",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hunter-killer missile",
+          "special_rules": [
+            "one shot"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Storm bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

@@ -1,0 +1,3236 @@
+{
+  "id": "TS",
+  "name": "Thousand Sons",
+  "units": [
+    {
+      "id": "000001016",
+      "name": "Thousand Sons Sorcerer",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Fires of the Abyss; inferno bolt pistol; force weapon.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Sorcerer",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fires of the Abyss",
+          "special_rules": [
+            "pistol",
+            "psychic",
+            "sustained hits 3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Warpflame pistol",
+          "special_rules": [
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001017",
+      "name": "Thousand Sons Sorcerer In Terminator Armour",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Coruscating Flames; inferno combi-bolter; force weapon.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Sorcerer In Terminator Armour",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Coruscating Flames",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Prosperine khopesh",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001019",
+      "name": "Thousand Sons Cultists",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Cultist firearm; brutal assault weapon.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Cultists",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cultist firearm",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Brutal assault weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001020",
+      "name": "Rubric Marines",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "The Aspiring Sorcerer is equipped with: inferno bolt pistol; Warpsmite; force weapon. Every Rubric Marine is equipped with: inferno boltgun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Rubric Marines",
+          "movement": "5\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno boltgun",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Soulreaper cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Warpsmite",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "pistol",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "Warpflame pistol",
+          "special_rules": [
+            "pistol",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Warpflamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001021",
+      "name": "Thousand Sons Helbrute",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: missile launcher; multi-melta; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Helbrute",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Helbrute plasma cannon",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin autocannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin inferno heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Helbrute fist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Helbrute hammer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power scourge",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001022",
+      "name": "Thousand Sons Rhino",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: inferno combi-bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Rhino",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001023",
+      "name": "Thousand Sons Chaos Spawn",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: hideous mutations.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Chaos Spawn",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hideous mutations",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001024",
+      "name": "Thousand Sons Heldrake",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Hades autocannon; Heldrake claws.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Heldrake",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Baleflamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Hades autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Heldrake claws",
+          "special_rules": [
+            "anti-fly 2+",
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001025",
+      "name": "Thousand Sons Land Raider",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 soulshatter lascannons; twin inferno heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Land Raider",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Soulshatter lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin inferno heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001026",
+      "name": "Thousand Sons Predator Destructor",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Predator autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Predator Destructor",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Predator autocannon",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001027",
+      "name": "Thousand Sons Vindicator",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Vindicator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Demolisher cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001028",
+      "name": "Thousand Sons Forgefiend",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Hades autocannons; 1 Forgefiend jaws.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Forgefiend",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ectoplasma cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Hades autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Forgefiend claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Forgefiend jaws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001029",
+      "name": "Thousand Sons Maulerfiend",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lasher tendrils; Maulerfiend fists.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Maulerfiend",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Magma cutter",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Maulerfiend fists",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Lasher tendrils",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001030",
+      "name": "Thousand Sons Defiler",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Defiler",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Defiler cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "ANTI-INFANTRY 4+",
+            "DEVASTATING WOUNDS",
+            "RAPID FIRE 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Reaper autocannon",
+          "special_rules": [
+            "DEVASTATING WOUNDS",
+            "SUSTAINED HITS 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin inferno heavy bolter",
+          "special_rules": [
+            "SUSTAINED HITS 1",
+            "TWIN-LINKED"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "TWIN-LINKED"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Defiler claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Defiler scourge",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001031",
+      "name": "Magnus The Red",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Gaze of Magnus; Tzeentch’s Firestorm; Blade of Magnus.",
+      "profiles": [
+        {
+          "name": "Magnus The Red",
+          "movement": "14\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "5+",
+          "objective_control": "6",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Gaze of Magnus",
+          "special_rules": [
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3D3",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Tzeentch’s Firestorm",
+          "special_rules": [
+            "blast",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Blade of Magnus – strike",
+          "special_rules": [
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "16",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Blade of Magnus – sweep",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001032",
+      "name": "Ahriman",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: inferno bolt pistol; Psychic Stalk; Black Staff of Ahriman.",
+      "profiles": [
+        {
+          "name": "Ahriman",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psychic Stalk",
+          "special_rules": [
+            "precision",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Black Staff of Ahriman",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001033",
+      "name": "Exalted Sorcerer",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Astral Blast; inferno bolt pistol; force weapon.",
+      "profiles": [
+        {
+          "name": "Exalted Sorcerer",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Astral Blast",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Warpflame pistol",
+          "special_rules": [
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Prosperine khopesh",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001034",
+      "name": "Tzaangors",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Tzaangor blades.",
+      "profiles": [
+        {
+          "name": "Tzaangors",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Chainsword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tzaangor blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001035",
+      "name": "Scarab Occult Terminators",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "The Scarab Occult Sorcerer is equipped with: inferno combi-bolter; Warpsmite; force weapon. Every Scarab Occult Terminator is equipped with: inferno combi-bolter; Prosperine khopesh.",
+      "profiles": [
+        {
+          "name": "Scarab Occult Terminators",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy warpflamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Hellfyre missile rack",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Soulreaper cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Warpsmite",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "pistol",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "Prosperine khopesh",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001036",
+      "name": "Thousand Sons Daemon Prince",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Daemon Prince",
+          "movement": "7\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001472",
+      "name": "Tzaangor Shaman",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: mutating orbs; Shaman’s stave.",
+      "profiles": [
+        {
+          "name": "Tzaangor Shaman",
+          "movement": "10\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mutating orbs",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Shaman’s stave",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001474",
+      "name": "Tzaangor Enlightened",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: divining spear.",
+      "profiles": [
+        {
+          "name": "Tzaangor Enlightened",
+          "movement": "10\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Fatecaster greatbow",
+          "special_rules": [
+            "lethal hits",
+            "precision"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Chainsword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Divining spear",
+          "special_rules": [
+            "lance",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001476",
+      "name": "Mutalith Vortex Beast",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: warp vortex; betentacled maw; Mutalith claws.",
+      "profiles": [
+        {
+          "name": "Mutalith Vortex Beast",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Warp vortex – blast",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Warp vortex – beam",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6"
+        },
+        {
+          "name": "Warp vortex – torrent",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Betentacled maw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Mutalith claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002500",
+      "name": "Infernal Master",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: inferno bolt pistol; Screamer Invocation; force weapon.",
+      "profiles": [
+        {
+          "name": "Infernal Master",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Screamer Invocation – witchfire",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Screamer Invocation – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "psychic",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000002501",
+      "name": "Thousand Sons Predator Annihilator",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Predator twin lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Predator Annihilator",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-bolter",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Inferno heavy bolter",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Predator twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002754",
+      "name": "Ahriman On Disc Of Tzeentch",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Psychic Stalk; inferno bolt pistol; Black Staff of Ahriman.",
+      "profiles": [
+        {
+          "name": "Ahriman On Disc Of Tzeentch",
+          "movement": "10\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Psychic Stalk",
+          "special_rules": [
+            "precision",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Black Staff of Ahriman",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002755",
+      "name": "Exalted Sorcerer On Disc Of Tzeentch",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Arcane Fire; inferno bolt pistol; force weapon.",
+      "profiles": [
+        {
+          "name": "Exalted Sorcerer On Disc Of Tzeentch",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arcane Fire",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Inferno bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Warpflame pistol",
+          "special_rules": [
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Prosperine khopesh",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000002756",
+      "name": "Thousand Sons Daemon Prince With Wings",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "Thousand Sons Daemon Prince With Wings",
+          "movement": "11\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000003591",
+      "name": "Chaos Thunderhawk",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.",
+      "profiles": [
+        {
+          "name": "Chaos Thunderhawk",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003597",
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bolt pistol; Astartes chainsword; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Chaos Lord On Disc Of Tzeentch",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003598",
+      "name": "Hell Blade",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin autocannons; armoured hull.",
+      "profiles": [
+        {
+          "name": "Hell Blade",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003599",
+      "name": "Hell Talon",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; twin lascannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Hell Talon",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003603",
+      "name": "Terrax-pattern Termite",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Terrax melta cutter; 2 combi-bolters; Termite drill.",
+      "profiles": [
+        {
+          "name": "Terrax-pattern Termite",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003607",
+      "name": "Land Raider Achilles",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: quad launcher; 2 twin volkite culverins; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Achilles",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003611",
+      "name": "Land Raider Proteus",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin lascannons; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Proteus",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003615",
+      "name": "Fire Raptor Gunship",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin avenger bolt cannon; 2 twin autocannons; 2 twin hellstrike launchers; armoured hull",
+      "profiles": [
+        {
+          "name": "Fire Raptor Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003619",
+      "name": "Spartan",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Spartan",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003623",
+      "name": "Deredeo Dreadnought",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: anvilus autocannon battery; twin heavy bolter; armoured feet.",
+      "profiles": [
+        {
+          "name": "Deredeo Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003627",
+      "name": "Cerberus",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Cerberus neutron pulse array; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Cerberus",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003631",
+      "name": "Kratos",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; Kratos battle cannon; 4 heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Kratos",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003635",
+      "name": "Sokar-pattern Stormbird",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: hellstrike missile battery; 3 twin heavy bolters; 4 twin lascannons; armoured hull.",
+      "profiles": [
+        {
+          "name": "Sokar-pattern Stormbird",
+          "movement": "20+\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "40",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003639",
+      "name": "Sicaran Battle Tank",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Herakles-pattern autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Battle Tank",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003643",
+      "name": "Mastodon",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy flamers; 2 lascannons; siege melta array; skyreaper battery; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Mastodon",
+          "movement": "9\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "12",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003647",
+      "name": "Leviathan Dreadnought",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy flamers; 2 grav-flux bombards; armoured feet.",
+      "profiles": [
+        {
+          "name": "Leviathan Dreadnought",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003651",
+      "name": "Fellblade",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; Fellblade accelerator cannon; 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Fellblade",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003655",
+      "name": "Relic Contemptor Dreadnought",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy plasma cannons; armoured feet.",
+      "profiles": [
+        {
+          "name": "Relic Contemptor Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003659",
+      "name": "Whirlwind Scorpius",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Scorpius multi-launcher; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Whirlwind Scorpius",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003663",
+      "name": "Xiphon Interceptor",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin lascannons; Xiphon missile battery; armoured hull.",
+      "profiles": [
+        {
+          "name": "Xiphon Interceptor",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003667",
+      "name": "Rapier Carrier",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: boltgun; quad heavy bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Rapier Carrier",
+          "movement": "3\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003671",
+      "name": "Storm Eagle Gunship",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin heavy bolter; 2 twin hellstrike launchers; vengeance launcher; armoured hull.",
+      "profiles": [
+        {
+          "name": "Storm Eagle Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003675",
+      "name": "Sicaran Venator",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Venator neutron laser; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Venator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003679",
+      "name": "Typhon",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: dreadhammer siege cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Typhon",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003683",
+      "name": "Sicaran Punisher",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Punisher rotary cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Punisher",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003687",
+      "name": "Falchion",
+      "faction_id": "TS",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons; twin heavy bolter; twin Falchion volcano cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Falchion",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    }
+  ]
+}

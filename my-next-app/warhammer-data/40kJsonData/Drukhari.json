@@ -1,0 +1,2434 @@
+{
+  "id": "DRU",
+  "name": "Drukhari",
+  "units": [
+    {
+      "id": "000000634",
+      "name": "Archon",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: splinter pistol; huskblade.",
+      "profiles": [
+        {
+          "name": "Archon",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "2",
+          "invulnerable_description": "You cannot re-roll invulnerable saving throws made for this model. The first time an invulnerable saving throw made for this model is failed, until the end of the battle, this model has no invulnerable saving throw.",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blast pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "D3"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Huskblade",
+          "special_rules": [
+            "anti-infantry 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000639",
+      "name": "Succubus",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Succubus weapons.",
+      "profiles": [
+        {
+          "name": "Succubus",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blast pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "D3"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Succubus weapons",
+          "special_rules": [
+            "anti-infantry 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000640",
+      "name": "Lelith Hesperax",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Lelith’s blades.",
+      "profiles": [
+        {
+          "name": "Lelith Hesperax",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Lelith’s blades",
+          "special_rules": [
+            "anti-infantry 2+",
+            "sustained hits 2"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000641",
+      "name": "Haemonculus",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: stinger pistol; Haemonculus tools and scissorhands.",
+      "profiles": [
+        {
+          "name": "Haemonculus",
+          "movement": "7\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Stinger pistol",
+          "special_rules": [
+            "anti-infantry 2+",
+            "pistol",
+            "precision"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "2",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Haemonculus tools and scissorhands",
+          "special_rules": [
+            "anti-infantry 2+",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000642",
+      "name": "Urien Rakarth",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Casket of Flensing; Haemonculus tools and scissorhands.",
+      "profiles": [
+        {
+          "name": "Urien Rakarth",
+          "movement": "7\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Casket of Flensing",
+          "special_rules": [
+            "devastating wounds",
+            "one shot",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Haemonculus tools and scissorhands",
+          "special_rules": [
+            "anti-infantry 2+",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000643",
+      "name": "Drazhar",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Executioner’s demiklaives.",
+      "profiles": [
+        {
+          "name": "Drazhar",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "The Executioner’s demiklaives – single blade",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "The Executioner’s demiklaives – dual blades",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000644",
+      "name": "Kabalite Warriors",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: splinter rifle; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Kabalite Warriors",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blast pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "D3"
+        },
+        {
+          "name": "Blaster",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Dark lance",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Shredder",
+          "special_rules": [
+            "assault",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter rifle",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Sybarite weapon",
+          "special_rules": [
+            "anti-infantry 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000646",
+      "name": "Wyches",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: splinter pistol; Hekatarii blade.",
+      "profiles": [
+        {
+          "name": "Wyches",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "*  The invulnerable save that models in this unit have is improved to a 4+ against melee attacks.",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blast pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D3"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Hekatarii blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000648",
+      "name": "Incubi",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: klaive.",
+      "profiles": [
+        {
+          "name": "Incubi",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "KLAIVEX",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Demiklaives – single blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Klaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Demiklaives – dual blades",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000649",
+      "name": "Mandrakes",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: baleblast; glimmersteel blade.",
+      "profiles": [
+        {
+          "name": "Mandrakes",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Baleblast",
+          "special_rules": [
+            "assault",
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Glimmersteel blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000650",
+      "name": "Wracks",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Wrack blades.",
+      "profiles": [
+        {
+          "name": "Wracks",
+          "movement": "7\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Liquifier gun",
+          "special_rules": [
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Ossefactor",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Hexrifle",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Stinger pistol",
+          "special_rules": [
+            "anti-infantry 2+",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Wrack blades",
+          "special_rules": [
+            "anti-infantry 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000651",
+      "name": "Grotesques",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: monstrous weapons.",
+      "profiles": [
+        {
+          "name": "Grotesques",
+          "movement": "7\"",
+          "toughness": "5",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Liquifier gun",
+          "special_rules": [
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Monstrous weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000652",
+      "name": "Beastmaster",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "The Beastmaster is equipped with: splinter pods; agoniser. Every Clawed Fiend is equipped with: Clawed Fiend fists. Every Khymerae is equipped with: Khymerae talons. Every Razorwing Flock is equipped with: Razorwing feathers.",
+      "profiles": [
+        {
+          "name": "BEASTMASTER",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        },
+        {
+          "name": "CLAWED FIEND",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "KHYMERAE",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "RAZORWING FLOCK",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Splinter pods",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Agoniser",
+          "special_rules": [
+            "anti-infantry 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Clawed Fiend fists",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Khymerae talons",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Razorwing feathers",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000656",
+      "name": "Raider",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: dark lance; bladevanes.",
+      "profiles": [
+        {
+          "name": "Raider",
+          "movement": "14\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dark lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Disintegrator cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bladevanes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000657",
+      "name": "Venom",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: splinter cannon; twin splinter rifle; bladevanes.",
+      "profiles": [
+        {
+          "name": "Venom",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin splinter rifle",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "rapid fire 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Bladevanes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000658",
+      "name": "Reavers",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: splinter pistol; splinter rifle; bladevanes.",
+      "profiles": [
+        {
+          "name": "Reavers",
+          "movement": "16\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blaster",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Heat lance",
+          "special_rules": [
+            "assault",
+            "melta 3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter rifle",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Bladevanes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Agoniser",
+          "special_rules": [
+            "anti-infantry 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000659",
+      "name": "Hellions",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: splinter pods; hellglaive.",
+      "profiles": [
+        {
+          "name": "Hellions",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter pods",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Helliarch weapon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Hellglaive",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000660",
+      "name": "Razorwing Jetfighter",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 dark lances; Razorwing missiles; twin splinter rifle; bladed wings.",
+      "profiles": [
+        {
+          "name": "Razorwing Jetfighter",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dark Lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Disintegrator",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Razorwing missiles – monoscythe missiles",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Razorwing missiles – nuerotoxin missiles",
+          "special_rules": [
+            "anti-infantry 2+",
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Razorwing missiles – shatterfield missiles",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin splinter rifle",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "rapid fire 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Bladed wings",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000661",
+      "name": "Voidraven Bomber",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 void lances; bladed wings.",
+      "profiles": [
+        {
+          "name": "Voidraven Bomber",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dark scythe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Void lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Voidraven missiles – implosion missiles",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Voidraven missiles – shatterfield missiles",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bladed wings",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000662",
+      "name": "Scourges",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shardcarbine; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Scourges",
+          "movement": "14\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blast pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "D3"
+        },
+        {
+          "name": "Blaster",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Dark lance",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Drukhari haywire blaster",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "heavy"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Heat lance",
+          "special_rules": [
+            "assault",
+            "heavy",
+            "melta 3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Shardcarbine",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shredder",
+          "special_rules": [
+            "assault",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Solarite weapon",
+          "special_rules": [
+            "anti-infantry 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000663",
+      "name": "Talos",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin splinter cannon; 2 macro-scalpels.",
+      "profiles": [
+        {
+          "name": "Talos",
+          "movement": "7\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin Drukhari haywire blaster",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin heat lance",
+          "special_rules": [
+            "assault",
+            "melta 3",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Stinger pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin liquifier gun",
+          "special_rules": [
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Chain-flails",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Macro-scalpel",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Talos gauntlet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Talos ichor injector",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000664",
+      "name": "Cronos",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every Cronos is equipped with: spirit syphon; spirit-leech tentacles.",
+      "profiles": [
+        {
+          "name": "Cronos",
+          "movement": "7\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Spirit syphon",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Spirit vortex",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Spirit-leech tentacles",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000665",
+      "name": "Ravager",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 3 dark lances; bladevanes.",
+      "profiles": [
+        {
+          "name": "Ravager",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dark lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Disintegrator cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bladevanes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000666",
+      "name": "Reaper",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm vortex projector; bladevanes; prow blade.",
+      "profiles": [
+        {
+          "name": "Reaper",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Storm vortex projector – beam",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Storm vortex projector – blast",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bladevanes",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Prow blade",
+          "special_rules": [
+            "extra attacks",
+            "lance",
+            "sustained hits 3"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000667",
+      "name": "Tantalus",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: pulse disintegrators; dire scythe blades.",
+      "profiles": [
+        {
+          "name": "Tantalus",
+          "movement": "16\"",
+          "toughness": "10",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Pulse disintegrators",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Dire scythe blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001390",
+      "name": "Raven Strike Fighter",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 dark lances; splinterstorm cannon; Bladed wings.",
+      "profiles": [
+        {
+          "name": "Raven Strike Fighter",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dark lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Splinterstorm cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bladed wings",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002471",
+      "name": "Court Of The Archon",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "A Lhamaean is equipped with: shaimeshi blade. A Medusae is equipped with: eyeburst; close combat weapon.A Sslyth is equipped with: shardcarbine; splinter pistol; Sslyth battle-blade. An Ur-ghul is equipped with: Ur-ghul talons.",
+      "profiles": [
+        {
+          "name": "Court Of The Archon",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": "Sslyth 40mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eyeburst",
+          "special_rules": [
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Shardcarbine",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Splinter pistol",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Sslyth battle-blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Shaimeshi blade",
+          "special_rules": [
+            "anti-infantry 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Ur-ghul talons",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000003862",
+      "name": "Death Jester",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shrieker cannon; Jester’s blade.",
+      "profiles": [
+        {
+          "name": "Death Jester",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003863",
+      "name": "Shadowseer",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; miststave.",
+      "profiles": [
+        {
+          "name": "Shadowseer",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003864",
+      "name": "Solitaire",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Solitaire weapons.",
+      "profiles": [
+        {
+          "name": "Solitaire",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "3",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003865",
+      "name": "Troupe Master",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; Troupe Master’s blade.",
+      "profiles": [
+        {
+          "name": "Troupe Master",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003866",
+      "name": "Starweaver",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 shuriken cannons; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Starweaver",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "65mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003867",
+      "name": "Webway Gate",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This unit is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003868",
+      "name": "Skyweavers",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken cannon; star bolas; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Skyweavers",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003869",
+      "name": "Troupe",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken pistol; Harlequin’s blade.",
+      "profiles": [
+        {
+          "name": "Troupe",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003870",
+      "name": "Voidweaver",
+      "faction_id": "DRU",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 shuriken cannons; Voidweaver haywire cannon; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Voidweaver",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "65mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    }
+  ]
+}

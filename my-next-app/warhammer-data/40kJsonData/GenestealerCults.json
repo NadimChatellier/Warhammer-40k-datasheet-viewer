@@ -1,0 +1,4828 @@
+{
+  "id": "GC",
+  "name": "Genestealer Cults",
+  "units": [
+    {
+      "id": "000000507",
+      "name": "Patriarch",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Patriarch’s claws.",
+      "profiles": [
+        {
+          "name": "Patriarch",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": "Psychic familiar 25mm"
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Patriarch’s claws",
+          "special_rules": [
+            "devastating wounds",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000508",
+      "name": "Magus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; Magus stave.",
+      "profiles": [
+        {
+          "name": "Magus",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": "Psychic familiar 25mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Magus stave",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000509",
+      "name": "Primus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: scoped needle pistol; cult bonesword; toxin injector claw.",
+      "profiles": [
+        {
+          "name": "Primus",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scoped needle pistol",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "pistol"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "1",
+          "AP": "0",
+          "D": "D3"
+        },
+        {
+          "name": "Cult bonesword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Toxin injector claw",
+          "special_rules": [
+            "anti-infantry 2+",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "2",
+          "AP": "0",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000510",
+      "name": "Acolyte Iconward",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; cult claws.",
+      "profiles": [
+        {
+          "name": "Acolyte Iconward",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Cult claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000511",
+      "name": "Acolyte Hybrids With Autopistols",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: autopistol; cult claws and knife.",
+      "profiles": [
+        {
+          "name": "Acolyte Hybrids",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Cult claws and knife",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Leader’s bio-weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Heavy mining tool",
+          "special_rules": [
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000512",
+      "name": "Neophyte Hybrids",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: autopistol; Hybrid firearm; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Neophyte Hybrids",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": "32mm if equipped with Heavy Mining Weapon"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Anointed pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Hybrid firearm",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Mining laser",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Seismic cannon",
+          "special_rules": [
+            "heavy",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Webber",
+          "special_rules": [
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Chainsword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000513",
+      "name": "Hybrid Metamorphs",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Metamorph Leader is equipped with: autopistol; Leader’s bio-weapons.Every Hybrid Metamorph is equipped with: autopistol; Metamorph mutations.",
+      "profiles": [
+        {
+          "name": "Hybrid Metamorphs",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Hand flamer",
+          "special_rules": [
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Leader’s bio-weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Metamorph mutations – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Metamorph mutations – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000514",
+      "name": "Aberrants",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every Aberrant is equipped with: Aberrant weapons.",
+      "profiles": [
+        {
+          "name": "Aberrants",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aberrant weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000515",
+      "name": "Purestrain Genestealers",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: cult claws and talons.",
+      "profiles": [
+        {
+          "name": "Purestrain Genestealers",
+          "movement": "8\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cult claws and talons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000516",
+      "name": "Goliath Truck",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy stubber; twin autocannon; demolition charge cache; armoured hull.",
+      "profiles": [
+        {
+          "name": "Goliath Truck",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Demolition charge cache",
+          "special_rules": [
+            "assault",
+            "blast",
+            "hazardous"
+          ],
+          "range": "8",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin autocannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000521",
+      "name": "Goliath Rockgrinder",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy mining laser; heavy stubber; drilldozer blade; demolition charge cache.",
+      "profiles": [
+        {
+          "name": "Goliath Rockgrinder",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Clearance incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Demolition charge cache",
+          "special_rules": [
+            "assault",
+            "blast",
+            "hazardous"
+          ],
+          "range": "8",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Heavy mining laser",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Heavy seismic cannon",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Drilldozer blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001546",
+      "name": "Abominant",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: power sledgehammer.",
+      "profiles": [
+        {
+          "name": "Abominant",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Power sledgehammer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001565",
+      "name": "Jackal Alphus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; cult sniper rifle; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Jackal Alphus",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Cult sniper rifle",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001567",
+      "name": "Clamavus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Clamavus",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001568",
+      "name": "Locus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Locus blades.",
+      "profiles": [
+        {
+          "name": "Locus",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Locus blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001569",
+      "name": "Sanctus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Sanctus bio-dagger.",
+      "profiles": [
+        {
+          "name": "Sanctus",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cult sniper rifle",
+          "special_rules": [
+            "anti-psyker 2+",
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Sanctus bio-dagger",
+          "special_rules": [
+            "anti-infantry 3+",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001570",
+      "name": "Kelermorph",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: liberator autostubs; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Kelermorph",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Liberator autostubs",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001571",
+      "name": "Nexos",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Nexos",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001572",
+      "name": "Biophagus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; chemical vials; injector goad, alchemicus familiar.",
+      "profiles": [
+        {
+          "name": "Biophagus",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": "Alchemicus familiar 25mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Chemical vials",
+          "special_rules": [
+            "anti-infantry 2+"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "1",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Injector goad",
+          "special_rules": [
+            "anti-infantry 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001573",
+      "name": "Achilles Ridgerunners",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: heavy mining laser; twin heavy stubbers; armoured hull; flare launcher.",
+      "profiles": [
+        {
+          "name": "Achilles Ridgerunners",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Achilles missile launcher",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy mining laser",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Heavy mortar",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy stubber",
+          "special_rules": [
+            "twin-linked",
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001574",
+      "name": "Atalan Jackals",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "* This unit can only contain 2 Atalan Wolfquads if it also contains 8 Atalan Jackals.Every Atalan Jackal is equipped with: Atalan small arms; close combat weapon. Every Atalan Wolfquad is equipped with: Atalan small arms; heavy stubber; close combat weapon.",
+      "profiles": [
+        {
+          "name": "ATALAN JACKAL",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "ATALAN WOLFQUAD",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Atalan incinerator",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Atalan small arms",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy stubber",
+          "special_rules": [
+            "assault",
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Mining laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Atalan power weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001576",
+      "name": "Tectonic Fragdrill",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: fragdrill.",
+      "profiles": [
+        {
+          "name": "Tectonic Fragdrill",
+          "movement": "-",
+          "toughness": "11",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fragdrill",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002525",
+      "name": "Reductus Saboteur",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autopistol; demolition charges; remote explosives; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Reductus Saboteur",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autopistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Demolition charges",
+          "special_rules": [
+            "assault",
+            "blast",
+            "one shot"
+          ],
+          "range": "8",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Remote explosives",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003715",
+      "name": "Benefictus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Psionic Cascade; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Benefictus",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Psionic Cascade - witchfire",
+          "special_rules": [
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Psionic Cascade - focused witchfire",
+          "special_rules": [
+            "HAZARDOUS. IGNORES COVER. PSYCHIC"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003716",
+      "name": "Acolyte Hybrids With Hand Flamers",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: hand flamer; cult claws and knife.",
+      "profiles": [
+        {
+          "name": "Acolyte Hybrids With Hand Flamers",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Demolition charges",
+          "special_rules": [
+            "assault",
+            "blast",
+            "hazardous",
+            "one shot"
+          ],
+          "range": "8",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Hand flamer",
+          "special_rules": [
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Cult claws and knife",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Leader’s bio-weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003717",
+      "name": "Cadian Castellan",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: laspistol; chainsword, close combat weapon.",
+      "profiles": [
+        {
+          "name": "Cadian Castellan",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003718",
+      "name": "Cadian Command Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Cadian Commander is equipped with: laspistol; chainsword.1 Cadian Veteran Guardsman is equipped with: las pistol; chainsword.1 other Cadian Veteran Guardsman is equipped with: lasgun; master vox; close combat weapon.1 other Cadian Veteran Guardsman is equipped with: lasgun; medi-pack; close combat weapon.1 other Cadian Veteran Guardsman is equipped with: lasgun; regimental standard; close combat weapon.",
+      "profiles": [
+        {
+          "name": "CADIAN COMMANDER",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "VETERAN GUARDSMAN",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003719",
+      "name": "Platoon Command Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Platoon Commander is equipped with: laspistol; close combat weapon. Every Veteran Guardsman is equipped with: lasgun; laspistol; close combat weapon. The Veteran Heavy Weapons Team is equipped with: heavy bolter; laspistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "PLATOON COMMANDER",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "VETERAN HEAVY WEAPONS TEAM",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "VETERAN GUARDSMAN",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autocannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Boltgun",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "PISTOL"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "BLAST",
+            "HEAVY"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak ",
+          "special_rules": [
+            "HEAVY"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Mortar",
+          "special_rules": [
+            "blast",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003720",
+      "name": "Primaris Psyker",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: laspistol; Psychic Maelstrom; force weapon.",
+      "profiles": [
+        {
+          "name": "Primaris Psyker",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003721",
+      "name": "Tank Commander",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lascannon; Leman Russ battle cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Tank Commander",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Demolisher battle cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "Eradicator nova cannon",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3+6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Executioner plasma cannon – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Executioner plasma cannon – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Exterminator autocannon",
+          "special_rules": [
+            "rapid fire 4",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Punisher gatling cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Vanquisher battle cannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003722",
+      "name": "Death Korps Marshal",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: laspistol; power sword.",
+      "profiles": [
+        {
+          "name": "Death Korps Marshal",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003723",
+      "name": "Death Rider Squadron Commander",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: laspistol; Death Rider hunting lance; savage claws.",
+      "profiles": [
+        {
+          "name": "Death Rider Squadron Commander",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003724",
+      "name": "Death Rider Commissar",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Commissar's pistol; Commissar's close combat weapon; savage claws.",
+      "profiles": [
+        {
+          "name": "Death Rider Commissar",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003725",
+      "name": "Quartermaster Cadre Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Quartermaster Revenant is equipped with: Quartermaster’s pistol; Quartermaster’s close combat weapon.Every Medicae Servitor is equipped with: medical scalpels",
+      "profiles": [
+        {
+          "name": "QUARTERMASTER REVENANT",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "MEDICAE SERVITOR",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003726",
+      "name": "Cadian Shock Troops",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every Shock Trooper Sergeant is equipped with: laspistol; chainsword. Every Shock Trooper is equipped with: lasgun; close combat weapon.This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed,the Leader units attached to it become separate units, withtheir original Starting Strengths.||false|||||https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Cadian-Shock-Troops|",
+      "profiles": [
+        {
+          "name": "Cadian Shock Troops",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003727",
+      "name": "Catachan Jungle Fighters",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every Jungle Fighter Sergeant is equipped with: laspistol; close combat weapon. Every Jungle Fighter is equipped with: lasgun; close combat weapon.This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.||false|||||https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Catachan-Jungle-Fighters|",
+      "profiles": [
+        {
+          "name": "Catachan Jungle Fighters",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003728",
+      "name": "Death Korps Of Krieg",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every Death Korps Watchmaster is equipped with: laspistol; chainsword. Every Death Korps Trooper is equipped with: lasgun; close combat weapon.This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.||false|||||https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Death-Korps-Of-Krieg|",
+      "profiles": [
+        {
+          "name": "Death Korps Of Krieg",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "PISTOL"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Boltgun",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003729",
+      "name": "Infantry Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every Sergeant is equipped with: laspistol; close combat weapon.   Every Guardsman is equipped with: lasgun; close combat weapon.   Every Heavy Weapons Team is equipped with: heavy bolter; laspistol; close combat weapon.  This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. Designer’s Note: Each Heavy Weapons Team model in this unit counts as 2 models for the purposes of wargear options.||false|||||https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Infantry-Squad|",
+      "profiles": [
+        {
+          "name": "GUARDSMAN",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "HEAVY WEAPONS TEAM",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "4",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Autocannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "PISTOL"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Boltgun",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Mortar",
+          "special_rules": [
+            "blast",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003730",
+      "name": "Chimera",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Chimera multi-laser; heavy bolter; lasgun array; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Chimera",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003731",
+      "name": "Taurox",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Taurox",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003732",
+      "name": "Taurox Prime",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Taurox battle cannon; twin Taurox hot-shot volley gun; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Taurox Prime",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003733",
+      "name": "Storm Chimera",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Storm Chimera",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003734",
+      "name": "Aegis Defence Line",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "",
+      "profiles": [
+        {
+          "name": "Aegis Defence Line",
+          "movement": "-",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003735",
+      "name": "Earthshaker Platform",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: earthshaker cannon; close combat weapons.",
+      "profiles": [
+        {
+          "name": "Earthshaker Platform",
+          "movement": "-",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003736",
+      "name": "Hydra Platform",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Hydra quad autocannon; close combat weapons.",
+      "profiles": [
+        {
+          "name": "Hydra Platform",
+          "movement": "-",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003737",
+      "name": "Manticore Platform",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: storm eagle rockets; close combat weapons.",
+      "profiles": [
+        {
+          "name": "Manticore Platform",
+          "movement": "-",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003738",
+      "name": "Sabre Weapons Battery",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin heavy bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Sabre Weapons Battery",
+          "movement": "-",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003739",
+      "name": "Armoured Sentinels",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Militarum multi-laser; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Armoured Sentinels",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003740",
+      "name": "Attilan Rough Riders",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lasgun; laspistol; hunting lance; steed’s hooves.",
+      "profiles": [
+        {
+          "name": "Attilan Rough Riders",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003741",
+      "name": "Baneblade",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Baneblade cannon; co-axial autocannon; demolisher cannon; heavy stubber; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Baneblade",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003742",
+      "name": "Banehammer",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; tremor cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Banehammer",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003743",
+      "name": "Banesword",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; quake cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Banesword",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003744",
+      "name": "Basilisk",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: earthshaker cannon; heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Basilisk",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003745",
+      "name": "Deathstrike",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Deathstrike missile; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Deathstrike",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003746",
+      "name": "Doomhammer",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; magma cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Doomhammer",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003747",
+      "name": "Field Ordnance Battery",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: malleus rocket launcher; lasgun; laspistol; battery close combat weapons.",
+      "profiles": [
+        {
+          "name": "Field Ordnance Battery",
+          "movement": "4\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003748",
+      "name": "Heavy Weapons Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: heavy bolter; las small arms; weapons team close combat weapons.",
+      "profiles": [
+        {
+          "name": "Heavy Weapons Squad",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003749",
+      "name": "Hellhammer",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: co-axial autocannon; demolisher cannon; heavy stubber; Hellhammer cannon; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Hellhammer",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003750",
+      "name": "Hellhound",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy flamer; inferno cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Hellhound",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003751",
+      "name": "Hydra",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Hydra autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Hydra",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003752",
+      "name": "Kasrkin",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Kasrkin Sergeant is equipped with: hot-shot laspistol; chainsword. Every Kasrkin Trooper is equipped with: hot-shot lasgun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Kasrkin",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt pistol",
+          "special_rules": [
+            "PISTOL"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003753",
+      "name": "Leman Russ Battle Tank",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lascannon; Leman Russ battle cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Battle Tank",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003754",
+      "name": "Leman Russ Demolisher",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher battle cannon; lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Demolisher",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003755",
+      "name": "Leman Russ Eradicator",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: eradicator nova cannon; lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Eradicator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003756",
+      "name": "Leman Russ Executioner",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: executioner plasma cannon; lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Executioner",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003757",
+      "name": "Leman Russ Exterminator",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: exterminator autocannon; lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Exterminator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003758",
+      "name": "Leman Russ Punisher",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lascannon; punisher gatling cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Punisher",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003759",
+      "name": "Leman Russ Vanquisher",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lascannon; vanquisher battle cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Leman Russ Vanquisher",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003760",
+      "name": "Manticore",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; storm eagle rockets; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Manticore",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003761",
+      "name": "Munitorum Servitors",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Servitor’s servo-arm.",
+      "profiles": [
+        {
+          "name": "Munitorum Servitors",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003762",
+      "name": "Regimental Attachés",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Master of Ordnance and Officer of the Fleet are both equipped with: laspistol; close combat weapon. The Astropath is equipped with: laspistol; Astropath’s stave.",
+      "profiles": [
+        {
+          "name": "Regimental Attachés",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003763",
+      "name": "Rogal Dorn Battle Tank",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: castigator gatling cannon; heavy stubber; twin battle cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Rogal Dorn Battle Tank",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003764",
+      "name": "Scout Sentinels",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Militarum multi-laser; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Scout Sentinels",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003765",
+      "name": "Shadowsword",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; twin heavy bolter; 2 twin heavy flamers; volcano cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Shadowsword",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003766",
+      "name": "Stormlord",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy stubbers; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; vulcan mega-bolter; armoured tracks",
+      "profiles": [
+        {
+          "name": "Stormlord",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003767",
+      "name": "Stormsword",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; Stormsword siege cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Stormsword",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003768",
+      "name": "Wyvern",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Wyvern quad stormshard mortar; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Wyvern",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003769",
+      "name": "Carnodon",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 autocannons; Carnodon twin autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Carnodon",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003770",
+      "name": "Colossus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Colossus siege mortar; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Colossus",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003771",
+      "name": "Crassus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 4 heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Crassus",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003772",
+      "name": "Cyclops Demolition Vehicle",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Cyclops Demolition Vehicle",
+          "movement": "8\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003773",
+      "name": "Death Rider Squadron",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: laspistol; Death Rider hunting lance; savage claws.",
+      "profiles": [
+        {
+          "name": "Death Rider Squadron",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003774",
+      "name": "Earthshaker Carriage Battery",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: earthshaker cannon; battery close combat weapons. Designer’s Note: Place five Heavy Artillery Crew tokens next to each Earthshaker Carriage model when this unit is first set up, removing one each time its Earthshaker Carriage model loses a wound (an Earthshaker Carriage model itself is considered to represent its final wound). These do not count as models for any rules purposes.",
+      "profiles": [
+        {
+          "name": "Earthshaker Carriage Battery",
+          "movement": "4\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003775",
+      "name": "Hades Breaching Drill",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: melta-cutter drill.",
+      "profiles": [
+        {
+          "name": "Hades Breaching Drill",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003776",
+      "name": "Macharius",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy stubbers; Macharius twin battle cannon; twin heavy stubber; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Macharius",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003777",
+      "name": "Macharius Vanquisher",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy stubbers; Macharius twin vanquisher cannon; twin heavy stubber; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Macharius Vanquisher",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003778",
+      "name": "Macharius Vulcan",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy stubbers; Macharius vulcan mega-bolter; twin heavy stubber; armoured tracks",
+      "profiles": [
+        {
+          "name": "Macharius Vulcan",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003779",
+      "name": "Malcador",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 autocannons; heavy bolter; Malcador battle cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Malcador",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003780",
+      "name": "Malcador Annihilator",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; 2 heavy bolters; Malcador twin lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Malcador Annihilator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003781",
+      "name": "Malcador Defender",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; 7 heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Malcador Defender",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003782",
+      "name": "Malcador Infernus",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy stubbers; inferno gun; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Malcador Infernus",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003783",
+      "name": "Medusa Carriage Battery",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Medusa siege cannon; battery close combat weapons. Designer’s Note: Place five Heavy Artillery Crew tokens next to each Medusa Carriage model when this unit is first set up, removing one each time its Medusa Carriage model loses a wound (a Medusa Carriage model itself is considered to represent its final wound). These do not count as models for any rules purposes.",
+      "profiles": [
+        {
+          "name": "Medusa Carriage Battery",
+          "movement": "4\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003784",
+      "name": "Praetor",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy bolters; Praetor launcher; armoured tracks",
+      "profiles": [
+        {
+          "name": "Praetor",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003785",
+      "name": "Rapier Laser Destroyer Battery",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: laser destroyer; close combat weapon.Designer’s Note: Place two Artillery Crew tokens next to each Rapier Laser Destroyer model when this unit is first set up, removing one each time its Rapier Laser Destroyer model loses a wound (a Rapier Laser Destroyer model itself is considered to represent its final wound).",
+      "profiles": [
+        {
+          "name": "Rapier Laser Destroyer Battery",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003786",
+      "name": "Stormblade",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; 1 Stormblade plasma blastgun; 2 twin heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Stormblade",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003787",
+      "name": "Tarantula Battery",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin heavy bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Tarantula Battery",
+          "movement": "-",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003788",
+      "name": "Trojan Support Vehicle",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Trojan Support Vehicle",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003789",
+      "name": "Valdor",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; Valdor neutron laser; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Valdor",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003790",
+      "name": "Arkurian Stormhammer",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lascannon; 7 multi-lasers; Stormhammer cannon; twin battle cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Arkurian Stormhammer",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003791",
+      "name": "Armageddon-pattern Medusa",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Medusa siege cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Armageddon-pattern Medusa",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003792",
+      "name": "Atlas Recovery Vehicle",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Atlas Recovery Vehicle",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003793",
+      "name": "Centaur Light Carrier",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy stubbers; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Centaur Light Carrier",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003794",
+      "name": "Death Korps Grenadier Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "The Grenadier Sergeant is equipped with: sergeant’s pistol; sergeant’s close combat weapon. Every Grenadier model is equipped with: hot-shot lasgun; close combat weapon. The Heavy Weapons Team is equipped with: heavy flamer; close combat weapon.",
+      "profiles": [
+        {
+          "name": "GRENADIER",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "HEAVY WEAPONS TEAM",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003795",
+      "name": "Dominus Armoured Siege Bombard",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Dominus triple bombard; 2 heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Dominus Armoured Siege Bombard",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003796",
+      "name": "Elysian Drop Sentinel",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Elysian Drop Sentinel",
+          "movement": "10\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003797",
+      "name": "Elysian Sniper Squad",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lasgun; sniper rifle; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Elysian Sniper Squad",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003798",
+      "name": "Gorgon Heavy Transport",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Gorgon mortars; 2 twin heavy stubbers; landing ramp.",
+      "profiles": [
+        {
+          "name": "Gorgon Heavy Transport",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "Against ranged attacks only",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003799",
+      "name": "Griffon Mortar Carrier",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Griffon heavy mortar; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Griffon Mortar Carrier",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003800",
+      "name": "Heavy Mortar Team",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy mortar; close combat weapons.",
+      "profiles": [
+        {
+          "name": "Heavy Mortar Team",
+          "movement": "4\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003801",
+      "name": "Heavy Quad Launcher Team",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy quad launcher; close combat weapons.",
+      "profiles": [
+        {
+          "name": "Heavy Quad Launcher Team",
+          "movement": "4\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003802",
+      "name": "Macharius Omega",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: omega-pattern plasma blastgun; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Macharius Omega",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003803",
+      "name": "Minotaur",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Minotaur twin earthshaker cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Minotaur",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003804",
+      "name": "Mukaali Riders",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: laspistol; hunting lance; stomping feet.",
+      "profiles": [
+        {
+          "name": "Mukaali Riders",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003805",
+      "name": "Salamander Command Vehicle",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; heavy flamer; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Salamander Command Vehicle",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003806",
+      "name": "Salamander Scout Vehicle",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Salamander Scout Vehicle",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003807",
+      "name": "Sentinel Powerlifter",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: powerlifter.",
+      "profiles": [
+        {
+          "name": "Sentinel Powerlifter",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003808",
+      "name": "Stygies Destroyer Tank Hunter",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Stygies laser destroyer; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Stygies Destroyer Tank Hunter",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003809",
+      "name": "Tauros Assault Vehicle",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy flamer; armoured frame.",
+      "profiles": [
+        {
+          "name": "Tauros Assault Vehicle",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003810",
+      "name": "Tauros Venator",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin multi-laser; armoured frame.",
+      "profiles": [
+        {
+          "name": "Tauros Venator",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003877",
+      "name": "Deathleaper",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Lictor claws and talons.",
+      "profiles": [
+        {
+          "name": "Deathleaper",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003878",
+      "name": "Parasite Of Mortrex",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: barbed ovipositor; clawed limbs.",
+      "profiles": [
+        {
+          "name": "Parasite Of Mortrex",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003879",
+      "name": "Winged Hive Tyrant",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: monstrous bonesword and lash whip; Tyrant talons.",
+      "profiles": [
+        {
+          "name": "Winged Hive Tyrant",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003880",
+      "name": "Winged Tyranid Prime",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Prime talons.",
+      "profiles": [
+        {
+          "name": "Winged Tyranid Prime",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003881",
+      "name": "Gargoyles",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: fleshborer; blinding venom.",
+      "profiles": [
+        {
+          "name": "Gargoyles",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003882",
+      "name": "Tyrannocyte",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Tyrannocyte bio-weapons; flensing whips.",
+      "profiles": [
+        {
+          "name": "Tyrannocyte",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003883",
+      "name": "Lictor",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Lictor claws and talons.",
+      "profiles": [
+        {
+          "name": "Lictor",
+          "movement": "8\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003884",
+      "name": "Mawloc",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: distensible jaw; Mawloc scything talons.",
+      "profiles": [
+        {
+          "name": "Mawloc",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003885",
+      "name": "Neurolictor",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: piercing claws and talons.",
+      "profiles": [
+        {
+          "name": "Neurolictor",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003886",
+      "name": "Raveners",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: thoracic bio-weapon; Ravener claws and talons.",
+      "profiles": [
+        {
+          "name": "Raveners",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003887",
+      "name": "Trygon",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bio-electric pulse; Trygon scything talons.",
+      "profiles": [
+        {
+          "name": "Trygon",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003888",
+      "name": "Von Ryan’s Leapers",
+      "faction_id": "GC",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Leaper’s talons.",
+      "profiles": [
+        {
+          "name": "Von Ryan’s Leapers",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    }
+  ]
+}

@@ -1,0 +1,2391 @@
+{
+  "id": "QI",
+  "name": "Imperial Knights",
+  "units": [
+    {
+      "id": "000000855",
+      "name": "Knight Paladin",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: meltagun; Questoris heavy stubber; rapid-fire battle cannon; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Knight Paladin",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus autocannons",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Rapid-fire battle cannon",
+          "special_rules": [
+            "blast",
+            "rapid fire d6+3"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000856",
+      "name": "Knight Errant",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: meltagun; thermal cannon; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Knight Errant",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus autocannons",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thermal cannon",
+          "special_rules": [
+            "blast",
+            "melta 6"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2D3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000857",
+      "name": "Knight Warden",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: avenger gatling cannon; heavy flamer; meltagun; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Knight Warden",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Avenger gatling cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Icarus autocannons",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000858",
+      "name": "Knight Gallant",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: meltagun; thunderstrike gauntlet; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Knight Gallant",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus autocannons",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000859",
+      "name": "Knight Crusader",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: avenger gatling cannon; heavy flamer; meltagun; thermal cannon; titanic feet.",
+      "profiles": [
+        {
+          "name": "Knight Crusader",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Avenger gatling cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Icarus autocannons",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Rapid-fire battle cannon",
+          "special_rules": [
+            "blast",
+            "rapid fire d6+3"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thermal cannon",
+          "special_rules": [
+            "blast",
+            "melta 6"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2D3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000860",
+      "name": "Acastus Knight Porphyrion",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet.",
+      "profiles": [
+        {
+          "name": "Acastus Knight Porphyrion",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Acastus autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Acastus ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Helios defence missiles",
+          "special_rules": [
+            "anti-fly 2+",
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin magna lascannon",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6"
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000861",
+      "name": "Cerastus Knight Acheron",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Acheron flame cannon; twin heavy bolter; reaper chainfist.",
+      "profiles": [
+        {
+          "name": "Cerastus Knight Acheron",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "25",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Acheron flame cannon",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin heavy bolter",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Reaper chainfist – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainfist – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000862",
+      "name": "Cerastus Knight Atrapos",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Atrapos lascutter; graviton singularity cannon.",
+      "profiles": [
+        {
+          "name": "Cerastus Knight Atrapos",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "25",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Atrapos lascutter – low intensity",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Atrapos lascutter – high intensity",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Graviton singularity cannon – contained",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Graviton singularity cannon – singularity",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Atrapos lascutter – low intensity",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Atrapos lascutter – high intensity",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        }
+      ]
+    },
+    {
+      "id": "000000863",
+      "name": "Cerastus Knight Castigator",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Castigator bolt cannon; tempest warblade.",
+      "profiles": [
+        {
+          "name": "Cerastus Knight Castigator",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "25",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Castigator bolt cannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "18",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Tempest warblade – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tempest warblade – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000864",
+      "name": "Cerastus Knight Lancer",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Cerastus shock lance.",
+      "profiles": [
+        {
+          "name": "Cerastus Knight Lancer",
+          "movement": "14\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "25",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cerastus shock lance",
+          "special_rules": [
+            "assault",
+            "sustained hits 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Cerastus shock lance – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Cerastus shock lance – strike",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
+        }
+      ]
+    },
+    {
+      "id": "000000865",
+      "name": "Questoris Knight Magaera",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lightning cannon; phased plasma-fusil; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Questoris Knight Magaera",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Lightning cannon",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Phased plasma-fusil",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Twin rad cleanser",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Hekaton siege claw – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hekaton siege claw – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000866",
+      "name": "Questoris Knight Styrix",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: graviton crusher; volkite chierovile; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Questoris Knight Styrix",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Graviton crusher",
+          "special_rules": [
+            "anti-vehicle 2+",
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin rad cleanser",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Volkite chierovile",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "30",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Hekaton siege claw – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hekaton siege claw – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001481",
+      "name": "Armiger Helverin",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Armiger autocannons; Questoris heavy stubber; armoured feet.",
+      "profiles": [
+        {
+          "name": "Armiger Helverin",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Armiger autocannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001482",
+      "name": "Armiger Warglaive",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Questoris heavy stubber; thermal spear; reaper chain-cleaver.",
+      "profiles": [
+        {
+          "name": "Armiger Warglaive",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Thermal spear",
+          "special_rules": [
+            "melta 4"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Reaper chain-cleaver – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chain-cleaver – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001483",
+      "name": "Knight Preceptor",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: las-impulsor; Preceptor multi-laser; reaper chainsword.",
+      "profiles": [
+        {
+          "name": "Knight Preceptor",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Icarus autocannons",
+          "special_rules": [
+            "anti-fly 2+",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ironstorm missile pod",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Las-impulsor – low intensity",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Las-impulsor – high intensity",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Preceptor multi-laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Thunderstrike gauntlet – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001484",
+      "name": "Canis Rex",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "Canis Rex is equipped with: Chainbreaker las-impulsor; Chainbreaker multi-laser; Freedom’s Hand.",
+      "profiles": [
+        {
+          "name": "Canis Rex",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "22",
+          "leadership": "5+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Chainbreaker las-impulsor – low intensity",
+          "special_rules": [
+            "blast",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Chainbreaker las-impulsor – high intensity",
+          "special_rules": [
+            "blast",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Chainbreaker multi-laser",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Freedom’s Hand – strike",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "20",
+          "AP": "-3",
+          "D": "9"
+        },
+        {
+          "name": "Freedom’s Hand – sweep",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001485",
+      "name": "Knight Castellan",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plasma decimator; 2 shieldbreaker missile launchers; 2 twin meltaguns; twin siegebreaker cannon, volcano lance; titanic feet.",
+      "profiles": [
+        {
+          "name": "Knight Castellan",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plasma decimator – standard",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plasma decimator – supercharge",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Shieldbreaker missile launcher",
+          "special_rules": [
+            "anti-titanic 4+",
+            "devastating wounds"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-6",
+          "D": "D6+1"
+        },
+        {
+          "name": "Twin meltagun",
+          "special_rules": [
+            "melta 2",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin siegebreaker cannon",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Volcano lance",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-5",
+          "D": "D6+8"
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001486",
+      "name": "Knight Valiant",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: conflagration cannon; 2 shieldbreaker missile launchers; thundercoil harpoon; 2 twin meltaguns; twin siegebreaker cannon, titanic feet.",
+      "profiles": [
+        {
+          "name": "Knight Valiant",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Conflagration cannon",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "N/A",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin meltagun",
+          "special_rules": [
+            "melta 2",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Shieldbreaker missile launcher",
+          "special_rules": [
+            "anti-titanic 4+",
+            "devastating wounds"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-6",
+          "D": "D6+1"
+        },
+        {
+          "name": "Thundercoil harpoon",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "24",
+          "AP": "-6",
+          "D": "12"
+        },
+        {
+          "name": "Twin siegebreaker cannon",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001664",
+      "name": "Acastus Knight Asterius",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet.",
+      "profiles": [
+        {
+          "name": "Acastus Knight Asterius",
+          "movement": "8\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Asterius volkite culverin",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Karacnos mortar battery",
+          "special_rules": [
+            "anti-infantry 2+",
+            "blast",
+            "ignores cover",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin conversion beam cannon",
+          "special_rules": [
+            "conversion",
+            "sustained hits d3",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-2",
+          "D": "6"
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002769",
+      "name": "Armiger Moirax",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: graviton pulsar; volkite veuglaire; armoured feet.",
+      "profiles": [
+        {
+          "name": "Armiger Moirax",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Conversion beam cannon",
+          "special_rules": [
+            "conversion",
+            "sustained hits d3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Graviton pulsar",
+          "special_rules": [
+            "ANTI-VEHICLE 2+",
+            "BLAST"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Lightning lock",
+          "special_rules": [
+            "sustained hits 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rad cleanser",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Volkite veuglaire",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Armoured feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Siege claw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002770",
+      "name": "Sir Hekhtur",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "Sir Hekhtur is equipped with: Hekhtur’s pistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Sir Hekhtur",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "5+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hekhtur’s pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003839",
+      "name": "Tech-priest Dominus",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: macrostubber; volkite blaster; Omnissian axe.",
+      "profiles": [
+        {
+          "name": "Tech-priest Dominus",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003840",
+      "name": "Tech-priest Manipulus",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: magnarail lance; Omnissian staff.",
+      "profiles": [
+        {
+          "name": "Tech-priest Manipulus",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003841",
+      "name": "Skitarii Marshal",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mechanicus pistol; control stave.",
+      "profiles": [
+        {
+          "name": "Skitarii Marshal",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003842",
+      "name": "Skitarii Rangers",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: galvanic rifle; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Skitarii Rangers",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": "60 x 35mm if equipped with transuranic arquebus"
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003843",
+      "name": "Skitarii Vanguard",
+      "faction_id": "QI",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: radium carbine; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Skitarii Vanguard",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": "60 x 35mm if equipped with transuranic arquebus"
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    }
+  ]
+}

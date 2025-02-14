@@ -1,0 +1,7130 @@
+{
+  "id": "ORK",
+  "name": "Orks",
+  "units": [
+    {
+      "id": "000000001",
+      "name": "Warboss",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kombi-weapon; twin slugga; big choppa.",
+      "profiles": [
+        {
+          "name": "Warboss",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kombi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin slugga",
+          "special_rules": [
+            "pistol",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Attack squig",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000002",
+      "name": "Warboss In Mega Armour",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: big shoota; ’uge choppa.",
+      "profiles": [
+        {
+          "name": "Warboss In Mega Armour",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "’Uge choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000003",
+      "name": "Warboss On Warbike",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin dakkagun; killsaw.",
+      "profiles": [
+        {
+          "name": "Warboss On Warbike",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "100 x 40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin dakkagun",
+          "special_rules": [
+            "assault",
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000004",
+      "name": "Weirdboy",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: ’Eadbanger; weirdboy staff.",
+      "profiles": [
+        {
+          "name": "Weirdboy",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "’Eadbanger",
+          "special_rules": [
+            "precision",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-3",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Weirdboy staff",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000006",
+      "name": "Big Mek In Mega Armour",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom-mega blaster; power klaw.",
+      "profiles": [
+        {
+          "name": "Big Mek In Mega Armour",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kombi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Kustom shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Tellyport blasta",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000007",
+      "name": "Big Mek On Warbike",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: slugga; twin dakkagun; choppa; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Big Mek On Warbike",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kombi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Kustom mega-slugga",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Shokk attack gun",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin dakkagun",
+          "special_rules": [
+            "assault",
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000008",
+      "name": "Ghazghkull Thraka",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Ghazghkull Thraka is equipped with: Mork’s Roar; Gork’s Klaw. Makari is equipped with: Makari’s stabba.",
+      "profiles": [
+        {
+          "name": "GHAZGHKULL THRAKA",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "80mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "MAKARI",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "7+",
+          "invulnerable_save": "2",
+          "invulnerable_description": "You cannot re-roll invulnerable saving throws made for this model.",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mork’s Roar",
+          "special_rules": [
+            "rapid fire 4"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Gork’s Klaw - strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Gork’s Klaw - sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Makari’s stabba",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000009",
+      "name": "Kaptin Badrukk",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: slugga; choppa; Da Rippa.",
+      "profiles": [
+        {
+          "name": "Kaptin Badrukk",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Da Rippa – standard",
+          "special_rules": [
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Da Rippa – supercharge",
+          "special_rules": [
+            "hazardous",
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000010",
+      "name": "Boss Zagstruk",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Da Vulcha’s Klaws and choppa; slugga.",
+      "profiles": [
+        {
+          "name": "Boss Zagstruk",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Da Vulcha’s Klaws and choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000011",
+      "name": "Boss Snikrot",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: slugga; Mork’s Teeth.",
+      "profiles": [
+        {
+          "name": "Boss Snikrot",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Mork’s Teeth",
+          "special_rules": [
+            "precision",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000012",
+      "name": "Mek",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom mega-slugga; wrench.",
+      "profiles": [
+        {
+          "name": "Mek",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom mega-slugga",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wrench",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000013",
+      "name": "Painboy",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: power klaw; ’urty syringe.",
+      "profiles": [
+        {
+          "name": "Painboy",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "’Urty syringe",
+          "special_rules": [
+            "anti-infantry 4+",
+            "extra attacks",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000014",
+      "name": "Painboy On Warbike",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin dakkagun; power klaw; 'urty syringe.",
+      "profiles": [
+        {
+          "name": "Painboy On Warbike",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin dakkagun",
+          "special_rules": [
+            "assault",
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "’Urty syringe",
+          "special_rules": [
+            "anti-infantry 4+",
+            "extra attacks",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000015",
+      "name": "Mad Dok Grotsnik",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: slugga; power klaw; ’urty syringe.",
+      "profiles": [
+        {
+          "name": "Mad Dok Grotsnik",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Power klaw",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "’Urty syringe",
+          "special_rules": [
+            "anti-infantry 4+",
+            "extra attacks",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000016",
+      "name": "Boyz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "The Boss Nob is equipped with: slugga; big choppa. Every Boy is equipped with: slugga; choppa.",
+      "profiles": [
+        {
+          "name": "BOY",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "BOSS NOB",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kombi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Shoota",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000017",
+      "name": "Gretchin",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every Runtherd is equipped with: slugga; Runtherd tools. Every Gretchin is equipped with: grot blasta; close combat weapon.",
+      "profiles": [
+        {
+          "name": "GRETCHIN",
+          "movement": "6\"",
+          "toughness": "2",
+          "save": "7+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "RUNTHERD",
+          "movement": "6\"",
+          "toughness": "5*",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grot blasta",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Runtherd tools",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000019",
+      "name": "Burna Boyz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every Spanner is equipped with: close combat weapon; big shoota. Every Burna Boy is equipped with: burna; cuttin’ flames.",
+      "profiles": [
+        {
+          "name": "Burna Boyz",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Burna",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Cuttin’ flames",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000020",
+      "name": "Tankbustas",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "The Boss Nob is equipped with: 2 rokkit pistols; choppa.Each Tankbusta is equipped with: rokkit launcha; close combat weapon.",
+      "profiles": [
+        {
+          "name": "TANKBUSTAS",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": "Nob on 40mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Rokkit pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Smash hammer",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000021",
+      "name": "Nobz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: slugga; big choppa.",
+      "profiles": [
+        {
+          "name": "Nobz",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kombi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000022",
+      "name": "Nob With Waaagh! Banner",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom shoota; Waaagh! banner.",
+      "profiles": [
+        {
+          "name": "Nob With Waaagh! Banner",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Waaagh! banner",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000023",
+      "name": "Nobz On Warbikes",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin dakkagun; choppa; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Nobz On Warbikes",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin dakkagun",
+          "special_rules": [
+            "assault",
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Power stabba",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000024",
+      "name": "Meganobz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: kustom shoota; power klaw.",
+      "profiles": [
+        {
+          "name": "Meganobz",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kombi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kustom shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Twin killsaw",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000025",
+      "name": "Kommandos",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: slugga; choppa.",
+      "profiles": [
+        {
+          "name": "KOMMANDOS",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "BOSS NOB",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Burna",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Speshul Kommando shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Breacha ram",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000026",
+      "name": "Trukk",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: big shoota; spiked wheels.",
+      "profiles": [
+        {
+          "name": "Trukk",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Spiked wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Wreckin’ ball",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "0",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000000027",
+      "name": "Stormboyz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: slugga; choppa.",
+      "profiles": [
+        {
+          "name": "STORMBOY",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "BOSS NOB",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000028",
+      "name": "Deffkoptas",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: kopta rokkits; slugga; spinnin’ blades.",
+      "profiles": [
+        {
+          "name": "Deffkoptas",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kopta rokkits",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Spinnin’ blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000029",
+      "name": "Dakkajet",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin supa-shootas; armoured hull.",
+      "profiles": [
+        {
+          "name": "Dakkajet",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin supa-shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000030",
+      "name": "Burna-bommer",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin big shoota; twin supa-shoota; armoured hull.",
+      "profiles": [
+        {
+          "name": "Burna-bommer",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin supa-shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Skorcha missile rack",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000031",
+      "name": "Blitza-bommer",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: big shoota; twin supa-shoota; armoured hull.",
+      "profiles": [
+        {
+          "name": "Blitza-bommer",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin supa-shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000032",
+      "name": "Wazbom Blastajet",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: smasha gun; twin wazbom mega-kannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Wazbom Blastajet",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Smasha gun",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Twin wazbom mega-kannon",
+          "special_rules": [
+            "blast",
+            "hazardous",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Twin supa-shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin tellyport mega-blasta",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-1",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000033",
+      "name": "Warbikers",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin dakkagun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "WARBIKER",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "BOSS NOB ON WARBIKE",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin dakkagun",
+          "special_rules": [
+            "assault",
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Big choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000034",
+      "name": "Wartrakks",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin big shoota; spiked wheel.",
+      "profiles": [
+        {
+          "name": "Wartrakks",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rack of rokkits",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Spiked wheel",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000035",
+      "name": "Skorchas",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: skorcha; spiked wheel.",
+      "profiles": [
+        {
+          "name": "Skorchas",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Spiked wheel",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000036",
+      "name": "Warbuggies",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin big shoota; spiked wheels.",
+      "profiles": [
+        {
+          "name": "Warbuggies",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rack of rokkits",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Spiked wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000037",
+      "name": "Big Gunz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: kannon; close combat weapons.",
+      "profiles": [
+        {
+          "name": "Big Gunz",
+          "movement": "3\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kannon – frag",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "6",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – shell",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "6",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Lobba",
+          "special_rules": [
+            "blast",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "6",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Zzap gun",
+          "special_rules": [
+            "devastating wounds",
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "6",
+          "S": "2D6",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapons",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000038",
+      "name": "Mek Gunz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: smasha gun; grot crew. Designer’s Note: Place five Grot Crew tokens next to each Mek Gun model when this unit is first set up, removing one each time its Mek Gun model loses a wound (a Mek Gun model itself is considered to represent its final wound).",
+      "profiles": [
+        {
+          "name": "Mek Gunz",
+          "movement": "3\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bubblechukka – big bubble",
+          "special_rules": [
+            "bubblechukka",
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bubblechukka – wobbly bubble",
+          "special_rules": [
+            "bubblechukka",
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Bubblechukka – dense bubble",
+          "special_rules": [
+            "bubblechukka",
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+3"
+        },
+        {
+          "name": "Kustom mega-kannon",
+          "special_rules": [
+            "BLAST",
+            "HAZARDOUS"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-1",
+          "D": "D6"
+        },
+        {
+          "name": "Smasha gun",
+          "special_rules": [
+            "BLAST"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D3+1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Traktor kannon",
+          "special_rules": [
+            "ANTI-FLY 2+",
+            "DEVASTATING WOUNDS"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        {
+          "name": "Grot crew",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000039",
+      "name": "Battlewagon",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: tracks and wheels.",
+      "profiles": [
+        {
+          "name": "Battlewagon",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Killkannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Lobba",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Zzap gun",
+          "special_rules": [
+            "anti-vehicle 4+"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "D6+6",
+          "AP": "-3",
+          "D": "5"
+        },
+        {
+          "name": "Deff rolla",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tracks and wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Grabbin’ klaw",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Wreckin’ ball",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "0",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000000040",
+      "name": "Deff Dread",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 big shootas; 2 dread klaws; stompy feet.",
+      "profiles": [
+        {
+          "name": "Deff Dread",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Dread klaw",
+          "special_rules": [
+            "dead choppy"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Stompy feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000041",
+      "name": "Killa Kans",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Kan shoota; Kan klaw.",
+      "profiles": [
+        {
+          "name": "Killa Kans",
+          "movement": "6\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kan shoota",
+          "special_rules": [
+            "devastating wounds",
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grotzooka",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Kan klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000042",
+      "name": "Morkanaut",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom mega-blasta; kustom mega-zappa; 2 rokkit launchas; 2 twin big shootas; klaw of Mork.",
+      "profiles": [
+        {
+          "name": "Morkanaut",
+          "movement": "8\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Kustom mega-zappa",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Klaw of Mork – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Klaw of Mork – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000043",
+      "name": "Gorkanaut",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: deffstorm mega-shoota; 2 rokkit launchas; skorcha; 2 twin big shootas; klaw of Gork.",
+      "profiles": [
+        {
+          "name": "Gorkanaut",
+          "movement": "8\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Deffstorm mega-shoota",
+          "special_rules": [
+            "rapid fire 10"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Klaw of Gork – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Klaw of Gork – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000044",
+      "name": "Lootas",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every Spanner is equipped with: big shoota; close combat weapon. Every Loota is equipped with: deffgun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Lootas",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Deffgun",
+          "special_rules": [
+            "heavy",
+            "rapid fire 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "6",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000045",
+      "name": "Flash Gitz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: snazzgun; choppa.",
+      "profiles": [
+        {
+          "name": "Flash Gitz",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Snazzgun",
+          "special_rules": [
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000046",
+      "name": "Stompa",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 3 big shootas; deffkannon; skorcha; supa-gatler; supa-rokkits; twin big shoota; mega-choppa.",
+      "profiles": [
+        {
+          "name": "Stompa",
+          "movement": "10\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "12",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Deffkannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "5",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Supa-gatler",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "5",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Supa-rokkits",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "100",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Mega-choppa – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Mega-choppa – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000049",
+      "name": "Grot Tanks",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: big shoota; ramshackle hull.",
+      "profiles": [
+        {
+          "name": "Grot Tanks",
+          "movement": "10\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grotzooka",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Ramshackle hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000050",
+      "name": "Grot Mega-tank",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Mega-tank weapons; twin big shoota; twin grotzooka; armoured hull.",
+      "profiles": [
+        {
+          "name": "Grot Mega-tank",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "8+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Mega-tank weapons",
+          "special_rules": [
+            "rapid fire 10"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "10",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin grotzooka",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin kustom mega-blasta",
+          "special_rules": [
+            "hazardous",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Twin rokkit launcha",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Twin skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000051",
+      "name": "Squiggoth",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: gorin’ horns.",
+      "profiles": [
+        {
+          "name": "Squiggoth",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Gorin’ horns – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Gorin’ horns – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000052",
+      "name": "Meka-dread",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: killkannon; dread rippa klaw; stompy feet.",
+      "profiles": [
+        {
+          "name": "Meka-dread",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Killkannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dread killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dread rippa klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Stompy feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000053",
+      "name": "Lifta Wagon",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lifta-droppa; tracks and wheels.",
+      "profiles": [
+        {
+          "name": "Lifta Wagon",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Lifta-droppa",
+          "special_rules": [
+            "anti-vehicle 3+"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Deff rolla",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Tracks and wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Grabbin’ klaw",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Wreckin’ ball",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "0",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000000054",
+      "name": "Big Trakk",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 big shootas; armoured hull.",
+      "profiles": [
+        {
+          "name": "Big Trakk",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Supa-kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Supa-kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000055",
+      "name": "Kannonwagon",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: supa-kannon; spiked ram.",
+      "profiles": [
+        {
+          "name": "Kannonwagon",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Supa-kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Supa-kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spiked ram",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000056",
+      "name": "Kill Tank",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bursta kannon; skorcha; twin big shoota; reinforced ram.",
+      "profiles": [
+        {
+          "name": "Kill Tank",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bursta kannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "5",
+          "S": "14",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Giga shoota",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "30",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Reinforced ram",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000057",
+      "name": "Chinork Warkopta",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: big shoota; 2 deffguns; armoured hull.",
+      "profiles": [
+        {
+          "name": "Chinork Warkopta",
+          "movement": "14\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Deffgun",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Rattler kannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000059",
+      "name": "Gargantuan Squiggoth",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: huge tusks.",
+      "profiles": [
+        {
+          "name": "Gargantuan Squiggoth",
+          "movement": "10\"",
+          "toughness": "13",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "7+",
+          "objective_control": "12",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Supa-kannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Huge tusks – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Huge tusks – strike",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "12"
+        }
+      ]
+    },
+    {
+      "id": "000001385",
+      "name": "Grot Bomm Launcha",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Grot-guided bomms; spiked wheel.",
+      "profiles": [
+        {
+          "name": "Grot Bomm Launcha",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grot-guided bomms",
+          "special_rules": [
+            "blast",
+            "one shot",
+            "indirect fire"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Spiked wheel",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001386",
+      "name": "Attack Fighta",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin big shootas; small bomms; armoured hull.",
+      "profiles": [
+        {
+          "name": "Attack Fighta",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Wing missiles",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001387",
+      "name": "Fighta-bommer",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 3 twin big shootas; armoured hull.",
+      "profiles": [
+        {
+          "name": "Fighta-bommer",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grot-guided bomm",
+          "special_rules": [
+            "blast",
+            "one shot",
+            "indirect fire"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Wing missiles",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Armoured hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001388",
+      "name": "Deff Rolla Battle Fortress",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kannon; 2 twin big shootas; 2 zzap guns; deff rolla.",
+      "profiles": [
+        {
+          "name": "Deff Rolla Battle Fortress",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Kannon – shell",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Lobba",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Zzap gun",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "2D6",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Deff rolla",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001389",
+      "name": "Kill Krusha",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: krusha kannon; tracks and wheels.",
+      "profiles": [
+        {
+          "name": "Kill Krusha",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "7+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Krusha kannon – blast burna",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Krusha kannon – tankhamma shell",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "16",
+          "AP": "-3",
+          "D": "6"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Skorcha",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Tracks and wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001536",
+      "name": "Big Mek With Shokk Attack Gun",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: close combat weapon, shokk attack gun.",
+      "profiles": [
+        {
+          "name": "Big Mek With Shokk Attack Gun",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shokk attack gun",
+          "special_rules": [
+            "blast",
+            "heavy"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001537",
+      "name": "Deffkilla Wartrike",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: defkilla boomsticks; killajet; snagga klaw.",
+      "profiles": [
+        {
+          "name": "Deffkilla Wartrike",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "150 x 95mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Boomstikks",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Killa jet – burna",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Killa jet – cutta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Snagga klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001538",
+      "name": "Kustom Boosta-blasta",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: burna exhausts; grot blasta; rivet kannon; spiked ram..",
+      "profiles": [
+        {
+          "name": "Kustom Boosta-blasta",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "150 x 95mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Burna exhausts",
+          "special_rules": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grot blasta",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Rivet kannon",
+          "special_rules": [
+            "assault",
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Spiked ram",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001539",
+      "name": "Shokkjump Dragsta",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom shokk rifle; rokkit launcha; saw blades.",
+      "profiles": [
+        {
+          "name": "Shokkjump Dragsta",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "150 x 95mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom shokk rifle",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "precision"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        {
+          "name": "Rokkit launcha",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Saw blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001540",
+      "name": "Boomdakka Snazzwagon",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: big shoota; grot blasta; Mek speshul; spiked wheels.",
+      "profiles": [
+        {
+          "name": "Boomdakka Snazzwagon",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "150 x 95mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grot blasta",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Mek speshul",
+          "special_rules": [
+            "assault",
+            "rapid fire 4",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Spiked wheels",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001541",
+      "name": "Megatrakk Scrapjet",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: rokkit kannon; 2 twin big shootas; wing missiles; nose drill.",
+      "profiles": [
+        {
+          "name": "Megatrakk Scrapjet",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "150 x 95mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rokkit kannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Wing missiles",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Nose drill",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001542",
+      "name": "Rukkatrukk Squigbuggy",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: sawn-off shotgun; squig-launchas; saw blades.",
+      "profiles": [
+        {
+          "name": "Rukkatrukk Squigbuggy",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "150 x 95mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Sawn-off shotgun",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Squig launchas",
+          "special_rules": [
+            "blast",
+            "ignores cover",
+            "indirect fire"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Saw blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001545",
+      "name": "Mekboy Workshop",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "",
+      "profiles": [
+        {
+          "name": "",
+          "movement": "-",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001993",
+      "name": "Da Red Gobbo with Icon of da Revolushun",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom grot blasta; Icon of da Revolushun.",
+      "profiles": [
+        {
+          "name": "Da Red Gobbo",
+          "movement": "6\"",
+          "toughness": "2",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom grot blasta",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Icon of da Revolushun",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002080",
+      "name": "Big Mek With Kustom Force Field",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: slugga; choppa.",
+      "profiles": [
+        {
+          "name": "Big Mek With Kustom Force Field",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002453",
+      "name": "Mega Dread",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 boombits; killkannon; dread rippa klaw; stompy feet.",
+      "profiles": [
+        {
+          "name": "Mega Dread",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Boombits",
+          "special_rules": [
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Killkannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dread killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dread rippa klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Stompy feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002488",
+      "name": "Zodgrod Wortsnagga",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Da Grabzappa; slugga.",
+      "profiles": [
+        {
+          "name": "Zodgrod Wortsnagga",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "Anti-Monster 4+",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Da Grabzappa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002489",
+      "name": "Beastboss",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shoota; beastchoppa; Beast Snagga klaw.",
+      "profiles": [
+        {
+          "name": "Beastboss",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shoota",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Beast Snagga klaw",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Beastchoppa",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002490",
+      "name": "Beastboss On Squigosaur",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: slugga; beastchoppa; Squigosaur’s jaws.",
+      "profiles": [
+        {
+          "name": "Beastboss On Squigosaur",
+          "movement": "10\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Thump gun",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Beastchoppa",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Squigosaur’s jaws",
+          "special_rules": [
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002491",
+      "name": "Painboss",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Beast Snagga klaw.",
+      "profiles": [
+        {
+          "name": "Painboss",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Beast Snagga klaw",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002492",
+      "name": "Wurrboy",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Eyez of Mork; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Wurrboy",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eyez of Mork",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002493",
+      "name": "Mozrog Skragbad",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: thump gun; Big Chompa’s jaws; gutrippa.",
+      "profiles": [
+        {
+          "name": "Mozrog Skragbad",
+          "movement": "10\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Thump gun",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Big Chompa’s jaws",
+          "special_rules": [
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "4"
+        },
+        {
+          "name": "Gutrippa",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002494",
+      "name": "Beast Snagga Boyz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "The Beast Snagga Nob is equipped with: slugga; power snappa. Every Beast Snagga Boy is equipped with: slugga; choppa.",
+      "profiles": [
+        {
+          "name": "BEAST SNAGGA BOY",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "BEAST SNAGGA NOB",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Thump gun",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power snappa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002496",
+      "name": "Squighog Boyz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every Nob on Smasha Squig is equipped with: slugga; big choppa; squig jaws.Every Squighog Boy is equipped with: saddlegit weapons; stikka; squig jaws.",
+      "profiles": [
+        {
+          "name": "Squighog Boyz",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "Nob On Smasha Squig",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Saddlegit weapons",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "Pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Stikka",
+          "special_rules": [
+            "assault",
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Big Choppa",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Stikka",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Squighog jaws and saddlegits",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002497",
+      "name": "Kill Rig",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: ’eavy lobba; stikka kannon; wurrtower; butcha boyz; savage horns and hooves; saw blades.",
+      "profiles": [
+        {
+          "name": "Kill Rig",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "’Eavy lobba",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Stikka kannon",
+          "special_rules": [
+            "anti-monster 2+",
+            "anti-vehicle 2+",
+            "snagged"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Wurrtower",
+          "special_rules": [
+            "hazardous",
+            "psychic",
+            "torrent"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "N/A",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "Saw blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Butcha boyz",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Savage horns and hooves",
+          "special_rules": [
+            "extra attacks",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002498",
+      "name": "Hunta Rig",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: ’eavy lobba; stikka kannon; butcha boyz; savage horns and hooves; saw blades.",
+      "profiles": [
+        {
+          "name": "Hunta Rig",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "170 x 109mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "’Eavy lobba",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Stikka kannon",
+          "special_rules": [
+            "anti-monster 2+",
+            "anti-vehicle 2+",
+            "snagged"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Saw blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Butcha boyz",
+          "special_rules": [
+            "extra attacks",
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Savage horns and hooves",
+          "special_rules": [
+            "extra attacks",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000002499",
+      "name": "Big’ed Bossbunka",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: big shoota; Gaze of Gork.",
+      "profiles": [
+        {
+          "name": "Big’ed Bossbunka",
+          "movement": "-",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Big shoota",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Gaze of Gork – glare",
+          "special_rules": [
+            "blast",
+            "sustained hits d3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Gaze of Gork – squint",
+          "special_rules": [
+            "sustained hits D3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "12",
+          "AP": "-4",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002736",
+      "name": "Deffkoptas With Big Shootas",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: slugga; twin big shoota; spinnin' blades.",
+      "profiles": [
+        {
+          "name": "Deffkoptas With Big Shootas",
+          "movement": "12\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kopta rokkits",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Slugga",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin big shoota",
+          "special_rules": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Killsaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spinnin’ blades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003691",
+      "name": "Da Red Gobbo’s Surprise",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom grot blasta; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Da Red Gobbo",
+          "movement": "6\"",
+          "toughness": "2",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom grot blasta",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003692",
+      "name": "Grotmas Gitz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bludgeoning bag of gifts; massive gift-filled gob.",
+      "profiles": [
+        {
+          "name": "",
+          "movement": "10\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bludgeoning bag of gifts",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Massive gift-filled gob",
+          "special_rules": [
+            "EXTRA ATTACKS"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000003707",
+      "name": "Big Mek",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: kustom-mega blaster; power klaw.",
+      "profiles": [
+        {
+          "name": "Big Mek",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Kustom mega-blasta",
+          "special_rules": [
+            "hazardous"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Traktor blasta",
+          "special_rules": [
+            "anti-fly 3+",
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        {
+          "name": "Drilla",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power klaw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003709",
+      "name": "Ufthak Blackhawk",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shokk rifle; snazzhammer; Princess’ jaws.",
+      "profiles": [
+        {
+          "name": "Ufthak Blackhawk",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shokk rifle",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "precision"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Princess’ jaws",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Snazzhammer",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000003861",
+      "name": "Breaka Boyz",
+      "faction_id": "ORK",
+      "unit_img": "",
+      "loadout": "The Boss Nob is equipped with: rokkit pistol; smash hammer; choppa.Each Breaka Boy is equipped with: smash hammer.",
+      "profiles": [
+        {
+          "name": "BREAKA BOY",
+          "movement": "6\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": "Nob on 40mm"
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rokkit pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Choppa",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Knucklebustas",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Smash hammer",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Tankhammer",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "devastating wounds",
+            "hazardous"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    }
+  ]
+}

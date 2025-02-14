@@ -1,0 +1,3902 @@
+{
+  "id": "CD",
+  "name": "Chaos Daemons",
+  "units": [
+    {
+      "id": "000001104",
+      "name": "Karanak",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: soul-rending fangs; collar of Khorne.",
+      "profiles": [
+        {
+          "name": "Karanak",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Soul-rending fangs",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001105",
+      "name": "Skarbrand",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bellow of endless fury; Slaughter and Carnage.",
+      "profiles": [
+        {
+          "name": "Skarbrand",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bellow of endless fury",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slaughter and Carnage – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Slaughter and Carnage – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001106",
+      "name": "Skulltaker",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Slayer Sword.",
+      "profiles": [
+        {
+          "name": "Skulltaker",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "The Slayer Sword",
+          "special_rules": [
+            "devastating wounds",
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001111",
+      "name": "Rendmaster On Blood Throne",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: attendants’ hellblades; blade of blood.",
+      "profiles": [
+        {
+          "name": "Rendmaster On Blood Throne",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blade of blood",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Attendants’ hellblades",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001112",
+      "name": "Flesh Hounds",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "The Gore Hound is equipped with: burning roar; gore-drenched fangs; collar of Khorne. Every Flesh Hound is equipped with: gore-drenched fangs; collar of Khorne.",
+      "profiles": [
+        {
+          "name": "Flesh Hounds",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Burning roar",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Gore-drenched fangs",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001114",
+      "name": "Bloodletters",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: hellblade.",
+      "profiles": [
+        {
+          "name": "Bloodletters",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hellblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001115",
+      "name": "Bloodcrushers",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: hellblade; Juggernaut’s bladed horn.",
+      "profiles": [
+        {
+          "name": "Bloodcrushers",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "90 x 52mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hellblade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Juggernaut’s bladed horn",
+          "special_rules": [
+            "extra attacks",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001116",
+      "name": "Skull Cannon",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: skull cannon; attendants’ hellblades; biting maw.",
+      "profiles": [
+        {
+          "name": "Skull Cannon",
+          "movement": "8\"",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Skull cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Biting maw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Attendants’ hellblades",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001117",
+      "name": "Kairos Fateweaver",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Infernal Gateway; Staff of Tomorrow.",
+      "profiles": [
+        {
+          "name": "Kairos Fateweaver",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal Gateway – witchfire",
+          "special_rules": [
+            "blast",
+            "indirect fire",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Infernal Gateway – focused witchfire",
+          "special_rules": [
+            "blast",
+            "indirect fire",
+            "hazardous",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3+6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-3",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Staff of Tomorrow",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2D3"
+        }
+      ]
+    },
+    {
+      "id": "000001118",
+      "name": "The Changeling",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Infernal Flames; the Trickster’s Staff.",
+      "profiles": [
+        {
+          "name": "The Changeling",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal Flames – witchfire",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Infernal Flames – focused witchfire",
+          "special_rules": [
+            "ignores cover",
+            "hazardous",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "The Trickster’s Staff",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001119",
+      "name": "The Blue Scribes",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: sharp quills.",
+      "profiles": [
+        {
+          "name": "The Blue Scribes",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "8+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Sharp quills",
+          "special_rules": [
+            "anti-psyker 2+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001120",
+      "name": "Lord Of Change",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Bolt of Change; staff of Tzeentch.",
+      "profiles": [
+        {
+          "name": "Lord Of Change",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rod of sorcery",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Bolt of Change – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bolt of Change – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Baleful sword",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Staff of Tzeentch",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001125",
+      "name": "Flamers",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Flickering Flames; Flamer mouths.",
+      "profiles": [
+        {
+          "name": "Flamers",
+          "movement": "9\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Flickering Flames",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Flamer mouths",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001126",
+      "name": "Exalted Flamer",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Fire of Tzeentch; Flamer mouths.",
+      "profiles": [
+        {
+          "name": "Exalted Flamer",
+          "movement": "9\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fire of Tzeentch – blue fire",
+          "special_rules": [
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Fire of Tzeentch – pink fire",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Flamer mouths",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001127",
+      "name": "Screamers",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lamprey bite.",
+      "profiles": [
+        {
+          "name": "Screamers",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Lamprey bite",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001128",
+      "name": "Burning Chariot",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Fire of Tzeentch; Flamer mouths; Screamer bites.",
+      "profiles": [
+        {
+          "name": "Burning Chariot",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fire of Tzeentch – blue fire",
+          "special_rules": [
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Fire of Tzeentch – pink fire",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Flamer mouths",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Screamer bites",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001129",
+      "name": "Epidemius",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: balesword and Nurgling attendants.",
+      "profiles": [
+        {
+          "name": "Epidemius",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "6+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Balesword and Nurgling attendants",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001130",
+      "name": "Great Unclean One",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague flail; putrid vomit; bilesword.",
+      "profiles": [
+        {
+          "name": "Great Unclean One",
+          "movement": "7\"",
+          "toughness": "12",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "130mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague flail",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Putrid vomit",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Bileblade",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Bilesword – strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Bilesword – sweep",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Doomsday bell",
+          "special_rules": [
+            "lethal hits",
+            "Reverberating summons"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001132",
+      "name": "Plaguebearers",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: plaguesword.",
+      "profiles": [
+        {
+          "name": "Plaguebearers",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Plaguesword",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001133",
+      "name": "Nurglings",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: diseased claws and teeth.",
+      "profiles": [
+        {
+          "name": "Nurglings",
+          "movement": "5\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "6",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Diseased claws and teeth",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001134",
+      "name": "Beasts Of Nurgle",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: putrid appendages.",
+      "profiles": [
+        {
+          "name": "Beasts Of Nurgle",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "6+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Putrid appendages",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001135",
+      "name": "Plague Drones",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: death’s heads; foul mouthparts; plaguesword.",
+      "profiles": [
+        {
+          "name": "Plague Drones",
+          "movement": "10\"",
+          "toughness": "8",
+          "save": "6+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Death’s heads",
+          "special_rules": [
+            "blast",
+            "lethal hits"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Foul mouthparts",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Plaguesword",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001136",
+      "name": "The Masque Of Slaanesh",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: serrated claws.",
+      "profiles": [
+        {
+          "name": "The Masque Of Slaanesh",
+          "movement": "9\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Serrated claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001137",
+      "name": "Keeper Of Secrets",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Phantasmagoria; snapping claws; witstealer sword.",
+      "profiles": [
+        {
+          "name": "Keeper Of Secrets",
+          "movement": "14\"",
+          "toughness": "10",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Living whip",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Phantasmagoria – witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Phantasmagoria – focused witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Witstealer sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Ritual knife",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Snapping claws",
+          "special_rules": [
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001138",
+      "name": "Tranceweaver",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: ravaging claws.",
+      "profiles": [
+        {
+          "name": "Tranceweaver",
+          "movement": "9\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Ravaging claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001139",
+      "name": "Herald Of Slaanesh On Steed Of Slaanesh",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lashing tongue; ravaging claws.",
+      "profiles": [
+        {
+          "name": "Herald Of Slaanesh On Steed Of Slaanesh",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Lashing tongue",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Ravaging claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001141",
+      "name": "Tormentbringer On Exalted Seeker Chariot",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lashes of torment; Exalted Seeker tongues; ravaging claws.",
+      "profiles": [
+        {
+          "name": "Tormentbringer On Exalted Seeker Chariot",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Lashes of torment",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Exalted Seeker tongues",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Ravaging claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "15",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001142",
+      "name": "Daemonettes",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: slashing claws.",
+      "profiles": [
+        {
+          "name": "Daemonettes",
+          "movement": "9\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Slashing claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001143",
+      "name": "Fiends",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: barbed tail and dissecting claws.",
+      "profiles": [
+        {
+          "name": "Fiends",
+          "movement": "12\"",
+          "toughness": "5",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Barbed tail and dissecting claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001144",
+      "name": "Hellflayer",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lashes of torment; bladed axle; Seeker tongues; slashing claws.",
+      "profiles": [
+        {
+          "name": "Hellflayer",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Lashes of torment",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Bladed axle",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Seeker tongues",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slashing claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "9",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001145",
+      "name": "Seekers",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lashing tongue; slashing claws.",
+      "profiles": [
+        {
+          "name": "Seekers",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Lashing tongue",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slashing claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001146",
+      "name": "Seeker Chariot",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lashes of torment; Seeker tongues; slashing claws.",
+      "profiles": [
+        {
+          "name": "Seeker Chariot",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Lashes of torment",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Seeker tongues",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slashing claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "9",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001147",
+      "name": "Exalted Seeker Chariot",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lashes of torment; Exalted Seeker tongues; slashing claws.",
+      "profiles": [
+        {
+          "name": "Exalted Seeker Chariot",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Lashes of torment",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Exalted Seeker tongues",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Slashing claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001148",
+      "name": "Be’lakor",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Betraying Shades; the Blade of Shadows.",
+      "profiles": [
+        {
+          "name": "Be’lakor",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Betraying Shades – witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Betraying Shades – focused witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "ignores cover",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "The Blade of Shadows – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "The Blade of Shadows – strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+1"
+        }
+      ]
+    },
+    {
+      "id": "000001149",
+      "name": "Daemon Prince Of Chaos",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "Daemon Prince Of Chaos",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001150",
+      "name": "Furies",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: daemonic claws.",
+      "profiles": [
+        {
+          "name": "Furies",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Daemonic claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001151",
+      "name": "Soul Grinder",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: harvester cannon; iron claw; warpsword.",
+      "profiles": [
+        {
+          "name": "Soul Grinder",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "7+",
+          "objective_control": "5",
+          "base_size": "160mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Harvester cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Torrent of burning blood",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Phlegm bombardment",
+          "special_rules": [
+            "blast",
+            "indirect fire",
+            "lethal hits"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Scream of despair",
+          "special_rules": [
+            "devastating wounds",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Warp gaze",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+2"
+        },
+        {
+          "name": "Iron claw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Warpclaw",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Warpsword",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        }
+      ]
+    },
+    {
+      "id": "000001329",
+      "name": "An’ggrath the Unbound",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bloodlash; axe of Khorne.",
+      "profiles": [
+        {
+          "name": "An'ggrath The Unbound",
+          "movement": "12\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "130mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bloodlash",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Axe of Khorne – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Axe of Khorne – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001332",
+      "name": "Zarakynel",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Phantasmagoria; snapping claws; souleater blade.",
+      "profiles": [
+        {
+          "name": "Zarakynel",
+          "movement": "14\"",
+          "toughness": "10",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Phantasmagoria – focused witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Phantasmagoria – witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Souleater blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Snapping claws",
+          "special_rules": [
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001333",
+      "name": "Aetaos’rau’keres",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Bolt of Tzeentch; staff of cataclysm; warpfire talons.",
+      "profiles": [
+        {
+          "name": "Aetaos'rau'keres",
+          "movement": "12\"",
+          "toughness": "10",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "130mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bolt of Tzeentch – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Bolt of Tzeentch – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Staff of cataclysm",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Warpfire talons",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001336",
+      "name": "Plague Toads",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: grasping tongue; yawning maw.",
+      "profiles": [
+        {
+          "name": "Plague Toads",
+          "movement": "7\"",
+          "toughness": "8",
+          "save": "6+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grasping tongue",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Yawning maw",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001337",
+      "name": "Pox Riders",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: grasping tongue; Pox Rider plaguesword; yawning maw.",
+      "profiles": [
+        {
+          "name": "Pox Riders",
+          "movement": "7\"",
+          "toughness": "8",
+          "save": "6+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Grasping tongue",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Pox Rider plaguesword",
+          "special_rules": [
+            "extra attacks",
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Yawning maw",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001338",
+      "name": "Spined Chaos Beast",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: jagged claws and tusked maw.",
+      "profiles": [
+        {
+          "name": "Spined Chaos Beast",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "7+",
+          "objective_control": "4",
+          "base_size": "No official base size",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Jagged claws and tusked maw",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001339",
+      "name": "Giant Chaos Spawn",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: churning fangs and claws.",
+      "profiles": [
+        {
+          "name": "Giant Chaos Spawn",
+          "movement": "10\"",
+          "toughness": "8",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Churning fangs and claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001340",
+      "name": "Scabeiathrax The Bloated",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: putrid vomit; blade of decay.",
+      "profiles": [
+        {
+          "name": "Scabeiathrax The Bloated",
+          "movement": "7\"",
+          "toughness": "12",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Putrid vomit",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Blade of decay – Strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Blade of decay – Sweep",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001455",
+      "name": "Bloodmaster",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: blade of blood.",
+      "profiles": [
+        {
+          "name": "Bloodmaster",
+          "movement": "6\"",
+          "toughness": "4",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blade of blood",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001456",
+      "name": "Skullmaster",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: blade of blood; Juggernaut’s bladed horn.",
+      "profiles": [
+        {
+          "name": "Skullmaster",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blade of blood",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Juggernaut’s bladed horn",
+          "special_rules": [
+            "extra attacks",
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001462",
+      "name": "Changecaster",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Arcane Fireball; Herald combat weapon.",
+      "profiles": [
+        {
+          "name": "Changecaster",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arcane Fireball – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Arcane Fireball – focused witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Herald combat weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001463",
+      "name": "Fateskimmer",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Arcane Fireball; Herald combat weapon; Screamer bites.",
+      "profiles": [
+        {
+          "name": "Fateskimmer",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "3",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arcane Fireball – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Arcane Fireball – focused witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Herald combat weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Screamer bites",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001464",
+      "name": "Fluxmaster",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Arcane Fireball; Herald combat weapon.",
+      "profiles": [
+        {
+          "name": "Fluxmaster",
+          "movement": "12\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arcane Fireball – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Arcane Fireball – focused witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "hazardous",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Herald combat weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001465",
+      "name": "Rotigus",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: streams of brackish filth; gnarlrod.",
+      "profiles": [
+        {
+          "name": "Rotigus",
+          "movement": "7\"",
+          "toughness": "12",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "130mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Streams of brackish filth",
+          "special_rules": [
+            "devastating wounds",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Gnarlrod – strike",
+          "special_rules": [
+            "lethal hits",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Gnarlrod – sweep",
+          "special_rules": [
+            "lethal hits",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001466",
+      "name": "Horticulous Slimux",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: acidic maw; lopping shears.",
+      "profiles": [
+        {
+          "name": "Horticulous Slimux",
+          "movement": "6\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "105 x 70mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Acidic maw",
+          "special_rules": [
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-4",
+          "D": "3"
+        },
+        {
+          "name": "Lopping shears",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000001467",
+      "name": "Poxbringer",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: foul balesword.",
+      "profiles": [
+        {
+          "name": "Poxbringer",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Foul balesword",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001468",
+      "name": "Sloppity Bilepiper",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: marotter.",
+      "profiles": [
+        {
+          "name": "Sloppity Bilepiper",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Marotter",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001469",
+      "name": "Spoilpox Scrivener",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: disgusting sneezes; plaguesword and distended maw.",
+      "profiles": [
+        {
+          "name": "Spoilpox Scrivener",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Disgusting sneezes",
+          "special_rules": [
+            "pistol",
+            "torrent"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Plaguesword and distended maw",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001470",
+      "name": "Feculent Gnarlmaw",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Feculent Gnarlmaw",
+          "movement": "-",
+          "toughness": "9",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001588",
+      "name": "Skull Altar",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "Skull Altar",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "7+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001589",
+      "name": "Infernal Enrapturess",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heartstring lyre; ravaging claws.",
+      "profiles": [
+        {
+          "name": "Infernal Enrapturess",
+          "movement": "9\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "60 x 35mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heartstring lyre – cacophonous melody",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heartstring lyre – euphonic blast",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Ravaging claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001647",
+      "name": "Contorted Epitome",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: coiled tentacles; ravaging claws.",
+      "profiles": [
+        {
+          "name": "Contorted Epitome",
+          "movement": "9\"",
+          "toughness": "6",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Coiled tentacles",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ravaging claws",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001648",
+      "name": "Shalaxi Helbane",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: lash of Slaanesh; Pavane of Slaanesh; snapping claws; soulpiercer.",
+      "profiles": [
+        {
+          "name": "Shalaxi Helbane",
+          "movement": "14\"",
+          "toughness": "10",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "20",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Lash of Slaanesh",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Pavane of Slaanesh – witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Pavane of Slaanesh – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "devastating wounds",
+            "psychic",
+            "sustained hits 3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Snapping claws",
+          "special_rules": [
+            "devastating wounds",
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Soulpiercer",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+2"
+        }
+      ]
+    },
+    {
+      "id": "000001649",
+      "name": "Syll’esske",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Cacophonic Choir; scourging whip; Axe of Dominion.",
+      "profiles": [
+        {
+          "name": "Syll’esske",
+          "movement": "9\"",
+          "toughness": "6",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "9",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cacophonic choir – witchfire",
+          "special_rules": [
+            "devastating wounds",
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Cacophonic choir – focused witchfire",
+          "special_rules": [
+            "psychic",
+            "hazardous",
+            "ignores cover",
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Scourging whip",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "9",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Axe of Dominion",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Scourging whip",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002582",
+      "name": "Bloodthirster",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: hellfire breath; great axe of Khorne",
+      "profiles": [
+        {
+          "name": "Bloodthirster",
+          "movement": "12\"",
+          "toughness": "11",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bloodflail",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Hellfire breath",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Lash of Khorne",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Axe of Khorne – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Axe of Khorne – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Great axe of Khorne – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Great axe of Khorne – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002583",
+      "name": "Blue Horrors",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every Blue Horror is equipped with: Coruscating Blue Flames; blue claws. Every Brimstone Horror added to this unit using the Split ability is equipped with: Coruscating Yellow Flames; yellow claws.",
+      "profiles": [
+        {
+          "name": "Blue Horrors",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "8+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Coruscating Blue Flames",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Coruscating Yellow Flames",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Blue claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Yellow claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002584",
+      "name": "Pink Horrors",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "Every Pink Horror is equipped with: Coruscating Pink Flames; pink claws. Every Blue Horror added to this unit using the Split ability is equipped with: Coruscating Blue Flames; blue claws. Every Brimstone Horror added to this unit using the Split ability is equipped with: Coruscating Yellow Flames; yellow claws.",
+      "profiles": [
+        {
+          "name": "PINK HORROR",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "BLUE HORROR/BRIMSTONE HORROR",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "7+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Coruscating Pink Flames",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Coruscating Blue Flames",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Coruscating Yellow Flames",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Pink claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Blue claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Yellow claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002758",
+      "name": "Daemon Prince Of Chaos With Wings",
+      "faction_id": "CD",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infernal cannon; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "Daemon Prince Of Chaos With Wings",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infernal cannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    }
+  ]
+}

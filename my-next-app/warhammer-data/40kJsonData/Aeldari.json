@@ -1,0 +1,7594 @@
+{
+  "id": "AE",
+  "name": "Aeldari",
+  "units": [
+    {
+      "id": "000000568",
+      "name": "Eldrad Ulthran",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; Mind War; the Staff of Ulthamar and witchblade.",
+      "profiles": [
+        {
+          "name": "Eldrad Ulthran",
+          "movement": "7\"",
+          "toughness": "4",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Mind War",
+          "special_rules": [
+            "anti-character 4+",
+            "precision",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "The Staff of Ulthamar and witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000569",
+      "name": "Prince Yriel",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Eye of Wrath; the Spear of Twilight.",
+      "profiles": [
+        {
+          "name": "Prince Yriel",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "The Eye of Wrath",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "The Spear of Twilight",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000570",
+      "name": "Illic Nightspear",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Voidbringer; shuriken pistol; Aeldari power sword.",
+      "profiles": [
+        {
+          "name": "Illic Nightspear",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "*  This model has a 5+ invulnerable save against ranged attacks.",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Voidbringer",
+          "special_rules": [
+            "devastating wounds",
+            "heavy",
+            "precision"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Aeldari power sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000571",
+      "name": "Asurmen",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Bloody Twins; the Sword of Asur.",
+      "profiles": [
+        {
+          "name": "Asurmen",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "3",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "The Bloody Twins",
+          "special_rules": [
+            "assault",
+            "lethal hits",
+            "pistol"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "The Sword of Asur",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000572",
+      "name": "Jain Zar",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Silent Death; the Blade of Destruction.",
+      "profiles": [
+        {
+          "name": "Jain Zar",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "The Silent Death",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "The Blade of Destruction – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "The Blade of Destruction – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000573",
+      "name": "Karandras",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Arhra’s Bane; Isirmathil; the Scorpion’s Bite.",
+      "profiles": [
+        {
+          "name": "Karandras",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Arhra’s Bane",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Arhra’s Bane",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Isirmathil",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000574",
+      "name": "Fuegan",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Searsong; the Fire Axe.",
+      "profiles": [
+        {
+          "name": "Fuegan",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Searsong – beam",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Searsong – lance",
+          "special_rules": [
+            "melta 6"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "The Fire Axe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000575",
+      "name": "Baharroth",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Fury of the Tempest; the Shining Blade.",
+      "profiles": [
+        {
+          "name": "Baharroth",
+          "movement": "14\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fury of the Tempest",
+          "special_rules": [
+            "assault",
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "The Shining Blade",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000576",
+      "name": "Maugan Ra",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Maugetar.",
+      "profiles": [
+        {
+          "name": "Maugan Ra",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "The Maugetar",
+          "special_rules": [
+            "devastating wounds",
+            "ignores cover"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "The Maugetar",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000577",
+      "name": "Autarch",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; star glaive.",
+      "profiles": [
+        {
+          "name": "Autarch",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Death spinner",
+          "special_rules": [
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Dragon fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Fusion pistol",
+          "special_rules": [
+            "assault",
+            "melta 2",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-4",
+          "D": "D3"
+        },
+        {
+          "name": "Reaper launcher – starswarm",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Reaper launcher – starshot",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Banshee blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Star glaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Scorpion chainsword",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000580",
+      "name": "Autarch Skyrunner",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: close combat weapon; laser lance; twin shuriken catapult.",
+      "profiles": [
+        {
+          "name": "Autarch Skyrunner",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dragon fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Laser lance",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Banshee blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Laser lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000581",
+      "name": "Avatar Of Khaine",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: the Wailing Doom",
+      "profiles": [
+        {
+          "name": "Avatar Of Khaine",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "The Wailing Doom",
+          "special_rules": [
+            "sustained hits d3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+2"
+        },
+        {
+          "name": "The Wailing Doom – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "The Wailing Doom – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000582",
+      "name": "Farseer",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; Eldritch Storm; witchblade.",
+      "profiles": [
+        {
+          "name": "Farseer",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eldritch Storm",
+          "special_rules": [
+            "blast",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "assault",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "0",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000583",
+      "name": "Farseer Skyrunner",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; twin shuriken catapult; Eldritch Storm; witchblade.",
+      "profiles": [
+        {
+          "name": "Farseer Skyrunner",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Eldritch Storm",
+          "special_rules": [
+            "blast",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "assault",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000584",
+      "name": "Warlock Conclave",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Destructor; shuriken pistol; witchblade.",
+      "profiles": [
+        {
+          "name": "Warlock Conclave",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Destructor",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "assault",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000585",
+      "name": "Warlock",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Destructor; shuriken pistol; witchblade.",
+      "profiles": [
+        {
+          "name": "Warlock",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Destructor",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "assault",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000586",
+      "name": "Warlock Skyrunner Conclave",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Destructor; shuriken pistol; twin shuriken catapult; witchblade.",
+      "profiles": [
+        {
+          "name": "Warlock Skyrunner Conclave",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Destructor",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "assault",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000587",
+      "name": "Warlock Skyrunner",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Destructor; shuriken pistol; twin shuriken catapult; witchblade.",
+      "profiles": [
+        {
+          "name": "Warlock Skyrunner",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Destructor",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "assault",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Singing spear",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "3"
+        },
+        {
+          "name": "Witchblade",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000588",
+      "name": "Spiritseer",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; witch staff.",
+      "profiles": [
+        {
+          "name": "Spiritseer",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Witch staff",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000000589",
+      "name": "Guardian Defenders",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every Guardian Defender is equipped with: shuriken catapult; close combat weapon. The Heavy Weapon Platform is equipped with: shuriken cannon; close combat weapon.",
+      "profiles": [
+        {
+          "name": "GUARDIAN DEFENDER",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "HEAVY WEAPON PLATFORM",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken catapult",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000590",
+      "name": "Storm Guardians",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every Storm Guardian is equipped with: shuriken pistol; Guardian combat weapon. The Serpent’s Scale Platform is equipped with: Guardian combat weapon; Serpent shield.",
+      "profiles": [
+        {
+          "name": "STORM GUARDIAN",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "SERPENT’S SCALE PLATFORM",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari flamer",
+          "special_rules": [
+            "assault",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Guardian fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari power sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Guardian combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000591",
+      "name": "Windriders",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: twin shuriken catapult; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Windriders",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000592",
+      "name": "Rangers",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Ranger long rifle; shuriken pistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Rangers",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "*  Models in this unit have a 5+ invulnerable save against ranged attacks.",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ranger long rifle",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000593",
+      "name": "Dire Avengers",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Avenger shuriken catapult; close combat weapon.",
+      "profiles": [
+        {
+          "name": "DIRE AVENGER",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "DIRE AVENGER EXARCH",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Avenger shuriken catapult",
+          "special_rules": [
+            "assault",
+            "lethal hits"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power glaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Diresword",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000594",
+      "name": "Howling Banshees",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken pistol; Banshee blade.",
+      "profiles": [
+        {
+          "name": "HOWLING BANSHEE",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "This invulnerable save is improved to 4+ against melee attacks.",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "HOWLING BANSHEE EXARCH",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "This invulnerable save is improved to 4+ against melee attacks.",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Triskele",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Banshee blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Executioner",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Mirrorswords",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Triskele",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000595",
+      "name": "Striking Scorpions",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken pistol; Scorpion chainsword; mandiblasters.",
+      "profiles": [
+        {
+          "name": "STRIKING SCORPION",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "STRIKING SCORPION EXARCH",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scorpion’s claw",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Biting blade",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Scorpion chainsword",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Scorpion’s claw",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000596",
+      "name": "Fire Dragons",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Dragon fusion gun; close combat weapon.",
+      "profiles": [
+        {
+          "name": "FIRE DRAGON",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "FIRE DRAGON EXARCH",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Dragon fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Dragon’s breath flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Firepike",
+          "special_rules": [
+            "melta 3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000597",
+      "name": "Wraithguard",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: wraithcannon; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Wraithguard",
+          "movement": "6\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Wraithcannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "D-scythe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000598",
+      "name": "Wraithblades",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: ghostswords.",
+      "profiles": [
+        {
+          "name": "Wraithblades",
+          "movement": "6\"",
+          "toughness": "7",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ghostaxe",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Ghostswords",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000599",
+      "name": "Wave Serpent",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin shuriken cannon; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Wave Serpent",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "13",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin Aeldari missile launcher – starshot",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Twin Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin bright lance",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Twin scatter laser",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin shuriken cannon",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin starcannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000600",
+      "name": "Swooping Hawks",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: lasblaster; close combat weapon.",
+      "profiles": [
+        {
+          "name": "SWOOPING HAWK",
+          "movement": "14\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "SWOOPING HAWK EXARCH",
+          "movement": "14\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hawk’s talon",
+          "special_rules": [
+            "assault",
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Lasblaster",
+          "special_rules": [
+            "assault",
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari power sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000601",
+      "name": "Warp Spiders",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: death spinner; close combat weapon.",
+      "profiles": [
+        {
+          "name": "WARP SPIDER",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "WARP SPIDER EXARCH",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Death spinner",
+          "special_rules": [
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Powerblades",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000602",
+      "name": "Shining Spears",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: laser lance; twin shuriken catapult.",
+      "profiles": [
+        {
+          "name": "SHINING SPEAR",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "If this unit Advances or makes a Charge move, until the start of your next turn, this invulnerable save is improved to 4+.",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        },
+        {
+          "name": "SHINING SPEAR EXARCH",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "If this unit Advances or makes a Charge move, until the start of your next turn, this invulnerable save is improved to 4+.",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Laser lance",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Star lance",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Paragon sabre",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Laser lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Star lance",
+          "special_rules": [
+            "lance"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000000603",
+      "name": "Crimson Hunter",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 starcannons; pulse laser; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Crimson Hunter",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Pulse laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000605",
+      "name": "Vyper",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken cannon; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Vypers",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000606",
+      "name": "Hemlock Wraithfighter",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy D-scythes; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Hemlock Wraithfighter",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy D-scythe",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-4",
+          "D": "2"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000607",
+      "name": "Dark Reapers",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Reaper launcher; close combat weapon.",
+      "profiles": [
+        {
+          "name": "DARK REAPER EXARCH",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "DARK REAPER",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [
+            "ignores cover"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Reaper launcher – starshot",
+          "special_rules": [
+            "ignores cover"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Reaper launcher – starswarm",
+          "special_rules": [
+            "ignores cover"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "ignores cover",
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Tempest launcher",
+          "special_rules": [
+            "blast",
+            "indirect fire"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000608",
+      "name": "Support Weapons",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shadow weaver; shuriken catapult; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Support Weapons",
+          "movement": "3\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "D-cannon",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+2"
+        },
+        {
+          "name": "Shadow weaver",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "heavy",
+            "indirect fire"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken catapult",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Vibro cannon",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000609",
+      "name": "Falcon",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: pulse laser; scatter laser; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Falcon",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Pulse laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000610",
+      "name": "Fire Prism",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: prism cannon; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Fire Prism",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Prism cannon – dispersed pulse",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Prism cannon – focused lances",
+          "special_rules": [
+            "linked fire"
+          ],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000611",
+      "name": "Night Spinner",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: doomweaver; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Night Spinner",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Doomweaver",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "indirect fire",
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000612",
+      "name": "War Walker",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 shuriken cannons; War Walker feet.",
+      "profiles": [
+        {
+          "name": "War Walkers",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "War Walker feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000613",
+      "name": "Wraithlord",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 shuriken catapults; wraithbone fists.",
+      "profiles": [
+        {
+          "name": "Wraithlord",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari flamer",
+          "special_rules": [
+            "assault",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken catapult",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Ghostglaive – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Ghostglaive – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraithbone fists",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000614",
+      "name": "Wraithknight",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: titanic ghostglaive; titanic feet; scattershield.",
+      "profiles": [
+        {
+          "name": "Wraithknight",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy wraithcannon",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-4",
+          "D": "2D6"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Suncannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Titanic ghostglaive – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Titanic ghostglaive – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000615",
+      "name": "Shadow Spectres",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: prism rifle; close combat weapon.",
+      "profiles": [
+        {
+          "name": "SHADOW SPECTRE",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "SHADOW SPECTRE EXARCH",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Prism rifle – dispersed",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Prism rifle – focused",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000616",
+      "name": "Wasp Assault Walker",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: scatter laser; shuriken cannon; Wasp feet.",
+      "profiles": [
+        {
+          "name": "Wasp Assault Walker",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wasp feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000617",
+      "name": "Wraithseer",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: destructor; ghostspear.",
+      "profiles": [
+        {
+          "name": "Wraithseer",
+          "movement": "8\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Destructor",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraithseer D-cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Ghostspear – sweep",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Ghostspear – strike",
+          "special_rules": [
+            "anti-infantry 2+",
+            "precision",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        }
+      ]
+    },
+    {
+      "id": "000000618",
+      "name": "Hornet",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 Hornet pulse lasers; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Hornet",
+          "movement": "14\"",
+          "toughness": "7",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hornet pulse laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000619",
+      "name": "Warp Hunter",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: D-flail; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Warp Hunter",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "D-flail – blast",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "3"
+        },
+        {
+          "name": "D-flail – rift",
+          "special_rules": [
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "N/A",
+          "S": "12",
+          "AP": "-4",
+          "D": "3"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000620",
+      "name": "Lynx",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Lynx pulsar; shuriken cannon; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Lynx",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Lynx pulsar",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000621",
+      "name": "Scorpion",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken cannon; twin Scorpion pulsar; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Scorpion",
+          "movement": "14\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin Scorpion pulsar",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-3",
+          "D": "5"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000622",
+      "name": "Cobra",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: D-impaler; shuriken cannon; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Cobra",
+          "movement": "14\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Bright lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "D-impaler",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "4"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000623",
+      "name": "Nightwing",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin bright lance; twin shuriken cannon; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Nightwing",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin bright lance",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Twin shuriken cannon",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000624",
+      "name": "Phoenix",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Phoenix missile array; Phoenix pulse laser; twin shuriken cannon; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Phoenix",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Phoenix missile array",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Phoenix pulse laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin shuriken cannon",
+          "special_rules": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000625",
+      "name": "Vampire Raider",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: scatter laser; 2 twin pulse lasers; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Vampire Raider",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "4*",
+          "invulnerable_description": "Against ranged attacks only",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin pulse laser",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000626",
+      "name": "Vampire Hunter",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: scatter laser; 2 twin pulse lasers; twin Vampire pulsar; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Vampire Hunter",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "4*",
+          "invulnerable_description": "Against ranged attacks only",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "170 x 109mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin pulse laser",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Twin Vampire pulsar",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000627",
+      "name": "Skathach Wraithknight",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: inferno lance; titanic feet; scattershield.",
+      "profiles": [
+        {
+          "name": "Skathach Wraithknight",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "10",
+          "base_size": "120 x 92mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Deathshroud cannon – dispersed",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Deathshroud cannon – focused",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Inferno lance",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Titanic feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000628",
+      "name": "Revenant Titan",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: cloudburst missile launcher; Revenant pulsar; sonic lance; Revenant feet.",
+      "profiles": [
+        {
+          "name": "Revenant Titan",
+          "movement": "16\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "16",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cloudburst missile launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Revenant pulsar",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "60",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Sonic lance",
+          "special_rules": [
+            "anti-monster 4+",
+            "anti-vehicle 4+",
+            "assault",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "N/A",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Revenant feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000629",
+      "name": "Corsair Cloud Dancer Band",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: brace of pistols; twin shuriken catapult; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Corsair Cloud Dancer Band",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Brace of pistols",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Dark lance",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Dissonance cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Dissonance pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Void sabre",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000630",
+      "name": "Irillyth",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Spear of Starlight.",
+      "profiles": [
+        {
+          "name": "Irillyth",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Spear of Starlight",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spear of Starlight",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000631",
+      "name": "Phantom Titan",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: D-bombard; Phantom pulsar; Phantom starcannon; voidstorm missile launcher; Phantom feet.",
+      "profiles": [
+        {
+          "name": "Phantom Titan",
+          "movement": "14\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "55",
+          "leadership": "6+",
+          "objective_control": "20",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Pulse laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Voidstorm missile launcher",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Phantom starcannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Phantom pulsar",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "D-bombard",
+          "special_rules": [
+            "blast",
+            "devastating wounds"
+          ],
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-4",
+          "D": "2D6"
+        },
+        {
+          "name": "Phantom feet",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraith glaive – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Wraith glaive – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000000632",
+      "name": "Corsair Reaver Band",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: brace of pistols; Corsair firearm; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Corsair Reaver Band",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot ",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Blaster",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Brace of pistols",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Corsair firearm",
+          "special_rules": [
+            "assault",
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Dark lance",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Dissonance pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Flamer",
+          "special_rules": [
+            "assault",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Shredder",
+          "special_rules": [
+            "assault",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spar-glaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Void sabre",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "BLAST"
+          ],
+          "range": "48",
+          "type": "Melee",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000000633",
+      "name": "Corsair Skyreaver Band",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: brace of pistols; Corsair firearm; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Corsair Skyreaver Band",
+          "movement": "14\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari missile launcher – sunburst",
+          "special_rules": [
+            "BLAST"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6 ",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Blaster",
+          "special_rules": [
+            "ASSAULT"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Brace of pistols",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Corsair firearm",
+          "special_rules": [
+            "assault",
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Dark lance",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        {
+          "name": "Dissonance pistol",
+          "special_rules": [
+            "devastating wounds",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Flamer",
+          "special_rules": [
+            "assault",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Shardcarbine",
+          "special_rules": [
+            "anti-infantry 3+",
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken catapult",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Splinter cannon",
+          "special_rules": [
+            "anti-infantry 3+",
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shredder",
+          "special_rules": [
+            "ASSAULT",
+            "TORRENT"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6 ",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Spar-glaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Void sabre",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001393",
+      "name": "Firestorm",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Firestorm scatter laser; twin shuriken catapult; wraithbone hull.",
+      "profiles": [
+        {
+          "name": "Firestorm",
+          "movement": "14\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Firestorm scatter laser",
+          "special_rules": [
+            "anti-fly 2+"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "16",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Twin shuriken catapult",
+          "special_rules": [
+            "assault",
+            "twin-linked"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "Wraithbone hull",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001400",
+      "name": "Bonesinger",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: psytronome shaper.",
+      "profiles": [
+        {
+          "name": "Bonesinger",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Psytronome shaper",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001598",
+      "name": "Amallyn Shadowguide",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: ranger long rifle; power blade.",
+      "profiles": [
+        {
+          "name": "Amallyn Shadowguide",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "5+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ranger long rifle",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Power blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002459",
+      "name": "Webway Gate",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This unit is equipped with: nothing.",
+      "profiles": [
+        {
+          "name": "",
+          "movement": "-",
+          "toughness": "12",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002531",
+      "name": "Corsair Voidreavers",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken pistol; Aeldari power sword; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Corsair Voidreavers",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Corsair shredder",
+          "special_rules": [
+            "assault",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Neuro disruptor",
+          "special_rules": [
+            "anti-infantry 2+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Corsair blaster",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken rifle",
+          "special_rules": [
+            "assault",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Wraithcannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Aeldari power sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002532",
+      "name": "Corsair Voidscarred",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every Corsair Voidscarred and Voidscarred Felarch is equipped with: shuriken pistol; Aeldari power sword; close combat weapon. A Shade Runner is equipped with: shuriken pistol; close combat weapon; paired Hekatarii blades. A Soul Weaver is equipped with: shuriken pistol; Aeldari power sword; close combat weapon; channeller stones. A Way Seeker is equipped with: shuriken pistol; Executioner; close combat weapon; witch staff.",
+      "profiles": [
+        {
+          "name": "Corsair Voidscarred",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "28mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Corsair shredder",
+          "special_rules": [
+            "assault",
+            "torrent"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Corsair blaster",
+          "special_rules": [
+            "assault"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        {
+          "name": "Executioner",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        },
+        {
+          "name": "Fusion pistol",
+          "special_rules": [
+            "assault",
+            "melta 2",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D3"
+        },
+        {
+          "name": "Neuro disruptor",
+          "special_rules": [
+            "anti-infantry 2+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Ranger long rifle",
+          "special_rules": [
+            "heavy",
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken rifle",
+          "special_rules": [
+            "assault",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Wraithcannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Aeldari power sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Paired Hekatarii blades",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Witch staff",
+          "special_rules": [
+            "anti-infantry 2+",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000002533",
+      "name": "Shroud Runners",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Ranger long rifle; scatter laser; shuriken pistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Shroud Runners",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "*  Models in this unit have a 5+ invulnerable save against ranged attacks.",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Ranger long rifle",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Scatter laser",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002534",
+      "name": "Troupe Master",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; Troupe Master’s blade.",
+      "profiles": [
+        {
+          "name": "Troupe Master",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fusion pistol",
+          "special_rules": [
+            "assault",
+            "melta 2",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-4",
+          "D": "D3"
+        },
+        {
+          "name": "Neuro disruptor",
+          "special_rules": [
+            "anti-infantry 2+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Harlequin’s special weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Troupe Master’s blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002535",
+      "name": "Shadowseer",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; miststave.",
+      "profiles": [
+        {
+          "name": "Shadowseer",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Neuro disruptor",
+          "special_rules": [
+            "anti-infantry 2+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Miststave",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000002536",
+      "name": "Troupe",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken pistol; Harlequin’s blade.",
+      "profiles": [
+        {
+          "name": "Troupe",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Fusion pistol",
+          "special_rules": [
+            "assault",
+            "melta 2",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-4",
+          "D": "D3"
+        },
+        {
+          "name": "Neuro disruptor",
+          "special_rules": [
+            "anti-infantry 2+",
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Aeldari power sword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Harlequin’s blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Harlequin’s special weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002537",
+      "name": "Death Jester",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shrieker cannon; Jester’s blade.",
+      "profiles": [
+        {
+          "name": "Death Jester",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shrieker cannon",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Jester’s blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002538",
+      "name": "Solitaire",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Solitaire weapons.",
+      "profiles": [
+        {
+          "name": "Solitaire",
+          "movement": "12\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "3",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Solitaire weapons",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "9",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002539",
+      "name": "Skyweavers",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: shuriken cannon; star bolas; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Skyweavers",
+          "movement": "14\"",
+          "toughness": "4",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Star bolas",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Skyweaver haywire cannon",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Zephyrglaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002540",
+      "name": "Voidweaver",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 shuriken cannons; Voidweaver haywire cannon; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Voidweaver",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "65mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Prismatic cannon – dispersed pulse",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Prismatic cannon – focused lances",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Voidweaver haywire cannon",
+          "special_rules": [
+            "anti-vehicle 4+",
+            "devastating wounds"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002541",
+      "name": "Starweaver",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 shuriken cannons; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Starweaver",
+          "movement": "14\"",
+          "toughness": "6",
+          "save": "4+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "65mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Shuriken cannon",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002542",
+      "name": "Yvraine",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Storm of Whispers; Kha-vir, the Sword of Sorrows.",
+      "profiles": [
+        {
+          "name": "Yvraine",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "75 x 42mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Storm of Whispers",
+          "special_rules": [
+            "anti-infantry 2+",
+            "devastating wounds",
+            "psychic"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "2",
+          "S": "2",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Kha-vir, the Sword of Sorrows",
+          "special_rules": [
+            "devastating wounds"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002543",
+      "name": "The Visarch",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Asu-var, the Sword of Silent Screams.",
+      "profiles": [
+        {
+          "name": "The Visarch",
+          "movement": "8\"",
+          "toughness": "3",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Asu-var, the Sword of Silent Screams",
+          "special_rules": [
+            "precision"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-4",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002544",
+      "name": "The Yncarne",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: swirling soul energy; Vilith-zhar, the Sword of Souls.",
+      "profiles": [
+        {
+          "name": "The Yncarne",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Swirling soul energy",
+          "special_rules": [
+            "ignores cover",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "7",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Vilith-zhar, the Sword of Souls – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Vilith-zhar, the Sword of Souls – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002759",
+      "name": "Autarch Wayleaper",
+      "faction_id": "AE",
+      "unit_img": "",
+      "loadout": "This model is equipped with: shuriken pistol; star glaive.",
+      "profiles": [
+        {
+          "name": "Autarch Wayleaper",
+          "movement": "14\"",
+          "toughness": "3",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Death spinner",
+          "special_rules": [
+            "devastating wounds",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Dragon fusion gun",
+          "special_rules": [
+            "assault",
+            "melta 3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Fusion pistol",
+          "special_rules": [
+            "assault",
+            "melta 2",
+            "pistol"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-4",
+          "D": "D3"
+        },
+        {
+          "name": "Reaper launcher – starshot",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Reaper launcher – starswarm",
+          "special_rules": [
+            "heavy"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Shuriken pistol",
+          "special_rules": [
+            "assault",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Star glaive",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Banshee blade",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Scorpion chainsword",
+          "special_rules": [
+            "sustained hits 1"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    }
+  ]
+}

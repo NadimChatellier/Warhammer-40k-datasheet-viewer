@@ -1,0 +1,3617 @@
+{
+  "id": "DG",
+  "name": "Death Guard",
+  "units": [
+    {
+      "id": "000001037",
+      "name": "Death Guard Chaos Lord",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague bolt pistol; Astartes chainsword.",
+      "profiles": [
+        {
+          "name": "Death Guard Chaos Lord",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague bolt pistol",
+          "special_rules": [
+            "lethal hits",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Astartes chainsword",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Plague fist",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plague-encrusted exalted weapon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Twin lightning claws",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001038",
+      "name": "Death Guard Chaos Lord In Terminator Armour",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague combi-bolter; plague-encrusted exalted weapon.",
+      "profiles": [
+        {
+          "name": "Death Guard Chaos Lord In Terminator Armour",
+          "movement": "4\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Chainfist",
+          "special_rules": [
+            "anti-vehicle 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plague fist",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plague-encrusted exalted weapon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Twin lightning claws",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001041",
+      "name": "Death Guard Sorcerer In Terminator Armour",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Curse of the Leper; plague combi-bolter; force weapon.",
+      "profiles": [
+        {
+          "name": "Death Guard Sorcerer In Terminator Armour",
+          "movement": "4\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "5",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Curse of the Leper – witchfire",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Curse of the Leper – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "psychic"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Chainfist",
+          "special_rules": [
+            "anti-vehicle 3+"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Force weapon",
+          "special_rules": [
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Plague fist",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plague-encrusted exalted weapon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Twin lightning claws",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001043",
+      "name": "Death Guard Cultists",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: Cultist firearm; brutal assault weapon.",
+      "profiles": [
+        {
+          "name": "Death Guard Cultists",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Cultist firearm",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Grenade launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Heavy stubber",
+          "special_rules": [
+            "rapid fire 3"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Brutal assault weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001044",
+      "name": "Plague Marines",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: plague boltgun; plague knives.",
+      "profiles": [
+        {
+          "name": "Plague Marines",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "2",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blight launcher",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Meltagun",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Plague belcher",
+          "special_rules": [
+            "anti-infantry 4+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague bolt pistol",
+          "special_rules": [
+            "lethal hits",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague boltgun",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague spewer",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Plasma gun – standard",
+          "special_rules": [
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma gun – supercharge",
+          "special_rules": [
+            "hazardous",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Bubotic weapons",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Heavy plague weapon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plague knives",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001045",
+      "name": "Death Guard Possessed",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Each model is equipped with: hideous mutations.",
+      "profiles": [
+        {
+          "name": "Death Guard Possessed",
+          "movement": "9\"",
+          "toughness": "6",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hideous mutations",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001046",
+      "name": "Death Guard Helbrute",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: multi-melta; missile launcher; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Death Guard Helbrute",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy flamer",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Helbrute plasma cannon",
+          "special_rules": [
+            "blast",
+            "hazardous"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Twin autocannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Twin plague heavy bolter",
+          "special_rules": [
+            "lethal hits",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Helbrute fist",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Helbrute hammer",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Power scourge",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001047",
+      "name": "Death Guard Rhino",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague combi-bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Death Guard Rhino",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001048",
+      "name": "Death Guard Chaos Spawn",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: hideous mutations.",
+      "profiles": [
+        {
+          "name": "Death Guard Chaos Spawn",
+          "movement": "8\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hideous mutations",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001049",
+      "name": "Death Guard Land Raider",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 soulshatter lascannons; twin plague heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Death Guard Land Raider",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Soulshatter lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Twin plague heavy bolter",
+          "special_rules": [
+            "lethal hits",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001050",
+      "name": "Death Guard Predator Annihilator",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Predator twin lascannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Death Guard Predator Annihilator",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague heavy bolter",
+          "special_rules": [
+            "lethal hits",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Predator twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001051",
+      "name": "Death Guard Defiler",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws.",
+      "profiles": [
+        {
+          "name": "Death Guard Defiler",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Defiler cannon",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Reaper autocannon",
+          "special_rules": [
+            "devastating wounds",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin heavy flamer",
+          "special_rules": [
+            "torrent",
+            "ignores cover",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Twin lascannon",
+          "special_rules": [
+            "twin-linked"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Twin plague heavy bolter",
+          "special_rules": [
+            "lethal hits",
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Defiler claws",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Defiler scourge",
+          "special_rules": [
+            "extra attacks"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001052",
+      "name": "Death Guard Daemon Prince",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague spewer; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "Death Guard Daemon Prince",
+          "movement": "7\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague spewer",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001053",
+      "name": "Typhus",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: master-crafted manreaper.",
+      "profiles": [
+        {
+          "name": "Typhus",
+          "movement": "5\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Master-crafted manreaper – strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Master-crafted manreaper – sweep",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001054",
+      "name": "Lord Of Contagion",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plagueblade.",
+      "profiles": [
+        {
+          "name": "Lord Of Contagion",
+          "movement": "4\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": "40mm if equipped with manreaper and orb of desiccation"
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Plagueblade – strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Plagueblade – sweep",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001055",
+      "name": "Malignant Plaguecaster",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague bolt pistol; Plague Wind; corrupted staff.",
+      "profiles": [
+        {
+          "name": "Malignant Plaguecaster",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague bolt pistol",
+          "special_rules": [
+            "lethal hits",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague Wind – witchfire",
+          "special_rules": [
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "D3"
+        },
+        {
+          "name": "Plague Wind – focused witchfire",
+          "special_rules": [
+            "hazardous",
+            "psychic",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Corrupted staff",
+          "special_rules": [
+            "lethal hits",
+            "psychic"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        }
+      ]
+    },
+    {
+      "id": "000001056",
+      "name": "Poxwalkers",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: improvised weapon.",
+      "profiles": [
+        {
+          "name": "Poxwalkers",
+          "movement": "4\"",
+          "toughness": "4",
+          "save": "7+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": [
+        {
+          "name": "Improvised weapon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001057",
+      "name": "Foetid Bloat-drone",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: fleshmower; plague probe.",
+      "profiles": [
+        {
+          "name": "Foetid Bloat-drone",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Heavy blight launcher",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Plaguespitter",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Fleshmower",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Plague probe",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001058",
+      "name": "Noxious Blightbringer",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plasma pistol; cursed plague bell.",
+      "profiles": [
+        {
+          "name": "Noxious Blightbringer",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plasma pistol – standard",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma pistol – supercharge",
+          "special_rules": [
+            "pistol",
+            "hazardous"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Cursed plague bell",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001367",
+      "name": "Foul Blightspawn",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague sprayer; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Foul Blightspawn",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague sprayer",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001368",
+      "name": "Biologus Putrifier",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: hyper blight grenades; injector pistol; plague knives.",
+      "profiles": [
+        {
+          "name": "Biologus Putrifier",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Hyper blight grenades",
+          "special_rules": [
+            "assault",
+            "blast",
+            "lethal hits"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Injector pistol",
+          "special_rules": [
+            "pistol"
+          ],
+          "range": "3",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Plague knives",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001369",
+      "name": "Plague Surgeon",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague bolt pistol; balesword.",
+      "profiles": [
+        {
+          "name": "Plague Surgeon",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague bolt pistol",
+          "special_rules": [
+            "lethal hits",
+            "pistol"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Balesword",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001370",
+      "name": "Tallyman",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: infected plasma pistol; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Tallyman",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Infected plasma pistol – standard",
+          "special_rules": [
+            "pistol",
+            "sustained hits d3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Infected plasma pistol – supercharge",
+          "special_rules": [
+            "hazardous",
+            "pistol",
+            "sustained hits d3"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001371",
+      "name": "Deathshroud Terminators",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: plaguespurt gauntlet; manreaper.",
+      "profiles": [
+        {
+          "name": "Deathshroud Terminators",
+          "movement": "4\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plaguespurt gauntlet",
+          "special_rules": [
+            "anti-infantry 4+",
+            "ignores cover",
+            "pistol",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Manreaper – strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Manreaper – sweep",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001372",
+      "name": "Blightlord Terminators",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: plague combi-bolter; bubotic blade.",
+      "profiles": [
+        {
+          "name": "Blightlord Terminators",
+          "movement": "4\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Blight launcher",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague spewer",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Reaper autocannon",
+          "special_rules": [
+            "devastating wounds",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Bubotic blade",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Flail of corruption",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000001374",
+      "name": "Myphitic Blight-haulers",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: bile spurt; missile launcher; multi-melta; gnashing maw.",
+      "profiles": [
+        {
+          "name": "Myphitic Blight-haulers",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Bile spurt",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – frag",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Missile launcher – krak",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Multi-melta",
+          "special_rules": [
+            "melta 2"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Gnashing maw",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000001376",
+      "name": "Plagueburst Crawler",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 entropy cannons; heavy slugger; Plagueburst mortar; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Plagueburst Crawler",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Entropy cannon",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        {
+          "name": "Heavy slugger",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plagueburst mortar",
+          "special_rules": [
+            "blast",
+            "indirect fire",
+            "lethal hits"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Plaguespitter",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Rothail volley gun",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 3"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000001377",
+      "name": "Mortarion",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Rotwind; the Lantern; Silence.",
+      "profiles": [
+        {
+          "name": "Mortarion",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "5+",
+          "objective_control": "6",
+          "base_size": "100mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Rotwind",
+          "special_rules": [
+            "blast",
+            "devastating wounds",
+            "lethal hits",
+            "psychic"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "The Lantern",
+          "special_rules": [
+            "pistol",
+            "sustained hits d3"
+          ],
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Silence – strike",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        {
+          "name": "Silence – sweep",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "15",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000002460",
+      "name": "Lord Of Virulence",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin plague spewer; heavy plague fist.",
+      "profiles": [
+        {
+          "name": "Lord Of Virulence",
+          "movement": "4\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "1",
+          "base_size": "50mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Twin plague spewer",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Heavy plague fist",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ]
+    },
+    {
+      "id": "000002461",
+      "name": "Death Guard Predator Destructor",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: predator autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Death Guard Predator Destructor",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Combi-weapon",
+          "special_rules": [
+            "anti-infantry 4+",
+            "devastating wounds",
+            "rapid fire 1"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Havoc launcher",
+          "special_rules": [
+            "blast"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Lascannon",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Plague combi-bolter",
+          "special_rules": [
+            "lethal hits",
+            "rapid fire 2"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plague heavy bolter",
+          "special_rules": [
+            "lethal hits",
+            "sustained hits 1"
+          ],
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Predator autocannon",
+          "special_rules": [
+            "rapid fire 2"
+          ],
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Armoured tracks",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002462",
+      "name": "Miasmic Malignifier",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: noxious stink.",
+      "profiles": [
+        {
+          "name": "Miasmic Malignifier",
+          "movement": "-",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Noxious stink",
+          "special_rules": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "6",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002749",
+      "name": "Death Guard Daemon Prince With Wings",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague spewer; hellforged weapons.",
+      "profiles": [
+        {
+          "name": "Death Guard Daemon Prince With Wings",
+          "movement": "11\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague spewer",
+          "special_rules": [
+            "anti-infantry 2+",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Hellforged weapons – strike",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        },
+        {
+          "name": "Hellforged weapons – sweep",
+          "special_rules": [],
+          "range": "",
+          "type": "",
+          "A": "",
+          "BS_WS": "",
+          "S": "",
+          "AP": "",
+          "D": ""
+        }
+      ],
+      "melee_weapons": []
+    },
+    {
+      "id": "000002750",
+      "name": "Death Guard Icon Bearer",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: plague boltgun; plague knife.",
+      "profiles": [
+        {
+          "name": "Death Guard Icon Bearer",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "5+",
+          "objective_control": "1",
+          "base_size": "32mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Plague boltgun",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Plague knife",
+          "special_rules": [
+            "lethal hits"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ]
+    },
+    {
+      "id": "000003585",
+      "name": "Chaos Thunderhawk",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.",
+      "profiles": [
+        {
+          "name": "Chaos Thunderhawk",
+          "movement": "20+\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003586",
+      "name": "Greater Blight Drone",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bile maw; blightreaper cannon; greater plague probe.",
+      "profiles": [
+        {
+          "name": "Greater Blight Drone",
+          "movement": "10\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003592",
+      "name": "Chaos Lord On Palanquin Of Nurgle",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bolt pistol; Astartes chainsword; close combat weapon; Nurgling's claws and teeth.",
+      "profiles": [
+        {
+          "name": "Chaos Lord On Palanquin Of Nurgle",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "8",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003593",
+      "name": "Gellerpox Infected",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every Gellerpox Mutant is equipped with: brutal weapons. One Nightmare Hulk is equipped with: belly-flamer; hideous mutations. Every other Nightmare Hulk is equipped with: hideous mutations.",
+      "profiles": [
+        {
+          "name": "NIGHTMARE HULK",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "4",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "GELLERPOX MUTANTS",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "6+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003594",
+      "name": "Hell Blade",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin autocannons; armoured hull.",
+      "profiles": [
+        {
+          "name": "Hell Blade",
+          "movement": "20+\"",
+          "toughness": "8",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003595",
+      "name": "Hell Talon",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; twin lascannon; armoured hull.",
+      "profiles": [
+        {
+          "name": "Hell Talon",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003596",
+      "name": "Mutoid Vermin",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "Every model is equipped with: diseased claws and fangs.",
+      "profiles": [
+        {
+          "name": "Mutoid Vermin",
+          "movement": "8\"",
+          "toughness": "2",
+          "save": "7+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "1",
+          "leadership": "8+",
+          "objective_control": "0",
+          "base_size": "25mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003600",
+      "name": "Sorcerer On Palanquin Of Nurgle",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: bolt pistol; Infernal Gaze; force weapon; Nurgling's claws and teeth.",
+      "profiles": [
+        {
+          "name": "Sorcerer On Palanquin Of Nurgle",
+          "movement": "5\"",
+          "toughness": "5",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "7",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003604",
+      "name": "Terrax-pattern Termite",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Terrax melta cutter; 2 combi-bolters; Termite drill.",
+      "profiles": [
+        {
+          "name": "Terrax-pattern Termite",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003608",
+      "name": "Land Raider Achilles",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: quad launcher; 2 twin volkite culverins; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Achilles",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003612",
+      "name": "Land Raider Proteus",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin lascannons; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Land Raider Proteus",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "16",
+          "leadership": "6+",
+          "objective_control": "5",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003616",
+      "name": "Fire Raptor Gunship",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin avenger bolt cannon; 2 twin autocannons; 2 twin hellstrike launchers; armoured hull",
+      "profiles": [
+        {
+          "name": "Fire Raptor Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003620",
+      "name": "Spartan",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Spartan",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003624",
+      "name": "Deredeo Dreadnought",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: anvilus autocannon battery; twin heavy bolter; armoured feet.",
+      "profiles": [
+        {
+          "name": "Deredeo Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003628",
+      "name": "Cerberus",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Cerberus neutron pulse array; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Cerberus",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003632",
+      "name": "Kratos",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: autocannon; Kratos battle cannon; 4 heavy bolters; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Kratos",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003636",
+      "name": "Sokar-pattern Stormbird",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: hellstrike missile battery; 3 twin heavy bolters; 4 twin lascannons; armoured hull.",
+      "profiles": [
+        {
+          "name": "Sokar-pattern Stormbird",
+          "movement": "20+\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "4",
+          "invulnerable_description": "* Against ranged attacks only",
+          "wounds": "40",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003640",
+      "name": "Sicaran Battle Tank",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Herakles-pattern autocannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Battle Tank",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003644",
+      "name": "Mastodon",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy flamers; 2 lascannons; siege melta array; skyreaper battery; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Mastodon",
+          "movement": "9\"",
+          "toughness": "14",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "30",
+          "leadership": "6+",
+          "objective_control": "12",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003648",
+      "name": "Leviathan Dreadnought",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy flamers; 2 grav-flux bombards; armoured feet.",
+      "profiles": [
+        {
+          "name": "Leviathan Dreadnought",
+          "movement": "8\"",
+          "toughness": "10",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "80mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003652",
+      "name": "Fellblade",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: demolisher cannon; Fellblade accelerator cannon; 2 quad lascannons; twin heavy bolter; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Fellblade",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003656",
+      "name": "Relic Contemptor Dreadnought",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 heavy plasma cannons; armoured feet.",
+      "profiles": [
+        {
+          "name": "Relic Contemptor Dreadnought",
+          "movement": "6\"",
+          "toughness": "9",
+          "save": "2+",
+          "invulnerable_save": "5",
+          "invulnerable_description": "",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "60mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003660",
+      "name": "Whirlwind Scorpius",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: Scorpius multi-launcher; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Whirlwind Scorpius",
+          "movement": "10\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "11",
+          "leadership": "6+",
+          "objective_control": "3",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003664",
+      "name": "Xiphon Interceptor",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 twin lascannons; Xiphon missile battery; armoured hull.",
+      "profiles": [
+        {
+          "name": "Xiphon Interceptor",
+          "movement": "20+\"",
+          "toughness": "9",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "12",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003668",
+      "name": "Rapier Carrier",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: boltgun; quad heavy bolter; close combat weapon.",
+      "profiles": [
+        {
+          "name": "Rapier Carrier",
+          "movement": "3\"",
+          "toughness": "6",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "6+",
+          "objective_control": "2",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003672",
+      "name": "Storm Eagle Gunship",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: twin heavy bolter; 2 twin hellstrike launchers; vengeance launcher; armoured hull.",
+      "profiles": [
+        {
+          "name": "Storm Eagle Gunship",
+          "movement": "20+\"",
+          "toughness": "10",
+          "save": "3+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "0",
+          "base_size": "120 x 92mm flying base",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003676",
+      "name": "Sicaran Venator",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Venator neutron laser; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Venator",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003680",
+      "name": "Typhon",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: dreadhammer siege cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Typhon",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "18",
+          "leadership": "6+",
+          "objective_control": "6",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003684",
+      "name": "Sicaran Punisher",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: heavy bolter; Punisher rotary cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Sicaran Punisher",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "14",
+          "leadership": "6+",
+          "objective_control": "4",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    },
+    {
+      "id": "000003688",
+      "name": "Falchion",
+      "faction_id": "DG",
+      "unit_img": "",
+      "loadout": "This model is equipped with: 2 quad lascannons; twin heavy bolter; twin Falchion volcano cannon; armoured tracks.",
+      "profiles": [
+        {
+          "name": "Falchion",
+          "movement": "9\"",
+          "toughness": "13",
+          "save": "2+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "24",
+          "leadership": "6+",
+          "objective_control": "8",
+          "base_size": "Use model",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [],
+      "melee_weapons": []
+    }
+  ]
+}
