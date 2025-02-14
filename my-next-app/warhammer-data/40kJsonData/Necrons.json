@@ -41,13 +41,13 @@
         {
           "name": "Staff of the Destroyer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
         }
       ],
       "melee_weapons": [
@@ -91,37 +91,26 @@
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Tachyon arrow",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Staff of light",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "72",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "16",
+          "AP": "-5",
+          "D": "D6+2"
         }
       ],
       "melee_weapons": [
@@ -137,6 +126,17 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Voidscythe",
@@ -178,27 +178,27 @@
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Staff of light",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Lord’s blade",
           "special_rules": [
@@ -239,27 +239,28 @@
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000528",
@@ -365,13 +366,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "72",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "16",
+          "AP": "-5",
+          "D": "D6+2"
         }
       ],
       "melee_weapons": [
@@ -466,13 +467,13 @@
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Tesla cannon",
@@ -486,17 +487,6 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Staff of light",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -512,6 +502,17 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
       ]
     },
@@ -563,20 +564,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000535",
@@ -626,20 +628,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000536",
@@ -662,20 +665,19 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Hyperphase sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Warscythe",
           "special_rules": [
@@ -726,20 +728,21 @@
           "S": "5",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000538",
@@ -819,38 +822,39 @@
         {
           "name": "Rod of covenant",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Rod of covenant",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Voidblade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000540",
@@ -927,20 +931,21 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Stalker’s forelimbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000541",
@@ -967,24 +972,13 @@
         {
           "name": "Gaze of death",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Scythe of the Nightbringer – sweep",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+3"
         }
       ],
       "melee_weapons": [
@@ -1000,6 +994,17 @@
           "S": "14",
           "AP": "-4",
           "D": "D6+2"
+        },
+        {
+          "name": "Scythe of the Nightbringer – sweep",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
       ]
     },
@@ -1039,20 +1044,21 @@
           "S": "6",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Golden fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000543",
@@ -1089,20 +1095,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000544",
@@ -1139,20 +1146,21 @@
           "S": "8",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000545",
@@ -1202,20 +1210,21 @@
           "S": "8",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000546",
@@ -1256,38 +1265,39 @@
         {
           "name": "Transdimensional beamer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Vicious claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Whip coils",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000548",
@@ -1353,20 +1363,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000551",
@@ -1403,20 +1414,21 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Automaton claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000552",
@@ -1480,20 +1492,21 @@
           "S": "8",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Portal of exile",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000553",
@@ -1556,20 +1569,21 @@
           "S": "8",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000554",
@@ -1620,20 +1634,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000555",
@@ -1770,20 +1785,21 @@
           "S": "3",
           "AP": "-2",
           "D": "6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000557",
@@ -1820,20 +1836,21 @@
           "S": "7",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000558",
@@ -1921,20 +1938,21 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Voidblade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000560",
@@ -1970,20 +1988,21 @@
           "S": "10",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Tomb Sentinel claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000561",
@@ -2020,20 +2039,21 @@
           "S": "8",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000562",
@@ -2187,20 +2207,21 @@
           "S": "9",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000567",
@@ -2306,38 +2327,39 @@
         {
           "name": "Transdimensional projector",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "24",
+          "AP": "-4",
+          "D": "D6+4"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Titanic forelimbs – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "5"
         },
         {
           "name": "Titanic forelimbs – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002092",
@@ -2364,27 +2386,27 @@
         {
           "name": "Eldritch lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Eldritch lance",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Eldritch lance",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
         {
           "name": "Impaling legs",
           "special_rules": [
@@ -2425,27 +2447,28 @@
         {
           "name": "Plasmic lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Plasmic lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002109",
@@ -2481,31 +2504,32 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Flensing claw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Hyperphase harvester",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002110",
@@ -2528,20 +2552,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Skorpekh hyperphase weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002111",
@@ -2568,27 +2592,28 @@
         {
           "name": "Scouring eye",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "6",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Scythed limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002112",
@@ -2615,27 +2640,28 @@
         {
           "name": "Atomiser beam",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reanimator’s claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002114",
@@ -2725,20 +2751,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Doomstalker limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002116",
@@ -2790,20 +2817,21 @@
           "S": "14",
           "AP": "-4",
           "D": "6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002350",
@@ -2840,20 +2868,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002351",
@@ -2880,24 +2909,13 @@
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Staff of light",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
       ],
       "melee_weapons": [
@@ -2913,6 +2931,17 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
+        },
+        {
+          "name": "Staff of light",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
       ]
     },
@@ -2941,27 +2970,28 @@
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Staff of light",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002353",
@@ -2988,27 +3018,28 @@
         {
           "name": "Abyssal lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Abyssal lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002354",
@@ -3044,20 +3075,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Aeonstave",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002355",
@@ -3094,20 +3126,21 @@
           "S": "6",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002357",
@@ -3157,17 +3190,6 @@
           "S": "7",
           "AP": "-1",
           "D": "2"
-        },
-        {
-          "name": "Spear of the Void Dragon – sweep",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -3183,6 +3205,17 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+2"
+        },
+        {
+          "name": "Spear of the Void Dragon – sweep",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Canoptek tail blades",
@@ -3220,20 +3253,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Ophydian hyperphase weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002359",
@@ -3269,20 +3302,21 @@
           "S": "5",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002360",
@@ -3322,13 +3356,13 @@
         {
           "name": "Annihilator beam",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Sceptre of Eternal Glory",
@@ -3355,20 +3389,20 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Armoured bulk",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Armoured bulk",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Weapons of the Final Triarch",
           "special_rules": [
@@ -3409,13 +3443,13 @@
         {
           "name": "Transdimensional abductor",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
         }
       ],
       "melee_weapons": []

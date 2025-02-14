@@ -79,13 +79,13 @@
         {
           "name": "Autoch-pattern combi-bolter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Volkanite disintegrator",
@@ -99,31 +99,32 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Forgewrought plasma axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Mass gauntlet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002595",
@@ -150,38 +151,39 @@
         {
           "name": "Autoch-pattern combi-bolter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Darkstar axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Mass hammer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002596",
@@ -221,13 +223,13 @@
         {
           "name": "Autoch-pattern bolter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Ancestral Wrath – witchfire",
@@ -255,17 +257,6 @@
           "S": "6",
           "AP": "-2",
           "D": "D3"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -281,6 +272,17 @@
           "S": "7",
           "AP": "-1",
           "D": "D3"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
       ]
     },
@@ -335,13 +337,13 @@
         {
           "name": "Autoch-pattern bolt pistol",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Graviton rifle",
@@ -359,49 +361,27 @@
         {
           "name": "Las-beam cutter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Manipulator arms",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Plasma torch",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "6",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-3",
+          "D": "1"
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Graviton hammer",
           "special_rules": [
@@ -414,6 +394,28 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
+        },
+        {
+          "name": "Manipulator arms",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Plasma torch",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
         }
       ]
     },
@@ -455,13 +457,13 @@
         {
           "name": "Autoch-pattern bolter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "EtaCarn plasma beamer",
@@ -520,13 +522,13 @@
         {
           "name": "Ion blaster",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Ion pistol",
@@ -544,13 +546,13 @@
         {
           "name": "L7 missile launcher – focused",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "L7 missile launcher – blast",
@@ -578,31 +580,32 @@
           "S": "12",
           "AP": "-3",
           "D": "D3+3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Kin melee weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002599",
@@ -629,13 +632,13 @@
         {
           "name": "EtaCarn plasma gun",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Exo-armour grenade launcher",
@@ -662,42 +665,43 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Concussion gauntlet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Concussion hammer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Plasma blade gauntlet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002600",
@@ -734,42 +738,42 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Concussion maul",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Heavy plasma axe – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Heavy plasma axe – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
         {
           "name": "Twin concussion gauntlet",
           "special_rules": [
@@ -862,27 +866,28 @@
         {
           "name": "Magna-coil autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Plasma knife",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002602",
@@ -935,35 +940,35 @@
         {
           "name": "L7 missile launcher – focused",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "MATR autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Sagitaur missile launcher",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "Twin bolt cannon",
@@ -978,20 +983,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured wheels",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002603",
@@ -1055,20 +1061,21 @@
           "S": "7",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002604",
@@ -1151,13 +1158,13 @@
         {
           "name": "MATR autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Twin bolt cannon ",
@@ -1186,20 +1193,21 @@
           "S": "7",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured wheels",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003710",
@@ -1276,31 +1284,32 @@
           "S": "5",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Plasma knife",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     }
   ]
 }

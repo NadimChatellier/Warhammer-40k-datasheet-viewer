@@ -129,20 +129,20 @@
           "S": "1",
           "AP": "0",
           "D": "D3"
-        },
-        {
-          "name": "Cult bonesword",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Cult bonesword",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Toxin injector claw",
           "special_rules": [
@@ -193,20 +193,21 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Cult claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000511",
@@ -242,31 +243,20 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Cult claws and knife",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Leader’s bio-weapons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Cult claws and knife",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
         {
           "name": "Heavy mining tool",
           "special_rules": [
@@ -279,6 +269,17 @@
           "S": "5",
           "AP": "-2",
           "D": "3"
+        },
+        {
+          "name": "Leader’s bio-weapons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
       ]
     },
@@ -373,13 +374,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Heavy stubber",
@@ -434,42 +435,43 @@
           "S": "2",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000513",
@@ -520,42 +522,43 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Leader’s bio-weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Metamorph mutations – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Metamorph mutations – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000514",
@@ -578,20 +581,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Aberrant weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000515",
@@ -614,20 +617,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Cult claws and talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000516",
@@ -691,20 +694,21 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000521",
@@ -795,20 +799,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Drilldozer blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001546",
@@ -831,20 +836,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Power sledgehammer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001565",
@@ -894,20 +899,21 @@
           "S": "5",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001567",
@@ -943,20 +949,21 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001568",
@@ -979,20 +986,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Locus blades",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001569",
@@ -1030,17 +1037,6 @@
           "S": "7",
           "AP": "-2",
           "D": "3"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -1057,6 +1053,17 @@
           "S": "3",
           "AP": "-2",
           "D": "2"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
       ]
     },
@@ -1095,20 +1102,21 @@
           "S": "6",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001571",
@@ -1144,20 +1152,21 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001572",
@@ -1249,13 +1258,13 @@
         {
           "name": "Achilles missile launcher",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Heavy mining laser",
@@ -1297,20 +1306,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001574",
@@ -1390,13 +1400,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Heavy stubber",
@@ -1415,38 +1425,39 @@
         {
           "name": "Mining laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Atalan power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001576",
@@ -1469,20 +1480,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Fragdrill",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "6",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002525",
@@ -1547,20 +1558,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003715",
@@ -1610,20 +1622,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003716",
@@ -1677,31 +1690,32 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Cult claws and knife",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Leader’s bio-weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003717",
@@ -1724,20 +1738,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003718",
@@ -2120,13 +2134,13 @@
         {
           "name": "Punisher gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Vanquisher battle cannon",

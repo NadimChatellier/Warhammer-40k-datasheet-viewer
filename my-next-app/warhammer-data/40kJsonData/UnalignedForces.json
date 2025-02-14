@@ -66,13 +66,13 @@
         {
           "name": "Redemptor missile silo – superkrak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
         }
       ],
       "melee_weapons": []
@@ -260,13 +260,13 @@
         {
           "name": "Primaris quad-gun",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Primaris Redoubt turbo-laser destructor",
@@ -443,13 +443,13 @@
         {
           "name": "Punisher gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Quad-lascannon",
@@ -519,13 +519,13 @@
         {
           "name": "Punisher gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Quad-gun",
@@ -635,13 +635,13 @@
         {
           "name": "Aquila macro-cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "72",
+          "type": "Ranged",
+          "A": "D6+6",
+          "BS_WS": "5",
+          "S": "16",
+          "AP": "-4",
+          "D": "4"
         },
         {
           "name": "Heavy bolter",
@@ -795,20 +795,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001630",
@@ -831,20 +832,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Enormous claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002093",
@@ -881,20 +882,21 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Eradicator glove",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002363",
@@ -943,20 +945,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Manipulator limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002807",

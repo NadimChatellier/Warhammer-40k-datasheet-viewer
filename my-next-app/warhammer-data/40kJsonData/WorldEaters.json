@@ -23,31 +23,31 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Samni’arius and Spinegrinder – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+2"
         },
         {
           "name": "Samni’arius and Spinegrinder – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "18",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002622",
@@ -83,20 +83,21 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Gorechild",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002623",
@@ -189,38 +190,39 @@
         {
           "name": "Infernal cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hellforged weapons – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Hellforged weapons – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002625",
@@ -270,20 +272,20 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
-        {
-          "name": "Exalted chainblade",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Exalted chainblade",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
         {
           "name": "Juggernaut’s bladed horn",
           "special_rules": [
@@ -414,31 +416,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Berzerker chainblade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Khornate eviscerator",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002628",
@@ -474,17 +477,6 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Skullsmasher",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -524,6 +516,17 @@
           "A": "2",
           "BS_WS": "5",
           "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Skullsmasher",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "4",
           "AP": "-1",
           "D": "2"
         }
@@ -606,31 +609,20 @@
           "S": "7",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Accursed weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Power fist",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Accursed weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Paired accursed weapons",
           "special_rules": [
@@ -656,6 +648,17 @@
           "S": "9",
           "AP": "-3",
           "D": "2"
+        },
+        {
+          "name": "Power fist",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
         }
       ]
     },
@@ -680,42 +683,42 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Eightbound eviscerators",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Heavy chainglaive",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-3",
+          "D": "1"
         },
         {
           "name": "Lacerators",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002631",
@@ -738,42 +741,41 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Eightbound chainfist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Eightbound eviscerator",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Heavy chainglaive",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "1"
+        },
         {
           "name": "Paired Eightbound chainfists",
           "special_rules": [
@@ -868,13 +870,13 @@
         {
           "name": "Missile launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Multi-melta",
@@ -928,53 +930,54 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Helbrute fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Helbrute hammer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Power scourge",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002633",
@@ -997,20 +1000,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Hideous mutations",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "D6+2",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002634",
@@ -1078,13 +1081,13 @@
         {
           "name": "Soulshatter lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin heavy bolter",
@@ -1099,20 +1102,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002635",
@@ -1245,20 +1249,20 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
-        {
-          "name": "Defiler claws",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Defiler claws",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1"
+        },
         {
           "name": "Defiler scourge",
           "special_rules": [
@@ -1353,13 +1357,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Predator autocannon",
@@ -1373,20 +1377,21 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002637",
@@ -1467,13 +1472,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Predator twin lascannon",
@@ -1487,20 +1492,21 @@
           "S": "14",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002638",
@@ -1540,38 +1546,39 @@
         {
           "name": "Hades autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Forgefiend claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Forgefiend jaws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002639",
@@ -1607,17 +1614,6 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
-        {
-          "name": "Maulerfiend fists",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -1633,6 +1629,17 @@
           "S": "7",
           "AP": "-1",
           "D": "1"
+        },
+        {
+          "name": "Maulerfiend fists",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6+1"
         }
       ]
     },
@@ -1698,20 +1705,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002641",
@@ -1752,13 +1760,13 @@
         {
           "name": "Hades autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         }
       ],
       "melee_weapons": [
@@ -1855,38 +1863,39 @@
         {
           "name": "Skullhurler",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "60",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Great cleaver of Khorne – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-4",
+          "D": "8"
         },
         {
           "name": "Great cleaver of Khorne – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "15",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002757",
@@ -1913,38 +1922,39 @@
         {
           "name": "Infernal cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hellforged weapons – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Hellforged weapons – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003587",

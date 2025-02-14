@@ -37,17 +37,6 @@
           "S": "14",
           "AP": "-4",
           "D": "3"
-        },
-        {
-          "name": "Cawl’s Omnissian axe",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -65,6 +54,17 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
+        },
+        {
+          "name": "Cawl’s Omnissian axe",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Mechadendrite hive",
@@ -106,24 +106,24 @@
         {
           "name": "Eradication ray – dissipated",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Eradication ray – focused",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Macrostubber",
@@ -164,20 +164,21 @@
           "S": "5",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Omnissian axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000840",
@@ -214,20 +215,20 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Omnissian axe",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Omnissian axe",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
         {
           "name": "Servo-arm",
           "special_rules": [
@@ -292,17 +293,6 @@
           "S": "6",
           "AP": "-2",
           "D": "2"
-        },
-        {
-          "name": "Hydraulic claw",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -318,6 +308,17 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
+        },
+        {
+          "name": "Hydraulic claw",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
         }
       ]
     },
@@ -373,13 +374,13 @@
         {
           "name": "Kataphron plasma culverin – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Kataphron plasma culverin – supercharge",
@@ -407,20 +408,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000843",
@@ -588,31 +590,31 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Kastelan fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
         {
           "name": "Twin Kastelan fist",
           "special_rules": [
@@ -663,20 +665,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Power fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000847",
@@ -756,31 +759,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Servitor’s servo-arm",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Servitor’s tools",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000848",
@@ -836,24 +840,24 @@
         {
           "name": "Galvanic rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Plasma caliver – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Plasma caliver – supercharge",
@@ -881,31 +885,32 @@
           "S": "7",
           "AP": "-2",
           "D": "D3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Alpha combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000849",
@@ -961,13 +966,13 @@
         {
           "name": "Plasma caliver – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Plasma caliver – supercharge",
@@ -1008,31 +1013,32 @@
           "S": "7",
           "AP": "-2",
           "D": "D3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Alpha combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000850",
@@ -1081,20 +1087,20 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Power weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Power weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Taser goad",
           "special_rules": [
@@ -1225,20 +1231,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Ironstrider feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000853",
@@ -1412,20 +1419,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Dunecrawler legs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001525",
@@ -1476,20 +1484,20 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Alpha close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Alpha close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
         {
           "name": "Arc lance",
           "special_rules": [
@@ -1568,31 +1576,32 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Alpha close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001533",
@@ -1735,20 +1744,21 @@
           "S": "4",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Omnissian staff",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001650",
@@ -1786,20 +1796,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001651",
@@ -1867,27 +1878,28 @@
         {
           "name": "Ferrumite cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001822",
@@ -1923,20 +1935,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hydraulic claw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002081",
@@ -2016,17 +2029,6 @@
           "S": "3",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Clawed limbs",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -2043,6 +2045,17 @@
           "BS_WS": "4",
           "S": "5",
           "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Clawed limbs",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
           "D": "1"
         }
       ]
@@ -2095,20 +2108,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Cavalry sabre and clawed limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002083",
@@ -2158,20 +2172,20 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Pteraxii talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Pteraxii talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Taser goad",
           "special_rules": [
@@ -2225,27 +2239,27 @@
         {
           "name": "Flechette carbine",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Taser goad",
           "special_rules": [
@@ -2297,20 +2311,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002086",
@@ -2374,20 +2389,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002087",
@@ -2425,20 +2441,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002477",
@@ -2529,20 +2546,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Control stave",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003694",
@@ -2594,20 +2612,21 @@
           "S": "5",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Ironstrider feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003695",
@@ -2675,20 +2694,21 @@
           "S": "7",
           "AP": "-2",
           "D": "D3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Sydonian feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     }
   ]
 }

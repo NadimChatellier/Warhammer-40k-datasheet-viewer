@@ -137,24 +137,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Leman Russ battle cannon",
@@ -212,13 +212,13 @@
         {
           "name": "Punisher gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Storm bolter",
@@ -245,20 +245,21 @@
           "S": "18",
           "AP": "-4",
           "D": "D6+6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000684",
@@ -364,13 +365,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Heavy bolter",
@@ -547,42 +548,43 @@
           "S": "4",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000686",
@@ -700,20 +702,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Weapons team close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000690",
@@ -740,13 +743,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy flamer",
@@ -767,35 +770,35 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Militarum multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Missile launcher – frag",
@@ -850,31 +853,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Sentinel chainsaw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000691",
@@ -901,13 +905,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy flamer",
@@ -928,35 +932,35 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Militarum multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Missile launcher – frag",
@@ -1011,31 +1015,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Sentinel chainsaw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000692",
@@ -1089,13 +1094,13 @@
         {
           "name": "Chimera multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Heavy bolter",
@@ -1142,13 +1147,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lasgun array",
@@ -1175,20 +1180,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000693",
@@ -1237,20 +1243,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000694",
@@ -1320,13 +1327,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Inferno cannon",
@@ -1368,20 +1375,21 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000695",
@@ -1452,27 +1460,28 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000696",
@@ -1528,13 +1537,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Hydra autocannon",
@@ -1549,20 +1558,21 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000697",
@@ -1618,13 +1628,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Wyvern quad stormshard mortar",
@@ -1642,20 +1652,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000698",
@@ -1711,13 +1722,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm eagle rockets",
@@ -1733,20 +1744,21 @@
           "S": "10",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000699",
@@ -1783,10 +1795,7 @@
           "range": "2",
           "type": "16",
           "A": "-4",
-          "BS_WS": "1",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "BS_WS": "1"
         },
         {
           "name": "Heavy bolter",
@@ -1820,27 +1829,28 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000700",
@@ -1909,24 +1919,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Leman Russ battle cannon",
@@ -1993,20 +2003,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000701",
@@ -2088,24 +2099,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-melta",
@@ -2159,20 +2170,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000702",
@@ -2212,13 +2224,13 @@
         {
           "name": "Co-axial autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Demolisher cannon",
@@ -2249,13 +2261,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin heavy bolter",
@@ -2285,20 +2297,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000703",
@@ -2325,13 +2338,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Tremor cannon",
@@ -2374,20 +2387,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000704",
@@ -2414,13 +2428,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Quake cannon",
@@ -2464,20 +2478,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000705",
@@ -2504,13 +2519,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Magma cannon",
@@ -2554,20 +2569,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000706",
@@ -2594,13 +2610,13 @@
         {
           "name": "Co-axial autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Demolisher cannon",
@@ -2645,13 +2661,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin heavy bolter",
@@ -2681,20 +2697,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000707",
@@ -2721,13 +2738,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin heavy bolter",
@@ -2771,20 +2788,21 @@
           "S": "24",
           "AP": "-5",
           "D": "12"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000708",
@@ -2824,13 +2842,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin heavy bolter",
@@ -2873,20 +2891,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000709",
@@ -2913,13 +2932,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Stormsword siege cannon",
@@ -2963,20 +2982,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000713",
@@ -3091,20 +3111,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000716",
@@ -3167,31 +3188,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000719",
@@ -3271,13 +3293,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Hot-shot lasgun",
@@ -3384,31 +3406,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Tempestus dagger",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000721",
@@ -3461,13 +3484,13 @@
         {
           "name": "Taurox gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Taurox missile launcher – frag",
@@ -3485,13 +3508,13 @@
         {
           "name": "Taurox missile launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Twin autocannon",
@@ -3519,20 +3542,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000722",
@@ -3568,20 +3592,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Ripper gun",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000723",
@@ -3617,31 +3642,32 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Bullgryn maul",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000724",
@@ -3691,20 +3717,21 @@
           "S": "4",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000725",
@@ -3809,24 +3836,24 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Militarum multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Multiple rocket pod",
@@ -3840,20 +3867,21 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000728",
@@ -3908,13 +3936,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -3928,20 +3956,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000729",
@@ -4010,13 +4039,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -4030,20 +4059,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000730",
@@ -4066,20 +4096,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Melta-cutter drill",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6+2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000731",
@@ -4121,27 +4151,28 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000733",
@@ -4197,27 +4228,28 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000735",
@@ -4244,13 +4276,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -4283,13 +4315,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -4303,20 +4335,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000736",
@@ -4359,13 +4392,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Tauros grenade launcher – frag",
@@ -4383,27 +4416,28 @@
         {
           "name": "Tauros grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured frame",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000737",
@@ -4432,13 +4466,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Twin lascannon",
@@ -4465,20 +4499,21 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured frame",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000739",
@@ -4547,13 +4582,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Medusa siege cannon",
@@ -4581,20 +4616,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000740",
@@ -4650,13 +4686,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -4670,20 +4706,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000741",
@@ -4745,20 +4782,21 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battery close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000744",
@@ -4848,20 +4886,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000745",
@@ -4899,20 +4938,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000746",
@@ -4949,20 +4989,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000747",
@@ -4999,20 +5040,21 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000751",
@@ -5039,13 +5081,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Demolisher cannon",
@@ -5091,24 +5133,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Malcador twin lascannon",
@@ -5135,20 +5177,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000752",
@@ -5175,13 +5218,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Demolisher cannon",
@@ -5227,24 +5270,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Storm bolter",
@@ -5258,20 +5301,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000753",
@@ -5298,13 +5342,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -5337,24 +5381,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Malcador battle cannon",
@@ -5381,20 +5425,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000754",
@@ -5421,13 +5466,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -5474,13 +5519,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Inferno gun",
@@ -5499,13 +5544,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Storm bolter",
@@ -5519,20 +5564,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000755",
@@ -5569,20 +5615,21 @@
           "S": "10",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000756",
@@ -5620,20 +5667,21 @@
           "S": "10",
           "AP": "-3",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battery close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000757",
@@ -5670,20 +5718,21 @@
           "S": "12",
           "AP": "-2",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000758",
@@ -5760,20 +5809,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000759",
@@ -5796,20 +5846,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Powerlifter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "D3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000760",
@@ -5851,13 +5901,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -5884,20 +5934,21 @@
           "S": "14",
           "AP": "-4",
           "D": "D6+3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000762",
@@ -5947,20 +5998,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000763",
@@ -6002,24 +6054,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Storm bolter",
@@ -6089,20 +6141,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000764",
@@ -6171,35 +6224,35 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Storm bolter",
@@ -6240,20 +6293,21 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000766",
@@ -6315,20 +6369,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000767",
@@ -6355,13 +6410,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Dominus triple bombard",
@@ -6422,24 +6477,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Storm bolter",
@@ -6453,20 +6508,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000768",
@@ -6549,13 +6605,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Twin heavy stubber",
@@ -6570,20 +6626,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Landing ramp",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000769",
@@ -6652,13 +6709,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Macharius twin battle cannon",
@@ -6700,20 +6757,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000770",
@@ -6740,13 +6798,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -6793,13 +6851,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Omega-pattern plasma blastgun – standard",
@@ -6840,20 +6898,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000771",
@@ -6922,13 +6981,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Macharius twin vanquisher cannon",
@@ -6970,20 +7029,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000772",
@@ -7052,13 +7112,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Macharius vulcan mega-bolter",
@@ -7099,20 +7159,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000773",
@@ -7152,27 +7213,28 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000774",
@@ -7247,20 +7309,21 @@
           "S": "10",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000775",
@@ -7298,20 +7361,21 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000776",
@@ -7406,20 +7470,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000777",
@@ -7446,13 +7511,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -7499,24 +7564,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Storm bolter",
@@ -7543,20 +7608,21 @@
           "S": "16",
           "AP": "-4",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000778",
@@ -7583,13 +7649,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -7607,27 +7673,28 @@
         {
           "name": "Multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000779",
@@ -7650,20 +7717,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000780",
@@ -7716,27 +7783,28 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000781",
@@ -7763,13 +7831,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Lightning hellstrike rack",
@@ -7783,20 +7851,21 @@
           "S": "10",
           "AP": "-3",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000783",
@@ -7858,20 +7927,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000784",
@@ -7946,20 +8016,21 @@
           "S": "10",
           "AP": "-3",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000889",
@@ -8104,20 +8175,21 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001383",
@@ -8171,13 +8243,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Laspistol",
@@ -8258,31 +8330,20 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
-        {
-          "name": "Chainsword",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Power weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Chainsword",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Hunting lance",
           "special_rules": [
@@ -8294,6 +8355,17 @@
           "BS_WS": "4",
           "S": "4",
           "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Power weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
           "D": "1"
         },
         {
@@ -8371,31 +8443,32 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001396",
@@ -8432,20 +8505,20 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Enginseer axe",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Enginseer axe",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
         {
           "name": "Servo-arm",
           "special_rules": [
@@ -8539,31 +8612,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Servitor’s servo-arm",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001398",
@@ -8612,53 +8686,54 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Bullgryn maul",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Huge knife",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Ripper gun",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001406",
@@ -8778,20 +8853,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001994",
@@ -8818,13 +8894,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Carnodon twin autocannon",
@@ -8897,35 +8973,35 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Militarum Multi-laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Volkite caliver",
@@ -8952,20 +9028,21 @@
           "S": "6",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002374",
@@ -9032,13 +9109,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Heavy flamer",
@@ -9147,31 +9224,32 @@
           "S": "4",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Sergeant’s close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002375",
@@ -9220,31 +9298,32 @@
           "S": "3",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Medical scalpels",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Quartermaster’s close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002377",
@@ -9294,20 +9373,21 @@
           "S": "4",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002378",
@@ -9343,20 +9423,20 @@
           "S": "3",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Commissar’s close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Commissar’s close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Savage claws",
           "special_rules": [
@@ -9397,13 +9477,13 @@
         {
           "name": "Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -9450,13 +9530,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -9470,20 +9550,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002385",
@@ -9559,20 +9640,21 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002386",
@@ -9898,31 +9980,31 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Gaunt’s chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Straight silver knife",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Mkoll’s straight silver knife",
           "special_rules": [
@@ -9973,20 +10055,20 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
-        {
-          "name": "Conquest",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Conquest",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
         {
           "name": "Konstantin’s hooves",
           "special_rules": [
@@ -10036,20 +10118,21 @@
           "S": "5",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002607",
@@ -10138,53 +10221,54 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002608",
@@ -10303,13 +10387,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Heavy bolter",
@@ -10500,53 +10584,54 @@
           "S": "4",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002609",
@@ -10626,13 +10711,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Lasgun",
@@ -10726,53 +10811,54 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002610",
@@ -10808,20 +10894,20 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Astropath’s stave",
           "special_rules": [
@@ -10875,13 +10961,13 @@
         {
           "name": "Drum-fed autogun",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Flamer",
@@ -10913,13 +10999,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Lasgun",
@@ -10986,31 +11072,32 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002613",
@@ -11090,13 +11177,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Lasgun",
@@ -11204,42 +11291,43 @@
           "S": "4",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002614",
@@ -11302,20 +11390,21 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002615",
@@ -11382,13 +11471,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Hot-shot lasgun",
@@ -11509,42 +11598,43 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002616",
@@ -11593,17 +11683,6 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Power sabre",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -11647,6 +11726,17 @@
           "D": "D6"
         },
         {
+          "name": "Power sabre",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
           "name": "Steed’s hooves",
           "special_rules": [
             "extra attacks"
@@ -11686,24 +11776,24 @@
         {
           "name": "Castigator gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Co-axial autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Heavy bolter",
@@ -11796,20 +11886,21 @@
           "S": "10",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002618",
@@ -11900,20 +11991,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battery close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002619",
@@ -11974,20 +12066,21 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002740",
@@ -12043,13 +12136,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Multi-melta",
@@ -12063,20 +12156,21 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002741",
@@ -12159,24 +12253,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-melta",
@@ -12230,20 +12324,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002742",
@@ -12339,24 +12434,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-melta",
@@ -12410,20 +12505,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002743",
@@ -12506,24 +12602,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-melta",
@@ -12577,20 +12673,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002744",
@@ -12659,24 +12756,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-melta",
@@ -12721,13 +12818,13 @@
         {
           "name": "Punisher gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "20",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Storm bolter",
@@ -12741,20 +12838,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002745",
@@ -12823,24 +12921,24 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Multi-melta",
@@ -12907,20 +13005,21 @@
           "S": "18",
           "AP": "-4",
           "D": "D6+6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002746",
@@ -12987,13 +13086,13 @@
         {
           "name": "Grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Hot-shot lasgun",
@@ -13100,53 +13199,54 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power fist",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002747",
@@ -13173,13 +13273,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Thunderbolt hellstrike rack",
@@ -13206,20 +13306,21 @@
           "S": "9",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003834",
@@ -13326,13 +13427,13 @@
         {
           "name": "Sentry grenade launcher – krak",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Sentry hot-shot volley gun",
@@ -13387,42 +13488,43 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chainsword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Power weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     }
   ]
 }

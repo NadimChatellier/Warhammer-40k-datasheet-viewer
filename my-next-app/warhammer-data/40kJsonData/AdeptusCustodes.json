@@ -50,42 +50,43 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Guardian spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Misericordia",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Sentinel blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000883",
@@ -147,20 +148,21 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Contemptor combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000884",
@@ -187,26 +189,26 @@
         {
           "name": "Godhammer lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Hunter-killer missile",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -234,20 +236,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001446",
@@ -283,20 +286,21 @@
           "S": "5",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Watcher’s Axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001447",
@@ -372,53 +376,54 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Castellan axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Guardian spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Pyrithite spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Sentinel blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001448",
@@ -480,31 +485,32 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Castellan axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Guardian spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001449",
@@ -619,31 +625,32 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Castellan axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Guardian spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001453",
@@ -705,42 +712,43 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Castellan axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Guardian spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Misericordia",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001454",
@@ -833,13 +841,13 @@
         {
           "name": "Achillus dreadspear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Infernus incinerator",
@@ -959,20 +967,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001461",
@@ -1022,20 +1031,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001479",
@@ -1075,13 +1085,13 @@
         {
           "name": "Iliastus accelerator culverin",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Spiculus bolt launcher",
@@ -1109,31 +1119,32 @@
           "S": "7",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Telemon caestus",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001557",
@@ -1171,20 +1182,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Galatus warblade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001558",
@@ -1247,31 +1259,32 @@
           "S": "6",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Solerite power gauntlet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Solerite power talon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001559",
@@ -1298,13 +1311,13 @@
         {
           "name": "Adrasite spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Pyrithite spear",
@@ -1318,31 +1331,32 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Adrasite spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Pyrithite spear",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001560",
@@ -1369,13 +1383,13 @@
         {
           "name": "Adrathic devastator",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Lastrum bolt cannon",
@@ -1468,20 +1482,20 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
-        {
-          "name": "Tarsis buckler",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Tarsis buckler",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
         {
           "name": "Venatari lance",
           "special_rules": [
@@ -1532,20 +1546,21 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001563",
@@ -1581,20 +1596,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Misericordia",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001564",
@@ -1621,13 +1637,13 @@
         {
           "name": "Arachnus heavy blaze cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Spiculus heavy bolt launcher",
@@ -1654,20 +1670,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "9",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001680",
@@ -1694,38 +1711,39 @@
         {
           "name": "Arachnus heavy blaze cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Arachnus magna-blaze cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "9",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002088",
@@ -1864,20 +1882,21 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Gnosis",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "7",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002520",
@@ -1927,20 +1946,20 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Executioner greatblade",
           "special_rules": [
@@ -1991,20 +2010,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002522",
@@ -2080,20 +2100,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002524",
@@ -2122,13 +2143,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
         },
         {
           "name": "Storm bolter",
@@ -2142,20 +2163,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured tracks",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     }
   ]
 }

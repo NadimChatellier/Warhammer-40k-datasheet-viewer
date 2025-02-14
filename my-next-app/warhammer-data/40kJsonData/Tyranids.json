@@ -154,31 +154,31 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Old One Eye’s claws and talons – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Old One Eye’s claws and talons – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000463",
@@ -244,49 +244,50 @@
         {
           "name": "Stinger salvoes",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Massive crushing claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Massive scything talons – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Massive scything talons – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000467",
@@ -309,20 +310,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Genestealer claws and talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000468",
@@ -404,13 +405,13 @@
         {
           "name": "Termagant devourer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Termagant spinefists",
@@ -426,20 +427,21 @@
           "S": "3",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chitinous claws and teeth",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000469",
@@ -462,20 +464,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Hormagaunt talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000470",
@@ -550,31 +552,19 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Bone cleaver, lash whip and rending claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
         },
-        {
-          "name": "Scything talons and rending claws",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
         {
           "name": "Crushing claws and rending claws",
           "special_rules": [
@@ -587,6 +577,17 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
+        },
+        {
+          "name": "Scything talons and rending claws",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         }
       ]
     },
@@ -638,20 +639,21 @@
           "S": "7",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chitinous claws and teeth",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000473",
@@ -726,31 +728,32 @@
           "S": "10",
           "AP": "-2",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Massive scything talons – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6+1"
         },
         {
           "name": "Massive scything talons – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000475",
@@ -801,20 +804,21 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chitinous claws and teeth",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000476",
@@ -890,20 +894,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chitin-barbed limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000478",
@@ -939,20 +944,20 @@
           "S": "6",
           "AP": "-2",
           "D": "D6+1"
-        },
-        {
-          "name": "Ravenous maw",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Ravenous maw",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "14",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
         {
           "name": "Shovelling claws",
           "special_rules": [
@@ -1144,20 +1149,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Blinding venom",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000485",
@@ -1184,13 +1190,13 @@
         {
           "name": "Stinger salvoes",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Twin heavy venom cannon",
@@ -1219,20 +1225,21 @@
           "S": "7",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Scything wings",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000486",
@@ -1272,13 +1279,13 @@
         {
           "name": "Stinger salvoes",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Tentaclids",
@@ -1293,20 +1300,20 @@
           "S": "7",
           "AP": "0",
           "D": "2"
-        },
-        {
-          "name": "Scything wings",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Scything wings",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
         {
           "name": "Thorax spur",
           "special_rules": [
@@ -1396,27 +1403,28 @@
         {
           "name": "Tyrannocyte bio-weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Flensing whips",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000490",
@@ -1457,24 +1465,24 @@
         {
           "name": "Deathspitters with slimer maggots",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Devourers with brainleech worms",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Heavy venom cannon",
@@ -1514,42 +1522,20 @@
           "S": "7",
           "AP": "-1",
           "D": "2"
-        },
-        {
-          "name": "Carnifex crushing claws",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Carnifex scything talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Chitinous claws and teeth",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Carnifex crushing claws",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
         {
           "name": "Carnifex extra scything talons",
           "special_rules": [
@@ -1562,6 +1548,28 @@
           "S": "9",
           "AP": "-2",
           "D": "3"
+        },
+        {
+          "name": "Carnifex scything talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        {
+          "name": "Chitinous claws and teeth",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
       ]
     },
@@ -1602,20 +1610,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chitin-barbed limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000493",
@@ -1651,20 +1660,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Trygon scything talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000494",
@@ -1687,19 +1697,7 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
-        {
-          "name": "Mawloc scything talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
+      "ranged_weapons": [],
       "melee_weapons": [
         {
           "name": "Distensible jaw",
@@ -1715,6 +1713,17 @@
           "S": "5",
           "AP": "0",
           "D": "3"
+        },
+        {
+          "name": "Mawloc scything talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "16",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "1"
         }
       ]
     },
@@ -1753,20 +1762,21 @@
           "S": "9",
           "AP": "-3",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Powerful limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000496",
@@ -1834,27 +1844,28 @@
         {
           "name": "Stinger salvoes",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Powerful limbs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000497",
@@ -1933,27 +1944,28 @@
         {
           "name": "Sporocyst bio-weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "10",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Flensing whips",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000499",
@@ -1976,20 +1988,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Grasping tail",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000500",
@@ -2063,20 +2075,21 @@
           "S": "9",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hierodule scything talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-2",
+          "D": "D3+3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000504",
@@ -2112,20 +2125,21 @@
           "S": "10",
           "AP": "-3",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Gargantuan scything talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000505",
@@ -2175,17 +2189,6 @@
           "S": "10",
           "AP": "-3",
           "D": "3"
-        },
-        {
-          "name": "Titanic scything talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -2201,6 +2204,17 @@
           "S": "5",
           "AP": "-1",
           "D": "1"
+        },
+        {
+          "name": "Titanic scything talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-2",
+          "D": "D6+1"
         }
       ]
     },
@@ -2238,20 +2252,21 @@
           "S": "6",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hierodule scything talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-2",
+          "D": "D3+3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002528",
@@ -2300,17 +2315,6 @@
           "S": "7",
           "AP": "-1",
           "D": "2"
-        },
-        {
-          "name": "Tyrant talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -2339,6 +2343,17 @@
           "S": "7",
           "AP": "-2",
           "D": "2"
+        },
+        {
+          "name": "Tyrant talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
       ]
     },
@@ -2363,19 +2378,7 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
-        {
-          "name": "Clawed limbs",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
+      "ranged_weapons": [],
       "melee_weapons": [
         {
           "name": "Barbed ovipositor",
@@ -2390,6 +2393,17 @@
           "S": "3",
           "AP": "-2",
           "D": "3"
+        },
+        {
+          "name": "Clawed limbs",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         }
       ]
     },
@@ -2428,20 +2442,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Chitinous claws and teeth",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002687",
@@ -2464,20 +2479,20 @@
           "base_size_description": "Nodebeast 28mm"
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Chitinous claws and teeth",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002688",
@@ -2515,20 +2530,21 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Neurotyrant claws and lashes",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002689",
@@ -2619,20 +2635,21 @@
           "S": "8",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Screamer-killer talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002691",
@@ -2710,24 +2727,24 @@
         {
           "name": "Deathspitter",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Devourer",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Spinefists",
@@ -2756,20 +2773,21 @@
           "S": "9",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Tyranid Warrior claws and talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002693",
@@ -2792,26 +2810,26 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Leaper’s talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002694",
       "name": "Winged Tyranid Prime",
       "faction_id": "TYR",
-      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/threeSixty/60010199057_WH40KLeviathanEngTYRWingedTyranidPrimeOTT19360/01-01.jp",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/threeSixty/60010199057_WH40KLeviathanEngTYRWingedTyranidPrimeOTT19360/01-01.jpg",
       "loadout": "This model is equipped with: Prime talons.",
       "profiles": [
         {
@@ -2828,20 +2846,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Prime talons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002751",
@@ -2906,20 +2924,20 @@
           "S": "12",
           "AP": "-3",
           "D": "D6"
-        },
-        {
-          "name": "Monstrous scything talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Monstrous scything talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
         {
           "name": "Monstrous rending claws",
           "special_rules": [
@@ -2962,27 +2980,27 @@
           "special_rules": [
             "harpooned"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Monstrous scything talons",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Monstrous scything talons",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
         {
           "name": "Toxinjector harpoon",
           "special_rules": [

@@ -51,31 +51,32 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reaper chainfist – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Reaper chainfist – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001095",
@@ -112,17 +113,6 @@
           "S": "6",
           "AP": "0",
           "D": "2"
-        },
-        {
-          "name": "Cerastus shock lance – sweep",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -138,6 +128,17 @@
           "S": "20",
           "AP": "-3",
           "D": "8"
+        },
+        {
+          "name": "Cerastus shock lance – sweep",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         }
       ]
     },
@@ -175,31 +176,32 @@
           "S": "6",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Tempest warblade – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Tempest warblade – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001097",
@@ -370,53 +372,54 @@
           "S": "2",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hekaton siege claw – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
         },
         {
           "name": "Hekaton siege claw – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Reaper chainsword – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Reaper chainsword – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001099",
@@ -443,13 +446,13 @@
         {
           "name": "Acastus Autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
         },
         {
           "name": "Acastus ironstorm missile pod",
@@ -483,13 +486,13 @@
         {
           "name": "Lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin magna lascannon",
@@ -504,20 +507,21 @@
           "S": "18",
           "AP": "-4",
           "D": "D6+6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Titanic feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001100",
@@ -583,53 +587,54 @@
           "S": "12",
           "AP": "0",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Hekaton siege claw – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
         },
         {
           "name": "Hekaton siege claw – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Reaper chainsword – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Reaper chainsword – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001658",
@@ -697,13 +702,13 @@
         {
           "name": "Despoiler gatling cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "18",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Havoc missile pod",
@@ -749,13 +754,13 @@
         {
           "name": "Ruinspear rocket pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Hellstorm autocannons",
@@ -770,64 +775,65 @@
           "S": "7",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reaper chainsword – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Reaper chainsword – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Titanic feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Warpstrike claw – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
         },
         {
           "name": "Warpstrike claw – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001659",
@@ -961,20 +967,21 @@
           "S": "24",
           "AP": "-6",
           "D": "12"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Titanic feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001660",
@@ -1001,13 +1008,13 @@
         {
           "name": "Desecrator laser destructor",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "72",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+3"
         },
         {
           "name": "Diabolus heavy stubber",
@@ -1021,53 +1028,54 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Warpstrike claw – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
         },
         {
           "name": "Warpstrike claw – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Reaper chainsword – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Reaper chainsword – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001661",
@@ -1103,53 +1111,54 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Warpstrike claw – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
         },
         {
           "name": "Warpstrike claw – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Reaper chainsword – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Reaper chainsword – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "18",
+          "BS_WS": "2",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001662",
@@ -1216,20 +1225,21 @@
           "S": "16",
           "AP": "-2",
           "D": "6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Titanic feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001663",
@@ -1321,31 +1331,32 @@
           "S": "8",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Siege claw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002562",
@@ -1398,27 +1409,28 @@
         {
           "name": "War Dog autocannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002563",
@@ -1445,13 +1457,13 @@
         {
           "name": "Avenger chaincannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Daemonbreath spear",
@@ -1492,42 +1504,43 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reaper chaintalon – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "Reaper chaintalon – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Slaughterclaw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002564",
@@ -1577,42 +1590,43 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reaper chaintalon – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "Reaper chaintalon – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Slaughterclaw",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002565",
@@ -1639,13 +1653,13 @@
         {
           "name": "Avenger chaincannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Daemonbreath spear",
@@ -1686,20 +1700,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002566",
@@ -1761,31 +1776,32 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reaper chaintalon – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "Reaper chaintalon – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002567",

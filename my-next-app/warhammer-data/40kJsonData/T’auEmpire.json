@@ -41,24 +41,24 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -89,35 +89,35 @@
         {
           "name": "High-output burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "T’au flamer",
@@ -132,20 +132,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000403",
@@ -182,20 +183,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "6",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000404",
@@ -218,20 +220,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Honour stave",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000405",
@@ -267,20 +269,21 @@
           "S": "5",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000406",
@@ -307,38 +310,39 @@
         {
           "name": "High-intensity plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Dawn Blade – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Dawn Blade – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000407",
@@ -365,13 +369,13 @@
         {
           "name": "Flechette launcher",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "High-energy fusion blaster",
@@ -389,13 +393,13 @@
         {
           "name": "Light missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
         },
         {
           "name": "Pulse pistol",
@@ -409,20 +413,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000408",
@@ -496,31 +501,31 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "6",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Supreme honour blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000410",
@@ -556,20 +561,21 @@
           "S": "5",
           "AP": "0",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000411",
@@ -596,13 +602,13 @@
         {
           "name": "Pulse carbine",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "20",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Pulse pistol",
@@ -643,20 +649,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000412",
@@ -719,20 +726,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000413",
@@ -798,27 +806,28 @@
         {
           "name": "Kroot carbine",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "0",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000414",
@@ -868,20 +877,20 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Krootox fists",
           "special_rules": [
@@ -918,20 +927,20 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Ripping fangs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000417",
@@ -958,13 +967,13 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Fusion blaster",
@@ -978,20 +987,21 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000418",
@@ -1032,24 +1042,24 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -1080,24 +1090,24 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "T’au flamer",
@@ -1112,20 +1122,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000420",
@@ -1152,13 +1163,13 @@
         {
           "name": "Cyclic ion raker – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Cyclic ion raker – overcharge",
@@ -1227,20 +1238,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Ghostkeel fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000421",
@@ -1267,24 +1279,24 @@
         {
           "name": "Heavy burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Ion accelerator – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "72",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Ion accelerator – overcharge",
@@ -1339,20 +1351,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Riptide fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000422",
@@ -1379,13 +1392,13 @@
         {
           "name": "Drone burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Ion rifle – standard",
@@ -1417,13 +1430,13 @@
         {
           "name": "Pulse carbine",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "20",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Pulse pistol",
@@ -1469,27 +1482,28 @@
         {
           "name": "Semi-automatic grenade launcher – fusion",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000423",
@@ -1516,13 +1530,13 @@
         {
           "name": "Piranha burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Piranha fusion blaster",
@@ -1542,13 +1556,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin pulse carbine",
@@ -1563,20 +1577,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000424",
@@ -1603,26 +1618,26 @@
         {
           "name": "Accelerator burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Seeker missile",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin pulse carbine",
@@ -1650,20 +1665,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000425",
@@ -1690,24 +1706,24 @@
         {
           "name": "Accelerator burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Quad ion turret – standard",
@@ -1741,27 +1757,28 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000426",
@@ -1788,13 +1805,13 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Twin missile pod",
@@ -1814,13 +1831,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin ion rifle – standard",
@@ -1848,20 +1865,21 @@
           "S": "8",
           "AP": "-2",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000427",
@@ -1938,20 +1956,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Stingwing claws",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000428",
@@ -2001,20 +2020,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000430",
@@ -2041,13 +2061,13 @@
         {
           "name": "Accelerator burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Seeker missile rack",
@@ -2088,20 +2108,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000431",
@@ -2128,13 +2149,13 @@
         {
           "name": "Accelerator burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Ion cannon – standard",
@@ -2182,13 +2203,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin pulse carbine",
@@ -2217,20 +2238,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000432",
@@ -2257,13 +2279,13 @@
         {
           "name": "Accelerator burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Ion cannon – standard",
@@ -2311,13 +2333,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin pulse carbine",
@@ -2344,20 +2366,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000433",
@@ -2413,13 +2436,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin plasma rifle",
@@ -2447,20 +2470,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Crushing bulk",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000434",
@@ -2610,20 +2634,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Thunderous footfalls",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000435",
@@ -2775,20 +2800,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000443",
@@ -2828,13 +2854,13 @@
         {
           "name": "Phased ion gun",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Twin hazard burst cannon",
@@ -2848,20 +2874,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000444",
@@ -2888,13 +2915,13 @@
         {
           "name": "Flechette pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Ionic discharge cannon – standard",
@@ -2936,20 +2963,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000445",
@@ -2985,20 +3013,21 @@
           "S": "8",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000446",
@@ -3025,13 +3054,13 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Fragmentation cluster shell launcher",
@@ -3076,13 +3105,13 @@
         {
           "name": "Nexus missile launcher",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Pulse ordnance driver",
@@ -3136,20 +3165,21 @@
           "S": "9",
           "AP": "-3",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Crushing feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000447",
@@ -3185,20 +3215,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapons",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000448",
@@ -3238,24 +3269,24 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "Rail rifle",
@@ -3269,20 +3300,21 @@
           "S": "10",
           "AP": "-4",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000449",
@@ -3309,13 +3341,13 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Twin burst cannon",
@@ -3329,20 +3361,21 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "6",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000452",
@@ -3371,13 +3404,13 @@
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin long-barrelled burst cannon",
@@ -3391,20 +3424,21 @@
           "S": "6",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "5",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000453",
@@ -3431,13 +3465,13 @@
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -3482,48 +3516,48 @@
         {
           "name": "Long-barrelled burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Seeker missile",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Swiftstrike burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "16",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Swiftstrike railgun",
@@ -3537,20 +3571,21 @@
           "S": "20",
           "AP": "-5",
           "D": "D6+6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000454",
@@ -3577,24 +3612,24 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -3639,26 +3674,26 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Seeker missile",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Skyspear missile rack",
@@ -3677,13 +3712,13 @@
         {
           "name": "Swiftstrike burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "16",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Swiftstrike railgun",
@@ -3697,20 +3732,21 @@
           "S": "20",
           "AP": "-5",
           "D": "D6+6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000455",
@@ -3737,24 +3773,24 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -3772,26 +3808,26 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Seeker missile",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Twin heavy rail cannon",
@@ -3806,20 +3842,21 @@
           "S": "26",
           "AP": "-5",
           "D": "12"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000456",
@@ -3846,38 +3883,39 @@
         {
           "name": "Long-barrelled burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000457",
@@ -3944,51 +3982,52 @@
         {
           "name": "Long-barrelled burst cannon array",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "32",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Seeker missile",
           "special_rules": [
             "one shot"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Armoured hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "5",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000458",
@@ -4126,17 +4165,6 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Kroot rifle",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -4151,6 +4179,17 @@
           "BS_WS": "3",
           "S": "6",
           "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Kroot rifle",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
           "D": "1"
         }
       ]
@@ -4182,13 +4221,13 @@
           "special_rules": [
             "hooked"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
         },
         {
           "name": "Kroot rifle",
@@ -4215,17 +4254,6 @@
           "S": "7",
           "AP": "0",
           "D": "2"
-        },
-        {
-          "name": "Kroot rifle",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -4241,6 +4269,17 @@
           "S": "7",
           "AP": "-1",
           "D": "3"
+        },
+        {
+          "name": "Kroot rifle",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
       ]
     },
@@ -4283,24 +4322,24 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -4331,24 +4370,24 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "T’au flamer",
@@ -4363,20 +4402,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001478",
@@ -4417,24 +4457,24 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – standard",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Cyclic ion blaster – overcharge",
@@ -4465,24 +4505,24 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
         },
         {
           "name": "T’au flamer",
@@ -4497,20 +4537,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002588",
@@ -4614,42 +4655,43 @@
           "S": "5",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Ripping fangs",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Ritual blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003699",
@@ -4685,20 +4727,21 @@
           "S": "9",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003700",
@@ -4725,38 +4768,39 @@
         {
           "name": "Missile pod",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Plasma rifle",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003701",
@@ -4783,13 +4827,13 @@
         {
           "name": "Burst cannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "T’au flamer",
@@ -4804,20 +4848,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Battlesuit fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "5",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003702",
@@ -4853,20 +4898,21 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Shaper’s blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000003703",
@@ -4917,17 +4963,6 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
-        {
-          "name": "Shaper’s blade",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -4943,6 +4978,17 @@
           "S": "5",
           "AP": "-1",
           "D": "2"
+        },
+        {
+          "name": "Shaper’s blade",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
       ]
     },
@@ -5047,20 +5093,20 @@
           "S": "6",
           "AP": "-2",
           "D": "3"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Hunting javelin",
           "special_rules": [

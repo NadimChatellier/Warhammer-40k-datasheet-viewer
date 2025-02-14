@@ -105,20 +105,21 @@
           "S": "6",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "The Spear of Twilight",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000570",
@@ -170,20 +171,21 @@
           "S": "6",
           "AP": "-3",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Aeldari power sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000571",
@@ -273,31 +275,32 @@
           "S": "6",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "The Blade of Destruction – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "The Blade of Destruction – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000573",
@@ -412,20 +415,21 @@
           "S": "14",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "The Fire Axe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-4",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000575",
@@ -515,20 +519,21 @@
           "S": "7",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "The Maugetar",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000577",
@@ -634,31 +639,20 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Banshee blade",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Star glaive",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Banshee blade",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
         {
           "name": "Scorpion chainsword",
           "special_rules": [
@@ -671,6 +665,17 @@
           "S": "5",
           "AP": "0",
           "D": "1"
+        },
+        {
+          "name": "Star glaive",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         }
       ]
     },
@@ -736,28 +741,6 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Banshee blade",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -773,6 +756,28 @@
           "S": "4",
           "AP": "-3",
           "D": "2"
+        },
+        {
+          "name": "Banshee blade",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
       ]
     },
@@ -810,31 +815,32 @@
           "S": "16",
           "AP": "-4",
           "D": "D6+2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "The Wailing Doom – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+2"
         },
         {
           "name": "The Wailing Doom – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000582",
@@ -1540,13 +1546,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -1564,24 +1570,24 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -1612,27 +1618,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000590",
@@ -1711,31 +1718,32 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Aeldari power sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Guardian combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000591",
@@ -1762,13 +1770,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -1796,20 +1804,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000592",
@@ -1860,20 +1869,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000593",
@@ -1937,31 +1947,20 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Power glaive",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Diresword",
           "special_rules": [
@@ -1972,6 +1971,17 @@
           "A": "3",
           "BS_WS": "3",
           "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Power glaive",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
           "AP": "-2",
           "D": "1"
         }
@@ -2038,53 +2048,54 @@
           "S": "4",
           "AP": "-2",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Banshee blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
         },
         {
           "name": "Executioner",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Mirrorswords",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
         },
         {
           "name": "Triskele",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000595",
@@ -2267,20 +2278,21 @@
           "S": "12",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000597",
@@ -2320,27 +2332,28 @@
         {
           "name": "D-scythe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-4",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000598",
@@ -2363,31 +2376,31 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
+      "ranged_weapons": [],
+      "melee_weapons": [
         {
           "name": "Ghostaxe",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Ghostswords",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000599",
@@ -2517,20 +2530,21 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000600",
@@ -2594,31 +2608,32 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Aeldari power sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000601",
@@ -2668,31 +2683,32 @@
           "S": "4",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Powerblades",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000602",
@@ -2781,17 +2797,6 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
-        {
-          "name": "Paragon sabre",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
@@ -2803,6 +2808,17 @@
           "range": "Melee",
           "type": "Melee",
           "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Paragon sabre",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
           "BS_WS": "3",
           "S": "4",
           "AP": "-2",
@@ -2848,49 +2864,50 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Pulse laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000605",
@@ -2917,13 +2934,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -2941,35 +2958,35 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Shuriken cannon",
@@ -2997,20 +3014,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000606",
@@ -3046,20 +3064,21 @@
           "S": "12",
           "AP": "-4",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000607",
@@ -3176,20 +3195,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000608",
@@ -3270,20 +3290,21 @@
           "S": "8",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000609",
@@ -3323,57 +3344,57 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Pulse laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Twin shuriken catapult",
@@ -3401,20 +3422,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000610",
@@ -3456,13 +3478,13 @@
           "special_rules": [
             "linked fire"
           ],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "60",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "Shuriken cannon",
@@ -3490,20 +3512,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000611",
@@ -3569,20 +3592,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000612",
@@ -3609,13 +3633,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -3633,24 +3657,24 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -3668,27 +3692,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "War Walker feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000613",
@@ -3715,13 +3740,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -3754,24 +3779,24 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -3802,49 +3827,50 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Ghostglaive – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Ghostglaive – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Wraithbone fists",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "4",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000614",
@@ -3885,13 +3911,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -3909,60 +3935,61 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Suncannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Titanic feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         },
         {
           "name": "Titanic ghostglaive – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "16",
+          "AP": "-3",
+          "D": "6"
         },
         {
           "name": "Titanic ghostglaive – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "15",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000615",
@@ -4015,27 +4042,28 @@
         {
           "name": "Prism rifle – focused",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000616",
@@ -4062,13 +4090,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -4086,24 +4114,24 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -4121,27 +4149,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wasp feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000617",
@@ -4181,24 +4210,24 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Destructor",
@@ -4217,13 +4246,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -4241,13 +4270,13 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Wraithseer D-cannon",
@@ -4320,13 +4349,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -4344,35 +4373,35 @@
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Hornet pulse laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -4390,27 +4419,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000619",
@@ -4488,20 +4518,21 @@
           "S": "4",
           "AP": "-3",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000620",
@@ -4541,24 +4572,24 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Lynx pulsar",
@@ -4576,13 +4607,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -4600,27 +4631,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000621",
@@ -4660,35 +4692,35 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -4706,13 +4738,13 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Twin Scorpion pulsar",
@@ -4726,20 +4758,21 @@
           "S": "18",
           "AP": "-3",
           "D": "5"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000622",
@@ -4779,24 +4812,24 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Bright lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "D-impaler",
@@ -4815,13 +4848,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -4839,27 +4872,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000623",
@@ -4909,20 +4943,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000624",
@@ -4962,13 +4997,13 @@
         {
           "name": "Phoenix pulse laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Twin shuriken cannon",
@@ -4983,20 +5018,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000625",
@@ -5023,13 +5059,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Twin pulse laser",
@@ -5043,20 +5079,21 @@
           "S": "9",
           "AP": "-2",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000626",
@@ -5083,13 +5120,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Twin pulse laser",
@@ -5116,20 +5153,21 @@
           "S": "12",
           "AP": "-3",
           "D": "4"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000627",
@@ -5197,13 +5235,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -5221,27 +5259,28 @@
         {
           "name": "Starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Titanic feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000628",
@@ -5306,20 +5345,21 @@
           "S": "8",
           "AP": "-3",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Revenant feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-1",
+          "D": "3"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000629",
@@ -5360,13 +5400,13 @@
         {
           "name": "Dark lance",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
         },
         {
           "name": "Dissonance cannon",
@@ -5398,13 +5438,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken cannon",
@@ -5446,31 +5486,32 @@
           "S": "4",
           "AP": "-3",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Void sabre",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000630",
@@ -5497,27 +5538,28 @@
         {
           "name": "Spear of Starlight",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "4"
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Spear of Starlight",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000631",
@@ -5544,46 +5586,46 @@
         {
           "name": "Pulse laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
         },
         {
           "name": "Voidstorm missile launcher",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "2D6",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Phantom starcannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
         },
         {
           "name": "Phantom pulsar",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "120",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "6"
         },
         {
           "name": "D-bombard",
@@ -5598,42 +5640,43 @@
           "S": "20",
           "AP": "-4",
           "D": "2D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Phantom feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-2",
+          "D": "4"
         },
         {
           "name": "Wraith glaive – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "4"
         },
         {
           "name": "Wraith glaive – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "18",
+          "AP": "-4",
+          "D": "12"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000632",
@@ -5657,17 +5700,6 @@
         }
       ],
       "ranged_weapons": [
-        {
-          "name": "Aeldari missile launcher – starshot ",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
         {
           "name": "Blaster",
           "special_rules": [
@@ -5805,42 +5837,20 @@
           "S": "3",
           "AP": "-1",
           "D": "2"
-        },
-        {
-          "name": "Close combat weapon",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Spar-glaive",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        },
-        {
-          "name": "Void sabre",
-          "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
         }
       ],
       "melee_weapons": [
+        {
+          "name": "Aeldari missile launcher – starshot ",
+          "special_rules": [],
+          "range": "48",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
         {
           "name": "Aeldari missile launcher – sunburst",
           "special_rules": [
@@ -5852,6 +5862,39 @@
           "BS_WS": "3",
           "S": "4",
           "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Close combat weapon",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Spar-glaive",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Void sabre",
+          "special_rules": [],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
           "D": "1"
         }
       ]
@@ -5881,13 +5924,13 @@
         {
           "name": "Aeldari missile launcher – starshot",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6\r"
         },
         {
           "name": "Aeldari missile launcher – sunburst",
@@ -6067,42 +6110,43 @@
           "S": "6",
           "AP": "0",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Spar-glaive",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Void sabre",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001393",
@@ -6165,20 +6209,21 @@
           "S": "4",
           "AP": "-3",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Wraithbone hull",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000001400",
@@ -6253,20 +6298,21 @@
           "S": "4",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Power blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002459",
@@ -6409,31 +6455,32 @@
           "S": "14",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Aeldari power sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002532",
@@ -6595,31 +6642,31 @@
           "S": "14",
           "AP": "-4",
           "D": "D6"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Aeldari power sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
         {
           "name": "Paired Hekatarii blades",
           "special_rules": [
@@ -6687,13 +6734,13 @@
         {
           "name": "Scatter laser",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Shuriken pistol",
@@ -6708,20 +6755,21 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002534",
@@ -6788,31 +6836,32 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Harlequin’s special weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         },
         {
           "name": "Troupe Master’s blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002535",
@@ -6947,42 +6996,43 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Aeldari power sword",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
         },
         {
           "name": "Harlequin’s blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Harlequin’s special weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002537",
@@ -7018,20 +7068,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Jester’s blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002538",
@@ -7109,13 +7160,13 @@
         {
           "name": "Star bolas",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "12",
+          "type": "Ranged",
+          "A": "D3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Skyweaver haywire cannon",
@@ -7130,31 +7181,32 @@
           "S": "3",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         },
         {
           "name": "Zephyrglaive",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002540",
@@ -7194,13 +7246,13 @@
         {
           "name": "Prismatic cannon – focused lances",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "4"
         },
         {
           "name": "Shuriken cannon",
@@ -7228,20 +7280,21 @@
           "S": "4",
           "AP": "-1",
           "D": "3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002541",
@@ -7277,20 +7330,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Close combat weapon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002542",
@@ -7420,31 +7474,32 @@
           "S": "7",
           "AP": "-1",
           "D": "D3"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Vilith-zhar, the Sword of Souls – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6+1"
         },
         {
           "name": "Vilith-zhar, the Sword of Souls – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "10",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-4",
+          "D": "1"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002759",
@@ -7550,31 +7605,31 @@
           "S": "4",
           "AP": "-1",
           "D": "1"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Star glaive",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Banshee blade",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
-        }
-      ],
-      "melee_weapons": [
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "4",
+          "AP": "-3",
+          "D": "1"
+        },
         {
           "name": "Scorpion chainsword",
           "special_rules": [

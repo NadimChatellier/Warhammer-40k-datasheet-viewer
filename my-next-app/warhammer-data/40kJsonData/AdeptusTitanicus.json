@@ -90,20 +90,21 @@
           "S": "6",
           "AP": "-1",
           "D": "2"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Warhound feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "10",
+          "AP": "-1",
+          "D": "2"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000868",
@@ -194,42 +195,43 @@
           "S": "24",
           "AP": "-5",
           "D": "14"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Reaver feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "4"
         },
         {
           "name": "Reaver power fist – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "20",
+          "AP": "-4",
+          "D": "14"
         },
         {
           "name": "Reaver power fist – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "6"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000000869",
@@ -270,24 +272,24 @@
         {
           "name": "Ardex-defensor lascannon",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "48",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
         },
         {
           "name": "Ardex-defensor mauler",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Arioch power claw",
@@ -381,42 +383,43 @@
           "S": "12",
           "AP": "-3",
           "D": "8"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Arioch power claw – strike",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "20",
+          "AP": "-4",
+          "D": "24"
         },
         {
           "name": "Arioch power claw – sweep",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-3",
+          "D": "8"
         },
         {
           "name": "Warlord feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "4"
         }
-      ],
-      "melee_weapons": []
+      ]
     },
     {
       "id": "000002077",
@@ -456,13 +459,13 @@
         {
           "name": "Ardex-defensor mauler",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "36",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
         },
         {
           "name": "Nemesis quake cannon",
@@ -544,20 +547,21 @@
           "S": "24",
           "AP": "-5",
           "D": "14"
-        },
+        }
+      ],
+      "melee_weapons": [
         {
           "name": "Nemesis feet",
           "special_rules": [],
-          "range": "",
-          "type": "",
-          "A": "",
-          "BS_WS": "",
-          "S": "",
-          "AP": "",
-          "D": ""
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "4",
+          "S": "12",
+          "AP": "-2",
+          "D": "4"
         }
-      ],
-      "melee_weapons": []
+      ]
     }
   ]
 }
