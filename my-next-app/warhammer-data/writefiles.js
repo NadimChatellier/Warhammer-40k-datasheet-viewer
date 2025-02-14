@@ -308,6 +308,29 @@ function writeFactionFiles() {
     }
   });
 }
+/**
+ * Writes a JSON file with only faction IDs and names.
+ */
+function writeFactionSummary() {
+  return new Promise((resolve, reject) => {
+    try {
+      const factionSummary = Object.values(factionDataMap).map(faction => ({
+        id: faction.id,
+        name: faction.name
+      }));
+
+      const filePath = path.join(outputDir, 'FactionsSummary.json');
+      fs.writeFileSync(filePath, JSON.stringify(factionSummary, null, 2));
+
+      console.log('✅ Faction summary written successfully.');
+      resolve();
+    } catch (err) {
+      console.error('❌ Error writing faction summary:', err);
+      reject(err);
+    }
+  });
+}
+
 
 /**
  * Run all steps in sequence
@@ -315,6 +338,7 @@ function writeFactionFiles() {
 async function processWarhammerData() {
   try {
     await readFactions();
+    await writeFactionSummary(); // Writes the faction summary
     await readDatasheets();
     await parseUnitProfiles();
     await parseUnitWeapons();
