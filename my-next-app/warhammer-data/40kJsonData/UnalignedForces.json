@@ -657,7 +657,33 @@
           "D": "2"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000920",
+              "line": "6",
+              "name": "Reinforced Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000920",
+              "line": "7",
+              "name": "FORTIFICATION",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000921",
@@ -711,7 +737,67 @@
           "D": "D6"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000921",
+              "line": "2",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "2D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000921",
+              "line": "3",
+              "ability_id": "000008334",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "15"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000921",
+              "line": "1",
+              "ability_id": "000008537",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000921",
+              "line": "4",
+              "name": "Roof Access",
+              "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000921",
+              "line": "5",
+              "name": "Vortex",
+              "description": "In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds.|Datasheet||\n000000921|6|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000000921|7|||FORTIFICATION|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||\n000000922|1|000008537||||Faction||\n000000922|2|000008339||||Core|D6|\n000000922|3|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000000922|4|||Projected Void Shields (Aura)|While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000922",
@@ -735,7 +821,24 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000922",
+              "line": "5",
+              "name": "FORTIFICATION",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000923",
@@ -759,7 +862,74 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000923",
+              "line": "2",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000923",
+              "line": "1",
+              "ability_id": "000008537",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000923",
+              "line": "3",
+              "name": "Skyshield",
+              "description": "Friendly INFANTRY models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this FORTIFICATION. While such a model is on the platform section of this FORTIFICATION, that model has a 5+ invulnerable save against ranged attacks.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000923",
+              "line": "4",
+              "name": "Repair Aircraft",
+              "description": "At the end of your Movement phase, if there is a friendly Aircraft model on top of this FORTIFICATION, that AIRCRAFT regains up to D3 lost wounds.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000923",
+              "line": "5",
+              "name": "Reinforced Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000923",
+              "line": "6",
+              "name": "FORTIFICATION",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001603",
@@ -845,7 +1015,57 @@
           "AP": "-2",
           "D": "D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001630",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001630",
+              "line": "3",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "5+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001630",
+              "line": "1",
+              "ability_id": "000008537",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001630",
+              "line": "4",
+              "name": "Borewyrm Infestation",
+              "description": "Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed.Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used.|Wargear||\n000001630|5|||Frenzy|Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase.|Datasheet||\n000001647|1|000008343||||Core||\n000001647|2|000008346||||Core||\n000001647|3|000008433||||Faction||\n000001647|4|||Swallow Energy (Psychic)|While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.|Datasheet||\n000001647|5|||Horrible Fascination(Psychic)|At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002093",
@@ -1107,7 +1327,94 @@
           "D": "2"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "2",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "3D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "3",
+              "ability_id": "000008334",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "45"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "1",
+              "ability_id": "000008537",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "4",
+              "name": "Comms Antenna",
+              "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "5",
+              "name": "Reinforced Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "6",
+              "name": "Stronghold",
+              "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION. Any friendly model can be set up or end any type of move on the ramp or platform section of this FORTIFICATION.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "7",
+              "name": "FORTIFICATION",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002807",
+              "line": "8",
+              "name": "MIGHTY EDIFICE",
+              "description": "You can only include this FORTIFICATION in your army in games of Onslaught size or greater.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002808",
@@ -1159,7 +1466,94 @@
           "D": "3"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "2",
+              "ability_id": "000008334",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "3",
+              "ability_id": "000008537",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "4",
+              "name": "Roof Access",
+              "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "5",
+              "name": "Inviolable Bastion",
+              "description": "Each time an attack is allocated to this FORTIFICATION, subtract 1 from the Damage characteristic of that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "6",
+              "name": "Reinforced Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "7",
+              "name": "Comms Antenna",
+              "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002808",
+              "line": "8",
+              "name": "FORTIFICATION",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002809",
@@ -1183,7 +1577,35 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002809",
+              "line": "1",
+              "ability_id": "000008537",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002809",
+              "line": "2",
+              "name": "Defence Line",
+              "description": "When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see in FORTIFICATION section), that model has a 4+ invulnerable save.|Datasheet||\n000002809|3|||Trench Line|Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.|Datasheet||\n000002809|4|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000002809|5|||FORTIFICATION|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||\n000002810|1|000008537||||Faction||\n000002810|2|||Defence Line|While an INFANTRY model has the Benefit of Cover as a result of this Fortification(see below), that model has a 4+ invulnerable save.|Datasheet||\n000002810|3|||Trench Line|Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.|Datasheet||\n000002810|4|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000002810|5|||FORTIFICATION|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||\n000002811|1|000008537||||Faction||\n000002811|2|||Defence Line|When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see below), that model has a 4+ invulnerable save.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002810",
@@ -1259,7 +1681,33 @@
           "D": "3"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002811",
+              "line": "3",
+              "name": "Reinforced Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002811",
+              "line": "4",
+              "name": "FORTIFICATION",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     }
   ]
 }

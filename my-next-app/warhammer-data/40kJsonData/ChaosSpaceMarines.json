@@ -65,7 +65,92 @@
           "AP": "-3",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "4",
+              "name": "The Warmaster",
+              "description": "In your Command phase, select one Warmaster ability (see left). Until the start of your next Command phase, this model has that ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "5",
+              "name": "Dark Destiny",
+              "description": "Each time this model's unit makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 7+, you gain 1CP.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "6",
+              "name": "SUPREME COMMANDER",
+              "description": "If this model is in your army, it must be your Warlord.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "7",
+              "name": "Paragon of Hatred (Aura)",
+              "description": "While a friendly HERETIC ASTARTES unit is within 6\" (excluding DAMNED units) of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll.|Primarch||\n000000924|8|||Mark of Chaos Ascendant (Aura)|While a friendly HERETIC ASTARTES INFANTRY or HERETIC ASTARTES MOUNTED unit (excluding DAMNED units) is within 6\" of this model, models in that unit have a 4+ invulnerable save.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000924",
+              "line": "9",
+              "name": "Lord of the Traitor Legions (Aura)",
+              "description": "While a friendly HERETIC ASTARTES unit (excluding DAMNED units) is within 6\" of this model, you can re-roll Leadership and Battle-shock tests taken for that unit.|Primarch||\n000000925|1|000008346||||Core||\n000000925|2|000008359||||Faction||\n000000925|3|||The Tyrant of Badab|While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.|Datasheet||\n000000925|4|||Red Corsairs|After both players have deployed their armies, you can select up to three HERETIC ASTARTES INFANTRY units from your army and redeploy them. When doing so, those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.|Datasheet||\n000000925|5|||Hamadrya’s Knowledge (Psychic)|Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".|Datasheet||\n000000926|1|000008336||||Core||\n000000926|2|000008359||||Faction||\n000000926|3|||Agent of Discord (Aura)|Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000925",
@@ -209,7 +294,24 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000926",
+              "line": "4",
+              "name": "Guns Blazing",
+              "description": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.|Datasheet||\n000000928|1|000008338||||Core|5+|\n000000928|2|000008346||||Core||\n000000928|3|000008359||||Faction||\n000000928|4|||Enhanced Warriors|If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to the Toughness characteristic of Bodyguard models in that unit.|Datasheet||\n000000928|5|||Surgeon Acolyte|Once per turn, when an attack is allocated to a model in this unit, if this unit contains FABIUS BILE, you can change the Damage characteristic of that attack to 0.|Datasheet||\n000000928|6|||Chirurgeon|The first time this unit’s FABIUS BILE model is destroyed, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining. If that model was attached to a unit when it was destroyed, it must be set up attached to that unit.|Datasheet||\n000000929|1|000008346||||Core||\n000000929|2|000008359||||Faction||\n000000929|3|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000929|4|||Chance for Glory|Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1.|Datasheet||\n000000930|1|000008343||||Core||\n000000930|2|000008346||||Core||\n000000930|3|000008359||||Faction||\n000000930|4|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000930|5|||Formidably Resilient|Each time an attack is allocated to this model, halve the Damage characteristic of that attack.|Datasheet||\n000000931|1|000008346||||Core||\n000000931|2|000008359||||Faction||\n000000931|3|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000931|4|||Swift Assault|While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.|Datasheet||\n000000932|1|000008346||||Core||\n000000932|2|000008359||||Faction||\n000000932|3|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000932|4|||Bloody Stampede|Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.|Datasheet||\n000000933|1|000008346||||Core||\n000000933|2|000008359||||Faction||\n000000933|3|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000933|4|||Lord of Fate|While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds.|Datasheet||\n000000934|1|000008346||||Core||\n000000934|2|000008359||||Faction||\n000000934|3|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000934|4|||Revolting Regeneration|At the start of your Command phase, this model regains up to D3 lost wounds.|Datasheet||\n000000935|1|000008346||||Core||\n000000935|2|000008359||||Faction||\n000000935|3|||Lord of Chaos|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000000935|4|||Cut Off Their Escape|Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.|Datasheet||\n000000936|1|000008346||||Core||\n000000936|2|000008359||||Faction||\n000000936|3|||Dark Zealotry|While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.|Datasheet||\n000000936|4|||Demagogue|Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000928",
@@ -1369,7 +1471,24 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000936",
+              "line": "5",
+              "name": "Malign Sacrifice",
+              "description": "At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000937",
@@ -1428,7 +1547,47 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000937",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000937",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000937",
+              "line": "3",
+              "name": "Dark Blessing (Aura)",
+              "description": "While a friendly HERETIC ASTARTES INFANTRY unit is within 6\" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.|Datasheet||\n000000937|4|||Ascended Daemon|Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll.|Datasheet||\n000000937|5|||Daemonic Allegiance|When you select this model to include in your army, you must select one of the keywords below. Until the end of the battle, this model has that keyword and the characteristic modifier stated for that keyword below.|Primarch||\n000000937|6|||Khorne|Add 2 to the Strength characteristic of this model's hellforged weapons.|Primarch||\n000000937|7|||Tzeentch|Add 3 to the Attacks characteristic of its infernal cannon.|Primarch||\n000000937|8|||Nurgle|Add 1 to its Toughness characteristic.|Primarch||\n000000937|9|||Slaanesh|Add 2\" to its Move characteristic.|Primarch||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000938",
@@ -1508,7 +1667,55 @@
           "AP": "-1",
           "D": "D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000938",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000938",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000938",
+              "line": "3",
+              "name": "Prescience (Psychic)",
+              "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000938",
+              "line": "4",
+              "name": "Gift of Chaos (Psychic)",
+              "description": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000939",
@@ -1603,7 +1810,75 @@
           "AP": "-1",
           "D": "D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000939",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000939",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000939",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000939",
+              "line": "5",
+              "name": "Warptime (Psychic)",
+              "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000939",
+              "line": "6",
+              "name": "Death Hex (Psychic)",
+              "description": "At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.|Datasheet||\n000000940|1|000008346||||Core||\n000000940|2|000008359||||Faction||\n000000940|3|||Prescience (Psychic)|While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.|Datasheet||\n000000940|4|||Unholy Power|Each time this model’s unit makes a Dark Pact, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Wound roll.|Datasheet||\n000000941|1|000008346||||Core||\n000000941|2|000008359||||Faction||\n000000941|3|||Flames of Change (Psychic)|While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.|Datasheet||\n000000941|4|||Altered Reality (Psychic)|Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6.|Datasheet||\n000000942|1|000008346||||Core||\n000000942|2|000008359||||Faction||\n000000942|3|||Gift of Poxes (Psychic)|While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.|Datasheet||\n000000942|4|||Feculent Despair (Aura, Psychic)|While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [
+          [
+            {
+              "datasheet_id": "000000939",
+              "line": "4",
+              "name": "Chaos Familiar",
+              "description": "Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0.",
+              "type": "wargear"
+            }
+          ]
+        ],
+        "special": []
+      }
     },
     {
       "id": "000000940",
@@ -2303,7 +2578,55 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000943",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000943",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000943",
+              "line": "3",
+              "name": "Dark Favour (Psychic)",
+              "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000943",
+              "line": "4",
+              "name": "Infernal Speed",
+              "description": "While this model is leading a unit, change the Move characteristic of models in that unit to 14\".|Datasheet||\n000000944|1|000008346||||Core||\n000000944|2|000008359||||Faction||\n000000944|3|||Warpsmith|While this model is within 3\" of one or more friendly HERETIC ASTARTES VEHICLE units, this model has the Lone Operative ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000944",
@@ -2398,7 +2721,24 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000944",
+              "line": "4",
+              "name": "Master of Mechanisms",
+              "description": "In your Command phase, select one friendly HERETIC ASTARTES VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase.|Datasheet||\n000000944|5|||Enrage Machine Spirits|At the end of your Movement phase, select one enemy VEHICLE unit within 12\" of this model. That unit must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000946",
@@ -2461,7 +2801,35 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000946",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000946",
+              "line": "2",
+              "name": "For the Dark Gods",
+              "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000947",
@@ -2591,7 +2959,46 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000947",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000947",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000947",
+              "line": "3",
+              "name": "Despoilers",
+              "description": "Each time this unit makes a Dark Pact, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000951",
@@ -2762,7 +3169,44 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000951",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000951",
+              "line": "2",
+              "name": "Riotous Cacophony",
+              "description": "In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000951",
+              "line": "3",
+              "name": "Chaos Icon",
+              "description": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000952",
@@ -2889,7 +3333,44 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000952",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000952",
+              "line": "2",
+              "name": "Chaos Icon",
+              "description": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000952",
+              "line": "3",
+              "name": "Chosen Marauders",
+              "description": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000953",
@@ -2925,7 +3406,44 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000953",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000953",
+              "line": "2",
+              "name": "Unholy Bloodshed",
+              "description": "Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000953",
+              "line": "3",
+              "name": "Chaos Icon",
+              "description": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000954",
@@ -3113,7 +3631,47 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000954",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "1"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000954",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000954",
+              "line": "3",
+              "name": "Dark Ascension (Aura)",
+              "description": "While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, weapons equipped by models in that unit gain both abilities conferred by that pact (instead of only one).|Datasheet||\n000000954|4|||Devoted to Destruction|If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons.|Datasheet||\n000000955|1|000008343||||Core||\n000000955|2|000008359||||Faction||\n000000955|3|||Death Frenzy|Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.|Datasheet||\n000000955|4|||CULT OF DESTRUCTION|For the purposes of embarking within TRANSPORTS, each MUTILATOR model counts as one OBLITERATOR model.|Special (правая колонка)||\n000000956|1|000008339||||Core|D3|\n000000956|2|000008334||||Core|2|\n000000956|3|000008359||||Faction||\n000000956|4|||Self Repair|At the start of your Command phase, this model regains 1 lost wound.|Datasheet||\n000000957|1|000008359||||Faction||\n000000957|2|||Outmanoeuvre|Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1.|Datasheet||\n000000957|3|||Chaos Icon|Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test.|Wargear||\n000000958|1|000008343||||Core||\n000000958|2|000008359||||Faction||\n000000958|3|||Fearsome (Aura)|While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000955",
@@ -3594,7 +4152,24 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000958",
+              "line": "4",
+              "name": "Terrifying Assault",
+              "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000959",
@@ -3632,7 +4207,46 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000959",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000959",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000959",
+              "line": "3",
+              "name": "Warp Strike",
+              "description": "At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000960",
@@ -3668,7 +4282,47 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000960",
+              "line": "1",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "5+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000960",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000960",
+              "line": "3",
+              "name": "Mind-breaking Mutations (Aura)",
+              "description": "While an enemy unit (excluding VEHICLE units) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit.|Datasheet||\n000000961|1|000008339||||Core|D3|\n000000961|2|000008342||||Core||\n000000961|3|000008359||||Faction||\n000000961|4|||Airborne Predator|Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll.|Datasheet||\n000000962|1|000008339||||Core|D6|\n000000962|2|000008359||||Faction||\n000000962|3|||Assault Ramp|Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||\n000000963|1|000008339||||Core|D3|\n000000963|2|000008359||||Faction||\n000000963|3|||Destructor|Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1.|Datasheet||\n000000964|1|000008339||||Core|D3|\n000000964|2|000008359||||Faction||\n000000964|3|||Siege Shield|When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.|Datasheet||\n000000965|1|000008343||||Core||\n000000965|2|000008359||||Faction||\n000000965|3|||Warp Rift Firepower|Once per battle, when this unit makes a Dark Pact, it can use this ability. If it does, until the end of the phase, ranged weapons models in this unit are equipped with have the [INDIRECT FIRE] ability.|Datasheet||\n000000966|1|000008359||||Faction||\n000000966|2|||Stabilisation Talons|Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon.|Datasheet||\n000000967|1|000008339||||Core|D3|\n000000967|2|000008359||||Faction||\n000000967|3|||Daemonic Ordnance|Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities.|Datasheet||\n000000968|1|000008339||||Core|D3|\n000000968|2|000008359||||Faction||\n000000968|3|||Siege Crawler|You can ignore any or all modifiers to this model’s Move characteristic and to Advance and Charge rolls made for it.|Datasheet||\n000000969|1|000008339||||Core|D3|\n000000969|2|000008359||||Faction||\n000000969|3|||Daemonforge|Once per Fight phase, one unit from your army with this ability can be targeted with the Counter-offensive Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase.|Datasheet||\n000000969|4|||Scuttling Walker|Each time this model makes a Normal or Advance move, it can be moved over friendly MONSTER and VEHICLE models as if they were not there. This model can move over terrain features that are 4\" or less in height as if they were not there.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000961",
@@ -4756,7 +5410,47 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000970",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+2"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000970",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000970",
+              "line": "3",
+              "name": "Plough Through the Enemy",
+              "description": "In the Fight phase, after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6\" of this model must take a Battle-shock test.|Datasheet||\n000001016|1|000008346||||Core||\n000001016|2|000008424||||Faction|1|\n000001016|3|||Empyric Guidance (Psychic)|While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.|Datasheet||\n000001016|4|||Illusions of Tzeentch (Psychic)|While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001293",
@@ -4821,7 +5515,47 @@
           "AP": "-3",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001293",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001293",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001293",
+              "line": "3",
+              "name": "Scuttling Gait",
+              "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.|Datasheet||\n000001293|4|||Impaled|Each time this weapon scores a hit against an enemy MONSTER or VEHICLE unit, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer|Wargear profile||\n000001294|1|000008339||||Core|1|\n000001294|2|000008343||||Core||\n000001294|3|000008359||||Faction||\n000001294|4|||Hovering Death|This model is eligible to shoot and declare a charge in a turn in which it Fell Back.|Datasheet||\n000001295|1|000008339||||Core|D3|\n000001295|2|000008359||||Faction||\n000001295|3|||Infernal Regeneration|The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining.|Datasheet||\n000001295|4|||Conversion|Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001294",
@@ -5074,7 +5808,47 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001297",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+2"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001297",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001297",
+              "line": "3",
+              "name": "Super-heavy Walker",
+              "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.|Datasheet||\n000001297|4|||Bloodlust|Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced.|Datasheet||\n000001298|1|000008339||||Core|D6+2|\n000001298|2|000008359||||Faction||\n000001298|3|||Super-heavy Walker|Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001298",
@@ -5162,7 +5936,24 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001298",
+              "line": "4",
+              "name": "Runes of the Blood God",
+              "description": "This model has the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001302",
@@ -5331,7 +6122,56 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001302",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001302",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001302",
+              "line": "3",
+              "name": "Armoured Spearhead",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001302",
+              "line": "4",
+              "name": "Conversion",
+              "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||\n000001302|5|||One Shot|The bearer can only shoot with this weapon once per battle.|Wargear profile||\n000001310|1|000008339||||Core|1|\n000001310|2|000008343||||Core||\n000001310|3|000008359||||Faction||\n000001310|4|||Dreadclaw Assault|This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001310",
@@ -5441,7 +6281,57 @@
           "AP": "-4",
           "D": "D6+2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001311",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001311",
+              "line": "2",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+2"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001311",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001311",
+              "line": "4",
+              "name": "Kharybdis Assault",
+              "description": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models.|Datasheet||\n000001317|1|000008339||||Core|D3|\n000001317|2|000008359||||Faction||\n000001317|3|||Interceptor|Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.|Datasheet||\n000001318|1|000008339||||Core|D3|\n000001318|2|000008359||||Faction||\n000001318|3|||Bomb Rack|Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.|Datasheet||\n000001321|1|000008339||||Core|D6+2|\n000001321|2|000008342||||Core||\n000001321|3|000008359||||Faction||\n000001321|4|||Thunderhawk Cluster Bombs|Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.|Wargear||\n000001321|5|||Aerial Assault|Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||\n000001329|1|000008339||||Core|D6+2|\n000001329|2|000008343||||Core||\n000001329|3|000008433||||Faction||\n000001329|4|||Emissary of the Blood God (Aura)|While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001317",
@@ -5731,7 +6621,74 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001354",
+              "line": "1",
+              "ability_id": "000008340",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001354",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001354",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001354",
+              "line": "4",
+              "name": "Duellist’s Pride",
+              "description": "While this model is leading a unit, models in that unit have the Fights First ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001354",
+              "line": "5",
+              "name": "Armour of Shrieking Souls",
+              "description": "Each time this model is destroyed by an attack made by an enemy unit, that unit must take a Leadership test: if that test is passed, that enemy unit suffers D3 mortal wounds; if that test is failed, that enemy unit suffers D6 mortal wounds. If mortal wounds inflicted in this way destroy that enemy unit, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with D3 wounds remaining.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001354",
+              "line": "6",
+              "name": "EMPEROR’S CHILDREN",
+              "description": "If this model is your Warlord, NOISE MARINE units in your army have the BATTLELINE keyword.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001355",
@@ -5796,7 +6753,55 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001355",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001355",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001355",
+              "line": "3",
+              "name": "Dark Champion",
+              "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001355",
+              "line": "4",
+              "name": "Aspire to Glory",
+              "description": "Each time this model’s unit makes a Dark Pact, until the end of the phase, add D3 to the Strength characteristic of weapons equipped by this model.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001556",
@@ -5864,7 +6869,65 @@
           "AP": "-3",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001556",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001556",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001556",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001556",
+              "line": "4",
+              "name": "Head Taker",
+              "description": "While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this models unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001556",
+              "line": "5",
+              "name": "Herald of the Apocalypse (Aura)",
+              "description": "While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase.|Datasheet||\n000001557|1|000008339||||Core|1|\n000001557|2|000008391||||Faction||\n000001557|3|||Galatus Shield|Each time a melee attack targets this model, subtract 1 from the Wound roll.|Datasheet||\n000001558|1|000008343||||Core||\n000001558|2|000008391||||Faction||\n000001558|3|||Heavy Assault Infantry|Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Wound roll of 1.|Datasheet||\n000001558|4|||From Golden Light|Once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.|Datasheet||\n000001558|5|||LIONS OF THE EMPEROR|If a model from your army with the Leader ability can be attached to an ALLARUS CUSTODIANS unit, it can be attached to this unit instead.|Special (правая колонка)||\n000001559|1|000008343||||Core||\n000001559|2|000008391||||Faction||\n000001559|3|||Stand Vigil|Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.|Datasheet||\n000001559|4|||No Foe Shall Stand|Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and [IGNORES COVER] abilities.|Datasheet||\n000001559|5|||CUSTODIAN GUARD|If an ADEPTUS CUSTODES model from your army with the Leader ability can be attached to a CUSTODIAN GUARD unit, it can be attached to this unit instead.|Special (правая колонка)||\n000001560|1|000008391||||Faction||\n000001560|2|||Turbo-boost|Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001581",
@@ -6067,7 +7130,24 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001583",
+              "line": "3",
+              "name": "Spirit Thief",
+              "description": "At the start of your Shooting phase, select one enemy VEHICLE unit within 12\" of this model. Until the end of the phase, each time a friendly HERETIC ASTARTES model makes an attack that targets that unit, re-roll a Wound roll of 1.|Datasheet||\n000001584|1|000008346||||Core||\n000001584|2|000008359||||Faction||\n000001584|3|||Warp-sighted Butcher|While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well.|Datasheet||\n000001584|4|||Trophy Taker|Each time this model destroys an enemy CHARACTER model, you gain 1CP.|Datasheet||\n000001586|1|000008339||||Core|D3|\n000001586|2|000008359||||Faction||\n000001586|3|||Soul Eater|At the end of the Fight phase, if one or more attacks made by this model this phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s weapons.|Datasheet||\n000001587|1|000008339||||Core|D6|\n000001587|2|000008359||||Faction||\n000001587|3|||Malevolent Locus (Aura)|While a friendly HERETIC ASTARTES model is wholly within 9\" of this FORTIFICATION, improve that unit’s Leadership characteristic by 1.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001584",
@@ -6204,7 +7284,33 @@
           "D": "2"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001587",
+              "line": "4",
+              "name": "Malign Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001587",
+              "line": "5",
+              "name": "Fortification",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol weapon, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001600",
@@ -6906,7 +8012,35 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002571",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002571",
+              "line": "4",
+              "name": "Accursed Horde",
+              "description": "Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Horde move while it is Battle-shocked.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002572",
@@ -7021,7 +8155,47 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002572",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002572",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002572",
+              "line": "3",
+              "name": "Annihilator",
+              "description": "Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, you can re-roll the Damage roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002589",
@@ -7398,7 +8572,47 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002592",
+              "line": "1",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "5+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002592",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002592",
+              "line": "3",
+              "name": "Fearsome (Aura)",
+              "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.|Datasheet||\n000002593|1|000008346||||Core||\n000002593|2|000008498||||Faction||\n000002593|3|||Ancestral Fortune|Once per turn, you can change one Hit roll or one Wound roll made for this model to an unmodified 6.|Datasheet||\n000002593|4|||The Destined|Each time an attack is allocated to this model, change the Damage characteristic of that attack to 1.|Datasheet||\n000002593|5|||Grim Efficiency|Once per battle round, in your Command phase, you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token.|Datasheet||\n000002593|6|||Rampart Crest|While the bearer is leading a unit, models in that unit have a 5+ invulnerable save.|Wargear||\n000002594|1|000008346||||Core||\n000002594|2|000008498||||Faction||\n000002594|3|||Kindred Hero|While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.|Datasheet||\n000002594|4|||Grim Efficiency|Once per battle round, in your Command phase, you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token.|Datasheet||\n000002594|5|||Rampart Crest|While this model is leading a unit, models in that unit have a 5+ invulnerable save.|Wargear||\n000002594|6|||Teleport Crest|While this model is leading a unit, models in that unit have the Deep Strike ability.|Wargear||\n000002595|1|000008346||||Core||\n000002595|2|000008498||||Faction||\n000002595|3|||Exemplar of the Einhyr|While this model is leading a unit, you can re-roll Charge rolls made for that unit.|Datasheet||\n000002595|4|||Mass Driver Accelerators|Each time this model ends a Charge move, you can select one enemy unit within Engagement Range of this unit and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.|Datasheet||\n000002595|5|||Teleport Crest|While the bearer is leading a unit, models in that unit have the Deep Strike ability.|Wargear||\n000002595|6|||Weavefield Crest|The bearer has a 4+ invulnerable save.|Wargear||\n000002596|1|000008346||||Core||\n000002596|2|000008498||||Faction||\n000002596|3|||Fortify (Psychic)|While this model is leading a unit, improve the Toughness characteristic of models in that unit by 1.|Datasheet||\n000002596|4|||Grimnyr’s Regard|Once per battle, after this model’s unit fails a Battle-shock test, this model can use this ability. If it does, that unit is no longer Battle-shocked.|Datasheet||\n000002597|1|000008346||||Core||\n000002597|2|000008498||||Faction||\n000002597|3|||Multispectral Visor|While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Hit roll.|Datasheet||\n000002597|4|||Brôkhyr’s Guild|At the end of your Movement phase, this unit can repair one friendly LEAGUES OF VOTANN VEHICLE or EXO-FRAME model within 3\" of it. That model regains up to D3 lost wounds, or up to 3 lost wounds instead if this unit contains an Ironkyn Assistant. Each model can only be repaired once per turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002679",
@@ -7465,7 +8679,57 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002679",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002679",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002679",
+              "line": "3",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002679",
+              "line": "4",
+              "name": "Unholy Mechanisms (Aura)",
+              "description": "While a friendly DAEMON VEHICLE unit is within 6\" of this model, add 1 to the Strength characteristic of weapons equipped by models in that unit.|Datasheet||\n000002679|5|||Reorder Reality|Each time an enemy unit within 18\" of this model targets this model, until the end of the phase, that enemy unit’s ranged weapons have the [HAZARDOUS] ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002730",
@@ -7635,7 +8899,55 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002731",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002731",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002731",
+              "line": "3",
+              "name": "Brutal Example",
+              "description": "While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002731",
+              "line": "4",
+              "name": "Enforcer",
+              "description": "This model’s unit is eligible to declare a charge in a turn in which it Fell Back.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002732",
@@ -7781,7 +9093,44 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002732",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002732",
+              "line": "2",
+              "name": "Covering Fire",
+              "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002732",
+              "line": "3",
+              "name": "HEAVY WEAPONS TEAM",
+              "description": "For the purposes of embarking within TRANSPORTS, each Renegade Heavy Weapons Team model counts as two models.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002733",
@@ -7841,7 +9190,35 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002733",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002733",
+              "line": "2",
+              "name": "Beastmaster",
+              "description": "While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002734",
@@ -7888,7 +9265,44 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002734",
+              "line": "1",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002734",
+              "line": "2",
+              "name": "Ogryn Combat Stimms",
+              "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+              "type": "datasheet"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002734",
+              "line": "3",
+              "name": "OGRYNS",
+              "description": "For the purposes of embarking within TRANSPORTS, each Renegade Ogryn Brute model counts as one TERMINATOR model.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002735",
@@ -7926,7 +9340,56 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002735",
+              "line": "1",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "6+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002735",
+              "line": "2",
+              "ability_id": "000008359",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002735",
+              "line": "3",
+              "name": "Wall of Muscle",
+              "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack.",
+              "type": "datasheet"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002735",
+              "line": "4",
+              "name": "OGRYNS",
+              "description": "For the purposes of embarking within TRANSPORTS, each Renegade Plague Ogryn model counts as one TERMINATOR model.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003582",
@@ -7950,7 +9413,44 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003582",
+              "line": "1",
+              "ability_id": "000008428",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003582",
+              "line": "2",
+              "name": "Icon of Khorne",
+              "description": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003582",
+              "line": "3",
+              "name": "Blood Surge",
+              "description": "Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Blood Surge move while it is Battle-shocked.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003583",
@@ -7974,7 +9474,54 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003583",
+              "line": "1",
+              "ability_id": "000008424",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction",
+              "parameter": "1*"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003583",
+              "line": "2",
+              "name": "Unknown",
+              "description": "*Aspiring Sorcerer model only",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003583",
+              "line": "3",
+              "name": "Bringers of Change",
+              "description": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003583",
+              "line": "4",
+              "name": "Icon of Flame",
+              "description": "Each time a model in the bearer’s unit makes a ranged attack, if a Critical Wound is scored, improve the Armour Penetration characteristic of that attack by 1.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003584",
@@ -7998,7 +9545,35 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003584",
+              "line": "1",
+              "ability_id": "000008396",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003584",
+              "line": "2",
+              "name": "Remorseless",
+              "description": "While this unit is within range of an objective marker you control, each time you take a Battle-shock test for this unit, add 1 to that test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003606",
@@ -8046,7 +9621,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003610",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003610",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003610",
+              "line": "3",
+              "name": "Assault Ramp",
+              "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003614",
@@ -8070,7 +9685,24 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003614",
+              "line": "4",
+              "name": "Assault Ramp",
+              "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003618",
@@ -8094,7 +9726,57 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003618",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003618",
+              "line": "2",
+              "ability_id": "000008342",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003618",
+              "line": "3",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003618",
+              "line": "4",
+              "name": "Strafing Run",
+              "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003622",
@@ -8118,7 +9800,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003622",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003622",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003622",
+              "line": "3",
+              "name": "Assault Ramp",
+              "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003626",
@@ -8142,7 +9864,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003626",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003626",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003626",
+              "line": "3",
+              "name": "Deredeo Strike",
+              "description": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003630",
@@ -8166,7 +9928,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003630",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003630",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003630",
+              "line": "3",
+              "name": "Atomantic Arc-reactor",
+              "description": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003634",
@@ -8190,7 +9992,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003634",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003634",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003634",
+              "line": "3",
+              "name": "Line-breaker",
+              "description": "When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003638",
@@ -8214,7 +10056,57 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003638",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "2D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003638",
+              "line": "2",
+              "ability_id": "000008342",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003638",
+              "line": "3",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003638",
+              "line": "4",
+              "name": "Aerial Assault",
+              "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003642",
@@ -8238,7 +10130,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003642",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003642",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003642",
+              "line": "3",
+              "name": "Armoured Spearhead",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003646",
@@ -8262,7 +10194,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003646",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "2D6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003646",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003646",
+              "line": "3",
+              "name": "Inviolable Transport",
+              "description": "Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003650",
@@ -8286,7 +10258,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003650",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003650",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003650",
+              "line": "3",
+              "name": "Duty Eternal",
+              "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+              "type": "datasheet"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003654",
@@ -8310,7 +10322,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003654",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+2"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003654",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003654",
+              "line": "3",
+              "name": "Rolling Fortress",
+              "description": "Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003658",
@@ -8358,7 +10410,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003662",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003662",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003662",
+              "line": "3",
+              "name": "Pinning Bombardment",
+              "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003666",
@@ -8382,7 +10474,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003666",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003666",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003666",
+              "line": "3",
+              "name": "Interceptor",
+              "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003670",
@@ -8406,7 +10538,35 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003670",
+              "line": "1",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003670",
+              "line": "2",
+              "name": "Powerful Volley",
+              "description": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003674",
@@ -8430,7 +10590,57 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003674",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003674",
+              "line": "2",
+              "ability_id": "000008342",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003674",
+              "line": "3",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003674",
+              "line": "4",
+              "name": "Armoured Resilience",
+              "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+              "type": "datasheet"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003678",
@@ -8454,7 +10664,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003678",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003678",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003678",
+              "line": "3",
+              "name": "Ferocious Assault",
+              "description": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003682",
@@ -8478,7 +10728,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003682",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003682",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003682",
+              "line": "3",
+              "name": "Sunderer of Fortresses",
+              "description": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead).|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003686",
@@ -8502,7 +10792,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003686",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003686",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003686",
+              "line": "3",
+              "name": "Rotating Death",
+              "description": "This model’s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003690",
@@ -8526,7 +10856,47 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003690",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+2"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003690",
+              "line": "2",
+              "ability_id": "000008350",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003690",
+              "line": "3",
+              "name": "Titan-killer",
+              "description": "Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003711",

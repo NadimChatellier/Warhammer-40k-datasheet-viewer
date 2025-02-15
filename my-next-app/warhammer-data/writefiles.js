@@ -9,6 +9,7 @@ const factionsCsv = path.join(__dirname, 'warhammer-csvs', 'Factions.csv');
 const datasheetsCsv = path.join(__dirname, 'warhammer-csvs', 'Datasheets.csv');
 const datasheetsModelsCsv = path.join(__dirname, 'warhammer-csvs', 'Datasheets_models.csv');
 const outputDir = path.join(__dirname, '40kJsonData');
+const abilitiesFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_abilities.csv');
 
 // Function to clean up HTML tags
 const cleanText = (text) => {
@@ -252,7 +253,6 @@ async function parseUnitWeapons() {
         while (parts.length > 0 && isNaN(parts[0]) && parts[0] !== 'Melee') {
           specialRules.push(...parts.shift().split(',').map(rule => rule.trim()));
         }
-        console.log(row)
         // may cause issues, to investigate further
         const wargearItem = {
           name: row.name,
@@ -332,21 +332,160 @@ function writeFactionSummary() {
 }
 
 
+// Function to clean the description and handle concatenated ability entries
+function cleanDescription(text) {
+  if (!text) return { text: 'No description available', range: undefined };
+
+  // Clean HTML tags
+  text = text.replace(/<\/?[^>]+(>|$)/g, ""); // Remove all HTML tags
+
+  // Clean up newlines and extra spaces
+  text = text.replace(/\r\n/g, ' ').replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+
+  // Check if description contains a range (e.g., "12")
+  const rangeMatch = text.match(/\d+"?/);  // Match any number followed by an optional double quote
+  return {
+    text,  // Return cleaned description
+    range: rangeMatch ? rangeMatch[0] : undefined // Extract range if present
+  };
+}
+
+
+// Function to parse the abilities
+function parseAbilityData(row) {
+  let abilities = [];
+  
+  // Clean the description
+  let cleanedDescription = cleanText(row.description);
+
+  if (row.parameter) {
+    // Split the parameter string by '|', '\n', and process each part separately
+    const paramParts = row.parameter.split('\n').map(p => p.trim()).filter(Boolean);
+    
+    // For each part of the parameter, process it as a new ability
+    paramParts.forEach((param, index) => {
+      const paramData = param.split('|').map(p => p.trim());
+      
+      // If this part is an ability with a description (like "Vicious Insight"), we want to treat it properly
+      let abilityName = paramData[4] || 'Unknown';
+      let abilityDescription = paramData[5] ? cleanText(paramData[5]) : 'No description available';
+      
+      // Create a new row for this part
+      abilities.push({
+        datasheet_id: row.datasheet_id ? row.datasheet_id.trim() : undefined,
+        line: row.line ? row.line.trim() : undefined,
+        ability_id: row.ability_id ? row.ability_id.trim() : undefined,
+        name: abilityName,
+        description: abilityDescription,
+        type: row.type ? row.type.trim().toLowerCase() : 'core',
+        parameter: paramData.join(' | ')
+      });
+    });
+  } else {
+    // If no parameters, just process the row normally
+    abilities.push({
+      datasheet_id: row.datasheet_id ? row.datasheet_id.trim() : undefined,
+      line: row.line ? row.line.trim() : undefined,
+      ability_id: row.ability_id ? row.ability_id.trim() : undefined,
+      name: row.name || 'Unknown',
+      description: cleanedDescription || 'No description available',
+      type: row.type ? row.type.trim().toLowerCase() : 'core',
+      parameter: undefined
+    });
+  }
+
+  return abilities;
+}
+
+
+// Function to parse all abilities and categorize them by type
+async function parseUnitAbilities() {
+  return new Promise((resolve, reject) => {
+    // Initialize an object to store all abilities by type
+    const abilitiesByType = {
+      core: [],
+      faction: [],
+      datasheet: [],
+      wargear: [],
+      special: []
+    };
+
+    fs.createReadStream(abilitiesFilePath)
+      .pipe(csv({
+        separator: '|',
+        headers: ['datasheet_id', 'line', 'ability_id', 'model', 'name', 'description', 'type', 'parameter']
+      }))
+      .on('data', (row) => {
+        // Ensure datasheet_id exists and corresponds to a valid unit in unitDataMap
+        const datasheetId = row.datasheet_id?.trim();
+        if (!datasheetId || !unitDataMap[datasheetId]) {
+          console.warn(`⚠️ Skipping ability with unknown datasheet_id:`, row);
+          return;
+        }
+
+        // Parse the ability data
+        const ability = parseAbilityData(row);
+
+        // Assign the ability to the correct category based on its type
+        let abilityType = row.type ? row.type.trim().toLowerCase() : 'datasheet';
+
+        // Validate the ability type, and skip it if it's unknown
+        if (!['core', 'faction', 'datasheet', 'wargear', 'special'].includes(abilityType)) {
+          console.warn(`⚠️ Skipping unknown ability type:`, row);
+          return;
+        }
+
+        // Store the ability in the global abilitiesByType object
+        abilitiesByType[abilityType].push(ability);
+
+        // Find the unit corresponding to the datasheetId
+        const unit = factionDataMap[unitDataMap[datasheetId].factionId]?.units.find(u => u.id === datasheetId);
+        if (unit) {
+          // Ensure the abilities object exists for the unit
+          if (!unit.abilities) {
+            unit.abilities = { core: [], faction: [], datasheet: [], wargear: [], special: [] };
+          }
+
+          // Push the ability to the corresponding type array for the unit
+          unit.abilities[abilityType].push(ability);
+        } else {
+          console.warn(`⚠️ Could not find unit with datasheetId ${datasheetId}`);
+        }
+      })
+      .on('end', () => {
+        console.log('✅ All abilities successfully parsed and categorized by type.');
+        resolve(abilitiesByType); // Resolve with the entire object containing all categorized abilities
+      })
+      .on('error', (err) => {
+        reject(err);
+      });
+  });
+}
+
+
+
+
+
+
+
+
 /**
  * Run all steps in sequence
  */
 async function processWarhammerData() {
   try {
     await readFactions();
-    await writeFactionSummary(); // Writes the faction summary
+    await writeFactionSummary();
     await readDatasheets();
     await parseUnitProfiles();
     await parseUnitWeapons();
+    await parseUnitAbilities(); // <-- Add this step
     await writeFactionFiles();
   } catch (error) {
     console.error('❌ Process failed:', error);
   }
 }
+
 
 // Start the process
 processWarhammerData();

@@ -231,7 +231,56 @@
           "AP": "-3",
           "D": "6"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000868",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000868",
+              "line": "2",
+              "ability_id": "000008538",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000868",
+              "line": "3",
+              "name": "Striding Colossus",
+              "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000868",
+              "line": "4",
+              "name": "God-machine",
+              "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000869",
@@ -419,7 +468,56 @@
           "AP": "-2",
           "D": "4"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000869",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "2D6+6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000869",
+              "line": "2",
+              "ability_id": "000008538",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000869",
+              "line": "3",
+              "name": "Striding Colossus",
+              "description": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000869",
+              "line": "4",
+              "name": "Wrath of the Omnissiah",
+              "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002077",
@@ -561,7 +659,56 @@
           "AP": "-2",
           "D": "4"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002077",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6+6"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002077",
+              "line": "2",
+              "ability_id": "000008538",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002077",
+              "line": "3",
+              "name": "Striding Colossus",
+              "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002077",
+              "line": "4",
+              "name": "Titanic Fire Support",
+              "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Imperium model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     }
   ]
 }

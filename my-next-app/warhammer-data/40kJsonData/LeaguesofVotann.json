@@ -605,7 +605,71 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002598",
+              "line": "1",
+              "ability_id": "000008498",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002598",
+              "line": "2",
+              "name": "Luck Has. Need Keeps. Toil Earns",
+              "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002598",
+              "line": "3",
+              "name": "Pan Spectral Scanner",
+              "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002598",
+              "line": "4",
+              "name": "Comms Array",
+              "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002598",
+              "line": "5",
+              "name": "Medipack",
+              "description": "Models in the bearer’s unit have the Feel No Pain 6+ ability.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002598",
+              "line": "6",
+              "name": "Weavefield Crest",
+              "description": "The bearer has a 4+ invulnerable save.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002599",
@@ -701,7 +765,53 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002599",
+              "line": "1",
+              "ability_id": "000008498",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002599",
+              "line": "2",
+              "name": "Oathband Bodyguard",
+              "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002599",
+              "line": "3",
+              "name": "Teleport Crest",
+              "description": "Models in the bearer’s unit have the Deep Strike ability.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002599",
+              "line": "4",
+              "name": "Weavefield Crest",
+              "description": "The bearer has a 4+ invulnerable save.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002600",
@@ -787,7 +897,56 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002600",
+              "line": "1",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "5+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002600",
+              "line": "2",
+              "ability_id": "000008498",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002600",
+              "line": "3",
+              "name": "Cyberstimms",
+              "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002600",
+              "line": "4",
+              "name": "Subterranean Explosives",
+              "description": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) that was hit by one or more of this unit’s mole grenade launchers this phase and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it. Designer’s Note: While a unit is shaken, place a Mole Grenade token next to that unit as a reminder.|Datasheet||\n000002601|1|000008344||||Core|9\"",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002601",
@@ -887,7 +1046,35 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002601",
+              "line": "2",
+              "ability_id": "000008498",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002601",
+              "line": "3",
+              "name": "Outflanking Mag-Riders",
+              "description": "At the end of your opponent’s turn, if this unit is within 6\" of any battlefield edge and is not within Engagement Range of any enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.|Datasheet||\n000002601|4|||Comms Array|Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.|Wargear||\n000002601|5|||Pan Spectral Scanner|Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.|Wargear||\n000002601|6|||Rollbar Searchlight|Each time a model in the bearer’s unit makes an attack that targets a unit that contains one or more models with the Stealth ability, add 1 to the Hit roll.|Wargear||\n000002602|1|000008339||||Core|1|\n000002602|2|000008344||||Core|6\"",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002602",
@@ -997,7 +1184,35 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002602",
+              "line": "3",
+              "ability_id": "000008498",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002602",
+              "line": "4",
+              "name": "Blistering Advance",
+              "description": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002603",
@@ -1075,7 +1290,44 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002603",
+              "line": "1",
+              "ability_id": "000008498",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002603",
+              "line": "2",
+              "name": "Oathband Covering Fire",
+              "description": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002603",
+              "line": "3",
+              "name": "Conversion",
+              "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||\n000002604|1|000008339||||Core|D6|\n000002604|2|000008498||||Faction||\n000002604|3|||Fire Support|In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.|Datasheet||\n000002604|4|||Pan spectral scanner|Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.|Wargear||\n000002604|5|||Conversion|Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002604",

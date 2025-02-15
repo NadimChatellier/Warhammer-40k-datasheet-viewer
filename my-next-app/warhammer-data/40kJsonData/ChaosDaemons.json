@@ -100,7 +100,24 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001105",
+              "line": "5",
+              "name": "Murderlust (Aura)",
+              "description": "While a unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.|Datasheet||\n000001105|6|||Greater Daemon of Khorne (Aura)|While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001106",
@@ -139,7 +156,65 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001106",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001106",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001106",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001106",
+              "line": "4",
+              "name": "Lord of Decapitations",
+              "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001106",
+              "line": "5",
+              "name": "Skulls for Khorne",
+              "description": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model destroys an enemy Character unit, you gain 1CP.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001111",
@@ -188,7 +263,46 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001111",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001111",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001111",
+              "line": "3",
+              "name": "Blood Throne",
+              "description": "At the start of the Fight phase, select one enemy unit within 18\" of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1.|Datasheet||\n000001111|4|||Champion Slayer|Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll. Each time this model destroys an enemy CHARACTER or MONSTER unit, this model regains up to D6 lost wounds.|Datasheet||\n000001112|1|000008343||||Core||\n000001112|2|000008433||||Faction||\n000001112|3|||Collar of Khorne|The bearer has the Feel No Pain 3+ ability against Psychic Attacks.|Wargear||\n000001112|4|||Pouncing Hunters|You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.|Datasheet||\n000001114|1|000008343||||Core||\n000001114|2|000008433||||Faction||\n000001114|3|||Daemonic Icon|Models in the bearer’s unit have a Leadership characteristic of 6+.|Wargear||\n000001114|4|||Instrument of Chaos|Add 1 to Charge rolls made for the bearer’s unit.|Wargear||\n000001114|5|||Blood Begets Blood|Each time a model in this unit makes a melee attack, re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead.|Datasheet||\n000001115|1|000008343||||Core||\n000001115|2|000008433||||Faction||\n000001115|3|||Daemonic Icon|Models in the bearer’s unit have a Leadership characteristic of 6+.|Wargear||\n000001115|4|||Instrument of Chaos|Add 1 to Charge rolls made for the bearer’s unit.|Wargear||\n000001115|5|||Brass Stampede|Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds.|Datasheet||\n000001116|1|000008343||||Core||\n000001116|2|000008433||||Faction||\n000001116|3|||Skulls of the Fallen|In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test.|Datasheet||\n000001117|1|000008339||||Core|D6|\n000001117|2|000008343||||Core||\n000001117|3|000008433||||Faction||\n000001117|4|||One Head Looks Forward (Aura)|Each time you target a friendly TZEENTCH LEGIONES DAEMONICA unit within 6\" of this model with a Stratagem, roll one D6: if the result is greater than the current battle round number, you gain 1CP.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001112",
@@ -458,7 +572,24 @@
           "AP": "-2",
           "D": "2D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001117",
+              "line": "5",
+              "name": "Lord of Deceit (Aura)",
+              "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP.|Datasheet||\n000001117|6|||Greater Daemon of Tzeentch (Aura)|While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001118",
@@ -528,7 +659,75 @@
           "AP": "-1",
           "D": "D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001118",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001118",
+              "line": "2",
+              "ability_id": "000008336",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001118",
+              "line": "3",
+              "ability_id": "000008337",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001118",
+              "line": "4",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001118",
+              "line": "5",
+              "name": "Formless Horror",
+              "description": "Each time an enemy unit wishes to select this model as the target of an attack, that unit must first take a Battle-shock test. If that test is failed, in addition to being Battle-shocked, that enemy unit cannot target this model this phase.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001118",
+              "line": "6",
+              "name": "Mischief and Confusion",
+              "description": "At the start of your opponent’s Shooting phase, select one enemy unit within 12\" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase.|Datasheet||\n000001119|1|000008343||||Core||\n000001119|2|000008336||||Core||\n000001119|3|000008433||||Faction||\n000001119|4|||P’tarix’s Sorcerous Syphon (Aura)|While an enemy unit is within 12\" of this model, each time a model in that unit makes a Psychic Attack, subtract 1 from the Wound roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001119",
@@ -566,7 +765,24 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001119",
+              "line": "5",
+              "name": "Xirat’p’s Sorcerous Barrages (Psychic)",
+              "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds.|Datasheet||\n000001120|1|000008339||||Core|D6|\n000001120|2|000008343||||Core||\n000001120|3|000008433||||Faction||\n000001120|4|||Daemon Lord of Tzeentch (Aura)|While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a ranged attack, add 1 to the Strength characteristic of that attack.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001120",
@@ -658,7 +874,33 @@
           "AP": "-1",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001120",
+              "line": "5",
+              "name": "Master of Magicks (Psychic)",
+              "description": "In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this model’s Bolt of Change has that ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001120",
+              "line": "6",
+              "name": "Greater Daemon of Tzeentch (Aura)",
+              "description": "While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||\n000001125|1|000008343||||Core||\n000001125|2|000008433||||Faction||\n000001125|3|||Bounding Leaps|This unit is eligible to shoot in a turn in which it Fell Back.|Datasheet||\n000001126|1|000008343||||Core||\n000001126|2|000008346||||Core||\n000001126|3|000008433||||Faction||\n000001126|4|||Blazing Warpfire (Psychic)|While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.|Datasheet||\n000001126|5|||Flames of Change (Psychic)|In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks, and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001125",
@@ -776,7 +1018,24 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001126",
+              "line": "6",
+              "name": "MANIFESTATION OF DESTRUCTION",
+              "description": "This model cannot be your Warlord and cannot be given Enhancements.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001127",
@@ -815,7 +1074,46 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001127",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001127",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001127",
+              "line": "3",
+              "name": "Slashing Dive",
+              "description": "In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001128",
@@ -894,7 +1192,46 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001128",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001128",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001128",
+              "line": "3",
+              "name": "Eldritch Flames (Psychic)",
+              "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001129",
@@ -932,7 +1269,65 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001129",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001129",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001129",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001129",
+              "line": "4",
+              "name": "Blessed by the Plague God",
+              "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001129",
+              "line": "5",
+              "name": "Tally of Pestilence",
+              "description": "Keep a tally of how many enemy models are destroyed by NURGLE LEGIONES DAEMONICA models from your army during the battle. At the start of your Command phase, if this tally is 7 or more, you gain 1CP and the tally is reset to 0.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001130",
@@ -1037,7 +1432,66 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001130",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001130",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001130",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001130",
+              "line": "4",
+              "name": "Daemon Lord of Nurgle (Aura)",
+              "description": "While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this model, models in that unit have the Feel No Pain 6+ ability.|Datasheet||\n000001130|5|||Nurgle’s Rot (Psychic)|At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001130",
+              "line": "6",
+              "name": "Reverberating Summons",
+              "description": "Each time a model is destroyed by this weapon, you can select one friendly PLAGUEBEARER’S unit within 12\" of the bearer and return 1 destroyed Plaguebearer model to that unit.|Wargear profile||\n000001130|7|||Greater Daemon of Nurgle (Aura)|While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001132",
@@ -1075,7 +1529,65 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001132",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001132",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001132",
+              "line": "4",
+              "name": "Instrument of Chaos",
+              "description": "Add 1 to Charge rolls made for the bearer’s unit.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001132",
+              "line": "5",
+              "name": "Infected Outbreak",
+              "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [
+          [
+            {
+              "datasheet_id": "000001132",
+              "line": "3",
+              "name": "Daemonic Icon",
+              "description": "Models in the bearer’s unit have a Leadership characteristic of 6+.",
+              "type": "wargear"
+            }
+          ]
+        ],
+        "special": []
+      }
     },
     {
       "id": "000001133",
@@ -1113,7 +1625,56 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001133",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001133",
+              "line": "2",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001133",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001133",
+              "line": "4",
+              "name": "Mischief Makers (Aura)",
+              "description": "While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll.|Datasheet||\n000001134|1|000008339||||Core|1|\n000001134|2|000008343||||Core||\n000001134|3|000008433||||Faction||\n000001134|4|||Grotesque Regeneration|At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds.|Datasheet||\n000001135|1|000008343||||Core||\n000001135|2|000008433||||Faction||\n000001135|3|||Daemonic Icon|Models in the bearer’s unit have a Leadership characteristic of 6+.|Wargear||\n000001135|4|||Instrument of Chaos|Add 1 to Charge rolls made for the bearer’s unit.|Wargear||\n000001135|5|||Death’s Heads|In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll.|Datasheet||\n000001136|1|000008343||||Core||\n000001136|2|000008340||||Core||\n000001136|3|000008336||||Core||\n000001136|4|000008433||||Faction||\n000001136|5|||The Eternal Dance|At the start of the Fight phase, select one enemy unit within 6\" of this model. Until the end of the phase: Each time a friendly SLAANESH LEGIONES DAEMONICA model makes a melee attack that targets that enemy unit, add 1 to the Wound roll. Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001134",
@@ -1256,7 +1817,24 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001136",
+              "line": "6",
+              "name": "Dazzling Acrobatics",
+              "description": "This model is eligible to declare a charge in a turn in which it Advanced or Fell Back.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001137",
@@ -1362,7 +1940,66 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001137",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001137",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001137",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001137",
+              "line": "4",
+              "name": "Shining Aegis",
+              "description": "The bearer has the Feel No Pain 5+ ability.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001137",
+              "line": "5",
+              "name": "Daemon Lord of Slaanesh (Aura)",
+              "description": "While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1.|Datasheet||\n000001137|6|||Mesmerising Form|Each time an attack targets this model, subtract 1 from the Hit roll.|Datasheet||\n000001137|7|||Greater Daemon of Slaanesh (Aura)|While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001138",
@@ -1400,7 +2037,65 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001138",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001138",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001138",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001138",
+              "line": "4",
+              "name": "Tranceweaver",
+              "description": "While this model is leading a unit, models in that unit have the Fights First ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001138",
+              "line": "5",
+              "name": "Symphony of Pain (Psychic)",
+              "description": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.|Datasheet||\n000001139|1|000008343||||Core||\n000001139|2|000008346||||Core||\n000001139|3|000008344||||Core|9\"",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001139",
@@ -1452,7 +2147,44 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001139",
+              "line": "4",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001139",
+              "line": "5",
+              "name": "Lethal Caress",
+              "description": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.",
+              "type": "datasheet"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001139",
+              "line": "6",
+              "name": "Symphony of Pain (Psychic)",
+              "description": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.|Datasheet||\n000001141|1|000008343||||Core||\n000001141|2|000008433||||Faction||\n000001141|3|||Tormentbringer (Aura)|While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001141",
@@ -1520,7 +2252,24 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001141",
+              "line": "4",
+              "name": "Hysterical Frenzy (Psychic)",
+              "description": "Once per Fight phase, just after an enemy unit selects a SLAANESH LEGIONES DAEMONICA unit from your army as a target, one friendly PSYKER that is within 6\" of that SLAANESH unit and has this ability can use it. If it does, until the end of the phase, each time a model in that SLAANESH unit is destroyed, roll one D6: on a 4+, do not remove it from play. That model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.|Datasheet||\n000001142|1|000008343||||Core||\n000001142|2|000008433||||Faction||\n000001142|3|||Daemonic Icon|Models in the bearer’s unit have a Leadership characteristic of 6+.|Wargear||\n000001142|4|||Instrument of Chaos|Add 1 to Charge rolls made for the bearer’s unit.|Wargear||\n000001142|5|||Swift-taloned Slaughter|Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead.|Datasheet||\n000001143|1|000008343||||Core||\n000001143|2|000008433||||Faction||\n000001143|3|||Soporific Musk (Aura)|While an enemy unit (excluding VEHICLE and TITANIC units) is within 6\" of this unit, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll, and each time a model in that enemy unit takes a Desperate Escape test, subtract 1 from that test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001142",
@@ -1677,7 +2426,46 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001144",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001144",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001144",
+              "line": "3",
+              "name": "Cutting Down the Foe",
+              "description": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if that unit is an INFANTRY unit: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+, that enemy unit suffers D3+3 mortal wounds.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001145",
@@ -1729,7 +2517,126 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001145",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "9\" | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "000001145 | 3 | 000008433 |  |  |  | Faction |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Daemonic Icon",
+              "description": "Models in the bearer’s unit have a Leadership characteristic of 6+.",
+              "type": "core",
+              "parameter": "000001145 | 4 |  |  | Daemonic Icon | Models in the bearer’s unit have a Leadership characteristic of 6+. | Wargear |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Instrument of Chaos",
+              "description": "Add 1 to Charge rolls made for the bearer’s unit.",
+              "type": "core",
+              "parameter": "000001145 | 5 |  |  | Instrument of Chaos | Add 1 to <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> made for the bearer’s unit. | Wargear |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unholy Speed",
+              "description": "You can re-roll Advance and Charge rolls made for this unit.",
+              "type": "core",
+              "parameter": "000001145 | 6 |  |  | Unholy Speed | You can re-roll <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advance</a> and <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge rolls</a> made for this unit. | Datasheet |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "000001146 | 1 | 000008343 |  |  |  | Core |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "000001146 | 2 | 000008433 |  |  |  | Faction |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Scythed Impact",
+              "description": "Each time this unit makes a Charge move, until the end of the phase, melee weapons equipped by models in this unit have the [ANTI-INFANTRY 4+] ability.",
+              "type": "core",
+              "parameter": "000001146 | 3 |  |  | Scythed Impact | Each time this unit makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Charging-with-a-Unit\">Charge move</a>, until the end of the phase, melee weapons equipped by models in this unit have the <span class=\"kwb2 bluefont\"><a href=\"/wh40k10ed/the-rules/core-rules/#Anti\">[ANTI-INFANTRY 4+]</a></span> ability. | Datasheet |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "000001147 | 1 | 000008343 |  |  |  | Core |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "000001147 | 2 | 000008433 |  |  |  | Faction |  | "
+            },
+            {
+              "datasheet_id": "000001145",
+              "line": "2",
+              "ability_id": "000008344",
+              "name": "Infernal Engines of Torment",
+              "description": "In the Fight phase, after this model has finished making its attacks, if one or more enemy units were destroyed as a result of those attacks, every enemy unit within 6\" of this model must take a Battle-shock test.",
+              "type": "core",
+              "parameter": "000001147 | 3 |  |  | Infernal Engines of Torment | In the <a href=\"/wh40k10ed/the-rules/core-rules/#FIGHT-PHASE\">Fight phase</a>, after this model has finished making its attacks, if one or more enemy units were destroyed as a result of those attacks, every enemy unit within 6\" of this model must take a <a href=\"/wh40k10ed/the-rules/core-rules/#2.-Battle-shock\">Battle-shock test</a>. | Datasheet |  | "
+            }
+          ]
+        ],
+        "faction": [],
+        "datasheet": [],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001146",
@@ -1946,7 +2853,76 @@
           "AP": "-3",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001148",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001148",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001148",
+              "line": "3",
+              "ability_id": "000008337",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001148",
+              "line": "4",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001148",
+              "line": "5",
+              "name": "The Dark Master (Aura)",
+              "description": "The area of the battlefield within 6\" of this model is considered to be within your army’s Shadow of Chaos.|Datasheet||\n000001148|6|||Shadow Form|At the start of the battle round, select one Shadow Form ability (see left). Until the end of the battle round, this model has that ability.|Datasheet||\n000001148|7|||SUPREME COMMANDER|If this model is in your army, it must be your Warlord.|Special (правая колонка)||\n000001148|8|||Wreathed in Shadows (Aura, Psychic)|While a friendly LEGIONES DAEMONICA unit is within 6\" of this model, that unit can only be targeted by a ranged attack if the attacking model is within 18\".|Primarch||\n000001148|9|||Pall of Despair (Aura, Psychic)|In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 6\" of this model, that unit must take a Battle-shock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001148",
+              "line": "10",
+              "name": "Shadow Lord (Aura, Psychic)",
+              "description": "While a friendly LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit.|Primarch||\n000001149|1|000008339||||Core|D3|\n000001149|2|000008343||||Core||\n000001149|3|000008433||||Faction||\n000001149|4|||Prince of Darkness (Aura)|While a friendly LEGIONES DAEMONICA unit is within 6\" of this model, models in that unit have the Stealth ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001149",
@@ -2005,7 +2981,69 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001149",
+              "line": "5",
+              "name": "Unholy Vigour",
+              "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001149",
+              "line": "6",
+              "name": "DAEMONIC ALLEGIANCE",
+              "description": "When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE TZEENTCH NURGLE SLAANESH The keyword you select will also affect some of this model’s characteristics, as stated overleaf.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001149",
+              "line": "7",
+              "name": "Daemon Prince of Khorne",
+              "description": "If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model’s hellforged weapons.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001149",
+              "line": "8",
+              "name": "Daemon Prince of Tzeentch",
+              "description": "If this model has the TZEENTCH keyword, add 3 to the Attacks characteristic of this model’s infernal cannon.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001149",
+              "line": "9",
+              "name": "Daemon Prince of Nurgle",
+              "description": "If this model has the NURGLE keyword, add 1 to this model’s Toughness characteristic.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001149",
+              "line": "10",
+              "name": "Daemon Prince of Slaanesh",
+              "description": "If this model has the SLAANESH keyword, add 2\" to this model’s Move characteristic.|Primarch||\n000001150|1|000008343||||Core||\n000001150|2|000008433||||Faction||\n000001150|3|||Prey on the Weak|Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll.|Datasheet||\n000001150|4|||DAEMONIC ALLEGIANCE|When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE TZEENTCH NURGLE SLAANESH|Special (правая колонка)||\n000001151|1|000008339||||Core|D3|\n000001151|2|000008343||||Core||\n000001151|3|000008433||||Faction||\n000001151|4|||Scuttling Walker|Each time this model makes a Normal or Advance move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4\" or less in height as if they were not there.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001150",
@@ -2171,7 +3209,24 @@
           "AP": "-2",
           "D": "D6"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001151",
+              "line": "5",
+              "name": "DAEMONIC ALLEGIANCE",
+              "description": "When you select this model to include in your army, you must select one of the keywords below. Until the end of the battle, this model has that keyword and the additional wargear stated for that keyword below:KHORNE – This model is additionally equipped with: torrent of burning bloodTZEENTCH – This model is additionally equipped with: warp gazeNURGLE – This model is additionally equipped with: phlegm bombardmentSLAANESH – This model is additionally equipped with: scream of despair|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001329",
@@ -2230,7 +3285,24 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001329",
+              "line": "5",
+              "name": "Relentless Carnage",
+              "description": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001332",
@@ -2310,7 +3382,57 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001332",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001332",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001332",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001332",
+              "line": "4",
+              "name": "Emissary of the Prince of Excess (Aura)",
+              "description": "While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit.|Datasheet||\n000001332|5|||Mesmerising Form|Each time an attack targets this model, subtract 1 from the Hit roll.|Datasheet||\n000001333|1|000008339||||Core|D6|\n000001333|2|000008343||||Core||\n000001333|3|000008433||||Faction||\n000001333|4|||Emissary of the Great Mutator (Aura)|While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001333",
@@ -2389,7 +3511,24 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001333",
+              "line": "5",
+              "name": "Master of Magicks (Psychic)",
+              "description": "In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [sustainded hits D3]. Until the end of the phase, this model’s ranged weapon has that ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001336",
@@ -2441,7 +3580,55 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001336",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001336",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001336",
+              "line": "3",
+              "name": "Pouncing Leap",
+              "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001336",
+              "line": "4",
+              "name": "GRANDFATHER'S BLESSING",
+              "description": "If a model from your army with the Leader ability can be attached to a BEASTS OF NURGLE unit, it can be attached to this unit instead.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001337",
@@ -2507,7 +3694,74 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001337",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001337",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001337",
+              "line": "4",
+              "name": "Instrument of Chaos",
+              "description": "Add 1 to Charge rolls made for the bearer’s unit.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001337",
+              "line": "5",
+              "name": "Bounding Assault",
+              "description": "Each time this unit ends a Charge move, until the end of the turn, Pox Rider plagueswords equipped by models in this unit have the [LANCE] ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001337",
+              "line": "6",
+              "name": "GRANDFATHER'S BLESSING",
+              "description": "If a model from your army with the Leader ability can be attached to a BEASTS OF NURGLE unit, it can be attached to this unit instead.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [
+          [
+            {
+              "datasheet_id": "000001337",
+              "line": "3",
+              "name": "Daemonic Icon",
+              "description": "Models in the bearer’s unit have a Leadership characteristic of 6+.",
+              "type": "wargear"
+            }
+          ]
+        ],
+        "special": []
+      }
     },
     {
       "id": "000001338",
@@ -2543,7 +3797,91 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "3",
+              "name": "Warp Spines",
+              "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "4",
+              "name": "DAEMONIC ALLEGIANCE",
+              "description": "When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE TZEENTCH NURGLE SLAANESH The keyword you select will also affect some of this model’s characteristics (see the Daemonic Allegiance section).|Special (правая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "5",
+              "name": "Creature of Khorne",
+              "description": "If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model’s melee weapons.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "6",
+              "name": "Creature of Tzeentch",
+              "description": "If this model has the TZEENTCH keyword, this model has a 4+ invulnerable save.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "7",
+              "name": "Creature of Nurgle",
+              "description": "If this model has the NURGLE keyword, add 1 to this model’s Toughness characteristic.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001338",
+              "line": "8",
+              "name": "Creature of Slaanesh",
+              "description": "If this model has the SLAANESH keyword, add 2\" to this model’s Move characteristic.|Primarch||\n000001339|1|000008343||||Core||\n000001339|2|000008338||||Core|5+|\n000001339|3|000008433||||Faction||\n000001339|4|||Regenerating Monstrosity|At the start of each player’s Command phase, this model regains up to D3 lost wounds.|Datasheet||\n000001339|5|||DAEMONIC ALLEGIANCE|When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE TZEENTCH NURGLE SLAANESH The keyword you select will also affect some of this model’s characteristics (see the Daemonic Allegiance section).|Special (правая колонка)||\n000001339|6|||Creature of Khorne|If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model’s melee weapons.|Primarch||\n000001339|7|||Creature of Tzeentch|If this model has the TZEENTCH keyword, this model has a 4+ invulnerable save.|Primarch||\n000001339|8|||Creature of Nurgle|If this model has the NURGLE keyword, add 1 to this model’s Toughness characteristic.|Primarch||\n000001339|9|||Creature of Slaanesh|If this model has the SLAANESH keyword, add 2\" to this model’s Move characteristic.|Primarch||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001339",
@@ -2645,7 +3983,68 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001340",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001340",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001340",
+              "line": "3",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "6+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001340",
+              "line": "4",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001340",
+              "line": "5",
+              "name": "Emissary of the Plague God (Aura)",
+              "description": "While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit.|Datasheet||\n000001340|6|||Nurgle’s Rot (Psychic)|At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001455",
@@ -3014,7 +4413,24 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001465",
+              "line": "5",
+              "name": "Deluge of Nurgle (Aura)",
+              "description": "While an enemy unit is within 6\" of this model, halve the Move and Objective Control characteristics of models in that unit.|Datasheet||\n000001465|6|||Greater Daemon of Nurgle (Aura)|While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001466",
@@ -3066,7 +4482,65 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001466",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001466",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001466",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001466",
+              "line": "4",
+              "name": "Beast Handler",
+              "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit. In addition, once per battle, you can target that unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001466",
+              "line": "5",
+              "name": "Seed the Garden of Nurgle",
+              "description": "At the end of your Movement phase, if this model is within one Area Terrain feature, until the end of the battle, that AREA TERRAIN feature is considered to be within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001467",
@@ -3104,7 +4578,76 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001467",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001467",
+              "line": "2",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "5+"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001467",
+              "line": "3",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001467",
+              "line": "4",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001467",
+              "line": "5",
+              "name": "Poxbringer",
+              "description": "While this model is leading a unit, each time a model in that unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001467",
+              "line": "6",
+              "name": "Feculent Despair (Aura, Psychic)",
+              "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test.|Datasheet||\n000001468|1|000008343||||Core||\n000001468|2|000008346||||Core||\n000001468|3|000008433||||Faction||\n000001468|4|||Jolly Gutpipes|While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for that unit.|Datasheet||\n000001468|5|||Disease of Mirth (Aura)|At the start of the Fight phase, every enemy unit (excluding MONSTERS and VEHICLES) within 6\" of this model must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001468",
@@ -3195,7 +4738,65 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001469",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001469",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001469",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001469",
+              "line": "4",
+              "name": "Keep Counting!",
+              "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001469",
+              "line": "5",
+              "name": "Meet Your Quota!",
+              "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+              "type": "datasheet"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001470",
@@ -3219,7 +4820,46 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001470",
+              "line": "1",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001470",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001470",
+              "line": "3",
+              "name": "Shroud of Flies (Aura)",
+              "description": "While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this FORTIFICATION, models in that unit have the Stealth ability.|Datasheet||\n000001470|4|||Diseased Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000001470|5|||Fortification|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Datasheet||\n000001472|1|000008346||||Core||\n000001472|2|000008424||||Faction|1|\n000001472|3|||Dark Blessing (Psychic)|While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.|Datasheet||\n000001472|4|||Bestial Prophet|While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.|Datasheet||\n000001474|1|||Malign Trickery|Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\" as if it were your Movement phase.|Datasheet||\n000001476|1|000008339||||Core|D6|\n000001476|2|000008338||||Core|5+|\n000001476|3|||Mutating Vortex (Aura)|At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001588",
@@ -3243,7 +4883,64 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001588",
+              "line": "1",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001588",
+              "line": "2",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001588",
+              "line": "3",
+              "name": "Shadow of Khorne (Aura)",
+              "description": "The area of the battlefield within 6\" of this FORTIFICATION is considered to be within your army’s Shadow of Chaos. In addition, while a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this FORTIFICATION, each time you take a Battle-shock test for that unit, you can re-roll that test.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001588",
+              "line": "4",
+              "name": "Cover",
+              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001588",
+              "line": "5",
+              "name": "Fortification",
+              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001589",
@@ -3308,7 +5005,65 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001589",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001589",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001589",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001589",
+              "line": "4",
+              "name": "Harmonic Alignment",
+              "description": "While this model is leading a unit, in your Command phase, you can return D3 destroyed Bodyguard models to that unit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001589",
+              "line": "5",
+              "name": "Discordant Disruption (Aura)",
+              "description": "While an enemy PSYKER unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability.|Datasheet||\n000001596|1|000008345||||Core||\n000001596|2|000008336||||Core||\n000001596|3|000008337||||Core||\n000001596|4|||Shoot Sharp and Scarper|In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this unit is not eligible to declare a charge.|Datasheet||\n000001596|5|||The Ratling Twins|While this unit contains 2 models, each time a model in this unit makes a ranged attack, you can re-roll the Hit roll and you can re-roll the Wound roll.|Datasheet||\n000001596|6|||One Shot|The bearer can only shoot with this weapon once per battle.|Wargear profile||\n000001598|1|000008345||||Core||\n000001598|2|000008336||||Core||\n000001598|3|000008337||||Core||\n000001598|4|000008445||||Faction||\n000001598|5|||The Path Least Travelled|If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one RANGERS or SHROUD RUNNERS unit from your army and redeploy that unit. When doing so, that unit can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.|Datasheet||\n000001598|6|||Path of the Outcast|Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".|Datasheet||\n000001600|1|000008346||||Core||\n000001600|2|000008359||||Faction||\n000001600|3|||Cursed Wardings (Psychic)|While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.|Datasheet||\n000001600|4|||Psychic Barrier (Psychic)|At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save.|Datasheet||\n000001601|1|000008338||||Core|5+|\n000001601|2|000008359||||Faction||\n000001601|3|||Voltagheist Field|Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.|Datasheet||\n000001601|4|||SERVANTS OF THE ABYSS|If a unit from your army with the Leader ability can be attached to a CULTIST MOB, it can be attached to this unit instead.|Special (правая колонка)||\n000001603|1|000008537||||Faction||\n000001603|2|000008338||||Core|5+|\n000001603|3|||Threat Level Rising|Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.|Datasheet||\n000001604|1|000008359||||Faction||\n000001604|2|||Bestial Raiders|If this unit starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is.|Datasheet||\n000001606|1|000008350||||Faction||\n000001606|2|||Shock Assault|Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.|Datasheet||\n000001607|1|000008339||||Core|D6|\n000001607|2|000008350||||Faction||\n000001607|3|||Assault Ramp|Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||\n000001607|4|||One Shot|The bearer can only shoot with this weapon once per battle.|Wargear profile||\n000001608|1|000008339||||Core|D6|\n000001608|2|000008350||||Faction||\n000001608|3|||Explorator Augury Web|Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this bearer, but the bearer must halve its Transport Capacity.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001647",
@@ -3455,7 +5210,86 @@
           "AP": "-3",
           "D": "D6+2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "3",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "5+"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "4",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "5",
+              "name": "Cloak of Constriction",
+              "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, subtract 1 from the Attacks characteristic of melee weapons equipped by that unit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "6",
+              "name": "Monarch of the Hunt",
+              "description": "Each time this model declares a charge that targets a MONSTER, VEHICLE or CHARACTER unit, you can re-roll the Charge roll. Each time this model makes a melee attack that targets a MONSTER, VEHICLE or CHARACTER unit, you can re-roll the Hit roll, the Wound roll and the Damage roll.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001648",
+              "line": "7",
+              "name": "Greater Daemon of Slaanesh (Aura)",
+              "description": "While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||\n000001649|1|000008343||||Core||\n000001649|2|000008346||||Core||\n000001649|3|000008433||||Faction||\n000001649|4|||Prince of Slaanesh|While this model is leading a unit, each time a model in that unit makes a melee attack, a successful unmodified Wound roll of 5+ scores a Critical Wound.|Datasheet||\n000001649|5|||Delightful Agonies|The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.|Datasheet||\n000001650|1|000008339||||Core|D3|\n000001650|2|000008334||||Core|2|\n000001650|3|000008382||||Faction||\n000001650|4|||Broad Spectrum Data-tether|Each time you target this unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.|Datasheet||\n000001650|5|||Fire Support|In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.|Datasheet||\n000001651|1|000008339||||Core|D3|\n000001651|2|000008382||||Faction||\n000001651|3|||Broad Spectrum Data-tether|Each time you target this unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.|Datasheet||\n000001651|4|||Blistering Salvoes|Each time this model makes an attack with a belleros energy cannon that targets an INFANTRY unit, add 1 to the Hit roll. Each time this model makes an attack with a ferrumite cannon that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll.|Datasheet||\n000001658|1|000008339||||Core|D6|\n000001658|2|000008512||||Faction||\n000001658|3|000008513||||Faction||\n000001658|4|||Dread Dominion (Aura)|While a friendly WAR DOG is within 9\" of this model, each time that WAR DOG takes a Battle-shock test, add 1 to that test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001649",
@@ -3659,7 +5493,57 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002582",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D6"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002582",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002582",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002582",
+              "line": "4",
+              "name": "Daemon Lord of Khorne (Aura)",
+              "description": "While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.|Datasheet||\n000002582|5|||Relentless Carnage|At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.|Datasheet||\n000002582|6|||Greater Daemon of Khorne (Aura)|While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002583",
@@ -3733,7 +5617,65 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002583",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002583",
+              "line": "2",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002583",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002583",
+              "line": "4",
+              "name": "Split",
+              "description": "Each time a BLUE HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one BRIMSTONE HORROR model to this unit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002583",
+              "line": "5",
+              "name": "Cackling Horrors (Aura)",
+              "description": "While an enemy unit is within 6\" of this unit, if this unit contains one or more BLUE HORROR models, worsen the Leadership characteristic of models in that enemy unit by 1.|Datasheet||\n000002583|6|||Exploding Horrors|Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more BRIMSTONE HORROR models in this unit. For each BRIMSTONE HORROR model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound.|Datasheet||\n000002584|1|000008343||||Core||\n000002584|2|000008433||||Faction||\n000002584|3|||Daemonic Icon|Models in the bearer’s unit have a Leadership characteristic of 6+.|Wargear||\n000002584|4|||Instrument of Chaos|Add 1 to Charge rolls made for the bearer’s unit.|Wargear||\n000002584|5|||Split|Each time a PINK HORROR or BLUE HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a PINK HORROR, add two BLUE HORROR models to this unit, and if it was a BLUE HORROR, add one BRIMSTONE HORROR model to this unit.|Datasheet||\n000002584|6|||HORRORS ARE PINK. HORRORS ARE BLUE. WHEREONCE THERE WAS ONE, NOW THERE ARE TWO.|If, at any point, this unit contains no PINK HORROR models, use the BLUE HORRORS datasheet for this unit. Designer’s Note: While this unit contains one or more PINK HORROR models, the Cackling Horrors and Exploding Horrors abilities from the BLUE HORRORS datasheet do not apply to this unit.|Special (правая колонка)||\n000002587|1|000008452||||Faction||\n000002587|2|||Breaching Team|Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead.|Datasheet||\n000002587|3|||Gheistskull|Once per battle, when you select this unit as the target of the Grenade Stratagem, you can target one enemy unit visible to and within 18\" of this unit that is not within Engagement Range of any units from your army, instead of one within 8\".|Datasheet||\n000002587|4|||CAT Unit|Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit gain the [IGNORES COVER] ability.Designer’s Note: Place one Gheistskull and one CAT Unit token next to this unit, removing each token once the relevant ability has been used.|Datasheet||\n000002587|5|||Endurant Shield|The bearer has a 4+ invulnerable save.|Wargear||\n000002587|6|||One Shot|The bearer can only shoot with this weapon once per battle.|Wargear profile||\n000002588|1|000008345||||Core||\n000002588|2|000008337||||Core||\n000002588|3|||Pech’ra|Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability.|Wargear||\n000002588|4|||Bounty Hunters|At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities.|Datasheet||\n000002589|1|000008346||||Core||\n000002589|2|000008359||||Faction||\n000002589|3|||Brutal Example|Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this turn. Each time you use this ability, one Bodyguard model in that unit is destroyed.|Datasheet||\n000002589|4|||Mutated Bodyguard|While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability.|Datasheet||\n000002590|1|000008359||||Faction||\n000002590|2|||Twisted Defence Force|While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.|Datasheet||\n000002591|1|000008338||||Core|6+|\n000002591|2|000008359||||Faction||\n000002591|3|||Mischief Makers (Aura)|While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002584",
@@ -3903,7 +5845,111 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "2",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "3",
+              "ability_id": "000008433",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "4",
+              "name": "Malefic Destruction",
+              "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model’s hellforged weapons.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "5",
+              "name": "Harbinger of Death",
+              "description": "Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability:  [LETHAL HITS] [PRECISION] [SUSTAINED HITS 1]|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "6",
+              "name": "DAEMONIC ALLEGIANCE",
+              "description": "When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE TZEENTCH NURGLE SLAANESH The keyword you select will also affect some of this model’s characteristics, as stated overleaf.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "7",
+              "name": "Daemon Prince of Khorne",
+              "description": "If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model’s hellforged weapons.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "8",
+              "name": "Daemon Prince of Tzeentch",
+              "description": "If this model has the TZEENTCH keyword, add 3 to the Attacks characteristic of this model’s infernal cannon.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "9",
+              "name": "Daemon Prince of Nurgle",
+              "description": "If this model has the NURGLE keyword, add 1 to this model’s Toughness characteristic.|Primarch||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002758",
+              "line": "10",
+              "name": "Daemon Prince of Slaanesh",
+              "description": "If this model has the SLAANESH keyword, add 2\" to this model’s Move characteristic.|Primarch||\n000002759|1|000008343||||Core||\n000002759|2|000008336||||Core||\n000002759|3|000008445||||Faction||\n000002759|4|||Indomitable Strength of Will (Aura)|While a friendly AELDARI unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, add 1 to that test.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     }
   ]
 }

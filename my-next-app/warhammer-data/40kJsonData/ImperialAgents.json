@@ -69,7 +69,84 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "1",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "2",
+              "ability_id": "000008336",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "3",
+              "ability_id": "000008337",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "4",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "5",
+              "name": "Deadshot",
+              "description": "Each time this model makes a ranged attack, when selecting targets for that attack, you can ignore the Lone Operative ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "6",
+              "name": "Shieldbreaker",
+              "description": "Once per battle, when selecting targets for this model’s exitus rifle, it can fire a shieldbreaker round. If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000870",
+              "line": "7",
+              "name": "SHADOW ASSIGNMENT",
+              "description": "This model cannot be selected to be your WARLORD.If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more |Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000871",
@@ -124,7 +201,85 @@
           "AP": "-4",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "2",
+              "ability_id": "000008340",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "3",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "4",
+              "ability_id": "000008336",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "5",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "6",
+              "name": "Acrobatic Escape",
+              "description": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to D6\". In addition, at the end of your opponent’s turn, if this model is not within 3\" of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed.|Datasheet||\n000000871|7|||Lord of Deceit (Aura)|Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000871",
+              "line": "8",
+              "name": "SHADOW ASSIGNMENT",
+              "description": "This model cannot be selected to be your WARLORD.If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more |Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000872",
@@ -181,7 +336,84 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000872",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "D3"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000872",
+              "line": "2",
+              "ability_id": "000008336",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000872",
+              "line": "3",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "9\" | "
+            },
+            {
+              "datasheet_id": "000000872",
+              "line": "3",
+              "ability_id": "000008344",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "000000872 | 4 | 000008452 |  |  |  | Faction |  | "
+            },
+            {
+              "datasheet_id": "000000872",
+              "line": "3",
+              "ability_id": "000008344",
+              "name": "Frenzon",
+              "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced.",
+              "type": "core",
+              "parameter": "000000872 | 5 |  |  | Frenzon | This model is eligible to shoot and <a href=\"/wh40k10ed/the-rules/core-rules/#CHARGE-PHASE\">declare a charge</a> in a turn in which it <a href=\"/wh40k10ed/the-rules/core-rules/#Advance-Moves\">Advanced</a>. | Datasheet |  | "
+            },
+            {
+              "datasheet_id": "000000872",
+              "line": "3",
+              "ability_id": "000008344",
+              "name": "Overkill",
+              "description": "Once per battle, in your Movement phase, this model can use this ability before it makes a Normal move. If it does, until the end of the turn, add 6\" to this model’s Move characteristic and add 3 to the Attacks characteristic of this model’s melee weapons.",
+              "type": "core",
+              "parameter": "000000872 | 6 |  |  | Overkill | Once per battle, in your <a href=\"/wh40k10ed/the-rules/core-rules/#MOVEMENT-PHASE\">Movement phase</a>, this model can use this ability before it makes a <a href=\"/wh40k10ed/the-rules/core-rules/#Normal-Moves\">Normal move</a>. If it does, until the end of the turn, add 6\" to this model’s Move characteristic and add 3 to the Attacks characteristic of this model’s melee weapons. | Datasheet |  | "
+            }
+          ]
+        ],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000872",
+              "line": "7",
+              "name": "SHADOW ASSIGNMENT",
+              "description": "This model cannot be selected to be your WARLORD.If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more |Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000873",
@@ -238,7 +470,84 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "2",
+              "ability_id": "000008336",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "3",
+              "ability_id": "000008337",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "4",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "5",
+              "name": "Etheric Emergence",
+              "description": "In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an etheric emergence. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.|Datasheet||\n000000873|6|||Abomination|This model has the Feel No Pain 2+ ability against Psychic Attacks.|Datasheet||\n000000873|7|||Soulless Horror|Once per battle, at the start of any Command phase, this model can use this ability. If it does, each enemy unit within 9\" of this model must take a Battle-shock test, subtracting 1 from that test (or subtracting 2 if that unit is a PSYKER).|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "8",
+              "name": "Psychic Assassin",
+              "description": "Each time you select a PSYKER unit as the target for this weapon, until those attacks are resolved, change the Attacks characteristic of this weapon to 6.|Wargear profile||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000873",
+              "line": "9",
+              "name": "SHADOW ASSIGNMENT",
+              "description": "This model cannot be selected to be your WARLORD.If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more |Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000874",
@@ -307,7 +616,64 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000874",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000874",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000874",
+              "line": "3",
+              "name": "Authority of the Inquisition",
+              "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000874",
+              "line": "4",
+              "name": "Psyoculum",
+              "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ANTI-PSYKER 4+] ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000874",
+              "line": "5",
+              "name": "No Mercy",
+              "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000875",
@@ -357,7 +723,56 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000875",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "1"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000875",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000875",
+              "line": "3",
+              "name": "Throne of Judgement (Aura)",
+              "description": "While a friendly unit is within 6\" of this model, improve the Leadership characteristic of models in that unit by 1. While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000875",
+              "line": "4",
+              "name": "Unsubtle Crusader",
+              "description": "At the start of the Declare Battle Formations step, you can select up to three AGENTS OF THE IMPERIUM INFANTRY units from your army, or one IMPERIUM BATTLELINE unit from your army – those units gain the Scouts 6\" ability.|Datasheet||\n000000876|1|000008346||||Core||\n000000876|2|000008452||||Faction||\n000000876|3|||Authority of the Inquisition|While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within.|Datasheet||\n000000876|4|||Malefic Wardings (Psychic)|While this model is leading a unit, models in that unit have a 6+ invulnerable save, and a 4+ invulnerable save against Psychic Attacks and attacks made by DAEMON models.|Datasheet||\n000000876|5|||Spy Network|Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP.|Datasheet||\n000000876|6|||Glovodan Psyber-eagle|In your Command phase, you can select one enemy unit within 18\" of the bearer. Until the start of your next Command phase, that unit cannot have the Benefit of Cover.Designer’s Note: Place a Glovodan Psyber-eagle token next to the selected unit to remind you.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000000876",
@@ -518,7 +933,73 @@
           "AP": "-2",
           "D": "D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000000877",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000000877",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000000877",
+              "line": "3",
+              "name": "Authority of the Inquisition",
+              "description": "While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000877",
+              "line": "4",
+              "name": "Power of the Rosette",
+              "description": "Each time you target this model’s unit with a Stratagem, roll one D6: on a 3+, you gain 1CP.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000877",
+              "line": "5",
+              "name": "Blessed Wardings",
+              "description": "While this model is leading a unit, models in that unit have the 6+ invulnerable save.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000000877",
+              "line": "6",
+              "name": "Psychic Gifts",
+              "description": "The bearer has the PSYKER keyword.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000001579",
@@ -584,7 +1065,75 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000001579",
+              "line": "1",
+              "ability_id": "000008338",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "6+"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001579",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000001579",
+              "line": "3",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000001579",
+              "line": "4",
+              "name": "Authority of the Inquisition",
+              "description": "While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001579",
+              "line": "5",
+              "name": "Malus Codicium",
+              "description": "While this model is leading a unit, double the Attacks characteristic of melee weapons equipped by DAEMONHOST models in that unit.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000001579",
+              "line": "6",
+              "name": "Dominate Will (Psychic)",
+              "description": "At the start of your opponent’s Shooting phase, select one enemy INFANTRY unit that is within 12\" of and visible to this model and roll one D6: on a 1, this model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; on a 6, until the end of the phase, that unit is not eligible to shoot.|Datasheet||\n000001580|1|000008382||||Faction||\n000001580|2|000008346||||Core||\n000001580|3|||Galvanic Field|While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.|Datasheet||\n000001580|4|||Defend the Divine Work|Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, all models in this model’s unit have a 4+ invulnerable save.|Datasheet||\n000001581|1|000008346||||Core||\n000001581|2|000008359||||Faction||\n000001581|3|||Daemonkin (Psychic)|While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.|Datasheet||\n000001581|4|||Sacrificial Dagger|Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll.|Datasheet||\n000001583|1|000008359||||Faction||\n000001583|2|||Corrupt Machine Spirits|Once per turn, at the start of your opponent’s Shooting phase, select one enemy VEHICLE unit within 12\" of and visible to one or more models from your army with this ability. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002090",
@@ -1082,7 +1631,44 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002683",
+              "line": "1",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002683",
+              "line": "2",
+              "name": "Merciless Judgement",
+              "description": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002683",
+              "line": "3",
+              "name": "Nuncio Aquila (Aura)",
+              "description": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding MONSTERS and VEHICLES) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.Designer’s Note: Place one Nuncio-aquila token next to the bearer, removing it once it uses this ability.|Wargear||\n000002684|1|000008452||||Faction||\n000002684|2|||Dedication to Duty|Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.|Datasheet||\n000002684|3|||Nuncio Aquila|Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding MONSTERS and VEHICLES) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.Designer’s Note: Place one Nuncio-aquila token next to the bearer, removing it once it uses this ability.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002684",
@@ -1294,7 +1880,53 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002685",
+              "line": "1",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002685",
+              "line": "2",
+              "name": "Imperial Law",
+              "description": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002685",
+              "line": "3",
+              "name": "Arbites Medi-kit",
+              "description": "At the start of your Command phase, if the bearer’s unit is below its Starting Strength, you can return up to D3 destroyed Exaction Vigilants to this unit.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002685",
+              "line": "4",
+              "name": "Nuncio Aquila",
+              "description": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding MONSTERS and VEHICLES) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.Designer’s Note: Place one Nuncio-aquila token next to the bearer, removing it once it uses this ability.|Wargear||\n000002685|5|||Soulguilt Scanner|Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.|Wargear||\n000002686|1|000000705||||Faction||\n000002686|2|||Disruption Bombardment|In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.|Datasheet||\n000002687|1|000000705||||Faction||\n000002687|2|||Neurocytes|While this unit is within Synapse Range of a friendly TYRANIDS unit (excluding NEUROGAUNT units), it has the SYNAPSE keyword.|Datasheet||\n000002688|1|000008346||||Core||\n000002688|2|000000705||||Faction||\n000002688|3|000000707||||Faction||\n000002688|4|||Node Lash (Psychic)|While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well.|Datasheet||\n000002688|5|||Psychic Terror (Psychic)|If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result.|Datasheet||\n000002688|6|||Neuroloids|In your Command phase, you can select up to two friendly TYRANIDS units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army.Designer’s Note: Place a Neuroloid token next to each selected unit to remind you.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002760",
@@ -1400,7 +2032,83 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "3",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "4",
+              "name": "Authority of the Inquisition",
+              "description": "While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "5",
+              "name": "Power of the Rosette",
+              "description": "Each time you target this model’s unit with a Stratagem, roll one D6: on a 3+, you gain 1CP.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "6",
+              "name": "Blessed Wardings",
+              "description": "While the bearer is leading a unit, models in that unit have a 6+ invulnerable save.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002760",
+              "line": "7",
+              "name": "Psychic Gifts",
+              "description": "The bearer has the PSYKER keyword.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002761",
@@ -1595,7 +2303,46 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002761",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002761",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002761",
+              "line": "3",
+              "name": "Grim Spectres",
+              "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result when doing so.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002762",
@@ -1725,7 +2472,64 @@
           "AP": "-1",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002762",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002762",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002762",
+              "line": "3",
+              "name": "Backroom Deals",
+              "description": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002762",
+              "line": "4",
+              "name": "Warrant of Trade",
+              "description": "If your army includes one or more units with this ability, after both players have deployed their armies, select upto D3 IMPERIUM BATTLELINE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002762",
+              "line": "5",
+              "name": "Healing Serum",
+              "description": "At the start of your Command phase, if the bearer’s unit is below its Starting Strength, you can return up to D3 destroyed models (excluding CHARACTERS) to the bearer’s unit.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002763",
@@ -1778,7 +2582,65 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002763",
+              "line": "1",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002763",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002763",
+              "line": "3",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002763",
+              "line": "4",
+              "name": "Backroom Deals",
+              "description": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002763",
+              "line": "5",
+              "name": "Warrant of Trade",
+              "description": "If your army includes one or more units with this ability, after both players have deployed their armies, select up to D3 IMPERIUM BATTLELINE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002764",
@@ -1828,7 +2690,65 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002764",
+              "line": "1",
+              "ability_id": "000008345",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002764",
+              "line": "2",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002764",
+              "line": "3",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002764",
+              "line": "4",
+              "name": "Backroom Deals",
+              "description": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002764",
+              "line": "5",
+              "name": "Warrant of Trade",
+              "description": "If your army includes one or more units with this ability, after both players have deployed their armies, select up to D3 IMPERIUM BATTLELINE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002765",
@@ -1880,7 +2800,46 @@
           "AP": "-1",
           "D": "D3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002765",
+              "line": "1",
+              "ability_id": "000008346",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002765",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002765",
+              "line": "3",
+              "name": "Gaze into the Empyrean (Psychic)",
+              "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.|Datasheet||\n000002765|4|||Third Eye (Psychic)|At the start of your Shooting phase, select one enemy unit within 12\" of and visible to this model. That unit must take a Battle-shock test, subtracting 2 from the result if it is an INFANTRY unit. If the test is failed, that enemy unit suffers 3 mortal wounds. |Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002766",
@@ -1930,7 +2889,55 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000002766",
+              "line": "1",
+              "ability_id": "000008336",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000002766",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000002766",
+              "line": "3",
+              "name": "Self Repair",
+              "description": "At the start of your Command phase, this model regains 1 lost wound.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000002766",
+              "line": "4",
+              "name": "Evade and Survive",
+              "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move.|Datasheet||\n000002767|1|000008452||||Faction||\n000002767|2|||Loyal Henchmen|While an INQUISITOR model is leading this unit, each time an attack is made against this unit, subtract 1 from the Wound roll.|Datasheet||\n000002767|3|||Tome-skull|Once per battle for each Tome-skull this unit is equipped with, at the start of any phase, you can select either one friendly AGENTS OF THE IMPERIUM unit that is Battle-shocked and within 6\" of this unit or one enemy unit within 6\" of this unit. If you select a friendly unit, that unit is no longer Battle-shocked. If you select an enemy unit, it must take a Battle-shock test.Designer’s Note: Place the appropriate number of Tome-skull tokens next to the unit at the start of the battle, removing one each time this unit uses this ability.|Wargear||\n000002767|4|||INQUISITORIAL HENCHMEN|If your Army Faction is not AGENTS OF THE IMPERIUM, then for each INQUISITOR unit you include in your army, you can include one INQUISITORIAL AGENTS unit in your army that does not count towards the number of RETINUE units your army can include (see Assigned Agents).|Special (правая колонка)||\n000002768|1|000008339||||Core|D3|\n000002768|2|||Fire Support|In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.|Datasheet||\n000002768|3|||One Shot|The bearer can only shoot with this weapon once per battle.|Wargear profile||\n000002769|1|000008339||||Core|D3|\n000002769|2|000008458||||Faction||\n000002769|3|||Protection Protocols|You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.|Datasheet||\n000002769|4|||Conversion|Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000002767",
@@ -3361,7 +4368,33 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003821",
+              "line": "7",
+              "name": "Psychic Hood",
+              "description": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003821",
+              "line": "8",
+              "name": "CASSIUS",
+              "description": "Your army cannot contain both Chaplain Cassius and KILL TEAM CASSIUS.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003822",
@@ -3539,7 +4572,74 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003822",
+              "line": "1",
+              "ability_id": "000008343",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003822",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003822",
+              "line": "3",
+              "name": "Terminatus Assault",
+              "description": "Each time this unit ends a Charge move, each enemy unit within Engagement Range of this unit must take a Battle-shock test.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003822",
+              "line": "4",
+              "name": "Teleport Homer",
+              "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" of that token and not within 9\" of any enemy models. That token is then removed.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003822",
+              "line": "6",
+              "name": "ATTACHED UNIT",
+              "description": "If a CHARACTER from your army with the Leader ability can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [
+          [
+            {
+              "datasheet_id": "000003822",
+              "line": "5",
+              "name": "Storm Shield",
+              "description": "The bearer has a Wounds characteristic of 4.",
+              "type": "wargear"
+            }
+          ]
+        ],
+        "special": []
+      }
     },
     {
       "id": "000003823",
@@ -3641,7 +4741,35 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003823",
+              "line": "1",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003823",
+              "line": "2",
+              "name": "Turbo-boost",
+              "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.|Datasheet||\n000003823|3|||Astartes Shield|The bearer has a 4+ invulnerable save.|Wargear||\n000003824|1|000008519||||Faction||\n000003824|2|000008452||||Faction||\n000003824|3|||Proteus Doctrines|Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll.|Datasheet||\n000003824|4|||Astartes Shield|The bearer has a 4+ invulnerable save.|Wargear||\n000003824|5|||Jump Pack|The bearer has a Move characteristic of 12\" and can move over models and terrain features as if they were not there.|Wargear||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003824",
@@ -3964,7 +5092,34 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003824",
+              "line": "7",
+              "name": "ATTACHED UNIT",
+              "description": "If a CHARACTER unit from your army with the Leader ability can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead.|Special (правая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [
+          [
+            {
+              "datasheet_id": "000003824",
+              "line": "6",
+              "name": "Storm Shield",
+              "description": "The bearer has a Wounds characteristic of 4.",
+              "type": "wargear"
+            }
+          ]
+        ],
+        "special": []
+      }
     },
     {
       "id": "000003825",
@@ -4175,7 +5330,63 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003825",
+              "line": "1",
+              "ability_id": "000008519",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003825",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003825",
+              "line": "3",
+              "name": "Fortis Doctrines",
+              "description": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003825",
+              "line": "4",
+              "name": "ATTACHED UNIT",
+              "description": "If a CHARACTER from your army with the Leader ability can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003825",
+              "line": "5",
+              "name": "TRANSPORT",
+              "description": "This unit cannot embark within an IMPERIAL RHINO.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003826",
@@ -4383,7 +5594,45 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003826",
+              "line": "1",
+              "ability_id": "000008519",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003826",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003826",
+              "line": "3",
+              "name": "Jump Pack",
+              "description": "The bearer has a Move characteristic of 10\" and can move over models and terrain features as if they were not there.|Wargear||\n000003826|4|||Indomitor Doctrines|Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.|Datasheet||\n000003826|5|||ATTACHED UNIT|If a CHARACTER unit from your army can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead.|Fortification (левая колонка)||\n000003826|6|||TRANSPORT|This unit cannot embark within an IMPERIAL RHINO.|Fortification (левая колонка)||\n000003827|1|000008345||||Core||\n000003827|2|000008344||||Core|6\"",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003827",
@@ -4553,7 +5802,63 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003827",
+              "line": "3",
+              "ability_id": "000008519",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003827",
+              "line": "4",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003827",
+              "line": "5",
+              "name": "Spectrus Doctrines",
+              "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.|Datasheet||\n000003827|6|||Helix Gauntlet|Models in the bearer’s unit have the Feel No Pain 6+ ability.|Wargear||\n000003827|7|||Infiltrator Comms Array|Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.|Wargear||\n000003827|8|||Jump Pack|The bearer has a Move characteristic of 12\" and can move over models and terrain features as if they were not there.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003827",
+              "line": "9",
+              "name": "ATTACHED UNIT",
+              "description": "If a CHARACTER from your army with the Leader ability can be attached to an DEATHWATCH KILL TEAM, it can be attached to this unit instead.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003827",
+              "line": "10",
+              "name": "TRANSPORT",
+              "description": "This unit cannot embark within an IMPERIAL RHINO.|Fortification (левая колонка)||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003828",
@@ -4606,7 +5911,65 @@
           "AP": "-2",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          [
+            {
+              "datasheet_id": "000003828",
+              "line": "1",
+              "ability_id": "000008339",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "core",
+              "parameter": "1"
+            }
+          ]
+        ],
+        "faction": [
+          [
+            {
+              "datasheet_id": "000003828",
+              "line": "2",
+              "ability_id": "000008452",
+              "name": "Unknown",
+              "description": "No description available",
+              "type": "faction"
+            }
+          ]
+        ],
+        "datasheet": [
+          [
+            {
+              "datasheet_id": "000003828",
+              "line": "3",
+              "name": "Malefic Warding",
+              "description": "While an INQUISITOR model is leading a unit that includes one or more DAEMONHOST models, models in that unit have a 5+ invulnerable save.|Datasheet||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003828",
+              "line": "4",
+              "name": "Bound Daemon",
+              "description": "While an INQUISITOR model is leading a unit that includes one or more DAEMONHOST models, the Objective Control characteristic of DAEMONHOST models in that unit is 1.|Wargear||",
+              "type": "core"
+            }
+          ],
+          [
+            {
+              "datasheet_id": "000003828",
+              "line": "5",
+              "name": "INQUISITORIAL RETINUE",
+              "description": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each unique pairing of 1 INQUISITORIAL AGENTS unit and 1 DAEMONHOST unit occuring in your army, increase the maximum number of RETINUE units permitted in your army by 1.At the start of the Declare Battle Formations step, this unit can join one INQUISITORIAL AGENTS unit from your army that is being led by an [LETHAL HITS] ability.|Datasheet||\n000003829|4|||A Weaponsmith, Not a Warlord|This model cannot be selected to be your WARLORD. While an INQUISITOR model is leading a unit that includes one or more JOKAERO WEAPONSMITH models, the Objective Control characteristic of JOKAERO WEAPONSMITH models in that unit is 1.|Datasheet||\n000003829|5|||INQUISITORIAL AGENT|If your Army Faction is not AGENTS OF THE IMPERIUM, then for each unique pairing of 1 INQUISITORIAL AGENTS unit and 1 JOKAERO WEAPONSMITH unit occuring in your army, increase the maximum number of CHARACTER units permitted in your army by 1.|Fortification (левая колонка)||\n000003830|1|000008339||||Core|D3|\n000003830|2|000008334||||Core|2|\n000003830|3|000008452||||Faction||\n000003830|4|||Self Repair|At the end of your Command phase, this model regains 1 lost wound.|Datasheet||\n000003830|5|||One Shot|The bearer can only shoot with this weapon once per battle.|Wargear profile||\n000003831|1|000008346||||Core||\n000003831|2|000008350||||Faction||\n000003831|3|||Rites of Battle|Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.|Datasheet||\n000003831|4|||Finest Hour|Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability.|Datasheet||\n000003832|1|000008338||||Core|6+|\n000003832|2|000008346||||Core||\n000003832|3|000008350||||Faction||\n000003832|4|||Forlorn Hero|While this model is leading a unit, unless that unit starts the battle embarked within a TRANSPORT, models in that unit have the Scouts 6\" ability.|Datasheet||",
+              "type": "core"
+            }
+          ]
+        ],
+        "wargear": [],
+        "special": []
+      }
     },
     {
       "id": "000003829",
