@@ -86,7 +86,7 @@ export default function Home() {
 
       {/* Top part of the modal (image and basic info) */}
 <div className="flex flex-col md:flex-row gap-4 h-[15%]"> {/* Reduced height */}
-  <div className="w-full md:w-1/3 h-[150px] bg-black rounded-lg overflow-hidden shadow-xl"> {/* Set a fixed height for the image container */}
+  <div className="w-full md:w-1/3 h-[200px] bg-black rounded-lg overflow-hidden shadow-xl"> {/* Set a fixed height for the image container */}
     <img src={selectedUnit.unit_img} alt={selectedUnit.name} className="object-cover w-full h-full" /> {/* Image size adjusted */}
   </div>
 
@@ -255,6 +255,39 @@ export default function Home() {
     </div>
   </div>
 )}
+
+
+
+
+
+<div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
+  {selectedUnit.loadout
+    .split(". ")
+    .filter((sentence) => sentence.trim() !== "") // Ensure no empty sentences
+    .map((sentence, sentenceIndex) => {
+      const parts = sentence.split(":");
+      return (
+        <p key={sentenceIndex} className="mb-1">
+          <strong>{parts[0]}:</strong>{" "}
+          {parts[1]
+            ?.trim()
+            .split(/[,;]/) // Split by both `,` and `;`
+            .map((item, index, array) => {
+              const trimmedItem = item.trim().replace(/\.$/, ""); // Remove trailing period only from the word
+              return (
+                <span key={index}>
+                  <span className="cursor-pointer hover:text-yellow-400 transition-colors">
+                    {trimmedItem}
+                  </span>
+                  {index < array.length - 1 ? ", " : "."} {/* Keep punctuation outside hover */}
+                </span>
+              );
+            })}
+        </p>
+      );
+    })}
+</div>
+
 
 
 
