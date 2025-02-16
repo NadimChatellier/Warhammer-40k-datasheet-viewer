@@ -19,3 +19,13 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Allow scrolling but hide the scrollbar */
+.scrollable-content {
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in Webkit browsers */
+}

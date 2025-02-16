@@ -75,7 +75,83 @@
           "D": "D6+1"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000243",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6"
+          },
+          {
+            "datasheet_id": "000000243",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "20"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000243",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000243",
+            "line": "4",
+            "ability_id": "",
+            "name": "Roof Access",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000243",
+            "line": "5",
+            "ability_id": "",
+            "name": "Vantage Point",
+            "description": "While a model is on top of the tower roof of this FORTIFICATION, improve the Armour Penetration characteristic of ranged weapons equipped by that model by 1.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000243",
+            "line": "6",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000243",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000000785",
@@ -140,7 +216,93 @@
           "D": "D6+1"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000785",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "3D6"
+          },
+          {
+            "datasheet_id": "000000785",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "30"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000785",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000785",
+            "line": "4",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000785",
+            "line": "5",
+            "ability_id": "",
+            "name": "Battlements",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000785",
+            "line": "6",
+            "ability_id": "",
+            "name": "Fortress",
+            "description": "When this FORTIFICATION is set up, all parts of it must be set up in contact with another part.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000785",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": [
+          {
+            "datasheet_id": "000000785",
+            "line": "8",
+            "ability_id": "",
+            "name": "MIGHTY EDIFICE",
+            "description": "You can only include this FORTIFICATION in your army in games of Onslaught(Up to 1000 pts) size or greater.",
+            "type": "primarch",
+            "parameter": ""
+          }
+        ]
+      }
     },
     {
       "id": "000000786",
@@ -338,7 +500,74 @@
           "D": "D6+1"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000786",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000786",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000786",
+            "line": "3",
+            "ability_id": "",
+            "name": "Gates",
+            "description": "When this FORTIFICATION is first set up on the battlefield, each gate section can be set up with its gate open or closed. In your Command phase, you can open or close the gate of each of this model’s gate sections. While a gate is open, models can move and draw line of sight through it as if it were not there.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000786",
+            "line": "4",
+            "ability_id": "",
+            "name": "Battlements",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the flat battlement sections of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000786",
+            "line": "5",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000786",
+            "line": "6",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000000914",
@@ -403,7 +632,84 @@
           "D": "3"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000914",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          },
+          {
+            "datasheet_id": "000000914",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "10"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000914",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000914",
+            "line": "4",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000914",
+            "line": "5",
+            "ability_id": "",
+            "name": "Roof Access",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000000914",
+            "line": "6",
+            "ability_id": "",
+            "name": "Comms Antenna",
+            "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000914",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000000917",
@@ -466,7 +772,65 @@
           "D": "D6+1"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000917",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000917",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000917",
+            "line": "3",
+            "ability_id": "",
+            "name": "Automated Defences",
+            "description": "Each time this model makes a ranged attack that targets the closest enemy unit: If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll. If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll. If that attack is made with a quad-lascannon and the target can Fly, add 1 to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000917",
+            "line": "4",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000917",
+            "line": "5",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000000918",
@@ -556,7 +920,84 @@
           "D": "D6+1"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000918",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          },
+          {
+            "datasheet_id": "000000918",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "10"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000918",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000918",
+            "line": "4",
+            "ability_id": "",
+            "name": "Roof Access",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000918",
+            "line": "5",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000000918",
+            "line": "6",
+            "ability_id": "",
+            "name": "Comms Antenna",
+            "description": "In your Command phase, if one or more CHARACTER models are embarked within this Fortification, roll one D6: on a 5+, you gain 1CP.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000918",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000000919",
@@ -608,7 +1049,74 @@
           "D": "4"
         }
       ],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000919",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          },
+          {
+            "datasheet_id": "000000919",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "10"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000919",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000919",
+            "line": "4",
+            "ability_id": "",
+            "name": "Emergency Plasma Vents",
+            "description": "Each time this FORTIFICATION suffers a mortal wound as the result of a failed Hazardous test, roll one D6: on a 4+, that wound is not lost.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000919",
+            "line": "5",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000919",
+            "line": "6",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000000920",
@@ -659,30 +1167,80 @@
       ],
       "melee_weapons": [],
       "abilities": {
-        "core": [],
-        "faction": [],
+        "core": [
+          {
+            "datasheet_id": "000000920",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6"
+          },
+          {
+            "datasheet_id": "000000920",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "15"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000920",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000920",
-              "line": "6",
-              "name": "Reinforced Cover",
-              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000920",
-              "line": "7",
-              "name": "FORTIFICATION",
-              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000920",
+            "line": "4",
+            "ability_id": "",
+            "name": "Roof Access",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000920",
+            "line": "5",
+            "ability_id": "",
+            "name": "Tremor Quake",
+            "description": "In your Shooting phase, just after selecting a target for this model’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000920",
+            "line": "6",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000920",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -740,63 +1298,79 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000921",
-              "line": "2",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "2D6"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000921",
-              "line": "3",
-              "ability_id": "000008334",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "15"
-            }
-          ]
+          {
+            "datasheet_id": "000000921",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6"
+          },
+          {
+            "datasheet_id": "000000921",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "15"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000921",
-              "line": "1",
-              "ability_id": "000008537",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000921",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000921",
-              "line": "4",
-              "name": "Roof Access",
-              "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000921",
-              "line": "5",
-              "name": "Vortex",
-              "description": "In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds.|Datasheet||\n000000921|6|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000000921|7|||FORTIFICATION|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||\n000000922|1|000008537||||Faction||\n000000922|2|000008339||||Core|D6|\n000000922|3|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000000922|4|||Projected Void Shields (Aura)|While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000921",
+            "line": "4",
+            "ability_id": "",
+            "name": "Roof Access",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000921",
+            "line": "5",
+            "ability_id": "",
+            "name": "Vortex",
+            "description": "In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000921",
+            "line": "6",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000921",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -823,21 +1397,62 @@
       "ranged_weapons": [],
       "melee_weapons": [],
       "abilities": {
-        "core": [],
-        "faction": [],
+        "core": [
+          {
+            "datasheet_id": "000000922",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000922",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000922",
-              "line": "5",
-              "name": "FORTIFICATION",
-              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000922",
+            "line": "3",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000922",
+            "line": "4",
+            "ability_id": "",
+            "name": "Projected Void Shields (Aura)",
+            "description": "While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000922",
+            "line": "5",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -865,70 +1480,70 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000923",
-              "line": "2",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ]
+          {
+            "datasheet_id": "000000923",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000923",
-              "line": "1",
-              "ability_id": "000008537",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000923",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000923",
-              "line": "3",
-              "name": "Skyshield",
-              "description": "Friendly INFANTRY models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this FORTIFICATION. While such a model is on the platform section of this FORTIFICATION, that model has a 5+ invulnerable save against ranged attacks.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000923",
-              "line": "4",
-              "name": "Repair Aircraft",
-              "description": "At the end of your Movement phase, if there is a friendly Aircraft model on top of this FORTIFICATION, that AIRCRAFT regains up to D3 lost wounds.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000923",
-              "line": "5",
-              "name": "Reinforced Cover",
-              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000923",
-              "line": "6",
-              "name": "FORTIFICATION",
-              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000923",
+            "line": "3",
+            "ability_id": "",
+            "name": "Skyshield",
+            "description": "Friendly INFANTRY models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this FORTIFICATION. While such a model is on the platform section of this FORTIFICATION, that model has a 5+ invulnerable save against ranged attacks.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000923",
+            "line": "4",
+            "ability_id": "",
+            "name": "Repair Aircraft",
+            "description": "At the end of your Movement phase, if there is a friendly Aircraft model on top of this FORTIFICATION, that AIRCRAFT regains up to D3 lost wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000923",
+            "line": "5",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000000923",
+            "line": "6",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -979,7 +1594,46 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001603",
+            "line": "2",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "5+"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001603",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000001603",
+            "line": "3",
+            "ability_id": "",
+            "name": "Threat Level Rising",
+            "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001630",
@@ -1018,53 +1672,61 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001630",
-              "line": "2",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001630",
-              "line": "3",
-              "ability_id": "000008338",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "5+"
-            }
-          ]
+          {
+            "datasheet_id": "000001630",
+            "line": "2",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001630",
+            "line": "3",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "5+"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001630",
-              "line": "1",
-              "ability_id": "000008537",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001630",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001630",
-              "line": "4",
-              "name": "Borewyrm Infestation",
-              "description": "Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed.Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used.|Wargear||\n000001630|5|||Frenzy|Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase.|Datasheet||\n000001647|1|000008343||||Core||\n000001647|2|000008346||||Core||\n000001647|3|000008433||||Faction||\n000001647|4|||Swallow Energy (Psychic)|While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.|Datasheet||\n000001647|5|||Horrible Fascination(Psychic)|At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001630",
+            "line": "5",
+            "ability_id": "",
+            "name": "Frenzy",
+            "description": "Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000001630",
+            "line": "4",
+            "ability_id": "",
+            "name": "Borewyrm Infestation",
+            "description": "Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed.Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1116,7 +1778,55 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000002093",
+            "line": "2",
+            "ability_id": "000008336",
+            "name": "Lone Operative",
+            "description": "Assassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.Unless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000002093",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000002093",
+            "line": "3",
+            "ability_id": "",
+            "name": "Fearsome Assault",
+            "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002093",
+            "line": "4",
+            "ability_id": "",
+            "name": "Disruptive Influence (Aura)",
+            "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000002363",
@@ -1179,7 +1889,46 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000002363",
+            "line": "1",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "5+"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000002363",
+            "line": "2",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000002363",
+            "line": "3",
+            "ability_id": "",
+            "name": "Drone Commander (Aura)",
+            "description": "While a friendly SPINDLE DRONES unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000002807",
@@ -1330,90 +2079,89 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "2",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "3D6"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "3",
-              "ability_id": "000008334",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "45"
-            }
-          ]
+          {
+            "datasheet_id": "000002807",
+            "line": "2",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "3D6"
+          },
+          {
+            "datasheet_id": "000002807",
+            "line": "3",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "45"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "1",
-              "ability_id": "000008537",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002807",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "4",
-              "name": "Comms Antenna",
-              "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.|Wargear||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "5",
-              "name": "Reinforced Cover",
-              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "6",
-              "name": "Stronghold",
-              "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION. Any friendly model can be set up or end any type of move on the ramp or platform section of this FORTIFICATION.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "7",
-              "name": "FORTIFICATION",
-              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002807",
-              "line": "8",
-              "name": "MIGHTY EDIFICE",
-              "description": "You can only include this FORTIFICATION in your army in games of Onslaught size or greater.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002807",
+            "line": "5",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002807",
+            "line": "6",
+            "ability_id": "",
+            "name": "Stronghold",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION. Any friendly model can be set up or end any type of move on the ramp or platform section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000002807",
+            "line": "4",
+            "ability_id": "",
+            "name": "Comms Antenna",
+            "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000002807",
+            "line": "7",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002807",
+            "line": "8",
+            "ability_id": "",
+            "name": "MIGHTY EDIFICE",
+            "description": "You can only include this FORTIFICATION in your army in games of Onslaught size or greater.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -1469,90 +2217,89 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "2",
-              "ability_id": "000008334",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "6"
-            }
-          ]
+          {
+            "datasheet_id": "000002808",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          },
+          {
+            "datasheet_id": "000002808",
+            "line": "2",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "3",
-              "ability_id": "000008537",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002808",
+            "line": "3",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "4",
-              "name": "Roof Access",
-              "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "5",
-              "name": "Inviolable Bastion",
-              "description": "Each time an attack is allocated to this FORTIFICATION, subtract 1 from the Damage characteristic of that attack.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "6",
-              "name": "Reinforced Cover",
-              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "7",
-              "name": "Comms Antenna",
-              "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.|Wargear||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002808",
-              "line": "8",
-              "name": "FORTIFICATION",
-              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002808",
+            "line": "4",
+            "ability_id": "",
+            "name": "Roof Access",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002808",
+            "line": "5",
+            "ability_id": "",
+            "name": "Inviolable Bastion",
+            "description": "Each time an attack is allocated to this FORTIFICATION, subtract 1 from the Damage characteristic of that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002808",
+            "line": "6",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000002808",
+            "line": "7",
+            "ability_id": "",
+            "name": "Comms Antenna",
+            "description": "In your Command phase, if one or more CHARACTER models are embarked within this FORTIFICATION, roll one D6: on a 5+, you gain 1CP.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000002808",
+            "line": "8",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -1581,30 +2328,59 @@
       "abilities": {
         "core": [],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002809",
-              "line": "1",
-              "ability_id": "000008537",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002809",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002809",
-              "line": "2",
-              "name": "Defence Line",
-              "description": "When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see in FORTIFICATION section), that model has a 4+ invulnerable save.|Datasheet||\n000002809|3|||Trench Line|Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.|Datasheet||\n000002809|4|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000002809|5|||FORTIFICATION|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||\n000002810|1|000008537||||Faction||\n000002810|2|||Defence Line|While an INFANTRY model has the Benefit of Cover as a result of this Fortification(see below), that model has a 4+ invulnerable save.|Datasheet||\n000002810|3|||Trench Line|Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.|Datasheet||\n000002810|4|||Reinforced Cover|Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||\n000002810|5|||FORTIFICATION|While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||\n000002811|1|000008537||||Faction||\n000002811|2|||Defence Line|When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see below), that model has a 4+ invulnerable save.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002809",
+            "line": "2",
+            "ability_id": "",
+            "name": "Defence Line",
+            "description": "When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see in FORTIFICATION section), that model has a 4+ invulnerable save.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002809",
+            "line": "3",
+            "ability_id": "",
+            "name": "Trench Line",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002809",
+            "line": "4",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000002809",
+            "line": "5",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     },
     {
@@ -1629,7 +2405,64 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          {
+            "datasheet_id": "000002810",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000002810",
+            "line": "2",
+            "ability_id": "",
+            "name": "Defence Line",
+            "description": "While an INFANTRY model has the Benefit of Cover as a result of this Fortification(see below), that model has a 4+ invulnerable save.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002810",
+            "line": "3",
+            "ability_id": "",
+            "name": "Trench Line",
+            "description": "Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002810",
+            "line": "4",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000002810",
+            "line": "5",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
+      }
     },
     {
       "id": "000002811",
@@ -1684,29 +2517,51 @@
       "melee_weapons": [],
       "abilities": {
         "core": [],
-        "faction": [],
+        "faction": [
+          {
+            "datasheet_id": "000002811",
+            "line": "1",
+            "ability_id": "000008537",
+            "name": "Unaligned Forces",
+            "description": "You can include UNALIGNED FORCES units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points value of UNALIGNED FORCES units you can include in your army depends on the battle size, as follows:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 1000 ptsNo UNALIGNED FORCES models can be your WARLORD.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002811",
-              "line": "3",
-              "name": "Reinforced Cover",
-              "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002811",
-              "line": "4",
-              "name": "FORTIFICATION",
-              "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.|Fortification (левая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002811",
+            "line": "2",
+            "ability_id": "",
+            "name": "Defence Line",
+            "description": "When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see below), that model has a 4+ invulnerable save.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002811",
+            "line": "3",
+            "ability_id": "",
+            "name": "Reinforced Cover",
+            "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [
+          {
+            "datasheet_id": "000002811",
+            "line": "4",
+            "ability_id": "",
+            "name": "FORTIFICATION",
+            "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+            "type": "fortification",
+            "parameter": ""
+          }
+        ],
+        "primarch": []
       }
     }
   ]

@@ -104,7 +104,55 @@
           "AP": "-1",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000867",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000867",
+            "line": "2",
+            "ability_id": "000008538",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000867",
+            "line": "3",
+            "ability_id": "",
+            "name": "Striding Colossus",
+            "description": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000867",
+            "line": "4",
+            "ability_id": "",
+            "name": "Flank Speed",
+            "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000868",
@@ -234,52 +282,51 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000868",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6+6"
-            }
-          ]
+          {
+            "datasheet_id": "000000868",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000868",
-              "line": "2",
-              "ability_id": "000008538",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000868",
+            "line": "2",
+            "ability_id": "000008538",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000868",
-              "line": "3",
-              "name": "Striding Colossus",
-              "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000868",
-              "line": "4",
-              "name": "God-machine",
-              "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000868",
+            "line": "3",
+            "ability_id": "",
+            "name": "Striding Colossus",
+            "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000868",
+            "line": "4",
+            "ability_id": "",
+            "name": "God-machine",
+            "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -471,52 +518,51 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000869",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "2D6+6"
-            }
-          ]
+          {
+            "datasheet_id": "000000869",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6+6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000869",
-              "line": "2",
-              "ability_id": "000008538",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000869",
+            "line": "2",
+            "ability_id": "000008538",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000869",
-              "line": "3",
-              "name": "Striding Colossus",
-              "description": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000869",
-              "line": "4",
-              "name": "Wrath of the Omnissiah",
-              "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000869",
+            "line": "3",
+            "ability_id": "",
+            "name": "Striding Colossus",
+            "description": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000869",
+            "line": "4",
+            "ability_id": "",
+            "name": "Wrath of the Omnissiah",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -662,52 +708,51 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002077",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6+6"
-            }
-          ]
+          {
+            "datasheet_id": "000002077",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002077",
-              "line": "2",
-              "ability_id": "000008538",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002077",
+            "line": "2",
+            "ability_id": "000008538",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002077",
-              "line": "3",
-              "name": "Striding Colossus",
-              "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002077",
-              "line": "4",
-              "name": "Titanic Fire Support",
-              "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Imperium model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002077",
+            "line": "3",
+            "ability_id": "",
+            "name": "Striding Colossus",
+            "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002077",
+            "line": "4",
+            "ability_id": "",
+            "name": "Titanic Fire Support",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Imperium model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     }
   ]

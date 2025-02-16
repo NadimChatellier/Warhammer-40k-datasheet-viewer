@@ -76,7 +76,64 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001094",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+2"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001094",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001094",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000001094",
+            "line": "4",
+            "ability_id": "",
+            "name": "Searing Flames",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001094",
+            "line": "5",
+            "ability_id": "",
+            "name": "Unrestrained Terror (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more WAR DOG units affected by this ability must take a Battle-shock test.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001095",
@@ -143,62 +200,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001095",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6+2"
-            }
-          ]
+          {
+            "datasheet_id": "000001095",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+2"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001095",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001095",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001095",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001095",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001095",
-              "line": "4",
-              "name": "Shock Charge",
-              "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001095",
-              "line": "5",
-              "name": "Dark Fervour (Aura)",
-              "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability.|Datasheet||\n000001096|1|000008339||||Core|D6+2|\n000001096|2|000008512||||Faction||\n000001096|3|000008513||||Faction||\n000001096|4|||Storm of Bolts|In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.|Datasheet||\n000001096|5|||Offerings for the Dark Gods (Aura)|While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001095",
+            "line": "4",
+            "ability_id": "",
+            "name": "Shock Charge",
+            "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001095",
+            "line": "5",
+            "ability_id": "",
+            "name": "Dark Fervour (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -260,7 +315,64 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001096",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+2"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001096",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001096",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000001096",
+            "line": "4",
+            "ability_id": "",
+            "name": "Storm of Bolts",
+            "description": "In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001096",
+            "line": "5",
+            "ability_id": "",
+            "name": "Offerings for the Dark Gods (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001097",
@@ -369,62 +481,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001097",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6+2"
-            }
-          ]
+          {
+            "datasheet_id": "000001097",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+2"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001097",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001097",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001097",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001097",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001097",
-              "line": "4",
-              "name": "Macro-extinction Protocols",
-              "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001097",
-              "line": "5",
-              "name": "Consumed with Hunger (Aura)",
-              "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll.|Datasheet||\n000001098|1|000008339||||Core|D6|\n000001098|2|000008512||||Faction||\n000001098|3|000008513||||Faction||\n000001098|4|||Repair Auto-simulacra|At the end of your Command phase, this model regains up to D3 lost wounds.|Datasheet||\n000001098|5|||Huntmaster (Aura)|While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001097",
+            "line": "4",
+            "ability_id": "",
+            "name": "Macro-extinction Protocols",
+            "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001097",
+            "line": "5",
+            "ability_id": "",
+            "name": "Consumed with Hunger (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -537,7 +647,64 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001098",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001098",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001098",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000001098",
+            "line": "4",
+            "ability_id": "",
+            "name": "Repair Auto-simulacra",
+            "description": "At the end of your Command phase, this model regains up to D3 lost wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001098",
+            "line": "5",
+            "ability_id": "",
+            "name": "Huntmaster (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001099",
@@ -642,53 +809,51 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001099",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "2D6"
-            }
-          ]
+          {
+            "datasheet_id": "000001099",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001099",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001099",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001099",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001099",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001099",
-              "line": "4",
-              "name": "Bastion of Firepower",
-              "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001099",
+            "line": "4",
+            "ability_id": "",
+            "name": "Bastion of Firepower",
+            "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -805,53 +970,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001100",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ]
+          {
+            "datasheet_id": "000001100",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001100",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001100",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001100",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001100",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001100",
-              "line": "4",
-              "name": "Huntmaster (Aura)",
-              "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.|Datasheet||\n000001100|5|||Grav-pinned|In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit. |Datasheet||\n000001104|1|000008343||||Core||\n000001104|2|000008346||||Core||\n000001104|3|000008433||||Faction||\n000001104|4|||Collar of Khorne|The bearer has the Feel No Pain 3+ ability against Psychic Attacks.|Wargear||\n000001104|5|||Pack Leader|While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.|Datasheet||\n000001104|6|||Prey of the Blood God|At the start of the first battle round, select one enemy unit to be this model’s prey. Weapons equipped by models in this model’s unit have the [LETHAL HITS] ability when targeting this model’s prey. Each time this model’s prey is destroyed, select one new enemy unit to be this model’s prey.|Datasheet||\n000001105|1|000008339||||Core|D6|\n000001105|2|000008343||||Core||\n000001105|3|000008433||||Faction||\n000001105|4|||Rage Embodied (Aura)|While a friendly KHORNE LEGIONES DAEMONICA unit (excluding MONSTERS and VEHICLES) is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001100",
+            "line": "4",
+            "ability_id": "",
+            "name": "Huntmaster (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001100",
+            "line": "5",
+            "ability_id": "",
+            "name": "Grav-pinned",
+            "description": "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1053,21 +1225,61 @@
         }
       ],
       "abilities": {
-        "core": [],
-        "faction": [],
+        "core": [
+          {
+            "datasheet_id": "000001658",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001658",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001658",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001658",
-              "line": "5",
-              "name": "Seething Hatred",
-              "description": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001658",
+            "line": "4",
+            "ability_id": "",
+            "name": "Dread Dominion (Aura)",
+            "description": "While a friendly WAR DOG is within 9\" of this model, each time that WAR DOG takes a Battle-shock test, add 1 to that test.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001658",
+            "line": "5",
+            "ability_id": "",
+            "name": "Seething Hatred",
+            "description": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1219,53 +1431,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001659",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6+2"
-            }
-          ]
+          {
+            "datasheet_id": "000001659",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+2"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001659",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001659",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001659",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001659",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001659",
-              "line": "4",
-              "name": "Infernal Aegis (Aura)",
-              "description": "While a friendly WAR DOG model is within 6\" of this model, that WAR DOG model has the Benefit of Cover.|Datasheet||\n000001659|5|||Bastion of Corruption|Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001659",
+            "line": "4",
+            "ability_id": "",
+            "name": "Infernal Aegis (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, that WAR DOG model has the Benefit of Cover.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001659",
+            "line": "5",
+            "ability_id": "",
+            "name": "Bastion of Corruption",
+            "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1363,62 +1582,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001660",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ]
+          {
+            "datasheet_id": "000001660",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001660",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001660",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001660",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001660",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001660",
-              "line": "4",
-              "name": "Obsessive Ruthlessness",
-              "description": "Each time this model makes a ranged attack against a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001660",
-              "line": "5",
-              "name": "Taskmaster (Aura)",
-              "description": "While a friendly WAR DOG model is within 9\" of this model, each time that War Dog model makes a ranged attack, re-roll a Hit roll of 1.|Datasheet||\n000001661|1|000008339||||Core|D6|\n000001661|2|000008512||||Faction||\n000001661|3|000008513||||Faction||\n000001661|4|||Bloodlust|Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced.|Datasheet||\n000001661|5|||Frenzied Rampage (Aura)|While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001660",
+            "line": "4",
+            "ability_id": "",
+            "name": "Obsessive Ruthlessness",
+            "description": "Each time this model makes a ranged attack against a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001660",
+            "line": "5",
+            "ability_id": "",
+            "name": "Taskmaster (Aura)",
+            "description": "While a friendly WAR DOG model is within 9\" of this model, each time that War Dog model makes a ranged attack, re-roll a Hit roll of 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1502,7 +1719,64 @@
           "AP": "-3",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001661",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001661",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001661",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000001661",
+            "line": "4",
+            "ability_id": "",
+            "name": "Bloodlust",
+            "description": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001661",
+            "line": "5",
+            "ability_id": "",
+            "name": "Frenzied Rampage (Aura)",
+            "description": "While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001662",
@@ -1586,62 +1860,61 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001662",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "2D6"
-            }
-          ]
+          {
+            "datasheet_id": "000001662",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "2D6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001662",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001662",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001662",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001662",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001662",
-              "line": "4",
-              "name": "Sunderer of Fortresses",
-              "description": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead).|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001662",
-              "line": "5",
-              "name": "Conversion",
-              "description": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||\n000001663|1|000008339||||Core|D3|\n000001663|2|000008512||||Faction||\n000001663|3|||Protection Protocols|You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.|Datasheet||\n000001663|4|||Conversion|Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.|Wargear profile||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001662",
+            "line": "4",
+            "ability_id": "",
+            "name": "Sunderer of Fortresses",
+            "description": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead).",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000001662",
+            "line": "5",
+            "ability_id": "",
+            "name": "Conversion",
+            "description": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1759,7 +2032,56 @@
           "AP": "-3",
           "D": "D6+2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001663",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000001663",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000001663",
+            "line": "3",
+            "ability_id": "",
+            "name": "Protection Protocols",
+            "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000001663",
+            "line": "4",
+            "ability_id": "",
+            "name": "Conversion",
+            "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000002562",
@@ -1833,7 +2155,46 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000002562",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000002562",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000002562",
+            "line": "3",
+            "ability_id": "",
+            "name": "Executioner",
+            "description": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000002563",
@@ -1943,7 +2304,46 @@
           "AP": "-3",
           "D": "D6+2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000002563",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000002563",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000002563",
+            "line": "3",
+            "ability_id": "",
+            "name": "Stalker",
+            "description": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000002564",
@@ -2032,43 +2432,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002564",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ]
+          {
+            "datasheet_id": "000002564",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002564",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002564",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002564",
-              "line": "3",
-              "name": "Karnivore",
-              "description": "You can re-roll Charge rolls made for this model.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002564",
+            "line": "3",
+            "ability_id": "",
+            "name": "Karnivore",
+            "description": "You can re-roll Charge rolls made for this model.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2160,43 +2559,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002565",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ]
+          {
+            "datasheet_id": "000002565",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002565",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002565",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002565",
-              "line": "3",
-              "name": "Brigand",
-              "description": "Each time this model makes a ranged attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
-              "type": "datasheet"
-            }
-          ]
+          {
+            "datasheet_id": "000002565",
+            "line": "3",
+            "ability_id": "",
+            "name": "Brigand",
+            "description": "Each time this model makes a ranged attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2287,43 +2685,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002566",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ]
+          {
+            "datasheet_id": "000002566",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002566",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002566",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002566",
-              "line": "3",
-              "name": "Huntsman",
-              "description": "Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002566",
+            "line": "3",
+            "ability_id": "",
+            "name": "Huntsman",
+            "description": "Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2405,53 +2802,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000002567",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ]
+          {
+            "datasheet_id": "000002567",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000002567",
-              "line": "2",
-              "ability_id": "000008512",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000002567",
-              "line": "3",
-              "ability_id": "000008513",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000002567",
+            "line": "2",
+            "ability_id": "000008512",
+            "name": "Harbingers of Dread",
+            "description": "If your Army Faction is CHAOS KNIGHTS, each model from your army with this ability has the following Dread abilities:DESPAIR (AURA)While an enemy unit is within 12\" of this model, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from that test.DOOM AND DARKNESSEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.Each time an attack targets this model, if the attacking model’s unit is Battle-shocked, subtract 1 from the Hit roll.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002567",
+            "line": "3",
+            "ability_id": "000008513",
+            "name": "Super-heavy Walker",
+            "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.’",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000002567",
-              "line": "4",
-              "name": "Vortex Terrors (Psychic)",
-              "description": "At the start of your Shooting phase, select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test.|Datasheet||\n000002567|5|||Warp Storms (Psychic)|At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of this model: on a 3+, that enemy unit suffers D3 mortal wounds.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000002567",
+            "line": "4",
+            "ability_id": "",
+            "name": "Vortex Terrors (Psychic)",
+            "description": "At the start of your Shooting phase, select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000002567",
+            "line": "5",
+            "ability_id": "",
+            "name": "Warp Storms (Psychic)",
+            "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of this model: on a 3+, that enemy unit suffers D3 mortal wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2476,7 +2880,55 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000003844",
+            "line": "1",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000003844",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003844",
+            "line": "3",
+            "ability_id": "",
+            "name": "Fiery Faith",
+            "description": "While this model is leading a unit, you can re-roll Leadership tests taken for that unit.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000003844",
+            "line": "4",
+            "ability_id": "",
+            "name": "Cursed Flames",
+            "description": "In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003845",
@@ -2513,7 +2965,65 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000003845",
+            "line": "1",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000003845",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003845",
+            "line": "3",
+            "ability_id": "",
+            "name": "Faithful Flock",
+            "description": "While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000003845",
+            "line": "4",
+            "ability_id": "",
+            "name": "Dark Ritual",
+            "description": "Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which it Advanced and each time a model in this unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000003845",
+            "line": "5",
+            "ability_id": "",
+            "name": "Chaos Icon",
+            "description": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003846",
@@ -2550,7 +3060,55 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000003846",
+            "line": "1",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000003846",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003846",
+            "line": "3",
+            "ability_id": "",
+            "name": "Brutal Example",
+            "description": "Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this turn. Each time you use this ability, one Bodyguard model in that unit is destroyed.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000003846",
+            "line": "4",
+            "ability_id": "",
+            "name": "Mutated Bodyguard",
+            "description": "While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003847",
@@ -2574,7 +3132,55 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000003847",
+            "line": "1",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000003847",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003847",
+            "line": "3",
+            "ability_id": "",
+            "name": "Brutal Example",
+            "description": "While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000003847",
+            "line": "4",
+            "ability_id": "",
+            "name": "Enforcer",
+            "description": "This model’s unit is eligible to declare a charge in a turn in which it Fell Back.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003848",
@@ -2598,7 +3204,55 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000003848",
+            "line": "1",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000003848",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003848",
+            "line": "3",
+            "ability_id": "",
+            "name": "Cursed Wardings (Psychic)",
+            "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000003848",
+            "line": "4",
+            "ability_id": "",
+            "name": "Psychic Barrier (Psychic)",
+            "description": "At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003849",
@@ -2622,7 +3276,36 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          {
+            "datasheet_id": "000003849",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003849",
+            "line": "2",
+            "ability_id": "",
+            "name": "For the Dark Gods",
+            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003850",
@@ -2646,7 +3329,36 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [],
+        "faction": [
+          {
+            "datasheet_id": "000003850",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003850",
+            "line": "2",
+            "ability_id": "",
+            "name": "For the Dark Gods",
+            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003851",
@@ -2685,32 +3397,52 @@
       "ranged_weapons": [],
       "melee_weapons": [],
       "abilities": {
-        "core": [],
+        "core": [
+          {
+            "datasheet_id": "000003851",
+            "line": "1",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "6+"
+          },
+          {
+            "datasheet_id": "000003851",
+            "line": "2",
+            "ability_id": "000008344",
+            "name": "Scouts",
+            "description": "Scouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.Some units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".DEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).A unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.Example: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.Must end this move more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": "6\""
+          }
+        ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003851",
-              "line": "3",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003851",
+            "line": "3",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003851",
-              "line": "4",
-              "name": "Accursed Horde",
-              "description": "Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Horde move while it is Battle-shocked.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003851",
+            "line": "4",
+            "ability_id": "",
+            "name": "Accursed Horde",
+            "description": "Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Horde move while it is Battle-shocked.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2739,30 +3471,31 @@
       "abilities": {
         "core": [],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003852",
-              "line": "1",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003852",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003852",
-              "line": "2",
-              "name": "Bestial Raiders",
-              "description": "If this unit starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003852",
+            "line": "2",
+            "ability_id": "",
+            "name": "Bestial Raiders",
+            "description": "If this unit starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2791,30 +3524,31 @@
       "abilities": {
         "core": [],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003853",
-              "line": "1",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003853",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003853",
-              "line": "2",
-              "name": "Twisted Defence Force",
-              "description": "While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003853",
+            "line": "2",
+            "ability_id": "",
+            "name": "Twisted Defence Force",
+            "description": "While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2855,43 +3589,42 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000003854",
-              "line": "1",
-              "ability_id": "000008338",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "5+"
-            }
-          ]
+          {
+            "datasheet_id": "000003854",
+            "line": "1",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "5+"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003854",
-              "line": "2",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003854",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003854",
-              "line": "3",
-              "name": "Fearsome (Aura)",
-              "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.|Datasheet||\n000003855|1|000008338||||Core|6+|\n000003855|2|000008359||||Faction||\n000003855|3|||Mischief Makers (Aura)|While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003854",
+            "line": "3",
+            "ability_id": "",
+            "name": "Fearsome (Aura)",
+            "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2916,7 +3649,46 @@
         }
       ],
       "ranged_weapons": [],
-      "melee_weapons": []
+      "melee_weapons": [],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000003855",
+            "line": "1",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "6+"
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000003855",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000003855",
+            "line": "3",
+            "ability_id": "",
+            "name": "Mischief Makers (Aura)",
+            "description": "While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000003856",
@@ -2943,52 +3715,52 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000003856",
-              "line": "1",
-              "ability_id": "000008338",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "5+"
-            }
-          ]
+          {
+            "datasheet_id": "000003856",
+            "line": "1",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "5+"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003856",
-              "line": "2",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003856",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003856",
-              "line": "3",
-              "name": "Voltagheist Field",
-              "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000003856",
-              "line": "4",
-              "name": "SERVANTS OF THE ABYSS",
-              "description": "If a unit from your army with the Leader ability can be attached to a CULTIST MOB, it can be attached to this unit instead.|Special (правая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003856",
+            "line": "3",
+            "ability_id": "",
+            "name": "Voltagheist Field",
+            "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [
+          {
+            "datasheet_id": "000003856",
+            "line": "4",
+            "ability_id": "",
+            "name": "SERVANTS OF THE ABYSS",
+            "description": "If a unit from your army with the Leader ability can be attached to a CULTIST MOB, it can be attached to this unit instead.",
+            "type": "special",
+            "parameter": ""
+          }
+        ],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3017,39 +3789,41 @@
       "abilities": {
         "core": [],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003857",
-              "line": "1",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003857",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003857",
-              "line": "2",
-              "name": "Covering Fire",
-              "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000003857",
-              "line": "3",
-              "name": "HEAVY WEAPONS TEAM",
-              "description": "For the purposes of embarking within TRANSPORTS, each Renegade Heavy Weapons Team model counts as two models.|Special (правая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003857",
+            "line": "2",
+            "ability_id": "",
+            "name": "Covering Fire",
+            "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [
+          {
+            "datasheet_id": "000003857",
+            "line": "3",
+            "ability_id": "",
+            "name": "HEAVY WEAPONS TEAM",
+            "description": "For the purposes of embarking within TRANSPORTS, each Renegade Heavy Weapons Team model counts as two models.",
+            "type": "special",
+            "parameter": ""
+          }
+        ],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3091,30 +3865,31 @@
       "abilities": {
         "core": [],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003858",
-              "line": "1",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003858",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003858",
-              "line": "2",
-              "name": "Beastmaster",
-              "description": "While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003858",
+            "line": "2",
+            "ability_id": "",
+            "name": "Beastmaster",
+            "description": "While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3143,39 +3918,41 @@
       "abilities": {
         "core": [],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003859",
-              "line": "1",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003859",
+            "line": "1",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003859",
-              "line": "2",
-              "name": "Ogryn Combat Stimms",
-              "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-              "type": "datasheet"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000003859",
-              "line": "3",
-              "name": "OGRYNS",
-              "description": "For the purposes of embarking within TRANSPORTS, each Renegade Ogryn Brute model counts as one TERMINATOR model.|Special (правая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003859",
+            "line": "2",
+            "ability_id": "",
+            "name": "Ogryn Combat Stimms",
+            "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [
+          {
+            "datasheet_id": "000003859",
+            "line": "3",
+            "ability_id": "",
+            "name": "OGRYNS",
+            "description": "For the purposes of embarking within TRANSPORTS, each Renegade Ogryn Brute model counts as one TERMINATOR model.",
+            "type": "special",
+            "parameter": ""
+          }
+        ],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3203,52 +3980,52 @@
       "melee_weapons": [],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000003860",
-              "line": "1",
-              "ability_id": "000008338",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "6+"
-            }
-          ]
+          {
+            "datasheet_id": "000003860",
+            "line": "1",
+            "ability_id": "000008338",
+            "name": "Feel No Pain",
+            "description": "Some warriors refuse to be laid low, even by what should be fatal wounds.Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by ‘x’, that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.Feel No Pain x+: Each time this model would lose a wound, roll one D6: if the result equals or exceeds ‘x’, that wound is not lost.",
+            "type": "core",
+            "parameter": "6+"
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000003860",
-              "line": "2",
-              "ability_id": "000008359",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000003860",
+            "line": "2",
+            "ability_id": "000008359",
+            "name": "Dark Pacts",
+            "description": "If your Army Faction is HERETIC ASTARTES, each time a unit with  this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:[LETHAL HITS][SUSTAINED HITS 1]",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000003860",
-              "line": "3",
-              "name": "Wall of Muscle",
-              "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack.",
-              "type": "datasheet"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000003860",
-              "line": "4",
-              "name": "OGRYNS",
-              "description": "For the purposes of embarking within TRANSPORTS, each Renegade Plague Ogryn model counts as one TERMINATOR model.|Special (правая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000003860",
+            "line": "3",
+            "ability_id": "",
+            "name": "Wall of Muscle",
+            "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [
+          {
+            "datasheet_id": "000003860",
+            "line": "4",
+            "ability_id": "",
+            "name": "OGRYNS",
+            "description": "For the purposes of embarking within TRANSPORTS, each Renegade Plague Ogryn model counts as one TERMINATOR model.",
+            "type": "special",
+            "parameter": ""
+          }
+        ],
+        "fortification": [],
+        "primarch": []
       }
     }
   ]

@@ -242,7 +242,7 @@ async function parseUnitWeapons() {
         row.description = cleanText(row.description); // Remove HTML tags
         const datasheetId = row.datasheet_id;
         if (!datasheetId || !unitDataMap[datasheetId]) {
-          console.log(`⚠️ Skipping wargear with unknown datasheet_id:`, row);
+          // console.log(`⚠️ Skipping wargear with unknown datasheet_id:`, row);
           return;
         }
 
@@ -331,137 +331,192 @@ function writeFactionSummary() {
   });
 }
 
-
-// Function to clean the description and handle concatenated ability entries
-function cleanDescription(text) {
-  if (!text) return { text: 'No description available', range: undefined };
-
-  // Clean HTML tags
-  text = text.replace(/<\/?[^>]+(>|$)/g, ""); // Remove all HTML tags
-
-  // Clean up newlines and extra spaces
-  text = text.replace(/\r\n/g, ' ').replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
-
-  // Check if description contains a range (e.g., "12")
-  const rangeMatch = text.match(/\d+"?/);  // Match any number followed by an optional double quote
-  return {
-    text,  // Return cleaned description
-    range: rangeMatch ? rangeMatch[0] : undefined // Extract range if present
-  };
+// Helper function to remove the ability name from the description
+function removeAbilityName(abilityName, description) {
+  // Remove ability name from the start of the description if it matches
+  const abilityNameRegex = new RegExp(`^${abilityName}`, 'i');
+  return description.replace(abilityNameRegex, '').trim(); // Removes name from the beginning of the description
 }
 
 
-// Function to parse the abilities
-function parseAbilityData(row) {
-  let abilities = [];
-  
-  // Clean the description
-  let cleanedDescription = cleanText(row.description);
-
-  if (row.parameter) {
-    // Split the parameter string by '|', '\n', and process each part separately
-    const paramParts = row.parameter.split('\n').map(p => p.trim()).filter(Boolean);
-    
-    // For each part of the parameter, process it as a new ability
-    paramParts.forEach((param, index) => {
-      const paramData = param.split('|').map(p => p.trim());
-      
-      // If this part is an ability with a description (like "Vicious Insight"), we want to treat it properly
-      let abilityName = paramData[4] || 'Unknown';
-      let abilityDescription = paramData[5] ? cleanText(paramData[5]) : 'No description available';
-      
-      // Create a new row for this part
-      abilities.push({
-        datasheet_id: row.datasheet_id ? row.datasheet_id.trim() : undefined,
-        line: row.line ? row.line.trim() : undefined,
-        ability_id: row.ability_id ? row.ability_id.trim() : undefined,
-        name: abilityName,
-        description: abilityDescription,
-        type: row.type ? row.type.trim().toLowerCase() : 'core',
-        parameter: paramData.join(' | ')
-      });
-    });
-  } else {
-    // If no parameters, just process the row normally
-    abilities.push({
-      datasheet_id: row.datasheet_id ? row.datasheet_id.trim() : undefined,
-      line: row.line ? row.line.trim() : undefined,
-      ability_id: row.ability_id ? row.ability_id.trim() : undefined,
-      name: row.name || 'Unknown',
-      description: cleanedDescription || 'No description available',
-      type: row.type ? row.type.trim().toLowerCase() : 'core',
-      parameter: undefined
-    });
-  }
-
-  return abilities;
-}
-
-
-// Function to parse all abilities and categorize them by type
-async function parseUnitAbilities() {
+function parseUnitAbilities() {
   return new Promise((resolve, reject) => {
-    // Initialize an object to store all abilities by type
-    const abilitiesByType = {
-      core: [],
-      faction: [],
-      datasheet: [],
-      wargear: [],
-      special: []
-    };
+    let buffer = "";
 
-    fs.createReadStream(abilitiesFilePath)
-      .pipe(csv({
-        separator: '|',
-        headers: ['datasheet_id', 'line', 'ability_id', 'model', 'name', 'description', 'type', 'parameter']
-      }))
-      .on('data', (row) => {
-        // Ensure datasheet_id exists and corresponds to a valid unit in unitDataMap
-        const datasheetId = row.datasheet_id?.trim();
-        if (!datasheetId || !unitDataMap[datasheetId]) {
-          console.warn(`⚠️ Skipping ability with unknown datasheet_id:`, row);
-          return;
-        }
+    // Path to the Abilities.csv file (the one with ability names and descriptions)
+    const abilitiesCsvPath = path.join(__dirname, 'warhammer-csvs', 'Abilities.csv'); // Ensure the path is correct
+    const abilitiesMap = {};  // Map to hold abilities by their ID for fast lookup
 
-        // Parse the ability data
-        const ability = parseAbilityData(row);
+    // First, read the abilities CSV to populate abilitiesMap
+    fs.createReadStream(abilitiesCsvPath, { encoding: "utf8" })
+      .on("data", (chunk) => {
+        buffer += chunk;
+      })
+      .on("end", () => {
+        const rows = buffer.split("\r\n").filter((row) => row.trim() !== "");
 
-        // Assign the ability to the correct category based on its type
-        let abilityType = row.type ? row.type.trim().toLowerCase() : 'datasheet';
+        // Parse the abilities CSV and store abilities in abilitiesMap
+        rows.forEach((line) => {
+          const fields = line.split("|").map((f) => f.trim());
 
-        // Validate the ability type, and skip it if it's unknown
-        if (!['core', 'faction', 'datasheet', 'wargear', 'special'].includes(abilityType)) {
-          console.warn(`⚠️ Skipping unknown ability type:`, row);
-          return;
-        }
-
-        // Store the ability in the global abilitiesByType object
-        abilitiesByType[abilityType].push(ability);
-
-        // Find the unit corresponding to the datasheetId
-        const unit = factionDataMap[unitDataMap[datasheetId].factionId]?.units.find(u => u.id === datasheetId);
-        if (unit) {
-          // Ensure the abilities object exists for the unit
-          if (!unit.abilities) {
-            unit.abilities = { core: [], faction: [], datasheet: [], wargear: [], special: [] };
+          if (fields.length < 5) {
+            console.log("⚠️ Skipping malformed ability row:", line);
+            return;
           }
 
-          // Push the ability to the corresponding type array for the unit
-          unit.abilities[abilityType].push(ability);
-        } else {
-          console.warn(`⚠️ Could not find unit with datasheetId ${datasheetId}`);
-        }
+          const [abilityId, abilityName, abilityLegend, factionId, abilityDescription] = fields;
+
+          // Add ability to map by ability_id
+          abilitiesMap[abilityId] = {
+            name: abilityName,
+            description: abilityDescription,  // This is the actual rule (not a general description)
+          };
+        });
+
+        // Now parse the unit abilities file (the one you already have in parseUnitAbilities)
+        let unitBuffer = "";
+        fs.createReadStream(abilitiesFilePath, { encoding: "utf8" })
+          .on("data", (chunk) => {
+            unitBuffer += chunk;
+          })
+          .on("end", () => {
+            const unitRows = unitBuffer.split("\r\n").filter((row) => row.trim() !== "");
+
+            unitRows.forEach((line) => {
+              const fields = line.split("|").map((f) => f.trim());
+
+              if (fields.length < 7) {
+                console.log(`⚠️ Skipping malformed ability row:`, line);
+                return;
+              }
+
+              const datasheetId = fields[0];
+              if (!datasheetId) return;
+
+              const baseUnit = unitDataMap[datasheetId];
+              if (!baseUnit) {
+                console.log(`⚠️ Skipping ability with unknown datasheetId: ${datasheetId}`);
+                return;
+              }
+
+              const factionId = baseUnit.factionId;
+              if (!factionId || !factionDataMap[factionId]) {
+                console.log(`⚠️ Skipping ability due to unknown faction:`, line);
+                return;
+              }
+
+              let abilityType = fields[6].toLowerCase().trim();
+
+              // Normalize Russian ability types
+              if (abilityType.includes("special")) {
+                abilityType = "special";
+              } else if (abilityType.includes("fortification")) {
+                abilityType = "fortification";
+              }
+
+              // Ensure proper handling of wargear profile
+              if (abilityType === "wargear profile") {
+                abilityType = "wargear";
+              }
+
+              // Add new ability type: primarch
+              if (abilityType === "primarch") {
+                abilityType = "primarch";
+              }
+
+              // Only allow known ability types
+              const validAbilityTypes = ["core", "faction", "datasheet", "wargear", "special", "fortification", "primarch"];
+              if (!validAbilityTypes.includes(abilityType)) {
+                console.log(`⚠️ Skipping unknown ability type: ${abilityType}`);
+                return;
+              }
+
+              const ability = {
+                datasheet_id: datasheetId,
+                line: fields[1],
+                ability_id: fields[2],
+                name: fields[4] || "Unknown",
+                description: fields[5] ? cleanText(fields[5]) : "No description available",
+                type: abilityType,
+                parameter: fields[7] || "",
+              };
+
+              // Fetch the actual rule (description) for core and faction abilities
+              if (abilityType === "core" || abilityType === "faction") {
+                const abilityDetails = abilitiesMap[ability.ability_id];
+                if (abilityDetails) {
+                  // Set the actual rule description
+                  ability.name = abilityDetails.name;
+                  ability.description = cleanText(abilityDetails.description); // Clean HTML from the description
+                  ability.description = removeAbilityName(ability.name, ability.description); // Remove name from description
+                } else {
+                  console.log(`⚠️ No matching ability found for ability ID: ${ability.ability_id}`);
+                }
+              }
+
+              // Find or create the unit in the faction
+              let unit = factionDataMap[factionId].units.find((u) => u.id === datasheetId);
+              if (!unit) {
+                console.log(`❌ Unit with datasheetId ${datasheetId} not found in faction ${factionId}, creating new unit...`);
+                unit = {
+                  id: datasheetId,
+                  name: baseUnit.name,
+                  unit_img: "N/a",
+                  faction_id: factionId,
+                  loadout: baseUnit.loadout,
+                  abilities: { core: [], faction: [], datasheet: [], wargear: [], special: [], fortification: [], primarch: [] }
+                };
+                factionDataMap[factionId].units.push(unit);
+              }
+
+              // Ensure abilities object exists before pushing
+              if (!unit.abilities) {
+                unit.abilities = { core: [], faction: [], datasheet: [], wargear: [], special: [], fortification: [], primarch: [] };
+              }
+
+              // ✅ Check if ability already exists to avoid duplicates
+              const isDuplicate = unit.abilities[abilityType].some(
+                (existingAbility) =>
+                  existingAbility.name === ability.name &&
+                  existingAbility.description === ability.description &&
+                  existingAbility.line === ability.line
+              );
+
+              if (isDuplicate) {
+                return;
+              }
+
+              // ✅ Add the ability if it is not a duplicate
+              unit.abilities[abilityType].push(ability);
+            });
+
+            console.log(`✅ All abilities successfully parsed (duplicates avoided).`);
+            resolve();
+          })
+          .on("error", (err) => {
+            console.error("❌ Error reading unit abilities CSV:", err);
+            reject(err);
+          });
       })
-      .on('end', () => {
-        console.log('✅ All abilities successfully parsed and categorized by type.');
-        resolve(abilitiesByType); // Resolve with the entire object containing all categorized abilities
-      })
-      .on('error', (err) => {
+      .on("error", (err) => {
+        console.error("❌ Error reading abilities CSV:", err);
         reject(err);
       });
   });
 }
 
+
+
+
+
+// Running the functions in sequence
+parseUnitAbilities()
+  .then(() => {
+    console.log("✅ All abilities parsed and enriched successfully!");
+  })
+  .catch((err) => {
+    console.error("❌ Error during abilities processing:", err);
+  });
 
 
 

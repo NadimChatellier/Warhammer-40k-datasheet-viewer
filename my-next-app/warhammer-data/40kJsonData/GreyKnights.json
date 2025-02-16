@@ -68,7 +68,74 @@
           "AP": "-4",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000373",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000373",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000373",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000373",
+            "line": "4",
+            "ability_id": "",
+            "name": "Untouchable Purity",
+            "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000373",
+            "line": "5",
+            "ability_id": "",
+            "name": "One With the Warp (Psychic)",
+            "description": "Once per battle, when this model’s unit declares a charge in the same turn it was set up on the battlefield using the Deep Strike or Teleport Assault ability, add 3 to the Charge roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [
+          {
+            "datasheet_id": "000000373",
+            "line": "6",
+            "ability_id": "",
+            "name": "SUPREME COMMANDER",
+            "description": "If this model is in your army, it must be your Warlord.",
+            "type": "special",
+            "parameter": ""
+          }
+        ],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000374",
@@ -120,7 +187,64 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000374",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000374",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000374",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000374",
+            "line": "4",
+            "ability_id": "",
+            "name": "Sanctuary (Psychic)",
+            "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000374",
+            "line": "5",
+            "ability_id": "",
+            "name": "Hammer Aflame (Psychic)",
+            "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 2 to the result if that unit has the Daemon keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers D3+3 mortal wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000375",
@@ -213,7 +337,64 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000375",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000375",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000375",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000375",
+            "line": "4",
+            "ability_id": "",
+            "name": "Master Strategist",
+            "description": "Once per battle, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000375",
+            "line": "5",
+            "ability_id": "",
+            "name": "Might of Purity (Psychic)",
+            "description": "While this model is leading a unit, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws).",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000376",
@@ -306,7 +487,64 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000376",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000376",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000376",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000376",
+            "line": "4",
+            "ability_id": "",
+            "name": "Empyric Amplification (Psychic)",
+            "description": "While this model is leading a unit, Psychic weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000376",
+            "line": "5",
+            "ability_id": "",
+            "name": "Focused Mind (Psychic)",
+            "description": "Each time this model makes an attack with a Psychic weapon, you can re-roll the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000377",
@@ -358,7 +596,64 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000377",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000377",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000377",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000377",
+            "line": "4",
+            "ability_id": "",
+            "name": "Exemplar of the Silvered Host",
+            "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound, the target suffers 1 mortal wound in addition to any normal damage.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000377",
+            "line": "5",
+            "ability_id": "",
+            "name": "Strands of Fate (Psychic)",
+            "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000379",
@@ -411,7 +706,73 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000379",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000379",
+            "line": "2",
+            "ability_id": "000008340",
+            "name": "Fights First",
+            "description": "Some warriors attack with blinding speed, landing their blows before their foes can react.Units with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000379",
+            "line": "3",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000379",
+            "line": "4",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000379",
+            "line": "5",
+            "ability_id": "",
+            "name": "Martial Fury",
+            "description": "Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000379",
+            "line": "6",
+            "ability_id": "",
+            "name": "Ethereal Castigation (Psychic)",
+            "description": "While this model is leading a unit, models in that unit have the Fights First ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000380",
@@ -479,7 +840,64 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000380",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000380",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000380",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000380",
+            "line": "4",
+            "ability_id": "",
+            "name": "Champion of the Order of Purifiers (Psychic)",
+            "description": "While this model is leading a unit, add 1 to the Attacks characteristic of that unit’s Purifying Flame.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000380",
+            "line": "5",
+            "ability_id": "",
+            "name": "Foresight of the Prognosticars (Psychic)",
+            "description": "Once per turn, the first time a saving throw is failed for this model, change the Damage characteristic of that attack to 0.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000381",
@@ -585,32 +1003,52 @@
         }
       ],
       "abilities": {
-        "core": [],
+        "core": [
+          {
+            "datasheet_id": "000000381",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000381",
+            "line": "2",
+            "ability_id": "000008344",
+            "name": "Scouts",
+            "description": "Scouts form the vanguard of many armies. Unnoticed by the enemy, they range ahead of the main force.Some units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".DEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).A unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.Example: A unit has the Scouts 6\" ability. At the start of the first battle round, the controlling player can make a Normal move with that unit of up to 6\".Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins.If embarked in a DEDICATED TRANSPORT, that DEDICATED TRANSPORT can make this move instead.Must end this move more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": "6\""
+          }
+        ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000381",
-              "line": "3",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000381",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000381",
-              "line": "4",
-              "name": "Sanctifying Ritual (Psychic)",
-              "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000381",
+            "line": "4",
+            "ability_id": "",
+            "name": "Sanctifying Ritual (Psychic)",
+            "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -707,61 +1145,61 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000382",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000382",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000382",
-              "line": "2",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000382",
+            "line": "2",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000382",
-              "line": "3",
-              "name": "Hammerhand (Psychic)",
-              "description": "Each time a model in this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000382",
-              "line": "5",
-              "name": "Narthecium",
-              "description": "In your Command phase, you can return 1 destroyed model (excluding CHARACTERS) to the bearer’s unit.|Wargear||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000382",
+            "line": "3",
+            "ability_id": "",
+            "name": "Hammerhand (Psychic)",
+            "description": "Each time a model in this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [
-          [
-            {
-              "datasheet_id": "000000382",
-              "line": "4",
-              "name": "Ancient’s Banner",
-              "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
-              "type": "wargear"
-            }
-          ]
+          {
+            "datasheet_id": "000000382",
+            "line": "4",
+            "ability_id": "",
+            "name": "Ancient’s Banner",
+            "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+            "type": "wargear",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000382",
+            "line": "5",
+            "ability_id": "",
+            "name": "Narthecium",
+            "description": "In your Command phase, you can return 1 destroyed model (excluding CHARACTERS) to the bearer’s unit.",
+            "type": "wargear",
+            "parameter": ""
+          }
         ],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -884,42 +1322,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000383",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000383",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000383",
-              "line": "2",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000383",
+            "line": "2",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000383",
-              "line": "3",
-              "name": "Sanctity of Purpose",
-              "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000383",
+            "line": "3",
+            "ability_id": "",
+            "name": "Sanctity of Purpose",
+            "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1016,52 +1454,52 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000384",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000384",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000384",
-              "line": "2",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000384",
+            "line": "2",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000384",
-              "line": "3",
-              "name": "Inner Fortitude (Psychic)",
-              "description": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000384",
+            "line": "3",
+            "ability_id": "",
+            "name": "Inner Fortitude (Psychic)",
+            "description": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [
-          [
-            {
-              "datasheet_id": "000000384",
-              "line": "4",
-              "name": "Ancient’s Banner",
-              "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
-              "type": "wargear"
-            }
-          ]
+          {
+            "datasheet_id": "000000384",
+            "line": "4",
+            "ability_id": "",
+            "name": "Ancient’s Banner",
+            "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+            "type": "wargear",
+            "parameter": ""
+          }
         ],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1169,42 +1607,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000387",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000387",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000387",
-              "line": "2",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000387",
+            "line": "2",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000387",
-              "line": "3",
-              "name": "Personal Teleporters",
-              "description": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" as if it were your Movement phase. If it does, until the end of the turn, this unit is not eligible to declare a charge.|Datasheet||\n000000388|1|000008343||||Core||\n000000388|2|000008453||||Faction||\n000000388|3|||Astral Aim (Psychic)|In your Shooting phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability, provided the target of that weapon is visible to one or more other friendly GREY KNIGHTS PSYKER units.|Datasheet||\n000000389|1|000008339||||Core|D3|\n000000389|2|000008343||||Core||\n000000389|3|000008453||||Faction||\n000000389|4|||Empyric Reprisal (Psychic)|This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.|Datasheet||\n000000390|1|000008339||||Core|1|\n000000390|2|||Wisdom of the Ancients (Aura)|While a friendly GREY KNIGHTS INFANTRY unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000387",
+            "line": "3",
+            "ability_id": "",
+            "name": "Personal Teleporters",
+            "description": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" as if it were your Movement phase. If it does, until the end of the turn, this unit is not eligible to declare a charge.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1309,7 +1747,46 @@
           "AP": "-2",
           "D": "2"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000388",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000388",
+            "line": "2",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000388",
+            "line": "3",
+            "ability_id": "",
+            "name": "Astral Aim (Psychic)",
+            "description": "In your Shooting phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability, provided the target of that weapon is visible to one or more other friendly GREY KNIGHTS PSYKER units.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000389",
@@ -1427,7 +1904,55 @@
           "AP": "-2",
           "D": "D6"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000389",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          },
+          {
+            "datasheet_id": "000000389",
+            "line": "2",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000000389",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000000389",
+            "line": "4",
+            "ability_id": "",
+            "name": "Empyric Reprisal (Psychic)",
+            "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000390",
@@ -1632,7 +2157,36 @@
           "AP": "-3",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000390",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "1"
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000000390",
+            "line": "2",
+            "ability_id": "",
+            "name": "Wisdom of the Ancients (Aura)",
+            "description": "While a friendly GREY KNIGHTS INFANTRY unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000000391",
@@ -1736,32 +2290,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000391",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ]
+          {
+            "datasheet_id": "000000391",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
         ],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000391",
-              "line": "2",
-              "name": "Assault Ramp",
-              "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000391",
+            "line": "2",
+            "ability_id": "",
+            "name": "Assault Ramp",
+            "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000000391",
+            "line": "3",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -1869,32 +2433,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000392",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ]
+          {
+            "datasheet_id": "000000392",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
         ],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000392",
-              "line": "2",
-              "name": "Assault Ramp",
-              "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000392",
+            "line": "2",
+            "ability_id": "",
+            "name": "Assault Ramp",
+            "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000000392",
+            "line": "3",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2002,32 +2576,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000393",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ]
+          {
+            "datasheet_id": "000000393",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
         ],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000393",
-              "line": "2",
-              "name": "Assault Ramp",
-              "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000393",
+            "line": "2",
+            "ability_id": "",
+            "name": "Assault Ramp",
+            "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000000393",
+            "line": "3",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2135,32 +2719,42 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000395",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ]
+          {
+            "datasheet_id": "000000395",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
         ],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000395",
-              "line": "2",
-              "name": "Fire Support",
-              "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000395",
+            "line": "2",
+            "ability_id": "",
+            "name": "Fire Support",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000000395",
+            "line": "3",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2227,43 +2821,51 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000396",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000396",
-              "line": "2",
-              "ability_id": "000008334",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "2"
-            }
-          ]
+          {
+            "datasheet_id": "000000396",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          },
+          {
+            "datasheet_id": "000000396",
+            "line": "2",
+            "ability_id": "000008334",
+            "name": "Firing Deck",
+            "description": "Some transports have firing hatches, ports or platforms from which embarked passengers can shoot.Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.Firing Deck ‘x’: Each time this TRANSPORT shoots, select one weapon (excluding weapons with the [ONE SHOT] ability) from up to ‘x’ models embarked within it whose units have not shot this phase; this TRANSPORT counts as being equipped with those weapons as well. Until the end of the phase, those selected models’ units are not eligible to shoot.",
+            "type": "core",
+            "parameter": "2"
+          }
         ],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000396",
-              "line": "3",
-              "name": "Self Repair",
-              "description": "At the start of your Command phase, this model regains 1 lost wound.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000396",
+            "line": "3",
+            "ability_id": "",
+            "name": "Self Repair",
+            "description": "At the start of your Command phase, this model regains 1 lost wound.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
-        "wargear": [],
-        "special": []
+        "wargear": [
+          {
+            "datasheet_id": "000000396",
+            "line": "4",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2374,36 +2976,39 @@
         "core": [],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000397",
-              "line": "1",
-              "name": "Mindlock",
-              "description": "While a BROTHERHOOD TECHMARINE model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000397",
-              "line": "2",
-              "name": "Retinue",
-              "description": "While a BROTHERHOOD TECHMARINE model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000397",
-              "line": "3",
-              "name": "SERVITOR RETINUE",
-              "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a BROTHERHOOD TECHMARINE (a unit cannot have more than one SERVITORS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.|Special (правая колонка)||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000397",
+            "line": "1",
+            "ability_id": "",
+            "name": "Mindlock",
+            "description": "While a BROTHERHOOD TECHMARINE model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000397",
+            "line": "2",
+            "ability_id": "",
+            "name": "Retinue",
+            "description": "While a BROTHERHOOD TECHMARINE model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [
+          {
+            "datasheet_id": "000000397",
+            "line": "3",
+            "ability_id": "",
+            "name": "SERVITOR RETINUE",
+            "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a BROTHERHOOD TECHMARINE (a unit cannot have more than one SERVITORS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.",
+            "type": "special",
+            "parameter": ""
+          }
+        ],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2577,42 +3182,41 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000398",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D6"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000398",
-              "line": "2",
-              "ability_id": "000008342",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000398",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          },
+          {
+            "datasheet_id": "000000398",
+            "line": "2",
+            "ability_id": "000008342",
+            "name": "Hover",
+            "description": "Some aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.Some AIRCRAFT models have ‘Hover’ listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.If a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the AIRCRAFT keyword and it loses all associated rules for being an AIRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000398",
-              "line": "3",
-              "name": "Armoured Resilience",
-              "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
-              "type": "datasheet"
-            }
-          ]
+          {
+            "datasheet_id": "000000398",
+            "line": "3",
+            "ability_id": "",
+            "name": "Armoured Resilience",
+            "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2731,61 +3335,69 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000000399",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000399",
-              "line": "2",
-              "ability_id": "000008346",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000399",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000399",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000000399",
-              "line": "3",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000000399",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000000399",
-              "line": "4",
-              "name": "Awaken the Machine Spirit",
-              "description": "In your Command phase, you can select one friendly GREY KNIGHTS VEHICLE model within 6\" of this model. Until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll.|Datasheet||\n000000399|5|||Omnissiah’s Blessing|In your Command phase, you can select one friendly GREY KNIGHTS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000000399",
-              "line": "6",
-              "name": "Techmarine",
-              "description": "While this model is within 3\" of one or more friendly GREY KNIGHTS VEHICLE units, unless it is leading a unit, this model has the Lone Operative ability.|Datasheet||\n000000400|1|000008339||||Core|1|\n000000400|2|||Wisdom of the Ancients (Aura)|While a friendly GREY KNIGHTS INFANTRY unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000000399",
+            "line": "4",
+            "ability_id": "",
+            "name": "Awaken the Machine Spirit",
+            "description": "In your Command phase, you can select one friendly GREY KNIGHTS VEHICLE model within 6\" of this model. Until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000399",
+            "line": "5",
+            "ability_id": "",
+            "name": "Omnissiah’s Blessing",
+            "description": "In your Command phase, you can select one friendly GREY KNIGHTS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000000399",
+            "line": "6",
+            "ability_id": "",
+            "name": "Techmarine",
+            "description": "While this model is within 3\" of one or more friendly GREY KNIGHTS VEHICLE units, unless it is leading a unit, this model has the Lone Operative ability.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -2951,7 +3563,36 @@
           "AP": "-2",
           "D": "3"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000000400",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "1"
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000000400",
+            "line": "2",
+            "ability_id": "",
+            "name": "Wisdom of the Ancients (Aura)",
+            "description": "While a friendly GREY KNIGHTS INFANTRY unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001196",
@@ -3056,7 +3697,46 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001196",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6"
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000001196",
+            "line": "2",
+            "ability_id": "",
+            "name": "Assault Ramp",
+            "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000001196",
+            "line": "3",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001197",
@@ -3157,7 +3837,55 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001197",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D6+2"
+          },
+          {
+            "datasheet_id": "000001197",
+            "line": "2",
+            "ability_id": "000008342",
+            "name": "Hover",
+            "description": "Some aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.Some AIRCRAFT models have ‘Hover’ listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.If a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the AIRCRAFT keyword and it loses all associated rules for being an AIRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000001197",
+            "line": "4",
+            "ability_id": "",
+            "name": "Aerial Assault",
+            "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000001197",
+            "line": "3",
+            "ability_id": "",
+            "name": "Thunderhawk Cluster Bombs",
+            "description": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001360",
@@ -3278,62 +4006,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001360",
-              "line": "1",
-              "ability_id": "000008339",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core",
-              "parameter": "D3"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001360",
-              "line": "2",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001360",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          },
+          {
+            "datasheet_id": "000001360",
+            "line": "2",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001360",
-              "line": "3",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001360",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001360",
-              "line": "4",
-              "name": "Heroism’s Favour",
-              "description": "Each time you target this model with a Stratagem, it only costs 1CP to use, even if the CP cost is higher.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001360",
-              "line": "5",
-              "name": "Surge of Wrath (Psychic)",
-              "description": "Once per battle round, in the Fight phase, one model from your army with this ability can use it before resolving its attacks. If it does, until the end of the phase, each time that model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001360",
+            "line": "4",
+            "ability_id": "",
+            "name": "Heroism’s Favour",
+            "description": "Each time you target this model with a Stratagem, it only costs 1CP to use, even if the CP cost is higher.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001360",
+            "line": "5",
+            "ability_id": "",
+            "name": "Surge of Wrath (Psychic)",
+            "description": "Once per battle round, in the Fight phase, one model from your army with this ability can use it before resolving its attacks. If it does, until the end of the phase, each time that model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3432,61 +4158,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001361",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001361",
-              "line": "2",
-              "ability_id": "000008346",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001361",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001361",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001361",
-              "line": "3",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001361",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001361",
-              "line": "4",
-              "name": "Sanctic Hood",
-              "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001361",
-              "line": "5",
-              "name": "Vortex of Doom (Psychic)",
-              "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER(excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this PSYKER). If you do, roll one D6: on a 1, this PSYKER’s unit suffers D6 mortal wounds; on a 2-5, that enemy unit suffers 2D3 mortal wounds; on a 6, that enemy unit suffers 2D6 mortal wounds.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001361",
+            "line": "4",
+            "ability_id": "",
+            "name": "Sanctic Hood",
+            "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001361",
+            "line": "5",
+            "ability_id": "",
+            "name": "Vortex of Doom (Psychic)",
+            "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER(excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this PSYKER). If you do, roll one D6: on a 1, this PSYKER’s unit suffers D6 mortal wounds; on a 2-5, that enemy unit suffers 2D3 mortal wounds; on a 6, that enemy unit suffers 2D6 mortal wounds.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3540,61 +4265,60 @@
       ],
       "abilities": {
         "core": [
-          [
-            {
-              "datasheet_id": "000001362",
-              "line": "1",
-              "ability_id": "000008343",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001362",
-              "line": "2",
-              "ability_id": "000008346",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001362",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001362",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
         ],
         "faction": [
-          [
-            {
-              "datasheet_id": "000001362",
-              "line": "3",
-              "ability_id": "000008453",
-              "name": "Unknown",
-              "description": "No description available",
-              "type": "faction"
-            }
-          ]
+          {
+            "datasheet_id": "000001362",
+            "line": "3",
+            "ability_id": "000008453",
+            "name": "Teleport Assault",
+            "description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:COMBAT PATROLUP TO 1 UNITINCURSIONUP TO 2 UNITSSTRIKE FORCEUP TO 3 UNITSONSLAUGHTUP TO 4 UNITSOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "type": "faction",
+            "parameter": ""
+          }
         ],
         "datasheet": [
-          [
-            {
-              "datasheet_id": "000001362",
-              "line": "4",
-              "name": "Words of Power (Psychic)",
-              "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll.|Datasheet||",
-              "type": "core"
-            }
-          ],
-          [
-            {
-              "datasheet_id": "000001362",
-              "line": "5",
-              "name": "Dread Bearing (Aura)",
-              "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test.|Datasheet||\n000001363|1|000008339||||Core|D3|\n000001363|2|000008342||||Core||\n000001363|3|||Interceptor|Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.|Datasheet||\n000001364|1|000008339||||Core|D3|\n000001364|2|000008342||||Core||\n000001364|3|||Strafing Run|Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.|Datasheet||\n000001367|1|000008346||||Core||\n000001367|2|000008396||||Faction||\n000001367|3|||Putrefying Stink|While this model is leading a unit, models in that unit have the Fights First ability.|Datasheet||\n000001368|1|000008339||||Core|1|\n000001368|2|000008346||||Core||\n000001368|3|000008396||||Faction||\n000001368|4|||Foul Infusion|While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.|Datasheet||\n000001368|5|||Explosive Maladies|Once per battle round, you can target one unit from your army with this ability with the Grenade Stratagem for 0CP.|Datasheet||\n000001369|1|000008346||||Core||\n000001369|2|000008396||||Faction||\n000001369|3|||Tainted Narthecium|While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.|Datasheet||\n000001369|4|||Diseased Healing|At the end of your Movement phase, you can select one friendly DEATH GUARD INFANTRY CHARACTER model within 3\" of this model. That model regains up to 3 lost wounds. Each model can only be selected for this ability once per turn.|Datasheet||",
-              "type": "core"
-            }
-          ]
+          {
+            "datasheet_id": "000001362",
+            "line": "4",
+            "ability_id": "",
+            "name": "Words of Power (Psychic)",
+            "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000001362",
+            "line": "5",
+            "ability_id": "",
+            "name": "Dread Bearing (Aura)",
+            "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test.",
+            "type": "datasheet",
+            "parameter": ""
+          }
         ],
         "wargear": [],
-        "special": []
+        "special": [],
+        "fortification": [],
+        "primarch": []
       }
     },
     {
@@ -3721,7 +4445,45 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001363",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          },
+          {
+            "datasheet_id": "000001363",
+            "line": "2",
+            "ability_id": "000008342",
+            "name": "Hover",
+            "description": "Some aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.Some AIRCRAFT models have ‘Hover’ listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.If a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the AIRCRAFT keyword and it loses all associated rules for being an AIRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000001363",
+            "line": "3",
+            "ability_id": "",
+            "name": "Interceptor",
+            "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000001364",
@@ -3836,7 +4598,45 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000001364",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          },
+          {
+            "datasheet_id": "000001364",
+            "line": "2",
+            "ability_id": "000008342",
+            "name": "Hover",
+            "description": "Some aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.Some AIRCRAFT models have ‘Hover’ listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.If a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the AIRCRAFT keyword and it loses all associated rules for being an AIRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000001364",
+            "line": "3",
+            "ability_id": "",
+            "name": "Strafing Run",
+            "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     },
     {
       "id": "000002768",
@@ -3967,7 +4767,46 @@
           "AP": "0",
           "D": "1"
         }
-      ]
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000002768",
+            "line": "1",
+            "ability_id": "000008339",
+            "name": "Deadly Demise",
+            "description": "From detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.Some models have ‘Deadly Demise x’ listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within 6\").Example: A TRANSPORT model with the Deadly Demise D3 ability is destroyed. Before any models disembark and before removing it from play, its controlling player rolls one D6, getting a 6. There are three units within 6\" of that destroyed model, so its controlling player rolls one D3 for each of them, inflicting mortal wounds accordingly.Deadly Demise x: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers ‘x’ mortal wounds.",
+            "type": "core",
+            "parameter": "D3"
+          }
+        ],
+        "faction": [],
+        "datasheet": [
+          {
+            "datasheet_id": "000002768",
+            "line": "2",
+            "ability_id": "",
+            "name": "Fire Support",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [
+          {
+            "datasheet_id": "000002768",
+            "line": "3",
+            "ability_id": "",
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle.",
+            "type": "wargear",
+            "parameter": ""
+          }
+        ],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      }
     }
   ]
 }
