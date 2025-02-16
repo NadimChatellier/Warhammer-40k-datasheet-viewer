@@ -68,7 +68,7 @@ export default function Home() {
 {isOpen && selectedUnit && (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-1000" onClick={closeModal}>
     <div
-      className="p-6 rounded-lg w-full md:w-[70%] xl:w-[60%] cursor-auto overflow-hidden flex flex-col relative max-h-[90vh] sm:max-h-[95vh]"
+      className="p-6 rounded-lg w-full h-[80%] md:w-[70%] xl:w-[60%] cursor-auto overflow-hidden flex flex-col relative max-h-[90vh] sm:max-h-[95vh]"
       onClick={(e) => e.stopPropagation()}
       style={{
         backgroundImage: "url('http://wallpapercave.com/wp/6weLGjt.jpg')",
