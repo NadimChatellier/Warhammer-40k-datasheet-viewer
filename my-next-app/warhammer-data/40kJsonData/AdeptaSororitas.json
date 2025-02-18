@@ -6,7 +6,7 @@
       "id": "000000894",
       "name": "Crusaders",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://i5.walmartimages.com/asr/0fb3da8a-ca4b-4c50-866c-06a793aedef5.a4670aca0b75448a45c5e66773e4f121.jpeg",
       "loadout": "Every model is equipped with: power weapon.",
       "profiles": [
         {
@@ -75,13 +75,32 @@
           }
         ],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "2-4 Crusaders",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "2 models",
+          "cost": 40
+        },
+        {
+          "line": "2",
+          "description": "4 models",
+          "cost": 80
+        }
+      ]
     },
     {
       "id": "000000895",
       "name": "Death Cult Assassins",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "http://wh40k.lexicanum.com/mediawiki/images/thumb/d/dc/DeathCultNew.jpg/220px-DeathCultNew.jpg",
       "loadout": "Every model is equipped with: Death Cult power blades.",
       "profiles": [
         {
@@ -170,13 +189,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "2-4 Death Cult Assassins",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "2 models",
+          "cost": 55
+        },
+        {
+          "line": "2",
+          "description": "4 models",
+          "cost": 110
+        }
+      ]
     },
     {
       "id": "000000896",
       "name": "Arco-flagellants",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108032_ArcoFlagellants01.jpg",
       "loadout": "Every model is equipped with: arco-flails.",
       "profiles": [
         {
@@ -247,13 +285,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "3-10 Arco-flagellants",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "3 models",
+          "cost": 45
+        },
+        {
+          "line": "2",
+          "description": "10 models",
+          "cost": 150
+        }
+      ]
     },
     {
       "id": "000000897",
       "name": "Penitent Engines",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108035_PenitentEngines01.jpg",
       "loadout": "Every model is equipped with: penitent flamers; twin penitent buzz-blades.",
       "profiles": [
         {
@@ -391,13 +448,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1-2 Penitent Engines",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 75
+        },
+        {
+          "line": "2",
+          "description": "2 models",
+          "cost": 150
+        }
+      ]
     },
     {
       "id": "000000898",
       "name": "Saint Celestine",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108008_TriumvirateoftheImperium06.jpg",
       "loadout": "Saint Celestine is equipped with: the Ardent Blade. Each Geminae Superia is equipped with: bolt pistol; power weapon.",
       "profiles": [
         {
@@ -547,13 +623,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Celestine – EPIC HERO|",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "2 Geminae Superia",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "3 models",
+          "cost": 160
+        }
+      ]
     },
     {
       "id": "000000899",
       "name": "Canoness",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108034_SoBCanonessLead.jpg",
       "loadout": "This model is equipped with: bolt pistol; hallowed chainsword.",
       "profiles": [
         {
@@ -769,13 +864,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Canoness",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 50
+        }
+      ]
     },
     {
       "id": "000000900",
       "name": "Imagifier",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108006_SoBImagifierLead.jpg",
       "loadout": "This model is equipped with: bolt pistol; boltgun; close combat weapon.",
       "profiles": [
         {
@@ -880,13 +989,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Imagifier",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 65
+        }
+      ]
     },
     {
       "id": "000000901",
       "name": "Hospitaller",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108024_Hospitaller01.jpg",
       "loadout": "This model is equipped with: bolt pistol; chirurgeon’s tools.",
       "profiles": [
         {
@@ -978,13 +1101,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Hospitaller",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 50
+        }
+      ]
     },
     {
       "id": "000000902",
       "name": "Dialogus",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108022_SoBDialogusLead.jpg",
       "loadout": "This model is equipped with: bolt pistol; Dialogus staff.",
       "profiles": [
         {
@@ -1076,13 +1213,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Dialogus",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 40
+        }
+      ]
     },
     {
       "id": "000000903",
       "name": "Battle Sisters Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108033_SoBSquad01.jpg",
       "loadout": "Every model is equipped with: bolt pistol; boltgun; close combat weapon.",
       "profiles": [
         {
@@ -1378,13 +1529,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Sister Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "9 Battle Sisters",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "10 models",
+          "cost": 105
+        }
+      ]
     },
     {
       "id": "000000904",
       "name": "Seraphim Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108040_SeraphimZephyrimLead.jpg",
       "loadout": "Every model is equipped with: 2 bolt pistols; close combat weapon.",
       "profiles": [
         {
@@ -1545,13 +1715,37 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Seraphim Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "4-9 Seraphim",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "5 models",
+          "cost": 90
+        },
+        {
+          "line": "2",
+          "description": "10 models",
+          "cost": 190
+        }
+      ]
     },
     {
       "id": "000000907",
       "name": "Repentia Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108036_SoBRepSquadLead.jpg",
       "loadout": "The Repentia Superior is equipped with: bolt pistol; neural whips. Each Sister Repentia is equipped with: penitent eviscerator.",
       "profiles": [
         {
@@ -1662,13 +1856,37 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Repentia Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "4-9 Sisters Repentia",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "5 models",
+          "cost": 90
+        },
+        {
+          "line": "2",
+          "description": "10 models",
+          "cost": 180
+        }
+      ]
     },
     {
       "id": "000000908",
       "name": "Retributor Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108038_SoBRetributorSquad01.jpg",
       "loadout": "The Retributor Superior is equipped with: bolt pistol; boltgun; close combat weapon. Each Retributor is equipped with: bolt pistol; heavy bolter; close combat weapon.",
       "profiles": [
         {
@@ -1914,13 +2132,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Retributor Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "4 Retributors",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "5 models",
+          "cost": 125
+        }
+      ]
     },
     {
       "id": "000000909",
       "name": "Dominion Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108033_SoBDominions1.jpg",
       "loadout": "Every model is equipped with: bolt pistol; boltgun; close combat weapon.",
       "profiles": [
         {
@@ -2198,13 +2435,32 @@
         ],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Dominion Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "9 Dominions",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "10 models",
+          "cost": 125
+        }
+      ]
     },
     {
       "id": "000000910",
       "name": "Sororitas Rhino",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108039_RhinoLead.jpg",
       "loadout": "This model is equipped with: storm bolter; armoured tracks.",
       "profiles": [
         {
@@ -2319,13 +2575,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Sororitas Rhino",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 75
+        }
+      ]
     },
     {
       "id": "000000911",
       "name": "Immolator",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108025_SoBImmolatorLead.jpg",
       "loadout": "This model is equipped with: heavy bolter; immolation flamers; armoured tracks.",
       "profiles": [
         {
@@ -2473,13 +2743,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Immolator",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 125
+        }
+      ]
     },
     {
       "id": "000000912",
       "name": "Exorcist",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108023_SoBExorcist01.jpg",
       "loadout": "This model is equipped with: Exorcist missile launcher; heavy bolter; armoured tracks.",
       "profiles": [
         {
@@ -2613,13 +2897,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Exorcist",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 210
+        }
+      ]
     },
     {
       "id": "000001199",
       "name": "Repressor",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/fd/Repressor.jpg/300px-Repressor.jpg",
       "loadout": "This model is equipped with: Repressor twin heavy flamer; storm bolter; dozer ram.",
       "profiles": [
         {
@@ -2763,13 +3061,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Repressor",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 130
+        }
+      ]
     },
     {
       "id": "000001553",
       "name": "Ministorum Priest",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108012_ASMinistorumPriestWithVindictor01.jpg",
       "loadout": "This model is equipped with: zealot’s vindictor.",
       "profiles": [
         {
@@ -2896,13 +3208,27 @@
         ],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Preacher",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 50
+        }
+      ]
     },
     {
       "id": "000002063",
       "name": "Triumph Of Saint Katherine",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108037_TriumphofKatherine01.jpg",
       "loadout": "This model is equipped with: bolt pistols; relic weapons.",
       "profiles": [
         {
@@ -3049,13 +3375,27 @@
             "parameter": ""
           }
         ]
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Triumph of Saint Katherine – EPIC HERO|",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 250
+        }
+      ]
     },
     {
       "id": "000002064",
       "name": "Junith Eruita",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108026_JunithEruita01.jpg",
       "loadout": "This model is equipped with: twin Ministorum heavy flamer; Mace of Castigation.",
       "profiles": [
         {
@@ -3158,13 +3498,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Junith Eruita – EPIC HERO|",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 90
+        }
+      ]
     },
     {
       "id": "000002066",
       "name": "Zephyrim Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108040_SeraphimZephyrimGroup.jpg",
       "loadout": "Every model is equipped with: bolt pistol; power weapon.",
       "profiles": [
         {
@@ -3284,13 +3638,37 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Zephyrim Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "4-9 Zephyrim",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "5 models",
+          "cost": 85
+        },
+        {
+          "line": "2",
+          "description": "10 models",
+          "cost": 170
+        }
+      ]
     },
     {
       "id": "000002067",
       "name": "Mortifiers",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108035_ASMortifierLead.jpg",
       "loadout": "Every model is equipped with: 2 heavy bolters; twin penitent buzz-blades.",
       "profiles": [
         {
@@ -3450,13 +3828,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1-2 Mortifiers",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 70
+        },
+        {
+          "line": "2",
+          "description": "2 models",
+          "cost": 140
+        }
+      ]
     },
     {
       "id": "000002068",
       "name": "Battle Sanctum",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.fantasy-shop.gr/images/detailed/9/99120108042_SoBBattleSanctumLead.jpg",
       "loadout": "This model is equipped with: nothing.",
       "profiles": [
         {
@@ -3532,13 +3929,27 @@
             "parameter": ""
           }
         ]
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Battle Sanctum",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 170
+        }
+      ]
     },
     {
       "id": "000002472",
       "name": "Palatine",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108007_PalatineLead.jpg",
       "loadout": "This model is equipped with: bolt pistol; Palatine blade.",
       "profiles": [
         {
@@ -3657,13 +4068,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Palatine",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 50
+        }
+      ]
     },
     {
       "id": "000002479",
       "name": "Morvenn Vahl",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108047_SoBMorvennVahlAbbessSanctorumLead.jpg",
       "loadout": "This model is equipped with: Fidelis; Paragon missile launcher; Lance of Illumination.",
       "profiles": [
         {
@@ -3813,13 +4238,27 @@
         ],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Morvenn Vahl – EPIC HERO|",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 170
+        }
+      ]
     },
     {
       "id": "000002480",
       "name": "Aestred Thurga And Agathae Dolan",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108050_SoBAestredThurgaRelinquantatArmsLead.jpg",
       "loadout": "Aestred Thurga is equipped with: bolt pistol; Blade of Vigil. Agathae Dolan is equipped with: bolt pistol; scribe’s staff.",
       "profiles": [
         {
@@ -3935,13 +4374,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Aestred Thurga – EPIC HERO|",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "1 Agathae Dolan – EPIC HERO|",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "2 models",
+          "cost": 85
+        }
+      ]
     },
     {
       "id": "000002481",
       "name": "Celestian Sacresants",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108045_SoBCelestianSacresantsLead.jpg",
       "loadout": "Every model is equipped with: bolt pistol; hallowed mace.",
       "profiles": [
         {
@@ -4096,13 +4554,37 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Sacresant Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "4-9 Celestian Sacresants",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "5 models",
+          "cost": 75
+        },
+        {
+          "line": "2",
+          "description": "10 models",
+          "cost": 150
+        }
+      ]
     },
     {
       "id": "000002482",
       "name": "Dogmata",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108008_SoBSisterDogmataLead.jpg",
       "loadout": "This model is equipped with: bolt pistol; mace of the righteous.",
       "profiles": [
         {
@@ -4194,13 +4676,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Dogmata",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 45
+        }
+      ]
     },
     {
       "id": "000002483",
       "name": "Paragon Warsuits",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108046_SoBParagonWarsuitsLead.jpg",
       "loadout": "Every model is equipped with: bolt pistol; heavy bolter; Paragon storm bolters; Paragon war blade.",
       "profiles": [
         {
@@ -4351,13 +4847,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Paragon Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "2 Paragons",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "3 models",
+          "cost": 220
+        }
+      ]
     },
     {
       "id": "000002484",
       "name": "Castigator",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108048_SoBCastigatorLead.jpg",
       "loadout": "This model is equipped with: Castigator autocannons; 3 heavy bolters; armoured tracks.",
       "profiles": [
         {
@@ -4504,13 +5019,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Castigator",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 170
+        }
+      ]
     },
     {
       "id": "000002507",
       "name": "Sisters Novitiate Squad",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199040_CalanathGroup1.jpg",
       "loadout": "The Novitiate Superior is equipped with: bolt pistol; boltgun; close combat weapon. Each Sister Novitiate is equipped with: autopistol; autogun; close combat weapon.",
       "profiles": [
         {
@@ -4727,13 +5256,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Novitiate Superior",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "9 Sisters Novitiate",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "10 models",
+          "cost": 100
+        }
+      ]
     },
     {
       "id": "000002771",
       "name": "Daemonifuge",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120199073_DaemonifugeEphraelSternKyganilLead.jpg",
       "loadout": "Ephrael Stern is equipped with: bolt pistol; Sanctity. Kyganil of the Bloody Tears is equipped with: the Outcast’s Weapons.",
       "profiles": [
         {
@@ -4872,13 +5420,32 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Ephrael Stern – EPIC HERO|",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "1 Kyganil of the Bloody Tears – EPIC HERO|",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "2 models",
+          "cost": 85
+        }
+      ]
     },
     {
       "id": "000003714",
       "name": "Canoness with Jump Pack",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108103_ASCanonessJumpPack1.jpg",
       "loadout": "This model is equipped with: blessed halberd.",
       "profiles": [
         {
@@ -5005,13 +5572,27 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Canoness With Jump Pack",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 75
+        }
+      ]
     },
     {
       "id": "000003811",
       "name": "Celestian Sacresant Aveline",
       "faction_id": "AS",
-      "unit_img": "",
+      "unit_img": "https://www.adeptusars.com/wp-content/uploads/2024/06/Celestian-Sacresant-Aveline-Miniature.jpg",
       "loadout": "This model is equipped with: Ministorum hand flamer; The Thorn of the White Rose.",
       "profiles": [
         {
@@ -5114,7 +5695,21 @@
         "special": [],
         "fortification": [],
         "primarch": []
-      }
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Celestian Sacresant Aveline – EPIC HERO|",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "1 model",
+          "cost": 45
+        }
+      ]
     }
   ]
 }

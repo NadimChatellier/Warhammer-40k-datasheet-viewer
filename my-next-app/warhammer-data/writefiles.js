@@ -447,7 +447,7 @@ function parseUnitAbilities() {
                 if (abilityDetails) {
                   // Set the actual rule description
                   ability.name = abilityDetails.name;
-                  ability.description = cleanText(abilityDetails.description); // Clean HTML from the description
+                  ability.description = cleanText(abilityDetails.description).replace(/\|/g, "") // Clean HTML from the description
                   ability.description = removeAbilityName(ability.name, ability.description); // Remove name from description
                 } else {
                   console.log(`⚠️ No matching ability found for ability ID: ${ability.ability_id}`);
@@ -509,6 +509,143 @@ function parseUnitAbilities() {
 
 
 
+
+
+// Function to find a unit by ID within factionDataMap
+function findUnitById(targetId) {
+  for (const factionKey of Object.keys(factionDataMap)) {
+      const faction = factionDataMap[factionKey];
+
+      if (!faction.units) continue; // Skip if no units exist
+
+      const unit = faction.units.find(u => u.id === targetId);
+      if (unit) {
+          console.log(`✅ Found unit ${targetId} in faction: ${factionKey}`);
+          return { unit, factionKey }; // Return unit & its faction key
+      }
+  }
+
+  console.log(`❌ Unit with ID ${targetId} not found in any faction.`);
+  return null;
+}
+
+async function parseUnitCosts() {
+  const unitCostFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_models_cost.csv');
+  console.log(`Unit Cost File Path: ${unitCostFilePath}`);
+
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(unitCostFilePath)
+      .pipe(csv({ separator: '|', headers: ['datasheet_id', 'line', 'description', 'cost'] }))
+      .on('data', (row) => {
+        const { datasheet_id, cost } = row;
+        console.log(`🔍 Searching for datasheet_id: ${datasheet_id}`);
+
+        // Clean up the cost and description
+        const cleanedCost = parseInt(cost.trim(), 10); // Ensure cost is an integer
+        const cleanedDescription = cleanText(row.description);
+
+        // Look through all the factions to find the unit
+        let unitFound = false;
+
+        for (const factionKey of Object.keys(factionDataMap)) {
+          const faction = factionDataMap[factionKey];
+
+          if (!faction.units) continue; // Skip if no units in this faction
+
+          // Find the unit in this faction's units list
+          const unit = faction.units.find(u => u.id === datasheet_id);
+          if (unit) {
+            unitFound = true;
+
+            // Ensure cost array exists in the unit object
+            if (!unit.costs) {
+              unit.costs = [];
+            }
+
+            // Add the new cost to the unit's costs
+            unit.costs.push({
+              line: row.line, // the line info
+              description: cleanedDescription, // the cleaned description
+              cost: cleanedCost // the cleaned cost
+            });
+
+            console.log(`✅ Added cost to unit ${datasheet_id} in faction ${factionKey}`);
+            break; // No need to continue looping after finding the unit
+          }
+        }
+
+        if (!unitFound) {
+          console.log(`⚠️ Skipping: No faction contains unit_id: ${datasheet_id}`);
+        }
+      })
+      .on('end', () => {
+        console.log('🎉 Unit costs successfully parsed and assigned.');
+        resolve();
+      })
+      .on('error', (err) => {
+        console.log(`❌ Error reading unit cost file: ${err.message}`);
+        reject(err);
+      });
+  });
+}
+
+// Function to parse unit compositions and update factionDataMap
+async function parseUnitCompositions() {
+  const unitCompositionFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_unit_composition.csv');
+
+  console.log(`📂 Reading Unit Compositions from: ${unitCompositionFilePath}`);
+
+  return new Promise((resolve, reject) => {
+      fs.createReadStream(unitCompositionFilePath)
+          .pipe(csv({ separator: '|', headers: ['unit_id', 'composition_index', 'composition_name', 'extra'] }))
+          .on('data', (row) => {
+              const { unit_id: unitId, composition_index: compositionIndex, composition_name, extra } = row;
+
+              console.log(`🔍 Searching for unit_id: ${unitId}`);
+
+              const foundUnitData = findUnitById(unitId);
+
+              if (!foundUnitData) {
+                  console.log(`⚠️ Skipping: No faction contains unit_id: ${unitId}`);
+                  return;
+              }
+
+              const { unit } = foundUnitData;
+
+              // Ensure unit has a compositions array
+              if (!unit.compositions) {
+                  unit.compositions = [];
+              }
+
+              // Clean up composition name and rename it to description
+              const description = cleanText(composition_name);
+
+              // Check if composition already exists
+              if (unit.compositions.some(comp => comp.description === description)) {
+                  console.log(`⚠️ Description "${description}" already exists for unit ${unitId}. Skipping.`);
+                  return;
+              }
+
+              // Add new composition to factionDataMap
+              unit.compositions.push({ compositionIndex, description, extra });
+
+              console.log(`✅ Added description "${description}" to unit ${unitId}`);
+          })
+          .on('end', () => {
+              console.log('🎉 All unit compositions successfully added to factionDataMap.');
+              resolve();
+          })
+          .on('error', (err) => {
+              console.log(`❌ Error reading unit composition file: ${err.message}`);
+              reject(err);
+          });
+  });
+}
+
+
+
+
+
 // Running the functions in sequence
 parseUnitAbilities()
   .then(() => {
@@ -535,6 +672,8 @@ async function processWarhammerData() {
     await parseUnitProfiles();
     await parseUnitWeapons();
     await parseUnitAbilities(); // <-- Add this step
+    await parseUnitCompositions();
+    await parseUnitCosts();
     await writeFactionFiles();
   } catch (error) {
     console.error('❌ Process failed:', error);
