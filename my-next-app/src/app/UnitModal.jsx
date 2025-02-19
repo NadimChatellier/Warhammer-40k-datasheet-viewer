@@ -139,51 +139,63 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
         {/* Abilities & Composition */}
         
         {selectedUnit.abilities.faction && selectedUnit.abilities.faction.length > 0 && (
-          <div className="mt-2">
-            <strong
-              className="text-white"
-              style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
-            >
-              {"Faction Abilities: "}
-            </strong>
-            <div className="inline-flex flex-wrap gap-2 text-gray-400">
-              {selectedUnit.abilities.faction.map((ability, index) => (
-                <span
-                  key={index}
-                  className="cursor-pointer hover:text-yellow-400"
-                  style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
-                >
-                  {ability.name} {ability.parameter}
-                  {index < selectedUnit.abilities.faction.length - 1 && ","}
-                </span>
-              ))}
-            </div>
+  <div className="mt-2">
+    <strong
+      className="text-white"
+      style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
+    >
+      {"Faction Abilities: "}
+    </strong>
+    <div className="inline-flex flex-wrap gap-2 text-gray-400">
+      {selectedUnit.abilities.faction.map((ability, index) => (
+        <div key={index} className="relative group">
+          <span
+            className="cursor-pointer hover:text-yellow-400 relative"
+            style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
+          >
+            {ability.name} {ability.parameter}
+            {index < selectedUnit.abilities.faction.length - 1 && ","}
+          </span>
+
+          {/* Tooltip (Appears on Hover) */}
+          <div className="absolute left-full top-0 ml-2 hidden group-hover:block w-64 max-w-xs p-2 text-sm text-white bg-gray-800 border border-gray-600 rounded-lg shadow-lg z-50">
+            {ability.description}
           </div>
-        )}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
       
-        {/* Core Abilities */}
-        {selectedUnit.abilities.core && selectedUnit.abilities.core.length > 0 && (
-          <div className="mt-2">
-            <strong
-              className="text-white"
-              style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
-            >
-              {"Core Abilities: "}
-            </strong>
-            <div className="inline-flex flex-wrap gap-2 text-gray-400">
-              {selectedUnit.abilities.core.map((ability, index) => (
-                <span
-                  key={index}
-                  className="cursor-pointer hover:text-yellow-400"
-                  style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
-                >
-                  {ability.name} {ability.parameter}
-                  {index < selectedUnit.abilities.core.length - 1 && ","}
-                </span>
-              ))}
-            </div>
+{selectedUnit.abilities.faction && selectedUnit.abilities.core.length > 0 && (
+  <div className="mt-2">
+    <strong
+      className="text-white"
+      style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
+    >
+      {"Faction Abilities: "}
+    </strong>
+    <div className="inline-flex flex-wrap gap-2 text-gray-400">
+      {selectedUnit.abilities.core.map((ability, index) => (
+        <div key={index} className="relative group">
+          <span
+            className="cursor-pointer hover:text-yellow-400 relative"
+            style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
+          >
+            {ability.name} {ability.parameter}
+            {index < selectedUnit.abilities.faction.length - 1 && ","}
+          </span>
+
+          {/* Tooltip (Appears on Hover) */}
+          <div className="absolute left-full top-[-6] ml-2 hidden group-hover:block w-64 max-w-xs p-2 text-sm text-white bg-gray-800 border border-gray-600 rounded-lg shadow-lg z-50">
+            {ability.description}
           </div>
-        )}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
       
         {/* Unit Costs */}
         {selectedUnit.costs && selectedUnit.costs.length > 0 && (
@@ -276,6 +288,27 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
                     </h3>
                     <div className="space-y-4">
                       {selectedUnit.abilities.datasheet.map((ability, index) => (
+                        <div key={index} className="bg-gray-700 rounded-lg p-4 hover:bg-gray-600 transition duration-300">
+                          <strong className="text-white text-lg" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+                            {ability.name}
+                          </strong>
+                          <hr className="my-2 border-gray-600" />
+                          <p className="mt-2 text-gray-300 text-sm" style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}>
+                            {ability.description}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {/* Abilities & Wargear */}
+                {selectedUnit?.abilities?.primarch?.length > 0 && (
+                  <div className="mt-6 p-4 bg-gray-800 rounded-lg shadow-xl">
+                    <h3 className="font-semibold text-white text-xl mb-4" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+                      Special Abilities
+                    </h3>
+                    <div className="space-y-4">
+                      {selectedUnit.abilities.primarch.map((ability, index) => (
                         <div key={index} className="bg-gray-700 rounded-lg p-4 hover:bg-gray-600 transition duration-300">
                           <strong className="text-white text-lg" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
                             {ability.name}

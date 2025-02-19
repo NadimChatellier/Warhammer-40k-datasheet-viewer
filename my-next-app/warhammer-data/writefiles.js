@@ -104,13 +104,14 @@ function readDatasheets() {
         const datasheetId = trimmedRow.id;
         const factionId = trimmedRow.faction_id;
         const name = trimmedRow.name;
+        const role = trimmedRow.role
         const loadout = cleanText(trimmedRow.loadout);
         if (!datasheetId || !factionId || !name) {
           console.log(`⚠️ Skipping row with missing data:`, trimmedRow);
           return;
         }
         // Store base unit details for later use.
-        unitDataMap[datasheetId] = { datasheetId, factionId, name, loadout };
+        unitDataMap[datasheetId] = { datasheetId, factionId, name, loadout, role };
 
         if (factionDataMap[factionId]) {
           // Check if unit already exists in our factionDataMap.
@@ -125,6 +126,7 @@ function readDatasheets() {
             const existingUnit = factionDataMap[factionId].units[existingUnitIndex];
             factionDataMap[factionId].units[existingUnitIndex] = {
               ...existingUnit,
+
               name,
               faction_id: factionId,
               loadout,
@@ -141,6 +143,7 @@ function readDatasheets() {
               faction_id: factionId,
               unit_img: preservedImg, // Will be empty string if no image exists.
               loadout,
+              role: role,
               profiles: [],
               ranged_weapons: [],
               melee_weapons: []
