@@ -129,7 +129,19 @@
           "description": "1 model",
           "cost": 75
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Patriarch",
+          "Great Devourer",
+          "Psyker",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000508",
@@ -252,7 +264,19 @@
           "description": "1 model",
           "cost": 50
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Psyker",
+          "Great Devourer",
+          "Magus",
+          "Infantry",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000509",
@@ -380,7 +404,18 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Great Devourer",
+          "Primus",
+          "Infantry",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000510",
@@ -501,7 +536,19 @@
           "description": "1 model",
           "cost": 50
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Great Devourer",
+          "Acolyte Iconward",
+          "Grenades",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000511",
@@ -648,6 +695,33 @@
           "line": "2",
           "description": "10 models",
           "cost": 130
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Acolyte Hybrids With Autopistols",
+          "Acolyte Hybrids",
+          "Great Devourer",
+          "Grenades",
+          "Infantry",
+          "Battleline"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "One Acolyte Hybrid’s autopistol can be replaced with 1 cult icon."
+        },
+        {
+          "line": 2,
+          "description": "For every 5 models in this unit, up to 3 Acolyte Hybrids can each have their autopistol and cult claws and knife replaced with 1 heavy mining tool."
+        },
+        {
+          "line": 3,
+          "description": "The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader's bio-weapons."
         }
       ]
     },
@@ -913,6 +987,40 @@
           "description": "20 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Neophyte Hybrids",
+          "Great Devourer",
+          "Grenades",
+          "Battleline",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "One Neophyte Hybrid equipped with a Hybrid firearm can be equipped with 1 cult icon."
+        },
+        {
+          "line": 2,
+          "description": "For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:Heavy stubber*Mining laser*Seismic cannon*|"
+        },
+        {
+          "line": 3,
+          "description": "For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:Flamer*Grenade launcher*Webber*|"
+        },
+        {
+          "line": 4,
+          "description": "The Neophyte Leader’s Hybrid firearm and close combat weapon can be replaced with 1 of the following:1 anointed pistol and 1 chainsword1 anointed pistol and 1 power weapon|"
+        },
+        {
+          "line": 5,
+          "description": "To a maximum of 1 per 10 models in this unit."
+        }
       ]
     },
     {
@@ -1092,6 +1200,27 @@
           "description": "10 models",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Hybrid Metamorphs",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their autopistol replaced with 1 hand flamer."
+        },
+        {
+          "line": 2,
+          "description": "One Hybrid Metamorph’s autopistol can be replaced with 1 cult icon."
+        }
       ]
     },
     {
@@ -1201,7 +1330,17 @@
           "description": "10 models",
           "cost": 300
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Aberrants",
+          "Great Devourer",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000515",
@@ -1305,7 +1444,17 @@
           "description": "10 models",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Purestrain Genestealers",
+          "Infantry",
+          "Great Devourer"
+        ]
+      }
     },
     {
       "id": "000000516",
@@ -1436,7 +1585,19 @@
           "description": "1 model",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vehicle",
+          "Transport",
+          "Dedicated Transport",
+          "Great Devourer",
+          "Goliath Truck"
+        ]
+      }
     },
     {
       "id": "000000521",
@@ -1594,6 +1755,23 @@
           "description": "1 model",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Transport",
+          "Vehicle",
+          "Great Devourer",
+          "Goliath Rockgrinder"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy mining laser can be replaced with one of the following:1 clearance incinerator1 heavy seismic cannon|"
+        }
       ]
     },
     {
@@ -1701,7 +1879,18 @@
           "description": "1 model",
           "cost": 95
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Abominant",
+          "Great Devourer",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000001565",
@@ -1836,7 +2025,19 @@
           "description": "1 model",
           "cost": 55
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Mounted",
+          "Jackal Alphus",
+          "Grenades",
+          "Character",
+          "Great Devourer"
+        ]
+      }
     },
     {
       "id": "000001567",
@@ -1948,7 +2149,18 @@
           "description": "1 model",
           "cost": 50
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Great Devourer",
+          "Character",
+          "Clamavus",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000001568",
@@ -2055,7 +2267,18 @@
           "description": "1 model",
           "cost": 45
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Locus"
+        ]
+      }
     },
     {
       "id": "000001569",
@@ -2210,6 +2433,23 @@
           "description": "1 model",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Sanctus",
+          "Infantry",
+          "Character",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Sanctus bio-dagger can be replaced with 1 cult sniper rifle and 1 close combat weapon."
+        }
       ]
     },
     {
@@ -2323,7 +2563,18 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Great Devourer",
+          "Kelermorph"
+        ]
+      }
     },
     {
       "id": "000001571",
@@ -2435,7 +2686,18 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Great Devourer",
+          "Nexos"
+        ]
+      }
     },
     {
       "id": "000001572",
@@ -2572,7 +2834,18 @@
           "description": "1 model",
           "cost": 50
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Great Devourer",
+          "Biophagus"
+        ]
+      }
     },
     {
       "id": "000001573",
@@ -2746,6 +3019,26 @@
           "line": "2",
           "description": "2 models",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vehicle",
+          "Great Devourer",
+          "Achilles Ridgerunners"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their heavy mining laser replaced with one of the following:1 achilles missile launcher1 heavy mortar|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their flare launcher replaced with one of the following:1 spotter1 survey augur|"
         }
       ]
     },
@@ -2966,6 +3259,31 @@
           "description": "10 models",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Mounted",
+          "Grenades",
+          "Great Devourer",
+          "Atalan Jackals"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 4 Atalan Jackals in this unit, up to 2 Atalan Jackals' close combat weapons can each be replaced with 1 Atalan power weapon."
+        },
+        {
+          "line": 2,
+          "description": "For every 4 Atalan Jackals in this unit, 1 Atalan Jackal's Atalan small arms can be replaced with 1 grenade launcher."
+        },
+        {
+          "line": 3,
+          "description": "Any number of Atalan Wolfquads can each have their heavy stubber replaced with one of the following:1 Atalan incinerator1 mining laser|"
+        }
       ]
     },
     {
@@ -3073,6 +3391,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 125
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Fortification",
+          "Vehicle",
+          "Tectonic Fragdrill"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -3243,7 +3577,19 @@
           "description": "1 model",
           "cost": 65
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Grenades",
+          "Infantry",
+          "Character",
+          "Great Devourer",
+          "Reductus Saboteur"
+        ]
+      }
     },
     {
       "id": "000003715",
@@ -3369,7 +3715,19 @@
           "description": "1 model",
           "cost": 70
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Psyker",
+          "Great Devourer",
+          "Benefictus"
+        ]
+      }
     },
     {
       "id": "000003716",
@@ -3531,6 +3889,33 @@
           "description": "10 models",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Acolyte Hybrids With Hand Flamers",
+          "Great Devourer",
+          "Infantry",
+          "Battleline",
+          "Grenades",
+          "Acolyte Hybrids"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "One Acolyte Hybrid’s hand flamer can be replaced with 1 cult icon."
+        },
+        {
+          "line": 2,
+          "description": "For every 5 models in this unit, up to 2 Acolyte Hybrids can each have their hand flamer replaced with 1 demolition charges"
+        },
+        {
+          "line": 3,
+          "description": "The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader’s bio-weapons."
+        }
       ]
     },
     {
@@ -3629,6 +4014,30 @@
           "line": "1",
           "description": "1 model",
           "cost": 55
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Cadian Castellan",
+          "Officer",
+          "Imperium",
+          "Character",
+          "Grenades"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s chainsword can be replaced with one of the following:1 boltgun1 power fist1 power weapon|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol|"
         }
       ]
     },
@@ -3794,6 +4203,44 @@
           "line": "1",
           "description": "5 models",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Cadian",
+          "Command Squad",
+          "Platoon",
+          "Imperium",
+          "Grenades",
+          "Infantry",
+          "Officer",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "1 Cadian Veteran Guardsman’s lasgun and regimental standard can be replaced with one of the following:1 flamer1 grenade launcher1 meltagun1 plasma gun|"
+        },
+        {
+          "line": 2,
+          "description": "1 Cadian Veteran Guardsman’s laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol|"
+        },
+        {
+          "line": 3,
+          "description": "The Cadian Commander’s laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol|"
+        },
+        {
+          "line": 4,
+          "description": "1 Cadian Veteran Guardsman's chainsword can be replaced with one of the following:1 flamer and 1 close combat weapon1 grenade launcher and 1 close combat weapon1 meltagun and 1 close combat weapon1 plasma gun and 1 close combat weapon1 power fist1 power weapon|"
+        },
+        {
+          "line": 5,
+          "description": "The Cadian Commander’s chainsword can be  replaced with one of the following:1 power fist1 power weapon|"
         }
       ]
     },
@@ -4126,7 +4573,20 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Primaris Psyker",
+          "Psyker",
+          "Imperium"
+        ]
+      }
     },
     {
       "id": "000003721",
@@ -4412,6 +4872,26 @@
           "description": "1 model",
           "cost": 60
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Grenades",
+          "Officer",
+          "Imperium",
+          "Death Korps Marshal"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol|"
+        }
       ]
     },
     {
@@ -4499,6 +4979,26 @@
           "description": "1 model",
           "cost": 60
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Grenades",
+          "Imperium",
+          "Death Rider Squadron Commander",
+          "Officer",
+          "Mounted",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol|"
+        }
       ]
     },
     {
@@ -4585,6 +5085,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 35
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Grenades",
+          "Officer",
+          "Death Rider Commissar",
+          "Mounted",
+          "Character",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4681,6 +5201,26 @@
           "description": "5 models",
           "cost": 45
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Grenades",
+          "Regiment",
+          "Quartermaster Cadre Squad",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -4763,6 +5303,44 @@
           "line": "2",
           "description": "20 models",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Cadian",
+          "Platoon",
+          "Regiment",
+          "Grenades",
+          "Imperium",
+          "Battleline",
+          "Infantry",
+          "Cadian Shock Troops"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 10 models in this unit, up to 2 Shock Troopers can each have their lasgun replaced with one of the following*:1 flamer1 grenade launcher1 meltagun1 plasma gun|"
+        },
+        {
+          "line": 2,
+          "description": "For every 10 models in this unit, 1 Shock Trooper equipped with a lasgun can be equipped with 1 vox-caster (that model’s lasgun cannot be replaced)."
+        },
+        {
+          "line": 3,
+          "description": "Any number of Shock Trooper Sergeants can each have their laspistol replaced with 1 bolt pistol."
+        },
+        {
+          "line": 4,
+          "description": "Any number of Shock Trooper Sergeants can each have their laspistol and chainsword replaced with 1 Sergeant's autogun and 1 close combat weapon."
+        },
+        {
+          "line": 5,
+          "description": "* You cannot select the same weapon more than once per unit unless it contains 20 models, in which case you cannot select the same weapon more than twice per unit."
         }
       ]
     },
@@ -4856,6 +5434,31 @@
           "line": "2",
           "description": "20 models",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Infantry",
+          "Battleline",
+          "Regiment",
+          "Grenades",
+          "Imperium",
+          "Platoon",
+          "Catachan Jungle Fighters"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 5 models in this unit, 1 Jungle Fighter’s lasgun can be replaced with 1 flamer."
+        },
+        {
+          "line": 2,
+          "description": "For every 10 models in this unit, 1 Jungle Fighter equipped with a lasgun can be equipped with 1 vox-caster (that model’s lasgun cannot be replaced)."
         }
       ]
     },
@@ -5002,6 +5605,59 @@
           "line": "2",
           "description": "20 models",
           "cost": 130
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Battleline",
+          "Grenades",
+          "Regiment",
+          "Death Korps of Krieg",
+          "Platoon",
+          "Infantry",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 10 models in this unit, up to 2 Death Korps Troopers can each have their lasgun replaced with one of the following*:1 flamer**1 grenade launcher**1 long-las**|"
+        },
+        {
+          "line": 2,
+          "description": "For every 10 models in this unit, up to 2 Death Korps Troopers can each have their lasgun replaced with one of the following*:1 lasgun and 1 vox-caster*** (that model’s lasgun cannot be replaced)1 meltagun**1 plasma gun**|"
+        },
+        {
+          "line": 3,
+          "description": "For every 10 models in this unit, 1 Death Korps Trooper equipped with a lasgun can be equipped with 1 Death Korps medi-pack (that model’s lasgun cannot be replaced)***."
+        },
+        {
+          "line": 4,
+          "description": "Any number of Death Korps Watchmasters can each replace their laspistol and chainsword with 1 boltgun and 1 close combat weapon."
+        },
+        {
+          "line": 5,
+          "description": "Any number of Death Korps Watchmasters can each replace their chainsword with 1 power weapon."
+        },
+        {
+          "line": 6,
+          "description": "Any number of Death Korps Watchmasters can each have their laspistol replaced with one of the following:1 bolt pistol1 plasma pistol|"
+        },
+        {
+          "line": 7,
+          "description": "* You cannot select the same option more than once per unit unless it contains 20 models, in which case you cannot select the same option more than twice per unit."
+        },
+        {
+          "line": 8,
+          "description": "** You cannot select more than two of these options per unit unless it contains 20 models, in which case you cannot select more than four of these options per unit."
+        },
+        {
+          "line": 9,
+          "description": "*** A model can only take one of these options."
         }
       ]
     },
@@ -5279,6 +5935,43 @@
           "description": "1 model",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Chimera",
+          "Dedicated Transport",
+          "Transport",
+          "Squadron",
+          "Imperium",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model’s multi-laser can be replaced with one of the following:1 heavy bolter*1 heavy flamer*|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 5,
+          "description": "* This weapon cannot be replaced."
+        }
       ]
     },
     {
@@ -5347,6 +6040,26 @@
           "description": "1 model",
           "cost": 65
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Imperium",
+          "Vehicle",
+          "Transport",
+          "Dedicated Transport",
+          "Taurox"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 storm bolter."
+        }
       ]
     },
     {
@@ -5414,6 +6127,34 @@
           "line": "1",
           "description": "1 model",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Squadron",
+          "Transport",
+          "Dedicated Transport",
+          "Taurox Prime"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Taurox battle cannon can be replaced with one of the following:1 Taurox gatling cannon1 Taurox missile launcher|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin Taurox hot-shot volley gun can be replaced with 1 twin autocannon."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
         }
       ]
     },
@@ -5501,6 +6242,35 @@
           "line": "1",
           "description": "1 model",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Imperium",
+          "Squadron",
+          "Storm Chimera",
+          "Smoke",
+          "Dedicated Transport",
+          "Transport",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -5597,6 +6367,23 @@
           "description": "1 model",
           "cost": 145
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Imperium",
+          "Fortification",
+          "Aegis Defence Line"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -5683,6 +6470,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 110
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Earthshaker Platform",
+          "Fortification",
+          "Imperium",
+          "Artillery"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -5771,6 +6576,24 @@
           "description": "1 model",
           "cost": 95
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Hydra Platform",
+          "Imperium",
+          "Fortification",
+          "Artillery"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -5858,6 +6681,24 @@
           "description": "1 model",
           "cost": 95
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Artillery",
+          "Imperium",
+          "Manticore Platform",
+          "Fortification"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -5940,6 +6781,24 @@
           "line": "2",
           "description": "2 models",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Artillery",
+          "Imperium",
+          "Fortification",
+          "Sabre Weapons Battery"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models’ twin heavy bolters can each be replaced with one of the following:1 defence searchlight1 twin autocannon1 twin heavy stubber1 twin lascannon|"
         }
       ]
     },
@@ -6024,6 +6883,35 @@
           "description": "2 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Squadron",
+          "Armoured Sentinels",
+          "Regiment",
+          "Imperium",
+          "Vehicle",
+          "Smoke",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their multi-laser replaced with one of the following:1 autocannon1 heavy flamer1 lascannon1 missile launcher1 plasma cannon|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with 1 Sentinel chainsaw."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -6092,6 +6980,29 @@
           "description": "10 models",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Regiment",
+          "Imperium",
+          "Grenades",
+          "Mounted",
+          "Attilan Rough Riders"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 5 models in this unit, 1 model’s hunting lance can be replaced with 1 goad lance."
+        },
+        {
+          "line": 2,
+          "description": "The Rough Rider Sergeant can be equipped with 1 power sabre."
+        }
       ]
     },
     {
@@ -6159,6 +7070,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 480
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Baneblade",
+          "Imperium",
+          "Smoke",
+          "Vehicle",
+          "Titanic"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
         }
       ]
     },
@@ -6237,6 +7171,30 @@
           "description": "1 model",
           "cost": 450
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Banehammer",
+          "Transport",
+          "Vehicle",
+          "Titanic",
+          "Smoke",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
+        }
       ]
     },
     {
@@ -6304,6 +7262,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 480
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Imperium",
+          "Banesword",
+          "Vehicle",
+          "Titanic",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
         }
       ]
     },
@@ -6382,6 +7363,30 @@
           "line": "1",
           "description": "1 model",
           "cost": 140
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Squadron",
+          "Basilisk",
+          "Artillery",
+          "Vehicle",
+          "Smoke",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -6470,6 +7475,30 @@
           "description": "1 model",
           "cost": 145
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Artillery",
+          "Smoke",
+          "Imperium",
+          "Squadron",
+          "Vehicle",
+          "Deathstrike"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -6547,6 +7576,30 @@
           "description": "1 model",
           "cost": 445
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vehicle",
+          "Smoke",
+          "Imperium",
+          "Titanic",
+          "Transport",
+          "Doomhammer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
+        }
       ]
     },
     {
@@ -6604,6 +7657,26 @@
           "line": "1",
           "description": "2 models",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Artillery",
+          "Grenades",
+          "Imperium",
+          "Regiment",
+          "Field Ordnance Battery"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their malleus rocket launcher replaced with one of the following:1 bombast field gun1 heavy lascannon|"
         }
       ]
     },
@@ -6731,6 +7804,29 @@
           "description": "1 model",
           "cost": 450
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Hellhammer",
+          "Imperium",
+          "Smoke",
+          "Titanic",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
+        }
       ]
     },
     {
@@ -6809,6 +7905,33 @@
           "description": "1 model",
           "cost": 125
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Smoke",
+          "Imperium",
+          "Squadron",
+          "Hellhound",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s inferno cannon can be replaced with one of the following:1 chem cannon1 melta cannon|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s heavy flamer can be replaced with one of the following:1 heavy bolter1 multi-melta|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -6886,6 +8009,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 95
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Hydra",
+          "Squadron",
+          "Imperium",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -7020,6 +8166,49 @@
           "description": "10 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Imperium",
+          "Regiment",
+          "Kasrkin"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Up to 4 Kasrkin Troopers can each have their hot-shot lasgun replaced with one of the following:*1 flamer1 grenade launcher1 hot-shot volley gun1 meltagun1 plasma gun|"
+        },
+        {
+          "line": 2,
+          "description": "1 Kasrkin Trooper’s hot-shot lasgun can be replaced with 1 hot-shot marksman rifle."
+        },
+        {
+          "line": 3,
+          "description": "1 Kasrkin Trooper’s hot-shot lasgun can be replaced with 1 hot-shot laspistol and 1 melta mine."
+        },
+        {
+          "line": 4,
+          "description": "1 Kasrkin Trooper equipped with a hot-shot lasgun can be equipped with 1 vox-caster (that model’s hot-shot lasgun cannot be replaced)."
+        },
+        {
+          "line": 5,
+          "description": "The Kasrkin Sergeant’s chainsword can be replaced with 1 power weapon."
+        },
+        {
+          "line": 6,
+          "description": "The Kasrkin Sergeant’s hot-shot laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol.|"
+        },
+        {
+          "line": 7,
+          "description": "* You cannot select the same weapon from this list more than twice per unit."
+        }
       ]
     },
     {
@@ -7097,6 +8286,37 @@
           "line": "1",
           "description": "1 model",
           "cost": 175
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Squadron",
+          "Vehicle",
+          "Smoke",
+          "Leman Russ Battle Tank",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -7176,6 +8396,37 @@
           "description": "1 model",
           "cost": 190
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Smoke",
+          "Vehicle",
+          "Leman Russ Demolisher",
+          "Squadron"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -7253,6 +8504,37 @@
           "line": "1",
           "description": "1 model",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vehicle",
+          "Squadron",
+          "Smoke",
+          "Imperium",
+          "Leman Russ Eradicator"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -7332,6 +8614,37 @@
           "description": "1 model",
           "cost": 170
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Smoke",
+          "Imperium",
+          "Squadron",
+          "Leman Russ Executioner",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -7409,6 +8722,37 @@
           "line": "1",
           "description": "1 model",
           "cost": 180
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Smoke",
+          "Leman Russ Exterminator",
+          "Imperium",
+          "Squadron",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -7488,6 +8832,37 @@
           "description": "1 model",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Squadron",
+          "Leman Russ Punisher",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -7566,6 +8941,37 @@
           "description": "1 model",
           "cost": 145
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Smoke",
+          "Leman Russ Vanquisher",
+          "Squadron",
+          "Imperium",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lascannon can be replaced with one of the following:1 heavy bolter1 heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 heavy flamers2 multi-meltas2 plasma cannons|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -7643,6 +9049,30 @@
           "line": "1",
           "description": "1 model",
           "cost": 165
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Smoke",
+          "Artillery",
+          "Vehicle",
+          "Squadron",
+          "Manticore"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -7838,6 +9268,37 @@
           "description": "1 model",
           "cost": 240
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Vehicle",
+          "Smoke",
+          "Imperium",
+          "Rogal Dorn Battle Tank"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin battle cannon can be replaced with 1 oppressor cannon and 1 coaxial autocannon."
+        },
+        {
+          "line": 2,
+          "description": "This model’s castigator gatling cannon can be replaced with 1 pulveriser cannon."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:2 meltaguns2 additional heavy stubbers|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 multi-meltas|"
+        }
       ]
     },
     {
@@ -7930,6 +9391,35 @@
           "description": "2 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Scout Sentinels",
+          "Smoke",
+          "Imperium",
+          "Vehicle",
+          "Walker",
+          "Regiment"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their multi-laser replaced with one of the following:1 autocannon1 heavy flamer1 lascannon1 missile launcher1 plasma cannon|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with 1 Sentinel chainsaw."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -7997,6 +9487,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 440
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Titanic",
+          "Smoke",
+          "Vehicle",
+          "Imperium",
+          "Shadowsword"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
         }
       ]
     },
@@ -8075,6 +9588,30 @@
           "description": "1 model",
           "cost": 460
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Titanic",
+          "Smoke",
+          "Imperium",
+          "Transport",
+          "Stormlord"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
+        }
       ]
     },
     {
@@ -8142,6 +9679,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 495
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Titanic",
+          "Smoke",
+          "Vehicle",
+          "Stormsword",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
         }
       ]
     },
@@ -8221,6 +9781,30 @@
           "description": "1 model",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Wyvern",
+          "Squadron",
+          "Imperium",
+          "Smoke",
+          "Artillery"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -8298,6 +9882,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Vehicle",
+          "Smoke",
+          "Imperium",
+          "Carnodon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Carnodon twin autocannon can be replaced with one of the following:1 Carnodon twin lascannon1 Carnodon twin multi-laser1 volkite culverin|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 autocannons can be replaced with one of the following:2 heavy bolters2 heavy flamers2 lascannons2 Militarum multi-lasers2 volkite calivers|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -8377,6 +9988,29 @@
           "description": "1 model",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Smoke",
+          "Squadron",
+          "Vehicle",
+          "Colossus"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -8444,6 +10078,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 180
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Transport",
+          "Smoke",
+          "Crassus",
+          "Vehicle",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -8532,6 +10186,23 @@
           "description": "1 model",
           "cost": 25
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Cyclops Demolition Vehicle",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -8600,6 +10271,25 @@
           "description": "10 models",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Mounted",
+          "Death Rider Squadron",
+          "Regiment",
+          "Grenades",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Ridemaster’s laspistol can be replaced with one of the following:1 bolt pistol1 plasma pistol|"
+        }
       ]
     },
     {
@@ -8657,6 +10347,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Grenades",
+          "Artillery",
+          "Infantry",
+          "Earthshaker Carriage Battery",
+          "Regiment",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -8725,6 +10435,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 110
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Hades Breaching Drill",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -8804,6 +10531,33 @@
           "description": "1 model",
           "cost": 310
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Macharius",
+          "Smoke",
+          "Titanic",
+          "Imperium",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy stubbers can be replaced with one of the following:2 heavy bolters2 heavy flamers|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -8881,6 +10635,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 285
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Macharius Vanquisher",
+          "Imperium",
+          "Titanic",
+          "Vehicle",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy stubbers can be replaced with one of the following:2 heavy bolters2 heavy flamers|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -8960,6 +10741,33 @@
           "description": "1 model",
           "cost": 310
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Smoke",
+          "Vehicle",
+          "Titanic",
+          "Imperium",
+          "Macharius Vulcan"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy stubbers can be replaced with one of the following:2 heavy bolters2 heavy flamers|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -9037,6 +10845,37 @@
           "line": "1",
           "description": "1 model",
           "cost": 250
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Vehicle",
+          "Malcador",
+          "Smoke",
+          "Squadron"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 autocannons can be replaced with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s heavy bolter can be replaced with one of the following:1 autocannon1 lascannon|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -9116,6 +10955,33 @@
           "description": "1 model",
           "cost": 270
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Malcador Annihilator",
+          "Imperium",
+          "Vehicle",
+          "Smoke",
+          "Squadron"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy bolters can be replaced with one of the following:2 autocannons2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -9193,6 +11059,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 310
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Smoke",
+          "Squadron",
+          "Imperium",
+          "Malcador Defender"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "2 of this model’s heavy bolters can be replaced with one of the following:2 autocannons2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -9272,6 +11165,33 @@
           "description": "1 model",
           "cost": 235
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Malcador Infernus",
+          "Smoke",
+          "Squadron",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy stubbers can be replaced with one of the following:2 autocannons2 heavy bolters2 heavy flamers2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -9329,6 +11249,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 125
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Medusa Carriage Battery",
+          "Regiment",
+          "Grenades",
+          "Imperium",
+          "Artillery",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -9398,6 +11338,25 @@
           "description": "1 model",
           "cost": 275
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Smoke",
+          "Praetor",
+          "Imperium",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -9465,6 +11424,26 @@
           "line": "3",
           "description": "3 models",
           "cost": 105
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Rapier Laser Destroyer Battery",
+          "Imperium",
+          "Regiment",
+          "Grenades",
+          "Artillery",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -9544,6 +11523,37 @@
           "description": "1 model",
           "cost": 415
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Smoke",
+          "Stormblade",
+          "Vehicle",
+          "Titanic"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin heavy bolters can be replaced with 2 twin heavy flamers."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with one of the following:2 lascannons and 2 twin heavy bolters2 lascannons and 2 twin heavy flamers|"
+        }
       ]
     },
     {
@@ -9621,6 +11631,23 @@
           "line": "3",
           "description": "3 models",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Tarantula Battery"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin heavy bolter replaced with 1 twin lascannon."
         }
       ]
     },
@@ -9700,6 +11727,29 @@
           "description": "1 model",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Imperium",
+          "Trojan Support Vehicle",
+          "Vehicle",
+          "Squadron",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -9777,6 +11827,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 285
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Titanic",
+          "Imperium",
+          "Smoke",
+          "Valdor",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s autocannon can be replaced with one of the following:1 heavy bolter1 heavy flamer1 lascannon|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -9856,6 +11933,33 @@
           "description": "1 model",
           "cost": 480
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Titanic",
+          "Imperium",
+          "Smoke",
+          "Arkurian Stormhammer",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 7 multi-lasers can be replaced with one of the following:7 heavy bolters7 heavy flamers7 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -9933,6 +12037,34 @@
           "line": "1",
           "description": "1 model",
           "cost": 105
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Artillery",
+          "Imperium",
+          "Squadron",
+          "Smoke",
+          "Armageddon-pattern Medusa"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 storm bolter1 heavy stubber|"
         }
       ]
     },
@@ -10012,6 +12144,29 @@
           "description": "1 model",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Squadron",
+          "Smoke",
+          "Atlas Recovery Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -10089,6 +12244,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 40
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Squadron",
+          "Transport",
+          "Smoke",
+          "Centaur Light Carrier"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -10191,6 +12366,26 @@
           "description": "10 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Grenades",
+          "Regiment",
+          "Platoon",
+          "Death Korps Grenadier Squad",
+          "Imperium",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Up to 2 Grenadier models can each have their hot-shot lasgun replaced with one of the following:1 flamer1 grenade launcher1 heavy stubber1 meltagun1 plasma gun1 sniper rifle|"
+        }
       ]
     },
     {
@@ -10268,6 +12463,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 325
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Titanic",
+          "Vehicle",
+          "Dominus Armoured Siege Bombard",
+          "Imperium",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy bolters can be replaced with one of the following:2 autocannons2 heavy flamers2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -10356,6 +12578,31 @@
           "description": "1 model",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Elysian Drop Sentinel",
+          "Squadron",
+          "Regiment",
+          "Vehicle",
+          "Smoke",
+          "Imperium",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy flamer1 multi-melta|"
+        }
       ]
     },
     {
@@ -10433,6 +12680,25 @@
           "line": "1",
           "description": "3 models",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Grenades",
+          "Regiment",
+          "Elysian Sniper Squad"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -10512,6 +12778,30 @@
           "description": "1 model",
           "cost": 275
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Titanic",
+          "Imperium",
+          "Smoke",
+          "Transport",
+          "Gorgon Heavy Transport"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 Gorgon mortars can be replaced with one of the following:4 heavy bolters4 heavy flamers4 heavy stubbers|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -10579,6 +12869,30 @@
           "line": "1",
           "description": "1 model",
           "cost": 115
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Smoke",
+          "Artillery",
+          "Squadron",
+          "Griffon Mortar Carrier",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy bolter can be replaced with 1 heavy flamer."
+        },
+        {
+          "line": 2,
+          "description": "This model can each be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -10648,6 +12962,26 @@
           "description": "1 model",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Infantry",
+          "Artillery",
+          "Imperium",
+          "Grenades",
+          "Heavy Mortar Team",
+          "Regiment"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -10715,6 +13049,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Imperium",
+          "Grenades",
+          "Heavy Quad Launcher Team",
+          "Infantry",
+          "Artillery",
+          "Regiment"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -10794,6 +13148,33 @@
           "description": "1 model",
           "cost": 310
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Macharius Omega",
+          "Smoke",
+          "Imperium",
+          "Titanic",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 autocannons2 heavy bolters2 heavy flamers|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -10861,6 +13242,27 @@
           "line": "1",
           "description": "1 model",
           "cost": 225
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Transport",
+          "Smoke",
+          "Squadron",
+          "Artillery",
+          "Imperium",
+          "Vehicle",
+          "Minotaur"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -10934,6 +13336,33 @@
           "line": "1",
           "description": "3 models",
           "cost": 110
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Regiment",
+          "Grenades",
+          "Imperium",
+          "Mounted",
+          "Mukaali Riders"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Mukaali Rider Sergeant’s laspistol can be replaced with 1 plasma pistol."
+        },
+        {
+          "line": 2,
+          "description": "The Mukaali Rider Sergeant’s hunting lance can be replaced with one of the following:1 chainsword1 power weapon|"
+        },
+        {
+          "line": 3,
+          "description": "Up to 2 Mukaali Riders can each have their hunting lance replaced with one of the following:1 flamer1 grenade launcher1 meltagun1 plasma gun|"
         }
       ]
     },
@@ -11012,6 +13441,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 80
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Squadron",
+          "Salamander Command Vehicle",
+          "Smoke",
+          "Imperium",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -11100,6 +13552,29 @@
           "description": "1 model",
           "cost": 95
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Salamander Scout Vehicle",
+          "Smoke",
+          "Imperium",
+          "Vehicle",
+          "Squadron"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
+        }
       ]
     },
     {
@@ -11167,6 +13642,27 @@
           "line": "1",
           "description": "1 model",
           "cost": 55
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Squadron",
+          "Regiment",
+          "Imperium",
+          "Walker",
+          "Vehicle",
+          "Sentinel Powerlifter",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -11245,6 +13741,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 180
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Astra Militarum"
+        ],
+        "other": [
+          "Vehicle",
+          "Smoke",
+          "Imperium",
+          "Stygies Destroyer Tank Hunter",
+          "Squadron"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy stubber1 storm bolter|"
         }
       ]
     },
@@ -11333,6 +13852,29 @@
           "description": "1 model",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Tauros Assault Vehicle",
+          "Regiment",
+          "Tauros",
+          "Imperium",
+          "Mounted"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy flamer can be replaced with 1 Tauros grenade launcher."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        }
       ]
     },
     {
@@ -11410,6 +13952,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 55
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Astra Militarum",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Imperium",
+          "Mounted",
+          "Regiment",
+          "Tauros Venator",
+          "Tauros"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin multi-laser can be replaced with 1 twin lascannon."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -11535,7 +14100,21 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Tyranids"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Vanguard Invader",
+          "Deathleaper",
+          "Great Devourer",
+          "Epic Hero"
+        ]
+      }
     },
     {
       "id": "000003878",
@@ -11640,7 +14219,22 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Parasite of Mortrex",
+          "Infantry",
+          "Character",
+          "Fly"
+        ]
+      }
     },
     {
       "id": "000003879",
@@ -11744,6 +14338,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Character",
+          "Psyker",
+          "Fly",
+          "Great Devourer",
+          "Synapse",
+          "Vanguard Invader",
+          "Hive Tyrant",
+          "Winged Hive Tyrant",
+          "Monster"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s monstrous bonesword and lash whip can be replaced with one of the following:1 heavy venom cannon1 stranglethorn cannon1 monstrous scything talons|"
         }
       ]
     },
@@ -11850,6 +14467,27 @@
           "description": "1 model",
           "cost": 65
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Tyranids"
+        ],
+        "other": [
+          "Winged Tyranid Prime",
+          "Vanguard Invader",
+          "Synapse",
+          "Great Devourer",
+          "Fly",
+          "Character",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -11933,7 +14571,22 @@
           "description": "20 models",
           "cost": 170
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Tyranids"
+        ],
+        "other": [
+          "Vanguard Invader",
+          "Gargoyles",
+          "Great Devourer",
+          "Fly",
+          "Infantry",
+          "Battleline",
+          "Endless Multitude"
+        ]
+      }
     },
     {
       "id": "000003882",
@@ -12020,7 +14673,22 @@
           "description": "1 model",
           "cost": 105
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Monster",
+          "Fly",
+          "Transport",
+          "Dedicated Transport",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Tyrannocyte"
+        ]
+      }
     },
     {
       "id": "000003883",
@@ -12134,7 +14802,19 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Infantry",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Lictor"
+        ]
+      }
     },
     {
       "id": "000003884",
@@ -12212,7 +14892,19 @@
           "description": "1 model",
           "cost": 145
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vanguard Invader",
+          "Mawloc",
+          "Great Devourer",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000003885",
@@ -12335,7 +15027,20 @@
           "description": "1 model",
           "cost": 90
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Infantry",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Neurolictor"
+        ]
+      }
     },
     {
       "id": "000003886",
@@ -12428,6 +15133,24 @@
           "description": "6 models",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Vanguard Invader",
+          "Raveners",
+          "Infantry",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each have their thoracic bio-weapon replaced with 1 armoured thorax."
+        }
       ]
     },
     {
@@ -12506,7 +15229,19 @@
           "description": "1 model",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids",
+          "Genestealer Cults"
+        ],
+        "other": [
+          "Great Devourer",
+          "Vanguard Invader",
+          "Monster",
+          "Trygon"
+        ]
+      }
     },
     {
       "id": "000003888",
@@ -12607,7 +15342,19 @@
           "description": "6 models",
           "cost": 140
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Genestealer Cults",
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Infantry",
+          "Vanguard Invader",
+          "Von Ryan’s Leapers"
+        ]
+      }
     }
   ]
 }

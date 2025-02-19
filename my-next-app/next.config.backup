@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     experimental: {
-      appDir: true, // Ensure this is set
+      serverActions: true, // Keep other experimental options if needed
     },
   };
-  
   export default nextConfig;
   

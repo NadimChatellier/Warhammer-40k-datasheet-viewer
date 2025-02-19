@@ -237,6 +237,37 @@
           "description": "1 model",
           "cost": 95
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Walker",
+          "Fly",
+          "Character",
+          "Battlesuit",
+          "Commander in Coldstar Battlesuit",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s high-output burst cannon can be replaced with one of the following:1 airbursting fragmentation projector*1 battlesuit support system*1 burst cannon1 cyclic ion blaster*1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system*|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to three of the following, and can take duplicates:1 airbursting fragmentation projector*1 battlesuit support system*1 burst cannon1 cyclic ion blaster*1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system* |"
+        },
+        {
+          "line": 4,
+          "description": "* This model cannot have duplicates of these pieces of wargear."
+        }
       ]
     },
     {
@@ -331,6 +362,22 @@
           "line": "3",
           "description": "12 models",
           "cost": 210
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Tactical Drones",
+          "Drone"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -440,6 +487,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Ethereal",
+          "Character",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hover drone."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
         }
       ]
     },
@@ -553,6 +620,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Character",
+          "Cadre Fireblade",
+          "Infantry",
+          "Grenades"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
         }
       ]
     },
@@ -695,7 +779,21 @@
           "description": "1 model",
           "cost": 95
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Epic Hero",
+          "Character",
+          "Fly",
+          "Walker",
+          "Vehicle",
+          "Commander Farsight",
+          "Battlesuit"
+        ]
+      }
     },
     {
       "id": "000000407",
@@ -890,7 +988,20 @@
           "description": "1 model",
           "cost": 100
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Epic Hero",
+          "Fly",
+          "Character",
+          "Commander Shadowsun",
+          "Infantry",
+          "Battlesuit"
+        ]
+      }
     },
     {
       "id": "000000408",
@@ -980,6 +1091,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Ethereal",
+          "Aun’Shi",
+          "Infantry",
+          "Character",
+          "Epic Hero"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -1107,6 +1236,24 @@
           "line": "1",
           "description": "3 models",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Aun’Va",
+          "Ethereal",
+          "Epic Hero",
+          "Character",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -1239,7 +1386,19 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Epic Hero",
+          "Markerlight",
+          "Darkstrider"
+        ]
+      }
     },
     {
       "id": "000000411",
@@ -1385,6 +1544,29 @@
           "description": "10 models",
           "cost": 75
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Infantry",
+          "Battleline",
+          "Grenades",
+          "Fire Warrior",
+          "Strike Team",
+          "Markerlight"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates:1 guardian drone (it cannot take duplicates of this piece of wargear)1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine."
+        }
       ]
     },
     {
@@ -1519,6 +1701,25 @@
           "line": "1",
           "description": "10 models",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Battleline",
+          "Fire Warrior",
+          "Breacher Team",
+          "Markerlight"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates:1 guardian drone (it cannot take duplicates of this piece of wargear)1 gun drone1 marker drone1 shield drone|"
         }
       ]
     },
@@ -1680,6 +1881,27 @@
           "description": "20 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Carnivores",
+          "Kroot"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Long-quill’s Kroot rifle can be replaced with 1 Kroot carbine."
+        },
+        {
+          "line": 2,
+          "description": "For every 10 models in this unit, one Kroot Carnivore’s Kroot rifle can be replaced with 1 Tanglebomb launcher."
+        }
       ]
     },
     {
@@ -1811,6 +2033,23 @@
           "description": "3 models",
           "cost": 90
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Mounted",
+          "Grenades",
+          "Kroot",
+          "Krootox Riders"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their repeater cannon replaced with 1 tanglecannon."
+        }
       ]
     },
     {
@@ -1914,7 +2153,17 @@
           "description": "10 models",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Beasts",
+          "Kroot",
+          "Hounds"
+        ]
+      }
     },
     {
       "id": "000000417",
@@ -2066,6 +2315,31 @@
           "line": "2",
           "description": "6 models",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Stealth",
+          "Battlesuit",
+          "Fly",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Stealth Shas’vre can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 2,
+          "description": "For every 3 models in the unit, 1 model’s burst cannon can be replaced with 1 fusion blaster."
+        },
+        {
+          "line": 3,
+          "description": "For every 3 models in the unit, 1 model can be equipped with 1 battlesuit support system."
         }
       ]
     },
@@ -2294,6 +2568,40 @@
           "description": "6 models",
           "cost": 400
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Crisis",
+          "Battlesuit",
+          "Fly",
+          "Walker",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their burst cannon replaced with one of the following:1 airbursting fragmentation projector*1 battlesuit support system*1 cyclic ion blaster1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system*|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can be equipped with up to two of the following, and can take duplicate1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with up to three of the following, and can take duplicates**:1 airbursting fragmentation projector*1 battlesuit support system*1 burst cannon1 cyclic ion blaster1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system* |"
+        },
+        {
+          "line": 4,
+          "description": "* Each model cannot have duplicates of these pieces of wargear."
+        },
+        {
+          "line": 5,
+          "description": "** Each model cannot be equipped with more than 3 ranged weapons."
+        }
       ]
     },
     {
@@ -2501,6 +2809,33 @@
           "description": "1 model",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Ghostkeel",
+          "Battlesuit",
+          "Smoke",
+          "Walker",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s fusion collider can be replaced with 1 cyclic ion raker."
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin T’au flamer can be replaced with one of the following:1 twin fusion blaster1 twin burst cannon|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one battlesuit support system."
+        }
       ]
     },
     {
@@ -2685,6 +3020,32 @@
           "line": "1",
           "description": "1 model",
           "cost": 190
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Riptide",
+          "Walker",
+          "Vehicle",
+          "Battlesuit",
+          "Fly"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heavy burst cannon can be replaced with 1 ion accelerator."
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin plasma rifles can be replaced with one of the following:1 twin fusion blaster1 twin smart missile system|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to 2 missile drones.|"
         }
       ]
     },
@@ -2911,6 +3272,35 @@
           "description": "10 models",
           "cost": 90
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Pathfinder Team",
+          "Markerlight",
+          "Grenades",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Pathfinder Shas’ui can be equipped with one of the following:1 grav-inhibitor drone1 pulse accelerator drone1 recon drone|"
+        },
+        {
+          "line": 2,
+          "description": "1 model in this unit can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 3,
+          "description": "Up to 3 Pathfinders can each have their pulse carbine replaced with one of the following:1 ion rifle1 rail rifle|"
+        },
+        {
+          "line": 4,
+          "description": "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced."
+        }
       ]
     },
     {
@@ -3082,6 +3472,26 @@
           "description": "3 models",
           "cost": 180
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Piranha",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their Piranha burst cannon can be replaced with 1 Piranha fusion blaster."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with up to 2 seeker missiles."
+        }
       ]
     },
     {
@@ -3233,6 +3643,28 @@
           "line": "1",
           "description": "1 model",
           "cost": 85
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Transport",
+          "Dedicated Transport",
+          "Fly",
+          "Devilfish"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin pulse carbines can be replaced with 2 smart missile systems."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with up to 2 seeker missiles."
         }
       ]
     },
@@ -3396,6 +3828,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Razorshark Strike Fighter",
+          "Vehicle",
+          "Aircraft",
+          "Fly"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s accelerator burst cannon can be replaced with 1 missile pod."
         }
       ]
     },
@@ -3562,6 +4011,23 @@
           "description": "1 model",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Sun Shark Bomber"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s missile pod can be replaced with 1 twin missile pod."
+        }
       ]
     },
     {
@@ -3717,6 +4183,22 @@
           "description": "10 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Infantry",
+          "Vespid Stingwings"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "If this unit contains 10 models:The Vespid Strain Leader can be equipped with 1 Oversight Drone.1 Vespid Stingwing can replace its neutron blaster with 1 T’au flamer1 Vespid Stingwing can replace its neutron blaster with 1 neutron grenade launcher1 Vespid Stingwing can replace its neutron blaster with 1 neutron rail rifle.|"
+        }
       ]
     },
     {
@@ -3852,6 +4334,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 70
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Firesight Team",
+          "Infantry",
+          "Character",
+          "Markerlight"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4003,6 +4502,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 140
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Sky Ray Gunship",
+          "Vehicle",
+          "Markerlight"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin pulse carbines can be replaced with one of the following:2 accelerator burst cannons2 smart missile systems|"
         }
       ]
     },
@@ -4216,6 +4732,32 @@
           "description": "1 model",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Longstrike",
+          "Epic Hero",
+          "Character",
+          "Fly",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s railgun can be replaced with 1 ion cannon."
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 twin pulse carbines can be replaced with one of the following:2 accelerator burst cannons2 twin smart missile systems|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to 2 seeker missiles."
+        }
       ]
     },
     {
@@ -4417,6 +4959,30 @@
           "description": "1 model",
           "cost": 145
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Hammerhead Gunship",
+          "Fly",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s railgun can be replaced with 1 ion cannon."
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 twin pulse carbines can be replaced with one of the following:2 accelerator burst cannons2 smart missile systems|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to 2 seeker missiles."
+        }
       ]
     },
     {
@@ -4598,6 +5164,35 @@
           "line": "3",
           "description": "3 models",
           "cost": 300
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Walker",
+          "Vehicle",
+          "Broadside",
+          "Battlesuit"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their heavy rail rifle replaced with 1 high-yield missile pods."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with up to two of the following, but cannot take duplicates:1 seeker missile1 twin plasma rifle*1 twin smart missile system*1 weapon support system|"
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 missile drone1 shield drone |"
+        },
+        {
+          "line": 4,
+          "description": "* No model can be equipped with both a twin plasma rifle and twin smart missile system at the same time."
         }
       ]
     },
@@ -4835,6 +5430,28 @@
           "description": "1 model",
           "cost": 400
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Stormsurge",
+          "Towering",
+          "Titanic",
+          "Walker",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s pulse driver cannon can be replaced with 1 pulse blast cannon."
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin T’au flamer can be replaced with one of the following:1 twin airbursting fragmentation projector1 twin burst cannon|"
+        }
       ]
     },
     {
@@ -4945,6 +5562,24 @@
           "description": "1 model",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Tidewall Droneport",
+          "Fly",
+          "Transport",
+          "Fortification",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -5044,6 +5679,24 @@
           "line": "2",
           "description": "Tidewall Defence Platform",
           "cost": 20
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fortification",
+          "Tidewall Shieldline",
+          "Fly",
+          "Transport",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 Tidewall defence platform."
         }
       ]
     },
@@ -5145,6 +5798,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Tidewall Gunrig",
+          "Transport",
+          "Vehicle",
+          "Fortification"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -5291,6 +5962,27 @@
           "line": "1",
           "description": "1 model",
           "cost": 80
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Character",
+          "Markerlight",
+          "Epic Hero",
+          "Shas'o R'alai",
+          "Battlesuit",
+          "Walker",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -5453,6 +6145,36 @@
           "description": "2 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "XV9 Hazard"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their fusion cascade replaced with one of the following:1 phased ion gun1 twin hazard burst cannon|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their twin hazard burst cannon replaced with one of the following:1 fusion cascade1 phased ion gun|"
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with one of the following:1 battlesuit support system1 shield generator1 weapon support system|"
+        },
+        {
+          "line": 4,
+          "description": "Any number of models can each be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
+        }
       ]
     },
     {
@@ -5614,6 +6336,24 @@
           "description": "1 model",
           "cost": 210
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "Y’vahra"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 2 missile drones.|"
+        }
       ]
     },
     {
@@ -5735,6 +6475,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "R’varna"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 2 missile drones.|"
         }
       ]
     },
@@ -5951,6 +6709,32 @@
           "description": "1 model",
           "cost": 790
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "Ta’unar Supremacy Armour"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s tri-axis ion cannon can be replaced with 1 fusion eradicator."
+        },
+        {
+          "line": 2,
+          "description": "This model’s fusion eradicator can be replaced with 1 tri-axis ion cannon."
+        },
+        {
+          "line": 3,
+          "description": "This model’s 3 pulse ordnance drivers can be replaced with one of the following:2 nexus missile launchers1 heavy rail cannon array and 1 fragmentation cluster shell launcher|"
+        }
       ]
     },
     {
@@ -6068,6 +6852,23 @@
           "line": "2",
           "description": "4 models",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Tetras",
+          "Markerlight"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -6217,6 +7018,22 @@
           "description": "1 model",
           "cost": 60
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "TX42 Piranha"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 plasma rifles can be replaced with one of the following:2 fusion blasters2 missile pods2 rail rifles|"
+        }
       ]
     },
     {
@@ -6321,6 +7138,22 @@
           "line": "1",
           "description": "2 models",
           "cost": 45
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Heavy Gun Drones",
+          "Fly",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their burst cannon and markerlight replaced with 1 twin burst cannon."
         }
       ]
     },
@@ -6457,6 +7290,23 @@
           "line": "1",
           "description": "2 models",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Markerlight",
+          "Remora Stealth Drones"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -6668,6 +7518,31 @@
           "line": "1",
           "description": "1 model",
           "cost": 220
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Barracuda",
+          "Aircraft",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 long-barrelled burst cannons can be replaced with 2 cyclic ion blasters."
+        },
+        {
+          "line": 2,
+          "description": "This model’s swiftstrike burst cannon can be replaced with one of the following:1 ion cannon1 swiftstrike railgun|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to 4 seeker missiles."
         }
       ]
     },
@@ -6903,6 +7778,35 @@
           "description": "1 model",
           "cost": 325
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Aircraft",
+          "Tiger Shark",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters."
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 ion cannons can be replaced with one of the following:2 swiftstrike burst cannons2 swiftstrike railguns|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to 6 seeker missiles."
+        },
+        {
+          "line": 4,
+          "description": "This model’s transport bay can be replaced with 2 skyspear missile racks."
+        }
       ]
     },
     {
@@ -7077,6 +7981,27 @@
           "description": "1 model",
           "cost": 315
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Aircraft",
+          "Fly",
+          "AX-1-0 Tiger Shark",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 6 seeker missiles."
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters."
+        }
       ]
     },
     {
@@ -7198,6 +8123,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 275
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Aircraft",
+          "Vehicle",
+          "Orca Dropship",
+          "Transport",
+          "Titanic",
+          "Fly"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -7393,6 +8337,26 @@
           "description": "1 model",
           "cost": 2100
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Titanic",
+          "Manta",
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Transport",
+          "Markerlight"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -7468,6 +8432,21 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fortification",
+          "Remote sensor tower"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -7599,6 +8578,22 @@
           "description": "1 model",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Fortification",
+          "Drone Sentry Turret"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin plasma rifle can be replaced with one of the following:1 twin burst cannon1 twin fusion blaster1 twin missile pod|"
+        }
       ]
     },
     {
@@ -7714,6 +8709,22 @@
           "line": "1",
           "description": "3 models",
           "cost": 110
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Kroot",
+          "Mounted",
+          "Knarloc Riders"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -7866,6 +8877,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Monster",
+          "Kroot",
+          "Great Knarloc"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 Kroot bolt thrower and 1 Kroot rifle1 twin Kroot gun1 baggage harness|"
         }
       ]
     },
@@ -8093,6 +9120,37 @@
           "description": "1 model",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Battlesuit",
+          "Walker",
+          "Commander in Crisis Battlesuit",
+          "Vehicle",
+          "Fly",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s burst cannon can be replaced with one of the following:1 airbursting fragmentation projector*1 battlesuit support system*1 cyclic ion blaster1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system*|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to three of the following, and can take duplicates:1 airbursting fragmentation projector*1 battlesuit support system*1 burst cannon1 cyclic ion blaster1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system*|"
+        },
+        {
+          "line": 4,
+          "description": "* This model cannot have duplicates of these pieces of wargear."
+        }
       ]
     },
     {
@@ -8319,6 +9377,37 @@
           "description": "1 model",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Vehicle",
+          "Character",
+          "Battlesuit",
+          "Commander in Enforcer Battlesuit",
+          "Fly",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s burst cannon can be replaced with one of the following:1 airbursting fragmentation projector*1 battlesuit support system*1 cyclic ion blaster*1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system*|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with up to two of the following, and can take duplicates:1 gun drone1 marker drone1 shield drone|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to three of the following, and can take duplicates:1 airbursting fragmentation projector*1 battlesuit support system*1 burst cannon1 cyclic ion blaster*1 fusion blaster1 missile pod1 plasma rifle1 shield generator*1 T’au flamer1 weapon support system* |"
+        },
+        {
+          "line": 4,
+          "description": "* This model cannot have duplicates of these pieces of wargear."
+        }
       ]
     },
     {
@@ -8532,6 +9621,31 @@
           "description": "12 models",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Farstalkers",
+          "Grenades",
+          "Infantry",
+          "Kroot"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Kroot Kill-broker’s Farstalker firearm can be replaced with 1 T’au-tech rifle."
+        },
+        {
+          "line": 2,
+          "description": "1 Kroot Farstalker’s Farstalker firearm can be replaced with one of the following:1 Dvorgite skinner1 Londaxi tribalest|"
+        },
+        {
+          "line": 3,
+          "description": "1 Kroot Farstalker equipped with a Farstalker firearm can be equipped with 1 Pech’ra."
+        }
       ]
     },
     {
@@ -8640,6 +9754,25 @@
           "line": "1",
           "description": "3 models",
           "cost": 150
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Fly",
+          "Crisis",
+          "Sunforge",
+          "Walker",
+          "Vehicle",
+          "Battlesuit"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates:1 gun drone1 marker drone1 shield drone|"
         }
       ]
     },
@@ -8767,6 +9900,33 @@
           "line": "1",
           "description": "3 models",
           "cost": 130
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Walker",
+          "Fireknife",
+          "Crisis",
+          "Battlesuit",
+          "Fly",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their plasma rifle replaced with 1 missile pod."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their missile pod replaced with 1 plasma rifle."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates1 gun drone1 marker drone1 shield drone|"
         }
       ]
     },
@@ -8898,6 +10058,33 @@
           "description": "3 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Starscythe",
+          "Crisis",
+          "Battlesuit",
+          "Fly",
+          "Vehicle",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their burst cannon replaced with 1 T’au flamer."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their T’au flamer replaced with 1 burst cannon."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates1 gun drone1 marker drone1 shield drone|"
+        }
       ]
     },
     {
@@ -9028,7 +10215,19 @@
           "description": "1 model",
           "cost": 55
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Shaper",
+          "Kroot",
+          "Infantry",
+          "Character",
+          "Trail Shaper"
+        ]
+      }
     },
     {
       "id": "000003703",
@@ -9186,6 +10385,24 @@
           "description": "1 model",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Kroot",
+          "Character",
+          "Shaper",
+          "War shaper",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s dart-bow and tri-bade can be replaced with 1 bladestave and prey-hook."
+        }
       ]
     },
     {
@@ -9318,7 +10535,19 @@
           "description": "1 model",
           "cost": 45
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Infantry",
+          "Kroot",
+          "Flesh Shaper",
+          "Shaper",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000003705",
@@ -9480,6 +10709,23 @@
           "description": "1 model",
           "cost": 90
         }
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Mounted",
+          "Lone-Spear",
+          "Kroot",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Kroot long gun can be replaced with 1 blast javelin and 1 hunting javelin."
+        }
       ]
     },
     {
@@ -9596,7 +10842,18 @@
           "description": "6 models",
           "cost": 190
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "T’au Empire"
+        ],
+        "other": [
+          "Krootox Rampagers",
+          "Kroot",
+          "Grenades",
+          "Mounted"
+        ]
+      }
     }
   ]
 }

@@ -6,6 +6,7 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
   const [isImageFull, setIsImageFull] = useState(false);
   const [meleeWeaponsOpen, setMeleeWeaponsOpen] = useState(false);
   const [rangedWeaponsOpen, setRangedWeaponsOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
 
 
   if (!isOpen || !selectedUnit) return null;
@@ -76,7 +77,7 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
           <h3
             className="font-extrabold uppercase tracking-wide drop-shadow-lg overflow-hidden text-ellipsis"
             style={{
-              fontSize: 'clamp(1.2rem, 6vw, 2rem)', // Make the name's font size more dynamic
+              fontSize: 'clamp(1rem, 5vw, 1.5rem)', // Make the name's font size more dynamic
               lineHeight: '1.1', // Adjust line height for better space management
             }}
           >
@@ -96,7 +97,12 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
           {/* Profiles Table (Responsive for Mobile) */}
           {selectedUnit.profiles.map((profile, profileIndex) => (
             <>
-            <p className="text-sm">{selectedUnit.profiles.length > 1 ? profile.name : ""}</p>
+            <p className="text-sm">{selectedUnit.profiles.length > 1 ? profile.name : ""} </p>
+            {profile.invulnerable_save !== "-" && (
+    <span className="text-sm font-semibold text-align: right; text-gray-500 border-b border-dashed border-gray-500 pb-1">
+      {profile.invulnerable_save}++ Invulnerable Save
+    </span>
+  )}
             <table
               key={profileIndex}
               className="w-full text-xs sm:text-sm text-center text-gray-600 border border-gray-700 mt-2"
@@ -345,63 +351,130 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
                   </div>
                 )}
       
-                {/* Loadout */}
-                <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
-                  {selectedUnit.loadout
-                    .split(". ")
-                    .filter((sentence) => sentence.trim() !== "")
-                    .map((sentence, sentenceIndex) => {
-                      const parts = sentence.split(":");
-                      return (
-                        <p key={sentenceIndex} className="mb-1">
-                          <strong
-                            style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
-                          >
-                            {parts[0]}:
-                          </strong>{" "}
-                          {parts[1]
-                            ?.trim()
-                            .split(/[,;]/)
-                            .map((item, index, array) => {
-                              const trimmedItem = item.trim().replace(/\.$/, "");
-                              return (
-                                <span key={index}>
-                                  <span className="cursor-pointer hover:text-yellow-400 transition-colors">
-                                    {trimmedItem}
-                                  </span>
-                                  {index < array.length - 1 ? ", " : "."}
-                                </span>
-                              );
-                            })}
-                        </p>
-                      );
-                    })}
-                </div>
-      
-                 {/* Unit Composition */}
-                 <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
-                 {selectedUnit.compositions && selectedUnit.compositions.length > 0 && (
-                  <div className="mt-2">
-                    <strong
-                      className="text-white"
-                      style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
-                    >
-                      Unit composition(s):
-                    </strong>
-                    <div className="inline-flex flex-wrap gap-2 text-gray-400">
-                      {selectedUnit.compositions.map((comp, index) => (
-                        <span
-                          key={index}
-                          className="cursor-pointer hover:text-yellow-400"
-                          style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
-                        >
-                          {comp.description}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                 </div>
+                
+                 
+                 {/* Keywords */}
+                 {selectedUnit.keywords && (
+  <div className="mt-6 p-4 bg-gray-800 rounded-lg shadow-xl">
+    <h3 className="font-semibold text-white text-xl mb-4" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+      Keywords
+    </h3>
+    
+    <div className="flex flex-col gap-4">
+      {/* Faction Keywords */}
+      {selectedUnit.keywords.faction?.length > 0 && (
+        <div>
+          <h4 className="text-gray-300 text-lg mb-2">Faction Keywords:</h4>
+          <div className="flex flex-wrap gap-2">
+            {selectedUnit.keywords.faction.map((keyword, index) => (
+              <span
+                key={index}
+                className="bg-gray-700 text-gray-300 px-3 py-1 rounded-lg text-sm hover:bg-gray-600 transition duration-300"
+                style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
+              >
+                {keyword}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Other Keywords */}
+      {selectedUnit.keywords.other?.length > 0 && (
+        <div>
+          <h4 className="text-gray-300 text-lg mb-2">Other Keywords:</h4>
+          <div className="flex flex-wrap gap-2">
+            {selectedUnit.keywords.other.map((keyword, index) => (
+              <span
+                key={index}
+                className="bg-gray-700 text-gray-300 px-3 py-1 rounded-lg text-sm hover:bg-gray-600 transition duration-300"
+                style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
+              >
+                {keyword}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+)}
+    {/* More Info Button */}
+    <button
+          onClick={() => setShowMore(!showMore)}
+          className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-500 transition duration-300"
+        >
+          {showMore ? "Show Less" : "More Info"}
+        </button>
+
+        {/* Hidden Content (Only shown when showMore is true) */}
+        {showMore && (
+  <div>
+    {/* Unit Composition */}
+    {selectedUnit.compositions && selectedUnit.compositions.length > 0 && (
+      <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
+        <strong className="text-white" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+          Unit Composition(s):
+        </strong>
+        <div className="inline-flex flex-wrap gap-2 text-gray-400">
+          {selectedUnit.compositions.map((comp, index) => (
+            <span key={index} className="cursor-pointer hover:text-yellow-400" style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}>
+              {comp.description}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {/* Loadout */}
+    <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
+      {selectedUnit.loadout
+        .split(". ")
+        .filter((sentence) => sentence.trim() !== "")
+        .map((sentence, sentenceIndex) => {
+          const parts = sentence.split(":");
+          return (
+            <p key={sentenceIndex} className="mb-1">
+              <strong style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+                {parts[0]}:
+              </strong>{" "}
+              {parts[1]?.trim().split(/[,;]/).map((item, index, array) => {
+                const trimmedItem = item.trim().replace(/\.$/, "");
+                return (
+                  <span key={index}>
+                    <span className="cursor-pointer hover:text-yellow-400 transition-colors">
+                      {trimmedItem}
+                    </span>
+                    {index < array.length - 1 ? ", " : "."}
+                  </span>
+                );
+              })}
+            </p>
+          );
+        })}
+    </div>
+
+    {/* Unit Options */}
+    {selectedUnit.options && selectedUnit.options.length > 0 && (
+      <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
+        <strong className="text-white" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+          Unit Options:
+        </strong>
+        <div className="space-y-2 mt-2">
+          {selectedUnit.options.map((option, index) => (
+            <div key={index} className="bg-gray-800 p-3 rounded-lg hover:bg-gray-700 transition duration-300">
+              <span className="text-gray-400" style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}>
+                {option.description}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+)}
+
+                 
                  
               </div>
             </div>

@@ -95,6 +95,22 @@
           "description": "4 models",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Crusaders",
+          "Imperium",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -210,6 +226,22 @@
           "description": "4 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Death Cult Assassins",
+          "Imperium",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -307,7 +339,18 @@
           "description": "10 models",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Arco-flagellants",
+          "Infantry",
+          "Imperium",
+          "Penitent"
+        ]
+      }
     },
     {
       "id": "000000897",
@@ -470,6 +513,24 @@
           "line": "2",
           "description": "2 models",
           "cost": 150
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Penitent",
+          "Penitent Engines",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:1 penitent buzz-blade and 1 penitent flail1 twin penitent flails|"
         }
       ]
     },
@@ -647,7 +708,22 @@
           "description": "3 models",
           "cost": 160
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Saint Celestine",
+          "Epic Hero",
+          "Character",
+          "Imperium",
+          "Grenades",
+          "Fly",
+          "Jump Pack",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000899",
@@ -884,6 +960,36 @@
           "description": "1 model",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Grenades",
+          "Canoness",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s bolt pistol can be replaced with one of the following:1 condemnor boltgun1 inferno pistol1 plasma pistol|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s hallowed chainsword can be replaced with one of the following:1 blessed blade1 power weapon|"
+        },
+        {
+          "line": 3,
+          "description": "If this model is equipped with a hallowed chainsword, it can be equipped with one of the following:1 brazier of holy fire1 null rod|"
+        },
+        {
+          "line": 4,
+          "description": "If this model is equipped with a plasma pistol and a power weapon, it can be equipped with:1 rod of office|"
+        }
       ]
     },
     {
@@ -1010,7 +1116,19 @@
           "description": "1 model",
           "cost": 65
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Imperium",
+          "Imagifier"
+        ]
+      }
     },
     {
       "id": "000000901",
@@ -1123,7 +1241,18 @@
           "description": "1 model",
           "cost": 50
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Imperium",
+          "Character",
+          "Infantry",
+          "Hospitaller"
+        ]
+      }
     },
     {
       "id": "000000902",
@@ -1236,7 +1365,18 @@
           "description": "1 model",
           "cost": 40
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Dialogus"
+        ]
+      }
     },
     {
       "id": "000000903",
@@ -1558,6 +1698,40 @@
           "description": "10 models",
           "cost": 105
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Battleline",
+          "Infantry",
+          "Battle Sisters Squad",
+          "Grenades",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Sister Superior’s boltgun can be replaced with one of the following:1 bolt pistol1 combi-weapon1 condemnor boltgun1 inferno pistol1 Ministorum hand flamer1 plasma pistol|"
+        },
+        {
+          "line": 2,
+          "description": "The Sister Superior can be equipped with one of the following:1 chainsword1 power weapon|"
+        },
+        {
+          "line": 3,
+          "description": "1 Battle Sister’s boltgun can be replaced with one of the following:1 artificer-crafted storm bolter1 meltagun1 Ministorum flamer|"
+        },
+        {
+          "line": 4,
+          "description": "1 Battle Sister’s boltgun can be replaced with one of the following:1 artificer-crafted storm bolter1 heavy bolter1 meltagun1 Ministorum flamer1 Ministorum heavy flamer1 multi-melta|"
+        },
+        {
+          "line": 5,
+          "description": "1 Battle Sister equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced)."
+        }
       ]
     },
     {
@@ -1750,6 +1924,29 @@
           "description": "10 models",
           "cost": 190
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Seraphim Squad",
+          "Grenades",
+          "Imperium",
+          "Jump Pack",
+          "Fly",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 5 models in the unit, up to 2 Seraphim can each have their 2 bolt pistols replaced with one of the following:2 inferno pistols2 Ministorum hand flamers|"
+        },
+        {
+          "line": 2,
+          "description": "The Seraphim Superior’s 2 bolt pistols can be replaced with one of the following:1 bolt pistol and 1 chainsword1 bolt pistol and 1 plasma pistol1 bolt pistol and 1 power weapon1 plasma pistol and 1 chainsword1 plasma pistol and 1 power weapon|"
+        }
       ]
     },
     {
@@ -1892,7 +2089,19 @@
           "description": "10 models",
           "cost": 180
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Penitent",
+          "Repentia Squad",
+          "Imperium",
+          "Grenades",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000908",
@@ -2163,6 +2372,31 @@
           "line": "1",
           "description": "5 models",
           "cost": 125
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Retributor Squad",
+          "Imperium",
+          "Grenades",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Retributor Superior’s boltgun can be replaced with one of the following:1 bolt pistol1 combi-weapon1 condemnor boltgun1 inferno pistol1 Ministorum hand flamer1 plasma pistol|"
+        },
+        {
+          "line": 2,
+          "description": "The Retributor Superior can be equipped with one of the following:1 chainsword1 power weapon|"
+        },
+        {
+          "line": 3,
+          "description": "Each Retributor’s heavy bolter can be replaced with one of the following:1 Ministorum heavy flamer1 multi-melta|"
         }
       ]
     },
@@ -2468,6 +2702,35 @@
           "description": "10 models",
           "cost": 125
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Dominion Squad",
+          "Grenades"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Dominion Superior’s boltgun can be replaced with one of the following:1 bolt pistol1 combi-weapon1 condemnor boltgun1 inferno pistol1 Ministorum hand flamer1 plasma pistol|"
+        },
+        {
+          "line": 2,
+          "description": "The Dominion Superior can be equipped with one of the following:1 chainsword1 power weapon|"
+        },
+        {
+          "line": 3,
+          "description": "Up to 4 Dominions can each have their boltgun replaced with one of the following:1 artificer-crafted storm bolter1 meltagun1 Ministorum flamer|"
+        },
+        {
+          "line": 4,
+          "description": "1 Dominion equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced)."
+        }
       ]
     },
     {
@@ -2603,6 +2866,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 75
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Vehicle",
+          "Sororitas Rhino",
+          "Imperium",
+          "Smoke",
+          "Dedicated Transport",
+          "Transport"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
         }
       ]
     },
@@ -2773,6 +3055,29 @@
           "description": "1 model",
           "cost": 125
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Smoke",
+          "Transport",
+          "Dedicated Transport",
+          "Imperium",
+          "Immolator",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model’s immolation flamers can be replaced with one of the following:1 twin heavy bolter1 twin multi-melta|"
+        }
       ]
     },
     {
@@ -2927,6 +3232,27 @@
           "line": "1",
           "description": "1 model",
           "cost": 210
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Smoke",
+          "Vehicle",
+          "Imperium",
+          "Exorcist"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model’s Exorcist missile launcher can be replaced with 1 Exorcist conflagration rockets."
         }
       ]
     },
@@ -3093,6 +3419,29 @@
           "description": "1 model",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Transport",
+          "Smoke",
+          "Vehicle",
+          "Repressor",
+          "Imperium",
+          "Dedicated Transport"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy flamer1 storm bolter|"
+        }
       ]
     },
     {
@@ -3240,6 +3589,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Imperium",
+          "Ministorum Priest",
+          "Character",
+          "Infantry",
+          "Penitent"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s zealot’s vindictor can be replaced with 1 holy pistol and 1 power weapon."
         }
       ]
     },
@@ -3409,7 +3776,20 @@
           "description": "1 model",
           "cost": 250
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Imperium",
+          "Triumph of Saint Katherine",
+          "Epic Hero",
+          "Character",
+          "Grenades",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000002064",
@@ -3533,7 +3913,20 @@
           "description": "1 model",
           "cost": 90
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Junith Eruita",
+          "Mounted",
+          "Character",
+          "Fly",
+          "Epic Hero",
+          "Imperium"
+        ]
+      }
     },
     {
       "id": "000002066",
@@ -3683,6 +4076,29 @@
           "line": "2",
           "description": "10 models",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Grenades",
+          "Fly",
+          "Jump Pack",
+          "Zephyrim Squad"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Zephyrim Superior can be equipped with 1 sacred banner."
+        },
+        {
+          "line": 2,
+          "description": "The Zephyrim Superior’s bolt pistol can be replaced with 1 plasma pistol."
         }
       ]
     },
@@ -3870,6 +4286,32 @@
           "description": "2 models",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Imperium",
+          "Mortifiers",
+          "Penitent"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "1 model can be equipped with 1 anchorite sarcophagus."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their 2 heavy bolters replaced with one of the following:1 heavy bolter and 1 Mortifier flamer2 Mortifier flamers|"
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:1 twin penitent flails1 penitent buzz-blade and 1 penitent flail|"
+        }
       ]
     },
     {
@@ -3967,7 +4409,18 @@
           "description": "1 model",
           "cost": 170
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Towering",
+          "Fortification",
+          "Imperium",
+          "Battle Sanctum"
+        ]
+      }
     },
     {
       "id": "000002472",
@@ -4106,6 +4559,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Imperium",
+          "Palatine",
+          "Infantry",
+          "Character",
+          "Grenades"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s bolt pistol can be replaced with 1 plasma pistol."
         }
       ]
     },
@@ -4278,7 +4749,20 @@
           "description": "1 model",
           "cost": 170
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Epic Hero",
+          "Vehicle",
+          "Walker",
+          "Imperium",
+          "Morvenn Vahl",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000002480",
@@ -4420,7 +4904,21 @@
           "description": "2 models",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Aestred Thurga",
+          "Agathae Dolan"
+        ]
+      }
     },
     {
       "id": "000002481",
@@ -4606,6 +5104,31 @@
           "description": "10 models",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Celestian Sacresants",
+          "Infantry",
+          "Grenades",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their hallowed mace replaced with 1 anointed halberd."
+        },
+        {
+          "line": 2,
+          "description": "The Sacresant Superior’s bolt pistol can be replaced with one of the following:1 inferno pistol1 Ministorum hand flamer1 plasma pistol|"
+        },
+        {
+          "line": 3,
+          "description": "The Sacresant Superior’s hallowed mace can be replaced with 1 spear of the faithful."
+        }
       ]
     },
     {
@@ -4719,7 +5242,19 @@
           "description": "1 model",
           "cost": 45
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Dogmata",
+          "Grenades",
+          "Character",
+          "Imperium"
+        ]
+      }
     },
     {
       "id": "000002483",
@@ -4896,6 +5431,32 @@
           "description": "3 models",
           "cost": 220
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Walker",
+          "Grenades",
+          "Imperium",
+          "Paragon Warsuits",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their Paragon storm bolters replaced with 1 Paragon grenade launchers."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their Paragon war blade replaced with 1 Paragon war mace."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each have their heavy bolter replaced with one of the following:1 Ministorum heavy flamer1 multi-melta|"
+        }
       ]
     },
     {
@@ -5063,6 +5624,31 @@
           "line": "1",
           "description": "1 model",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Smoke",
+          "Imperium",
+          "Castigator",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Castigator autocannons can be replaced with 1 Castigator battle cannon."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
         }
       ]
     },
@@ -5307,6 +5893,39 @@
           "description": "10 models",
           "cost": 100
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Sisters Novitiate Squad",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Novitiate Superior’s bolt pistol and boltgun can be replaced with one of the following:1 bolt pistol and 1 power weapon1 plasma pistol and 1 power weapon|"
+        },
+        {
+          "line": 2,
+          "description": "1 Sister Novitiate’s autogun can be replaced with 1 sacred banner."
+        },
+        {
+          "line": 3,
+          "description": "1 Sister Novitiate’s autogun can be replaced with 1 simulacrum imperialis."
+        },
+        {
+          "line": 4,
+          "description": "Up to 2 Sisters Novitiate can each have their autogun replaced with 1 Ministorum flamer."
+        },
+        {
+          "line": 5,
+          "description": "Any number of Sisters Novitiate can each have their autogun and close combat weapon replaced with 1 Novitiate melee weapons."
+        }
       ]
     },
     {
@@ -5472,7 +6091,20 @@
           "description": "2 models",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Epic Hero",
+          "Imperium",
+          "Daemonifuge",
+          "Infantry",
+          "Grenades",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000003714",
@@ -5620,6 +6252,26 @@
           "description": "1 model",
           "cost": 75
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Jump Pack",
+          "Infantry",
+          "Character",
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Canoness"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s blessed halberd can be replaced with one of the following:1 holy eviscerator1 Ministorum hand flamer and 1 power weapon|"
+        }
       ]
     },
     {
@@ -5743,6 +6395,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 45
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adepta Sororitas"
+        ],
+        "other": [
+          "Grenades",
+          "Epic Hero",
+          "Infantry",
+          "Celestian Sacresant Aveline",
+          "Character",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     }

@@ -592,6 +592,102 @@ async function parseUnitCosts() {
   });
 }
 
+
+async function parseUnitKeywords() {
+  const keywordFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_keywords.csv');
+  console.log(`Keyword File Path: ${keywordFilePath}`);
+
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(keywordFilePath)
+      .pipe(csv({ separator: '|', headers: ['datasheet_id', 'keyword', 'model', 'is_faction_keyword'] }))
+      .on('data', (row) => {
+        const { datasheet_id, keyword, is_faction_keyword } = row;
+        console.log(`🔍 Searching for datasheet_id: ${datasheet_id}`);
+
+        // Find the unit in factionDataMap
+        const result = findUnitById(datasheet_id);
+        if (!result) {
+          console.log(`⚠️ Skipping: No faction contains unit_id: ${datasheet_id}`);
+          return;
+        }
+
+        const { unit, factionKey } = result;
+
+        // Ensure keywords object exists in the unit
+        if (!unit.keywords) {
+          unit.keywords = { faction: [], other: [] };
+        }
+
+        // Add the keyword to the correct array
+        if (is_faction_keyword.toLowerCase() === 'true') {
+          if (!unit.keywords.faction.includes(keyword)) {
+            unit.keywords.faction.push(keyword);
+          }
+        } else {
+          if (!unit.keywords.other.includes(keyword)) {
+            unit.keywords.other.push(keyword);
+          }
+        }
+
+        console.log(`✅ Added keyword "${keyword}" to unit ${datasheet_id} in faction ${factionKey}`);
+      })
+      .on('end', () => {
+        console.log('🎉 Unit keywords successfully parsed and assigned.');
+        resolve();
+      })
+      .on('error', (err) => {
+        console.log(`❌ Error reading keyword file: ${err.message}`);
+        reject(err);
+      });
+  });
+}
+
+async function parseUnitOptions() {
+  const optionsFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_options.csv');
+  console.log(`Options File Path: ${optionsFilePath}`);
+
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(optionsFilePath)
+      .pipe(csv({ separator: '|', headers: ['datasheet_id', 'line', 'button', 'description'] }))
+      .on('data', (row) => {
+        const { datasheet_id, line, description } = row;
+        console.log(`🔍 Searching for datasheet_id: ${datasheet_id}`);
+
+        // Find the unit in factionDataMap
+        const result = findUnitById(datasheet_id);
+        if (!result) {
+          console.log(`⚠️ Skipping: No faction contains unit_id: ${datasheet_id}`);
+          return;
+        }
+
+        const { unit, factionKey } = result;
+
+        // Ensure the options array exists
+        if (!unit.options) {
+          unit.options = [];
+        }
+
+        // Clean up and push the new option
+        const cleanedDescription = cleanText(description);
+        unit.options.push({
+          line: parseInt(line, 10), // Ensure line is a number
+          description: cleanedDescription,
+        });
+
+        console.log(`✅ Added option to unit ${datasheet_id} in faction ${factionKey}`);
+      })
+      .on('end', () => {
+        console.log('🎉 Unit options successfully parsed and assigned.');
+        resolve();
+      })
+      .on('error', (err) => {
+        console.log(`❌ Error reading options file: ${err.message}`);
+        reject(err);
+      });
+  });
+}
+
+
 // Function to parse unit compositions and update factionDataMap
 async function parseUnitCompositions() {
   const unitCompositionFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_unit_composition.csv');
@@ -677,6 +773,8 @@ async function processWarhammerData() {
     await parseUnitAbilities(); // <-- Add this step
     await parseUnitCompositions();
     await parseUnitCosts();
+    await parseUnitKeywords()
+    await parseUnitOptions();
     await writeFactionFiles();
   } catch (error) {
     console.error('❌ Process failed:', error);

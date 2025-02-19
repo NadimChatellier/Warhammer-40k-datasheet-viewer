@@ -153,6 +153,27 @@
           "description": "1 model",
           "cost": 75
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Grenades",
+          "Infantry",
+          "Character",
+          "Warboss"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s big choppa can be replaced with 1 power klaw."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 attack squig."
+        }
       ]
     },
     {
@@ -266,7 +287,19 @@
           "description": "1 model",
           "cost": 90
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Warboss",
+          "Warboss in Mega Armour",
+          "Mega Armour",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000003",
@@ -403,6 +436,24 @@
           "description": "1 model",
           "cost": 75
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Warboss",
+          "Grenades",
+          "Speed Freeks",
+          "Character",
+          "Mounted"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s killsaw can be replaced with one of the following:1 big choppa1 power klaw|"
+        }
       ]
     },
     {
@@ -528,7 +579,18 @@
           "description": "1 model",
           "cost": 65
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Psyker",
+          "Weirdboy",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000006",
@@ -711,6 +773,32 @@
           "line": "1",
           "description": "1 model",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Big Mek in Mega Armour",
+          "Character",
+          "Mek",
+          "Mega Armour"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s kustom-mega blasta can be replaced with one of the following:1 killsaw1 kombi-weapon1 kustom shoota|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 tellyport blasta1 kustom force field|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 grot oiler."
         }
       ]
     },
@@ -963,6 +1051,29 @@
           "description": "1 model",
           "cost": 105
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Speed Freeks",
+          "Grenades",
+          "Big Mek",
+          "Big Mek on Warbike",
+          "Mounted",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s slugga can be replaced with one of the following:1 shokk attack gun1 kustom force field1 kombi-weapon1 kustom mega-blasta1 kustom mega-slugga1 rokkit launcha1 big choppa1 power klaw|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s choppa can be replaced with one of the following:1 kombi-weapon1 kustom mega-blasta1 kustom mega-slugga1 rokkit launcha1 big choppa1 killsaw1 power klaw|"
+        }
       ]
     },
     {
@@ -1128,7 +1239,19 @@
           "description": "2 models",
           "cost": 235
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Ghazghkull Thraka",
+          "Warboss",
+          "Epic Hero",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000009",
@@ -1270,6 +1393,23 @@
           "description": "1 model",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Kaptin Badrukk",
+          "Epic Hero",
+          "Character",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -1400,6 +1540,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Jump Pack",
+          "Infantry",
+          "Boss Zagstruk",
+          "Epic Hero",
+          "Character",
+          "Fly"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -1544,7 +1703,20 @@
           "description": "1 model",
           "cost": 95
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Grenades",
+          "Smoke",
+          "Epic Hero",
+          "Boss Snikrot"
+        ]
+      }
     },
     {
       "id": "000000012",
@@ -1669,6 +1841,22 @@
           "description": "1 model",
           "cost": 45
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Mek"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s wrench can be replaced with 1 killsaw."
+        }
       ]
     },
     {
@@ -1792,6 +1980,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 80
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Painboy"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 grot orderly."
         }
       ]
     },
@@ -1934,6 +2138,23 @@
           "description": "1 model",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Speed Freeks",
+          "Mounted",
+          "Painboy on Warbike",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s power klaw can be replaced with 1 killsaw."
+        }
       ]
     },
     {
@@ -2072,6 +2293,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Painboy",
+          "Epic Hero",
+          "Character",
+          "Mad Dok Grotsnik"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -2287,6 +2526,36 @@
           "description": "20 models",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Mob",
+          "Grenades",
+          "Boyz",
+          "Infantry",
+          "Battleline"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Boss Nob’s big choppa can be replaced with 1 power klaw."
+        },
+        {
+          "line": 2,
+          "description": "The Boss Nob’s big choppa and slugga can be replaced with 1 kombi-weapon and 1 close combat weapon."
+        },
+        {
+          "line": 3,
+          "description": "Any number of Boyz can each have their slugga and choppa replaced with 1 shoota and 1 close combat weapon."
+        },
+        {
+          "line": 4,
+          "description": "For every 10 models in this unit, 1 Boy’s choppa and slugga can be replaced with one of the following:1 big shoota and 1 close combat weapon1 rokkit launcha and 1 close combat weapon|"
+        }
       ]
     },
     {
@@ -2442,7 +2711,17 @@
           "description": "22 models",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Gretchin",
+          "Grots",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000019",
@@ -2596,6 +2875,21 @@
           "line": "2",
           "description": "2 Spanners and 8 Burna Boyz",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Burna Boyz"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of Spanners can each have their big shoota replaced with one of the following:1 kustom mega-blasta1 rokkit launcha|"
         }
       ]
     },
@@ -2763,6 +3057,26 @@
           "description": "6 models",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Tankbustas",
+          "Grenades",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "1 of the Boss Nob’s rokkit pistols can be replaced with 1 smash hammer."
+        },
+        {
+          "line": 2,
+          "description": "One Tankbusta can be equipped with one of the following:1 pulsa rokkit1 additional rokkit launcha|"
+        }
       ]
     },
     {
@@ -2914,6 +3228,30 @@
           "description": "10 models",
           "cost": 210
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Grenades",
+          "Infantry",
+          "Nobz"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their big choppa replaced with 1 power klaw."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their slugga and big choppa replaced with 1 kombi-weapon and 1 close combat weapon."
+        },
+        {
+          "line": 3,
+          "description": "For every 5 models in this unit, this unit can be equipped with 1 ammo runt."
+        }
       ]
     },
     {
@@ -3026,6 +3364,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 70
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Nob with Waaagh! Banner"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -3203,6 +3557,27 @@
           "description": "3 models",
           "cost": 125
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Nobz on Warbikes",
+          "Mounted",
+          "Speed Freeks",
+          "Grenades"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each be equipped with 1 slugga."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their choppa replaced with one of the following:1 big choppa1 killsaw1 power klaw1 power stabba1 slugga|"
+        }
       ]
     },
     {
@@ -3350,6 +3725,23 @@
           "line": "4",
           "description": "6 models",
           "cost": 210
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Meganobz",
+          "Mega Armour"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their kustom shoota and power klaw replaced with one of the following:1 kombi-weapon and 1 power klaw1 kombi-weapon and 1 killsaw1 kustom shoota and 1 killsaw1 killsaw and 1 power klaw1 twin killsaw|"
         }
       ]
     },
@@ -3585,6 +3977,47 @@
           "description": "10 models",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Grenades",
+          "Smoke",
+          "Kommandos",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Boss Nob’s choppa can be replaced with one of the following:1 big choppa1 power klaw|"
+        },
+        {
+          "line": 2,
+          "description": "Up to 2 Kommandos can each have their slugga and choppa replaced with 1 speshul Kommando shoota and 1 close combat weapon."
+        },
+        {
+          "line": 3,
+          "description": "1 Kommando’s slugga and choppa can be replaced with 1 breacha ram."
+        },
+        {
+          "line": 4,
+          "description": "1 Kommando’s slugga and choppa can be replaced with 1 burna and 1 close combat weapon."
+        },
+        {
+          "line": 5,
+          "description": "1 Kommando’s slugga and choppa can be replaced with 1 rokkit launcha and 1 close combat weapon."
+        },
+        {
+          "line": 6,
+          "description": "This unit can be equipped with 1 bomb squig."
+        },
+        {
+          "line": 7,
+          "description": "This unit can be equipped with 1 distraction grot."
+        }
       ]
     },
     {
@@ -3710,6 +4143,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Dedicated Transport",
+          "Vehicle",
+          "Transport",
+          "Trukk"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 wreckin’ ball."
         }
       ]
     },
@@ -3849,6 +4299,24 @@
           "description": "10 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Jump Pack",
+          "Fly",
+          "Grenades",
+          "Stormboyz"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Boss Nob’s choppa can be replaced with 1 power klaw."
+        }
       ]
     },
     {
@@ -3985,6 +4453,24 @@
           "description": "6 models",
           "cost": 180
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Speed Freeks",
+          "Vehicle",
+          "Fly",
+          "Grenades",
+          "Deffkoptas"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 3 models in this unit, 1 Deffkopta can have its kopta rokkits replaced with 1 kustom mega-blasta."
+        }
       ]
     },
     {
@@ -4090,6 +4576,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 135
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Aircraft",
+          "Speed Freeks",
+          "Dakkajet"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 additional twin supa-shoota."
         }
       ]
     },
@@ -4225,6 +4729,24 @@
           "description": "1 model",
           "cost": 125
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Aircraft",
+          "Speed Freeks",
+          "Burna-bommer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 skorcha missile rack."
+        }
       ]
     },
     {
@@ -4344,7 +4866,19 @@
           "description": "1 model",
           "cost": 115
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Blitza-bommer",
+          "Speed Freeks",
+          "Fly",
+          "Aircraft",
+          "Vehicle"
+        ]
+      }
     },
     {
       "id": "000000032",
@@ -4501,6 +5035,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 175
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Aircraft",
+          "Fly",
+          "Grenades",
+          "Speed Freeks",
+          "Wazbom Blastajet",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin wazbom mega-kannon can be replaced with 1 twin tellyport mega-blasta."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 blastajet force field."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 twin supa-shoota."
         }
       ]
     },
@@ -4667,6 +5228,27 @@
           "description": "6 models",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Grenades",
+          "Mounted",
+          "Speed Freeks",
+          "Warbikers"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Each Warbiker can be equipped with one of the following:1 slugga1 choppa|"
+        },
+        {
+          "line": 2,
+          "description": "The Boss Nob on Warbike can be equipped with one of the following:1 slugga1 big choppa1 power klaw|"
+        }
       ]
     },
     {
@@ -4790,6 +5372,22 @@
           "description": "2 models",
           "cost": 100
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Mounted",
+          "Speed Freeks",
+          "Wartrakks"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin big shoota replaced with 1 rack of rokkits."
+        }
       ]
     },
     {
@@ -4899,6 +5497,22 @@
           "line": "2",
           "description": "2 models",
           "cost": 90
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Skorchas",
+          "Mounted",
+          "Speed Freeks"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -5022,6 +5636,22 @@
           "line": "2",
           "description": "2 models",
           "cost": 80
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Mounted",
+          "Speed Freeks",
+          "Warbuggies"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin big shoota replaced with 1 rack of rokkits."
         }
       ]
     },
@@ -5174,6 +5804,23 @@
           "line": "2",
           "description": "2 models",
           "cost": 40
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Artillery",
+          "Grots",
+          "Big Gunz"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their kannon replaced with one of the following:1 lobba1 zzap gun|"
         }
       ]
     },
@@ -5358,6 +6005,22 @@
           "line": "3",
           "description": "3 models",
           "cost": 150
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Grots",
+          "Mek Gunz"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Each model’s smasha gun can be replaced with one of the following:1 bubblechukka1 kustom mega-kannon1 traktor kannon|"
         }
       ]
     },
@@ -5581,6 +6244,38 @@
           "description": "1 model",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Transport",
+          "Battlewagon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 kannon1 killkannon1 zzap gun|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with:1 lobba|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with up to 4 big shootas."
+        },
+        {
+          "line": 4,
+          "description": "This model’s tracks and wheels can be replaced with 1 deff rolla."
+        },
+        {
+          "line": 5,
+          "description": "This model can be equipped with any of the following:1 ’ard case1 grabbin’ klaw1 wreckin’ ball|"
+        }
       ]
     },
     {
@@ -5748,6 +6443,26 @@
           "description": "1 model",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Walker",
+          "Deff Dread",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s big shootas can each be replaced with one of the following:1 dread klaw1 kustom-mega blasta1 rokkit launcha1 skorcha|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s dread klaws can each be replaced with one of the following:1 big shoota1 kustom-mega blasta1 rokkit launcha1 skorcha|"
+        }
       ]
     },
     {
@@ -5898,6 +6613,23 @@
           "line": "2",
           "description": "6 models",
           "cost": 250
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Walker",
+          "Vehicle",
+          "Grots",
+          "Killa Kans"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Each Killa Kan’s Kan shoota can be replaced with one of the following:1 grotzooka1 rokkit launcha1 skorcha|"
         }
       ]
     },
@@ -6064,7 +6796,20 @@
           "description": "1 model",
           "cost": 280
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Towering",
+          "Walker",
+          "Morkanaut",
+          "Titanic",
+          "Transport"
+        ]
+      }
     },
     {
       "id": "000000043",
@@ -6229,7 +6974,20 @@
           "description": "1 model",
           "cost": 265
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Gorkanaut",
+          "Transport",
+          "Walker",
+          "Titanic",
+          "Vehicle",
+          "Towering"
+        ]
+      }
     },
     {
       "id": "000000044",
@@ -6373,6 +7131,21 @@
           "description": "2 Spanners and 8 Lootas",
           "cost": 100
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Lootas"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of Spanners can each have their big shoota replaced with one of the following:1 kustom mega-blasta1 rokkit launcha|"
+        }
       ]
     },
     {
@@ -6487,6 +7260,22 @@
           "line": "2",
           "description": "10 models",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Flash Gitz",
+          "Grenades",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This unit can be equipped with 1 ammo runt."
         }
       ]
     },
@@ -6679,7 +7468,20 @@
           "description": "1 model",
           "cost": 800
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Towering",
+          "Walker",
+          "Stompa",
+          "Vehicle",
+          "Titanic",
+          "Transport"
+        ]
+      }
     },
     {
       "id": "000000049",
@@ -6840,6 +7642,26 @@
           "line": "2",
           "description": "8 models",
           "cost": 310
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Grots",
+          "Grot Tanks",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their big shoota replaced with one of the following:1 grotzooka1 kustom mega-blasta1 rokkit launcha1 skorcha|"
+        },
+        {
+          "line": 2,
+          "description": "For every four models in this unit, one model can be equipped with one of the following in addition to any other weapons:1 big shoota1 grotzooka1 kustom mega-blasta1 rokkit launcha1 skorcha|"
         }
       ]
     },
@@ -7016,6 +7838,26 @@
           "description": "1 model",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Grots",
+          "Grot Mega-tank"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin big shoota can be replaced with one of the following:1 twin grotzooka1 twin kustom mega-blasta1 twin rokkit launcha1 twin skorcha|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin grotzooka can be replaced with one of the following:1 twin big shoota1 twin kustom mega-blasta1 twin rokkit launcha1 twin skorcha|"
+        }
       ]
     },
     {
@@ -7151,6 +7993,22 @@
           "description": "1 model",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Squiggoth",
+          "Transport",
+          "Monster"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 kannon."
+        }
       ]
     },
     {
@@ -7283,6 +8141,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 210
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Meka-Dread",
+          "Walker",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s killkannon can be replaced with one of the following:1 dread killsaw1 dread rippa klaw|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s dread rippa klaw can be replaced with one of the following:1 dread killsaw1 killkannon|"
         }
       ]
     },
@@ -7451,6 +8329,33 @@
           "description": "1 model",
           "cost": 135
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Lifta Wagon",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s tracks and wheels can be replaced with 1 deff rolla."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 grabbin’ klaw."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 wreckin’ ball."
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with one of the following:1 big shoota2 big shootas1 big shoota and 1 rokkit launcha1 rokkit launcha2 rokkit launchas|"
+        }
       ]
     },
     {
@@ -7612,6 +8517,22 @@
           "description": "1 model",
           "cost": 90
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Big Trakk",
+          "Transport",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 kannon1 supa-kannon|"
+        }
       ]
     },
     {
@@ -7748,6 +8669,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 115
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Transport",
+          "Vehicle",
+          "Kannonwagon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 3 big shootas."
         }
       ]
     },
@@ -7893,6 +8830,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 295
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Kill Tank",
+          "Transport",
+          "Titanic"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s bursta kannon can be replaced with 1 giga shoota."
         }
       ]
     },
@@ -8090,6 +9044,32 @@
           "description": "1 model",
           "cost": 105
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Fly",
+          "Chinork Warkopta",
+          "Speed Freeks",
+          "Transport",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 2 big bomms."
+        },
+        {
+          "line": 2,
+          "description": "This model’s big shoota can be replaced with one of the following:1 kustom mega-blasta1 rokkit launcha1 skorcha|"
+        },
+        {
+          "line": 3,
+          "description": "This model’s 2 deffguns can be replaced with 2 rattler kannons."
+        }
       ]
     },
     {
@@ -8249,6 +9229,24 @@
           "description": "1 model",
           "cost": 440
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Gargantuan Squiggoth",
+          "Transport",
+          "Towering",
+          "Titanic",
+          "Monster"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 kannon1 supa-kannon|"
+        }
       ]
     },
     {
@@ -8354,6 +9352,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Mounted",
+          "Speed Freeks",
+          "Grots",
+          "Grot Bomm Launcha"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -8480,6 +9495,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Fly",
+          "Attack Fighta",
+          "Speed Freeks",
+          "Aircraft",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 wing missiles."
         }
       ]
     },
@@ -8630,6 +9663,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Speed Freeks",
+          "Aircraft",
+          "Vehicle",
+          "Fly",
+          "Fighta-bommer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 Grot-guided bomms2 wing missilesSmall bomms|"
         }
       ]
     },
@@ -8836,6 +9887,35 @@
           "description": "1 model",
           "cost": 250
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Titanic",
+          "Deff Rolla Battle Fortress",
+          "Transport",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 5 big shootas."
+        },
+        {
+          "line": 2,
+          "description": "Each of this model’s zzap guns can be replaced with one of the following:1 lobba1 kannon|"
+        },
+        {
+          "line": 3,
+          "description": "This model’s kannon can be replaced with one of the following:1 lobba1 zzap gun|"
+        },
+        {
+          "line": 4,
+          "description": "Each of this model’s twin big shootas can be replaced with one of the following:1 skorcha1 rokkit launcha|"
+        }
       ]
     },
     {
@@ -9003,6 +10083,27 @@
           "description": "1 model",
           "cost": 230
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Kill Krusha",
+          "Transport",
+          "Titanic",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 twin big shoota2 rokkit launchas1 skorcha|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 twin big shoota2 rokkit launchas1 skorcha|"
+        }
       ]
     },
     {
@@ -9126,6 +10227,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Mek",
+          "Big Mek with Shokk Attack Gun"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 grot assistant."
         }
       ]
     },
@@ -9276,7 +10395,19 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Mounted",
+          "Warboss",
+          "Speed Freeks",
+          "Character",
+          "Deffkilla Wartrike"
+        ]
+      }
     },
     {
       "id": "000001538",
@@ -9409,7 +10540,18 @@
           "description": "1 model",
           "cost": 75
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Grenades",
+          "Speed Freeks",
+          "Kustom Boosta-blasta"
+        ]
+      }
     },
     {
       "id": "000001539",
@@ -9528,7 +10670,17 @@
           "description": "1 model",
           "cost": 75
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Speed Freeks",
+          "Shokkjump Dragsta"
+        ]
+      }
     },
     {
       "id": "000001540",
@@ -9660,7 +10812,18 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Speed Freeks",
+          "Boomdakka Snazzwagon",
+          "Grenades"
+        ]
+      }
     },
     {
       "id": "000001541",
@@ -9789,7 +10952,17 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Speed Freeks",
+          "Megatrakk Scrapjet"
+        ]
+      }
     },
     {
       "id": "000001542",
@@ -9917,7 +11090,17 @@
           "description": "1 model",
           "cost": 100
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Speed Freeks",
+          "Rukkatrukk Squigbuggy",
+          "Vehicle"
+        ]
+      }
     },
     {
       "id": "000001545",
@@ -10012,6 +11195,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 80
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Fortification",
+          "Vehicle",
+          "Mekboy Workshop"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -10128,6 +11327,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 40
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Grots",
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Epic Hero",
+          "Da Red Gobbo"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -10251,6 +11469,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 55
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Big Mek with Kustom Force Field",
+          "Big Mek",
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Mek"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 grot helper."
         }
       ]
     },
@@ -10398,6 +11635,26 @@
           "description": "1 model",
           "cost": 225
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Walker",
+          "Vehicle",
+          "Mega Dread"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s killkannon can be replaced with one of the following:1 dread killsaw1 dread rippa klaw|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s dread rippa klaw can be replaced with one of the following:1 dread killsaw1 killkannon|"
+        }
       ]
     },
     {
@@ -10521,7 +11778,18 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Zodgrod Wortsnagga",
+          "Epic Hero"
+        ]
+      }
     },
     {
       "id": "000002489",
@@ -10660,7 +11928,19 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Beastboss",
+          "Warboss",
+          "Beast Snagga",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000002490",
@@ -10812,6 +12092,24 @@
           "description": "1 model",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Beastboss on Squigosaur",
+          "Warboss",
+          "Character",
+          "Mounted",
+          "Beast Snagga"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 thump gun."
+        }
       ]
     },
     {
@@ -10932,6 +12230,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 70
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Beast Snagga",
+          "Infantry",
+          "Character",
+          "Painboss"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 grot orderly."
         }
       ]
     },
@@ -11064,7 +12379,19 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Psyker",
+          "Wurrboy",
+          "Beast Snagga"
+        ]
+      }
     },
     {
       "id": "000002493",
@@ -11203,7 +12530,20 @@
           "description": "1 model",
           "cost": 165
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Warboss",
+          "Mozrog Skragbad",
+          "Mounted",
+          "Character",
+          "Beast Snagga",
+          "Epic Hero"
+        ]
+      }
     },
     {
       "id": "000002494",
@@ -11364,6 +12704,24 @@
           "line": "2",
           "description": "20 models",
           "cost": 190
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Beast Snagga Boyz",
+          "Beast Snagga",
+          "Battleline",
+          "Mob"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 10 models in this unit, 1 Beast Snagga Boy’s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon."
         }
       ]
     },
@@ -11561,6 +12919,23 @@
           "description": "8 models",
           "cost": 320
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Mounted",
+          "Beast Snagga",
+          "Grenades",
+          "Squighog Boyz"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 3 models in this unit, this unit can be equipped with 1 bomb squig."
+        }
       ]
     },
     {
@@ -11744,7 +13119,19 @@
           "description": "1 model",
           "cost": 155
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Psyker",
+          "Beast Snagga",
+          "Kill Rig",
+          "Vehicle",
+          "Transport"
+        ]
+      }
     },
     {
       "id": "000002498",
@@ -11921,7 +13308,18 @@
           "description": "1 model",
           "cost": 135
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Beast Snagga",
+          "Hunta Rig",
+          "Transport"
+        ]
+      }
     },
     {
       "id": "000002499",
@@ -12066,6 +13464,23 @@
           "line": "1",
           "description": "1 model",
           "cost": 135
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Transport",
+          "Fortification",
+          "Big’ed Bossbunka"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with up to 3 additional big shootas."
         }
       ]
     },
@@ -12223,6 +13638,27 @@
           "description": "3 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Grenades",
+          "Deffkoptas with Big Shootas"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin big shoota replaced with one of the following:1 kopta rockets1 kustom mega-blasta|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with 1 killsaw."
+        }
       ]
     },
     {
@@ -12345,7 +13781,20 @@
           "description": "1 model",
           "cost": 40
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Epic Hero",
+          "Gretchin",
+          "Grenades",
+          "Da Red Gobbo"
+        ]
+      }
     },
     {
       "id": "000003692",
@@ -12475,7 +13924,20 @@
           "description": "1 model",
           "cost": 40
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Character",
+          "Grotmas Gitz",
+          "Mounted",
+          "Epic Hero",
+          "Gretchin",
+          "Fly"
+        ]
+      }
     },
     {
       "id": "000003707",
@@ -12613,6 +14075,28 @@
           "description": "1 model",
           "cost": 70
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Big Mek",
+          "Mek"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s kustom mega-blasta can be replaced with 1 traktor blasta."
+        },
+        {
+          "line": 2,
+          "description": "This model’s power klaw can be replaced with 1 drilla."
+        }
       ]
     },
     {
@@ -12742,6 +14226,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 70
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Epic Hero",
+          "Warboss",
+          "Ufthak Blackhawk"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -12905,6 +14408,30 @@
           "line": "1",
           "description": "6 models",
           "cost": 140
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Orks"
+        ],
+        "other": [
+          "Breaka Boyz",
+          "Grenades",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Boss Nob’s smash hammer can be replaced with 1 rokkit pistol."
+        },
+        {
+          "line": 2,
+          "description": "One Breaka Boy’s smash hammer can be replaced with 1 knucklebustas."
+        },
+        {
+          "line": 3,
+          "description": "One Breaka Boy’s smash hammer can be replaced with 1 tankhammer."
         }
       ]
     }

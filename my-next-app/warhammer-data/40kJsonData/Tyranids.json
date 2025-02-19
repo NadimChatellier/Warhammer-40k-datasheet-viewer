@@ -159,6 +159,33 @@
           "description": "1 model",
           "cost": 235
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Great Devourer",
+          "Psyker",
+          "Character",
+          "Monster",
+          "Hive Tyrant"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s monstrous bonesword and lash whip can be replaced with one of the following:1 heavy venom cannon1 stranglethorn cannon1 monstrous scything talons|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s monstrous scything talons can be replaced with one of the following:1 heavy venom cannon*1 stranglethorn cannon*|"
+        },
+        {
+          "line": 3,
+          "description": "*This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
+        }
       ]
     },
     {
@@ -302,7 +329,22 @@
           "description": "1 model",
           "cost": 240
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Hive Tyrant",
+          "Great Devourer",
+          "Epic Hero",
+          "Character",
+          "Monster",
+          "Synapse",
+          "Psyker",
+          "The Swarmlord"
+        ]
+      }
     },
     {
       "id": "000000462",
@@ -421,7 +463,19 @@
           "description": "1 model",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Old One Eye",
+          "Great Devourer",
+          "Epic Hero",
+          "Character",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000000463",
@@ -541,7 +595,21 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Broodlord",
+          "Vanguard Invader",
+          "Synapse",
+          "Great Devourer",
+          "Psyker",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000465",
@@ -683,6 +751,25 @@
           "description": "1 model",
           "cost": 175
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Tervigon",
+          "Psyker",
+          "Character",
+          "Monster",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s massive scything talons can be replaced with 1 massive crushing claws."
+        }
       ]
     },
     {
@@ -778,7 +865,18 @@
           "description": "10 models",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Genestealers",
+          "Vanguard Invader",
+          "Great Devourer",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000468",
@@ -945,6 +1043,40 @@
           "description": "20 models",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Infantry",
+          "Termagants",
+          "Battleline",
+          "Endless Multitude"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each have their fleshborer replaced with 1 Termagant devourer."
+        },
+        {
+          "line": 2,
+          "description": "All models in this unit can each have their fleshborer replaced with 1 Termagant spinefists."
+        },
+        {
+          "line": 3,
+          "description": "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 shardlauncher"
+        },
+        {
+          "line": 4,
+          "description": "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 spike rifle."
+        },
+        {
+          "line": 5,
+          "description": "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 strangleweb"
+        }
       ]
     },
     {
@@ -1030,7 +1162,19 @@
           "description": "20 models",
           "cost": 130
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Endless Multitude",
+          "Infantry",
+          "Hormagaunts",
+          "Great Devourer",
+          "Battleline"
+        ]
+      }
     },
     {
       "id": "000000470",
@@ -1146,6 +1290,23 @@
           "description": "3 models",
           "cost": 50
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Swarm",
+          "Great Devourer",
+          "Harvester",
+          "Ripper Swarms"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each be equipped with 1 spinemaws."
+        }
       ]
     },
     {
@@ -1254,6 +1415,22 @@
           "line": "2",
           "description": "6 models",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Tyrant Guard",
+          "Great Devourer",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their scything talons and rending claws replaced with one of the following:1 bone cleaver, lash whip and rending claws1 crushing claws and rending claws|"
         }
       ]
     },
@@ -1367,6 +1544,22 @@
           "line": "2",
           "description": "6 models",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Hive Guard",
+          "Infantry",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their shockcannon replaced with 1 impaler cannon."
         }
       ]
     },
@@ -1496,7 +1689,18 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Infantry",
+          "Vanguard Invader",
+          "Lictor"
+        ]
+      }
     },
     {
       "id": "000000474",
@@ -1621,7 +1825,19 @@
           "description": "1 model",
           "cost": 170
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Monster",
+          "Psyker",
+          "Great Devourer",
+          "Synapse",
+          "Maleceptor"
+        ]
+      }
     },
     {
       "id": "000000475",
@@ -1758,7 +1974,20 @@
           "description": "6 models",
           "cost": 200
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Fly",
+          "Great Devourer",
+          "Synapse",
+          "Zoanthropes",
+          "Infantry",
+          "Psyker"
+        ]
+      }
     },
     {
       "id": "000000476",
@@ -1855,7 +2084,18 @@
           "description": "6 models",
           "cost": 140
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Fly",
+          "Venomthropes",
+          "Great Devourer",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000477",
@@ -1971,7 +2211,18 @@
           "description": "3 models",
           "cost": 105
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Harvester",
+          "Great Devourer",
+          "Infantry",
+          "Pyrovores"
+        ]
+      }
     },
     {
       "id": "000000478",
@@ -2088,7 +2339,18 @@
           "description": "1 model",
           "cost": 125
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Harvester",
+          "Haruspex",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000000479",
@@ -2226,7 +2488,20 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Deathleaper",
+          "Epic Hero",
+          "Infantry",
+          "Character",
+          "Great Devourer",
+          "Vanguard Invader"
+        ]
+      }
     },
     {
       "id": "000000482",
@@ -2347,6 +2622,23 @@
           "description": "6 models",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Raveners",
+          "Infantry",
+          "Great Devourer",
+          "Vanguard Invader"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each have their thoracic bio-weapon replaced with 1 armoured thorax."
+        }
       ]
     },
     {
@@ -2452,6 +2744,23 @@
           "line": "1",
           "description": "3 models",
           "cost": 60
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Fly",
+          "Great Devourer",
+          "Swarm",
+          "Sky-slasher Swarms"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each be equipped with 1 spinemaws."
         }
       ]
     },
@@ -2562,7 +2871,21 @@
           "description": "20 models",
           "cost": 170
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Endless Multitude",
+          "Vanguard Invader",
+          "Gargoyles",
+          "Battleline",
+          "Fly",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000485",
@@ -2700,6 +3023,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 215
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Aircraft",
+          "Monster",
+          "Fly",
+          "Harpy",
+          "Vanguard Invader",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin stranglethorn cannon can be replaced with 1 twin heavy venom cannon."
         }
       ]
     },
@@ -2853,7 +3195,20 @@
           "description": "1 model",
           "cost": 200
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Aircraft",
+          "Monster",
+          "Fly",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Hive Crone"
+        ]
+      }
     },
     {
       "id": "000000487",
@@ -2945,7 +3300,18 @@
           "description": "2 models",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Beast",
+          "Fly",
+          "Great Devourer",
+          "Mucolid Spores"
+        ]
+      }
     },
     {
       "id": "000000488",
@@ -3037,7 +3403,18 @@
           "description": "6 models",
           "cost": 110
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Fly",
+          "Beast",
+          "Great Devourer",
+          "Spore Mines"
+        ]
+      }
     },
     {
       "id": "000000489",
@@ -3148,7 +3525,21 @@
           "description": "1 model",
           "cost": 105
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Dedicated Transport",
+          "Great Devourer",
+          "Tyrannocyte",
+          "Vanguard Invader",
+          "Fly",
+          "Monster",
+          "Transport"
+        ]
+      }
     },
     {
       "id": "000000490",
@@ -3354,6 +3745,34 @@
           "description": "2 models",
           "cost": 230
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Monster",
+          "Great Devourer",
+          "Carnifexes"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their Carnifex extra scything talons replaced with one of the following:1 deathspitters with slimer maggots1 devourers with brainleech worms1 heavy venom cannon1 stranglethorn cannon1 Carnifex crushing claws|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their Carnifex scything talons replaced with one of the following:1 deathspitters with slimer maggots1 devourers with brainleech worms1 Carnifex crushing claws|"
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with 1 bio-plasma."
+        },
+        {
+          "line": 4,
+          "description": "Any number of models can each be equipped with 1 spine banks."
+        }
       ]
     },
     {
@@ -3471,7 +3890,17 @@
           "description": "3 models",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Biovores",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000493",
@@ -3575,7 +4004,18 @@
           "description": "1 model",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Trygon",
+          "Great Devourer",
+          "Monster",
+          "Vanguard Invader"
+        ]
+      }
     },
     {
       "id": "000000494",
@@ -3680,7 +4120,18 @@
           "description": "1 model",
           "cost": 145
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Vanguard Invader",
+          "Mawloc",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000000495",
@@ -3785,7 +4236,17 @@
           "description": "1 model",
           "cost": 135
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Monster",
+          "Exocrine"
+        ]
+      }
     },
     {
       "id": "000000496",
@@ -3928,6 +4389,22 @@
           "description": "1 model",
           "cost": 190
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Tyrannofex",
+          "Great Devourer",
+          "Monster"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s fleshborer hive can be replaced with one of the following:1 acid spray1 rupture cannon|"
+        }
       ]
     },
     {
@@ -4043,7 +4520,17 @@
           "description": "1 model",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Toxicrene",
+          "Great Devourer",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000000498",
@@ -4154,7 +4641,17 @@
           "description": "1 model",
           "cost": 145
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Monster",
+          "Great Devourer",
+          "Sporocyst"
+        ]
+      }
     },
     {
       "id": "000000499",
@@ -4271,6 +4768,25 @@
           "description": "1 model",
           "cost": 75
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Fly",
+          "Infantry",
+          "Character",
+          "Great Devourer",
+          "Synapse",
+          "Malanthrope"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -4362,6 +4878,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Dimachaeron",
+          "Great Devourer",
+          "Monster"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4466,6 +4998,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 340
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Monster",
+          "Barbed Hierodule",
+          "Great Devourer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4579,6 +5127,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 610
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Transport",
+          "Fly",
+          "Harridan",
+          "Aircraft",
+          "Monster",
+          "Titanic"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4720,6 +5288,25 @@
           "description": "1 model",
           "cost": 810
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Monster",
+          "Titanic",
+          "Towering",
+          "Transport",
+          "Hierophant"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -4823,6 +5410,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 330
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Scythed Hierodule",
+          "Great Devourer",
+          "Monster"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4994,6 +5597,28 @@
           "description": "1 model",
           "cost": 200
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Winged Hive Tyrant",
+          "Character",
+          "Psyker",
+          "Fly",
+          "Monster",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Hive Tyrant"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s monstrous bonesword and lash whip can be replaced with one of the following:1 heavy venom cannon1 stranglethorn cannon1 monstrous scything talons|"
+        }
       ]
     },
     {
@@ -5125,7 +5750,21 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Parasite of Mortrex",
+          "Infantry",
+          "Vanguard Invader",
+          "Great Devourer",
+          "Fly",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000002686",
@@ -5225,7 +5864,17 @@
           "description": "10 models",
           "cost": 110
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Infantry",
+          "Barbgaunts",
+          "Great Devourer"
+        ]
+      }
     },
     {
       "id": "000002687",
@@ -5315,7 +5964,18 @@
           "description": "22 models",
           "cost": 90
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Endless Multitude",
+          "Great Devourer",
+          "Infantry",
+          "Neurogaunts"
+        ]
+      }
     },
     {
       "id": "000002688",
@@ -5448,6 +6108,26 @@
           "description": "1 model",
           "cost": 105
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Character",
+          "Monster",
+          "Psyker",
+          "Great Devourer",
+          "Synapse",
+          "Neurotyrant",
+          "Fly"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -5574,7 +6254,18 @@
           "description": "1 model",
           "cost": 95
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Monster",
+          "Great Devourer",
+          "Harvester",
+          "Psychophage"
+        ]
+      }
     },
     {
       "id": "000002690",
@@ -5679,7 +6370,17 @@
           "description": "1 model",
           "cost": 145
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Screamer-Killer",
+          "Monster",
+          "Great Devourer"
+        ]
+      }
     },
     {
       "id": "000002691",
@@ -5780,7 +6481,18 @@
           "description": "6 models",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Infantry",
+          "Synapse",
+          "Tyranid Warriors with Melee Bio-weapons",
+          "Great Devourer"
+        ]
+      }
     },
     {
       "id": "000002692",
@@ -5943,6 +6655,31 @@
           "description": "6 models",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Synapse",
+          "Great Devourer",
+          "Infantry",
+          "Tyranid Warriors with Ranged Bio-weapons"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their devourer replaced with one of the following:1 deathspitter1 spinefists|"
+        },
+        {
+          "line": 2,
+          "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 barbed strangler."
+        },
+        {
+          "line": 3,
+          "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 venom cannon."
+        }
       ]
     },
     {
@@ -6056,7 +6793,18 @@
           "description": "6 models",
           "cost": 140
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Infantry",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Von Ryan’s Leapers"
+        ]
+      }
     },
     {
       "id": "000002694",
@@ -6172,6 +6920,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 65
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Great Devourer",
+          "Synapse",
+          "Vanguard Invader",
+          "Infantry",
+          "Fly",
+          "Character",
+          "Winged Tyranid Prime"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -6337,7 +7105,19 @@
           "description": "1 model",
           "cost": 260
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Monster",
+          "Great Devourer",
+          "Synapse",
+          "Norn Emissary",
+          "Psyker"
+        ]
+      }
     },
     {
       "id": "000002752",
@@ -6482,7 +7262,19 @@
           "description": "1 model",
           "cost": 275
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Norn Assimilator",
+          "Harvester",
+          "Great Devourer",
+          "Monster",
+          "Synapse"
+        ]
+      }
     },
     {
       "id": "000002753",
@@ -6619,7 +7411,19 @@
           "description": "1 model",
           "cost": 90
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Infantry",
+          "Great Devourer",
+          "Vanguard Invader",
+          "Neurolictor",
+          "Synapse"
+        ]
+      }
     }
   ]
 }

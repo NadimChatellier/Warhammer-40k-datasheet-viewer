@@ -127,7 +127,19 @@
           "description": "1 model",
           "cost": 100
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Imotekh the Stormlord",
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Noble"
+        ]
+      }
     },
     {
       "id": "000000523",
@@ -296,6 +308,27 @@
           "description": "1 model",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Noble",
+          "Overlord"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s tachyon arrow and Overlord’s blade can be replaced with one of the following:1 staff of light1 voidscythe|"
+        },
+        {
+          "line": 2,
+          "description": "If this model is not equipped with a tachyon arrow, it can be equipped with 1 resurrection orb."
+        }
       ]
     },
     {
@@ -430,6 +463,27 @@
           "description": "1 model",
           "cost": 65
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Noble",
+          "Lord"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s staff of light can be replaced with 1 Lord’s blade."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 resurrection orb."
+        }
       ]
     },
     {
@@ -541,7 +595,19 @@
           "description": "1 model",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Epic Hero",
+          "Noble",
+          "Nemesor Zahndrekh",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000528",
@@ -643,7 +709,18 @@
           "description": "1 model",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Character",
+          "Epic Hero",
+          "Vargard Obyron",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000530",
@@ -744,7 +821,20 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Chronomancer",
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Cryptek",
+          "Orikan the Diviner"
+        ]
+      }
     },
     {
       "id": "000000531",
@@ -869,6 +959,24 @@
           "description": "1 model",
           "cost": 95
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Epic Hero",
+          "Noble",
+          "Anrakyr the Traveller",
+          "Infantry",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -970,7 +1078,19 @@
           "description": "1 model",
           "cost": 75
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Epic Hero",
+          "Noble",
+          "Trazyn the Infinite",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000000533",
@@ -1130,6 +1250,31 @@
           "description": "1 model",
           "cost": 120
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Catacomb Command Barge",
+          "Fly",
+          "Character",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s gauss cannon can be replaced with 1 tesla cannon."
+        },
+        {
+          "line": 2,
+          "description": "This model’s staff of light can be replaced with 1 Overlord’s blade."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 resurrection orb."
+        }
       ]
     },
     {
@@ -1242,6 +1387,22 @@
           "line": "2",
           "description": "20 models",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Necron Warriors",
+          "Infantry",
+          "Battleline"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their gauss flayer replaced with 1 gauss reaper."
         }
       ]
     },
@@ -1356,6 +1517,22 @@
           "description": "10 models",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Immortals",
+          "Battleline",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each have their gauss blaster replaced with 1 tesla carbine."
+        }
       ]
     },
     {
@@ -1463,6 +1640,21 @@
           "line": "2",
           "description": "10 models",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Lychguard",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each have their warscythe replaced with 1 hyperphase sword and 1 dispersion shield."
         }
       ]
     },
@@ -1574,7 +1766,16 @@
           "description": "10 models",
           "cost": 130
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Deathmarks",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000538",
@@ -1681,7 +1882,16 @@
           "description": "10 models",
           "cost": 120
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Flayed Ones"
+        ]
+      }
     },
     {
       "id": "000000539",
@@ -1812,6 +2022,23 @@
           "line": "2",
           "description": "10 models",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Triarch",
+          "Praetorians",
+          "Infantry",
+          "Fly"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "All models in this unit can each have their rod of covenant replaced with 1 particle caster and 1 voidblade."
         }
       ]
     },
@@ -1967,6 +2194,23 @@
           "description": "1 model",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Stalker",
+          "Triarch",
+          "Walker",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s heat ray can be replaced with one of the following:1 particle shredder1 heavy gauss cannon array|"
+        }
       ]
     },
     {
@@ -2110,7 +2354,19 @@
           "description": "1 model",
           "cost": 305
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Fly",
+          "C’tan Shard of the Nightbringer"
+        ]
+      }
     },
     {
       "id": "000000542",
@@ -2253,7 +2509,19 @@
           "description": "1 model",
           "cost": 265
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Character",
+          "C’tan Shard of the Deceiver",
+          "Epic Hero",
+          "Fly",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000000543",
@@ -2358,7 +2626,19 @@
           "description": "1 model",
           "cost": 115
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Dedicated Transport",
+          "Vehicle",
+          "Fly",
+          "Transport",
+          "Ghost Ark"
+        ]
+      }
     },
     {
       "id": "000000544",
@@ -2481,7 +2761,19 @@
           "description": "1 model",
           "cost": 145
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Night Scythe",
+          "Aircraft",
+          "Fly",
+          "Transport"
+        ]
+      }
     },
     {
       "id": "000000545",
@@ -2599,7 +2891,18 @@
           "description": "1 model",
           "cost": 230
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Doom Scythe",
+          "Vehicle",
+          "Aircraft",
+          "Fly"
+        ]
+      }
     },
     {
       "id": "000000546",
@@ -2720,6 +3023,27 @@
           "line": "2",
           "description": "6 models",
           "cost": 230
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Beasts",
+          "Fly",
+          "Canoptek",
+          "Wraiths"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each be equipped with one of the following:1 particle caster1 transdimensional beamer|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their vicious claws replaced with whip coils."
         }
       ]
     },
@@ -2888,6 +3212,30 @@
           "description": "6 models",
           "cost": 150
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Mounted",
+          "Fly",
+          "Tomb Blades"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin gauss blaster replaced with one of the following:1 particle beamer1 twin tesla carbine|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with 1 shieldvanes."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with one of the following:1 nebuloscope1 shadowloom|"
+        }
       ]
     },
     {
@@ -3016,6 +3364,31 @@
           "line": "2",
           "description": "2 models",
           "cost": 150
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Fly",
+          "Canoptek",
+          "Spyders",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each be equipped with 2 particle beamers."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each be equipped with 1 fabricator claw array."
+        },
+        {
+          "line": 3,
+          "description": "Any number of models can each be equipped with 1 gloom prism."
         }
       ]
     },
@@ -3158,6 +3531,24 @@
           "description": "1 model",
           "cost": 400
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Titanic",
+          "Fly",
+          "Towering",
+          "Monolith"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 4 gauss flux arcs can be replaced with 4 death rays."
+        }
       ]
     },
     {
@@ -3289,6 +3680,22 @@
           "description": "1 model",
           "cost": 105
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Annihilation Barge"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s gauss cannon can be replaced with 1 tesla cannon."
+        }
       ]
     },
     {
@@ -3408,7 +3815,17 @@
           "description": "1 model",
           "cost": 190
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Doomsday Ark",
+          "Fly"
+        ]
+      }
     },
     {
       "id": "000000555",
@@ -3561,7 +3978,18 @@
           "description": "1 model",
           "cost": 295
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Monster",
+          "Character",
+          "Fly",
+          "Transcendent C’tan"
+        ]
+      }
     },
     {
       "id": "000000556",
@@ -3713,7 +4141,19 @@
           "description": "1 model",
           "cost": 425
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Titanic",
+          "Fly",
+          "Towering",
+          "Tesseract Vault"
+        ]
+      }
     },
     {
       "id": "000000557",
@@ -3827,7 +4267,19 @@
           "description": "1 model",
           "cost": 300
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Towering",
+          "Obelisk",
+          "Vehicle",
+          "Titanic",
+          "Fly"
+        ]
+      }
     },
     {
       "id": "000000558",
@@ -3943,6 +4395,22 @@
           "description": "1 model",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Tomb Stalker",
+          "Monster",
+          "Canoptek"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -4051,6 +4519,23 @@
           "line": "2",
           "description": "6 models",
           "cost": 170
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Canoptek",
+          "Beasts",
+          "Fly",
+          "Acanthrites"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4166,6 +4651,22 @@
           "description": "1 model",
           "cost": 115
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Tomb Sentinel",
+          "Monster",
+          "Canoptek"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -4271,7 +4772,18 @@
           "description": "1 model",
           "cost": 140
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Night Shroud",
+          "Aircraft"
+        ]
+      }
     },
     {
       "id": "000000562",
@@ -4407,6 +4919,22 @@
           "line": "1",
           "description": "1 model",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Fortification",
+          "Vehicle",
+          "Sentry Pylon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s gauss exterminator can be replaced with one of the following:1 focused death ray1 heat cannon|"
         }
       ]
     },
@@ -4566,6 +5094,22 @@
           "description": "1 model",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Tesseract Ark",
+          "Fly",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 tesla cannons can be replaced with one of the following:2 gauss cannons2 particle beamers|"
+        }
       ]
     },
     {
@@ -4691,7 +5235,19 @@
           "description": "1 model",
           "cost": 210
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Fortification",
+          "Gauss Pylon"
+        ]
+      }
     },
     {
       "id": "000001577",
@@ -4840,6 +5396,24 @@
           "description": "1 model",
           "cost": 540
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "Seraptek Heavy Construct"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 singularity generators can be replaced with 2 synaptic obliterators and 2 transdimensional projectors."
+        }
       ]
     },
     {
@@ -4973,7 +5547,19 @@
           "description": "1 model",
           "cost": 175
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Illuminor Szeras",
+          "Cryptek",
+          "Epic Hero",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000002108",
@@ -5084,7 +5670,18 @@
           "description": "1 model",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Plasmancer",
+          "Infantry",
+          "Character",
+          "Cryptek"
+        ]
+      }
     },
     {
       "id": "000002109",
@@ -5208,7 +5805,18 @@
           "description": "1 model",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Destroyer Cult",
+          "Character",
+          "Skorpekh Lord"
+        ]
+      }
     },
     {
       "id": "000002110",
@@ -5302,6 +5910,22 @@
           "line": "2",
           "description": "6 models",
           "cost": 180
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Skorpekh Destroyers",
+          "Destroyer Cult",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 3 models in this unit, this unit can have 1 Plasmacyte."
         }
       ]
     },
@@ -5414,7 +6038,16 @@
           "description": "2 models",
           "cost": 60
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Cryptothralls",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000002112",
@@ -5516,7 +6149,18 @@
           "description": "1 model",
           "cost": 75
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Reanimator",
+          "Canoptek",
+          "Vehicle",
+          "Walker"
+        ]
+      }
     },
     {
       "id": "000002114",
@@ -5612,7 +6256,18 @@
           "description": "6 models",
           "cost": 80
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Scarab Swarms",
+          "Fly",
+          "Canoptek",
+          "Swarm"
+        ]
+      }
     },
     {
       "id": "000002115",
@@ -5732,7 +6387,18 @@
           "description": "1 model",
           "cost": 145
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Doomstalker",
+          "Canoptek"
+        ]
+      }
     },
     {
       "id": "000002116",
@@ -5852,6 +6518,23 @@
           "description": "3 models",
           "cost": 165
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Lokhust Heavy Destroyers",
+          "Destroyer Cult",
+          "Fly",
+          "Mounted"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their gauss destructor replaced with 1 enmitic exterminator."
+        }
       ]
     },
     {
@@ -5966,7 +6649,17 @@
           "description": "1 model",
           "cost": 50
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Royal Warden"
+        ]
+      }
     },
     {
       "id": "000002351",
@@ -6109,6 +6802,28 @@
           "description": "1 model",
           "cost": 80
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Mounted",
+          "Fly",
+          "Character",
+          "Destroyer Cult",
+          "Lokhust Lord"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s staff of light can be replaced with 1 Lord’s blade."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 nanoscarab amulet1 resurrection orb|"
+        }
       ]
     },
     {
@@ -6220,7 +6935,19 @@
           "description": "1 model",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Cryptek",
+          "Technomancer",
+          "Fly",
+          "Infantry",
+          "Character"
+        ]
+      }
     },
     {
       "id": "000002353",
@@ -6331,7 +7058,18 @@
           "description": "1 model",
           "cost": 55
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Psychomancer",
+          "Cryptek"
+        ]
+      }
     },
     {
       "id": "000002354",
@@ -6444,7 +7182,18 @@
           "description": "1 model",
           "cost": 65
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Chronomancer",
+          "Cryptek",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000002355",
@@ -6567,7 +7316,18 @@
           "description": "1 model",
           "cost": 75
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Hexmark Destroyer",
+          "Destroyer Cult",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000002357",
@@ -6739,7 +7499,19 @@
           "description": "1 model",
           "cost": 300
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Monster",
+          "Character",
+          "Fly",
+          "Epic Hero",
+          "C’tan Shard of the Void Dragon"
+        ]
+      }
     },
     {
       "id": "000002358",
@@ -6843,6 +7615,22 @@
           "line": "2",
           "description": "6 models",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Ophydian Destroyers",
+          "Destroyer Cult",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 3 models in this unit, this unit can have 1 Plasmacyte."
         }
       ]
     },
@@ -6953,7 +7741,18 @@
           "description": "6 models",
           "cost": 180
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Lokhust Destroyers",
+          "Destroyer Cult",
+          "Fly",
+          "Mounted"
+        ]
+      }
     },
     {
       "id": "000002360",
@@ -7168,7 +7967,19 @@
           "description": "3 models",
           "cost": 420
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Triarch",
+          "Character",
+          "The Silent King",
+          "Epic Hero",
+          "Vehicle"
+        ]
+      }
     },
     {
       "id": "000002361",
@@ -7286,7 +8097,17 @@
           "description": "3 models",
           "cost": 180
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Fortification",
+          "Vehicle",
+          "Convergence of Dominion"
+        ]
+      }
     },
     {
       "id": "000002362",
@@ -7411,6 +8232,23 @@
           "description": "1 model",
           "cost": 920
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Fortification",
+          "Titanic",
+          "Vehicle",
+          "Tomb Citadel"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This unit can be equipped with one of the following:1 gauss exterminator and 1 twin tesla destructor2 gauss exterminators2 twin tesla destructors|"
+        }
       ]
     },
     {
@@ -7522,7 +8360,19 @@
           "description": "1 model",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Necrons"
+        ],
+        "other": [
+          "Character",
+          "Infantry",
+          "Noble",
+          "Overlord",
+          "Overlord with translocation shroud"
+        ]
+      }
     }
   ]
 }

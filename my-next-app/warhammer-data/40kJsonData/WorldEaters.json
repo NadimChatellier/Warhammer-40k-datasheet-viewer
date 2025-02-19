@@ -157,6 +157,28 @@
           "description": "1 model",
           "cost": 435
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Daemon",
+          "Character",
+          "Angron",
+          "Primarch",
+          "Monster",
+          "Fly",
+          "Epic Hero",
+          "Chaos",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -278,6 +300,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Infantry",
+          "Grenades",
+          "Character",
+          "Chaos",
+          "Epic Hero",
+          "Khorne",
+          "Khârn the Betrayer"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -417,6 +459,26 @@
           "description": "1 model",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Epic Hero",
+          "Lord Invocatus",
+          "Khorne",
+          "Chaos",
+          "Grenades",
+          "Mounted",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -538,6 +600,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 200
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Chaos",
+          "Character",
+          "Monster",
+          "Daemon Prince",
+          "Daemon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -680,6 +761,25 @@
           "description": "1 model",
           "cost": 100
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Lord on Juggernaut",
+          "Character",
+          "Grenades",
+          "Chaos",
+          "Mounted"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -795,6 +895,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 110
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Master of Executions",
+          "Khorne",
+          "Chaos"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -947,6 +1065,37 @@
           "line": "2",
           "description": "10 models",
           "cost": 180
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Infantry",
+          "Battleline",
+          "Grenades",
+          "Chaos",
+          "Khorne",
+          "Berzerkers"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol."
+        },
+        {
+          "line": 2,
+          "description": "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol."
+        },
+        {
+          "line": 3,
+          "description": "For every 5 models in this unit, 1 Khorne Berzerker’s Berzerker chainblade can be replaced with 1 Khornate eviscerator."
+        },
+        {
+          "line": 4,
+          "description": "1 model can be equipped with 1 icon of Khorne."
         }
       ]
     },
@@ -1115,6 +1264,32 @@
           "line": "2",
           "description": "20 models",
           "cost": 130
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Jakhals",
+          "Infantry",
+          "Khorne",
+          "Battleline"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 10 models in this unit, 1 Jakhal’s Jakhal chainblades can be replaced with 1 mauler chainblade."
+        },
+        {
+          "line": 2,
+          "description": "Any number of Dishonoured models can each have their Dishonoured chainblades replaced with 1 skullsmasher."
+        },
+        {
+          "line": 3,
+          "description": "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."
         }
       ]
     },
@@ -1310,6 +1485,40 @@
           "description": "10 models",
           "cost": 360
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Infantry",
+          "Chaos",
+          "Khorne",
+          "Terminator",
+          "Terminator Squad"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 5 models in this unit, 1 World Eaters Terminator’s combi-bolter can be replaced with one of the following:1 heavy flamer1 reaper autocannon|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their combi-bolter replaced with 1 combi-weapon."
+        },
+        {
+          "line": 3,
+          "description": "For every 5 models in this unit, 1 model’s combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons."
+        },
+        {
+          "line": 4,
+          "description": "For every 5 models in this unit, up to 3 models can each have their accursed weapon replaced with 1 power fist."
+        },
+        {
+          "line": 5,
+          "description": "For every 5 models in this unit, 1 model’s accursed weapon can be replaced with 1 chainfist."
+        }
       ]
     },
     {
@@ -1431,6 +1640,24 @@
           "line": "2",
           "description": "6 models",
           "cost": 280
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Infantry",
+          "Eightbound",
+          "Daemon",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Eightbound Champion’s lacerators can be replaced with 1 heavy chainglaive."
         }
       ]
     },
@@ -1575,6 +1802,24 @@
           "line": "2",
           "description": "6 models",
           "cost": 310
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Daemon",
+          "Infantry",
+          "Chaos",
+          "Khorne",
+          "Exalted Eightbound"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Exalted Eightbound Champion’s Eightbound eviscerator and Eightbound chainfist can be replaced with one of the following:1 paired Eightbound chainfists1 heavy chainglaive|"
         }
       ]
     },
@@ -1827,6 +2072,32 @@
           "description": "1 model",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Khorne",
+          "Walker",
+          "Chaos",
+          "Helbrute"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s multi-melta can be replaced with one of the following:1 Helbrute plasma cannon1 twin autocannon1 twin heavy bolter1 twin lascannon1 Helbrute fist|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s missile launcher can be replaced with one of the following:1 Helbrute fist1 Helbrute hammer1 power scourge|"
+        },
+        {
+          "line": 3,
+          "description": "For each Helbrute fist this model is equipped with, it can be equipped with one of the following:1 combi-bolter1 heavy flamer|"
+        }
       ]
     },
     {
@@ -1916,6 +2187,23 @@
           "line": "1",
           "description": "2 models",
           "cost": 70
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Spawn",
+          "Beast"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -2073,6 +2361,29 @@
           "line": "1",
           "description": "1 model",
           "cost": 240
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Land Raider",
+          "Transport",
+          "Vehicle",
+          "Khorne",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 combi-bolter1 combi-weapon|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 havoc launcher."
         }
       ]
     },
@@ -2288,6 +2599,34 @@
           "description": "1 model",
           "cost": 190
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Smoke",
+          "Chaos",
+          "Khorne",
+          "Defiler",
+          "Daemon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin heavy flamer can be replaced with one of the following:1 havoc launcher1 Defiler scourge|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s reaper autocannon can be replaced with one of the following:1 twin heavy bolter1 twin lascannon|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 combi-bolter1 combi-weapon|"
+        }
       ]
     },
     {
@@ -2456,6 +2795,32 @@
           "line": "1",
           "description": "1 model",
           "cost": 130
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Smoke",
+          "Chaos",
+          "Vehicle",
+          "Khorne",
+          "Predator Destructor"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 combi-bolter1 combi-weapon|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 havoc launcher."
         }
       ]
     },
@@ -2626,6 +2991,32 @@
           "description": "1 model",
           "cost": 130
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Smoke",
+          "Vehicle",
+          "Chaos",
+          "Khorne",
+          "Predator Annihilator"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 combi-bolter1 combi-weapon|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 havoc launcher."
+        }
       ]
     },
     {
@@ -2752,6 +3143,29 @@
           "description": "1 model",
           "cost": 145
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Chaos",
+          "Khorne",
+          "Daemon",
+          "Forgefiend"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons."
+        },
+        {
+          "line": 2,
+          "description": "This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 Forgefiend claws."
+        }
       ]
     },
     {
@@ -2868,6 +3282,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 140
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Walker",
+          "Chaos",
+          "Khorne",
+          "Daemon",
+          "Maulerfiend"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s lasher tendrils can be replaced with 2 magma cutters."
         }
       ]
     },
@@ -3010,6 +3443,30 @@
           "description": "1 model",
           "cost": 75
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Smoke",
+          "Chaos",
+          "Khorne",
+          "Rhino",
+          "Vehicle",
+          "Transport",
+          "Dedicated Transport"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 additional combi-bolter1 combi-weapon|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 havoc launcher."
+        }
       ]
     },
     {
@@ -3137,6 +3594,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 210
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Daemon",
+          "Heldrake",
+          "Vehicle",
+          "Fly",
+          "Aircraft"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Hades autocannon can be replaced with 1 baleflamer."
         }
       ]
     },
@@ -3303,6 +3780,30 @@
           "description": "1 model",
           "cost": 450
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Titanic",
+          "Chaos",
+          "Khorne",
+          "Daemon",
+          "Lord of Skulls",
+          "Towering"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s gorestorm cannon can be replaced with one of the following:1 daemongore cannon1 ichor cannon|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s Hades gatling cannon can be replaced with 1 skullhurler."
+        }
       ]
     },
     {
@@ -3434,6 +3935,26 @@
           "description": "1 model",
           "cost": 170
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Monster",
+          "Character",
+          "Fly",
+          "Chaos",
+          "Khorne",
+          "Daemon",
+          "Daemon Prince"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -3521,6 +4042,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 160
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Blood Slaughterer",
+          "Khorne",
+          "Daemon",
+          "Vehicle",
+          "Walker",
+          "Chaos"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s impaler harpoon and slaughter blade can be replaced with 1 twin slaughter blade."
         }
       ]
     },
@@ -3619,6 +4159,30 @@
           "description": "1 model",
           "cost": 840
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Titanic",
+          "Fly",
+          "Aircraft",
+          "Transport",
+          "Chaos",
+          "Vehicle",
+          "Thunderhawk"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor."
+        },
+        {
+          "line": 2,
+          "description": "This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery"
+        }
       ]
     },
     {
@@ -3705,6 +4269,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 560
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Daemon",
+          "Greater Brass Scorpion",
+          "Walker",
+          "Titanic",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -3793,6 +4377,26 @@
           "description": "1 model",
           "cost": 425
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Kytan Ravager",
+          "Titanic",
+          "Walker",
+          "Chaos",
+          "Khorne",
+          "Daemon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -3871,6 +4475,25 @@
           "description": "1 model",
           "cost": 115
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Chaos",
+          "Aircraft",
+          "Fly",
+          "Khorne",
+          "Hell Blade"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin autocannons can be replaced with 2 twin lascannons."
+        }
       ]
     },
     {
@@ -3948,6 +4571,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 140
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Fly",
+          "Khorne",
+          "Chaos",
+          "Aircraft",
+          "Hell Talon"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s autocannon can be replaced with 1 havoc launcher."
         }
       ]
     },
@@ -4036,6 +4678,25 @@
           "description": "1 model",
           "cost": 200
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Vehicle",
+          "Terrax-pattern Termite",
+          "Dedicated Transport",
+          "Transport",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 combi-bolters can be replaced with one of the following2 heavy flamers2 twin volkite chargers|"
+        }
       ]
     },
     {
@@ -4123,6 +4784,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 285
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Land Raider Achilles",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin volkite culverins can be replaced with 2 twin multi-melta"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
         }
       ]
     },
@@ -4221,6 +4909,37 @@
           "description": "1 model",
           "cost": 250
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Land Raider Proteus",
+          "Khorne",
+          "Transport",
+          "Chaos",
+          "Vehicle",
+          "Smoke"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:1 heavy bolter1 multi-melta1 twin heavy bolter1 twin heavy flamer|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with 1 explorator augury web."
+        }
       ]
     },
     {
@@ -4308,6 +5027,29 @@
           "description": "1 model",
           "cost": 290
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Chaos",
+          "Aircraft",
+          "Fly",
+          "Vehicle",
+          "Fire Raptor Gunship"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons"
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 twin autocannons can be replaced with 2 quad heavy bolters."
+        }
       ]
     },
     {
@@ -4385,6 +5127,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 315
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Smoke",
+          "Transport",
+          "Khorne",
+          "Chaos",
+          "Vehicle",
+          "Spartan"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 quad lascannons can be replaced with 2 laser destroyers."
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy bolter1 heavy flamer1 multi-melta1 storm bolter|"
         }
       ]
     },
@@ -4464,6 +5233,34 @@
           "description": "1 model",
           "cost": 170
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Smoke",
+          "Dreadnought",
+          "Deredeo Dreadnought",
+          "Vehicle",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s anvilus autocannon battery can be replaced with one of the following1 arachnus heavy lascannon battery1 hellfire plasma carronade1 volkite falconet battery|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 aiolos missile launcher1 boreas air defence missiles|"
+        }
       ]
     },
     {
@@ -4541,6 +5338,28 @@
           "line": "1",
           "description": "1 model",
           "cost": 285
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Chaos",
+          "Khorne",
+          "Smoke",
+          "Cerberus"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy bolter1 heavy flamer1 multi-melta1 storm bolter|"
         }
       ]
     },
@@ -4630,6 +5449,40 @@
           "description": "1 model",
           "cost": 265
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Vehicle",
+          "Khorne",
+          "Kratos",
+          "Smoke",
+          "Chaos"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s Kratos battle cannon can be replaced with one of the following:1 melta blast-gun1 volkite cardanelle|"
+        },
+        {
+          "line": 2,
+          "description": "2 of this model’s heavy bolters can be replaced with one of the following:2 autocannons2 lascannons2 volkite calivers|"
+        },
+        {
+          "line": 3,
+          "description": "2 of this model’s heavy bolters can be replaced with one of the following:2 heavy flamers2 lascannons2 volkite culverins |"
+        },
+        {
+          "line": 4,
+          "description": "This model can be equipped with one of the following:1 combi-weapon1 havoc launcher1 heavy bolter1 heavy flamer1 multi-melta1 twin boltgun|"
+        },
+        {
+          "line": 5,
+          "description": "This model can be equipped with 1 hunter killer missile"
+        }
       ]
     },
     {
@@ -4716,6 +5569,27 @@
           "line": "1",
           "description": "1 model",
           "cost": 1100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Chaos",
+          "Transport",
+          "Aircraft",
+          "Fly",
+          "Titanic",
+          "Vehicle",
+          "Sokar-pattern Stormbird"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -4805,6 +5679,32 @@
           "description": "1 model",
           "cost": 220
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Smoke",
+          "Sicaran Battle Tank",
+          "Vehicle",
+          "Chaos",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
+        }
       ]
     },
     {
@@ -4882,6 +5782,30 @@
           "line": "1",
           "description": "1 model",
           "cost": 610
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Transport",
+          "Smoke",
+          "Mastodon",
+          "Vehicle",
+          "Titanic"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 heavy flamers can be replaced with one of the following2 heavy bolters2 lascannons2 volkite culverins|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 lascannons can be replaced with on of the following:2 heavy bolters2 heavy flamers2 volkite culverins|"
         }
       ]
     },
@@ -4971,6 +5895,34 @@
           "description": "1 model",
           "cost": 215
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Leviathan Dreadnought",
+          "Vehicle",
+          "Walker",
+          "Chaos",
+          "Khorne",
+          "Smoke",
+          "Dreadnought"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Each of this model’s grav-flux bombards can be replaced with one of the following1 cyclonic melta lance1 storm cannon1 meltagun and 1 Leviathan siege claw1 meltagun and 1 Leviathan siege drill|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 heavy flamers can be replaced with 2 twin volkite calivers."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 3 hunter-killer missiles."
+        }
       ]
     },
     {
@@ -5048,6 +6000,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 535
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Smoke",
+          "Fellblade",
+          "Vehicle",
+          "Titanic",
+          "Chaos"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 quad lascannons can be replaced with 2 laser destroyers."
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy bolter1 heavy flamer1 multi-melta1 storm bolter|"
         }
       ]
     },
@@ -5137,6 +6116,33 @@
           "description": "1 model",
           "cost": 180
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Walker",
+          "Dreadnought",
+          "Relic Contemptor Dreadnought",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Each of this model’s heavy plasma cannons can be replaced with one of the following:1 conversion beam cannon1 kheres-pattern assault cannon1 multi-melta1 twin autocannon1 twin heavy bolter1 twin lascannon1 twin volkite culverin1 Dreadnought chainfist and 1 combi-bolter1 Dreadnought combat weapon and 1 combi-bolter|"
+        },
+        {
+          "line": 2,
+          "description": "Each of this model’s combi-bolters can be replaced with one of the following:1 graviton blaster1 heavy flamer1 plasma blaster|"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 cyclone missile launcher."
+        }
       ]
     },
     {
@@ -5225,6 +6231,28 @@
           "description": "1 model",
           "cost": 115
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Whirlwind Scorpius",
+          "Vehicle",
+          "Smoke",
+          "Chaos",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 storm bolter."
+        }
       ]
     },
     {
@@ -5303,6 +6331,25 @@
           "description": "1 model",
           "cost": 115
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Aircraft",
+          "Fly",
+          "Vehicle",
+          "Xiphon Interceptor",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
+        }
       ]
     },
     {
@@ -5370,6 +6417,24 @@
           "line": "1",
           "description": "1 model",
           "cost": 100
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Artillery",
+          "Vehicle",
+          "Chaos",
+          "Khorne",
+          "Rapier Carrier"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s quad heavy bolter can be replaced with one of the following1 graviton cannon1 laser destroyer1 quad launcher|"
         }
       ]
     },
@@ -5457,6 +6522,30 @@
           "line": "1",
           "description": "1 model",
           "cost": 255
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Fly",
+          "Vehicle",
+          "Storm Eagle Gunship",
+          "Khorne",
+          "Chaos",
+          "Transport",
+          "Aircraft"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s twin heavy bolter can be replaced with one of the following:1 twin multi-melta1 typhoon missile launcher|"
+        },
+        {
+          "line": 2,
+          "description": "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons"
         }
       ]
     },
@@ -5546,6 +6635,32 @@
           "description": "1 model",
           "cost": 220
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Chaos",
+          "Khorne",
+          "Smoke",
+          "Sicaran Venator",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
+        }
       ]
     },
     {
@@ -5623,6 +6738,28 @@
           "line": "1",
           "description": "1 model",
           "cost": 385
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Vehicle",
+          "Typhon",
+          "Smoke",
+          "Chaos"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with one of the following:1 heavy bolter1 heavy flamer1 multi-melta1 storm bolter|"
         }
       ]
     },
@@ -5712,6 +6849,32 @@
           "description": "1 model",
           "cost": 220
         }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Sicaran Punisher",
+          "Smoke",
+          "Vehicle",
+          "Chaos",
+          "Khorne"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model can be equipped with one of the following:2 heavy bolters2 lascannons|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 storm bolter."
+        }
       ]
     },
     {
@@ -5789,6 +6952,33 @@
           "line": "1",
           "description": "1 model",
           "cost": 515
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "World Eaters"
+        ],
+        "other": [
+          "Khorne",
+          "Titanic",
+          "Vehicle",
+          "Falchion",
+          "Smoke",
+          "Chaos"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 quad lascannons can be replaced with 2 laser destroyers."
+        },
+        {
+          "line": 2,
+          "description": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer"
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with one of the following:1 heavy bolter1 heavy flamer1 multi-melta1 storm bolter|"
         }
       ]
     }

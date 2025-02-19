@@ -179,7 +179,21 @@
           "description": "1 model",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Tech-Priest",
+          "Epic Hero",
+          "Character",
+          "Imperium",
+          "Belisarius Cawl",
+          "Cult Mechanicus",
+          "Monster"
+        ]
+      }
     },
     {
       "id": "000000839",
@@ -341,6 +355,29 @@
           "description": "1 model",
           "cost": 70
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Cult Mechanicus",
+          "Tech-Priest",
+          "Dominus"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s macrostubber can be replaced with 1 phosphor serpenta."
+        },
+        {
+          "line": 2,
+          "description": "This model’s volkite blaster can be replaced with 1 eradication ray."
+        }
       ]
     },
     {
@@ -477,7 +514,20 @@
           "description": "1 model",
           "cost": 55
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Enginseer",
+          "Tech-Priest",
+          "Cult Mechanicus",
+          "Character",
+          "Infantry"
+        ]
+      }
     },
     {
       "id": "000000841",
@@ -603,6 +653,28 @@
           "line": "2",
           "description": "6 models",
           "cost": 320
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Cult Mechanicus",
+          "Kataphron",
+          "Imperium",
+          "Infantry",
+          "Breachers"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their heavy arc rifle replaced with 1 torsion cannon."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their arc claw replaced with 1 hydraulic claw."
         }
       ]
     },
@@ -755,6 +827,28 @@
           "description": "6 models",
           "cost": 210
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Cult Mechanicus",
+          "Imperium",
+          "Kataphron",
+          "Destroyers"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their heavy grav-cannon replaced with 1 Kataphron plasma culverin."
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their phosphor blaster replaced with 1 cognis flamer."
+        }
       ]
     },
     {
@@ -852,7 +946,19 @@
           "description": "10 models",
           "cost": 140
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Fulgurite",
+          "Cult Mechanicus",
+          "Electro-Priests",
+          "Infantry",
+          "Imperium"
+        ]
+      }
     },
     {
       "id": "000000844",
@@ -964,7 +1070,19 @@
           "description": "10 models",
           "cost": 130
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Cult Mechanicus",
+          "Corpuscarii",
+          "Electro-Priests"
+        ]
+      }
     },
     {
       "id": "000000845",
@@ -1137,6 +1255,28 @@
           "description": "4 models",
           "cost": 360
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Walker",
+          "Vehicle",
+          "Kastelan Robots",
+          "Imperium",
+          "Legio Cybernetica"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin Kastelan fist replaced with one of the following:1 Kastelan phosphor blaster and 1 Kastelan fist1 twin Kastelan phosphor blaster and 1 close combat weapon|"
+        },
+        {
+          "line": 2,
+          "description": "Any number of models can each have their incendine combustor replaced with 1 heavy phosphor blaster."
+        }
       ]
     },
     {
@@ -1232,7 +1372,20 @@
           "description": "1 model",
           "cost": 35
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Character",
+          "Infantry",
+          "Tech-Priest",
+          "Cybernetica Datasmith",
+          "Legio Cybernetica"
+        ]
+      }
     },
     {
       "id": "000000847",
@@ -1390,6 +1543,23 @@
           "line": "1",
           "description": "4 models",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Servitors",
+          "Cult Mechanicus",
+          "Infantry"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following:1 heavy bolter and 1 Servitor’s tools1 multi-melta and 1 Servitor’s tools1 plasma cannon and 1 Servitor’s tools|"
         }
       ]
     },
@@ -1595,6 +1765,48 @@
           "description": "10 models",
           "cost": 85
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Battleline",
+          "Imperium",
+          "Skitarii",
+          "Rangers"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Skitarii Ranger Alpha can be equipped with 1 Alpha combat weapon."
+        },
+        {
+          "line": 2,
+          "description": "The Skitarii Ranger Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol."
+        },
+        {
+          "line": 3,
+          "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 arc rifle."
+        },
+        {
+          "line": 4,
+          "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 plasma caliver."
+        },
+        {
+          "line": 5,
+          "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 transuranic arquebus."
+        },
+        {
+          "line": 6,
+          "description": "1 Skitarii Ranger equipped with a galvanic rifle can be equipped with one of the following:1 enhanced data-tether*1 omnispex*|"
+        },
+        {
+          "line": 7,
+          "description": "* That model’s galvanic rifle cannot be replaced."
+        }
       ]
     },
     {
@@ -1791,6 +2003,48 @@
           "description": "10 models",
           "cost": 95
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Vanguard",
+          "Skitarii",
+          "Infantry",
+          "Battleline",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Skitarii Vanguard Alpha can be equipped with 1 Alpha combat weapon."
+        },
+        {
+          "line": 2,
+          "description": "The Skitarii Vanguard Alpha’s radium carbine can be replaced with 1 Mechanicus pistol."
+        },
+        {
+          "line": 3,
+          "description": "1 Skitarii Vanguard’s radium carbine can be replaced with 1 arc rifle."
+        },
+        {
+          "line": 4,
+          "description": "1 Skitarii Vanguard’s radium carbine can be replaced with 1 plasma caliver."
+        },
+        {
+          "line": 5,
+          "description": "1 Skitarii Vanguard’s radium carbine can be replaced with 1 transuranic arquebus."
+        },
+        {
+          "line": 6,
+          "description": "1 Skitarii Vanguard equipped with a radium carbine can be equipped with one of the following:1 enhanced data-tether*1 omnispex*|"
+        },
+        {
+          "line": 7,
+          "description": "* That model’s radium carbine cannot be replaced."
+        }
       ]
     },
     {
@@ -1949,6 +2203,24 @@
           "description": "10 models",
           "cost": 140
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Infantry",
+          "Infiltrators",
+          "Skitarii",
+          "Sicarian"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their stubcarbine and power weapon replaced with 1 flechette blaster and 1 taser goad."
+        }
       ]
     },
     {
@@ -2080,6 +2352,28 @@
           "line": "2",
           "description": "10 models",
           "cost": 150
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Sicarian",
+          "Ruststalkers",
+          "Infantry",
+          "Imperium",
+          "Skitarii"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of Sicarian Ruststalkers can each have their transonic razor and chordclaw replaced with 1 transonic blades."
+        },
+        {
+          "line": 2,
+          "description": "The Sicarian Ruststalker Princeps’ transonic razor and chordclaw can be replaced with 1 transonic blades and chordclaw."
         }
       ]
     },
@@ -2216,6 +2510,25 @@
           "line": "3",
           "description": "3 models",
           "cost": 225
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Vehicle",
+          "Ironstrider Ballistarii",
+          "Skitarii",
+          "Imperium",
+          "Smoke",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "Any number of models can each have their twin cognis autocannon replaced with 1 twin cognis lascannon."
         }
       ]
     },
@@ -2354,7 +2667,21 @@
           "description": "3 models",
           "cost": 210
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Smoke",
+          "Walker",
+          "Imperium",
+          "Skitarii",
+          "Sydonian",
+          "Vehicle",
+          "Dragoons With Taser Lances"
+        ]
+      }
     },
     {
       "id": "000000854",
@@ -2560,6 +2887,33 @@
           "description": "1 model",
           "cost": 155
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Onager Dunecrawler",
+          "Vehicle",
+          "Imperium",
+          "Skitarii",
+          "Smoke",
+          "Walker"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s eradication beamer can be replaced with one of the following:1 daedalus missile launcher and 1 Icarus array1 neutron laser and 1 cognis heavy stubber1 twin Onager heavy phosphor blaster|"
+        },
+        {
+          "line": 2,
+          "description": "This model can be equipped with 1 additional cognis heavy stubber."
+        },
+        {
+          "line": 3,
+          "description": "This model can be equipped with 1 broad spectrum data-tether."
+        }
       ]
     },
     {
@@ -2722,6 +3076,31 @@
           "line": "2",
           "description": "10 models",
           "cost": 130
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Infantry",
+          "Secutarii Hoplites",
+          "Skitarii"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Hoplite Alpha’s arc lance can be replaced with 1 Archeotech pistol."
+        },
+        {
+          "line": 2,
+          "description": "The Hoplite Alpha can be equipped with 1 Alpha close combat weapon."
+        },
+        {
+          "line": 3,
+          "description": "1 Secutarii Hoplite can be equipped with one of the following:1 enhanced data-tether1 omnispex|"
         }
       ]
     },
@@ -2894,6 +3273,31 @@
           "description": "10 models",
           "cost": 100
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Skitarii",
+          "Secutarii Peltasts",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "The Peltast Alpha’s arc lance can be replaced with 1 Archeotech pistol."
+        },
+        {
+          "line": 2,
+          "description": "The Peltast Alpha can be equipped with 1 Alpha close combat weapon."
+        },
+        {
+          "line": 3,
+          "description": "1 Secutarii Peltast can be equipped with one of the following:1 enhanced data-tether1 omnispex|"
+        }
       ]
     },
     {
@@ -3050,6 +3454,24 @@
           "description": "1 model",
           "cost": 200
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Vehicle",
+          "Imperium",
+          "Transport",
+          "Dedicated Transport",
+          "Terrax-pattern Termite"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s 2 combi-bolters can be replaced with one of the following2 heavy flamers2 twin volkite chargers|"
+        }
       ]
     },
     {
@@ -3177,6 +3599,25 @@
           "description": "1 model",
           "cost": 60
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Tech-Priest",
+          "Manipulus",
+          "Cult Mechanicus",
+          "Infantry",
+          "Character"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s magnarail lance can be replaced with 1 transonic cannon."
+        }
       ]
     },
     {
@@ -3301,7 +3742,21 @@
           "description": "1 model",
           "cost": 85
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Dedicated Transport",
+          "Transport",
+          "Vehicle",
+          "Skitarii",
+          "Smoke",
+          "Skorpius Dunerider"
+        ]
+      }
     },
     {
       "id": "000001651",
@@ -3453,6 +3908,24 @@
           "description": "1 model",
           "cost": 175
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Skitarii",
+          "Skorpius Disintegrator",
+          "Imperium",
+          "Smoke",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s belleros energy cannon can be replaced with 1 ferrumite cannon."
+        }
       ]
     },
     {
@@ -3565,6 +4038,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 40
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Imperium",
+          "Character",
+          "Epic Hero",
+          "Cult Mechanicus",
+          "X-101"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "None"
         }
       ]
     },
@@ -3729,6 +4221,23 @@
           "description": "6 models",
           "cost": 110
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Serberys Sulphurhounds",
+          "Skitarii",
+          "Imperium",
+          "Mounted"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "For every 3 models in this unit, 1 Serberys Sulphurhound’s 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol."
+        }
       ]
     },
     {
@@ -3866,6 +4375,23 @@
           "line": "2",
           "description": "6 models",
           "cost": 120
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Serberys Raiders",
+          "Skitarii",
+          "Imperium",
+          "Mounted"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "1 Serberys Raider can be equipped with 1 enhanced data-tether."
         }
       ]
     },
@@ -4008,7 +4534,21 @@
           "description": "10 models",
           "cost": 160
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Jump Pack",
+          "Imperium",
+          "Sterylizors",
+          "Fly",
+          "Infantry",
+          "Skitarii",
+          "Pteraxii"
+        ]
+      }
     },
     {
       "id": "000002084",
@@ -4146,7 +4686,22 @@
           "description": "10 models",
           "cost": 140
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Skystalkers",
+          "Pteraxii",
+          "Imperium",
+          "Grenades",
+          "Jump Pack",
+          "Fly",
+          "Infantry",
+          "Skitarii"
+        ]
+      }
     },
     {
       "id": "000002085",
@@ -4288,6 +4843,26 @@
           "line": "1",
           "description": "1 model",
           "cost": 150
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Vehicle",
+          "Aircraft",
+          "Transport",
+          "Fly",
+          "Skitarii",
+          "Archaeopter Transvector",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s command uplink can be replaced with 1 chaff launcher."
         }
       ]
     },
@@ -4449,6 +5024,25 @@
           "description": "1 model",
           "cost": 185
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Fly",
+          "Archaeopter Stratoraptor",
+          "Vehicle",
+          "Skitarii",
+          "Imperium",
+          "Aircraft"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s command uplink can be replaced with 1 chaff launcher."
+        }
       ]
     },
     {
@@ -4583,6 +5177,25 @@
           "description": "1 model",
           "cost": 160
         }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Archaeopter Fusilave",
+          "Skitarii",
+          "Imperium",
+          "Fly",
+          "Aircraft",
+          "Vehicle"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s command uplink can be replaced with 1 chaff launcher."
+        }
       ]
     },
     {
@@ -4700,7 +5313,20 @@
           "description": "1 model",
           "cost": 45
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Technoarcheologist",
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Cult Mechanicus",
+          "Tech-Priest"
+        ]
+      }
     },
     {
       "id": "000002478",
@@ -4814,7 +5440,19 @@
           "description": "1 model",
           "cost": 35
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Marshal",
+          "Skitarii"
+        ]
+      }
     },
     {
       "id": "000003694",
@@ -4962,7 +5600,21 @@
           "description": "3 models",
           "cost": 150
         }
-      ]
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Imperium",
+          "Skitarii",
+          "Sydonian",
+          "Dragoons With Radium Jezzails",
+          "Vehicle",
+          "Walker",
+          "Smoke"
+        ]
+      }
     },
     {
       "id": "000003695",
@@ -5125,6 +5777,25 @@
           "line": "1",
           "description": "1 model",
           "cost": 50
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Adeptus Mechanicus"
+        ],
+        "other": [
+          "Skitarii",
+          "Sydonian",
+          "Skatros",
+          "Infantry",
+          "Character",
+          "Imperium"
+        ]
+      },
+      "options": [
+        {
+          "line": 1,
+          "description": "This model’s radium jezzail can be replaced with 1 Skatros transuranic arquebus."
         }
       ]
     }
