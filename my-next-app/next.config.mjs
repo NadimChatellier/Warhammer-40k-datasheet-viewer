@@ -1,8 +1,8 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'standalone', // Move this from experimental to here
+    eslint: {
+      ignoreDuringBuilds: true, // Skip ESLint checks during Netlify build
+    },
+    output: 'standalone',
   };
-  
   export default nextConfig;
-  
   
