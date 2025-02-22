@@ -99,9 +99,12 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
             <>
             <p className="text-sm">{selectedUnit.profiles.length > 1 ? profile.name : ""} </p>
             {profile.invulnerable_save !== "-" && (
-    <span className="text-sm font-semibold text-align: right; text-gray-500 border-b border-dashed border-gray-500 pb-1">
-      {profile.invulnerable_save}++ Invulnerable Save
+              <>
+              <span className="text-sm font-semibold text-align: right; text-gray-500 border-b border-dashed border-gray-500 pb-1">
+      {profile.invulnerable_save}++ Invulnerable Save 
     </span>
+      {profile.invulnerable_description !== "" ? "Note:" + profile.invulnerable_description : ""}
+              </>
   )}
             <table
               key={profileIndex}

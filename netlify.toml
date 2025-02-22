@@ -1,0 +1,9 @@
+[build]
+base = ""
+publish = ".next"
+command = "npm install && npm run build"
+
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
