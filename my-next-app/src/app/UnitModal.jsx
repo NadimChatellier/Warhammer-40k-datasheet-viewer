@@ -73,7 +73,7 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
       
       
         {/* Profile Information */}
-        <div className="flex flex-col w-full md:w-2/3 text-white">
+        <div className="flex flex-col w-full md:w-2/3 text-white overflow-y-auto scrollable-content">
           <h3
             className="font-extrabold uppercase tracking-wide drop-shadow-lg overflow-hidden text-ellipsis"
             style={{

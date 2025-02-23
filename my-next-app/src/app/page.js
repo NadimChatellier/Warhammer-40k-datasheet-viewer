@@ -61,33 +61,46 @@ export default function Home() {
       >
         <FiMenu size={24} />
       </button>
+{/* Sidebar Overlay (closes sidebar when clicked) */}
+{isSidebarOpen && (
+  <div 
+    className="fixed inset-0 bg-black bg-opacity-50 z-40"
+    onClick={() => setIsSidebarOpen(false)}
+  />
+)}
 
-      {/* Sidebar */}
-      <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-900 text-white p-4 transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out z-50`}
-      >
-        <button
-          onClick={() => setIsSidebarOpen(false)}
-          className="absolute top-4 right-4 text-white"
+{/* Sidebar */}
+<div
+  className={`fixed top-0 left-0 h-full w-64 bg-gray-900 text-white p-4 transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out z-50`}
+  onClick={(e) => e.stopPropagation()} // Prevents clicks inside from closing it
+>
+  <button
+    onClick={() => setIsSidebarOpen(false)}
+    className="absolute top-4 right-4 text-white"
+  >
+    <FiX size={24} />
+  </button>
+  <h2 className="text-xl font-bold mb-4">Select Faction</h2>
+  
+  {/* Scrollable factions list */}
+  <div className="overflow-y-auto max-h-[calc(100vh-100px)]">
+    <ul>
+      {factions.map((faction) => (
+        <li
+          key={faction.name}
+          className={`p-2 cursor-pointer ${selectedFaction === faction.name.replace(/\s+/g, '') ? "bg-gray-700" : ""}`}
+          onClick={() => {
+            setSelectedFaction(faction.name.replace(/\s+/g, ''));
+            setIsSidebarOpen(false);
+          }}
         >
-          <FiX size={24} />
-        </button>
-        <h2 className="text-xl font-bold mb-4">Select Faction</h2>
-        <ul>
-          {factions.map((faction) => (
-            <li
-              key={faction.name}
-              className={`p-2 cursor-pointer ${selectedFaction === faction.name.replace(/\s+/g, '') ? "bg-gray-700" : ""}`}
-              onClick={() => {
-                setSelectedFaction(faction.name.replace(/\s+/g, ''));
-                setIsSidebarOpen(false);
-              }}
-            >
-              {faction.name}
-            </li>
-          ))}
-        </ul>
-      </div>
+          {faction.name}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
+
 
       <div className="flex flex-col items-center w-full min-h-screen bg-gray-900 p-6">
         {/* Render Characters */}
