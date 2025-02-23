@@ -80,10 +80,14 @@ export default function Home() {
   >
     <FiX size={24} />
   </button>
-  <h2 className="text-xl font-bold mb-4">Select Faction</h2>
+
+  {/* Improved "Select Faction" section */}
+  <div className="bg-gray-800 p-3 rounded-lg shadow-md text-center mb-4">
+    <h2 className="text-2xl font-bold text-yellow-400">Select Faction</h2>
+  </div>
   
   {/* Scrollable factions list */}
-  <div className="overflow-y-auto max-h-[calc(100vh-100px)]">
+  <div className="overflow-y-auto max-h-[calc(100vh-100px)] scrollable-content">
     <ul>
       {factions.map((faction) => (
         <li
@@ -101,8 +105,9 @@ export default function Home() {
   </div>
 </div>
 
-
+      
       <div className="flex flex-col items-center w-full min-h-screen bg-gray-900 p-6">
+      <h1 className="text-4xl font-bold text-white p-4">{selectedFaction.replace(/([A-Z])/g, ' $1').trim()}</h1>
         {/* Render Characters */}
         {characters.length > 0 && (
           <div className="w-full">
