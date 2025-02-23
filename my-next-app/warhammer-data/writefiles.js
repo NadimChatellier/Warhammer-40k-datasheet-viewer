@@ -757,6 +757,87 @@ parseUnitAbilities()
 
 
 
+  // Function to find a faction by ID within factionDataMap
+function findFactionById(factionId) {
+  for (const factionKey of Object.keys(factionDataMap)) {
+    const faction = factionDataMap[factionKey];
+
+    // Check if the faction matches the given factionId
+    if (faction.id === factionId) {
+      console.log(`✅ Found faction ${factionId} in factionDataMap: ${factionKey}`);
+      return { faction, factionKey }; // Return faction and its factionKey
+    }
+  }
+
+  console.log(`❌ Faction with ID ${factionId} not found in factionDataMap.`);
+  return null;
+}
+
+// Function to parse and assign stratagems to the correct faction and detachment
+async function parseStratagems() {
+  const stratagemsFilePath = path.join(__dirname, 'warhammer-csvs', 'Stratagems.csv');
+  console.log(`📂 Reading Stratagems from: ${stratagemsFilePath}`);
+
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(stratagemsFilePath)
+      .pipe(csv({ separator: '|', headers: ['faction_id', 'id', 'name', 'type', 'cp_cost', 'legend', 'turn', 'phase', 'detachment', 'description'] }))
+      .on('data', (row) => {
+        const { faction_id, id, name, type, cp_cost, legend, turn, phase, detachment, description } = row;
+        console.log(`🔍 Searching for faction_id: ${faction_id}, detachment: ${detachment}`);
+
+        // Find the faction by faction_id
+        const foundFactionData = findFactionById(faction_id);
+        if (!foundFactionData) {
+          console.log(`⚠️ Skipping: No faction found with faction_id: ${faction_id}`);
+          return;
+        }
+
+        const { faction, factionKey } = foundFactionData;
+
+        // Ensure the detachment array exists for the faction
+        if (!faction.detachments) {
+          faction.detachments = [];
+        }
+
+        // Find or create the detachment under which stratagems will be stored
+        let detachmentObj = faction.detachments.find(det => det.name === detachment);
+        if (!detachmentObj) {
+          // If detachment doesn't exist, create a new one
+          detachmentObj = { name: detachment, stratagems: [] };
+          faction.detachments.push(detachmentObj);
+        }
+
+        // Ensure the stratagems array exists within the detachment
+        if (!detachmentObj.stratagems) {
+          detachmentObj.stratagems = [];
+        }
+
+        // Clean the description and push the stratagem data
+        const cleanedDescription = cleanText(description);
+        detachmentObj.stratagems.push({
+          id,
+          name,
+          type,
+          cpCost: parseInt(cp_cost, 10), // Ensure CP cost is a number
+          legend,
+          turn,
+          phase,
+          description: cleanedDescription
+        });
+
+        console.log(`✅ Added stratagem "${name}" to detachment "${detachment}" for faction "${factionKey}"`);
+      })
+      .on('end', () => {
+        console.log('🎉 All stratagems successfully parsed and assigned.');
+        resolve();
+      })
+      .on('error', (err) => {
+        console.log(`❌ Error reading stratagems file: ${err.message}`);
+        reject(err);
+      });
+  });
+}
+
 
 
 
@@ -775,6 +856,7 @@ async function processWarhammerData() {
     await parseUnitCosts();
     await parseUnitKeywords()
     await parseUnitOptions();
+    await parseStratagems();
     await writeFactionFiles();
   } catch (error) {
     console.error('❌ Process failed:', error);

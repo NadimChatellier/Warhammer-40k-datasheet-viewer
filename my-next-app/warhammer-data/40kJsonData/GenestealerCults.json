@@ -15356,5 +15356,232 @@
         ]
       }
     }
+  ],
+  "detachments": [
+    {
+      "name": "Biosanctic Broodsurge",
+      "stratagems": [
+        {
+          "id": "000009076002",
+          "name": "EVASIVE VANGUARD",
+          "type": "Biosanctic Broodsurge – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Adaptive and intelligent, the purest of a cult's broods can evade their foes to find new avenues of ingress.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "description": "WHEN: Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers, before removing those markers from the battlefield.TARGET: One PURESTRAIN GENESTEALERS unit from your army in Cult Ambush.EFFECT: Select one of those Cult Ambush markers. You can move that Cult Ambush marker up to 6\". If that marker is still within 9\" of one or more enemy units, it is removed from the battlefield; otherwise, until the end of the battle, you can only select PURESTRAIN GENESTEALERS units from your army to be set up using that Cult Ambush marker.|\nGC|000009085006|SYMBIOTIC DESTRUCTION|Brood Brother Auxilia – Battle Tactic Stratagem|1|As the Broodmind coordinates their timing, martial and insurrectionist comrades target their chosen victims in volleys of mutually supportive firepower.|Your turn|Shooting phase|Brood Brother Auxilia|WHEN: Your Shooting phase.TARGET: One ASTRA MILITARUM and one GENESTEALER CULTS unit from your army that have not been selected to shoot this phase.EFFECT: Select one enemy unit that is visible to both of those selected units and within range of at least one ranged weapon from each of those units. Until the end of the phase, models in those units can only make attacks that target that enemy unit (and only if it is an eligible target). When doing so, each time such a model makes an attack, re-roll a Wound roll of 1.|\nGC|000009085005|ACCEPTABLE LOSSES|Brood Brother Auxilia – Strategic Ploy Stratagem|2|With martial pragmatism and the cult's victory at stake, Brood Brothers will willingly open fire on the foe even if it endangers infiltrating cells of allies.|Your turn|Shooting phase|Brood Brother Auxilia|WHEN: Your Shooting phase.TARGET: One ASTRA MILITARUM unit from your army.EFFECT: Select one enemy unit within Engagement Range of one or more GENESTEALER CULTS units from your army. Until the end of the phase, your unit can make ranged attacks that target that enemy unit. If it does, after it has resolved those attacks, roll one D6 for each of those GENESTEALER CULTS units: on a 5+, the unit being rolled for suffers D3+1 mortal wounds.|\nGC|000009085004|SUPPRESS AND OVERWHELM|Brood Brother Auxilia – Strategic Ploy Stratagem|1|Disciplined salvoes of fire can drive the foe into cover, leaving them vulnerable to the rest of the cult.|Your turn|Shooting phase|Brood Brother Auxilia|WHEN: Your Shooting phase, just after an ASTRA MILITARUM unit from your army has shot.TARGET: That ASTRA MILITARUM unit.EFFECT: Select one enemy unit hit by one or more of those attacks. Until the end of the turn, that enemy unit cannot be targeted with the Fire Overwatch Stratagem and each time a GENESTEALER CULTS unit from your army selects that enemy unit as a target of a charge, you can re-roll the Charge roll.|\nGC|000009085003|REGIMENTAL REINFORCEMENTS|Brood Brother Auxilia – Strategic Ploy Stratagem|1|Xeno-tainted soldiers have long learned to lurk in the shadows, ready to attack when the cult calls.|Either player’s turn|Shooting or Fight phase|Brood Brother Auxilia|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an ASTRA MILITARUM INFANTRY REGIMENT unit from your army (excluding ARTILLERY and CHARACTER units) is destroyed.TARGET: That INFANTRY unit. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Roll one D6: on a 3+, place one Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units (if this is not possible, no marker is placed) and add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot.RESTRICTIONS: You can only use this Stratagem once per battle.|"
+        }
+      ]
+    },
+    {
+      "name": "Brood Brother Auxilia",
+      "stratagems": [
+        {
+          "id": "000009085002",
+          "name": "IN THE SHADOW OF IRON",
+          "type": "Brood Brother Auxilia – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Hulking armoured war engines provide ideal cover to launch a well-timed ambush.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "description": "WHEN: Any phase, just after an enemy unit ends a move within 9” of one or more of your Cult Ambush markers.TARGET: One ASTRA MILITARUM VEHICLE unit from your army.EFFECT: Select one of those Cult Ambush markers. You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units and wholly within 6\" of your unit.|"
+        },
+        {
+          "id": "000009085007",
+          "name": "A DARK NETWORK",
+          "type": "Brood Brother Auxilia – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Forewarned of the enemy's sudden onset by spies in their ranks or by the Brood Brothers' own strategos, the cult’s faithful evade potential catastrophe.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Reinforcements step of your opponent’s Movement phase, just after an enemy unit is set up on the battlefield from Reserves.TARGET: One ASTRA MILITARUM or GENESTEALER CULTS unit from your army (excluding MONSTERS and VEHICLES) within 12\" of that enemy unit.EFFECT: Your unit can make a Normal move of up to 6\".|"
+        }
+      ]
+    },
+    {
+      "name": "Cult Unveiled",
+      "stratagems": [
+        {
+          "id": "000009461005",
+          "name": "LURKING MENACE",
+          "type": "Cult Unveiled – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Foes find their aim confounded as the Genestealer Cultists prowl through gloom and drifting steam, rarely presenting themselves as targets.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One GENESTEALER CULTS unit from your army that was selected as the target of one or more of the attacking unit's attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the attacking model is not within 3\", subtract 1 from the Hit roll.|\nGC|000009461003|OUT OF HIDING|Cult Unveiled – Strategic Ploy Stratagem|1|Wary of detection, the cult has concealed cells of the faithful through the structure of the ship. Now they emerge into the fight like insects from their cocoon.|Your turn|Movement phase|Cult Unveiled|WHEN: Your Movement phase, at the start of the Reinforcements step.TARGET: One NEOPHYTE HYBRIDS unit from your army that is in Reserves.EFFECT: Until the end of the phase, models in your unit have the Deep Strike ability.RESTRICTIONS: You can only use this Stratagem once.|\nGC|000009461004|FOR THE BROOD|Cult Unveiled – Strategic Ploy Stratagem|1|Fanatical, and with wills suborned by the insidious Broodmind, these cultists will gladly die amidst hails of their comrades’fire if it means victory.|Your turn|Shooting phase|Cult Unveiled|WHEN: Your Shooting phase.TARGET: One GENESTEALER CULTS unit from your army that has not been selected to shoot this phase.EFFECT: Select one enemy unit within Engagement Range of one or more friendly GENESTEALER CULTS units. Until the end of the phase, your unit can make ranged attacks that target that enemy unit. If it does, after your unit has finished making those attacks, roll one D6 for each of those friendly units: on a 2-4, that friendly unit suffers 1 mortal wound; on a 5+, that friendly unit suffers 2 mortal wounds.|\nGC|000009461002|PLANNED EXTRACTION|Cult Unveiled – Strategic Ploy Stratagem|1|Driven by the Broodmind and their own guerrilla training, these cultists refuse open battle, instead firing hails of cover fire as they retreat into the shadows.|Your turn|Shooting phase|Cult Unveiled|WHEN: Your Shooting phase.TARGET: One GENESTEALER CULTS unit from your army.EFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back.|\nGC|000009828004|AVENGE THE STAR CHILDREN|Final Day – Battle Tactic Stratagem|1|Some amongst the cult still retain enough sentience and zeal to feel rage and a need for vengeance if they see the Star Children slain.|Either player’s turn|Shooting or Fight phase|Final Day|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has shot or fought.TARGET: One TYRANIDS CHARACTER unit from your army that was destroyed by that enemy unit this phase. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, each time a GENESTEALER CULTS model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll.|\nGC|000009828005|DIVINE IMPERATIVE|Final Day – Battle Tactic Stratagem|1|Cultists dash madly into the fighting without a care for their survival, drawn onward to aid the vanguard organisms by a will they cannot resist.|Your turn|Charge phase|Final Day|WHEN: Your Charge phase.TARGET: One GENESTEALER CULTS unit from your army that has not declared a charge this phase.EFFECT: Select one enemy unit within Engagement Range of one or more TYRANIDS units from your army. Until the end of the phase, each time your GENESTEALER CULTS unit declares a charge, if that enemy unit is one of the targets of that charge, add 1 to Charge rolls made for your unit and you can re-roll the Charge roll.|\nGC|000009828002|HYPERFEROCITY|Final Day – Battle Tactic Stratagem|1|Goaded by the newly ascendant Hive Mind, the cultists fight with greater fury even as their muscles tear and organs rupture under the strain.|Either player’s turn|Fight phase|Final Day|WHEN: Fight phase.TARGET: One GENESTEALER CULTS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re-roll a Wound roll of 1. If one or more friendly TYRANIDS units are within 6\" of that enemy unit, you can re-roll the Wound roll instead.|"
+        }
+      ]
+    },
+    {
+      "name": "Final Day",
+      "stratagems": [
+        {
+          "id": "000009828006",
+          "name": "DARTING ATTACKS",
+          "type": "Final Day – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Like predatory sea beasts lunging from wheeling shoals of fish, the vanguard organisms strike and fade from amidst the cultist hordes repeatedly, picking apart their overwhelmed prey.",
+          "turn": "Your turn",
+          "phase": "Shooting or Charge phase",
+          "description": "WHEN: Your Shooting phase or your Charge phase.TARGET: One TYRANIDS unit from your army.EFFECT: Until the end of the phase, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.|"
+        },
+        {
+          "id": "000009828007",
+          "name": "RESISTANCE TUNNELS",
+          "type": "Final Day – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Never again will the tunnel networks of the cult provide secret roads for hopeful and idealistic freedom fighters. Yet they can still serve one last time as a means by which the Tyranids and their surviving worshippers can vanish from the battlefield only to strike again elsewhere.",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "description": "WHEN: End of your opponent’s Fight phase.TARGET: One GENESTEALER CULTS or TYRANIDS unit from your army that is not within Engagement Range of one or more enemy units.EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.|"
+        },
+        {
+          "id": "000009828003",
+          "name": "PSI SURGE",
+          "type": "Final Day – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "As the Tyranid invasion gathers pace, the influence of the Hive Mind surges like waves rolling ever higher onto a desolate shore.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "description": "WHEN: Start of any phase.TARGET: One TYRANIDS unit from your army.EFFECT: Until the start of your next Command phase, increase the range of your unit’s Catalyst ability by 3\".RESTRICTIONS: Each time you use this Stratagem, until the end of your next Command phase, you cannot use this Stratagem again.|\nGC|000009469002|MONSTROUS MOMENTUM|Genespawn Onslaught – Strategic Ploy Stratagem|1|Not content with slaying their immediate prey, these warriors press on in search of more before the bodies have even stopped twitching.|Either player’s turn|Fight phase|Genespawn Onslaught|WHEN: Fight phase, just after a GENESTEALER CULTS unit from your army destroys an enemy unit.TARGET: That GENESTEALER CULTS unit.EFFECT: If your unit is not within Engagement Range of one or more enemy units, until the end of the phase, each time your unit Consolidates, models in your unit can end that move as close as possible to the nearest Hatchway instead of the nearest visible enemy unit. Your unit can then attempt to operate that Hatchway.|\nGC|000009469003|UNSTOPPABLE BRUTES|Genespawn Onslaught – Strategic Ploy Stratagem|1|Bulked out with enormous slabs of twisted muscle, Aberrants and Abominants simply smash aside hatches and bulkheads that block their paths.|Your turn|Movement or Charge phase|Genespawn Onslaught|WHEN: Your Movement or Charge phase.TARGET: One ABOMINANT or ABERRANTS unit from your army that has not been selected to move this phase and has not declared a charge this phase.EFFECT: Until the end of the phase, when makinga Normal, Advance or Charge move, your unit can move through a single closed Hatchway as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not visible to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.RESTRICTIONS: You can only use this Stratagem once per turn.|"
+        }
+      ]
+    },
+    {
+      "name": "Genespawn Onslaught",
+      "stratagems": [
+        {
+          "id": "000009469004",
+          "name": "SOLDIERS OF THE STAR CHILDREN",
+          "type": "Genespawn Onslaught – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "For all their grotesque appearance, Hybrid Metamorphs are amongst the most skilled and ruthlessly efficient of the cult’s warriors.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your Shooting phase, just after a HYBRID METAMORPHS unit from your army is selected to perform the Set Overwatch Tactical Manoeuvre.TARGET: That HYBRID METAMORPHS unit.EFFECT: Select one objective marker you control that your unit is within range of. That objective marker is Secured by your army.|"
+        },
+        {
+          "id": "000009469005",
+          "name": "GROWING DREAD",
+          "type": "Genespawn Onslaught – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The more enemies see of the gene-wrought terrors they are fighting against, the more their tactical cohesion is drowned by horror and panic.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit is selected to perform a Tactical Manoeuvre.TARGET: One GENESTEALER CULTS unit from your army that is within 9\" of and visible to that enemy unit.EFFECT: That enemy unit must take a Leadership test, subtracting 1 from the result: if failed, that enemy unit does not perform that Tactical Manoeuvre and it cannot perform anotherTactical Manoeuvre this turn (but can otherwise act normally).|\nGC|000009068003|PRIMED AND READIED|Host of Ascension – Battle Tactic Stratagem|1|The broodkin have been trained and equipped for this moment, with weapons readied for Ascension.|Either player’s turn|Shooting or Fight phase|Host of Ascension|WHEN: Your Shooting phase or the Fight phase.TARGET: One GENESTEALER CULTS units from your army that has not been selected to shoot or fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.|\nGC|000009068002|COORDINATED TRAP|Host of Ascension – Battle Tactic Stratagem|2|A tenet of guerrilla warfare is the concentration of even inferior firepower to inflict maximum harm.|Either player’s turn|Shooting or Fight phase|Host of Ascension|WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two GENESTEALER CULTS units from your army that have not been selected to shoot or fight this phase.EFFECT: Select one enemy unit (if this Stratagem is used in the Fight phase, that enemy unit must be within Engagement Range of both of your units). Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, add 1 to the Wound roll.|\nGC|000009068004|TUNNEL CRAWLERS|Host of Ascension – Strategic Ploy Stratagem|1|The cult can expertly assail seemingly impregnable enemy positions.|Your turn|Movement phase|Host of Ascension|WHEN: Your Movement phase.TARGET: One GENESTEALER CULTS unit from your army that is arriving using the Deep Strike ability this phase.EFFECT: Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.|"
+        }
+      ]
+    },
+    {
+      "name": "Host of Ascension",
+      "stratagems": [
+        {
+          "id": "000009068005",
+          "name": "LYING IN WAIT",
+          "type": "Host of Ascension – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The brood lurks invisibly as the enemy approaches. Not until the last second do they burst from cover to strike.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Your opponent’s Movement phase.TARGET: One GENESTEALER CULTS BATTLELINE unit from your army in Cult Ambush.EFFECT: Until the end of the phase, when setting your unit up using a Cult Ambush marker, set your unit up anywhere on the battlefield wholly within 6\" of that Cult Ambush marker and not within Engagement Range of one or more enemy units.|\nGC|000009068006|RETURN TO THE SHADOWS|Host of Ascension – Strategic Ploy Stratagem|1|With their task of drawing the oppressors' fire complete, the surviving cultists melt away, ready to strike again.|Opponent’s turn|Shooting phase|Host of Ascension|WHEN: Your opponent's Shooting phase, just after an enemy unit has shot.TARGET: One GENESTEALER CULTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.|\nGC|000009068007|A DEADLY SNARE|Host of Ascension – Strategic Ploy Stratagem|1|An enemy's fervour to strike down the faithful of the cult can be turned against them, luring the foe into a region laced with hidden traps and primed explosives.|Opponent’s turn|Charge phase|Host of Ascension|WHEN: Your opponent’s Charge phase, just after an enemy unit declares a charge.TARGET: One GENESTEALER CULTS INFANTRY unit from your army that was selected as a target of that charge.EFFECT: Roll one D6: on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds.|\nGC|000009477002|HYPERADRENAL REFLEXES|Infestation Swarm – Battle Tactic Stratagem|1|Goaded by the biostimulants surging through their bodies, these warrior organisms evade their enemies'attacks with unbelievable swiftness.|Either player’s turn|Fight phase|Infestation Swarm|WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One GREAT DEVOURER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.|\nGC|000009477004|HUNTING GROUNDS|Infestation Swarm – Strategic Ploy Stratagem|1|Genestealers on the hunt are relentless, squirming through hatches before they have even half opened.|Your turn|Movement phase|Infestation Swarm|WHEN: Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.TARGET: That GREAT DEVOURER unit.EFFECT: Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it.|"
+        }
+      ]
+    },
+    {
+      "name": "Infestation Swarm",
+      "stratagems": [
+        {
+          "id": "000009477005",
+          "name": "OUTFLANK",
+          "type": "Infestation Swarm – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Swarms of Genestealers crawl through vents and ducts as they seek to outflank their prey.",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: End of your opponent’s Fight phase.TARGET: One GENESTEALERS or PURESTRAIN GENESTEALERS unit from your army that is wholly within an Entry Zone.EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase. When doing so, if it was within one of your Entry Zones when it was removed, it must be set up wholly within another one of your Entry Zones. If it was within one of your opponent’s Entry Zones when it was removed, it must be set up wholly within another one of your opponent’s Entry Zones instead. If this is not possible, your unit is destroyed.|"
+        },
+        {
+          "id": "000009477003",
+          "name": "PERVASIVE DREAD",
+          "type": "Infestation Swarm – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "With the death of their leader, the surviving prey feel an ominous sense of doom press down upon them, heightened by subtle psionic assault.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase, just after the enemy WARLORD is destroyed (and is not returned to the battlefield) by a GREAT DEVOURER unit from your army.TARGET: That GREAT DEVOURER unit.EFFECT: In your opponent’s next Command phase, each enemy unit on the battlefield must take a Battle-shock test, subtracting 1 from the result. This Stratagem cannot cause a unit to take two Battle-shock tests in the same phase.|"
+        }
+      ]
+    },
+    {
+      "name": "Outlander Claw",
+      "stratagems": [
+        {
+          "id": "000009080003",
+          "name": "DEVOTED CREW",
+          "type": "Outlander Claw – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "With evasive manoeuvres and split-second repairs, Outlander Claws marshal their rugged vehicles through the worst the foe can throw at them.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One GOLIATH ROCKGRINDER or GOLIATH TRUCK unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.|"
+        },
+        {
+          "id": "000009080006",
+          "name": "DEFT MANOEUVRING",
+          "type": "Outlander Claw – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Serpent-fast, jinking and swerving with incredible skill, the cult’s light vehicles appear to slide through the oppressors' gunfire.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets.TARGET: One ACHILLES RIDGERUNNERS or ATALAN JACKALS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.|"
+        },
+        {
+          "id": "000009080004",
+          "name": "CLOSE-RANGE SHOOT-OUT",
+          "type": "Outlander Claw – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "A cult’s experienced outriders are experts in hit-and-run attacks and close-range firefights. These skills are deadly when combined.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your Shooting phase.TARGET: One GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability while targeting an enemy unit within 18\".|\nGC|000009080005|RAPID FEINT|Outlander Claw – Strategic Ploy Stratagem|1|An Outlander Claw’s skilled riders and crews can use their enhanced hybrid reactions to rapidly alter speed and course, roaring after fleeing prey or luring enemy out of position and leaving them flat-footed.|Opponent’s turn|Movement phase|Outlander Claw|WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.TARGET: One ACHILLES RIDGERUNNERS or ATALAN JACKALS unit from your army that is within 9\" of that enemy unit.EFFECT: Your unit can make a Normal move of up to 6\".|\nGC|000009080002|ALONG SHADOWED TRAILS|Outlander Claw – Strategic Ploy Stratagem|1|With raw speed and subtle misdirection, Atalan Jackals outflank those who believe them trapped.|Either player’s turn|Any phase|Outlander Claw|WHEN: Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers.TARGET: One ATALAN JACKALS unit from your army in Cult Ambush.EFFECT: Select one of those Cult Ambush markers. You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9” horizontally away from all enemy units and wholly within 6\" of one or more battlefield edges. Until the end of the battle, you can only select ATALAN JACKALS units from your army to set up using that Cult Ambush marker.|\nGC|000009080007|ENCIRCLING THE PREY|Outlander Claw – Strategic Ploy Stratagem|1|Skirting the edge of battle, an Outlander Claw's raiders watch keenly forvulnerabilities, ready to throw themselves back into the fight to exploit any weaknesses in the enemy.|Opponent’s turn|Fight phase|Outlander Claw|WHEN: End of your opponent's Fight phase.TARGET: One GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE unit from your army that is not within Engagement Range of one or more enemy units and is wholly within 9\" of one or more battlefield edges.EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.|"
+        }
+      ]
+    },
+    {
+      "name": "Xenocreed Congregation",
+      "stratagems": [
+        {
+          "id": "000009072003",
+          "name": "FRENZIED DEVOTION",
+          "type": "Xenocreed Congregation – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "The faithful will gladly hurl themselves into harm's way.frenziedly dragging the foe down.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase.TARGET: One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, improve the Attacks and Weapon Skill characteristics of melee weapons equipped by models (excluding CHARACTERS) in your unit by 1 and those weapons have the [HAZARDOUS] ability.|"
+        },
+        {
+          "id": "000009072002",
+          "name": "VENGEANCE FOR THE MARTYR!",
+          "type": "Xenocreed Congregation – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Should one of the Patriarch's inner coven fall, those that remain are swift to call for lethal retribution.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit destroys a GENESTEALER CULTS CHARACTER model from your army.TARGET: One other GENESTEALER CULTS CHARACTER model from your army.EFFECT: Until the end of the battle, each time a friendly ACOLYTE HYBRIDS, Hybrid Metamorphs or Neophyte Hybrids model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a MAGUS, PRIMUS or ACOLYTE ICONWARD, you can re-roll the Hit roll instead.|"
+        },
+        {
+          "id": "000009072007",
+          "name": "THE PATH OF ANGUISH",
+          "type": "Xenocreed Congregation – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Bloody persecution by the oppressors is grist for the mill of the cult's violent and zealous creed.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One ACOLYTE HYBRIDS or NEOPHYTE HYBRIDS unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.EFFECT: Your unit can make a move of up to D6\", but it unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT), When doing so, models in your unit can be moved within Engagement Range of that enemy unit.|\nGC|000009072006|THE DOWNTRODDEN RISE|Xenocreed Congregation – Strategic Ploy Stratagem|2|Such is the creed's inspirational call to arms that as the foe foil one incursion, another rises for the cause.|Opponent’s turn|Movement phase|Xenocreed Congregation|WHEN: End of the Reinforcements step of your opponent’s Movement phase, if you have no Cult Ambush markers on the battlefield.TARGET: One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army in Cult Ambush.EFFECT: This phase, you can set up your unit on the battlefield without using a Cult Ambush marker. When doing so, set up your unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy units, not within your opponent’s deployment zone, and wholly within 9\" of one or more battlefield edges.|\nGC|000009072005|TRANSCENDENT CELERITY|Xenocreed Congregation – Strategic Ploy Stratagem|1|Owing to their hypersensory reactions, the cult’s rate of fire increases.|Your turn|Shooting phase|Xenocreed Congregation|WHEN: Your Shooting phase.TARGET: One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] ability.|\nGC|000009072004|TIRELESS FERVOUR|Xenocreed Congregation – Strategic Ploy Stratagem|1|When the cult's leaders demand devotion, danger and exhaustion are forgotten in the rush to serve.|Your turn|Charge phase|Xenocreed Congregation|WHEN: Your Charge phase.TARGET: One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not declared a charge this phase.EFFECT: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced or Fell Back. When doing so, if it targets an enemy unit within Engagement Range of one or more friendly CHARACTER units, you can re-roll the Charge roll.|\nGK|000009494003|SANCTIC CIRCLE|Baneslayer Strike – Epic Deed Stratagem|2|Through focused psychic might, this warrior cleanses and wards a vital location against the foe.|Your turn|Command phase|Baneslayer Strike|WHEN: Your Command phase.TARGET: One GREY KNIGHTS CHARACTER or PALADIN SQUAD unit from your army.EFFECT: Select one objective marker within 9” of and visible to your unit. If that objective marker does not have any enemy models within range of it (excluding Battle-shocked models), your unit must take a Leadership test, subtracting 1 from the result if that objective marker is Secured by your opponent’s army. If that test is passed, that objective marker is no longer considered Secured by your opponent’s army and is Secured by your army.|\nGK|000009494002|ARMOURED AEGIS|Baneslayer Strike – Epic Deed Stratagem|1|This warrior stands indomitable, a shining tower of strength amidst a maelstrom of foes.|Either player’s turn|Shooting or Fight phase|Baneslayer Strike|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One GREY KNIGHTS CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your model has the Feel No Pain 4+ ability.|\nGK|000009494004|RELENTLESS BOARDERS|Baneslayer Strike – Strategic Ploy Stratagem|1|Once aboard the enemy vessel, the elite of the Grey Knights press forward relentlessly, even their momentary withdrawals only presaging another aggressive push into the next chamber.|Your turn|Charge phase|Baneslayer Strike|WHEN: Your Charge phase.TARGET: One GREY KNIGHTS unit from your army that has not been selected to charge this phase.EFFECT: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Fell Back.|\nGK|000009494005|PSYBOLT AMMUNITION|Baneslayer Strike – Wargear Stratagem|1|By entreating the machine spirit of his weapon with psychic incantations, a battle-brother can infuse it's already deadly payload with explosive mental energy.|Your turn|Shooting phase|Baneslayer Strike|WHEN: Your Shooting phase.TARGET: One GREY KNIGHTS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of storm bolters equipped by models in your unit by 1.|\nGK|000008457003|DEATH FROM THE WARP|Teleport Strike Force – Battle Tactic Stratagem|1|Utilising their warp-attuned senses during the timeless instant of teleportation, Grey Knights know exactly where the enemy are before they arrive. They emerge from the blinding flare of warp energies already firing.|Your turn|Movement phase|Teleport Strike Force|WHEN: Your Movement phase.TARGET: One GREY KNIGHTS PSYKER unit from your army that either Advanced this turn or arrived using the Deep Strike or Teleport Assault abilities this turn.EFFECT: Until the end of the turn, ranged weapons equipped by models in your unit have the [ASSAULT] ability and each time a model in your unit makes an attack, add 1 to the Hit roll. |\nGK|000008457006|RADIANT STRIKE|Teleport Strike Force – Battle Tactic Stratagem|2|Psychic fire rimes the blades of the Grey Knights as they charge at the foe, fanned by their battle fury. At the moment of contact, the empyric charge is unleashed in a blast of azure light.|Either player’s turn|Fight phase|Teleport Strike Force|WHEN: Fight phase.TARGET: One GREY KNIGHTS PSYKER unit from your army.EFFECT: Until the end of the phase, melee weapons equipped by models in your unit with the [PSYCHIC] ability also have the [DEVASTATING WOUNDS] ability.|\nGK|000008457004|PROGNISTICATED ARRIVAL|Teleport Strike Force – Epic Deed Stratagem|1|Accessing a vision granted by the Chapter’s Prognosticars, the Grey Knights perceive the hidden ways of the battlefield and a sliver of the enemy’s intentions, granting them a prophetic situational awareness that aids their strategic disposition.|Your turn|Movement phase|Teleport Strike Force|WHEN: Your Movement phase.TARGET: One GREY KNIGHTS PSYKER unit from your army that is arriving using the Deep Strike or Teleport Assault abilities this phase.EFFECT: Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.RESTRICTIONS: A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.|"
+        }
+      ]
+    }
   ]
 }

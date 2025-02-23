@@ -6059,5 +6059,92 @@
         }
       ]
     }
+  ],
+  "detachments": [
+    {
+      "name": "Teleport Strike Force",
+      "stratagems": [
+        {
+          "id": "000008457005",
+          "name": "MISTS OF DEIMOS",
+          "type": "Teleport Strike Force – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "When the enemy closes in, the Grey Knights wreathe themselves in psychic mists to confound the foe while they reposition until the time is ready to launch a counter-blow.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.TARGET: One GREY KNIGHTS PSYKER unit from your army that is within 9\" of that enemy unit.EFFECT: Your unit can make a Normal move of up to 6\" as if it were your Movement phase or, if it has the Deep Strike ability, it can be placed into Strategic Reserves.RESTRICTIONS: You cannot select a unit that is within Engagement Range of one or more enemy units.|"
+        },
+        {
+          "id": "000008457007",
+          "name": "HALOED IN SOULFIRE",
+          "type": "Teleport Strike Force – Strategic Ploy Stratagem",
+          "cpCost": 2,
+          "legend": "The blazing glare of ancient technology and the shrouding coils of the immaterium often linger, obscuring the Grey Knights’ presence.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "description": "WHEN: Your Movement phase.TARGET: One GREY KNIGHTS PSYKER unit from your army that is arriving using the Deep Strike or Teleport Assault abilities this phase.EFFECT: Until the start of your next Movement phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".|\nGK|000008457002|TRUESILVER ARMOUR|Teleport Strike Force – Wargear Stratagem|1|Grey Knights battle plate incorporates litanies of purity, strands of sanctified silver and other sacred wards, whose defences can be further empowered by ritual mantras.|Either player’s turn|Shooting or Fight phase|Teleport Strike Force|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One GREY KNIGHTS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.|\nGK|000009486005|SANCTIFIED SLAUGHTER|Void Purge Force – Battle Tactic Stratagem|1|With their foes cornered, the Grey Knights’ blades rise and fall, the purge thorough and unmerciful.|Your turn|Fight phase|Void Purge Force|WHEN: Your Fight phase.TARGET: One GREY KNIGHTS unit from your army that charged this turn.EFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. If such a weapon already has that ability, until the end of the phase, each time an attack is made with that weapon, a successful unmodified Hit roll of 5+ scores a Critical Hit.|\nGK|000009486003|HEXBANE WARDS|Void Purge Force – Battle Tactic Stratagem|1|These unsettling hexagrammatic wards, inscribed on the Grey Knights' wargear before boarding, cause enemy weapons to falter and misfire as machine spirits are banished or tormented to madness.|Either player’s turn|Fight phase|Void Purge Force|WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One GREY KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, melee weapons equipped by models in that enemy unit have the [HAZARDOUS] ability.|\nGK|000009486004|TRANSLOCATION|Void Purge Force – Strategic Ploy Stratagem|1|Employing single-use microteleportation matrices or focused psychic powers, these Grey Knights step through the warp and back to realspace in an eyeblink.|Your turn|Movement phase|Void Purge Force|WHEN: Your Movement phase.TARGET: One INTERCEPTOR SQUAD or GREY KNIGHTS CHARACTER unit from your army that has not been selected to move this phase.EFFECT: The next time your unit is selected to move this phase, models in that unit can move through Walls and closed Hatchways as if they were not there, but when doing so, no model can move more than 6\".RESTRICTIONS: You can only use this Stratagem once.|"
+        }
+      ]
+    },
+    {
+      "name": "Void Purge Force",
+      "stratagems": [
+        {
+          "id": "000009486002",
+          "name": "BREACH-SHOCK",
+          "type": "Void Purge Force – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "So swift and overwhelming is a boarding assault by the Grey Knights that foes are overrun in short order before they even realise their peril.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase.TARGET: One GREY KNIGHTS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".|"
+        }
+      ]
+    },
+    {
+      "name": "Warpbane Task Force",
+      "stratagems": [
+        {
+          "id": "000009778002",
+          "name": "SANCTIFIED KILL ZONE",
+          "type": "Warpbane Task Force – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "As new ground is seized and consecrated, so are the Grey Knights lent greater ferocity and resolve.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your Shooting phase or the Fight phase.TARGET: One GREY KNIGHTS unit from your army that has not been selected to shoot or fight this phase and that is wholly within your army’s Hallowed Ground.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1, or, re-roll the Wound roll instead if your unit is a PURIFIER SQUAD.|"
+        },
+        {
+          "id": "000009778004",
+          "name": "HALLOWED BEACON",
+          "type": "Warpbane Task Force – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Newly sanctified ground serves as a luminescent beacon to guide warded battle-brothers stepping through glowing empyric gateways.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Reinforcements step of your Movement phase.TARGET: One GREY KNIGHTS INFANTRY unit (excluding TERMINATOR units) that is arriving using the Deep Strike or Teleport Assault abilities this phase.EFFECT: Set up your unit wholly within your army’s Hallowed Ground and more than 6\" horizontally away from all enemy units.|\nGK|000009778007|REPELLING SPHERE|Warpbane Task Force – Battle Tactic Stratagem|1|Chanting a chorus of warding spells, the Grey Knights project a shimmering field of empyric forces that repels their foes.|Opponent’s turn|Charge phase|Warpbane Task Force|WHEN: Start of your opponent’s Charge phase.TARGET: One GREY KNIGHTS INFANTRY unit from your army.EFFECT: Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground.|\nGK|000009778005|FIRES OF COVENANT|Warpbane Task Force – Battle Tactic Stratagem|1|As the enemy moves close, these warriors draw upon their pledges of duty and the bonds of their brotherhood to unleash a fiery conflagration of arcane death.|Opponent’s turn|Movement phase|Warpbane Task Force|WHEN: Start of your opponent’s Movement phase.TARGET: One GREY KNIGHTS INFANTRY unit from your army.EFFECT: Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6\" of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army’s Hallowed Ground: on a 4+, that enemy unit suffers D3 mortal wounds.|"
+        },
+        {
+          "id": "000009778006",
+          "name": "AEGIS ETERNAL",
+          "type": "Warpbane Task Force – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Channelling their shared psychic potential, these warriors form a coruscating aurora that courses through the warding sigils of their armour, causing them to flare with protective power.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit that are wholly within your Hallowed Ground have a 4+ invulnerable save.|"
+        },
+        {
+          "id": "000009778003",
+          "name": "FLAMES OF SANCTITY",
+          "type": "Warpbane Task Force – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "As the Purifiers battle, their pooled psychic might manifests in a corona of flame that is anathema to the unclean.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: End of the Fight phase.TARGET: One PURIFIER SQUAD unit from your army that was eligible to fight this phase.EFFECT: Roll one D6 for each enemy unit within 6\" of your unit, adding 1 to the result if your unit includes CASTELLAN CROWE: on a 4+, that enemy unit suffers D3 mortal wounds.|\nLoV|000009824007|FURY OF THE HEARTH|Hearthband – Battle Tactic Stratagem|1|As though they unleash the raging flames of their kindred’s hearth upon the enemy, the Einhyr all but drown their enemies in fire.|Your turn|Shooting phase|Hearthband|WHEN: Your Shooting phase.TARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons (excluding Blast weapons) equipped by models in your unit have the [RAPID FIRE 1] ability.|\nLoV|000009824004|SUPERIOR CRAFTSMANSHIP|Hearthband – Battle Tactic Stratagem|2|Not only are the finest of the Kindred’s warriors selected for this duty, but they are also equipped with the best weaponry and wargear the Brôkhyr can produce.|Either player’s turn|Fight phase|Hearthband|WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack.|\nLoV|000009824002|BRËKKEKNOTS|Hearthband – Battle Tactic Stratagem|1|These micro shield generators, worked into warrior jewellery or armour crests, trigger on command to provide short-lived boosted protection.|Either player’s turn|Shooting phase|Hearthband|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.|\nLoV|000009824003|SURE OF PURPOSE|Hearthband – Strategic Ploy Stratagem|1|The single-minded advance of the Kin rolls over collapsing enemy lines and exploits every fault and weakness, driving on towards the objective.|Either player’s turn|Fight phase|Hearthband|WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".|\nLoV|000009824005|UNYIELDING AGGRESSION|Hearthband – Strategic Ploy Stratagem|1|Even should they be compelled to pull back momentarily, the warriors of the Hearthband maintain a punishing curtain of fire to erode the enemy further or rally swiftly and drive back into the fight.|Your turn|Movement phase|Hearthband|WHEN: Your Movement phase, just after a LEAGUES OF VOTANN INFANTRY unit from your army Falls Back.TARGET: That LEAGUES OF VOTANN INFANTRY unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.|\nLoV|000009824006|MATERIALISATION MATRICES|Hearthband – Strategic Ploy Stratagem|1|Built to a superior standard using secrets imparted by the Votann, the teleporters employed by this Hearthband can stabilise rematerialisation fields remarkably close to the foe.|Your turn|Movement phase|Hearthband|WHEN: The Reinforcements step of your Movement phase.TARGET: One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.EFFECT: Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge.|"
+        }
+      ]
+    }
   ]
 }

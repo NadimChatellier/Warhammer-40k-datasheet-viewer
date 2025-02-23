@@ -5407,5 +5407,72 @@
         }
       ]
     }
+  ],
+  "detachments": [
+    {
+      "name": "Traitoris Lance",
+      "stratagems": [
+        {
+          "id": "000008517002",
+          "name": "DREAD HOUNDS",
+          "type": "Traitoris Lance – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.|"
+        },
+        {
+          "id": "000008517003",
+          "name": "DISDAIN FOR THE WEAK",
+          "type": "Traitoris Lance – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Chaos Knight pilots refuse to yield while foes remain to be slain, disdainfully ignoring those who succumb to fear.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.|"
+        },
+        {
+          "id": "000008517006",
+          "name": "KNIGHTS OF SHADE",
+          "type": "Traitoris Lance – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Like dark phantoms, some Chaos Knights can move through solid walls without hindrance.",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "description": "WHEN: Your Movement phase or your Charge phase.TARGET: Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.EFFECT: Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there.|"
+        },
+        {
+          "id": "000008517005",
+          "name": "A LONG LEASH",
+          "type": "Traitoris Lance – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The War Dogs of the Chaos Knights are more terrified of their lords than they are the enemy, and they heed their masters well, for they know the price of disobedience or disloyalty.",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "description": "WHEN: Your Command phase.TARGET: One ABHORRENT model from your army and up to three WAR DOG models from your army.EFFECT: Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has.|"
+        },
+        {
+          "id": "000008517007",
+          "name": "DIABOLIC BULWARK",
+          "type": "Traitoris Lance – Wargear Stratagem",
+          "cpCost": 1,
+          "legend": "Ectoplasmic blood surges hot through glowing conduits as the Chaos Knight feeds power to its shield emitters.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks.|"
+        },
+        {
+          "id": "000008517004",
+          "name": "PTERRORSHADES",
+          "type": "Traitoris Lance – Wargear Stratagem",
+          "cpCost": 1,
+          "legend": "Shrieking with ghoulish hunger, daemonic entities descend in a tatterwinged whirlwind to rend apart the souls of those enemies who show even a moment’s fear. The soul-raptors tear apart their victims’ animus and, as they feed, this life force is channelled to regenerate the battle damage or heal the pilot of the Knight in which these creatures roost.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "description": "WHEN: Any phase, just after an enemy unit fails a Battle-shock test.TARGET: One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.EFFECT: Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound. |\nSM|000008495002|ARMOUR OF CONTEMPT|1st Company Task Force – Battle Tactic Stratagem|1|The belligerence of the Adeptus Astartes combined with their post-human physiology makes them unyielding foes to face.|Either player’s turn|Shooting or Fight phase|1st Company Task Force|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.|\nSM|000008495003|HEROES OF THE CHAPTER|1st Company Task Force – Battle Tactic Stratagem|1|When the fighting is at its fiercest, the veteran warriors of the Chapter truly show their quality.|Either player’s turn|Shooting or Fight phase|1st Company Task Force|WHEN: Your Shooting phase or the Fight phase.TARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is Below Half-strength, add 1 to the Wound roll as well.|\nSM|000008495007|LEGENDARY FORTITUDE|1st Company Task Force – Battle Tactic Stratagem|1|Many are the legendary tales of the 1st Company holding their ground against the odds, weathering assaults that would have swept away lesser warriors.|Opponent’s turn|Charge phase|1st Company Task Force|WHEN: Your opponent’s Charge phase, just after an enemy unit ends a Charge move.TARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within Engagement Range of that enemy unit.EFFECT: Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.|\nSM|000008495004|TERRIFYING PROFICIENCY|1st Company Task Force – Strategic Ploy Stratagem|1|The 1st Company's veterans unleash their skills with an efficiency that is harrowing to witness.|Your turn|Fight phase|1st Company Task Force|WHEN: Your Fight phase.TARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.EFFECT: In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.|"
+        }
+      ]
+    }
   ]
 }

@@ -8997,5 +8997,177 @@
         }
       ]
     }
+  ],
+  "detachments": [
+    {
+      "name": "Flyblown Host",
+      "stratagems": [
+        {
+          "id": "000009730004",
+          "name": "EYE OF THE SWARM",
+          "type": "Flyblown Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The vermin swarms intensify as the Death Guard close in upon the enemy. As their foes clutch and tear their crawling skin, pitiless Plague Marines unleash volleys of point‑blank fire into their tormented foes.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your Shooting phase.TARGET: One DEATH GUARD INFANTRY unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit (excluding Blast weapons) have the [PISTOL] ability.|"
+        },
+        {
+          "id": "000009730002",
+          "name": "NAUSEATING PAROXYSMS",
+          "type": "Flyblown Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The contagion borne by the Death Guard and their attendant swarms of winged vermin triggers bouts of sickness and convulsion in those they encounter.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Start of the Fight phase.TARGET: One DEATH GUARD INFANTRY unit from your army that is within Engagement Range of one or more enemy units.EFFECT: Select one enemy unit within Engagement Range of your unit. That unit must take a Battle-shock test, subtracting 1 from the result.|"
+        },
+        {
+          "id": "000009730006",
+          "name": "ENERVATING ONSLAUGHT",
+          "type": "Flyblown Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Swathed in a buzzing cloak of pathogenic decay, Nurgle’s chosen crash into the foe, disease dealing death as surely as fist, maul and blade.",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "description": "WHEN: Your Charge phase, just after a DEATH GUARD INFANTRY unit from your army makes a Charge move.TARGET: That DEATH GUARD INFANTRY unit.EFFECT: Select one enemy unit within Engagement Range of your unit (excluding MONSTERS and VEHICLES). Roll one D6 for each model in your unit that is within Engagement Range of that unit, adding 1 to the result if that model is not a CULTIST or POXWALKER model: for each 5+, the selected enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).|"
+        }
+      ]
+    },
+    {
+      "name": "Plague Company",
+      "stratagems": [
+        {
+          "id": "000008399002",
+          "name": "FERRIC BLIGHT",
+          "type": "Plague Company – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "The spreading rust of the Ferric Blight can reduce armour of all kinds to nothing.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your Shooting phase or the Fight phase.TARGET: One DEATH GUARD unit from your army that has not been selected to shoot or fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1. If the target of that attack is within Contagion Range of an Infected objective marker you control and a Critical Wound is scored for that attack, improve the Armour Penetration characteristic of that attack by 2 instead.|"
+        },
+        {
+          "id": "000008399003",
+          "name": "SANGUOUS FLUX",
+          "type": "Plague Company – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Bleeding sores erupt all over enemies afflicted by the Sanguous Flux, the wounds never clotting or healing.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase.TARGET: One DEATH GUARD unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. While your unit is within range of an Infected objective marker you control, those weapons have the [SUSTAINED HITS 2] ability instead.|"
+        },
+        {
+          "id": "000008399004",
+          "name": "DISGUSTINGLY RESILIENT",
+          "type": "Plague Company – Battle Tactic Stratagem",
+          "cpCost": 2,
+          "legend": "Those favoured by Nurgle are inured to pain, their rotting bodies shrugging off all but the most traumatic damage with ease.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One DEATH GUARD unit from your army that was selected as the target of one or more of that enemy unit’s attacks.EFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.|"
+        },
+        {
+          "id": "000008399005",
+          "name": "GIFTS OF DECAY",
+          "type": "Plague Company – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Nurgle is a generous god, and through worship and devotion his followers can gain mighty rewards as they spread sickness in his name.",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "description": "WHEN: Your Command phase.TARGET: One DEATH GUARD model from your army.EFFECT: Your model regains up to D3 lost wounds. If your model’s unit is within Contagion Range of an Infected objective marker you control, your model regains up to 3 lost wounds instead.|"
+        },
+        {
+          "id": "000008399007",
+          "name": "CLOUD OF FLIES",
+          "type": "Plague Company – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "With a thrumming roar, a thick cloud of daemon flies whirls around the Death Guard and obscures them from the enemy’s sight.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One DEATH GUARD unit from your army that was selected as the target of one or more of that enemy unit’s attacks.EFFECT: Until the end of the phase, your unit has the Stealth ability.|"
+        },
+        {
+          "id": "000008399006",
+          "name": "BOILBLIGHT",
+          "type": "Plague Company – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The strange lumps that form on victims of Boilblight – also known as Nurgle’s Fruit, Lumpen Splatter or the Crawling Pustulence – are easy to spot at a distance for the Death Guard.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your Shooting phase.TARGET: One DEATH GUARD unit from your army, and one enemy unit within Contagion Range of that unit.EFFECT: Until the end of the phase, each time a weapon equipped by a DEATH GUARD model from your army targets that enemy unit, that weapon has the [HEAVY] and [IGNORES COVER] abilities.|"
+        }
+      ]
+    },
+    {
+      "name": "Unclean Uprising",
+      "stratagems": [
+        {
+          "id": "000009409002",
+          "name": "POX FLARE",
+          "type": "Unclean Uprising – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Like fever heat bursting into unclean flame, the diseases infesting these Poxwalkers flare with sudden infectious vitality.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase.TARGET: One POXWALKERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.|"
+        },
+        {
+          "id": "000009409003",
+          "name": "PATH OF PESTILENCE",
+          "type": "Unclean Uprising – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Long have lurking cultists planned the uprising and prepared the route for their plague-blessed masters to process to victory.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Your Movement phase.TARGET: One DEATH GUARD CULTISTS unit from your army that has not been selected to move this phase and is not within Engagement Range of one or more enemy units.EFFECT: Select one closed Hatchway within 1” of your unit. Your unit can attempt to operate that Hatchway.RESTRICTIONS: Until the end of the turn, your unit cannot attempt to operate a Hatchway again.|"
+        },
+        {
+          "id": "000009409005",
+          "name": "SHAMBLING ONSLAUGHT",
+          "type": "Unclean Uprising – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Relentless, untiring, the plague-rotted hordes press forward in a tide of grasping hands, stinking bodies and gnashing, splintered teeth.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Your opponent's Movement phase, just after an enemy unit is selected to Fall Back.TARGET: One POXWALKERS unit from your army within Engagement Range of that enemy unit.EFFECT: After that enemy unit ends that Fall Back move, if your unit is not within Engagement Range of one or more enemy units, your unit can make a Normal move.|"
+        }
+      ]
+    },
+    {
+      "name": "Vectors of Decay",
+      "stratagems": [
+        {
+          "id": "000009399002",
+          "name": "CHINKS IN THE ARMOUR",
+          "type": "Vectors of Decay – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Even the slightest weakness is enough for the foulness of the Death Guard to find a way in.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your Shooting phase or the Fight phase.TARGET: One DEATH GUARD unit from your army that has not been selected to shoot or fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a unit within Contagion Range of one or more units from your army, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.|"
+        },
+        {
+          "id": "000009399003",
+          "name": "GROTESQUE DEMISE",
+          "type": "Vectors of Decay – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Many of the plague weapons and revolting diseases unleashed by the Death Guard inflict endings so hideous that the mere sight of them is enough to send unharmed enemies fleeing in horror.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your Shooting phase or the Fight phase, just after a DEATH GUARD unit from your army (excluding CULTISTS and POXWALKERS units) has shot or fought.TARGET: That DEATH GUARD unit.EFFECT: Select one enemy unit that had one or more models destroyed as a result of those attacks. That enemy unit must take a Battle-shock test.|"
+        },
+        {
+          "id": "000009399005",
+          "name": "SEEPING CORROSION",
+          "type": "Vectors of Decay – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Crawling tendrils of foulness spread through the voidship at the touch of the Death Guard, poisoning and rotting luckless foes.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Your Movement phase, when a DEATH GUARD unit from your army (excluding CULTISTS and POXWALKERS units) attempts to open a Hatchway.TARGET: That DEATH GUARD unit.EFFECT: Select one enemy unit within 1\" of your unit and on the opposite side of that Hatchway from your unit, and roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds. Until the end of the phase, if an enemy unit attempts to prevent that Hatchway from being opened, when rolling off, you can re-roll your result.|\nDG|000009409004|THE DEAD RISE|Vectors of Decay – Strategic Ploy Stratagem|1|What appeared moments before to be a mere carrion heap suddenly lurches into foul and grinning unlife.|Your turn|Movement phase|Unclean Uprising|WHEN: Your Movement phase, at the start of the Reinforcements step.TARGET: One POXWALKERS unit from your army that is in Reserves.EFFECT: Until the end of the phase, your unit has the Deep Strike ability.RESTRICTIONS: You can only use this Stratagem once.|\nDRU|000009434003|DECKPLATE SWEEPERS|Kabalite Corsairs – Battle Tactic Stratagem|1|Indiscriminate hails of splinter fire fill chambers and corridors, leaving nowhere to hide in the enclosed space.|Your turn|Shooting phase|Kabalite Corsairs|WHEN: Your Shooting phase.TARGET: One KABAL unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of splinter cannons, splinter rifles and splinter pistols equipped by models in your unit by 1.|\nDRU|000009434002|ELUSIVE DUELLISTS|Kabalite Corsairs – Battle Tactic Stratagem|1|These warriors delight in the close-quarters blade-duels of boarding actions, weaving around their enemies' blows and cutting them down in droves.|Either player’s turn|Fight phase|Kabalite Corsairs|WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One DRUKHARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and, if your unit has the INCUBI keyword, models in your unit have a 4+ invulnerable save.|\nDRU|000009434005|OPPORTUNISTIC THIEVES|Kabalite Corsairs – Strategic Ploy Stratagem|1|Any undefended source of riches or power is fair game to these fast-moving raiders.|Your turn|Fight phase|Kabalite Corsairs|WHEN: End of your Fight phase.TARGET: One KABAL unit from your army that is not within Engagement Range of one or more enemy units.EFFECT: Select one objective marker you do not control that is visible to your unit. Your unit can make a Normal move of up to D6\", but if it does, every model in that unit must end that move as close as possible to that objective marker.|"
+        }
+      ]
+    }
   ]
 }

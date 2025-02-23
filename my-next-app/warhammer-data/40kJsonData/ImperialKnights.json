@@ -4810,5 +4810,97 @@
         }
       ]
     }
+  ],
+  "detachments": [
+    {
+      "name": "Noble Lance",
+      "stratagems": [
+        {
+          "id": "000008465007",
+          "name": "SHOULDER THE BURDEN",
+          "type": "Noble Lance – Battle Tactic Stratagem",
+          "cpCost": 2,
+          "legend": "When faced with their darkest hour, knightly Nobles rise to the challenge, for nothing shall deter them from fulfilling their duty.",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "description": "WHEN: Your Command phase.TARGET: One IMPERIAL KNIGHTS model from your army that has lost one or more wounds.EFFECT: Until the start of your next Command phase, improve your model’s Move, Toughness, Save, Leadership and Objective Control characteristics by 1 and each time your model makes an attack, add 1 to the Hit roll.RESTRICTIONS: You can only use this Stratagem once per battle. If your army is Honoured, you can use this Stratagem one additional time.|"
+        },
+        {
+          "id": "000008465002",
+          "name": "SQUIRES' DUTY",
+          "type": "Noble Lance – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Under the scrutiny and judgement of their Noble betters, Armiger pilots will redouble their efforts, attacking as one to smash aside their foes.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: The start of your Shooting phase or the start of the Fight phase.  TARGET: Two or more ARMIGER models from your army and one enemy unit that is an eligible target for all of those ARMIGER models.  EFFECT: Until the end of the phase, when resolving attacks that target that enemy unit, improve the Strength and Armour Penetration characteristics of weapons equipped by those ARMIGER models by 1. If your army is Honoured, until the end of the phase, add 1 to the Damage characteristic of those weapons as well.|"
+        },
+        {
+          "id": "000008465006",
+          "name": "TROPHY CLAIM",
+          "type": "Noble Lance – Epic Deed Stratagem",
+          "cpCost": 2,
+          "legend": "Once a mighty foe is laid low, the victorious Knight’s emitters blare its triumph, announcing the glory brought to the Imperium, but shame awaits those who fail in such confrontations.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "description": "WHEN: Your Shooting phase or the Fight phase.TARGET: One IMPERIAL KNIGHTS model from your army that has not been selected to shoot or fight this phase, and one enemy MONSTER or VEHICLE unit.EFFECT: Until the end of the phase, each time your model makes an attack that targets that enemy unit, add 1 to the Wound roll. If your model destroys that enemy unit this phase, you gain 1CP, but if your model does not destroy that enemy unit this phase, you cannot use this Stratagem again for the rest of the battle.|"
+        },
+        {
+          "id": "000008465005",
+          "name": "VALIANT LAST STAND",
+          "type": "Noble Lance – Epic Deed Stratagem",
+          "cpCost": 2,
+          "legend": "Badly wounded, their Knight’s generator on the verge of overload, still the Noble fights on, drawing upon their reserves of chivalric heroism to sell their life as dearly as they can.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase.TARGET: One IMPERIAL KNIGHTS model from your army that was just destroyed and that is eligible to fight but has not been selected to fight this phase. You can use this Stratagem on that model even though it was just destroyed.EFFECT: Before rolling to see if this model deals any mortal wounds as a result of its Deadly Demise ability, it can fight; when doing so, it is assumed to have 1 wound remaining, or all its wounds remaining if your army is Honoured. After it has finished resolving its attacks, resolve its Deadly Demise ability as normal.RESTRICTIONS: You cannot target SIR HEKHTUR with this Stratagem.|"
+        },
+        {
+          "id": "000008465004",
+          "name": "THUNDERSTOMP",
+          "type": "Noble Lance – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "The Noble brings their Knight suit’s full weight crashing down with the force of an industrial piledriver. Few can survive such a blow.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "description": "WHEN: Fight phase.TARGET: One IMPERIAL KNIGHTS model from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, your model cannot target MONSTER or VEHICLE units, but all melee weapons equipped by your model have the [DEVASTATING WOUNDS] ability.|"
+        },
+        {
+          "id": "000008465003",
+          "name": "ROTATE ION SHIELDS",
+          "type": "Noble Lance – Wargear Stratagem",
+          "cpCost": 1,
+          "legend": "Veteran Knight pilots can swiftly angle their ion shields to better deflect incoming fire.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One IMPERIAL KNIGHTS model from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, that IMPERIAL KNIGHTS model has a 4+ invulnerable save against ranged attacks.|"
+        }
+      ]
+    },
+    {
+      "name": "Questor Forgepact",
+      "stratagems": [
+        {
+          "id": "000009762004",
+          "name": "BONDED IMPERATIVE",
+          "type": "Questor Forgepact – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Tapping into the noospheric battle-sphere, this Noble pilot issues binharic commands directly into the minds of Adeptus Mechanicus allies.",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "description": "WHEN: Your Command phase, just before an IMPERIAL KNIGHTS CHARACTER unit from your army uses a Bondsman ability.TARGET: That IMPERIAL KNIGHTS CHARACTER unit.EFFECT: When selecting targets for that use of that Bondsman ability, you can select one friendly ADEPTUS MECHANICUS unit within 12\" of your unit in addition, or instead of selecting one ARMIGER model. Until the start of your next Command phase, every model in that ADEPTUS MECHANICUS unit is affected by that Bondsman ability.RESTRICTIONS: You cannot target a KNIGHT PRECEPTOR with this Stratagem.|\nQI|000009762005|MACHINE FOCUS|Questor Forgepact – Strategic Ploy Stratagem|1|Soothing psalm programs inloaded by Tech-Priests focus targeting arrays and enhance the responsiveness of the Noble pilot’s mighty Knight suit.|Your turn|Command phase|Questor Forgepact|WHEN: Your Command phase.TARGET: One IMPERIAL KNIGHTS unit from your army.EFFECT: Until the start of your next turn, your unitcan ignore any or all modifiers to the following: the Weapon Skill or Ballistic Skill characteristics of weapons equipped by its models; any Hit roll or Wound roll made for it.|\nQI|000009762006|AGGRESSION BEGETS AGGRESSION|Questor Forgepact – Strategic Ploy Stratagem|1|Driven by the wrathful whisperings of their Throne Mechanicum, the Noble pilot guides their Knight suit forward, weapons blazing with every step. Inspired by their titanic ally, the warriors of the Adeptus Mechanicus follow suit, pushing their cybernetic systems to the limit.|Your turn|Shooting phase|Questor Forgepact|WHEN: Your Shooting phase.TARGET: One IMPERIAL KNIGHTS unit from your army or one IMPERIAL KNIGHTS CHARACTER unit from your army and one friendly ADEPTUS MECHANICUS unit that is within 6\" of that unit.EFFECT: Until the end of the phase, ranged weapons equipped by models in your units have the [ASSAULT] ability.|"
+        },
+        {
+          "id": "000009762007",
+          "name": "THRONEGHEIST FURY",
+          "type": "Questor Forgepact – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "As augurs detect enemy movements, the pilot’s Throne Mechanicum comes alive with the whispered fury of their ancestors. Weapon systems flare instinctively to life, dispensing the hatred of long-dead Nobles upon the unfortunate foe.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "description": "WHEN: Your opponent’s Movement phase, just after an enemy unit is set up or ends a Normal, Advance, or Fall Back move.TARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that is within 24\" of and visible to that enemy unit.EFFECT: Select one ranged weapon equipped by a model in your unit. That model can shoot at that enemy unit (and only if it is an eligible target). When doing so, that model can only make attacks with that weapon and each time it makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers.|\nQI|000009762003|VENGEANCE OF THE MACHINE CULT|Questor Forgepact – Strategic Ploy Stratagem|1|Those who dare to fell the Machine God’s creations find themselves subject to the vengeance of the Adeptus Mechanicus.|Either player’s turn|Any phase|Questor Forgepact|WHEN: Any phase.TARGET: One IMPERIAL KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time an ADEPTUS MECHANICUS model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.|\nQI|000009762002|OMNISSIAH’S GRACE|Questor Forgepact – Strategic Ploy Stratagem|1|So resolute is their faith that the Machine God’s worshippers brave storms of killing fire, trusting in the Omnissiah to shield them from harm.|Either player’s turn|Any phase|Questor Forgepact|WHEN: Any phase, just after a mortal wound is allocated to an IMPERIAL KNIGHTS or ADEPTUS MECHANICUS unit from your army.TARGET: That IMPERIAL KNIGHTS or ADEPTUS MECHANICUS unit.EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.|\nQT|000009766003|WRETCHED MASSES|Iconoclast Fiefdom – Battle Tactic Stratagem|2|In the wake of striding Knights are dragged tides of desperate zealots. No sooner has one horde of baying mortals fallen than another surges forth to take their place.|Either player’s turn|Any phase|Iconoclast Fiefdom|WHEN: Any phase.TARGET: One DAMNED unit (excluding ACCURSED CULTISTS) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.RESTRICTIONS: You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units.|\nQT|000009766004|SOUL HUNGER|Iconoclast Fiefdom – Battle Tactic Stratagem|1|Daemonic corruption, both physical and spiritual, has debased once noble machines. As the pilots of corrupted Knight suits slaughter mortal victims, their mechanical steed feeds upon stolen life forces and raw fear.|Either player’s turn|Fight phase|Iconoclast Fiefdom|WHEN: Fight phase, just after a CHAOS KNIGHTS unit from your army has fought.TARGET: That CHAOS KNIGHTS unit.EFFECT: If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead.|\nQT|000009766002|AVENGE THE MASTERS!|Iconoclast Fiefdom – Strategic Ploy Stratagem|1|As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.|Either player’s turn|Any phase|Iconoclast Fiefdom|WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.|\nQT|000009766005|UNRESTRAINED RAGE|Iconoclast Fiefdom – Strategic Ploy Stratagem|1|When consumed with battlelust, Fallen Nobles pilot their Knight suits with instinctive skill, rampaging through the enemies with horrific speed and savagery.|Your turn|Movement phase|Iconoclast Fiefdom|WHEN: Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.TARGET: That CHAOS KNIGHTS unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.|\nQT|000009766006|WORTHLESS CHATTEL|Iconoclast Fiefdom – Strategic Ploy Stratagem|1|The callous nobility of Iconoclast houses care naught for their devotees, obliterating enemies and mortal thralls alike in furious barrages of infernal firepower.|Your turn|Shooting phase|Iconoclast Fiefdom|WHEN: Your Shooting phase.TARGET: One DAMNED unit from your army.EFFECT: Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.|\nQT|000009766007|PRESERVE THE IDOLS|Iconoclast Fiefdom – Strategic Ploy Stratagem|1|Driven to preserve their Fallen Noble overlords, masses of mutants, cultists, and corrupted soldiers rush to interpose themselves between their knightly idols and the cursed foe.|Opponent’s turn|Movement phase|Iconoclast Fiefdom|WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.TARGET: One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.EFFECT: Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.|"
+        }
+      ]
+    }
   ]
 }
