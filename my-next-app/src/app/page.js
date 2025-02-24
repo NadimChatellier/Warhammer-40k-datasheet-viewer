@@ -326,24 +326,39 @@ const others = filteredUnits.filter(
         <h1 className="text-4xl font-bold text-white p-4">
           {formatFactionName(selectedFaction)}
         </h1>
-        {subFactions.length > 0 && (
-        <h1 className="mt-4 text-3xl text-white p-4">SubFactions:</h1>
-      )}
-      <div className="flex flex-wrap gap-4 mb-6">
-          {subFactions.map((subfaction, index) => (
-            <button
-              key={index}
-              className={`px-4 py-2 rounded-lg text-base bg-gray-800 hover:bg-gray-700 text-white ${
-                selectedSubfaction === subfaction ? "bg-yellow-400 text-black" : ""
-              }`}
-              onClick={() => setSelectedSubfaction(subfaction)}
-            >
-              {subfaction}
-            </button>
-          ))}
-        </div>
+       
+
+      
            {/* Search Bar Component */}
-        <SearchBar setSearchQuery={setSearchQuery} />
+           <SearchBar setSearchQuery={setSearchQuery} />
+      {/* SubFaction Section */}
+  {subFactions.length > 0 && (
+  <div className="w-full bg-gray-800 p-4 rounded-lg shadow-md mb-6">
+    <div className="flex flex-wrap justify-center gap-3">
+      {subFactions.map((subfaction, index) => (
+        <button
+          key={index}
+          className={`px-5 py-2 rounded-lg text-base font-medium transition-all duration-200 
+            bg-gray-700 text-white border border-gray-600 hover:bg-yellow-500 hover:text-black 
+            ${
+              selectedSubfaction === subfaction
+                ? "bg-yellow-400 text-black border-yellow-500"
+                : ""
+            }`}
+          onClick={() =>
+            setSelectedSubfaction(selectedSubfaction === subfaction ? null : subfaction)
+          }
+        >
+          {subfaction}
+        </button>
+      ))}
+    </div>
+  </div>
+)}
+
+
+
+
         {/* Render Characters */}
         {characters.length > 0 && (
           <div className="w-full">
