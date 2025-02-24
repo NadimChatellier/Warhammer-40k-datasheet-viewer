@@ -23,45 +23,40 @@ export default function Home() {
   const [detachmentFilter, setDetachmentFilter] = useState(null);
   const [detachments, setDetachments] = useState([]);
   const [filteredStratagems, setFilteredStratagems] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     async function fetchStratagemsData() {
+      setLoading(true); // Start loading
       try {
-        // Import the relevant faction data based on the selected faction
         const factionData = await import(
           `../../warhammer-data/40kJsonData/${selectedFaction}.json`
         );
   
-        // Ensure the data is structured as expected
-        const faction = factionData; // the loaded faction data
+        const faction = factionData;
   
-        // Initialize an array for stratagems and detachments
         const stratagemsList = [];
         const detachmentsList = [];
   
-        // Loop through detachments to find stratagems
         faction.detachments.forEach((detachment) => {
           if (detachment.stratagems && Array.isArray(detachment.stratagems)) {
             stratagemsList.push(...detachment.stratagems);
-          } else {
-            console.warn(`No stratagems found for detachment: ${detachment.name}`);
           }
-  
-          // Collect the detachment names (assuming detachment name is in 'name')
-          detachmentsList.push(detachment.name); // Add detachment names to the list
+          detachmentsList.push(detachment.name);
         });
   
-        // Set the fetched units, stratagems, and detachments to state
-        setUnits(faction.units || []); // Ensure units are set even if they are missing
-        setStratagems(stratagemsList); // Update the stratagems state with the gathered list
-        setDetachments(detachmentsList); // Set the detachment list
+        setUnits(faction.units || []);
+        setStratagems(stratagemsList);
+        setDetachments(detachmentsList);
       } catch (error) {
         console.error("Error loading stratagem data:", error);
       }
+      setLoading(false); // End loading
     }
-    // Fetch data whenever the selected faction changes
+  
     fetchStratagemsData();
-  }, [selectedFaction]); // Re-fetch when the selected faction changes
+  }, [selectedFaction]);
+  
 
 
   useEffect(() => {
@@ -135,7 +130,9 @@ const filtered = stratagems.filter((stratagem) =>
     name.replace(/([A-Z][a-z])/g, " $1").trim();
 
   return (
-    <>
+ 
+
+      <>
       {/* Sidebar Button */}
       <button
         onClick={() => setIsSidebarOpen(true)}
@@ -331,5 +328,6 @@ const filtered = stratagems.filter((stratagem) =>
         />
       </div>
     </>
+   
   );
 }
