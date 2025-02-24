@@ -23,15 +23,45 @@ export default function Home() {
   const [detachmentFilter, setDetachmentFilter] = useState(null);
   const [detachments, setDetachments] = useState([]);
   const [filteredStratagems, setFilteredStratagems] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [subFactions, setSubFactions] = useState([]);
 
   useEffect(() => {
     async function fetchStratagemsData() {
-      setLoading(true); // Start loading
       try {
         const factionData = await import(
           `../../warhammer-data/40kJsonData/${selectedFaction}.json`
         );
+  
+        function getUniqueSubfactions(units) {
+          const keywordCount = {};
+        
+          // Count occurrences of each keyword (subfaction)
+          units.forEach((unit) => {
+            const unitKeywords = unit.keywords?.faction || []; // Use faction as keywords
+            unitKeywords.forEach((keyword) => {
+              keywordCount[keyword] = (keywordCount[keyword] || 0) + 1;
+            });
+          });
+        
+          // Find the most common keyword (subfaction) that exists in all units
+          const totalUnits = units.length;
+          const subfactionsToExclude = [];
+        
+          // Mark the keywords that appear in all units
+          for (const [keyword, count] of Object.entries(keywordCount)) {
+            if (count === totalUnits) {
+              subfactionsToExclude.push(keyword); // This subfaction appears in every unit
+            }
+          }
+        
+          // Create a list of all unique keywords, excluding the ones that appear in all units
+          const uniqueSubfactions = Object.keys(keywordCount).filter(
+            (keyword) => !subfactionsToExclude.includes(keyword)
+          );
+        
+          return uniqueSubfactions;
+        }
+        
   
         const faction = factionData;
   
@@ -45,20 +75,24 @@ export default function Home() {
           detachmentsList.push(detachment.name);
         });
   
+        // Set the units
         setUnits(faction.units || []);
+  
+        // Get unique subfactions and set them in state
+        setSubFactions(getUniqueSubfactions(faction.units || []));
+  
         setStratagems(stratagemsList);
         setDetachments(detachmentsList);
       } catch (error) {
         console.error("Error loading stratagem data:", error);
       }
-      setLoading(false); // End loading
     }
   
     fetchStratagemsData();
   }, [selectedFaction]);
   
-
-
+  console.log(subFactions);
+  
   useEffect(() => {
     if (detachmentFilter) {
       // Check if `stratagem.type` contains the selected detachment name
@@ -288,6 +322,25 @@ const filtered = stratagems.filter((stratagem) =>
         <h1 className="text-4xl font-bold text-white p-4">
           {formatFactionName(selectedFaction)}
         </h1>
+        {subFactions.length > 0 && (
+        <h1 className="mt-4 text-3xl text-white p-4">SubFactions:</h1>
+      )}
+        {/* Render SubFaction Buttons */}
+    <div className="flex flex-wrap gap-4 mb-6">
+      
+      {subFactions.map((subfaction, index) => (
+        <button
+          key={index}
+          className="px-4 py-2 rounded-lg text-base bg-gray-800 hover:bg-gray-700 text-white"
+          onClick={() => {
+            // Handle Subfaction button click here
+            console.log(`Selected Subfaction: ${subfaction}`);
+          }}
+        >
+          {subfaction}
+        </button>
+      ))}
+    </div>
            {/* Search Bar Component */}
         <SearchBar setSearchQuery={setSearchQuery} />
         {/* Render Characters */}
