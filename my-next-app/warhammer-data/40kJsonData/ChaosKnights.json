@@ -5408,7 +5408,248 @@
       ]
     }
   ],
+  "stratagems": [
+    {
+      "id": "000009766003",
+      "name": "WRETCHED MASSES",
+      "type": "Iconoclast Fiefdom – Battle Tactic Stratagem",
+      "cpCost": 2,
+      "legend": "In the wake of striding Knights are dragged tides of desperate zealots. No sooner has one horde of baying mortals fallen than another surges forth to take their place.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase.TARGET: One DAMNED unit (excluding ACCURSED CULTISTS) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.RESTRICTIONS: You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units.",
+      "when": "Any phase.",
+      "target": "One DAMNED unit (excluding ACCURSED CULTISTS) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+      "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.RESTRICTIONS: You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units."
+    },
+    {
+      "id": "000009766004",
+      "name": "SOUL HUNGER",
+      "type": "Iconoclast Fiefdom – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Daemonic corruption, both physical and spiritual, has debased once noble machines. As the pilots of corrupted Knight suits slaughter mortal victims, their mechanical steed feeds upon stolen life forces and raw fear.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after a CHAOS KNIGHTS unit from your army has fought.TARGET: That CHAOS KNIGHTS unit.EFFECT: If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead.",
+      "when": "Fight phase, just after a CHAOS KNIGHTS unit from your army has fought.",
+      "target": "That CHAOS KNIGHTS unit.",
+      "effect": "If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead."
+    },
+    {
+      "id": "000009766002",
+      "name": "AVENGE THE MASTERS!",
+      "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
+      "when": "Any phase.",
+      "target": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+      "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
+    },
+    {
+      "id": "000009766005",
+      "name": "UNRESTRAINED RAGE",
+      "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "When consumed with battlelust, Fallen Nobles pilot their Knight suits with instinctive skill, rampaging through the enemies with horrific speed and savagery.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.TARGET: That CHAOS KNIGHTS unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+      "when": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.",
+      "target": "That CHAOS KNIGHTS unit.",
+      "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "id": "000009766006",
+      "name": "WORTHLESS CHATTEL",
+      "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The callous nobility of Iconoclast houses care naught for their devotees, obliterating enemies and mortal thralls alike in furious barrages of infernal firepower.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One DAMNED unit from your army.EFFECT: Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
+      "when": "Your Shooting phase.",
+      "target": "One DAMNED unit from your army.",
+      "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks."
+    },
+    {
+      "id": "000009766007",
+      "name": "PRESERVE THE IDOLS",
+      "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Driven to preserve their Fallen Noble overlords, masses of mutants, cultists, and corrupted soldiers rush to interpose themselves between their knightly idols and the cursed foe.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.TARGET: One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.EFFECT: Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.",
+      "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+      "target": "One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.",
+      "effect": "Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move."
+    },
+    {
+      "id": "000008517002",
+      "name": "DREAD HOUNDS",
+      "type": "Traitoris Lance – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
+      "when": "The start of your Shooting phase or the start of the Fight phase.",
+      "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
+      "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit."
+    },
+    {
+      "id": "000008517003",
+      "name": "DISDAIN FOR THE WEAK",
+      "type": "Traitoris Lance – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Chaos Knight pilots refuse to yield while foes remain to be slain, disdainfully ignoring those who succumb to fear.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models."
+    },
+    {
+      "id": "000008517006",
+      "name": "KNIGHTS OF SHADE",
+      "type": "Traitoris Lance – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "Like dark phantoms, some Chaos Knights can move through solid walls without hindrance.",
+      "turn": "Your turn",
+      "phase": "Movement or Charge phase",
+      "fullDescription": "WHEN: Your Movement phase or your Charge phase.TARGET: Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.EFFECT: Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there.",
+      "when": "Your Movement phase or your Charge phase.",
+      "target": "Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.",
+      "effect": "Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there."
+    },
+    {
+      "id": "000008517005",
+      "name": "A LONG LEASH",
+      "type": "Traitoris Lance – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The War Dogs of the Chaos Knights are more terrified of their lords than they are the enemy, and they heed their masters well, for they know the price of disobedience or disloyalty.",
+      "turn": "Your turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Your Command phase.TARGET: One ABHORRENT model from your army and up to three WAR DOG models from your army.EFFECT: Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has.",
+      "when": "Your Command phase.",
+      "target": "One ABHORRENT model from your army and up to three WAR DOG models from your army.",
+      "effect": "Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has."
+    },
+    {
+      "id": "000008517007",
+      "name": "DIABOLIC BULWARK",
+      "type": "Traitoris Lance – Wargear Stratagem",
+      "cpCost": 1,
+      "legend": "Ectoplasmic blood surges hot through glowing conduits as the Chaos Knight feeds power to its shield emitters.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+      "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks."
+    },
+    {
+      "id": "000008517004",
+      "name": "PTERRORSHADES",
+      "type": "Traitoris Lance – Wargear Stratagem",
+      "cpCost": 1,
+      "legend": "Shrieking with ghoulish hunger, daemonic entities descend in a tatterwinged whirlwind to rend apart the souls of those enemies who show even a moment’s fear. The soul-raptors tear apart their victims’ animus and, as they feed, this life force is channelled to regenerate the battle damage or heal the pilot of the Knight in which these creatures roost.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase, just after an enemy unit fails a Battle-shock test.TARGET: One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.EFFECT: Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound.",
+      "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
+      "target": "One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.",
+      "effect": "Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound."
+    }
+  ],
   "detachments": [
+    {
+      "name": "Iconoclast Fiefdom",
+      "stratagems": [
+        {
+          "id": "000009766003",
+          "name": "WRETCHED MASSES",
+          "type": "Iconoclast Fiefdom – Battle Tactic Stratagem",
+          "cpCost": 2,
+          "legend": "In the wake of striding Knights are dragged tides of desperate zealots. No sooner has one horde of baying mortals fallen than another surges forth to take their place.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "fullDescription": "WHEN: Any phase.TARGET: One DAMNED unit (excluding ACCURSED CULTISTS) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.RESTRICTIONS: You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units.",
+          "when": "Any phase.",
+          "target": "One DAMNED unit (excluding ACCURSED CULTISTS) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.RESTRICTIONS: You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units."
+        },
+        {
+          "id": "000009766004",
+          "name": "SOUL HUNGER",
+          "type": "Iconoclast Fiefdom – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Daemonic corruption, both physical and spiritual, has debased once noble machines. As the pilots of corrupted Knight suits slaughter mortal victims, their mechanical steed feeds upon stolen life forces and raw fear.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after a CHAOS KNIGHTS unit from your army has fought.TARGET: That CHAOS KNIGHTS unit.EFFECT: If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead.",
+          "when": "Fight phase, just after a CHAOS KNIGHTS unit from your army has fought.",
+          "target": "That CHAOS KNIGHTS unit.",
+          "effect": "If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead."
+        },
+        {
+          "id": "000009766002",
+          "name": "AVENGE THE MASTERS!",
+          "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "fullDescription": "WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
+          "when": "Any phase.",
+          "target": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
+        },
+        {
+          "id": "000009766005",
+          "name": "UNRESTRAINED RAGE",
+          "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "When consumed with battlelust, Fallen Nobles pilot their Knight suits with instinctive skill, rampaging through the enemies with horrific speed and savagery.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.TARGET: That CHAOS KNIGHTS unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+          "when": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.",
+          "target": "That CHAOS KNIGHTS unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+        },
+        {
+          "id": "000009766006",
+          "name": "WORTHLESS CHATTEL",
+          "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The callous nobility of Iconoclast houses care naught for their devotees, obliterating enemies and mortal thralls alike in furious barrages of infernal firepower.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One DAMNED unit from your army.EFFECT: Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
+          "when": "Your Shooting phase.",
+          "target": "One DAMNED unit from your army.",
+          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks."
+        },
+        {
+          "id": "000009766007",
+          "name": "PRESERVE THE IDOLS",
+          "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Driven to preserve their Fallen Noble overlords, masses of mutants, cultists, and corrupted soldiers rush to interpose themselves between their knightly idols and the cursed foe.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.TARGET: One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.EFFECT: Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.",
+          "effect": "Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move."
+        }
+      ]
+    },
     {
       "name": "Traitoris Lance",
       "stratagems": [
@@ -5420,7 +5661,10 @@
           "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "description": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.|"
+          "fullDescription": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
+          "when": "The start of your Shooting phase or the start of the Fight phase.",
+          "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
+          "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
           "id": "000008517003",
@@ -5430,7 +5674,10 @@
           "legend": "Chaos Knight pilots refuse to yield while foes remain to be slain, disdainfully ignoring those who succumb to fear.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.|"
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models."
         },
         {
           "id": "000008517006",
@@ -5440,7 +5687,10 @@
           "legend": "Like dark phantoms, some Chaos Knights can move through solid walls without hindrance.",
           "turn": "Your turn",
           "phase": "Movement or Charge phase",
-          "description": "WHEN: Your Movement phase or your Charge phase.TARGET: Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.EFFECT: Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there.|"
+          "fullDescription": "WHEN: Your Movement phase or your Charge phase.TARGET: Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.EFFECT: Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there.",
+          "when": "Your Movement phase or your Charge phase.",
+          "target": "Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.",
+          "effect": "Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there."
         },
         {
           "id": "000008517005",
@@ -5450,7 +5700,10 @@
           "legend": "The War Dogs of the Chaos Knights are more terrified of their lords than they are the enemy, and they heed their masters well, for they know the price of disobedience or disloyalty.",
           "turn": "Your turn",
           "phase": "Command phase",
-          "description": "WHEN: Your Command phase.TARGET: One ABHORRENT model from your army and up to three WAR DOG models from your army.EFFECT: Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has.|"
+          "fullDescription": "WHEN: Your Command phase.TARGET: One ABHORRENT model from your army and up to three WAR DOG models from your army.EFFECT: Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has.",
+          "when": "Your Command phase.",
+          "target": "One ABHORRENT model from your army and up to three WAR DOG models from your army.",
+          "effect": "Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has."
         },
         {
           "id": "000008517007",
@@ -5460,7 +5713,10 @@
           "legend": "Ectoplasmic blood surges hot through glowing conduits as the Chaos Knight feeds power to its shield emitters.",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks."
         },
         {
           "id": "000008517004",
@@ -5470,7 +5726,10 @@
           "legend": "Shrieking with ghoulish hunger, daemonic entities descend in a tatterwinged whirlwind to rend apart the souls of those enemies who show even a moment’s fear. The soul-raptors tear apart their victims’ animus and, as they feed, this life force is channelled to regenerate the battle damage or heal the pilot of the Knight in which these creatures roost.",
           "turn": "Either player’s turn",
           "phase": "Any phase",
-          "description": "WHEN: Any phase, just after an enemy unit fails a Battle-shock test.TARGET: One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.EFFECT: Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound. |\nSM|000008495002|ARMOUR OF CONTEMPT|1st Company Task Force – Battle Tactic Stratagem|1|The belligerence of the Adeptus Astartes combined with their post-human physiology makes them unyielding foes to face.|Either player’s turn|Shooting or Fight phase|1st Company Task Force|WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.|\nSM|000008495003|HEROES OF THE CHAPTER|1st Company Task Force – Battle Tactic Stratagem|1|When the fighting is at its fiercest, the veteran warriors of the Chapter truly show their quality.|Either player’s turn|Shooting or Fight phase|1st Company Task Force|WHEN: Your Shooting phase or the Fight phase.TARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is Below Half-strength, add 1 to the Wound roll as well.|\nSM|000008495007|LEGENDARY FORTITUDE|1st Company Task Force – Battle Tactic Stratagem|1|Many are the legendary tales of the 1st Company holding their ground against the odds, weathering assaults that would have swept away lesser warriors.|Opponent’s turn|Charge phase|1st Company Task Force|WHEN: Your opponent’s Charge phase, just after an enemy unit ends a Charge move.TARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within Engagement Range of that enemy unit.EFFECT: Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.|\nSM|000008495004|TERRIFYING PROFICIENCY|1st Company Task Force – Strategic Ploy Stratagem|1|The 1st Company's veterans unleash their skills with an efficiency that is harrowing to witness.|Your turn|Fight phase|1st Company Task Force|WHEN: Your Fight phase.TARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.EFFECT: In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.|"
+          "fullDescription": "WHEN: Any phase, just after an enemy unit fails a Battle-shock test.TARGET: One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.EFFECT: Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound.",
+          "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
+          "target": "One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.",
+          "effect": "Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound."
         }
       ]
     }

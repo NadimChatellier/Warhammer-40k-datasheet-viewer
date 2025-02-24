@@ -6983,10 +6983,285 @@
       ]
     }
   ],
+  "stratagems": [
+    {
+      "id": "000008431007",
+      "name": "APOPLECTIC FRENZY",
+      "type": "Berzerker Warband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Those who fight for Khorne are driven to even greater depths of rage, surging towards the foe in a barely controlled tide.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase.TARGET: One WORLD EATERS unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "when": "Your Movement phase.",
+      "target": "One WORLD EATERS unit from your army that has not been selected to move this phase.",
+      "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+    },
+    {
+      "id": "000008431003",
+      "name": "FOR THE SKULL THRONE!",
+      "type": "Berzerker Warband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Khorne rewards those who test their might against the strongest foes, blessing the greatest warriors with his favour.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+      "when": "Fight phase.",
+      "target": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll."
+    },
+    {
+      "id": "000008431004",
+      "name": "FOR THE BLOOD GOD!",
+      "type": "Berzerker Warband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "When blood spills, the blessings of the Blood God are bountiful.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.TARGET: That WORLD EATERS unit.EFFECT: Make a Blessings of Khorne roll. You can use the results of this roll to activate one Blessing of Khorne. That Blessing of Khorne does not count towards your maximum number of activated Blessings of Khorne, but all other rules for Blessings of Khorne apply.",
+      "when": "Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.",
+      "target": "That WORLD EATERS unit.",
+      "effect": "Make a Blessings of Khorne roll. You can use the results of this roll to activate one Blessing of Khorne. That Blessing of Khorne does not count towards your maximum number of activated Blessings of Khorne, but all other rules for Blessings of Khorne apply."
+    },
+    {
+      "id": "000008431006",
+      "name": "BLOOD OFFERING",
+      "type": "Berzerker Warband – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "The blood of Khorne’s devoted warriors is still blood, and when the battleground runs red, it is still a worthy addition to the Blood God’s domain.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase.TARGET: One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "when": "Any phase.",
+      "target": "One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+      "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    },
+    {
+      "id": "000008431002",
+      "name": "GORY MASSACRE",
+      "type": "Berzerker Warband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Those who witness the massacres inflicted by the World Eaters flee to avoid being the next victims.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.EFFECT: In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+      "when": "Fight phase.",
+      "target": "One WORLD EATERS unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.",
+      "effect": "In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
+    },
+    {
+      "id": "000008431005",
+      "name": "KHORNE CARES NOT...",
+      "type": "Berzerker Warband – Strategic Ploy Stratagem",
+      "cpCost": 2,
+      "legend": "Khorne cares not from whence the blood flows, so long as it flows, and mere flesh wounds will not stay the wrath of the World Eaters.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+      "id": "000009709004",
+      "name": "SAVAGE RESILIENCE",
+      "type": "Boarding Butchers – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Lost to blood madness, these warriors cannot be halted even by ruinous salvoes of enemy fire.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+      "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+      "id": "000009709002",
+      "name": "TERRIFYING SCREAMS",
+      "type": "Boarding Butchers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "These warriors dismember their victims with such apocalyptic violence that the agonised screams of the dying ring throughout the ship.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.TARGET: That WORLD EATERS unit.EFFECT: Until the end of your opponent’s next Command phase, subtract 1 from Battle-shock and Leadership tests taken for all enemy units.",
+      "when": "Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.",
+      "target": "That WORLD EATERS unit.",
+      "effect": "Until the end of your opponent’s next Command phase, subtract 1 from Battle-shock and Leadership tests taken for all enemy units."
+    },
+    {
+      "id": "000009709003",
+      "name": "UNSTOPPABLE RAGE",
+      "type": "Boarding Butchers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Charging headlong into battle, these warriors simply smash hatches from their housings as they bull their way through, often straight into unsuspecting foes waiting in corridors and chambers beyond.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a WORLD EATERS unit from your army (excluding JAKHAL units) opens a Hatchway.TARGET: That WORLD EATERS unit.EFFECT: For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Movement phase, that enemy unit is stunned. While a unit is stunned, each time a model in it makes an attack, subtract 1 from the Hit roll.",
+      "when": "Your Movement phase, just after a WORLD EATERS unit from your army (excluding JAKHAL units) opens a Hatchway.",
+      "target": "That WORLD EATERS unit.",
+      "effect": "For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Movement phase, that enemy unit is stunned. While a unit is stunned, each time a model in it makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009709005",
+      "name": "COWARDS’ BANE",
+      "type": "Boarding Butchers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Disgusted by those who seek to flee their axes, the World Eaters cut them down without mercy.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.TARGET: One WORLD EATERS unit from your army (excluding JAKHAL units) within Engagement Range of that enemy unit.EFFECT: Until the end of the phase, each time that enemy unit Falls Back, models in it must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+      "when": "Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.",
+      "target": "One WORLD EATERS unit from your army (excluding JAKHAL units) within Engagement Range of that enemy unit.",
+      "effect": "Until the end of the phase, each time that enemy unit Falls Back, models in it must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+    },
+    {
+      "id": "000009717005",
+      "name": "SHOCKING ONSLAUGHT",
+      "type": "Skullsworn – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "The horrifying onset of these warriors can paralyse enemies with fear at the crucial moment.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement or Charge phase",
+      "fullDescription": "WHEN: Your Movement or Charge phase, just after an enemy unit is selected to fire Overwatch.TARGET: One WORLD EATERS unit from your army.EFFECT: Until the end of the phase, each time an enemy unit is selected to fire Overwatch, it must take a Leadership test, subtracting 1 from the result: if failed, that enemy unit cannot fire Overwatch at your unit this phase.",
+      "when": "Your Movement or Charge phase, just after an enemy unit is selected to fire Overwatch.",
+      "target": "One WORLD EATERS unit from your army.",
+      "effect": "Until the end of the phase, each time an enemy unit is selected to fire Overwatch, it must take a Leadership test, subtracting 1 from the result: if failed, that enemy unit cannot fire Overwatch at your unit this phase."
+    },
+    {
+      "id": "000009717004",
+      "name": "RUINOUS RAMPAGE",
+      "type": "Skullsworn – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "These berserk warriors smash through armoured hatchways as though they were no more durable than parchment.",
+      "turn": "Your turn",
+      "phase": "Movement or Charge phase",
+      "fullDescription": "WHEN: Your Movement or Charge phase.TARGET: One WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army that has not been selected to move this phase and has not declared a charge this phase.EFFECT: Until the end of the phase, when making a Normal, Advance or Charge move, your unit can move through a single closed Hatchway as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not visible to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.RESTRICTIONS: You can only use this Stratagem once per turn.",
+      "when": "Your Movement or Charge phase.",
+      "target": "One WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army that has not been selected to move this phase and has not declared a charge this phase.",
+      "effect": "Until the end of the phase, when making a Normal, Advance or Charge move, your unit can move through a single closed Hatchway as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not visible to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.RESTRICTIONS: You can only use this Stratagem once per turn."
+    },
+    {
+      "id": "000009717002",
+      "name": "BLOOD RITE",
+      "type": "Skullsworn – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Ground upon which Khorne’s champions have shed the blood of their foes is indelibly stained with the mark of their wrathful god.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army destroys an enemy unit.TARGET: That unit.EFFECT: Select one objective marker that your unit or the destroyed unit was within range of at the start of the phase. That objective marker is Secured by your army.",
+      "when": "Fight phase, just after a WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army destroys an enemy unit.",
+      "target": "That unit.",
+      "effect": "Select one objective marker that your unit or the destroyed unit was within range of at the start of the phase. That objective marker is Secured by your army."
+    },
+    {
+      "id": "000009717003",
+      "name": "FURIOUS MOMENTUM",
+      "type": "Skullsworn – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Gripped by supernatural levels of fury, these warriors surge through the raging heart of battle like a bloody tide.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move upto 6\" instead of up to 3\".",
+      "when": "Fight phase.",
+      "target": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move upto 6\" instead of up to 3\"."
+    },
+    {
+      "id": "000009848003",
+      "name": "OVERSHADOWED BY NONE",
+      "type": "Vessels of Wrath – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "The more towering and monstrous the adversary, the better a chance that its bloody end will win the approbation of Khorne.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll.",
+      "when": "Fight phase.",
+      "target": "One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll."
+    },
+    {
+      "id": "000009848002",
+      "name": "ASPIRE TO INFAMY",
+      "type": "Vessels of Wrath – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "With proven champions of Khorne looking on, those of lesser renown hurl themselves into the fray with greater ferocity, eager to prove their prowess.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One KHORNE BERZERKERS or JAKHALS unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly WORLD EATERS CHARACTER models.EFFECT: Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non-CHARACTER models in your unit by 1.",
+      "when": "Fight phase.",
+      "target": "One KHORNE BERZERKERS or JAKHALS unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly WORLD EATERS CHARACTER models.",
+      "effect": "Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non-CHARACTER models in your unit by 1."
+    },
+    {
+      "id": "000009848007",
+      "name": "BRAZEN CONTEMPT",
+      "type": "Vessels of Wrath – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Empowered by flowing waves of hatred that they believe emanate from the Blood God himself, Khorne’s worshippers feel nothing but scorn at their enemies’ pitiful blows.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+      "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead."
+    },
+    {
+      "id": "000009848006",
+      "name": "MEET FORCE WITH FORCE",
+      "type": "Vessels of Wrath – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Desperate to prove themselves to the Blood God in this hour of infernal glory, these warriors are only goaded to more ferocious efforts by the enemy’s attempts to hold them at bay.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that lost one or more wounds as a result of those attacks.EFFECT: Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a KHORNE BERZERKERS or VESSEL OF WRATH  unit, you can re-roll the D6 to determine how far your unit can move.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+      "target": "One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that lost one or more wounds as a result of those attacks.",
+      "effect": "Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a KHORNE BERZERKERS or VESSEL OF WRATH  unit, you can re-roll the D6 to determine how far your unit can move."
+    },
+    {
+      "id": "000009848005",
+      "name": "PUNISH THE CRAVEN",
+      "type": "Vessels of Wrath – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Blood God is said to detest cowards. Meting out punishment to such degenerates is a sure way to win his favour and gain his wrathful boons.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.TARGET: One WORLD EATERS INFANTRY or WORLD EATERS DAEMON PRINCE unit from your army within Engagement Range of that enemy unit.EFFECT: When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a VESSEL OF WRATH  unit, subtract 1 from each of those tests.",
+      "when": "Your opponent’s Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
+      "target": "One WORLD EATERS INFANTRY or WORLD EATERS DAEMON PRINCE unit from your army within Engagement Range of that enemy unit.",
+      "effect": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a VESSEL OF WRATH  unit, subtract 1 from each of those tests."
+    },
+    {
+      "id": "000009848004",
+      "name": "GORY DEDICATION",
+      "type": "Vessels of Wrath – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "To the World Eaters, every battlefield is an altar upon which to offer up crimson sacrifices. Where the lifeblood of their victims falls, it anoints the ground as holy to Khorne’s murderous creed.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.TARGET: That WORLD EATERS unit.EFFECT: Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "when": "Fight phase, just after a WORLD EATERS unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.",
+      "target": "That WORLD EATERS unit.",
+      "effect": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    }
+  ],
   "detachments": [
     {
       "name": "Berzerker Warband",
       "stratagems": [
+        {
+          "id": "000008431007",
+          "name": "APOPLECTIC FRENZY",
+          "type": "Berzerker Warband – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Those who fight for Khorne are driven to even greater depths of rage, surging towards the foe in a barely controlled tide.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase.TARGET: One WORLD EATERS unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+          "when": "Your Movement phase.",
+          "target": "One WORLD EATERS unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        },
         {
           "id": "000008431003",
           "name": "FOR THE SKULL THRONE!",
@@ -6995,7 +7270,10 @@
           "legend": "Khorne rewards those who test their might against the strongest foes, blessing the greatest warriors with his favour.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll. |"
+          "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+          "when": "Fight phase.",
+          "target": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll."
         },
         {
           "id": "000008431004",
@@ -7005,7 +7283,10 @@
           "legend": "When blood spills, the blessings of the Blood God are bountiful.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.TARGET: That WORLD EATERS unit.EFFECT: Make a Blessings of Khorne roll. You can use the results of this roll to activate one Blessing of Khorne. That Blessing of Khorne does not count towards your maximum number of activated Blessings of Khorne, but all other rules for Blessings of Khorne apply.|"
+          "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.TARGET: That WORLD EATERS unit.EFFECT: Make a Blessings of Khorne roll. You can use the results of this roll to activate one Blessing of Khorne. That Blessing of Khorne does not count towards your maximum number of activated Blessings of Khorne, but all other rules for Blessings of Khorne apply.",
+          "when": "Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.",
+          "target": "That WORLD EATERS unit.",
+          "effect": "Make a Blessings of Khorne roll. You can use the results of this roll to activate one Blessing of Khorne. That Blessing of Khorne does not count towards your maximum number of activated Blessings of Khorne, but all other rules for Blessings of Khorne apply."
         },
         {
           "id": "000008431006",
@@ -7015,7 +7296,10 @@
           "legend": "The blood of Khorne’s devoted warriors is still blood, and when the battleground runs red, it is still a worthy addition to the Blood God’s domain.",
           "turn": "Either player’s turn",
           "phase": "Any phase",
-          "description": "WHEN: Any phase.TARGET: One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.|"
+          "fullDescription": "WHEN: Any phase.TARGET: One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+          "when": "Any phase.",
+          "target": "One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
         },
         {
           "id": "000008431002",
@@ -7025,13 +7309,68 @@
           "legend": "Those who witness the massacres inflicted by the World Eaters flee to avoid being the next victims.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.EFFECT: In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.|\nWE|000008431005|KHORNE CARES NOT...|Berzerker Warband – Strategic Ploy Stratagem|2|Khorne cares not from whence the blood flows, so long as it flows, and mere flesh wounds will not stay the wrath of the World Eaters.|Either player’s turn|Fight phase|Berzerker Warband|WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.|\nWE|000009709004|SAVAGE RESILIENCE|Boarding Butchers – Battle Tactic Stratagem|1|Lost to blood madness, these warriors cannot be halted even by ruinous salvoes of enemy fire.|Opponent’s turn|Shooting phase|Boarding Butchers|WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.|\nWE|000009709002|TERRIFYING SCREAMS|Boarding Butchers – Strategic Ploy Stratagem|1|These warriors dismember their victims with such apocalyptic violence that the agonised screams of the dying ring throughout the ship.|Either player’s turn|Fight phase|Boarding Butchers|WHEN: Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.TARGET: That WORLD EATERS unit.EFFECT: Until the end of your opponent’s next Command phase, subtract 1 from Battle-shock and Leadership tests taken for all enemy units.|\nWE|000009709003|UNSTOPPABLE RAGE|Boarding Butchers – Strategic Ploy Stratagem|1|Charging headlong into battle, these warriors simply smash hatches from their housings as they bull their way through, often straight into unsuspecting foes waiting in corridors and chambers beyond.|Your turn|Movement phase|Boarding Butchers|WHEN: Your Movement phase, just after a WORLD EATERS unit from your army (excluding JAKHAL units) opens a Hatchway.TARGET: That WORLD EATERS unit.EFFECT: For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Movement phase, that enemy unit is stunned. While a unit is stunned, each time a model in it makes an attack, subtract 1 from the Hit roll.|"
+          "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.EFFECT: In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+          "when": "Fight phase.",
+          "target": "One WORLD EATERS unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.",
+          "effect": "In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
+        },
+        {
+          "id": "000008431005",
+          "name": "KHORNE CARES NOT...",
+          "type": "Berzerker Warband – Strategic Ploy Stratagem",
+          "cpCost": 2,
+          "legend": "Khorne cares not from whence the blood flows, so long as it flows, and mere flesh wounds will not stay the wrath of the World Eaters.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack."
         }
       ]
     },
     {
       "name": "Boarding Butchers",
       "stratagems": [
+        {
+          "id": "000009709004",
+          "name": "SAVAGE RESILIENCE",
+          "type": "Boarding Butchers – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Lost to blood madness, these warriors cannot be halted even by ruinous salvoes of enemy fire.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "id": "000009709002",
+          "name": "TERRIFYING SCREAMS",
+          "type": "Boarding Butchers – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "These warriors dismember their victims with such apocalyptic violence that the agonised screams of the dying ring throughout the ship.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.TARGET: That WORLD EATERS unit.EFFECT: Until the end of your opponent’s next Command phase, subtract 1 from Battle-shock and Leadership tests taken for all enemy units.",
+          "when": "Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.",
+          "target": "That WORLD EATERS unit.",
+          "effect": "Until the end of your opponent’s next Command phase, subtract 1 from Battle-shock and Leadership tests taken for all enemy units."
+        },
+        {
+          "id": "000009709003",
+          "name": "UNSTOPPABLE RAGE",
+          "type": "Boarding Butchers – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Charging headlong into battle, these warriors simply smash hatches from their housings as they bull their way through, often straight into unsuspecting foes waiting in corridors and chambers beyond.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after a WORLD EATERS unit from your army (excluding JAKHAL units) opens a Hatchway.TARGET: That WORLD EATERS unit.EFFECT: For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Movement phase, that enemy unit is stunned. While a unit is stunned, each time a model in it makes an attack, subtract 1 from the Hit roll.",
+          "when": "Your Movement phase, just after a WORLD EATERS unit from your army (excluding JAKHAL units) opens a Hatchway.",
+          "target": "That WORLD EATERS unit.",
+          "effect": "For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Movement phase, that enemy unit is stunned. While a unit is stunned, each time a model in it makes an attack, subtract 1 from the Hit roll."
+        },
         {
           "id": "000009709005",
           "name": "COWARDS’ BANE",
@@ -7040,7 +7379,10 @@
           "legend": "Disgusted by those who seek to flee their axes, the World Eaters cut them down without mercy.",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "description": "WHEN: Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.TARGET: One WORLD EATERS unit from your army (excluding JAKHAL units) within Engagement Range of that enemy unit.EFFECT: Until the end of the phase, each time that enemy unit Falls Back, models in it must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.|"
+          "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.TARGET: One WORLD EATERS unit from your army (excluding JAKHAL units) within Engagement Range of that enemy unit.EFFECT: Until the end of the phase, each time that enemy unit Falls Back, models in it must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+          "when": "Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.",
+          "target": "One WORLD EATERS unit from your army (excluding JAKHAL units) within Engagement Range of that enemy unit.",
+          "effect": "Until the end of the phase, each time that enemy unit Falls Back, models in it must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
         }
       ]
     },
@@ -7055,7 +7397,10 @@
           "legend": "The horrifying onset of these warriors can paralyse enemies with fear at the crucial moment.",
           "turn": "Opponent’s turn",
           "phase": "Movement or Charge phase",
-          "description": "WHEN: Your Movement or Charge phase, just after an enemy unit is selected to fire Overwatch.TARGET: One WORLD EATERS unit from your army.EFFECT: Until the end of the phase, each time an enemy unit is selected to fire Overwatch, it must take a Leadership test, subtracting 1 from the result: if failed, that enemy unit cannot fire Overwatch at your unit this phase.|"
+          "fullDescription": "WHEN: Your Movement or Charge phase, just after an enemy unit is selected to fire Overwatch.TARGET: One WORLD EATERS unit from your army.EFFECT: Until the end of the phase, each time an enemy unit is selected to fire Overwatch, it must take a Leadership test, subtracting 1 from the result: if failed, that enemy unit cannot fire Overwatch at your unit this phase.",
+          "when": "Your Movement or Charge phase, just after an enemy unit is selected to fire Overwatch.",
+          "target": "One WORLD EATERS unit from your army.",
+          "effect": "Until the end of the phase, each time an enemy unit is selected to fire Overwatch, it must take a Leadership test, subtracting 1 from the result: if failed, that enemy unit cannot fire Overwatch at your unit this phase."
         },
         {
           "id": "000009717004",
@@ -7065,13 +7410,68 @@
           "legend": "These berserk warriors smash through armoured hatchways as though they were no more durable than parchment.",
           "turn": "Your turn",
           "phase": "Movement or Charge phase",
-          "description": "WHEN: Your Movement or Charge phase.TARGET: One WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army that has not been selected to move this phase and has not declared a charge this phase.EFFECT: Until the end of the phase, when making a Normal, Advance or Charge move, your unit can move through a single closed Hatchway as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not visible to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.RESTRICTIONS: You can only use this Stratagem once per turn.|\nWE|000009717002|BLOOD RITE|Skullsworn – Strategic Ploy Stratagem|1|Ground upon which Khorne’s champions have shed the blood of their foes is indelibly stained with the mark of their wrathful god.|Either player’s turn|Fight phase|Skullsworn|WHEN: Fight phase, just after a WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army destroys an enemy unit.TARGET: That unit.EFFECT: Select one objective marker that your unit or the destroyed unit was within range of at the start of the phase. That objective marker is Secured by your army.|\nWE|000009717003|FURIOUS MOMENTUM|Skullsworn – Strategic Ploy Stratagem|1|Gripped by supernatural levels of fury, these warriors surge through the raging heart of battle like a bloody tide.|Either player’s turn|Fight phase|Skullsworn|WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move upto 6\" instead of up to 3\".|\nWE|000009848003|OVERSHADOWED BY NONE|Vessels of Wrath – Battle Tactic Stratagem|1|The more towering and monstrous the adversary, the better a chance that its bloody end will win the approbation of Khorne.|Either player’s turn|Fight phase|Vessels of Wrath|WHEN: Fight phase.TARGET: One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll.|\nWE|000009848002|ASPIRE TO INFAMY|Vessels of Wrath – Battle Tactic Stratagem|1|With proven champions of Khorne looking on, those of lesser renown hurl themselves into the fray with greater ferocity, eager to prove their prowess.|Either player’s turn|Fight phase|Vessels of Wrath|WHEN: Fight phase.TARGET: One KHORNE BERZERKERS or JAKHALS unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly WORLD EATERS CHARACTER models.EFFECT: Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non-CHARACTER models in your unit by 1.|"
+          "fullDescription": "WHEN: Your Movement or Charge phase.TARGET: One WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army that has not been selected to move this phase and has not declared a charge this phase.EFFECT: Until the end of the phase, when making a Normal, Advance or Charge move, your unit can move through a single closed Hatchway as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not visible to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.RESTRICTIONS: You can only use this Stratagem once per turn.",
+          "when": "Your Movement or Charge phase.",
+          "target": "One WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army that has not been selected to move this phase and has not declared a charge this phase.",
+          "effect": "Until the end of the phase, when making a Normal, Advance or Charge move, your unit can move through a single closed Hatchway as if it was open. When doing so, that Hatchway is opened and cannot be closed for the rest of the battle. This can allow that unit to declare a charge against enemy units that are not visible to it, but to do so those enemy units must be within 1\" of that Hatchway and wholly on the opposite side of it from your unit.RESTRICTIONS: You can only use this Stratagem once per turn."
+        },
+        {
+          "id": "000009717002",
+          "name": "BLOOD RITE",
+          "type": "Skullsworn – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Ground upon which Khorne’s champions have shed the blood of their foes is indelibly stained with the mark of their wrathful god.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army destroys an enemy unit.TARGET: That unit.EFFECT: Select one objective marker that your unit or the destroyed unit was within range of at the start of the phase. That objective marker is Secured by your army.",
+          "when": "Fight phase, just after a WORLD EATERS TERMINATOR, EIGHTBOUND or EXALTED EIGHTBOUND unit from your army destroys an enemy unit.",
+          "target": "That unit.",
+          "effect": "Select one objective marker that your unit or the destroyed unit was within range of at the start of the phase. That objective marker is Secured by your army."
+        },
+        {
+          "id": "000009717003",
+          "name": "FURIOUS MOMENTUM",
+          "type": "Skullsworn – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Gripped by supernatural levels of fury, these warriors surge through the raging heart of battle like a bloody tide.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move upto 6\" instead of up to 3\".",
+          "when": "Fight phase.",
+          "target": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move upto 6\" instead of up to 3\"."
         }
       ]
     },
     {
       "name": "Vessels of Wrath",
       "stratagems": [
+        {
+          "id": "000009848003",
+          "name": "OVERSHADOWED BY NONE",
+          "type": "Vessels of Wrath – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "The more towering and monstrous the adversary, the better a chance that its bloody end will win the approbation of Khorne.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase.TARGET: One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll.",
+          "when": "Fight phase.",
+          "target": "One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll."
+        },
+        {
+          "id": "000009848002",
+          "name": "ASPIRE TO INFAMY",
+          "type": "Vessels of Wrath – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "With proven champions of Khorne looking on, those of lesser renown hurl themselves into the fray with greater ferocity, eager to prove their prowess.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase.TARGET: One KHORNE BERZERKERS or JAKHALS unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly WORLD EATERS CHARACTER models.EFFECT: Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non-CHARACTER models in your unit by 1.",
+          "when": "Fight phase.",
+          "target": "One KHORNE BERZERKERS or JAKHALS unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly WORLD EATERS CHARACTER models.",
+          "effect": "Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non-CHARACTER models in your unit by 1."
+        },
         {
           "id": "000009848007",
           "name": "BRAZEN CONTEMPT",
@@ -7080,7 +7480,10 @@
           "legend": "Empowered by flowing waves of hatred that they believe emanate from the Blood God himself, Khorne’s worshippers feel nothing but scorn at their enemies’ pitiful blows.",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead."
         },
         {
           "id": "000009848006",
@@ -7090,7 +7493,10 @@
           "legend": "Desperate to prove themselves to the Blood God in this hour of infernal glory, these warriors are only goaded to more ferocious efforts by the enemy’s attempts to hold them at bay.",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that lost one or more wounds as a result of those attacks.EFFECT: Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a KHORNE BERZERKERS or VESSEL OF WRATH  unit, you can re-roll the D6 to determine how far your unit can move.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that lost one or more wounds as a result of those attacks.EFFECT: Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a KHORNE BERZERKERS or VESSEL OF WRATH  unit, you can re-roll the D6 to determine how far your unit can move.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that lost one or more wounds as a result of those attacks.",
+          "effect": "Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a KHORNE BERZERKERS or VESSEL OF WRATH  unit, you can re-roll the D6 to determine how far your unit can move."
         },
         {
           "id": "000009848005",
@@ -7100,7 +7506,10 @@
           "legend": "The Blood God is said to detest cowards. Meting out punishment to such degenerates is a sure way to win his favour and gain his wrathful boons.",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "description": "WHEN: Your opponent’s Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.TARGET: One WORLD EATERS INFANTRY or WORLD EATERS DAEMON PRINCE unit from your army within Engagement Range of that enemy unit.EFFECT: When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a VESSEL OF WRATH  unit, subtract 1 from each of those tests.|"
+          "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.TARGET: One WORLD EATERS INFANTRY or WORLD EATERS DAEMON PRINCE unit from your army within Engagement Range of that enemy unit.EFFECT: When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a VESSEL OF WRATH  unit, subtract 1 from each of those tests.",
+          "when": "Your opponent’s Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
+          "target": "One WORLD EATERS INFANTRY or WORLD EATERS DAEMON PRINCE unit from your army within Engagement Range of that enemy unit.",
+          "effect": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a VESSEL OF WRATH  unit, subtract 1 from each of those tests."
         },
         {
           "id": "000009848004",
@@ -7110,7 +7519,10 @@
           "legend": "To the World Eaters, every battlefield is an altar upon which to offer up crimson sacrifices. Where the lifeblood of their victims falls, it anoints the ground as holy to Khorne’s murderous creed.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase, just after a WORLD EATERS unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.TARGET: That WORLD EATERS unit.EFFECT: Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.|"
+          "fullDescription": "WHEN: Fight phase, just after a WORLD EATERS unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.TARGET: That WORLD EATERS unit.EFFECT: Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+          "when": "Fight phase, just after a WORLD EATERS unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.",
+          "target": "That WORLD EATERS unit.",
+          "effect": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         }
       ]
     }

@@ -7720,10 +7720,363 @@
       ]
     }
   ],
+  "stratagems": [
+    {
+      "id": "000009655005",
+      "name": "TZEENTCH’S BOON",
+      "type": "Chosen Cabal – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "This psyker’s devotion to the God of Change has been rewarded with terrible destructive power.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER model from your army within range of an objective marker that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time your model makes a Psychic Attack, you can re-roll the Wound roll.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER model from your army within range of an objective marker that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, each time your model makes a Psychic Attack, you can re-roll the Wound roll."
+    },
+    {
+      "id": "000009655002",
+      "name": "COSTLY BLESSING",
+      "type": "Chosen Cabal – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "Tzeentch's gifts may protect his followers, but such intervention never comes without cost.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks. EFFECT: Until the end of the phase, your model has a 3+ invulnerable save. At the end of the phase, your model suffers D3 mortal wounds.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One THOUSAND SONS PSYKER CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, your model has a 3+ invulnerable save. At the end of the phase, your model suffers D3 mortal wounds."
+    },
+    {
+      "id": "000009655003",
+      "name": "EMPYRIC DESECRATION",
+      "type": "Chosen Cabal – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "Powerful Sorcerers may use their mastery of the warp to corrupt areas of the battlefield and deny them to the foe.",
+      "turn": "Your turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: End of your Fight phase.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army.EFFECT: Select one objective marker Secured by your opponent’s army that is within 6\" of and visible to your model, then roll one D6: on a 2+, that objective marker is no longer considered Secured by your opponent’s army.",
+      "when": "End of your Fight phase.",
+      "target": "One THOUSAND SONS PSYKER CHARACTER model from your army.",
+      "effect": "Select one objective marker Secured by your opponent’s army that is within 6\" of and visible to your model, then roll one D6: on a 2+, that objective marker is no longer considered Secured by your opponent’s army."
+    },
+    {
+      "id": "000009655004",
+      "name": "INFERNO BOLTERS",
+      "type": "Chosen Cabal – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Thousand Sons inferno bolters make use of warp-imbued ammunition capable of burning through bulkheads to strike unsuspecting targets.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.EFFECT: Select one closed Hatchway. Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0.",
+      "when": "Your Shooting phase.",
+      "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.",
+      "effect": "Select one closed Hatchway. Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0."
+    },
+    {
+      "id": "000008426004",
+      "name": "DEVASTATING SORCERY",
+      "type": "Cult of Magic – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "This warrior’s veins burn with raw sorcery. The sheer unstoppable might of their conjurations is such that, when unleashed with destructive intent, there is little that can prevent them from devastating manifestation.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Psychic Attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes a Psychic Attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    },
+    {
+      "id": "000008426002",
+      "name": "PSYCHIC DOMINION",
+      "type": "Cult of Magic – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "To pit one’s own psychic prowess against the sorcerous might of the Thousand Sons is to be trapped, helpless and screaming, within one’s own mind.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, all attacks made against your unit with Psychic weapons have the [HAZARDOUS] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks",
+      "when": "Any phase, just after an enemy unit has selected its targets.",
+      "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, all attacks made against your unit with Psychic weapons have the [HAZARDOUS] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks"
+    },
+    {
+      "id": "000008426006",
+      "name": "SORCEROUS MIGHT",
+      "type": "Cult of Magic – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "The most powerful sorcerers of the Thousand Sons are battle-psykers who can, if the need is dire enough, siphon a sliver of their corrupted souls into their eldritch assaults to temporarily boost their potency.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, add 9\" to the range of Psychic weapons equipped by your unit.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, add 9\" to the range of Psychic weapons equipped by your unit."
+    },
+    {
+      "id": "000008426003",
+      "name": "DESTINED BY FATE",
+      "type": "Cult of Magic – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "The Architect of Fate has great designs for his pawns, which do not include their untimely demise just yet…",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase, when a saving throw is failed for a THOUSAND SONS PSYKER model from your army.TARGET: That PSYKER model.EFFECT: Change the Damage characteristic of that attack to 0.",
+      "when": "Any phase, when a saving throw is failed for a THOUSAND SONS PSYKER model from your army.",
+      "target": "That PSYKER model.",
+      "effect": "Change the Damage characteristic of that attack to 0."
+    },
+    {
+      "id": "000008426005",
+      "name": "ENSORCELLED INFUSION",
+      "type": "Cult of Magic – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Utilising the fell powers of the warp, Thousand Sons Sorcerers infuse their minions’ bolter rounds with empyric energies to render them even deadlier.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5."
+    },
+    {
+      "id": "000008426007",
+      "name": "WARP SIGHT",
+      "type": "Cult of Magic – Strategic Ploy Stratagem",
+      "cpCost": 2,
+      "legend": "With their tainted souls melded as one in the warp, what one champion of the cabal sees, all their fellows see also.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.EFFECT: Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.",
+      "effect": "Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities."
+    },
+    {
+      "id": "000009664003",
+      "name": "FLESH CHANGE",
+      "type": "Devoted Thralls – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Tzeentch’s mutagenic gifts lend resilience to those brave or fool hardy enough to embrace them.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+      "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
+    },
+    {
+      "id": "000009664002",
+      "name": "PSYCHIC INGRESS",
+      "type": "Devoted Thralls – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "The Sorcerers of the Thousand Sons can draw upon their powers to melt away hatches and bulkheads.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: End of any phase.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army.EFFECT: Open every Hatchway within 3\" of your model. When measuring this distance, ignore Walls and closed Hatchways.RESTRICTIONS: You can only use this Stratagem once.",
+      "when": "End of any phase.",
+      "target": "One THOUSAND SONS PSYKER CHARACTER model from your army.",
+      "effect": "Open every Hatchway within 3\" of your model. When measuring this distance, ignore Walls and closed Hatchways.RESTRICTIONS: You can only use this Stratagem once."
+    },
+    {
+      "id": "000009664005",
+      "name": "BESTIAL SURGE",
+      "type": "Devoted Thralls – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "When struck by enemy fire, the bestial Tzaangors react with instinctive fury, surging towards their assailants in a vengeful flock.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Your unit can make a Bestial Surge move. To do so, roll one D6: your unit can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+      "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Your unit can make a Bestial Surge move. To do so, roll one D6: your unit can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit."
+    },
+    {
+      "id": "000009664004",
+      "name": "FELL SACRIFICE",
+      "type": "Devoted Thralls – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "As ritual violence gathers in intensity, the massed thralls of the Thousand Sons swell with the terrifying powers of the warp.",
+      "turn": "Opponent’s turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Your opponent’s Command phase, at the start of the Battle-shock step.TARGET: One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.EFFECT: Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+      "when": "Your opponent’s Command phase, at the start of the Battle-shock step.",
+      "target": "One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.",
+      "effect": "Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
+    },
+    {
+      "id": "000009673005",
+      "name": "INVISIBLE ASSAILANTS",
+      "type": "Fateseekers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Flocking to the Sorcerer's summons, swarms of minor warp entities assail the enemy, wailing and clawing at them until they are driven to horrified distraction.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Start of your opponent’s Movement phase.TARGET: One THOUSAND SONS PSYKER model from your army.EFFECT: Select one enemy unit visible to your model. That unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your opponent’s next Movement phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for it; if passed, subtract 1\" from the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it.",
+      "when": "Start of your opponent’s Movement phase.",
+      "target": "One THOUSAND SONS PSYKER model from your army.",
+      "effect": "Select one enemy unit visible to your model. That unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your opponent’s next Movement phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for it; if passed, subtract 1\" from the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it."
+    },
+    {
+      "id": "000009673004",
+      "name": "PHANTASMIC MUNITIONS",
+      "type": "Fateseekers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Sorcerer renders the shells and blasts of their warriors ethereal, allowing them to pass through intervening targets before solidifying again to lethal effect.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore enemy models for the purposes of determining visibility.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, models in your unit can ignore enemy models for the purposes of determining visibility."
+    },
+    {
+      "id": "000009673003",
+      "name": "STRATEGIC VISION",
+      "type": "Fateseekers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Flickering visions allow this Sorcerer to foresee enemy threats and direct the weapons of their thralls accordingly.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability, and models in your unit can target enemy units that are not within Engagement Range of them (as long as they are otherwise eligible targets).",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability, and models in your unit can target enemy units that are not within Engagement Range of them (as long as they are otherwise eligible targets)."
+    },
+    {
+      "id": "000009673002",
+      "name": "ENDURING ANIMUS",
+      "type": "Fateseekers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The malefic spirit echoes bound within the armour of the Thousand Sons cling tenaciously to existence and are not banished easily.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000009742007",
+      "name": "KALEIDOSCOPIC TEMPEST",
+      "type": "Hexwarp Thrallband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "As the Thousand Sons solidify their control over sites of magical power, the Immaterium spills into reality in searing torrents, blossoming into a multi-spectral storm of arcane energy that obscures mortal senses and mechanical augury.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic, each time an attack targets your unit, it has the Benefit of Cover against that attack.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic, each time an attack targets your unit, it has the Benefit of Cover against that attack."
+    },
+    {
+      "id": "000009742002",
+      "name": "WARDING HEX",
+      "type": "Hexwarp Thrallband – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "Thousand Sons Sorcerers draw upon tide swells of Warp energy to weave spells of binding and warding, thereby shackling sites of arcane power to their own arrogant will.",
+      "turn": "Either player’s turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Command phase.TARGET: One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.EFFECT: That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "when": "Command phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.",
+      "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    },
+    {
+      "id": "000009742005",
+      "name": "THROUGH THE VEIL",
+      "type": "Hexwarp Thrallband – Epic Deed Stratagem",
+      "cpCost": 1,
+      "legend": "With arcane energy flooding the battlefield, the veil between Warp and reality rapidly collapses. From yawning rifts emerge Rubricae reinforcements to ensure their thrallband’s victory.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Start of the Reinforcements step of your Movement phase.TARGET: One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that is in Strategic Reserves.EFFECT: If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.RESTRICTIONS: If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn.",
+      "when": "Start of the Reinforcements step of your Movement phase.",
+      "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that is in Strategic Reserves.",
+      "effect": "If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.RESTRICTIONS: If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn."
+    },
+    {
+      "id": "000009742003",
+      "name": "WRATH OF THE DOOMED",
+      "type": "Hexwarp Thrallband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Forewarned of the moment of their demise, the followers of Tzeentch allow the flood of magic to run rampant through their forms, providing them with a final burst of killing energy before unbound arcane force rips their bodies asunder",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is wholly within your army’s Flow of Magic: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is wholly within your army’s Flow of Magic: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000009742004",
+      "name": "STRANDS OF TIME",
+      "type": "Hexwarp Thrallband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "By drawing upon their expanding nexus of magic, this disciple of Tzeentch can tear strands of temporal energy from the Warp and wind them around themselves and their thralls. Lent speed by this garland of stolen time, they melt away from their foes’ desperate strikes before lashing out again.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a THOUSAND SONS PSYKER unit from your army Falls Back.TARGET: That THOUSAND SONS PSYKER unit.EFFECT: Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit is wholly within your army’s Flow of Magic when it is targeted with this Stratagem, then until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "when": "Your Movement phase, just after a THOUSAND SONS PSYKER unit from your army Falls Back.",
+      "target": "That THOUSAND SONS PSYKER unit.",
+      "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit is wholly within your army’s Flow of Magic when it is targeted with this Stratagem, then until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "id": "000009742006",
+      "name": "SCOURING WARPFLAME",
+      "type": "Hexwarp Thrallband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "At a spat curse, Warp‑infused ammunition can be made to glow with sulphurous flame, enabling it to burn through solid cover to strike enemies beyond. Those hit by the fusillade find their forms wreathed in illuminating azure fire.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover.",
+      "when": "Your Shooting phase.",
+      "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic.",
+      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover."
+    }
+  ],
   "detachments": [
     {
       "name": "Chosen Cabal",
       "stratagems": [
+        {
+          "id": "000009655005",
+          "name": "TZEENTCH’S BOON",
+          "type": "Chosen Cabal – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "This psyker’s devotion to the God of Change has been rewarded with terrible destructive power.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER model from your army within range of an objective marker that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time your model makes a Psychic Attack, you can re-roll the Wound roll.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER model from your army within range of an objective marker that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time your model makes a Psychic Attack, you can re-roll the Wound roll."
+        },
+        {
+          "id": "000009655002",
+          "name": "COSTLY BLESSING",
+          "type": "Chosen Cabal – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Tzeentch's gifts may protect his followers, but such intervention never comes without cost.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks. EFFECT: Until the end of the phase, your model has a 3+ invulnerable save. At the end of the phase, your model suffers D3 mortal wounds.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One THOUSAND SONS PSYKER CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your model has a 3+ invulnerable save. At the end of the phase, your model suffers D3 mortal wounds."
+        },
+        {
+          "id": "000009655003",
+          "name": "EMPYRIC DESECRATION",
+          "type": "Chosen Cabal – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Powerful Sorcerers may use their mastery of the warp to corrupt areas of the battlefield and deny them to the foe.",
+          "turn": "Your turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: End of your Fight phase.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army.EFFECT: Select one objective marker Secured by your opponent’s army that is within 6\" of and visible to your model, then roll one D6: on a 2+, that objective marker is no longer considered Secured by your opponent’s army.",
+          "when": "End of your Fight phase.",
+          "target": "One THOUSAND SONS PSYKER CHARACTER model from your army.",
+          "effect": "Select one objective marker Secured by your opponent’s army that is within 6\" of and visible to your model, then roll one D6: on a 2+, that objective marker is no longer considered Secured by your opponent’s army."
+        },
         {
           "id": "000009655004",
           "name": "INFERNO BOLTERS",
@@ -7732,13 +8085,55 @@
           "legend": "The Thousand Sons inferno bolters make use of warp-imbued ammunition capable of burning through bulkheads to strike unsuspecting targets.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.EFFECT: Select one closed Hatchway. Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0.|\nTS|000008426004|DEVASTATING SORCERY|Cult of Magic – Battle Tactic Stratagem|1|This warrior’s veins burn with raw sorcery. The sheer unstoppable might of their conjurations is such that, when unleashed with destructive intent, there is little that can prevent them from devastating manifestation.|Your turn|Shooting phase|Cult of Magic|WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Psychic Attack, you can re-roll the Hit roll and you can re-roll the Wound roll.|\nTS|000008426002|PSYCHIC DOMINION|Cult of Magic – Epic Deed Stratagem|1|To pit one’s own psychic prowess against the sorcerous might of the Thousand Sons is to be trapped, helpless and screaming, within one’s own mind.|Either player’s turn|Any phase|Cult of Magic|WHEN: Any phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, all attacks made against your unit with Psychic weapons have the [HAZARDOUS] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks|\nTS|000008426006|SORCEROUS MIGHT|Cult of Magic – Epic Deed Stratagem|1|The most powerful sorcerers of the Thousand Sons are battle-psykers who can, if the need is dire enough, siphon a sliver of their corrupted souls into their eldritch assaults to temporarily boost their potency.|Your turn|Shooting phase|Cult of Magic|WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, add 9\" to the range of Psychic weapons equipped by your unit.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.EFFECT: Select one closed Hatchway. Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0.",
+          "when": "Your Shooting phase.",
+          "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.",
+          "effect": "Select one closed Hatchway. Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0."
         }
       ]
     },
     {
       "name": "Cult of Magic",
       "stratagems": [
+        {
+          "id": "000008426004",
+          "name": "DEVASTATING SORCERY",
+          "type": "Cult of Magic – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "This warrior’s veins burn with raw sorcery. The sheer unstoppable might of their conjurations is such that, when unleashed with destructive intent, there is little that can prevent them from devastating manifestation.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Psychic Attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a Psychic Attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "id": "000008426002",
+          "name": "PSYCHIC DOMINION",
+          "type": "Cult of Magic – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "To pit one’s own psychic prowess against the sorcerous might of the Thousand Sons is to be trapped, helpless and screaming, within one’s own mind.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "fullDescription": "WHEN: Any phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, all attacks made against your unit with Psychic weapons have the [HAZARDOUS] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks",
+          "when": "Any phase, just after an enemy unit has selected its targets.",
+          "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, all attacks made against your unit with Psychic weapons have the [HAZARDOUS] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks"
+        },
+        {
+          "id": "000008426006",
+          "name": "SORCEROUS MIGHT",
+          "type": "Cult of Magic – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "The most powerful sorcerers of the Thousand Sons are battle-psykers who can, if the need is dire enough, siphon a sliver of their corrupted souls into their eldritch assaults to temporarily boost their potency.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, add 9\" to the range of Psychic weapons equipped by your unit.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, add 9\" to the range of Psychic weapons equipped by your unit."
+        },
         {
           "id": "000008426003",
           "name": "DESTINED BY FATE",
@@ -7747,7 +8142,10 @@
           "legend": "The Architect of Fate has great designs for his pawns, which do not include their untimely demise just yet…",
           "turn": "Either player’s turn",
           "phase": "Any phase",
-          "description": "WHEN: Any phase, when a saving throw is failed for a THOUSAND SONS PSYKER model from your army.TARGET: That PSYKER model.EFFECT: Change the Damage characteristic of that attack to 0.|"
+          "fullDescription": "WHEN: Any phase, when a saving throw is failed for a THOUSAND SONS PSYKER model from your army.TARGET: That PSYKER model.EFFECT: Change the Damage characteristic of that attack to 0.",
+          "when": "Any phase, when a saving throw is failed for a THOUSAND SONS PSYKER model from your army.",
+          "target": "That PSYKER model.",
+          "effect": "Change the Damage characteristic of that attack to 0."
         },
         {
           "id": "000008426005",
@@ -7757,7 +8155,10 @@
           "legend": "Utilising the fell powers of the warp, Thousand Sons Sorcerers infuse their minions’ bolter rounds with empyric energies to render them even deadlier.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5."
         },
         {
           "id": "000008426007",
@@ -7767,7 +8168,10 @@
           "legend": "With their tainted souls melded as one in the warp, what one champion of the cabal sees, all their fellows see also.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.EFFECT: Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities. |"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.EFFECT: Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.",
+          "effect": "Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities."
         }
       ]
     },
@@ -7782,7 +8186,10 @@
           "legend": "Tzeentch’s mutagenic gifts lend resilience to those brave or fool hardy enough to embrace them.",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
         },
         {
           "id": "000009664002",
@@ -7792,13 +8199,138 @@
           "legend": "The Sorcerers of the Thousand Sons can draw upon their powers to melt away hatches and bulkheads.",
           "turn": "Either player’s turn",
           "phase": "Any phase",
-          "description": "WHEN: End of any phase.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army.EFFECT: Open every Hatchway within 3\" of your model. When measuring this distance, ignore Walls and closed Hatchways.RESTRICTIONS: You can only use this Stratagem once.|\nTS|000009664005|BESTIAL SURGE|Devoted Thralls – Strategic Ploy Stratagem|1|When struck by enemy fire, the bestial Tzaangors react with instinctive fury, surging towards their assailants in a vengeful flock.|Opponent’s turn|Shooting phase|Devoted Thralls|WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Your unit can make a Bestial Surge move. To do so, roll one D6: your unit can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.|\nTS|000009664004|FELL SACRIFICE|Devoted Thralls – Strategic Ploy Stratagem|1|As ritual violence gathers in intensity, the massed thralls of the Thousand Sons swell with the terrifying powers of the warp.|Opponent’s turn|Command phase|Devoted Thralls|WHEN: Your opponent’s Command phase, at the start of the Battle-shock step.TARGET: One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.EFFECT: Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.|\nTS|000009673005|INVISIBLE ASSAILANTS|Fateseekers – Strategic Ploy Stratagem|1|Flocking to the Sorcerer's summons, swarms of minor warp entities assail the enemy, wailing and clawing at them until they are driven to horrified distraction.|Opponent’s turn|Movement phase|Fateseekers|WHEN: Start of your opponent’s Movement phase.TARGET: One THOUSAND SONS PSYKER model from your army.EFFECT: Select one enemy unit visible to your model. That unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your opponent’s next Movement phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for it; if passed, subtract 1\" from the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it.|\nTS|000009673004|PHANTASMIC MUNITIONS|Fateseekers – Strategic Ploy Stratagem|1|The Sorcerer renders the shells and blasts of their warriors ethereal, allowing them to pass through intervening targets before solidifying again to lethal effect.|Your turn|Shooting phase|Fateseekers|WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore enemy models for the purposes of determining visibility.|\nTS|000009673003|STRATEGIC VISION|Fateseekers – Strategic Ploy Stratagem|1|Flickering visions allow this Sorcerer to foresee enemy threats and direct the weapons of their thralls accordingly.|Your turn|Shooting phase|Fateseekers|WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability, and models in your unit can target enemy units that are not within Engagement Range of them (as long as they are otherwise eligible targets).|\nTS|000009673002|ENDURING ANIMUS|Fateseekers – Strategic Ploy Stratagem|1|The malefic spirit echoes bound within the armour of the Thousand Sons cling tenaciously to existence and are not banished easily.|Either player’s turn|Fight phase|Fateseekers|WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.|\nTS|000009742007|KALEIDOSCOPIC TEMPEST|Hexwarp Thrallband – Battle Tactic Stratagem|1|As the Thousand Sons solidify their control over sites of magical power, the Immaterium spills into reality in searing torrents, blossoming into a multi-spectral storm of arcane energy that obscures mortal senses and mechanical augury.|Opponent’s turn|Shooting phase|Hexwarp Thrallband|WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic, each time an attack targets your unit, it has the Benefit of Cover against that attack.|\nTS|000009742002|WARDING HEX|Hexwarp Thrallband – Epic Deed Stratagem|1|Thousand Sons Sorcerers draw upon tide swells of Warp energy to weave spells of binding and warding, thereby shackling sites of arcane power to their own arrogant will.|Either player’s turn|Command phase|Hexwarp Thrallband|WHEN: Command phase.TARGET: One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.EFFECT: That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.|\nTS|000009742005|THROUGH THE VEIL|Hexwarp Thrallband – Epic Deed Stratagem|1|With arcane energy flooding the battlefield, the veil between Warp and reality rapidly collapses. From yawning rifts emerge Rubricae reinforcements to ensure their thrallband’s victory.|Your turn|Movement phase|Hexwarp Thrallband|WHEN: Start of the Reinforcements step of your Movement phase.TARGET: One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that is in Strategic Reserves.EFFECT: If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.RESTRICTIONS: If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn.|"
+          "fullDescription": "WHEN: End of any phase.TARGET: One THOUSAND SONS PSYKER CHARACTER model from your army.EFFECT: Open every Hatchway within 3\" of your model. When measuring this distance, ignore Walls and closed Hatchways.RESTRICTIONS: You can only use this Stratagem once.",
+          "when": "End of any phase.",
+          "target": "One THOUSAND SONS PSYKER CHARACTER model from your army.",
+          "effect": "Open every Hatchway within 3\" of your model. When measuring this distance, ignore Walls and closed Hatchways.RESTRICTIONS: You can only use this Stratagem once."
+        },
+        {
+          "id": "000009664005",
+          "name": "BESTIAL SURGE",
+          "type": "Devoted Thralls – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "When struck by enemy fire, the bestial Tzaangors react with instinctive fury, surging towards their assailants in a vengeful flock.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.TARGET: One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Your unit can make a Bestial Surge move. To do so, roll one D6: your unit can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One TZAANGORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Your unit can make a Bestial Surge move. To do so, roll one D6: your unit can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit."
+        },
+        {
+          "id": "000009664004",
+          "name": "FELL SACRIFICE",
+          "type": "Devoted Thralls – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "As ritual violence gathers in intensity, the massed thralls of the Thousand Sons swell with the terrifying powers of the warp.",
+          "turn": "Opponent’s turn",
+          "phase": "Command phase",
+          "fullDescription": "WHEN: Your opponent’s Command phase, at the start of the Battle-shock step.TARGET: One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.EFFECT: Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+          "when": "Your opponent’s Command phase, at the start of the Battle-shock step.",
+          "target": "One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.",
+          "effect": "Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
+        }
+      ]
+    },
+    {
+      "name": "Fateseekers",
+      "stratagems": [
+        {
+          "id": "000009673005",
+          "name": "INVISIBLE ASSAILANTS",
+          "type": "Fateseekers – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Flocking to the Sorcerer's summons, swarms of minor warp entities assail the enemy, wailing and clawing at them until they are driven to horrified distraction.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Start of your opponent’s Movement phase.TARGET: One THOUSAND SONS PSYKER model from your army.EFFECT: Select one enemy unit visible to your model. That unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your opponent’s next Movement phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for it; if passed, subtract 1\" from the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it.",
+          "when": "Start of your opponent’s Movement phase.",
+          "target": "One THOUSAND SONS PSYKER model from your army.",
+          "effect": "Select one enemy unit visible to your model. That unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your opponent’s next Movement phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for it; if passed, subtract 1\" from the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it."
+        },
+        {
+          "id": "000009673004",
+          "name": "PHANTASMIC MUNITIONS",
+          "type": "Fateseekers – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The Sorcerer renders the shells and blasts of their warriors ethereal, allowing them to pass through intervening targets before solidifying again to lethal effect.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore enemy models for the purposes of determining visibility.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, models in your unit can ignore enemy models for the purposes of determining visibility."
+        },
+        {
+          "id": "000009673003",
+          "name": "STRATEGIC VISION",
+          "type": "Fateseekers – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Flickering visions allow this Sorcerer to foresee enemy threats and direct the weapons of their thralls accordingly.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability, and models in your unit can target enemy units that are not within Engagement Range of them (as long as they are otherwise eligible targets).",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability, and models in your unit can target enemy units that are not within Engagement Range of them (as long as they are otherwise eligible targets)."
+        },
+        {
+          "id": "000009673002",
+          "name": "ENDURING ANIMUS",
+          "type": "Fateseekers – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The malefic spirit echoes bound within the armour of the Thousand Sons cling tenaciously to existence and are not banished easily.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
     {
       "name": "Hexwarp Thrallband",
       "stratagems": [
+        {
+          "id": "000009742007",
+          "name": "KALEIDOSCOPIC TEMPEST",
+          "type": "Hexwarp Thrallband – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "As the Thousand Sons solidify their control over sites of magical power, the Immaterium spills into reality in searing torrents, blossoming into a multi-spectral storm of arcane energy that obscures mortal senses and mechanical augury.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic, each time an attack targets your unit, it has the Benefit of Cover against that attack.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic, each time an attack targets your unit, it has the Benefit of Cover against that attack."
+        },
+        {
+          "id": "000009742002",
+          "name": "WARDING HEX",
+          "type": "Hexwarp Thrallband – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "Thousand Sons Sorcerers draw upon tide swells of Warp energy to weave spells of binding and warding, thereby shackling sites of arcane power to their own arrogant will.",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "fullDescription": "WHEN: Command phase.TARGET: One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.EFFECT: That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+          "when": "Command phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.",
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "id": "000009742005",
+          "name": "THROUGH THE VEIL",
+          "type": "Hexwarp Thrallband – Epic Deed Stratagem",
+          "cpCost": 1,
+          "legend": "With arcane energy flooding the battlefield, the veil between Warp and reality rapidly collapses. From yawning rifts emerge Rubricae reinforcements to ensure their thrallband’s victory.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Start of the Reinforcements step of your Movement phase.TARGET: One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that is in Strategic Reserves.EFFECT: If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.RESTRICTIONS: If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn.",
+          "when": "Start of the Reinforcements step of your Movement phase.",
+          "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that is in Strategic Reserves.",
+          "effect": "If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.RESTRICTIONS: If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn."
+        },
         {
           "id": "000009742003",
           "name": "WRATH OF THE DOOMED",
@@ -7807,7 +8339,10 @@
           "legend": "Forewarned of the moment of their demise, the followers of Tzeentch allow the flood of magic to run rampant through their forms, providing them with a final burst of killing energy before unbound arcane force rips their bodies asunder",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is wholly within your army’s Flow of Magic: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.|"
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is wholly within your army’s Flow of Magic: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is wholly within your army’s Flow of Magic: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         },
         {
           "id": "000009742004",
@@ -7817,7 +8352,10 @@
           "legend": "By drawing upon their expanding nexus of magic, this disciple of Tzeentch can tear strands of temporal energy from the Warp and wind them around themselves and their thralls. Lent speed by this garland of stolen time, they melt away from their foes’ desperate strikes before lashing out again.",
           "turn": "Your turn",
           "phase": "Movement phase",
-          "description": "WHEN: Your Movement phase, just after a THOUSAND SONS PSYKER unit from your army Falls Back.TARGET: That THOUSAND SONS PSYKER unit.EFFECT: Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit is wholly within your army’s Flow of Magic when it is targeted with this Stratagem, then until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.|"
+          "fullDescription": "WHEN: Your Movement phase, just after a THOUSAND SONS PSYKER unit from your army Falls Back.TARGET: That THOUSAND SONS PSYKER unit.EFFECT: Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit is wholly within your army’s Flow of Magic when it is targeted with this Stratagem, then until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+          "when": "Your Movement phase, just after a THOUSAND SONS PSYKER unit from your army Falls Back.",
+          "target": "That THOUSAND SONS PSYKER unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit is wholly within your army’s Flow of Magic when it is targeted with this Stratagem, then until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
         },
         {
           "id": "000009742006",
@@ -7827,7 +8365,10 @@
           "legend": "At a spat curse, Warp‑infused ammunition can be made to glow with sulphurous flame, enabling it to burn through solid cover to strike enemies beyond. Those hit by the fusillade find their forms wreathed in illuminating azure fire.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover.",
+          "when": "Your Shooting phase.",
+          "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover."
         }
       ]
     }

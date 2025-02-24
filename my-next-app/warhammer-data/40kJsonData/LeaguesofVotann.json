@@ -2577,7 +2577,352 @@
       ]
     }
   ],
+  "stratagems": [
+    {
+      "id": "000009824007",
+      "name": "FURY OF THE HEARTH",
+      "type": "Hearthband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "As though they unleash the raging flames of their kindred’s hearth upon the enemy, the Einhyr all but drown their enemies in fire.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons (excluding Blast weapons) equipped by models in your unit have the [RAPID FIRE 1] ability.",
+      "when": "Your Shooting phase.",
+      "target": "One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, ranged weapons (excluding Blast weapons) equipped by models in your unit have the [RAPID FIRE 1] ability."
+    },
+    {
+      "id": "000009824004",
+      "name": "SUPERIOR CRAFTSMANSHIP",
+      "type": "Hearthband – Battle Tactic Stratagem",
+      "cpCost": 2,
+      "legend": "Not only are the finest of the Kindred’s warriors selected for this duty, but they are also equipped with the best weaponry and wargear the Brôkhyr can produce.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack.",
+      "when": "Fight phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack."
+    },
+    {
+      "id": "000009824002",
+      "name": "BRËKKEKNOTS",
+      "type": "Hearthband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "These micro shield generators, worked into warrior jewellery or armour crests, trigger on command to provide short-lived boosted protection.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+      "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
+    },
+    {
+      "id": "000009824003",
+      "name": "SURE OF PURPOSE",
+      "type": "Hearthband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The single-minded advance of the Kin rolls over collapsing enemy lines and exploits every fault and weakness, driving on towards the objective.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".",
+      "when": "Fight phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
+    },
+    {
+      "id": "000009824005",
+      "name": "UNYIELDING AGGRESSION",
+      "type": "Hearthband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Even should they be compelled to pull back momentarily, the warriors of the Hearthband maintain a punishing curtain of fire to erode the enemy further or rally swiftly and drive back into the fight.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN INFANTRY unit from your army Falls Back.TARGET: That LEAGUES OF VOTANN INFANTRY unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "when": "Your Movement phase, just after a LEAGUES OF VOTANN INFANTRY unit from your army Falls Back.",
+      "target": "That LEAGUES OF VOTANN INFANTRY unit.",
+      "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "id": "000009824006",
+      "name": "MATERIALISATION MATRICES",
+      "type": "Hearthband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Built to a superior standard using secrets imparted by the Votann, the teleporters employed by this Hearthband can stabilise rematerialisation fields remarkably close to the foe.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: The Reinforcements step of your Movement phase.TARGET: One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.EFFECT: Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge.",
+      "when": "The Reinforcements step of your Movement phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.",
+      "effect": "Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge."
+    },
+    {
+      "id": "000009538003",
+      "name": "PAN-SPECTRAL VISUALISER",
+      "type": "Hearthfire Strike – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "These advanced sets of helm optics pierce veils both technological and sorcerous, laying the foe bare.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack with a weapon, you can ignore any or all modifiers to that attack’s or that weapon’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+      "when": "Your Shooting phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack with a weapon, you can ignore any or all modifiers to that attack’s or that weapon’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
+    },
+    {
+      "id": "000009538004",
+      "name": "ECONOMY OF AGGRESSION",
+      "type": "Hearthfire Strike – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "A few grenades placed with care and skill reap greater returns in bloodshed than a wealth of recklessly hurled materiel.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.EFFECT: Select one enemy unit that is visible to your unit and wholly on the opposite side of a Hatchway from it. Until the end of the phase, exo-armour grenade launchers equipped by models in your unit have an Attacks characteristic of 6 and lose the [BLAST] ability while targeting that enemy unit, and attacks made with such weapons that target that enemy unit can be allocated to models that are not visible to the attacking model.",
+      "when": "Your Shooting phase.",
+      "target": "One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.",
+      "effect": "Select one enemy unit that is visible to your unit and wholly on the opposite side of a Hatchway from it. Until the end of the phase, exo-armour grenade launchers equipped by models in your unit have an Attacks characteristic of 6 and lose the [BLAST] ability while targeting that enemy unit, and attacks made with such weapons that target that enemy unit can be allocated to models that are not visible to the attacking model."
+    },
+    {
+      "id": "000009538005",
+      "name": "GRAVITRONIC PULSE",
+      "type": "Hearthfire Strike – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Emitters built into this squad's exo-armour batter the foe with focused gravity waves in the instant before the Kin charge crashes home.",
+      "turn": "Your turn",
+      "phase": "Charge phase",
+      "fullDescription": "WHEN: Your Charge phase, just after a LEAGUES OF VOTANN unit from your army ends a Charge move.TARGET: That LEAGUES OF VOTANN unit.EFFECT: For each enemy unit within Engagement Range of your unit, until the end of the turn, that unit loses the Fights First ability (if it has it) and, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "when": "Your Charge phase, just after a LEAGUES OF VOTANN unit from your army ends a Charge move.",
+      "target": "That LEAGUES OF VOTANN unit.",
+      "effect": "For each enemy unit within Engagement Range of your unit, until the end of the turn, that unit loses the Fights First ability (if it has it) and, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009538002",
+      "name": "WEAVEFIELD FLARE",
+      "type": "Hearthfire Strike – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Triggering weavefield generators worked into their wargear, the Einhyr bleed off the power of incoming enemy attacks.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+      "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+    },
+    {
+      "id": "000008499004",
+      "name": "ANCESTRAL SENTENCE",
+      "type": "Oathband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Some foes are so loathed that the Ancestors themselves are said to pass sentence upon them, marking them for death.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army.EFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack, that attack has the [SUSTAINED HITS 1] ability, and each time a model in your unit makes a ranged attack that targets a unit that has one or more Judgement tokens, that attack has the [SUSTAINED HITS 2] ability instead.",
+      "when": "Your Shooting phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army.",
+      "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack, that attack has the [SUSTAINED HITS 1] ability, and each time a model in your unit makes a ranged attack that targets a unit that has one or more Judgement tokens, that attack has the [SUSTAINED HITS 2] ability instead."
+    },
+    {
+      "id": "000008499005",
+      "name": "REACTIVE REPRISAL",
+      "type": "Oathband – Battle Tactic Stratagem",
+      "cpCost": 2,
+      "legend": "Once an enemy target has been marked out by the Eye of the Ancestors, the Kin focus their efforts upon its destruction, redoubling their fury should it attempt to engage.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit that has one or more Judgement tokens has resolved its attacks.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Your LEAGUES OF VOTANN unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit that has one or more Judgement tokens has resolved its attacks.",
+      "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Your LEAGUES OF VOTANN unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target."
+    },
+    {
+      "id": "000008499002",
+      "name": "WARRIOR PRIDE",
+      "type": "Oathband – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "The warriors of the Leagues of Votann pride themselves on their martial skill and proficiency in combat, and when the Ancestors are watching their actions they can quickly overwhelm and pick apart their foes.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army, and one enemy unit that has one or more Judgement tokens and is within Engagement Range of that LEAGUES OF VOTANN unit.EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1 for each Judgement token that enemy unit has.",
+      "when": "Fight phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army, and one enemy unit that has one or more Judgement tokens and is within Engagement Range of that LEAGUES OF VOTANN unit.",
+      "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1 for each Judgement token that enemy unit has."
+    },
+    {
+      "id": "000008499003",
+      "name": "ORDERED RETREAT",
+      "type": "Oathband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Not for the Kin the sudden panic of the rout. Instead, they fall back steadily and by squads, laying down furious suppressing fire before launching fresh assaults.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.TARGET: That LEAGUES OF VOTANN unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+      "when": "Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.",
+      "target": "That LEAGUES OF VOTANN unit.",
+      "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge."
+    },
+    {
+      "id": "000008499006",
+      "name": "NEWFOUND NEMESIS",
+      "type": "Oathband – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "To strike down Kin is to earn the immediate and murderous ire of all their warrior comrades.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.TARGET: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.EFFECT: The attacking unit gains 1 Judgement token, or up to 2 Judgement tokens instead if that LEAGUES OF VOTANN unit contained your WARLORD when it was targeted by those attacks.",
+      "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.",
+      "target": "One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.",
+      "effect": "The attacking unit gains 1 Judgement token, or up to 2 Judgement tokens instead if that LEAGUES OF VOTANN unit contained your WARLORD when it was targeted by those attacks."
+    },
+    {
+      "id": "000008499007",
+      "name": "VOID ARMOUR",
+      "type": "Oathband – Wargear Stratagem",
+      "cpCost": 1,
+      "legend": "Void armour comprises hardened, jointed segments hooked into the void suit beneath. It is fashioned from magnaferrite weave, and often reinforced with adamantine and enhanced with microfield generators.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your LEAGUES OF VOTANN unit, worsen the Armour Penteration characteristic of that attack by 1.",
+      "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your LEAGUES OF VOTANN unit, worsen the Armour Penteration characteristic of that attack by 1."
+    },
+    {
+      "id": "000009530003",
+      "name": "POINT-BLANK FIRE",
+      "type": "Void Salvagers – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "The Kin are well used to working in close confines and can fire their ranged weapons with precision even within the restrictive corridors of a voidship.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One HEARTHKYN WARRIORS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability.",
+      "when": "Your Shooting phase.",
+      "target": "One HEARTHKYN WARRIORS unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability."
+    },
+    {
+      "id": "000009530004",
+      "name": "JUDGED AND PUNISHED",
+      "type": "Void Salvagers – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "To draw the ire of the Kin is to invite a swift and brutal death.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, if the target has 1 or more Judgement tokens, you can re-roll the Hit roll, and if the target has 2 Judgement tokens, you can re-roll the Wound roll as well.",
+      "when": "Your Shooting phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the target has 1 or more Judgement tokens, you can re-roll the Hit roll, and if the target has 2 Judgement tokens, you can re-roll the Wound roll as well."
+    },
+    {
+      "id": "000009530005",
+      "name": "CORRIDOR COVERED",
+      "type": "Void Salvagers – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "As their allies push forwards, Kin squads train their guns down darkened corridors, preparing to repel unexpected ambushes.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement or Charge phase",
+      "fullDescription": "WHEN: Your opponent's Movement or Charge phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.",
+      "when": "Your opponent's Movement or Charge phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army that has not fired Overwatch this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
+    },
+    {
+      "id": "000009530002",
+      "name": "RELIC CYPHER",
+      "type": "Void Salvagers – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Kin possess the accumulated knowledge of their ancestors, including ancient cyphers that enable them to seize control of cogitational systems.",
+      "turn": "Your turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Your Command phase.TARGET: One LEAGUES OF VOTANN unit from your army.EFFECT: Select one closed Hatchway on the battlefield and open it.RESTRICTIONS: You can only use this Stratagem once.",
+      "when": "Your Command phase.",
+      "target": "One LEAGUES OF VOTANN unit from your army.",
+      "effect": "Select one closed Hatchway on the battlefield and open it.RESTRICTIONS: You can only use this Stratagem once."
+    }
+  ],
   "detachments": [
+    {
+      "name": "Hearthband",
+      "stratagems": [
+        {
+          "id": "000009824007",
+          "name": "FURY OF THE HEARTH",
+          "type": "Hearthband – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "As though they unleash the raging flames of their kindred’s hearth upon the enemy, the Einhyr all but drown their enemies in fire.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons (excluding Blast weapons) equipped by models in your unit have the [RAPID FIRE 1] ability.",
+          "when": "Your Shooting phase.",
+          "target": "One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons (excluding Blast weapons) equipped by models in your unit have the [RAPID FIRE 1] ability."
+        },
+        {
+          "id": "000009824004",
+          "name": "SUPERIOR CRAFTSMANSHIP",
+          "type": "Hearthband – Battle Tactic Stratagem",
+          "cpCost": 2,
+          "legend": "Not only are the finest of the Kindred’s warriors selected for this duty, but they are also equipped with the best weaponry and wargear the Brôkhyr can produce.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack.",
+          "when": "Fight phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack."
+        },
+        {
+          "id": "000009824002",
+          "name": "BRËKKEKNOTS",
+          "type": "Hearthband – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "These micro shield generators, worked into warrior jewellery or armour crests, trigger on command to provide short-lived boosted protection.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
+        },
+        {
+          "id": "000009824003",
+          "name": "SURE OF PURPOSE",
+          "type": "Hearthband – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The single-minded advance of the Kin rolls over collapsing enemy lines and exploits every fault and weakness, driving on towards the objective.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".",
+          "when": "Fight phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
+        },
+        {
+          "id": "000009824005",
+          "name": "UNYIELDING AGGRESSION",
+          "type": "Hearthband – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Even should they be compelled to pull back momentarily, the warriors of the Hearthband maintain a punishing curtain of fire to erode the enemy further or rally swiftly and drive back into the fight.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN INFANTRY unit from your army Falls Back.TARGET: That LEAGUES OF VOTANN INFANTRY unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+          "when": "Your Movement phase, just after a LEAGUES OF VOTANN INFANTRY unit from your army Falls Back.",
+          "target": "That LEAGUES OF VOTANN INFANTRY unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "id": "000009824006",
+          "name": "MATERIALISATION MATRICES",
+          "type": "Hearthband – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Built to a superior standard using secrets imparted by the Votann, the teleporters employed by this Hearthband can stabilise rematerialisation fields remarkably close to the foe.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: The Reinforcements step of your Movement phase.TARGET: One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.EFFECT: Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge.",
+          "when": "The Reinforcements step of your Movement phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.",
+          "effect": "Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge."
+        }
+      ]
+    },
     {
       "name": "Hearthfire Strike",
       "stratagems": [
@@ -2589,7 +2934,10 @@
           "legend": "These advanced sets of helm optics pierce veils both technological and sorcerous, laying the foe bare.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack with a weapon, you can ignore any or all modifiers to that attack’s or that weapon’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack with a weapon, you can ignore any or all modifiers to that attack’s or that weapon’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+          "when": "Your Shooting phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack with a weapon, you can ignore any or all modifiers to that attack’s or that weapon’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
         },
         {
           "id": "000009538004",
@@ -2599,7 +2947,10 @@
           "legend": "A few grenades placed with care and skill reap greater returns in bloodshed than a wealth of recklessly hurled materiel.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.EFFECT: Select one enemy unit that is visible to your unit and wholly on the opposite side of a Hatchway from it. Until the end of the phase, exo-armour grenade launchers equipped by models in your unit have an Attacks characteristic of 6 and lose the [BLAST] ability while targeting that enemy unit, and attacks made with such weapons that target that enemy unit can be allocated to models that are not visible to the attacking model.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.EFFECT: Select one enemy unit that is visible to your unit and wholly on the opposite side of a Hatchway from it. Until the end of the phase, exo-armour grenade launchers equipped by models in your unit have an Attacks characteristic of 6 and lose the [BLAST] ability while targeting that enemy unit, and attacks made with such weapons that target that enemy unit can be allocated to models that are not visible to the attacking model.",
+          "when": "Your Shooting phase.",
+          "target": "One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.",
+          "effect": "Select one enemy unit that is visible to your unit and wholly on the opposite side of a Hatchway from it. Until the end of the phase, exo-armour grenade launchers equipped by models in your unit have an Attacks characteristic of 6 and lose the [BLAST] ability while targeting that enemy unit, and attacks made with such weapons that target that enemy unit can be allocated to models that are not visible to the attacking model."
         },
         {
           "id": "000009538005",
@@ -2609,7 +2960,10 @@
           "legend": "Emitters built into this squad's exo-armour batter the foe with focused gravity waves in the instant before the Kin charge crashes home.",
           "turn": "Your turn",
           "phase": "Charge phase",
-          "description": "WHEN: Your Charge phase, just after a LEAGUES OF VOTANN unit from your army ends a Charge move.TARGET: That LEAGUES OF VOTANN unit.EFFECT: For each enemy unit within Engagement Range of your unit, until the end of the turn, that unit loses the Fights First ability (if it has it) and, each time a model in that unit makes an attack, subtract 1 from the Hit roll.|"
+          "fullDescription": "WHEN: Your Charge phase, just after a LEAGUES OF VOTANN unit from your army ends a Charge move.TARGET: That LEAGUES OF VOTANN unit.EFFECT: For each enemy unit within Engagement Range of your unit, until the end of the turn, that unit loses the Fights First ability (if it has it) and, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "when": "Your Charge phase, just after a LEAGUES OF VOTANN unit from your army ends a Charge move.",
+          "target": "That LEAGUES OF VOTANN unit.",
+          "effect": "For each enemy unit within Engagement Range of your unit, until the end of the turn, that unit loses the Fights First ability (if it has it) and, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         },
         {
           "id": "000009538002",
@@ -2619,7 +2973,10 @@
           "legend": "Triggering weavefield generators worked into their wargear, the Einhyr bleed off the power of incoming enemy attacks.",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
         }
       ]
     },
@@ -2634,7 +2991,10 @@
           "legend": "Some foes are so loathed that the Ancestors themselves are said to pass sentence upon them, marking them for death.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army.EFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack, that attack has the [SUSTAINED HITS 1] ability, and each time a model in your unit makes a ranged attack that targets a unit that has one or more Judgement tokens, that attack has the [SUSTAINED HITS 2] ability instead.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army.EFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack, that attack has the [SUSTAINED HITS 1] ability, and each time a model in your unit makes a ranged attack that targets a unit that has one or more Judgement tokens, that attack has the [SUSTAINED HITS 2] ability instead.",
+          "when": "Your Shooting phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack, that attack has the [SUSTAINED HITS 1] ability, and each time a model in your unit makes a ranged attack that targets a unit that has one or more Judgement tokens, that attack has the [SUSTAINED HITS 2] ability instead."
         },
         {
           "id": "000008499005",
@@ -2644,7 +3004,10 @@
           "legend": "Once an enemy target has been marked out by the Eye of the Ancestors, the Kin focus their efforts upon its destruction, redoubling their fury should it attempt to engage.",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit that has one or more Judgement tokens has resolved its attacks.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Your LEAGUES OF VOTANN unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit that has one or more Judgement tokens has resolved its attacks.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Your LEAGUES OF VOTANN unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit that has one or more Judgement tokens has resolved its attacks.",
+          "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Your LEAGUES OF VOTANN unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target."
         },
         {
           "id": "000008499002",
@@ -2654,7 +3017,10 @@
           "legend": "The warriors of the Leagues of Votann pride themselves on their martial skill and proficiency in combat, and when the Ancestors are watching their actions they can quickly overwhelm and pick apart their foes.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army, and one enemy unit that has one or more Judgement tokens and is within Engagement Range of that LEAGUES OF VOTANN unit.EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1 for each Judgement token that enemy unit has.|"
+          "fullDescription": "WHEN: Fight phase.TARGET: One LEAGUES OF VOTANN unit from your army, and one enemy unit that has one or more Judgement tokens and is within Engagement Range of that LEAGUES OF VOTANN unit.EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1 for each Judgement token that enemy unit has.",
+          "when": "Fight phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army, and one enemy unit that has one or more Judgement tokens and is within Engagement Range of that LEAGUES OF VOTANN unit.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1 for each Judgement token that enemy unit has."
         },
         {
           "id": "000008499003",
@@ -2664,7 +3030,10 @@
           "legend": "Not for the Kin the sudden panic of the rout. Instead, they fall back steadily and by squads, laying down furious suppressing fire before launching fresh assaults.",
           "turn": "Your turn",
           "phase": "Movement phase",
-          "description": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.TARGET: That LEAGUES OF VOTANN unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge.|"
+          "fullDescription": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.TARGET: That LEAGUES OF VOTANN unit.EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+          "when": "Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.",
+          "target": "That LEAGUES OF VOTANN unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge."
         },
         {
           "id": "000008499006",
@@ -2674,7 +3043,10 @@
           "legend": "To strike down Kin is to earn the immediate and murderous ire of all their warrior comrades.",
           "turn": "Opponent’s turn",
           "phase": "Shooting or Fight phase",
-          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.TARGET: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.EFFECT: The attacking unit gains 1 Judgement token, or up to 2 Judgement tokens instead if that LEAGUES OF VOTANN unit contained your WARLORD when it was targeted by those attacks.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.TARGET: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.EFFECT: The attacking unit gains 1 Judgement token, or up to 2 Judgement tokens instead if that LEAGUES OF VOTANN unit contained your WARLORD when it was targeted by those attacks.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.",
+          "target": "One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.",
+          "effect": "The attacking unit gains 1 Judgement token, or up to 2 Judgement tokens instead if that LEAGUES OF VOTANN unit contained your WARLORD when it was targeted by those attacks."
         },
         {
           "id": "000008499007",
@@ -2684,7 +3056,10 @@
           "legend": "Void armour comprises hardened, jointed segments hooked into the void suit beneath. It is fashioned from magnaferrite weave, and often reinforced with adamantine and enhanced with microfield generators.",
           "turn": "Opponent’s turn",
           "phase": "Shooting or Fight phase",
-          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your LEAGUES OF VOTANN unit, worsen the Armour Penteration characteristic of that attack by 1.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your LEAGUES OF VOTANN unit, worsen the Armour Penteration characteristic of that attack by 1.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your LEAGUES OF VOTANN unit, worsen the Armour Penteration characteristic of that attack by 1."
         }
       ]
     },
@@ -2699,7 +3074,10 @@
           "legend": "The Kin are well used to working in close confines and can fire their ranged weapons with precision even within the restrictive corridors of a voidship.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One HEARTHKYN WARRIORS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One HEARTHKYN WARRIORS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability.",
+          "when": "Your Shooting phase.",
+          "target": "One HEARTHKYN WARRIORS unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability."
         },
         {
           "id": "000009530004",
@@ -2709,7 +3087,10 @@
           "legend": "To draw the ire of the Kin is to invite a swift and brutal death.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, if the target has 1 or more Judgement tokens, you can re-roll the Hit roll, and if the target has 2 Judgement tokens, you can re-roll the Wound roll as well.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, if the target has 1 or more Judgement tokens, you can re-roll the Hit roll, and if the target has 2 Judgement tokens, you can re-roll the Wound roll as well.",
+          "when": "Your Shooting phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the target has 1 or more Judgement tokens, you can re-roll the Hit roll, and if the target has 2 Judgement tokens, you can re-roll the Wound roll as well."
         },
         {
           "id": "000009530005",
@@ -2719,7 +3100,10 @@
           "legend": "As their allies push forwards, Kin squads train their guns down darkened corridors, preparing to repel unexpected ambushes.",
           "turn": "Opponent’s turn",
           "phase": "Movement or Charge phase",
-          "description": "WHEN: Your opponent's Movement or Charge phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.|"
+          "fullDescription": "WHEN: Your opponent's Movement or Charge phase.TARGET: One LEAGUES OF VOTANN unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.",
+          "when": "Your opponent's Movement or Charge phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army that has not fired Overwatch this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
         },
         {
           "id": "000009530002",
@@ -2729,7 +3113,10 @@
           "legend": "The Kin possess the accumulated knowledge of their ancestors, including ancient cyphers that enable them to seize control of cogitational systems.",
           "turn": "Your turn",
           "phase": "Command phase",
-          "description": "WHEN: Your Command phase.TARGET: One LEAGUES OF VOTANN unit from your army.EFFECT: Select one closed Hatchway on the battlefield and open it.RESTRICTIONS: You can only use this Stratagem once.|"
+          "fullDescription": "WHEN: Your Command phase.TARGET: One LEAGUES OF VOTANN unit from your army.EFFECT: Select one closed Hatchway on the battlefield and open it.RESTRICTIONS: You can only use this Stratagem once.",
+          "when": "Your Command phase.",
+          "target": "One LEAGUES OF VOTANN unit from your army.",
+          "effect": "Select one closed Hatchway on the battlefield and open it.RESTRICTIONS: You can only use this Stratagem once."
         }
       ]
     }

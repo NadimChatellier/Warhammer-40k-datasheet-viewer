@@ -199,7 +199,6 @@ const filtered = stratagems.filter((stratagem) =>
           </ul>
         </div>
       </div>
-
       {areStrategemsOpen && (
   <div
     className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
@@ -251,11 +250,26 @@ const filtered = stratagems.filter((stratagem) =>
               key={index}
               className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300"
             >
-              <h3 className="text-2xl font-bold">{stratagem.name}</h3>
-              <p className="text-lg text-gray-400">
-                {stratagem.cpCost} – {stratagem.type}
-              </p>
-              <p className="mt-3 text-base">{stratagem.description}</p>
+              {/* Stratagem Title */}
+              <h3 className="text-2xl font-bold text-yellow-400">{stratagem.name}</h3>
+
+              {/* Stratagem Meta Info */}
+              <p className="text-lg text-gray-400">{stratagem.cpCost} – {stratagem.type}</p>
+
+              {/* Stratagem Parsed Info */}
+              <div className="mt-3 text-base space-y-2">
+                <p><strong className="text-yellow-400">When:</strong> {stratagem.when}</p>
+                <p><strong className="text-yellow-400">Target:</strong> {stratagem.target}</p>
+                <p><strong className="text-yellow-400">Effect:</strong> {stratagem.effect}</p>
+              </div>
+
+              {/* Full Description (For Debugging) */}
+              <details className="mt-3 bg-gray-700 p-3 rounded-lg">
+                <summary className="cursor-pointer text-yellow-300 font-bold">
+                  Full Description (Debug)
+                </summary>
+                <p className="text-gray-300 text-sm break-words">{stratagem.fullDescription}</p>
+              </details>
             </div>
           ))
         ) : (
@@ -265,6 +279,7 @@ const filtered = stratagems.filter((stratagem) =>
     </div>
   </div>
 )}
+
 
 
       {/* Main Content */}

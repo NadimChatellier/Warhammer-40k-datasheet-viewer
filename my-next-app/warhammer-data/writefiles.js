@@ -756,7 +756,7 @@ parseUnitAbilities()
 
 
 
-
+  
   // Function to find a faction by ID within factionDataMap
 function findFactionById(factionId) {
   for (const factionKey of Object.keys(factionDataMap)) {
@@ -773,66 +773,121 @@ function findFactionById(factionId) {
   return null;
 }
 
+
+
+function splitStratagemDescription(description) {
+  console.log(description); // Log full text for debugging
+
+  const whenMatch = description.match(/WHEN:\s*([^]*?)\s*TARGET:/i);
+  const targetMatch = description.match(/TARGET:\s*([^]*?)\s*EFFECT:/i);
+  const effectMatch = description.match(/EFFECT:\s*(.*)/i);
+
+  return {
+    fullDescription: description.trim(), // Full unprocessed text
+    when: whenMatch ? whenMatch[1].trim() : "Unknown",
+    target: targetMatch ? targetMatch[1].trim() : "Unknown",
+    effect: effectMatch ? effectMatch[1].trim() : "Unknown",
+  };
+}
+
+
+
 // Function to parse and assign stratagems to the correct faction and detachment
 async function parseStratagems() {
-  const stratagemsFilePath = path.join(__dirname, 'warhammer-csvs', 'Stratagems.csv');
-  console.log(`📂 Reading Stratagems from: ${stratagemsFilePath}`);
-
   return new Promise((resolve, reject) => {
-    fs.createReadStream(stratagemsFilePath)
-      .pipe(csv({ separator: '|', headers: ['faction_id', 'id', 'name', 'type', 'cp_cost', 'legend', 'turn', 'phase', 'detachment', 'description'] }))
-      .on('data', (row) => {
-        const { faction_id, id, name, type, cp_cost, legend, turn, phase, detachment, description } = row;
-        console.log(`🔍 Searching for faction_id: ${faction_id}, detachment: ${detachment}`);
+    let buffer = "";
 
-        // Find the faction by faction_id
-        const foundFactionData = findFactionById(faction_id);
-        if (!foundFactionData) {
-          console.log(`⚠️ Skipping: No faction found with faction_id: ${faction_id}`);
-          return;
-        }
+    // Define file path for stratagems CSV
+    const stratagemsFilePath = path.join(__dirname, 'warhammer-csvs', 'Stratagems.csv');
+    console.log(`📂 Reading Stratagems from: ${stratagemsFilePath}`);
 
-        const { faction, factionKey } = foundFactionData;
+    // Read entire CSV file into a buffer
+    fs.createReadStream(stratagemsFilePath, { encoding: "utf8" })
+      .on("data", (chunk) => {
+        buffer += chunk;
+      })
+      .on("end", () => {
+        const rows = buffer.split("\r\n").filter((row) => row.trim() !== "");
 
-        // Ensure the detachment array exists for the faction
-        if (!faction.detachments) {
-          faction.detachments = [];
-        }
+        // Process each row from CSV
+        rows.forEach((line) => {
+          const fields = line.split("|").map((f) => f.trim());
 
-        // Find or create the detachment under which stratagems will be stored
-        let detachmentObj = faction.detachments.find(det => det.name === detachment);
-        if (!detachmentObj) {
-          // If detachment doesn't exist, create a new one
-          detachmentObj = { name: detachment, stratagems: [] };
-          faction.detachments.push(detachmentObj);
-        }
+          if (fields.length < 10) {
+            console.log("⚠️ Skipping malformed stratagem row:", line);
+            return;
+          }
 
-        // Ensure the stratagems array exists within the detachment
-        if (!detachmentObj.stratagems) {
-          detachmentObj.stratagems = [];
-        }
+          const [faction_id, id, name, type, cp_cost, legend, turn, phase, detachment, description] = fields;
 
-        // Clean the description and push the stratagem data
-        const cleanedDescription = cleanText(description);
-        detachmentObj.stratagems.push({
-          id,
-          name,
-          type,
-          cpCost: parseInt(cp_cost, 10), // Ensure CP cost is a number
-          legend,
-          turn,
-          phase,
-          description: cleanedDescription
+          console.log(`🔍 Processing stratagem "${name}" for faction_id: ${faction_id}, detachment: ${detachment}`);
+
+          // Find the faction by faction_id
+          const foundFactionData = findFactionById(faction_id);
+          if (!foundFactionData) {
+            console.log(`⚠️ Skipping: No faction found with faction_id: ${faction_id}`);
+            return;
+          }
+
+          const { faction, factionKey } = foundFactionData;
+
+          // Ensure faction has a stratagems key
+          if (!faction.stratagems) {
+            faction.stratagems = [];
+          }
+
+          // Ensure the detachments key exists in the faction
+          if (!faction.detachments) {
+            faction.detachments = [];
+          }
+
+          // Find or create the detachment
+          let detachmentObj = faction.detachments.find(det => det.name === detachment);
+          if (!detachmentObj) {
+            detachmentObj = { name: detachment, stratagems: [] };
+            faction.detachments.push(detachmentObj);
+          }
+
+          // Ensure the stratagems key exists in the detachment
+          if (!detachmentObj.stratagems) {
+            detachmentObj.stratagems = [];
+          }
+
+          // Prevent duplicate stratagems
+          const isDuplicate = detachmentObj.stratagems.some(existingStrat =>
+            existingStrat.id === id && existingStrat.name === name
+          );
+          if (isDuplicate) {
+            console.log(`⚠️ Duplicate stratagem "${name}" found in detachment "${detachment}", skipping...`);
+            return;
+          }
+
+          // **New:** Split description into structured parts
+          const structuredDescription = splitStratagemDescription(cleanText(description));
+
+          // Add stratagem to detachment
+          const stratagemData = {
+            id,
+            name,
+            type,
+            cpCost: parseInt(cp_cost, 10), // Ensure CP cost is a number
+            legend,
+            turn,
+            phase,
+            ...structuredDescription // Spread structured description parts
+          };
+
+          detachmentObj.stratagems.push(stratagemData);
+          faction.stratagems.push(stratagemData); // Also store in faction-level stratagems for global access
+
+          console.log(`✅ Added stratagem "${name}" to detachment "${detachment}" for faction "${factionKey}"`);
         });
 
-        console.log(`✅ Added stratagem "${name}" to detachment "${detachment}" for faction "${factionKey}"`);
-      })
-      .on('end', () => {
         console.log('🎉 All stratagems successfully parsed and assigned.');
         resolve();
       })
-      .on('error', (err) => {
-        console.log(`❌ Error reading stratagems file: ${err.message}`);
+      .on("error", (err) => {
+        console.error(`❌ Error reading stratagems file: ${err.message}`);
         reject(err);
       });
   });

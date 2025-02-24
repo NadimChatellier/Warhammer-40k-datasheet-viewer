@@ -14496,10 +14496,472 @@
       ]
     }
   ],
+  "stratagems": [
+    {
+      "id": "000009770002",
+      "name": "LAYERED WARDS",
+      "type": "Armoured Warhost – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The wraithbone superstructure of this vehicle has been interlaced with warding runes, enabling its hull to resist incoming fire.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase, just after a mortal wound is allocated to an AELDARI VEHICLE unit from your army.TARGET: That AELDARI VEHICLE unit.EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+      "when": "Any phase, just after a mortal wound is allocated to an AELDARI VEHICLE unit from your army.",
+      "target": "That AELDARI VEHICLE unit.",
+      "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
+    },
+    {
+      "id": "000009770007",
+      "name": "ANTI‑GRAV REPULSION",
+      "type": "Armoured Warhost – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Skilled Aeldari pilots angle their vehicle’s anti-grav fields to repulse the enemy.",
+      "turn": "Opponent’s turn",
+      "phase": "Charge phase",
+      "fullDescription": "WHEN: Your opponent’s Charge phase, just after an enemy unit has declared a charge.TARGET: One AELDARI VEHICLE unit from your army that can FLY and was selected as a target of that charge.EFFECT: Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+      "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+      "target": "One AELDARI VEHICLE unit from your army that can FLY and was selected as a target of that charge.",
+      "effect": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit."
+    },
+    {
+      "id": "000009770006",
+      "name": "SOULSIGHT",
+      "type": "Armoured Warhost – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Spirit stones containing the souls of gifted seers have been embedded into this vehicle’s targeting matrices. The essences within lend guidance even in death.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI VEHICLE unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time your unit is selected to shoot, you can re-roll one Hit roll, one Wound roll and one Damage roll made for a model in your unit. If you are using fast dice rolling, you can select one of those rolls to re-roll before moving onto the next step of the attack sequence.",
+      "when": "Your Shooting phase.",
+      "target": "One AELDARI VEHICLE unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, each time your unit is selected to shoot, you can re-roll one Hit roll, one Wound roll and one Damage roll made for a model in your unit. If you are using fast dice rolling, you can select one of those rolls to re-roll before moving onto the next step of the attack sequence."
+    },
+    {
+      "id": "000009770005",
+      "name": "CLOUDSTRIKE",
+      "type": "Armoured Warhost – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Asuryani often deploy their anti-grav vehicles in the lower atmosphere rather than on the ground. At a signal, they strike before the enemy can react.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Start of the Reinforcements step of your Movement phase.TARGET: One AELDARI VEHICLE unit from your army that can FLY and is in Strategic Reserves.EFFECT: Until the end of the phase, your unit has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but if it does, until the end of the turn, it is not eligible to declare a charge. In addition, if your unit is a TRANSPORT, each unit that disembarks from it this turn must be set up more than 6\" horizontally from all enemy units and until the end of the turn, is not eligible to declare a charge.",
+      "when": "Start of the Reinforcements step of your Movement phase.",
+      "target": "One AELDARI VEHICLE unit from your army that can FLY and is in Strategic Reserves.",
+      "effect": "Until the end of the phase, your unit has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but if it does, until the end of the turn, it is not eligible to declare a charge. In addition, if your unit is a TRANSPORT, each unit that disembarks from it this turn must be set up more than 6\" horizontally from all enemy units and until the end of the turn, is not eligible to declare a charge."
+    },
+    {
+      "id": "000009770004",
+      "name": "VECTORED ENGINES",
+      "type": "Armoured Warhost – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The result of exquisite and ingenious Aeldari engineering, vectored engines enable grav vehicles to evade their enemies while maintaining accurate fire.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after an AELDARI VEHICLE unit from your army that can FLY Falls Back.TARGET: That AELDARI FLY VEHICLE unit.EFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back.",
+      "when": "Your Movement phase, just after an AELDARI VEHICLE unit from your army that can FLY Falls Back.",
+      "target": "That AELDARI FLY VEHICLE unit.",
+      "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+      "id": "000009770003",
+      "name": "SWIFT DEPLOYMENT",
+      "type": "Armoured Warhost – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "With consummate skill, Guardian crews guide their agile armoured transports across the battlefield before swooping low to unload their cargo of warriors.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase.TARGET: One AELDARI TRANSPORT unit from your army.EFFECT: Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.",
+      "when": "Your Movement phase.",
+      "target": "One AELDARI TRANSPORT unit from your army.",
+      "effect": "Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+    },
+    {
+      "id": "000008449004",
+      "name": "MATCHLESS AGILITY",
+      "type": "Battle Host – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Grace in battle and merciless efficiency are prized virtues in craftworld armies. Like the shimmering blades of Khaine, the Asuryani carve through the ranks of their enemies.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase.TARGET: One AELDARI unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+      "when": "Your Movement phase.",
+      "target": "One AELDARI unit from your army that has not been selected to move this phase.",
+      "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+    },
+    {
+      "id": "000008449003",
+      "name": "LIGHTNING-FAST REACTIONS",
+      "type": "Battle Host – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "The Aeldari can process battlefield events at baffling speed, making their physical reactions so fast that they are able to dodge attacks that would hit any other target.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+      "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One AELDARI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000008449007",
+      "name": "FIRE AND FADE",
+      "type": "Battle Host – Strategic Ploy Stratagem",
+      "cpCost": 2,
+      "legend": "The Aeldari are masters of hit-and-run tactics, engaging a target with a flurry of shots before quickly manoeuvring into cover or out of sight.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: End of your Shooting phase.TARGET: One AELDARI unit from your army.EFFECT: Your unit can make a Normal move. It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select an AIRCRAFT unit or a unit within Engagement Range of one or more enemy units, and until the end of the turn, the unit you selected is not eligible to declare a charge.",
+      "when": "End of your Shooting phase.",
+      "target": "One AELDARI unit from your army.",
+      "effect": "Your unit can make a Normal move. It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select an AIRCRAFT unit or a unit within Engagement Range of one or more enemy units, and until the end of the turn, the unit you selected is not eligible to declare a charge."
+    },
+    {
+      "id": "000008449005",
+      "name": "PHANTASM",
+      "type": "Battle Host – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Aeldari are masters of misdirection, and they employ holo-emitters and psychic phantasms to fool enemy scouts.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: End of your opponent’s Movement phase.TARGET: One AELDARI INFANTRY unit from your army.EFFECT: Your unit can make a Normal move of up to D6\". It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem.",
+      "when": "End of your opponent’s Movement phase.",
+      "target": "One AELDARI INFANTRY unit from your army.",
+      "effect": "Your unit can make a Normal move of up to D6\". It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem."
+    },
+    {
+      "id": "000008449002",
+      "name": "BLADESTORM",
+      "type": "Battle Host – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The well-trained Aeldari are able to lay down a hail of fire from their weapons, their superior reflexes allowing them to track even the most sudden movement and place every shot perfectly.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2.",
+      "when": "Your Shooting phase.",
+      "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2."
+    },
+    {
+      "id": "000008449006",
+      "name": "FEIGNED RETREAT",
+      "type": "Battle Host – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The Aeldari are forever elusive, and their actions are unpredictable and deceptive. What appears to be a full retreat one moment is revealed as the prelude to a devastating attack the next.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after an AELDARI unit from your army makes a Fall Back move.TARGET: That AELDARI unit.EFFECT: Your unit is eligible to shoot and declare a charge this turn even though it Fell Back.",
+      "when": "Your Movement phase, just after an AELDARI unit from your army makes a Fall Back move.",
+      "target": "That AELDARI unit.",
+      "effect": "Your unit is eligible to shoot and declare a charge this turn even though it Fell Back."
+    },
+    {
+      "id": "000009326002",
+      "name": "VOID GHOSTS",
+      "type": "Khaine’s Arrow – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+      "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009326003",
+      "name": "BLADEFOCUS",
+      "type": "Khaine’s Arrow – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Those Aspect Warriors best versed in close-quarters combat fight all the harder, knowing they must act as the piercing tip of their host's strike.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One HOWLING BANSHEES or STRIKING SCORPIONS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, if it made a Charge move this turn, you can re-roll the Hit roll.",
+      "when": "Fight phase.",
+      "target": "One HOWLING BANSHEES or STRIKING SCORPIONS unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack, if it made a Charge move this turn, you can re-roll the Hit roll."
+    },
+    {
+      "id": "000009326005",
+      "name": "AURIC STORM",
+      "type": "Khaine’s Arrow – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "The fiery passage of Khaine's Arrow scours the enemy away, leaving them nowhere to hide.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One DIRE AVENGERS, FIRE DRAGONS, SWOOPING HAWKS or WARP SPIDERS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll.",
+      "when": "Your Shooting phase.",
+      "target": "One DIRE AVENGERS, FIRE DRAGONS, SWOOPING HAWKS or WARP SPIDERS unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll."
+    },
+    {
+      "id": "000009326004",
+      "name": "ARTIFICER ROUNDS",
+      "type": "Khaine’s Arrow – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "These warriors know precisely which strategic sites must be secured, and in what order.",
+      "turn": "Your turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Your Command phase.TARGET: One AELDARI unit from your army (excluding CHARACTER units).EFFECT: Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, at the end of your turn, select one objective marker you control that your unit is within range of. That objective marker is Secured by your army.",
+      "when": "Your Command phase.",
+      "target": "One AELDARI unit from your army (excluding CHARACTER units).",
+      "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, at the end of your turn, select one objective marker you control that your unit is within range of. That objective marker is Secured by your army."
+    },
+    {
+      "id": "000009335003",
+      "name": "SHURIKEN STORM",
+      "type": "Protector Host – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Shuriken weaponry fill corridors and chambers with inescapable hails of monomolecular discs and reduce enemy boarding parties to bloodied ruin.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, add 1 to the Strength characteristic of Avenger shuriken catapults, shuriken catapults, shuriken pistols and shuriken cannons equipped by models in your unit.",
+      "when": "Your Shooting phase.",
+      "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, add 1 to the Strength characteristic of Avenger shuriken catapults, shuriken catapults, shuriken pistols and shuriken cannons equipped by models in your unit."
+    },
+    {
+      "id": "000009335002",
+      "name": "VOID GHOSTS",
+      "type": "Protector Host – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+      "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009335004",
+      "name": "SHIELD OF BLADES",
+      "type": "Protector Host – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "A discipline refined for shipboard battle, this feat of marksmanship sees the Aeldari overlap annihilating hails of defensive fire.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement or Charge phase",
+      "fullDescription": "WHEN: Your opponent’s Movement or Charge phase.TARGET: One DIRE AVENGERS or GUARDIAN DEFENDERS unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.",
+      "when": "Your opponent’s Movement or Charge phase.",
+      "target": "One DIRE AVENGERS or GUARDIAN DEFENDERS unit from your army that has not fired Overwatch this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
+    },
+    {
+      "id": "000009335005",
+      "name": "RAPID AMBUSH",
+      "type": "Protector Host – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Reacting with a speed most mortal beings could not dream of, the Aeldari engulf emerging foes in a sudden hail of gunfire.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.TARGET: One DIRE AVENGERS or GUARDIANS unit from your army that has not fired Overwatch this phase and is wholly on the opposite side of that Hatchway from that enemy unit.EFFECT: If that enemy unit is within 9\" of and visible to your unit, roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers 2 mortal wounds. If that enemy unit suffers one or more mortal wounds in this way, your unit can then make a Normal move of up to D6”.RESTRICTIONS: Until the end of the turn, your unit cannot fire Overwatch.",
+      "when": "Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.",
+      "target": "One DIRE AVENGERS or GUARDIANS unit from your army that has not fired Overwatch this phase and is wholly on the opposite side of that Hatchway from that enemy unit.",
+      "effect": "If that enemy unit is within 9\" of and visible to your unit, roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers 2 mortal wounds. If that enemy unit suffers one or more mortal wounds in this way, your unit can then make a Normal move of up to D6”.RESTRICTIONS: Until the end of the turn, your unit cannot fire Overwatch."
+    },
+    {
+      "id": "000009352002",
+      "name": "VOID GHOSTS",
+      "type": "Star-dancer Masque – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+      "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009352003",
+      "name": "DARTING STRIKES",
+      "type": "Star-dancer Masque – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Shuriken weaponry fill corridors and chambers with inescapable hails of monomolecular discs and reduce enemy boarding parties to bloodied ruin.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase.TARGET: One AELDARI unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
+      "when": "Fight phase.",
+      "target": "One AELDARI unit from your army that has not been selected to fight this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll."
+    },
+    {
+      "id": "000009352005",
+      "name": "ACROBATIC LEAPS",
+      "type": "Star-dancer Masque – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Reacting with a speed most mortal beings could not dream of, the Aeldari engulf emerging foes in a sudden hail of gunfire.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase.TARGET: One AELDARI unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, Desperate Escape tests taken for models in your unit are automatically passed, and each time your unit makes a Normal, Advance or Fall Back move, models in your unit can move through other models as if they were not there.",
+      "when": "Your Movement phase.",
+      "target": "One AELDARI unit from your army that has not been selected to move this phase.",
+      "effect": "Until the end of the phase, Desperate Escape tests taken for models in your unit are automatically passed, and each time your unit makes a Normal, Advance or Fall Back move, models in your unit can move through other models as if they were not there."
+    },
+    {
+      "id": "000009352004",
+      "name": "SERPENT STRIKE",
+      "type": "Star-dancer Masque – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "A discipline refined for shipboard battle, this feat of marksmanship sees the Aeldari overlap annihilating hails of defensive fire.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an AELDARI unit from your army destroys an enemy unit.TARGET: That AELDARI unit.EFFECT: Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\" and, if it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.",
+      "when": "Fight phase, just after an AELDARI unit from your army destroys an enemy unit.",
+      "target": "That AELDARI unit.",
+      "effect": "Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\" and, if it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction."
+    },
+    {
+      "id": "000009343002",
+      "name": "GUARDIAN CONSTRUCTS",
+      "type": "Wraiths of the Void – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Like graven sentinels the wraith constructs stand immovable, barring the enemy's path.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One WRAITH CONSTRUCT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the attacking model is wholly on the opposite side of a Hatchway from your unit, subtract 1 from the Wound roll.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One WRAITH CONSTRUCT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time an attack targets your unit, if the attacking model is wholly on the opposite side of a Hatchway from your unit, subtract 1 from the Wound roll."
+    },
+    {
+      "id": "000009343003",
+      "name": "WRAITHSIGHT",
+      "type": "Wraiths of the Void – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "There are advantages to perceiving the foe as glimmering souls without the obstruction of intervening walls and bulkheads.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. In addition, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and/or to the Hit roll.",
+      "when": "Your Shooting phase.",
+      "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. In addition, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and/or to the Hit roll."
+    },
+    {
+      "id": "000009343004",
+      "name": "D-STRIKE",
+      "type": "Wraiths of the Void – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Recognising the importance of liminal boundaries in void warfare, the ghost warriors unleash their fury upon such a space to the shock of their foes.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One WRAITH CONSTRUCT unit from your army that has not been selected to shoot this phase.EFFECT: Select one closed Hatchway that is visible to and within range of one or more of the ranged weapons equipped by models in your unit. Open that Hatchway and, until the end of the battle, that Hatchway cannot be closed. For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Shooting phase, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.RESTRICTIONS: Until the end of the phase, your unit is not eligible to shoot.",
+      "when": "Your Shooting phase.",
+      "target": "One WRAITH CONSTRUCT unit from your army that has not been selected to shoot this phase.",
+      "effect": "Select one closed Hatchway that is visible to and within range of one or more of the ranged weapons equipped by models in your unit. Open that Hatchway and, until the end of the battle, that Hatchway cannot be closed. For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Shooting phase, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.RESTRICTIONS: Until the end of the phase, your unit is not eligible to shoot."
+    },
+    {
+      "id": "000009343005",
+      "name": "UNFLINCHING FIRE",
+      "type": "Wraiths of the Void – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "None can match the calm, patient precision of those who have already known death and do not fear it.",
+      "turn": "Opponent’s turn",
+      "phase": "Movement or Charge phase",
+      "fullDescription": "WHEN: Your opponent's Movement or Charge phase.TARGET: One AELDARI unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified G.",
+      "when": "Your opponent's Movement or Charge phase.",
+      "target": "One AELDARI unit from your army that has not fired Overwatch this phase.",
+      "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified G."
+    }
+  ],
   "detachments": [
+    {
+      "name": "Armoured Warhost",
+      "stratagems": [
+        {
+          "id": "000009770002",
+          "name": "LAYERED WARDS",
+          "type": "Armoured Warhost – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The wraithbone superstructure of this vehicle has been interlaced with warding runes, enabling its hull to resist incoming fire.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "fullDescription": "WHEN: Any phase, just after a mortal wound is allocated to an AELDARI VEHICLE unit from your army.TARGET: That AELDARI VEHICLE unit.EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+          "when": "Any phase, just after a mortal wound is allocated to an AELDARI VEHICLE unit from your army.",
+          "target": "That AELDARI VEHICLE unit.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
+        },
+        {
+          "id": "000009770007",
+          "name": "ANTI‑GRAV REPULSION",
+          "type": "Armoured Warhost – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Skilled Aeldari pilots angle their vehicle’s anti-grav fields to repulse the enemy.",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "fullDescription": "WHEN: Your opponent’s Charge phase, just after an enemy unit has declared a charge.TARGET: One AELDARI VEHICLE unit from your army that can FLY and was selected as a target of that charge.EFFECT: Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+          "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+          "target": "One AELDARI VEHICLE unit from your army that can FLY and was selected as a target of that charge.",
+          "effect": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit."
+        },
+        {
+          "id": "000009770006",
+          "name": "SOULSIGHT",
+          "type": "Armoured Warhost – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Spirit stones containing the souls of gifted seers have been embedded into this vehicle’s targeting matrices. The essences within lend guidance even in death.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI VEHICLE unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time your unit is selected to shoot, you can re-roll one Hit roll, one Wound roll and one Damage roll made for a model in your unit. If you are using fast dice rolling, you can select one of those rolls to re-roll before moving onto the next step of the attack sequence.",
+          "when": "Your Shooting phase.",
+          "target": "One AELDARI VEHICLE unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time your unit is selected to shoot, you can re-roll one Hit roll, one Wound roll and one Damage roll made for a model in your unit. If you are using fast dice rolling, you can select one of those rolls to re-roll before moving onto the next step of the attack sequence."
+        },
+        {
+          "id": "000009770005",
+          "name": "CLOUDSTRIKE",
+          "type": "Armoured Warhost – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The Asuryani often deploy their anti-grav vehicles in the lower atmosphere rather than on the ground. At a signal, they strike before the enemy can react.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Start of the Reinforcements step of your Movement phase.TARGET: One AELDARI VEHICLE unit from your army that can FLY and is in Strategic Reserves.EFFECT: Until the end of the phase, your unit has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but if it does, until the end of the turn, it is not eligible to declare a charge. In addition, if your unit is a TRANSPORT, each unit that disembarks from it this turn must be set up more than 6\" horizontally from all enemy units and until the end of the turn, is not eligible to declare a charge.",
+          "when": "Start of the Reinforcements step of your Movement phase.",
+          "target": "One AELDARI VEHICLE unit from your army that can FLY and is in Strategic Reserves.",
+          "effect": "Until the end of the phase, your unit has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but if it does, until the end of the turn, it is not eligible to declare a charge. In addition, if your unit is a TRANSPORT, each unit that disembarks from it this turn must be set up more than 6\" horizontally from all enemy units and until the end of the turn, is not eligible to declare a charge."
+        },
+        {
+          "id": "000009770004",
+          "name": "VECTORED ENGINES",
+          "type": "Armoured Warhost – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The result of exquisite and ingenious Aeldari engineering, vectored engines enable grav vehicles to evade their enemies while maintaining accurate fire.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after an AELDARI VEHICLE unit from your army that can FLY Falls Back.TARGET: That AELDARI FLY VEHICLE unit.EFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back.",
+          "when": "Your Movement phase, just after an AELDARI VEHICLE unit from your army that can FLY Falls Back.",
+          "target": "That AELDARI FLY VEHICLE unit.",
+          "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "id": "000009770003",
+          "name": "SWIFT DEPLOYMENT",
+          "type": "Armoured Warhost – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "With consummate skill, Guardian crews guide their agile armoured transports across the battlefield before swooping low to unload their cargo of warriors.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase.TARGET: One AELDARI TRANSPORT unit from your army.EFFECT: Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.",
+          "when": "Your Movement phase.",
+          "target": "One AELDARI TRANSPORT unit from your army.",
+          "effect": "Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+        }
+      ]
+    },
     {
       "name": "Battle Host",
       "stratagems": [
+        {
+          "id": "000008449004",
+          "name": "MATCHLESS AGILITY",
+          "type": "Battle Host – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Grace in battle and merciless efficiency are prized virtues in craftworld armies. Like the shimmering blades of Khaine, the Asuryani carve through the ranks of their enemies.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase.TARGET: One AELDARI unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+          "when": "Your Movement phase.",
+          "target": "One AELDARI unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        },
         {
           "id": "000008449003",
           "name": "LIGHTNING-FAST REACTIONS",
@@ -14508,7 +14970,10 @@
           "legend": "The Aeldari can process battlefield events at baffling speed, making their physical reactions so fast that they are able to dodge attacks that would hit any other target.",
           "turn": "Either player’s turn",
           "phase": "Any phase",
-          "description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.|"
+          "fullDescription": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One AELDARI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
           "id": "000008449007",
@@ -14518,7 +14983,10 @@
           "legend": "The Aeldari are masters of hit-and-run tactics, engaging a target with a flurry of shots before quickly manoeuvring into cover or out of sight.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: End of your Shooting phase.TARGET: One AELDARI unit from your army.EFFECT: Your unit can make a Normal move. It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select an AIRCRAFT unit or a unit within Engagement Range of one or more enemy units, and until the end of the turn, the unit you selected is not eligible to declare a charge.|"
+          "fullDescription": "WHEN: End of your Shooting phase.TARGET: One AELDARI unit from your army.EFFECT: Your unit can make a Normal move. It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select an AIRCRAFT unit or a unit within Engagement Range of one or more enemy units, and until the end of the turn, the unit you selected is not eligible to declare a charge.",
+          "when": "End of your Shooting phase.",
+          "target": "One AELDARI unit from your army.",
+          "effect": "Your unit can make a Normal move. It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select an AIRCRAFT unit or a unit within Engagement Range of one or more enemy units, and until the end of the turn, the unit you selected is not eligible to declare a charge."
         },
         {
           "id": "000008449005",
@@ -14528,7 +14996,150 @@
           "legend": "The Aeldari are masters of misdirection, and they employ holo-emitters and psychic phantasms to fool enemy scouts.",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "description": "WHEN: End of your opponent’s Movement phase.TARGET: One AELDARI INFANTRY unit from your army.EFFECT: Your unit can make a Normal move of up to D6\". It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem.|\nAE|000008449002|BLADESTORM|Battle Host – Strategic Ploy Stratagem|1|The well-trained Aeldari are able to lay down a hail of fire from their weapons, their superior reflexes allowing them to track even the most sudden movement and place every shot perfectly.|Your turn|Shooting phase|Battle Host|WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2.|\nAE|000008449006|FEIGNED RETREAT|Battle Host – Strategic Ploy Stratagem|1|The Aeldari are forever elusive, and their actions are unpredictable and deceptive. What appears to be a full retreat one moment is revealed as the prelude to a devastating attack the next.|Your turn|Movement phase|Battle Host|WHEN: Your Movement phase, just after an AELDARI unit from your army makes a Fall Back move.TARGET: That AELDARI unit.EFFECT: Your unit is eligible to shoot and declare a charge this turn even though it Fell Back.|\nAE|000009326002|VOID GHOSTS|Khaine’s Arrow – Battle Tactic Stratagem|1|Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.|Either player’s turn|Shooting or Fight phase|Khaine’s Arrow|WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.|\nAE|000009326003|BLADEFOCUS|Khaine’s Arrow – Battle Tactic Stratagem|1|Those Aspect Warriors best versed in close-quarters combat fight all the harder, knowing they must act as the piercing tip of their host's strike.|Either player’s turn|Fight phase|Khaine’s Arrow|WHEN: Fight phase.TARGET: One HOWLING BANSHEES or STRIKING SCORPIONS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, if it made a Charge move this turn, you can re-roll the Hit roll.|\nAE|000009326005|AURIC STORM|Khaine’s Arrow – Battle Tactic Stratagem|1|The fiery passage of Khaine's Arrow scours the enemy away, leaving them nowhere to hide.|Your turn|Shooting phase|Khaine’s Arrow|WHEN: Your Shooting phase.TARGET: One DIRE AVENGERS, FIRE DRAGONS, SWOOPING HAWKS or WARP SPIDERS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll.|\nAE|000009326004|ARTIFICER ROUNDS|Khaine’s Arrow – Strategic Ploy Stratagem|1|These warriors know precisely which strategic sites must be secured, and in what order.|Your turn|Command phase|Khaine’s Arrow|WHEN: Your Command phase.TARGET: One AELDARI unit from your army (excluding CHARACTER units).EFFECT: Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, at the end of your turn, select one objective marker you control that your unit is within range of. That objective marker is Secured by your army.|\nAE|000009335003|SHURIKEN STORM|Protector Host – Battle Tactic Stratagem|1|Shuriken weaponry fill corridors and chambers with inescapable hails of monomolecular discs and reduce enemy boarding parties to bloodied ruin.|Your turn|Shooting phase|Protector Host|WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, add 1 to the Strength characteristic of Avenger shuriken catapults, shuriken catapults, shuriken pistols and shuriken cannons equipped by models in your unit.|\nAE|000009335002|VOID GHOSTS|Protector Host – Battle Tactic Stratagem|1|Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.|Either player’s turn|Shooting or Fight phase|Protector Host|WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.|\nAE|000009335004|SHIELD OF BLADES|Protector Host – Strategic Ploy Stratagem|1|A discipline refined for shipboard battle, this feat of marksmanship sees the Aeldari overlap annihilating hails of defensive fire.|Opponent’s turn|Movement or Charge phase|Protector Host|WHEN: Your opponent’s Movement or Charge phase.TARGET: One DIRE AVENGERS or GUARDIAN DEFENDERS unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.|\nAE|000009335005|RAPID AMBUSH|Protector Host – Strategic Ploy Stratagem|1|Reacting with a speed most mortal beings could not dream of, the Aeldari engulf emerging foes in a sudden hail of gunfire.|Opponent’s turn|Movement phase|Protector Host|WHEN: Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.TARGET: One DIRE AVENGERS or GUARDIANS unit from your army that has not fired Overwatch this phase and is wholly on the opposite side of that Hatchway from that enemy unit.EFFECT: If that enemy unit is within 9\" of and visible to your unit, roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers 2 mortal wounds. If that enemy unit suffers one or more mortal wounds in this way, your unit can then make a Normal move of up to D6”.RESTRICTIONS: Until the end of the turn, your unit cannot fire Overwatch.|"
+          "fullDescription": "WHEN: End of your opponent’s Movement phase.TARGET: One AELDARI INFANTRY unit from your army.EFFECT: Your unit can make a Normal move of up to D6\". It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem.",
+          "when": "End of your opponent’s Movement phase.",
+          "target": "One AELDARI INFANTRY unit from your army.",
+          "effect": "Your unit can make a Normal move of up to D6\". It cannot embark within a TRANSPORT at the end of this move.RESTRICTIONS: You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem."
+        },
+        {
+          "id": "000008449002",
+          "name": "BLADESTORM",
+          "type": "Battle Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The well-trained Aeldari are able to lay down a hail of fire from their weapons, their superior reflexes allowing them to track even the most sudden movement and place every shot perfectly.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2.",
+          "when": "Your Shooting phase.",
+          "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2."
+        },
+        {
+          "id": "000008449006",
+          "name": "FEIGNED RETREAT",
+          "type": "Battle Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The Aeldari are forever elusive, and their actions are unpredictable and deceptive. What appears to be a full retreat one moment is revealed as the prelude to a devastating attack the next.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after an AELDARI unit from your army makes a Fall Back move.TARGET: That AELDARI unit.EFFECT: Your unit is eligible to shoot and declare a charge this turn even though it Fell Back.",
+          "when": "Your Movement phase, just after an AELDARI unit from your army makes a Fall Back move.",
+          "target": "That AELDARI unit.",
+          "effect": "Your unit is eligible to shoot and declare a charge this turn even though it Fell Back."
+        }
+      ]
+    },
+    {
+      "name": "Khaine’s Arrow",
+      "stratagems": [
+        {
+          "id": "000009326002",
+          "name": "VOID GHOSTS",
+          "type": "Khaine’s Arrow – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "fullDescription": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+          "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000009326003",
+          "name": "BLADEFOCUS",
+          "type": "Khaine’s Arrow – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Those Aspect Warriors best versed in close-quarters combat fight all the harder, knowing they must act as the piercing tip of their host's strike.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase.TARGET: One HOWLING BANSHEES or STRIKING SCORPIONS unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, if it made a Charge move this turn, you can re-roll the Hit roll.",
+          "when": "Fight phase.",
+          "target": "One HOWLING BANSHEES or STRIKING SCORPIONS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, if it made a Charge move this turn, you can re-roll the Hit roll."
+        },
+        {
+          "id": "000009326005",
+          "name": "AURIC STORM",
+          "type": "Khaine’s Arrow – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "The fiery passage of Khaine's Arrow scours the enemy away, leaving them nowhere to hide.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One DIRE AVENGERS, FIRE DRAGONS, SWOOPING HAWKS or WARP SPIDERS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll.",
+          "when": "Your Shooting phase.",
+          "target": "One DIRE AVENGERS, FIRE DRAGONS, SWOOPING HAWKS or WARP SPIDERS unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "id": "000009326004",
+          "name": "ARTIFICER ROUNDS",
+          "type": "Khaine’s Arrow – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "These warriors know precisely which strategic sites must be secured, and in what order.",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "fullDescription": "WHEN: Your Command phase.TARGET: One AELDARI unit from your army (excluding CHARACTER units).EFFECT: Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, at the end of your turn, select one objective marker you control that your unit is within range of. That objective marker is Secured by your army.",
+          "when": "Your Command phase.",
+          "target": "One AELDARI unit from your army (excluding CHARACTER units).",
+          "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, at the end of your turn, select one objective marker you control that your unit is within range of. That objective marker is Secured by your army."
+        }
+      ]
+    },
+    {
+      "name": "Protector Host",
+      "stratagems": [
+        {
+          "id": "000009335003",
+          "name": "SHURIKEN STORM",
+          "type": "Protector Host – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Shuriken weaponry fill corridors and chambers with inescapable hails of monomolecular discs and reduce enemy boarding parties to bloodied ruin.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, add 1 to the Strength characteristic of Avenger shuriken catapults, shuriken catapults, shuriken pistols and shuriken cannons equipped by models in your unit.",
+          "when": "Your Shooting phase.",
+          "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, add 1 to the Strength characteristic of Avenger shuriken catapults, shuriken catapults, shuriken pistols and shuriken cannons equipped by models in your unit."
+        },
+        {
+          "id": "000009335002",
+          "name": "VOID GHOSTS",
+          "type": "Protector Host – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "fullDescription": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+          "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000009335004",
+          "name": "SHIELD OF BLADES",
+          "type": "Protector Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "A discipline refined for shipboard battle, this feat of marksmanship sees the Aeldari overlap annihilating hails of defensive fire.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement or Charge phase",
+          "fullDescription": "WHEN: Your opponent’s Movement or Charge phase.TARGET: One DIRE AVENGERS or GUARDIAN DEFENDERS unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6.",
+          "when": "Your opponent’s Movement or Charge phase.",
+          "target": "One DIRE AVENGERS or GUARDIAN DEFENDERS unit from your army that has not fired Overwatch this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
+        },
+        {
+          "id": "000009335005",
+          "name": "RAPID AMBUSH",
+          "type": "Protector Host – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Reacting with a speed most mortal beings could not dream of, the Aeldari engulf emerging foes in a sudden hail of gunfire.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.TARGET: One DIRE AVENGERS or GUARDIANS unit from your army that has not fired Overwatch this phase and is wholly on the opposite side of that Hatchway from that enemy unit.EFFECT: If that enemy unit is within 9\" of and visible to your unit, roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers 2 mortal wounds. If that enemy unit suffers one or more mortal wounds in this way, your unit can then make a Normal move of up to D6”.RESTRICTIONS: Until the end of the turn, your unit cannot fire Overwatch.",
+          "when": "Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.",
+          "target": "One DIRE AVENGERS or GUARDIANS unit from your army that has not fired Overwatch this phase and is wholly on the opposite side of that Hatchway from that enemy unit.",
+          "effect": "If that enemy unit is within 9\" of and visible to your unit, roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers 2 mortal wounds. If that enemy unit suffers one or more mortal wounds in this way, your unit can then make a Normal move of up to D6”.RESTRICTIONS: Until the end of the turn, your unit cannot fire Overwatch."
         }
       ]
     },
@@ -14543,7 +15154,10 @@
           "legend": "Exploiting the fluctuating gravity of voidship fighting and flowing with the nigh-imperceptible movements of the vessel around them, the Aeldari acrobatically evade the blasts and blades of their foes.",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.|"
+          "fullDescription": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.TARGET: One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+          "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One AELDARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
           "id": "000009352003",
@@ -14553,7 +15167,10 @@
           "legend": "Shuriken weaponry fill corridors and chambers with inescapable hails of monomolecular discs and reduce enemy boarding parties to bloodied ruin.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase.TARGET: One AELDARI unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.|"
+          "fullDescription": "WHEN: Fight phase.TARGET: One AELDARI unit from your army that has not been selected to fight this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
+          "when": "Fight phase.",
+          "target": "One AELDARI unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll."
         },
         {
           "id": "000009352005",
@@ -14563,7 +15180,10 @@
           "legend": "Reacting with a speed most mortal beings could not dream of, the Aeldari engulf emerging foes in a sudden hail of gunfire.",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "description": "WHEN: Your Movement phase.TARGET: One AELDARI unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, Desperate Escape tests taken for models in your unit are automatically passed, and each time your unit makes a Normal, Advance or Fall Back move, models in your unit can move through other models as if they were not there.|"
+          "fullDescription": "WHEN: Your Movement phase.TARGET: One AELDARI unit from your army that has not been selected to move this phase.EFFECT: Until the end of the phase, Desperate Escape tests taken for models in your unit are automatically passed, and each time your unit makes a Normal, Advance or Fall Back move, models in your unit can move through other models as if they were not there.",
+          "when": "Your Movement phase.",
+          "target": "One AELDARI unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, Desperate Escape tests taken for models in your unit are automatically passed, and each time your unit makes a Normal, Advance or Fall Back move, models in your unit can move through other models as if they were not there."
         },
         {
           "id": "000009352004",
@@ -14573,7 +15193,10 @@
           "legend": "A discipline refined for shipboard battle, this feat of marksmanship sees the Aeldari overlap annihilating hails of defensive fire.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase, just after an AELDARI unit from your army destroys an enemy unit.TARGET: That AELDARI unit.EFFECT: Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\" and, if it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.|"
+          "fullDescription": "WHEN: Fight phase, just after an AELDARI unit from your army destroys an enemy unit.TARGET: That AELDARI unit.EFFECT: Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\" and, if it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.",
+          "when": "Fight phase, just after an AELDARI unit from your army destroys an enemy unit.",
+          "target": "That AELDARI unit.",
+          "effect": "Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\" and, if it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction."
         }
       ]
     },
@@ -14588,7 +15211,10 @@
           "legend": "Like graven sentinels the wraith constructs stand immovable, barring the enemy's path.",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "description": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One WRAITH CONSTRUCT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the attacking model is wholly on the opposite side of a Hatchway from your unit, subtract 1 from the Wound roll.|"
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One WRAITH CONSTRUCT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time an attack targets your unit, if the attacking model is wholly on the opposite side of a Hatchway from your unit, subtract 1 from the Wound roll.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One WRAITH CONSTRUCT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the attacking model is wholly on the opposite side of a Hatchway from your unit, subtract 1 from the Wound roll."
         },
         {
           "id": "000009343003",
@@ -14598,7 +15224,10 @@
           "legend": "There are advantages to perceiving the foe as glimmering souls without the obstruction of intervening walls and bulkheads.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. In addition, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and/or to the Hit roll.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One AELDARI unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. In addition, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and/or to the Hit roll.",
+          "when": "Your Shooting phase.",
+          "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. In addition, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and/or to the Hit roll."
         },
         {
           "id": "000009343004",
@@ -14608,7 +15237,23 @@
           "legend": "Recognising the importance of liminal boundaries in void warfare, the ghost warriors unleash their fury upon such a space to the shock of their foes.",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "description": "WHEN: Your Shooting phase.TARGET: One WRAITH CONSTRUCT unit from your army that has not been selected to shoot this phase.EFFECT: Select one closed Hatchway that is visible to and within range of one or more of the ranged weapons equipped by models in your unit. Open that Hatchway and, until the end of the battle, that Hatchway cannot be closed. For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Shooting phase, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.RESTRICTIONS: Until the end of the phase, your unit is not eligible to shoot.|\nAE|000009343005|UNFLINCHING FIRE|Wraiths of the Void – Strategic Ploy Stratagem|1|None can match the calm, patient precision of those who have already known death and do not fear it.|Opponent’s turn|Movement or Charge phase|Wraiths of the Void|WHEN: Your opponent's Movement or Charge phase.TARGET: One AELDARI unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified G.|\nAM|000009802003|FIRING HOT|Bridgehead Strike – Battle Tactic Stratagem|1|At the risk of permanently burning out power packs, hot-shot weaponry can be temporarily overcharged to provide additional punch at the crucial moment.|Your turn|Shooting phase|Bridgehead Strike|WHEN: Your Shooting phase.TARGET: One MILITARUM TEMPESTUS or KASRKIN unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, improve the Strength and Armour Penetration characteristics of hot-shot lascarbines, hot-shot lasguns, hot-shot laspistols, hot-shot marksman rifles, hot-shot volley guns and sentry hot-shot volley guns equipped by models in your unit by 1.|\nAM|000009802002|BELLICOSA DROP|Bridgehead Strike – Battle Tactic Stratagem|1|Bellicosa drop protocols require intensive additional training but enable elite Imperial soldiery to land virtually on top of the enemy’s positions.|Your turn|Movement phase|Bridgehead Strike|WHEN: The Reinforcements step of your Movement phase.TARGET: One ASTRA MILITARUM INFANTRY unit from your army that is in Reserves and has the Deep Strike ability.EFFECT: Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge.|"
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One WRAITH CONSTRUCT unit from your army that has not been selected to shoot this phase.EFFECT: Select one closed Hatchway that is visible to and within range of one or more of the ranged weapons equipped by models in your unit. Open that Hatchway and, until the end of the battle, that Hatchway cannot be closed. For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Shooting phase, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.RESTRICTIONS: Until the end of the phase, your unit is not eligible to shoot.",
+          "when": "Your Shooting phase.",
+          "target": "One WRAITH CONSTRUCT unit from your army that has not been selected to shoot this phase.",
+          "effect": "Select one closed Hatchway that is visible to and within range of one or more of the ranged weapons equipped by models in your unit. Open that Hatchway and, until the end of the battle, that Hatchway cannot be closed. For each enemy unit within 3\" of that Hatchway and wholly on the opposite side of it from your unit, until the start of your next Shooting phase, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.RESTRICTIONS: Until the end of the phase, your unit is not eligible to shoot."
+        },
+        {
+          "id": "000009343005",
+          "name": "UNFLINCHING FIRE",
+          "type": "Wraiths of the Void – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "None can match the calm, patient precision of those who have already known death and do not fear it.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement or Charge phase",
+          "fullDescription": "WHEN: Your opponent's Movement or Charge phase.TARGET: One AELDARI unit from your army that has not fired Overwatch this phase.EFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified G.",
+          "when": "Your opponent's Movement or Charge phase.",
+          "target": "One AELDARI unit from your army that has not fired Overwatch this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified G."
         }
       ]
     }
