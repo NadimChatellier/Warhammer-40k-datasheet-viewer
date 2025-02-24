@@ -183,7 +183,7 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
       className="text-white"
       style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}
     >
-      {"Faction Abilities: "}
+      {"Core Abilities: "}
     </strong>
     <div className="inline-flex flex-wrap gap-2 text-gray-400">
       {selectedUnit.abilities.core.map((ability, index) => (
