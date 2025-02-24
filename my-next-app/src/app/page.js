@@ -199,6 +199,8 @@ const filtered = stratagems.filter((stratagem) =>
           </ul>
         </div>
       </div>
+
+
       {areStrategemsOpen && (
   <div
     className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
@@ -279,7 +281,6 @@ const filtered = stratagems.filter((stratagem) =>
     </div>
   </div>
 )}
-
 
 
       {/* Main Content */}
