@@ -24,7 +24,10 @@ export default function Home() {
   const [detachments, setDetachments] = useState([]);
   const [filteredStratagems, setFilteredStratagems] = useState([]);
   const [subFactions, setSubFactions] = useState([]);
-  console.log("!")
+  const [selectedSubfaction, setSelectedSubfaction] = useState(null);
+  
+
+
   useEffect(() => {
     async function fetchStratagemsData() {
       try {
@@ -136,11 +139,15 @@ export default function Home() {
     };
   }, [isOpen]);
 
-  const filteredUnits = units.filter((unit) =>
-    unit.keywords?.other?.some((keyword) =>
+  const filteredUnits = units.filter((unit) => {
+    const hasSubfaction = selectedSubfaction
+      ? unit.keywords?.faction?.includes(selectedSubfaction)
+      : true;
+    const matchesSearch = unit.keywords?.other?.some((keyword) =>
       keyword.toLowerCase().includes(searchQuery.toLowerCase())
-    ) || false // Fallback to false if unit.keywords doesn't exist
-  );
+    );
+    return hasSubfaction && (matchesSearch || searchQuery === "");
+  });
 
 
   // 3. Handle detachment filtering
@@ -155,9 +162,6 @@ const others = filteredUnits.filter(
   (unit) => unit.role !== "Characters" && unit.role !== "Battleline"
 );
 
-const filtered = stratagems.filter((stratagem) =>
-  stratagem.detachment?.toLowerCase() === detachmentFilter?.toLowerCase()
-);
 
   // Function to format faction names properly
   const formatFactionName = (name) =>
@@ -325,22 +329,19 @@ const filtered = stratagems.filter((stratagem) =>
         {subFactions.length > 0 && (
         <h1 className="mt-4 text-3xl text-white p-4">SubFactions:</h1>
       )}
-        {/* Render SubFaction Buttons */}
-    <div className="flex flex-wrap gap-4 mb-6">
-      
-      {subFactions.map((subfaction, index) => (
-        <button
-          key={index}
-          className="px-4 py-2 rounded-lg text-base bg-gray-800 hover:bg-gray-700 text-white"
-          onClick={() => {
-            // Handle Subfaction button click here
-            console.log(`Selected Subfaction: ${subfaction}`);
-          }}
-        >
-          {subfaction}
-        </button>
-      ))}
-    </div>
+      <div className="flex flex-wrap gap-4 mb-6">
+          {subFactions.map((subfaction, index) => (
+            <button
+              key={index}
+              className={`px-4 py-2 rounded-lg text-base bg-gray-800 hover:bg-gray-700 text-white ${
+                selectedSubfaction === subfaction ? "bg-yellow-400 text-black" : ""
+              }`}
+              onClick={() => setSelectedSubfaction(subfaction)}
+            >
+              {subfaction}
+            </button>
+          ))}
+        </div>
            {/* Search Bar Component */}
         <SearchBar setSearchQuery={setSearchQuery} />
         {/* Render Characters */}
