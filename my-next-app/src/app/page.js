@@ -140,14 +140,22 @@ export default function Home() {
   }, [isOpen]);
 
   const filteredUnits = units.filter((unit) => {
+    const factionKeywords = unit.keywords?.faction || [];
+    
+    // If a subfaction is selected, check if it's in the faction keywords
+    // OR if the unit has only one faction keyword (to always include it)
     const hasSubfaction = selectedSubfaction
-      ? unit.keywords?.faction?.includes(selectedSubfaction)
+      ? factionKeywords.includes(selectedSubfaction) || factionKeywords.length === 1
       : true;
+  
+    // Search filter (ignores case)
     const matchesSearch = unit.keywords?.other?.some((keyword) =>
       keyword.toLowerCase().includes(searchQuery.toLowerCase())
     );
+  
     return hasSubfaction && (matchesSearch || searchQuery === "");
   });
+  
 
 
   // 3. Handle detachment filtering
