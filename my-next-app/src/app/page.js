@@ -24,7 +24,7 @@ export default function Home() {
   const [detachments, setDetachments] = useState([]);
   const [filteredStratagems, setFilteredStratagems] = useState([]);
   const [subFactions, setSubFactions] = useState([]);
-
+  console.log("!")
   useEffect(() => {
     async function fetchStratagemsData() {
       try {
