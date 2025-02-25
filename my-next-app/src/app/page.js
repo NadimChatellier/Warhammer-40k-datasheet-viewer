@@ -83,7 +83,6 @@ export default function Home() {
   
         // Get unique subfactions and set them in state
         setSubFactions(getUniqueSubfactions(faction.units || []));
-  
         setStratagems(stratagemsList);
         setDetachments(detachmentsList);
       } catch (error) {
@@ -236,6 +235,8 @@ const others = filteredUnits.filter(
                 }`}
                 onClick={() => {
                   setSelectedFaction(faction.name.replace(/\s+/g, ""));
+                  setSearchQuery("");
+                  setSelectedSubfaction(null);
                   setIsSidebarOpen(false);
                 }}
               >
