@@ -137,7 +137,16 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
             </table>
             </>
             
+            
           ))}
+          {selectedUnit.damaged_w && selectedUnit.damaged_w !== "" && (
+            <div className="mt-2">
+        <strong className="text-white" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+          Damaged Profile: {selectedUnit.damaged_w} wounds remaining
+        </strong>
+        <p>{selectedUnit.damaged_description}</p>
+            </div>
+    )}
         </div>
       </div>
       
@@ -482,14 +491,7 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
 
 
 
-{selectedUnit.damaged_w && selectedUnit.damaged_w !== "" && (
-      <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
-        <strong className="text-white" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
-          Damaged Profile: {selectedUnit.damaged_w} wounds remaining
-        </strong>
-        <p>{selectedUnit.damaged_description}</p>
-      </div>
-    )}
+
 
 {selectedUnit.transport && selectedUnit.transport !== "" && (
       <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
