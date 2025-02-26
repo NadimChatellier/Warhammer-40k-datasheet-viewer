@@ -101,35 +101,57 @@ function readDatasheets() {
         const trimmedRow = Object.fromEntries(
           Object.entries(row).map(([key, value]) => [key.trim(), value ? value.trim() : ''])
         );
+
         const datasheetId = trimmedRow.id;
         const factionId = trimmedRow.faction_id;
         const name = trimmedRow.name;
-        const role = trimmedRow.role
+        const role = trimmedRow.role;
         const loadout = cleanText(trimmedRow.loadout);
+        const transport = cleanText(trimmedRow.transport || "");
+        const damaged_w = cleanText(trimmedRow.damaged_w || "");
+
+        // Remove any trailing URL in `damaged_description`
+        let damaged_description = cleanText(trimmedRow.damaged_description || "");
+        damaged_description = damaged_description.replace(/\|https?:\/\/\S+$/, ""); 
+
         if (!datasheetId || !factionId || !name) {
           console.log(`⚠️ Skipping row with missing data:`, trimmedRow);
           return;
         }
+
         // Store base unit details for later use.
-        unitDataMap[datasheetId] = { datasheetId, factionId, name, loadout, role };
+        unitDataMap[datasheetId] = { 
+          datasheetId, 
+          factionId, 
+          name, 
+          loadout, 
+          role, 
+          transport, 
+          damaged_w, 
+          damaged_description 
+        };
 
         if (factionDataMap[factionId]) {
           // Check if unit already exists in our factionDataMap.
           const existingUnitIndex = factionDataMap[factionId].units.findIndex(u => u.id === datasheetId);
           let preservedImg = "";
+
           // If we have an image for this unit from existing data, use it.
           if (existingUnitImages[factionId] && existingUnitImages[factionId][datasheetId]) {
             preservedImg = existingUnitImages[factionId][datasheetId];
           }
+
           if (existingUnitIndex !== -1) {
             // Merge the new data while preserving the existing image.
             const existingUnit = factionDataMap[factionId].units[existingUnitIndex];
             factionDataMap[factionId].units[existingUnitIndex] = {
               ...existingUnit,
-
               name,
               faction_id: factionId,
               loadout,
+              transport,
+              damaged_w,
+              damaged_description,
               unit_img: preservedImg || existingUnit.unit_img || "",
               profiles: existingUnit.profiles,
               ranged_weapons: existingUnit.ranged_weapons,
@@ -143,7 +165,10 @@ function readDatasheets() {
               faction_id: factionId,
               unit_img: preservedImg, // Will be empty string if no image exists.
               loadout,
-              role: role,
+              role,
+              transport,
+              damaged_w,
+              damaged_description,
               profiles: [],
               ranged_weapons: [],
               melee_weapons: []
@@ -153,7 +178,7 @@ function readDatasheets() {
         }
       })
       .on('end', () => {
-        console.log('🎉 Units mapped to factions.');
+        console.log('🎉 Units mapped to factions with transport and damage fields cleaned.');
         resolve();
       })
       .on('error', (err) => {
@@ -162,6 +187,7 @@ function readDatasheets() {
       });
   });
 }
+
 
 /**
  * Step 3: Parse Datasheets_models.csv and count unit profiles
