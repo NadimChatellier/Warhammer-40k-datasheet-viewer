@@ -10,6 +10,7 @@ const datasheetsCsv = path.join(__dirname, 'warhammer-csvs', 'Datasheets.csv');
 const datasheetsModelsCsv = path.join(__dirname, 'warhammer-csvs', 'Datasheets_models.csv');
 const outputDir = path.join(__dirname, '40kJsonData');
 const abilitiesFilePath = path.join(__dirname, 'warhammer-csvs', 'Datasheets_abilities.csv');
+const datasheetsLeadersCsv = path.join(__dirname, 'warhammer-csvs', 'Datasheets_leader.csv');  // Correct path for leaders CSV
 
 // Function to clean up HTML tags
 const cleanText = (text) => {
@@ -188,7 +189,57 @@ function readDatasheets() {
   });
 }
 
+// Function to add 'leads' to the leader units
+function addLeadsToLeaders() {
+  return new Promise((resolve, reject) => {
+    let buffer = "";
+    
+    // Read the Datasheets_leaders.csv to get leader-attachment relationships
+    fs.createReadStream(datasheetsLeadersCsv, { encoding: 'utf8' })
+      .on("data", (chunk) => { buffer += chunk; })
+      .on("end", () => {
+        const rows = buffer.split("\r\n").filter(row => row.trim() !== "");
+        
+        rows.forEach((line) => {
+          const [leaderId, attachedId] = line.split("|").map(id => id.trim());
+          if (!leaderId || !attachedId) return;
 
+          // Find the leader unit using the existing findUnitById function
+          const leaderUnitData = findUnitById(leaderId);
+          if (!leaderUnitData) {
+            console.log(`⚠️ Leader unit ${leaderId} not found.`);
+            return;
+          }
+
+          // Find the attached unit using the existing findUnitById function
+          const attachedUnitData = findUnitById(attachedId);
+          if (!attachedUnitData) {
+            console.log(`⚠️ Attached unit ${attachedId} not found.`);
+            return;
+          }
+
+          const { unit: leaderUnit } = leaderUnitData;
+
+          // Ensure the leader unit has a 'leads' array
+          if (!leaderUnit.leads) {
+            leaderUnit.leads = [];
+          }
+
+          // Add the attached unit's ID and name to the leader's 'leads' array
+          leaderUnit.leads.push({ id: attachedId, name: attachedUnitData.unit.name, unit_img: attachedUnitData.unit.unit_img });
+
+          console.log(`🔗 Leader ${leaderUnit.name} (ID: ${leaderId}) can lead ${attachedUnitData.unit.name} (ID: ${attachedId})`);
+        });
+
+        console.log("🎉 Leader units updated with leads array.");
+        resolve();
+      })
+      .on("error", (err) => {
+        console.error("❌ Error reading Datasheets_leaders CSV:", err);
+        reject(err);
+      });
+  });
+}
 /**
  * Step 3: Parse Datasheets_models.csv and count unit profiles
  */
@@ -936,6 +987,7 @@ async function processWarhammerData() {
     await parseUnitCompositions();
     await parseUnitCosts();
     await parseUnitKeywords()
+    await addLeadsToLeaders();
     await parseUnitOptions();
     await parseStratagems();
     await writeFactionFiles();
