@@ -7,7 +7,11 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
   const [meleeWeaponsOpen, setMeleeWeaponsOpen] = useState(false);
   const [rangedWeaponsOpen, setRangedWeaponsOpen] = useState(false);
   const [showMore, setShowMore] = useState(false);
+  const [isGridView, setIsGridView] = useState(true); // State to toggle view
 
+  const toggleView = () => {
+    setIsGridView(!isGridView); // Toggle between grid and list views
+  };
 
   if (!isOpen || !selectedUnit) return null;
 
@@ -486,8 +490,71 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
         <p>{selectedUnit.damaged_description}</p>
       </div>
     )}
+
+{selectedUnit.transport && selectedUnit.transport !== "" && (
+      <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2">
+      <p>
+      <strong className="text-white" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+      Transport capacity:  </strong> {selectedUnit.transport} </p> 
+       
+      </div>
+    )}
+
+<div>
+      {selectedUnit.leads && selectedUnit.leads.length > 0 && (
+        <div className="bg-gray-900 rounded-xl text-gray-300 p-4 mt-2 relative">
+          <strong className="text-white" style={{ fontSize: 'clamp(1rem, 4vw, 1.4rem)' }}>
+            This model can be attached to the following units:
+          </strong>
+          
+          {/* Button to toggle view, positioned absolutely to the right */}
+          <button 
+            onClick={toggleView} 
+            className="bg-gray-800 text-gray-300 p-2 rounded-md absolute right-0 top-0 mt-2 mr-4 transition-all hover:bg-gray-700"
+            style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}
+          >
+            {isGridView ? 'Switch to List View' : 'Switch to Grid View'}
+          </button>
+
+          {/* Conditional Rendering based on View Type */}
+          {isGridView ? (
+            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {selectedUnit.leads.map((unit, index) => (
+                <div key={index} className="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition duration-300 transform hover:scale-105 relative shadow-md flex flex-col justify-between">
+                  {/* Unit name */}
+                  <span className="text-center text-gray-400 font-semibold mb-3" style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}>
+                    {unit.name}
+                  </span>
+
+                  {/* Unit image */}
+                  <div className="relative flex justify-center items-center mb-3">
+                    <img src={unit.unit_img} alt={unit.name} className="rounded-md w-full h-auto max-h-[200px] object-cover" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="mt-4 space-y-2">
+              {selectedUnit.leads.map((unit, index) => (
+                <div key={index} className="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition duration-300">
+                  {/* Unit name */}
+                  <span className="text-gray-400 font-semibold" style={{ fontSize: 'clamp(0.8rem, 3vw, 1.2rem)' }}>
+                    {unit.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+
+
+
   </div>
 )}
+
+
 
                  
                  

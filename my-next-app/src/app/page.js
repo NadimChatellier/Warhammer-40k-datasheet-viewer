@@ -25,7 +25,7 @@ export default function Home() {
   const [filteredStratagems, setFilteredStratagems] = useState([]);
   const [subFactions, setSubFactions] = useState([]);
   const [selectedSubfaction, setSelectedSubfaction] = useState(null);
-  
+  const [showExclusives, setShowExclusives] = useState(false); // State for the checkbox  
 
 
   useEffect(() => {
@@ -71,7 +71,7 @@ export default function Home() {
         const stratagemsList = [];
         const detachmentsList = [];
   
-        faction.detachments.forEach((detachment) => {
+        faction.detachments?.forEach((detachment) => {
           if (detachment.stratagems && Array.isArray(detachment.stratagems)) {
             stratagemsList.push(...detachment.stratagems);
           }
@@ -138,22 +138,29 @@ export default function Home() {
     };
   }, [isOpen]);
 
-  const filteredUnits = units.filter((unit) => {
-    const factionKeywords = unit.keywords?.faction || [];
-    
-    // If a subfaction is selected, check if it's in the faction keywords
-    // OR if the unit has only one faction keyword (to always include it)
-    const hasSubfaction = selectedSubfaction
-      ? factionKeywords.includes(selectedSubfaction) || factionKeywords.length === 1
-      : true;
+  const toggleExclusives = () => {
+    setShowExclusives(!showExclusives);
+  };
+
+
+const filteredUnits = units.filter((unit) => {
+  const factionKeywords = unit.keywords?.faction || [];
   
-    // Search filter (ignores case)
-    const matchesSearch = unit.keywords?.other?.some((keyword) =>
-      keyword.toLowerCase().includes(searchQuery.toLowerCase())
-    );
-  
-    return hasSubfaction && (matchesSearch || searchQuery === "");
-  });
+  // If exclusives are enabled, only include units with the selected subfaction and more than one faction keyword
+  const hasSubfaction = showExclusives
+    ? factionKeywords.includes(selectedSubfaction) && factionKeywords.length > 1
+    : selectedSubfaction
+    ? factionKeywords.includes(selectedSubfaction) || factionKeywords.length === 1
+    : true;
+
+  // Search filter (ignores case)
+  const matchesSearch = unit.keywords?.other?.some((keyword) =>
+    keyword.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  return hasSubfaction && (matchesSearch || searchQuery === "");
+});
+
   
 
 
@@ -341,29 +348,47 @@ const others = filteredUnits.filter(
            {/* Search Bar Component */}
            <SearchBar setSearchQuery={setSearchQuery} />
       {/* SubFaction Section */}
-  {subFactions.length > 0 && (
-  <div className="w-full bg-gray-800 p-4 rounded-lg shadow-md mb-6">
-    <div className="flex flex-wrap justify-center gap-3">
+      {subFactions.length > 0 && (
+  <div className="w-full bg-gray-800 p-6 rounded-lg shadow-md mb-6">
+  
+    <div className="flex flex-wrap justify-center gap-4">
       {subFactions.map((subfaction, index) => (
         <button
           key={index}
-          className={`px-5 py-2 rounded-lg text-base font-medium transition-all duration-200 
+          className={`px-6 py-3 rounded-lg text-base font-medium transition-all duration-200 
             bg-gray-700 text-white border border-gray-600 hover:bg-yellow-500 hover:text-black 
             ${
               selectedSubfaction === subfaction
                 ? "bg-yellow-400 text-black border-yellow-500"
                 : ""
             }`}
-          onClick={() =>
+          onClick={() =>{
             setSelectedSubfaction(selectedSubfaction === subfaction ? null : subfaction)
+          }
+            
           }
         >
           {subfaction}
         </button>
       ))}
     </div>
+
+    {selectedSubfaction && (
+      <div className="flex items-center justify-center mt-4 space-x-3">
+        <input
+          type="checkbox"
+          checked={showExclusives}
+          onChange={toggleExclusives}
+          className="w-6 h-6 text-yellow-400 border-gray-600 rounded-md focus:ring-0"
+        />
+        <label className="text-white text-lg font-medium">
+          Exclusives
+        </label>
+      </div>
+    )}
   </div>
 )}
+
 
 
 
