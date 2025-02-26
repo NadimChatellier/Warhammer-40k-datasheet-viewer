@@ -5624,6 +5624,15 @@
           "target": "One ADEPTUS CUSTODES CHARACTER model from your army that is not leading a unit.",
           "effect": "Select one friendly unit (excluding Battle-shocked and Attached units) within 2\" horizontally and 5\" vertically of your model that it could lead (as described in the Leader section of its datasheet). Your model attaches to that unit as a Leader. Change that unit’s Starting Strength accordingly."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008929",
+          "name": "Assemblage of Might",
+          "legend": "When such exceptional warriors as these gather to quest in the Emperors name, even the most dreadful foes of Humanity are right to fear for their lives.",
+          "rawDescription": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ADEPTUS CUSTODES CHARACTER unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll.",
+          "formattedDescription": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ADEPTUS CUSTODES CHARACTER unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -5680,6 +5689,15 @@
           "when": "Your Movement phase, just after an ANATHEMA PSYKANA unit from your army Falls Back.",
           "target": "That ANATHEMA PSYKANA unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009272",
+          "name": "Priority Quarry",
+          "legend": "With merciless efficiency, the Sisters of Silence mark their priority prey amidst the maelstrom of shiphoard combat, then focus on their elimination above all else.",
+          "rawDescription": "At the start of the first battle round, you can select up to two enemy units to be your army’s quarry, one of which must be your opponents WARLORD. Each time an ANATHEMA PSYKANA unit from your army makes an attack that targets one of your army’s quarries, re-roll a Hit roll of 1. Each time an ANATHEMA PSYKANA unit from your army declares a charge, it can include one or more of your army’s quarries as targets of that charge, even if they are not visible to it.",
+          "formattedDescription": "At the start of the first battle round, you can select up to two enemy units to be your army’s quarry, one of which must be your opponents WARLORD. Each time an ANATHEMA PSYKANA unit from your army makes an attack that targets one of your army’s quarries, re-roll a Hit roll of 1. Each time an ANATHEMA PSYKANA unit from your army declares a charge, it can include one or more of your army’s quarries as targets of that charge, even if they are not visible to it."
         }
       ]
     },
@@ -5764,6 +5782,22 @@
           "target": "One PROSECUTORS unit from your army that has just shot.",
           "effect": "Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an ANATHEMA PSYKANA model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a PSYKER or Battle-shocked unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008924",
+          "name": "Creeping Dread (Aura)",
+          "legend": "The instinctive fear caused by the Pariah gene spreads like a terrible pall before the cadres of the Silent Sisterhood.",
+          "rawDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.Designer’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength.",
+          "formattedDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.Designer’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength."
+        },
+        {
+          "id": "000008925",
+          "name": "KEYWORDS",
+          "legend": "",
+          "rawDescription": "If you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword.",
+          "formattedDescription": "If you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword."
+        }
       ]
     },
     {
@@ -5846,6 +5880,15 @@
           "when": "Your Movement phase.",
           "target": "One ADEPTUS CUSTODES BATTLELINE unit from your army (excluding ANATHEMA PSYKANA units) within range of an objective marker you control.",
           "effect": "That objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000008393",
+          "name": "Martial Mastery",
+          "legend": "The Custodians have perfected countless ways of making war, be it on a personal, tactical or strategic scale.",
+          "rawDescription": "At the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.Each time an ADEPTUS CUSTODES model from your army with the Martial Ka’tah ability makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.Improve the Armour Penetration characteristic of melee weapons equipped by ADEPTUS CUSTODES models from your army with the Martial Ka’tah ability by 1.",
+          "formattedDescription": "At the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.Each time an ADEPTUS CUSTODES model from your army with the Martial Ka’tah ability makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.Improve the Armour Penetration characteristic of melee weapons equipped by ADEPTUS CUSTODES models from your army with the Martial Ka’tah ability by 1."
         }
       ]
     },
@@ -5930,6 +5973,15 @@
           "target": "One ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit from your army.",
           "effect": "Until the end of the phase, models in your unit can move horizontally through models and terrain features."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009752",
+          "name": "Auric Armour",
+          "legend": "The venerable war engines of the Adeptus Custodes possess aggressive machine spirits.",
+          "rawDescription": "While an ADEPTUS CUSTODES VEHICLE unit from your army is at Starting Strength, unless that unit is an AIRCRAFT or it is Battle-shocked, add 2 to the Objective Control characteristic of models in that unit.While an ADEPTUS CUSTODES VEHICLE unit from your army is below Starting Strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1.While an ADEPTUS CUSTODES VEHICLE unit from your army is Below Half-strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.MORITOI ANCIENTSThe Adeptus Custodes’ honoured fallen are ever eager for battle.Add 2\" to the Move characteristic of models in ADEPTUS CUSTODES WALKER units from your army and add 1 to Advance and Charge rolls made for such units.KEYWORDSIn the Muster Armies step, you can select up to 2 ADEPTUS CUSTODES WALKER models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.",
+          "formattedDescription": "While an ADEPTUS CUSTODES VEHICLE unit from your army is at Starting Strength, unless that unit is an AIRCRAFT or it is Battle-shocked, add 2 to the Objective Control characteristic of models in that unit.While an ADEPTUS CUSTODES VEHICLE unit from your army is below Starting Strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1.While an ADEPTUS CUSTODES VEHICLE unit from your army is Below Half-strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.MORITOI ANCIENTSThe Adeptus Custodes’ honoured fallen are ever eager for battle.Add 2\" to the Move characteristic of models in ADEPTUS CUSTODES WALKER units from your army and add 1 to Advance and Charge rolls made for such units.KEYWORDSIn the Muster Armies step, you can select up to 2 ADEPTUS CUSTODES WALKER models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD."
+        }
       ]
     },
     {
@@ -6013,6 +6065,15 @@
           "target": "Up to two ADEPTUS CUSTODES units from your army.",
           "effect": "Until the end of the turn, your units are eilgible to shoot and/or declare a charge in a turn in which they Fell Back.RESTRICTIONS: You can only select two units if one (and only one) of them is an ANATHEMA PSYKANA unit and both are within 6\" of each other."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008920",
+          "name": "Revered Companions",
+          "legend": "The Custodians and the Silent Sisters often fought as one during the earliest days of the Imperium. Ten thousand years on, they have lost none of the unity of doctrine and purpose that makes them such a deadly combination.",
+          "rawDescription": "ANATHEMA PSYKANA units from your army gain the following the ability:Null Aegis (Aura): While an ADEPTUS CUSTODES unit is within 6\" of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.All other ADEPTUS CUSTODES units from your army gain the following ability:Deadly Unity (Aura): While an ANATHEMA PSYKANA unit is within 6\" of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll.",
+          "formattedDescription": "ANATHEMA PSYKANA units from your army gain the following the ability:Null Aegis (Aura): While an ADEPTUS CUSTODES unit is within 6\" of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.All other ADEPTUS CUSTODES units from your army gain the following ability:Deadly Unity (Aura): While an ANATHEMA PSYKANA unit is within 6\" of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll."
+        }
       ]
     },
     {
@@ -6070,7 +6131,74 @@
           "target": "One ADEPTUS CUSTODES unit from your army (excluding ANATHEMA PSYKANA units) that has not been selected to move this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can ignore Walls and other models for the purposes of determining which enemy units are visible to its own."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009263",
+          "name": "Overwhelming Magnificence",
+          "legend": "To confront the towering, auramite-clad warriors of the Adeptus Custodes across an open battlefield is terrifying enough. To meet them in the cramped confines of a voidship is so overwhelming as to render many foes witless.",
+          "rawDescription": "While an enemy unit is within Engagement Range of one or more ADEPTUS CUSTODES units from your army, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
+          "formattedDescription": "While an enemy unit is within Engagement Range of one or more ADEPTUS CUSTODES units from your army, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008393",
+      "name": "Martial Mastery",
+      "legend": "The Custodians have perfected countless ways of making war, be it on a personal, tactical or strategic scale.",
+      "rawDescription": "At the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.Each time an ADEPTUS CUSTODES model from your army with the Martial Ka’tah ability makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.Improve the Armour Penetration characteristic of melee weapons equipped by ADEPTUS CUSTODES models from your army with the Martial Ka’tah ability by 1.",
+      "formattedDescription": "At the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.Each time an ADEPTUS CUSTODES model from your army with the Martial Ka’tah ability makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.Improve the Armour Penetration characteristic of melee weapons equipped by ADEPTUS CUSTODES models from your army with the Martial Ka’tah ability by 1."
+    },
+    {
+      "id": "000008920",
+      "name": "Revered Companions",
+      "legend": "The Custodians and the Silent Sisters often fought as one during the earliest days of the Imperium. Ten thousand years on, they have lost none of the unity of doctrine and purpose that makes them such a deadly combination.",
+      "rawDescription": "ANATHEMA PSYKANA units from your army gain the following the ability:Null Aegis (Aura): While an ADEPTUS CUSTODES unit is within 6\" of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.All other ADEPTUS CUSTODES units from your army gain the following ability:Deadly Unity (Aura): While an ANATHEMA PSYKANA unit is within 6\" of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll.",
+      "formattedDescription": "ANATHEMA PSYKANA units from your army gain the following the ability:Null Aegis (Aura): While an ADEPTUS CUSTODES unit is within 6\" of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.All other ADEPTUS CUSTODES units from your army gain the following ability:Deadly Unity (Aura): While an ANATHEMA PSYKANA unit is within 6\" of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll."
+    },
+    {
+      "id": "000008924",
+      "name": "Creeping Dread (Aura)",
+      "legend": "The instinctive fear caused by the Pariah gene spreads like a terrible pall before the cadres of the Silent Sisterhood.",
+      "rawDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.Designer’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength.",
+      "formattedDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.Designer’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength."
+    },
+    {
+      "id": "000008925",
+      "name": "KEYWORDS",
+      "legend": "",
+      "rawDescription": "If you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword.",
+      "formattedDescription": "If you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword."
+    },
+    {
+      "id": "000008929",
+      "name": "Assemblage of Might",
+      "legend": "When such exceptional warriors as these gather to quest in the Emperors name, even the most dreadful foes of Humanity are right to fear for their lives.",
+      "rawDescription": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ADEPTUS CUSTODES CHARACTER unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll.",
+      "formattedDescription": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ADEPTUS CUSTODES CHARACTER unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll."
+    },
+    {
+      "id": "000009263",
+      "name": "Overwhelming Magnificence",
+      "legend": "To confront the towering, auramite-clad warriors of the Adeptus Custodes across an open battlefield is terrifying enough. To meet them in the cramped confines of a voidship is so overwhelming as to render many foes witless.",
+      "rawDescription": "While an enemy unit is within Engagement Range of one or more ADEPTUS CUSTODES units from your army, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
+      "formattedDescription": "While an enemy unit is within Engagement Range of one or more ADEPTUS CUSTODES units from your army, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+    },
+    {
+      "id": "000009272",
+      "name": "Priority Quarry",
+      "legend": "With merciless efficiency, the Sisters of Silence mark their priority prey amidst the maelstrom of shiphoard combat, then focus on their elimination above all else.",
+      "rawDescription": "At the start of the first battle round, you can select up to two enemy units to be your army’s quarry, one of which must be your opponents WARLORD. Each time an ANATHEMA PSYKANA unit from your army makes an attack that targets one of your army’s quarries, re-roll a Hit roll of 1. Each time an ANATHEMA PSYKANA unit from your army declares a charge, it can include one or more of your army’s quarries as targets of that charge, even if they are not visible to it.",
+      "formattedDescription": "At the start of the first battle round, you can select up to two enemy units to be your army’s quarry, one of which must be your opponents WARLORD. Each time an ANATHEMA PSYKANA unit from your army makes an attack that targets one of your army’s quarries, re-roll a Hit roll of 1. Each time an ANATHEMA PSYKANA unit from your army declares a charge, it can include one or more of your army’s quarries as targets of that charge, even if they are not visible to it."
+    },
+    {
+      "id": "000009752",
+      "name": "Auric Armour",
+      "legend": "The venerable war engines of the Adeptus Custodes possess aggressive machine spirits.",
+      "rawDescription": "While an ADEPTUS CUSTODES VEHICLE unit from your army is at Starting Strength, unless that unit is an AIRCRAFT or it is Battle-shocked, add 2 to the Objective Control characteristic of models in that unit.While an ADEPTUS CUSTODES VEHICLE unit from your army is below Starting Strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1.While an ADEPTUS CUSTODES VEHICLE unit from your army is Below Half-strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.MORITOI ANCIENTSThe Adeptus Custodes’ honoured fallen are ever eager for battle.Add 2\" to the Move characteristic of models in ADEPTUS CUSTODES WALKER units from your army and add 1 to Advance and Charge rolls made for such units.KEYWORDSIn the Muster Armies step, you can select up to 2 ADEPTUS CUSTODES WALKER models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.",
+      "formattedDescription": "While an ADEPTUS CUSTODES VEHICLE unit from your army is at Starting Strength, unless that unit is an AIRCRAFT or it is Battle-shocked, add 2 to the Objective Control characteristic of models in that unit.While an ADEPTUS CUSTODES VEHICLE unit from your army is below Starting Strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1.While an ADEPTUS CUSTODES VEHICLE unit from your army is Below Half-strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.MORITOI ANCIENTSThe Adeptus Custodes’ honoured fallen are ever eager for battle.Add 2\" to the Move characteristic of models in ADEPTUS CUSTODES WALKER units from your army and add 1 to Advance and Charge rolls made for such units.KEYWORDSIn the Muster Armies step, you can select up to 2 ADEPTUS CUSTODES WALKER models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD."
     }
   ]
 }

@@ -6287,6 +6287,15 @@
           "target": "That KABAL unit.",
           "effect": "Select one enemy unit hit by one or more of your unit’s attacks this phase (excluding those made with Pistols). That enemy unit must take a Battle-shock test, subtracting 1 from the result if your unit is within 6” of it."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009432",
+          "name": "Raid and Pillage",
+          "legend": "These warriors reap a bounty of both material plunder and precious pain during their raids, leaving only shattered storage reliquaries and the twisted bodies of tortured victims in their wake.",
+          "rawDescription": "Each time a DRUKHARI unit from your army destroys an enemy unit, if that enemy unit was within range of an objective marker controlled by your opponent at the start of the phase, you gain 1 Pain token. In addition, in your Command phase, you can select one objective marker you control that has one or more KABAL units from your army within range of it, then expend 1 Pain token from your Pain token pool. If you do, that objective marker is Secured by your army.",
+          "formattedDescription": "Each time a DRUKHARI unit from your army destroys an enemy unit, if that enemy unit was within range of an objective marker controlled by your opponent at the start of the phase, you gain 1 Pain token. In addition, in your Command phase, you can select one objective marker you control that has one or more KABAL units from your army within range of it, then expend 1 Pain token from your Pain token pool. If you do, that objective marker is Secured by your army."
+        }
       ]
     },
     {
@@ -6343,6 +6352,15 @@
           "when": "End of any phase, when an objective marker Secured by your army would be Seized by an enemy unit.",
           "target": "One HAEMONCULUS COVENS unit from your army within range of that objective marker.",
           "effect": "Until the end of your next turn, while you have one or more DRUKHARI units within range of that objective marker (excluding Battle-shocked units), that objective marker remains Secured by your army and cannot be Seized by enemy units.RESTRICTIONS: You can only use this Stratagem once per battle round."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009449",
+          "name": "Regenerative Agony",
+          "legend": "The twisted physiologies of the Haemonculus fleshcrafters’ creations are inured to all but the most terrible injuries. The greater and more terrible the agonies inflicted upon their hideous forms, the more formidable their regenerative abilities become.",
+          "rawDescription": "Each time four or more Feel No Pain rolls are successful for HAEMONCULUS COVENS models from your army in a single phase, you gain 1 Pain token. In addition, each battle round, the first time a HAEMONCULUS COVENS unit from your army becomes Empowered in that battle round, roll one D6: on a 2-5, one model in that unit regains 1 lost wound or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining; on a 6, one model in that unit regains up to 2 lost wounds or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining.",
+          "formattedDescription": "Each time four or more Feel No Pain rolls are successful for HAEMONCULUS COVENS models from your army in a single phase, you gain 1 Pain token. In addition, each battle round, the first time a HAEMONCULUS COVENS unit from your army becomes Empowered in that battle round, roll one D6: on a 2-5, one model in that unit regains 1 lost wound or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining; on a 6, one model in that unit regains up to 2 lost wounds or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining."
         }
       ]
     },
@@ -6427,6 +6445,15 @@
           "target": "One DRUKHARI unit from your army (excluding AIRCRAFT).",
           "effect": "Your unit can immediately make a Normal move.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge and that unit cannot embark within a TRANSPORT at the end of this move."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008509",
+          "name": "Realspace Raiders",
+          "legend": "The three factions of the Drukhari are constantly vying for supremacy, each convinced beyond doubt of their own innate superiority. This struggle manifests during their realspace raids as a frenzy of murderously sadistic competition.",
+          "rawDescription": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:One or more ARCHON modelsOne or more SUCCUBUS modelsOne or more HAEMONCULUS modelsDesigner’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3 Pain tokens.",
+          "formattedDescription": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:One or more ARCHON modelsOne or more SUCCUBUS modelsOne or more HAEMONCULUS modelsDesigner’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3 Pain tokens."
+        }
       ]
     },
     {
@@ -6510,6 +6537,15 @@
           "target": "One DRUKHARI or HARLEQUINS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if that unit is losing the wager: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009780",
+          "name": "Callous Competition",
+          "legend": "In this saedath, the Harlequins embody the Reaper, whilst their Drukhari companions are mortal killers.",
+          "rawDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD.",
+          "formattedDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD."
+        }
       ]
     },
     {
@@ -6566,6 +6602,15 @@
           "when": "Your Movement phase, just after a WYCH CULT unit from your army ends a Normal move, before any enemy units fire Overwatch.",
           "target": "That WYCH CULT unit.",
           "effect": "Select one enemy unit within 9\" of and visible to your unit. That enemy unit must take a Battle-shock test, subtracting 1 from the result: if failed, until the end of the turn, that enemy unit cannot fire Overwatch."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009440",
+          "name": "Appetite for Adulation",
+          "legend": "Thriving upon the praise their sadistic deeds will earn from their twisted audience, the Wyches fight all the harder and inflict ever-more excessive torments upon their victims.",
+          "rawDescription": "In the Fight phase, if two or more enemy units were destroyed by DRUKHARI units from your army that phase, you gain 1 Pain token. In addition, each time a WYCH CULT unit from your army becomes Empowered in the Fight phase, until the end of the phase, melee weapons equipped by models in that unit have the [ANTi-iNFANTRY 4+] ability.",
+          "formattedDescription": "In the Fight phase, if two or more enemy units were destroyed by DRUKHARI units from your army that phase, you gain 1 Pain token. In addition, each time a WYCH CULT unit from your army becomes Empowered in the Fight phase, until the end of the phase, melee weapons equipped by models in that unit have the [ANTi-iNFANTRY 4+] ability."
         }
       ]
     },
@@ -6650,6 +6695,15 @@
           "target": "One DRUKHARI VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, your unit has a 4+ invulnerable save."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008714",
+          "name": "Rain Of Cruelty",
+          "legend": "Few warriors in the galaxy are as adept at launching punishing skyborne raids as the Drukhari. Before their prey even realise the peril, the killers of Commorragh are amongst their lines like grinning ghouls. Splinter fire lays low defenders still scrambling into position.  Quicksilver assaults leave dozens screaming in maimed agony. Often, the battle is over before it has even truly begun.",
+          "rawDescription": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s melee weapons have the [LANCE] ability.",
+          "formattedDescription": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s melee weapons have the [LANCE] ability."
+        }
       ]
     },
     {
@@ -6707,7 +6761,67 @@
           "target": "That KABALITE WARRIORS unit.",
           "effect": "Your unit can make a Normal move of up to 3\"."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009424",
+          "name": "Commorrite Rivalries",
+          "legend": "Even in the midst of battle, the Drukhari indulge in politicking and factionalism, seeking to outdo their rivals and cover themselves in dark glory with every murderous triumph.",
+          "rawDescription": "Each time a DRUKHARI CHARACTER model from your army destroys an enemy CHARACTER unit, you gain 1 Pain token. In addition, each time you use the Battlefield Command Stratagem, you can expend 1 Pain token from your Pain token pool. If you do, decrease that Stratagems cost by 1CP for that usage.",
+          "formattedDescription": "Each time a DRUKHARI CHARACTER model from your army destroys an enemy CHARACTER unit, you gain 1 Pain token. In addition, each time you use the Battlefield Command Stratagem, you can expend 1 Pain token from your Pain token pool. If you do, decrease that Stratagems cost by 1CP for that usage."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008509",
+      "name": "Realspace Raiders",
+      "legend": "The three factions of the Drukhari are constantly vying for supremacy, each convinced beyond doubt of their own innate superiority. This struggle manifests during their realspace raids as a frenzy of murderously sadistic competition.",
+      "rawDescription": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:One or more ARCHON modelsOne or more SUCCUBUS modelsOne or more HAEMONCULUS modelsDesigner’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3 Pain tokens.",
+      "formattedDescription": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:One or more ARCHON modelsOne or more SUCCUBUS modelsOne or more HAEMONCULUS modelsDesigner’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3 Pain tokens."
+    },
+    {
+      "id": "000008714",
+      "name": "Rain Of Cruelty",
+      "legend": "Few warriors in the galaxy are as adept at launching punishing skyborne raids as the Drukhari. Before their prey even realise the peril, the killers of Commorragh are amongst their lines like grinning ghouls. Splinter fire lays low defenders still scrambling into position.  Quicksilver assaults leave dozens screaming in maimed agony. Often, the battle is over before it has even truly begun.",
+      "rawDescription": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s melee weapons have the [LANCE] ability.",
+      "formattedDescription": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s melee weapons have the [LANCE] ability."
+    },
+    {
+      "id": "000009424",
+      "name": "Commorrite Rivalries",
+      "legend": "Even in the midst of battle, the Drukhari indulge in politicking and factionalism, seeking to outdo their rivals and cover themselves in dark glory with every murderous triumph.",
+      "rawDescription": "Each time a DRUKHARI CHARACTER model from your army destroys an enemy CHARACTER unit, you gain 1 Pain token. In addition, each time you use the Battlefield Command Stratagem, you can expend 1 Pain token from your Pain token pool. If you do, decrease that Stratagems cost by 1CP for that usage.",
+      "formattedDescription": "Each time a DRUKHARI CHARACTER model from your army destroys an enemy CHARACTER unit, you gain 1 Pain token. In addition, each time you use the Battlefield Command Stratagem, you can expend 1 Pain token from your Pain token pool. If you do, decrease that Stratagems cost by 1CP for that usage."
+    },
+    {
+      "id": "000009432",
+      "name": "Raid and Pillage",
+      "legend": "These warriors reap a bounty of both material plunder and precious pain during their raids, leaving only shattered storage reliquaries and the twisted bodies of tortured victims in their wake.",
+      "rawDescription": "Each time a DRUKHARI unit from your army destroys an enemy unit, if that enemy unit was within range of an objective marker controlled by your opponent at the start of the phase, you gain 1 Pain token. In addition, in your Command phase, you can select one objective marker you control that has one or more KABAL units from your army within range of it, then expend 1 Pain token from your Pain token pool. If you do, that objective marker is Secured by your army.",
+      "formattedDescription": "Each time a DRUKHARI unit from your army destroys an enemy unit, if that enemy unit was within range of an objective marker controlled by your opponent at the start of the phase, you gain 1 Pain token. In addition, in your Command phase, you can select one objective marker you control that has one or more KABAL units from your army within range of it, then expend 1 Pain token from your Pain token pool. If you do, that objective marker is Secured by your army."
+    },
+    {
+      "id": "000009440",
+      "name": "Appetite for Adulation",
+      "legend": "Thriving upon the praise their sadistic deeds will earn from their twisted audience, the Wyches fight all the harder and inflict ever-more excessive torments upon their victims.",
+      "rawDescription": "In the Fight phase, if two or more enemy units were destroyed by DRUKHARI units from your army that phase, you gain 1 Pain token. In addition, each time a WYCH CULT unit from your army becomes Empowered in the Fight phase, until the end of the phase, melee weapons equipped by models in that unit have the [ANTi-iNFANTRY 4+] ability.",
+      "formattedDescription": "In the Fight phase, if two or more enemy units were destroyed by DRUKHARI units from your army that phase, you gain 1 Pain token. In addition, each time a WYCH CULT unit from your army becomes Empowered in the Fight phase, until the end of the phase, melee weapons equipped by models in that unit have the [ANTi-iNFANTRY 4+] ability."
+    },
+    {
+      "id": "000009449",
+      "name": "Regenerative Agony",
+      "legend": "The twisted physiologies of the Haemonculus fleshcrafters’ creations are inured to all but the most terrible injuries. The greater and more terrible the agonies inflicted upon their hideous forms, the more formidable their regenerative abilities become.",
+      "rawDescription": "Each time four or more Feel No Pain rolls are successful for HAEMONCULUS COVENS models from your army in a single phase, you gain 1 Pain token. In addition, each battle round, the first time a HAEMONCULUS COVENS unit from your army becomes Empowered in that battle round, roll one D6: on a 2-5, one model in that unit regains 1 lost wound or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining; on a 6, one model in that unit regains up to 2 lost wounds or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining.",
+      "formattedDescription": "Each time four or more Feel No Pain rolls are successful for HAEMONCULUS COVENS models from your army in a single phase, you gain 1 Pain token. In addition, each battle round, the first time a HAEMONCULUS COVENS unit from your army becomes Empowered in that battle round, roll one D6: on a 2-5, one model in that unit regains 1 lost wound or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining; on a 6, one model in that unit regains up to 2 lost wounds or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining."
+    },
+    {
+      "id": "000009780",
+      "name": "Callous Competition",
+      "legend": "In this saedath, the Harlequins embody the Reaper, whilst their Drukhari companions are mortal killers.",
+      "rawDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD.",
+      "formattedDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD."
     }
   ]
 }

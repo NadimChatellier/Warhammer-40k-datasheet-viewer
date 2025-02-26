@@ -24448,6 +24448,22 @@
           "target": "One ASTRA MILITARUM unit (excluding TITANIC units) from your army.",
           "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009798",
+          "name": "Only the Best",
+          "legend": "The soldiers who make up such targeted strike forces are hand-picked for their excellence and – where possible – provided with rigorous additional training to prepare them for conditions and foes on the ground.",
+          "rawDescription": "Each time an ASTRA MILITARUM INFANTRY model from your army makes a ranged attack, re‐roll a Hit roll of 1.",
+          "formattedDescription": "Each time an ASTRA MILITARUM INFANTRY model from your army makes a ranged attack, re‐roll a Hit roll of 1."
+        },
+        {
+          "id": "000009799",
+          "name": "Fire Zone Purge",
+          "legend": "Key to this force’s mission is the swift purgation of local enemy forces through sudden deployment and focused firefights. As such, whether they hit the ground from a low-altitude drop or deploy from armoured transports, the soldiers of this formation are trained to find targets and start shooting the instant the foe is in sight.",
+          "rawDescription": "Each time a MILITARUM TEMPESTUS model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a TRANSPORT, add 1 to the Wound roll.",
+          "formattedDescription": "Each time a MILITARUM TEMPESTUS model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a TRANSPORT, add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -24531,6 +24547,15 @@
           "target": "Any number of ASTRA MILITARUM OFFICER units from your army.",
           "effect": "Until the end of the phase, your Officers can issue Orders to REGIMENT units and SQUADRON units."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008379",
+          "name": "Born Soldiers",
+          "legend": "Regiments of numerous origins and tactical roles inculcate their soldiers from an early age with the legendary doctrines of the Tactica Imperium. Infantry train in close-range fire patterns intended to decimate enemy soldiers, whilst tank crews spend countless hours practising to bring down enemy armour and rampaging monstrosities.",
+          "rawDescription": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
+          "formattedDescription": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
+        }
       ]
     },
     {
@@ -24587,6 +24612,15 @@
           "when": "Your opponent's Movement or Charge phase.",
           "target": "One ASTRA MILITARUM unit from your army (excluding OGRYN units) that has not fired Overwatch this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009379",
+          "name": "Get Down!",
+          "legend": "At a shouted command from their superiors, Imperial Guardsmen throw themselves flat to the decks, allowing the ranks behind to fire over their heads.",
+          "rawDescription": "Each time an ASTRA MILITARUM unit from your army is selected to shoot, you can select one other friendly ASTRA MILITARUM unit (excluding OGRYN units). Until the end of the phase, models in the attacking unit can ignore models in that friendly unit for the purposes of determining visibility.",
+          "formattedDescription": "Each time an ASTRA MILITARUM unit from your army is selected to shoot, you can select one other friendly ASTRA MILITARUM unit (excluding OGRYN units). Until the end of the phase, models in the attacking unit can ignore models in that friendly unit for the purposes of determining visibility."
         }
       ]
     },
@@ -24671,6 +24705,15 @@
           "target": "One ASTRA MILITARUM VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009864",
+          "name": "Iron Tread",
+          "legend": "The armoured spearhead of an Astra Militarum army group grinds relentlessly forward, ploughing through enemy infantry with arrogant disregard.",
+          "rawDescription": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models.",
+          "formattedDescription": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models."
+        }
       ]
     },
     {
@@ -24753,6 +24796,15 @@
           "when": "Start of your opponent’s Charge phase.",
           "target": "One ASTRA MILITARUM GRENADES unit from your army.",
           "effect": "Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009868",
+          "name": "Masters of Camouflage",
+          "legend": "Reconnaissance infantry use face paint, camo-pattern fatigues, ghillie suits and more to conceal themselves from the foe. Vehicles are camouflaged using netting and disruptive camo patterns, enabling them to blend into surrounding terrain. Suitably outfitted, recon forces need only rely upon stealth and concealment rather than heavy armour for protection.",
+          "rawDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+).",
+          "formattedDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+)."
         }
       ]
     },
@@ -24837,6 +24889,15 @@
           "target": "One INFANTRY OFFICER unit from your army embarked within a TRANSPORT. You can use this Stratagem on that unit even though it is embarked within a TRANSPORT.",
           "effect": "Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to ASTRA MILITARUM TRANSPORT units from your army [excluding TITANIC units) regardless of the distance to and from your unit’s TRANSPORT."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009860",
+          "name": "Armoured Fist",
+          "legend": "Astra Militarum mechanised forces combine heavy armour with elite infantry. Reliant on speed and short-ranged firepower, the armoured spearhead hurtles through the enemy line and deploys its cargo of shock troops to cut the enemy down with volleys of lasgun fire.",
+          "rawDescription": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a TRANSPORT, add 1 to the Wound roll.",
+          "formattedDescription": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a TRANSPORT, add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -24920,6 +24981,15 @@
           "target": "One PLATOON unit from your army.",
           "effect": "Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009856",
+          "name": "Artillery Support",
+          "legend": "Artillery barrages lay the ground for the assault to come.",
+          "rawDescription": "At the start of the battle round, select one of the following types of artillery support.Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.BATTLE SIZEMAXIMUM NUMBER OF UNITSIncursion2Strike Force3Onslaught4",
+          "formattedDescription": "At the start of the battle round, select one of the following types of artillery support.Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.BATTLE SIZEMAXIMUM NUMBER OF UNITSIncursion2Strike Force3Onslaught4"
+        }
       ]
     },
     {
@@ -24977,7 +25047,81 @@
           "target": "One OFFICER model from your army.",
           "effect": "Select one Order your model can issue. Every ASTRA MILITARUM unit from your army is issued that Order (regardless of any keywords those units are normally required to have).RESTRICTIONS: Until the end of the turn, OFFICER models from your army cannot issue Orders. You can only use this Stratagem once."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009388",
+          "name": "Purge-Sweep Protocols",
+          "legend": "Tempestus Scions are drilled to progress through voidships chamber by chamber, corridor by corridor, clearing each with blitzing firepower before sweeping on to the next.",
+          "rawDescription": "Each time a MILITARUM TEMPESTUS unit from your army is selected to shoot, if one or more models in that unit are within 1\" of an open Hatchway and every model in that unit is on the same side of that Hatchway, select one enemy unit on the opposite side of that Hatchway from that unit. Until the end of the phase, ranged weapons equipped by models in that unit have the [LETHAL HiTS] ability while targeting that enemy unit.",
+          "formattedDescription": "Each time a MILITARUM TEMPESTUS unit from your army is selected to shoot, if one or more models in that unit are within 1\" of an open Hatchway and every model in that unit is on the same side of that Hatchway, select one enemy unit on the opposite side of that Hatchway from that unit. Until the end of the phase, ranged weapons equipped by models in that unit have the [LETHAL HiTS] ability while targeting that enemy unit."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008379",
+      "name": "Born Soldiers",
+      "legend": "Regiments of numerous origins and tactical roles inculcate their soldiers from an early age with the legendary doctrines of the Tactica Imperium. Infantry train in close-range fire patterns intended to decimate enemy soldiers, whilst tank crews spend countless hours practising to bring down enemy armour and rampaging monstrosities.",
+      "rawDescription": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
+      "formattedDescription": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
+    },
+    {
+      "id": "000009379",
+      "name": "Get Down!",
+      "legend": "At a shouted command from their superiors, Imperial Guardsmen throw themselves flat to the decks, allowing the ranks behind to fire over their heads.",
+      "rawDescription": "Each time an ASTRA MILITARUM unit from your army is selected to shoot, you can select one other friendly ASTRA MILITARUM unit (excluding OGRYN units). Until the end of the phase, models in the attacking unit can ignore models in that friendly unit for the purposes of determining visibility.",
+      "formattedDescription": "Each time an ASTRA MILITARUM unit from your army is selected to shoot, you can select one other friendly ASTRA MILITARUM unit (excluding OGRYN units). Until the end of the phase, models in the attacking unit can ignore models in that friendly unit for the purposes of determining visibility."
+    },
+    {
+      "id": "000009388",
+      "name": "Purge-Sweep Protocols",
+      "legend": "Tempestus Scions are drilled to progress through voidships chamber by chamber, corridor by corridor, clearing each with blitzing firepower before sweeping on to the next.",
+      "rawDescription": "Each time a MILITARUM TEMPESTUS unit from your army is selected to shoot, if one or more models in that unit are within 1\" of an open Hatchway and every model in that unit is on the same side of that Hatchway, select one enemy unit on the opposite side of that Hatchway from that unit. Until the end of the phase, ranged weapons equipped by models in that unit have the [LETHAL HiTS] ability while targeting that enemy unit.",
+      "formattedDescription": "Each time a MILITARUM TEMPESTUS unit from your army is selected to shoot, if one or more models in that unit are within 1\" of an open Hatchway and every model in that unit is on the same side of that Hatchway, select one enemy unit on the opposite side of that Hatchway from that unit. Until the end of the phase, ranged weapons equipped by models in that unit have the [LETHAL HiTS] ability while targeting that enemy unit."
+    },
+    {
+      "id": "000009798",
+      "name": "Only the Best",
+      "legend": "The soldiers who make up such targeted strike forces are hand-picked for their excellence and – where possible – provided with rigorous additional training to prepare them for conditions and foes on the ground.",
+      "rawDescription": "Each time an ASTRA MILITARUM INFANTRY model from your army makes a ranged attack, re‐roll a Hit roll of 1.",
+      "formattedDescription": "Each time an ASTRA MILITARUM INFANTRY model from your army makes a ranged attack, re‐roll a Hit roll of 1."
+    },
+    {
+      "id": "000009799",
+      "name": "Fire Zone Purge",
+      "legend": "Key to this force’s mission is the swift purgation of local enemy forces through sudden deployment and focused firefights. As such, whether they hit the ground from a low-altitude drop or deploy from armoured transports, the soldiers of this formation are trained to find targets and start shooting the instant the foe is in sight.",
+      "rawDescription": "Each time a MILITARUM TEMPESTUS model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a TRANSPORT, add 1 to the Wound roll.",
+      "formattedDescription": "Each time a MILITARUM TEMPESTUS model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a TRANSPORT, add 1 to the Wound roll."
+    },
+    {
+      "id": "000009856",
+      "name": "Artillery Support",
+      "legend": "Artillery barrages lay the ground for the assault to come.",
+      "rawDescription": "At the start of the battle round, select one of the following types of artillery support.Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.BATTLE SIZEMAXIMUM NUMBER OF UNITSIncursion2Strike Force3Onslaught4",
+      "formattedDescription": "At the start of the battle round, select one of the following types of artillery support.Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.BATTLE SIZEMAXIMUM NUMBER OF UNITSIncursion2Strike Force3Onslaught4"
+    },
+    {
+      "id": "000009860",
+      "name": "Armoured Fist",
+      "legend": "Astra Militarum mechanised forces combine heavy armour with elite infantry. Reliant on speed and short-ranged firepower, the armoured spearhead hurtles through the enemy line and deploys its cargo of shock troops to cut the enemy down with volleys of lasgun fire.",
+      "rawDescription": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a TRANSPORT, add 1 to the Wound roll.",
+      "formattedDescription": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a TRANSPORT, add 1 to the Wound roll."
+    },
+    {
+      "id": "000009864",
+      "name": "Iron Tread",
+      "legend": "The armoured spearhead of an Astra Militarum army group grinds relentlessly forward, ploughing through enemy infantry with arrogant disregard.",
+      "rawDescription": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models.",
+      "formattedDescription": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models."
+    },
+    {
+      "id": "000009868",
+      "name": "Masters of Camouflage",
+      "legend": "Reconnaissance infantry use face paint, camo-pattern fatigues, ghillie suits and more to conceal themselves from the foe. Vehicles are camouflaged using netting and disruptive camo patterns, enabling them to blend into surrounding terrain. Suitably outfitted, recon forces need only rely upon stealth and concealment rather than heavy armour for protection.",
+      "rawDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+).",
+      "formattedDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+)."
     }
   ]
 }

@@ -8320,6 +8320,15 @@
           "target": "One RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit from your army that has not been selected to shoot this phase.",
           "effect": "Select one closed Hatchway. Until the end of the phase, models in your unit can make attacks with ranged weapons (excluding Torrent weapons) that target enemy units within 1\" of that Hatchway and that are wholly on the opposite side of it from your unit, as if that Hatchway was open. Each time a model does so, that attack has an Armour Penetration characteristic of 0."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009653",
+          "name": "Witchsight",
+          "legend": "Those who possess the favour of Tzeentch may gain the benefit of the Change Gods all-seeing eye. No foe can hope to conceal themselves from their piercing gaze.",
+          "rawDescription": "Ranged weapons equipped by THOUSAND SONS models from your army have the [iGNORES COvER] ability.",
+          "formattedDescription": "Ranged weapons equipped by THOUSAND SONS models from your army have the [iGNORES COvER] ability."
+        }
       ]
     },
     {
@@ -8403,6 +8412,15 @@
           "target": "One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.",
           "effect": "Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008425",
+          "name": "Kindred Sorcery",
+          "legend": "For an instant, the chanting voices of the Thousand Sons achieve perfect synchronisation, words of malign incantation rolling out like the peal of some cursed bell amidst the empyrean.",
+          "rawDescription": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase.MALEVOLENT CHARGEPsychic weapons equipped by THOUSAND SONS models from your army have the [LETHAL HITS] ability.PSYCHIC MAELSTROMPsychic weapons equipped by THOUSAND SONS models from your army have the [SUSTAINED HITS 1] ability.WRATH OF THE IMMATERIUMPsychic weapons equipped by THOUSAND SONS models from your army have the [DEVASTATING WOUNDS] ability.",
+          "formattedDescription": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase.MALEVOLENT CHARGEPsychic weapons equipped by THOUSAND SONS models from your army have the [LETHAL HITS] ability.PSYCHIC MAELSTROMPsychic weapons equipped by THOUSAND SONS models from your army have the [SUSTAINED HITS 1] ability.WRATH OF THE IMMATERIUMPsychic weapons equipped by THOUSAND SONS models from your army have the [DEVASTATING WOUNDS] ability."
+        }
       ]
     },
     {
@@ -8460,6 +8478,15 @@
           "target": "One THOUSAND SONS CHARACTER or TZAANGORS unit from your army.",
           "effect": "Select one enemy unit below its Starting Strength that is within Engagement Range of your unit. That enemy unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009662",
+          "name": "Fervent Devotees",
+          "legend": "The Human and mutant thralls of the Thousand Sons seek to earn the favour of their Chaos Space Marine masters by enacting rituals and offering sacrifices in the name of the Lord of Change. Thus do they hurl themselves upon the foe in frothing tides of wild aggression.",
+          "rawDescription": "Melee weapons equipped by THOUSAND SONS models from your army have the [SUSTAiNED HiTS 1] ability while targeting an enemy unit within range of an objective marker.",
+          "formattedDescription": "Melee weapons equipped by THOUSAND SONS models from your army have the [SUSTAiNED HiTS 1] ability while targeting an enemy unit within range of an objective marker."
+        }
       ]
     },
     {
@@ -8516,6 +8543,15 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009671",
+          "name": "Methodical Conquest",
+          "legend": "Too much is at stake and the prize too close to risk being reckless now. Instead, the Thousand Sons advance in steady and relentless lockstep, sweeping for threats and eliminating them as they arise.",
+          "rawDescription": "Each time a THOUSAND SONS model from your army makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6. In addition, SCARAB OCCULT TERMINATORS units from your army can perform the Set Overwatch Tactical Manoeuvre in the same turn as performing the Secure Site Tactical Manoeuvre.",
+          "formattedDescription": "Each time a THOUSAND SONS model from your army makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6. In addition, SCARAB OCCULT TERMINATORS units from your army can perform the Set Overwatch Tactical Manoeuvre in the same turn as performing the Secure Site Tactical Manoeuvre."
         }
       ]
     },
@@ -8600,7 +8636,53 @@
           "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase and is wholly within your army’s Flow of Magic.",
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has shot this phase, select one enemy unit hit by one or more of those attacks. Until the end of the phase, models in that unit cannot have the Benefit of Cover."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009740",
+          "name": "Flow of Magic",
+          "legend": "With each site seized by the thrallband’s warriors, the flow of arcane energies increases, and the veil between reality and the Warp erodes. The resultant influxes of Warp energy are potent enough to invoke the flesh-change and must be channelled carefully by the thrallband’s Sorcerers. With masterful skill, they wield these mutagenic energies, expertly syphoning excess magic to empower themselves and the warriors at their command while maintaining control of their ever-expanding ritual.",
+          "rawDescription": "Certain areas of the battlefield are within your army’s Flow of Magic, as follows:Your deployment zone is always within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic.Each time a THOUSAND SONS model from your army makes a Psychic Attack, re-roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead.",
+          "formattedDescription": "Certain areas of the battlefield are within your army’s Flow of Magic, as follows:Your deployment zone is always within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic.Each time a THOUSAND SONS model from your army makes a Psychic Attack, re-roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008425",
+      "name": "Kindred Sorcery",
+      "legend": "For an instant, the chanting voices of the Thousand Sons achieve perfect synchronisation, words of malign incantation rolling out like the peal of some cursed bell amidst the empyrean.",
+      "rawDescription": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase.MALEVOLENT CHARGEPsychic weapons equipped by THOUSAND SONS models from your army have the [LETHAL HITS] ability.PSYCHIC MAELSTROMPsychic weapons equipped by THOUSAND SONS models from your army have the [SUSTAINED HITS 1] ability.WRATH OF THE IMMATERIUMPsychic weapons equipped by THOUSAND SONS models from your army have the [DEVASTATING WOUNDS] ability.",
+      "formattedDescription": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase.MALEVOLENT CHARGEPsychic weapons equipped by THOUSAND SONS models from your army have the [LETHAL HITS] ability.PSYCHIC MAELSTROMPsychic weapons equipped by THOUSAND SONS models from your army have the [SUSTAINED HITS 1] ability.WRATH OF THE IMMATERIUMPsychic weapons equipped by THOUSAND SONS models from your army have the [DEVASTATING WOUNDS] ability."
+    },
+    {
+      "id": "000009653",
+      "name": "Witchsight",
+      "legend": "Those who possess the favour of Tzeentch may gain the benefit of the Change Gods all-seeing eye. No foe can hope to conceal themselves from their piercing gaze.",
+      "rawDescription": "Ranged weapons equipped by THOUSAND SONS models from your army have the [iGNORES COvER] ability.",
+      "formattedDescription": "Ranged weapons equipped by THOUSAND SONS models from your army have the [iGNORES COvER] ability."
+    },
+    {
+      "id": "000009662",
+      "name": "Fervent Devotees",
+      "legend": "The Human and mutant thralls of the Thousand Sons seek to earn the favour of their Chaos Space Marine masters by enacting rituals and offering sacrifices in the name of the Lord of Change. Thus do they hurl themselves upon the foe in frothing tides of wild aggression.",
+      "rawDescription": "Melee weapons equipped by THOUSAND SONS models from your army have the [SUSTAiNED HiTS 1] ability while targeting an enemy unit within range of an objective marker.",
+      "formattedDescription": "Melee weapons equipped by THOUSAND SONS models from your army have the [SUSTAiNED HiTS 1] ability while targeting an enemy unit within range of an objective marker."
+    },
+    {
+      "id": "000009671",
+      "name": "Methodical Conquest",
+      "legend": "Too much is at stake and the prize too close to risk being reckless now. Instead, the Thousand Sons advance in steady and relentless lockstep, sweeping for threats and eliminating them as they arise.",
+      "rawDescription": "Each time a THOUSAND SONS model from your army makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6. In addition, SCARAB OCCULT TERMINATORS units from your army can perform the Set Overwatch Tactical Manoeuvre in the same turn as performing the Secure Site Tactical Manoeuvre.",
+      "formattedDescription": "Each time a THOUSAND SONS model from your army makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6. In addition, SCARAB OCCULT TERMINATORS units from your army can perform the Set Overwatch Tactical Manoeuvre in the same turn as performing the Secure Site Tactical Manoeuvre."
+    },
+    {
+      "id": "000009740",
+      "name": "Flow of Magic",
+      "legend": "With each site seized by the thrallband’s warriors, the flow of arcane energies increases, and the veil between reality and the Warp erodes. The resultant influxes of Warp energy are potent enough to invoke the flesh-change and must be channelled carefully by the thrallband’s Sorcerers. With masterful skill, they wield these mutagenic energies, expertly syphoning excess magic to empower themselves and the warriors at their command while maintaining control of their ever-expanding ritual.",
+      "rawDescription": "Certain areas of the battlefield are within your army’s Flow of Magic, as follows:Your deployment zone is always within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic.Each time a THOUSAND SONS model from your army makes a Psychic Attack, re-roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead.",
+      "formattedDescription": "Certain areas of the battlefield are within your army’s Flow of Magic, as follows:Your deployment zone is always within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic.Each time a THOUSAND SONS model from your army makes a Psychic Attack, re-roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead."
     }
   ]
 }

@@ -6589,6 +6589,15 @@
           "target": "One GREY KNIGHTS unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, improve the Armour Penetration characteristic of storm bolters equipped by models in your unit by 1."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009492",
+          "name": "Pre-Emptive Strike",
+          "legend": "Employing ancient teleportation technologies, the Grey Knights are able to strike deep into enemy vessels or reposition with supernatural haste to defend vital sites on their own ships.",
+          "rawDescription": "In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge.",
+          "formattedDescription": "In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge."
+        }
       ]
     },
     {
@@ -6672,6 +6681,15 @@
           "target": "One GREY KNIGHTS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
           "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008455",
+          "name": "Teleport Shunt",
+          "legend": "Hardened against the corrupting touch of Chaos, protected by silver sigils and the warriors’ own purity of spirit, Grey Knights are capable of enduring rapid and repeated submersions in the warp. When a lightning-fast purgation is required, orbiting strike cruisers maintain a constant spiritual lock on their battle-brothers, enabling Grey Knights to perform short-ranged teleportations. Flickering in and out of reality, this exceptional mobility allows them to outmanoeuvre the most otherworldly of enemies.",
+          "rawDescription": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can FLY.",
+          "formattedDescription": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can FLY."
+        }
       ]
     },
     {
@@ -6728,6 +6746,15 @@
           "when": "Fight phase.",
           "target": "One GREY KNIGHTS unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009484",
+          "name": "An Urgent Duty",
+          "legend": "None can be allowed to reach an escape craft or get a distress call away - the purge must be swift and total. This knowledge lends the Grey Knights even greater urgency.",
+          "rawDescription": "Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army.",
+          "formattedDescription": "Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army."
         }
       ]
     },
@@ -6812,7 +6839,46 @@
           "target": "One PURIFIER SQUAD unit from your army that was eligible to fight this phase.",
           "effect": "Roll one D6 for each enemy unit within 6\" of your unit, adding 1 to the result if your unit includes CASTELLAN CROWE: on a 4+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009776",
+          "name": "Hallowed Ground",
+          "legend": "Purging corrupted nodes of Warp energy, the Grey Knights establish an ever-expanding area of hallowed ground within which their psychic powers and indomitable resolve are greatly enhanced.",
+          "rawDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead.",
+          "formattedDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008455",
+      "name": "Teleport Shunt",
+      "legend": "Hardened against the corrupting touch of Chaos, protected by silver sigils and the warriors’ own purity of spirit, Grey Knights are capable of enduring rapid and repeated submersions in the warp. When a lightning-fast purgation is required, orbiting strike cruisers maintain a constant spiritual lock on their battle-brothers, enabling Grey Knights to perform short-ranged teleportations. Flickering in and out of reality, this exceptional mobility allows them to outmanoeuvre the most otherworldly of enemies.",
+      "rawDescription": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can FLY.",
+      "formattedDescription": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can FLY."
+    },
+    {
+      "id": "000009484",
+      "name": "An Urgent Duty",
+      "legend": "None can be allowed to reach an escape craft or get a distress call away - the purge must be swift and total. This knowledge lends the Grey Knights even greater urgency.",
+      "rawDescription": "Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army.",
+      "formattedDescription": "Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army."
+    },
+    {
+      "id": "000009492",
+      "name": "Pre-Emptive Strike",
+      "legend": "Employing ancient teleportation technologies, the Grey Knights are able to strike deep into enemy vessels or reposition with supernatural haste to defend vital sites on their own ships.",
+      "rawDescription": "In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge.",
+      "formattedDescription": "In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge."
+    },
+    {
+      "id": "000009776",
+      "name": "Hallowed Ground",
+      "legend": "Purging corrupted nodes of Warp energy, the Grey Knights establish an ever-expanding area of hallowed ground within which their psychic powers and indomitable resolve are greatly enhanced.",
+      "rawDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead.",
+      "formattedDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead."
     }
   ]
 }

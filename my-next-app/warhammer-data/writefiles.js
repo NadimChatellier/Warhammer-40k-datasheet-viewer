@@ -971,6 +971,108 @@ async function parseStratagems() {
 }
 
 
+function splitAbilityDescription(description) {
+  return {
+    rawDescription: description,
+    formattedDescription: description.replace(/<[^>]*>/g, ""), // Remove HTML tags
+  };
+}
+
+
+async function parseDetachmentAbilities() {
+  return new Promise((resolve, reject) => {
+    let buffer = "";
+
+    // Define file path for detachment abilities CSV
+    const abilitiesFilePath = path.join(__dirname, "warhammer-csvs", "Detachment_abilities.csv");
+    console.log(`📂 Reading Detachment Abilities from: ${abilitiesFilePath}`);
+
+    // Read entire CSV file into a buffer
+    fs.createReadStream(abilitiesFilePath, { encoding: "utf8" })
+      .on("data", (chunk) => {
+        buffer += chunk;
+      })
+      .on("end", () => {
+        const rows = buffer.split("\r\n").filter((row) => row.trim() !== "");
+
+        // Process each row from CSV
+        rows.forEach((line) => {
+          const fields = line.split("|").map((f) => f.trim());
+
+          if (fields.length < 6) {
+            console.log("⚠️ Skipping malformed ability row:", line);
+            return;
+          }
+
+          const [id, faction_id, name, legend, description, detachment] = fields;
+
+          console.log(`🔍 Processing ability "${name}" for faction_id: ${faction_id}, detachment: ${detachment}`);
+
+          // Find the faction by faction_id
+          const foundFactionData = findFactionById(faction_id);
+          if (!foundFactionData) {
+            console.log(`⚠️ Skipping: No faction found with faction_id: ${faction_id}`);
+            return;
+          }
+
+          const { faction, factionKey } = foundFactionData;
+
+          // Ensure faction has detachment abilities key
+          if (!faction.detachmentAbilities) {
+            faction.detachmentAbilities = [];
+          }
+
+          // Ensure the detachments key exists in the faction
+          if (!faction.detachments) {
+            faction.detachments = [];
+          }
+
+          // Find or create the detachment
+          let detachmentObj = faction.detachments.find((det) => det.name === detachment);
+          if (!detachmentObj) {
+            detachmentObj = { name: detachment, abilities: [] };
+            faction.detachments.push(detachmentObj);
+          }
+
+          // Ensure the abilities key exists in the detachment
+          if (!detachmentObj.abilities) {
+            detachmentObj.abilities = [];
+          }
+
+          // Prevent duplicate abilities
+          const isDuplicate = detachmentObj.abilities.some((existingAbility) => existingAbility.id === id);
+          if (isDuplicate) {
+            console.log(`⚠️ Duplicate ability "${name}" found in detachment "${detachment}", skipping...`);
+            return;
+          }
+
+          // **New:** Clean and structure the description
+          const structuredDescription = splitAbilityDescription(cleanText(description));
+
+          // Add ability to detachment
+          const abilityData = {
+            id,
+            name,
+            legend,
+            ...structuredDescription, // Spread structured description parts
+          };
+
+          detachmentObj.abilities.push(abilityData);
+          faction.detachmentAbilities.push(abilityData); // Also store in faction-level abilities for global access
+
+          console.log(`✅ Added ability "${name}" to detachment "${detachment}" for faction "${factionKey}"`);
+        });
+
+        console.log("🎉 All detachment abilities successfully parsed and assigned.");
+        resolve();
+      })
+      .on("error", (err) => {
+        console.error(`❌ Error reading detachment abilities file: ${err.message}`);
+        reject(err);
+      });
+  });
+}
+
 
 
 /**
@@ -990,6 +1092,7 @@ async function processWarhammerData() {
     await addLeadsToLeaders();
     await parseUnitOptions();
     await parseStratagems();
+    await parseDetachmentAbilities();
     await writeFactionFiles();
   } catch (error) {
     console.error('❌ Process failed:', error);

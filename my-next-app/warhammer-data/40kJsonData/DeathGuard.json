@@ -9692,6 +9692,15 @@
           "target": "One DEATH GUARD TERMINATOR unit from your army that is not within Engagement Range of one or more enemy units.",
           "effect": "Select one objective marker within Contagion Range of and visible to your unit. That objective marker is Secured by your army.RESTRICTIONS: You can only use this Stratagem once and, until the end of the turn, your unit is not eligible to shoot or declare a charge."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009415",
+          "name": "Inescapable Corruption",
+          "legend": "The combined plague blessings of so many champions of the Plague God is universally contagious, a dreadful omnirot that infests flesh, metal and even the minds and souls of its victims.",
+          "rawDescription": "Each time an enemy unit is selected to perform a Tactical Manoeuvre, if that unit is within Contagion Range of one or more units from your army, that enemy unit must take a Leadership test. If that test is failed, that Tactical Manoeuvre has no effect (that enemy unit is still eligible to shoot and declare a charge this turn as normal).In addition, in your Command phase, roll one D6 for each objective marker that is within Contagion Range of one or more units from your army and is Secured by your opponent’s army: on a 5+, that objective marker is no longer Secured by your opponent’s army.",
+          "formattedDescription": "Each time an enemy unit is selected to perform a Tactical Manoeuvre, if that unit is within Contagion Range of one or more units from your army, that enemy unit must take a Leadership test. If that test is failed, that Tactical Manoeuvre has no effect (that enemy unit is still eligible to shoot and declare a charge this turn as normal).In addition, in your Command phase, roll one D6 for each objective marker that is within Contagion Range of one or more units from your army and is Secured by your opponent’s army: on a 5+, that objective marker is no longer Secured by your opponent’s army."
+        }
       ]
     },
     {
@@ -9748,6 +9757,15 @@
           "when": "Your Movement phase, when a DEATH GUARD unit from your army (excluding CULTISTS and POXWALKERS units) attempts to open a Hatchway.",
           "target": "That DEATH GUARD unit.",
           "effect": "Select one enemy unit within 1\" of your unit and on the opposite side of that Hatchway from your unit, and roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds. Until the end of the phase, if an enemy unit attempts to prevent that Hatchway from being opened, when rolling off, you can re-roll your result."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009397",
+          "name": "Sevenfold Offerings",
+          "legend": "Seven by seven the enemy fall, reaped like blighted crops or rotted from within. Seven by seven their souls are offered up to the Lord of Pestilence.",
+          "rawDescription": "For every seven enemy models that have been destroyed, add 2\" to the Contagion Range of units from your army. Note that any increase to the Contagion Range of units from your army as a result of this rule does not take place while a unit from your army is attacking. In such an event, the increase will take effect after such a unit has finished making its attacks.",
+          "formattedDescription": "For every seven enemy models that have been destroyed, add 2\" to the Contagion Range of units from your army. Note that any increase to the Contagion Range of units from your army as a result of this rule does not take place while a unit from your army is attacking. In such an event, the increase will take effect after such a unit has finished making its attacks."
         }
       ]
     },
@@ -9832,6 +9850,15 @@
           "target": "That DEATH GUARD INFANTRY unit.",
           "effect": "Select one enemy unit within Engagement Range of your unit (excluding MONSTERS and VEHICLES). Roll one D6 for each model in your unit that is within Engagement Range of that unit, adding 1 to the result if that model is not a CULTIST or POXWALKER model: for each 5+, the selected enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009728",
+          "name": "Verminous Haze",
+          "legend": "A cloud of winged insects descends over Mortarion’s pathogenic sons, obscuring their malodorous ranks and shielding them from the eyes and augurs of the enemy. Beneath thrumming storms of fat-bodied flies, Plague Marines stride towards their wavering foes until they are close enough to unleash punishing volleys of killing fire.",
+          "rawDescription": "DEATH GUARD INFANTRY units from your army that are not embarked within a TRANSPORT have the Scouts 5\" and Stealth abilities.",
+          "formattedDescription": "DEATH GUARD INFANTRY units from your army that are not embarked within a TRANSPORT have the Scouts 5\" and Stealth abilities."
+        }
       ]
     },
     {
@@ -9915,6 +9942,15 @@
           "target": "One DEATH GUARD unit from your army, and one enemy unit within Contagion Range of that unit.",
           "effect": "Until the end of the phase, each time a weapon equipped by a DEATH GUARD model from your army targets that enemy unit, that weapon has the [HEAVY] and [IGNORES COVER] abilities."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008398",
+          "name": "Spread the Sickness",
+          "legend": "To the Death Guard, spreading Nurgle’s gifts goes beyond the beings they fight – even the landscapes they tread upon they seek to corrupt, cultivating Nurgle’s garden as widely as possible.",
+          "rawDescription": "During the Declare Battle Formations step, select one of the Sicknesses below. Until the end of the battle, all units from your army with the Nurgle’s Gift ability gain the selected Sickness.Skullsquirm Blight (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Ballistic Skill and Weapon Skill characteristics of weapons equipped by models in that enemy unit by 1.Rattlejoint Ague (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Save characteristic of models in that enemy unit by 1.Scabrous Soulrot (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Leadership and Objective Control characteristics of models in that enemy unit by 1 (to a minimum of 1).If you control an objective marker at the end of your Command phase and a DEATH GUARD unit from your army is within range of that objective marker, that objective marker is said to be Infected and remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Infected and under your control, it has the Nurgle’s Gift ability as if it were a unit from your army (so enemy units within Contagion Range of it will have their characteristics modified).",
+          "formattedDescription": "During the Declare Battle Formations step, select one of the Sicknesses below. Until the end of the battle, all units from your army with the Nurgle’s Gift ability gain the selected Sickness.Skullsquirm Blight (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Ballistic Skill and Weapon Skill characteristics of weapons equipped by models in that enemy unit by 1.Rattlejoint Ague (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Save characteristic of models in that enemy unit by 1.Scabrous Soulrot (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Leadership and Objective Control characteristics of models in that enemy unit by 1 (to a minimum of 1).If you control an objective marker at the end of your Command phase and a DEATH GUARD unit from your army is within range of that objective marker, that objective marker is said to be Infected and remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Infected and under your control, it has the Nurgle’s Gift ability as if it were a unit from your army (so enemy units within Contagion Range of it will have their characteristics modified)."
+        }
       ]
     },
     {
@@ -9972,7 +10008,53 @@
           "target": "One POXWALKERS unit from your army that is in Reserves.",
           "effect": "Until the end of the phase, your unit has the Deep Strike ability.RESTRICTIONS: You can only use this Stratagem once."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009407",
+          "name": "Relentless Spread",
+          "legend": "Like a virus seeking fresh hosts, the unclean worshippers of the Plague God spill through the ships corridors on the hunt for untainted souls.",
+          "rawDescription": "Each time a DEATH GUARD unit from your army makes a Consolidation move:It can move up to D3+3\" instead of up to 3\".If it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.",
+          "formattedDescription": "Each time a DEATH GUARD unit from your army makes a Consolidation move:It can move up to D3+3\" instead of up to 3\".If it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008398",
+      "name": "Spread the Sickness",
+      "legend": "To the Death Guard, spreading Nurgle’s gifts goes beyond the beings they fight – even the landscapes they tread upon they seek to corrupt, cultivating Nurgle’s garden as widely as possible.",
+      "rawDescription": "During the Declare Battle Formations step, select one of the Sicknesses below. Until the end of the battle, all units from your army with the Nurgle’s Gift ability gain the selected Sickness.Skullsquirm Blight (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Ballistic Skill and Weapon Skill characteristics of weapons equipped by models in that enemy unit by 1.Rattlejoint Ague (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Save characteristic of models in that enemy unit by 1.Scabrous Soulrot (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Leadership and Objective Control characteristics of models in that enemy unit by 1 (to a minimum of 1).If you control an objective marker at the end of your Command phase and a DEATH GUARD unit from your army is within range of that objective marker, that objective marker is said to be Infected and remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Infected and under your control, it has the Nurgle’s Gift ability as if it were a unit from your army (so enemy units within Contagion Range of it will have their characteristics modified).",
+      "formattedDescription": "During the Declare Battle Formations step, select one of the Sicknesses below. Until the end of the battle, all units from your army with the Nurgle’s Gift ability gain the selected Sickness.Skullsquirm Blight (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Ballistic Skill and Weapon Skill characteristics of weapons equipped by models in that enemy unit by 1.Rattlejoint Ague (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Save characteristic of models in that enemy unit by 1.Scabrous Soulrot (Aura): While an enemy unit is within Contagion Range of this unit, worsen the Leadership and Objective Control characteristics of models in that enemy unit by 1 (to a minimum of 1).If you control an objective marker at the end of your Command phase and a DEATH GUARD unit from your army is within range of that objective marker, that objective marker is said to be Infected and remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Infected and under your control, it has the Nurgle’s Gift ability as if it were a unit from your army (so enemy units within Contagion Range of it will have their characteristics modified)."
+    },
+    {
+      "id": "000009397",
+      "name": "Sevenfold Offerings",
+      "legend": "Seven by seven the enemy fall, reaped like blighted crops or rotted from within. Seven by seven their souls are offered up to the Lord of Pestilence.",
+      "rawDescription": "For every seven enemy models that have been destroyed, add 2\" to the Contagion Range of units from your army. Note that any increase to the Contagion Range of units from your army as a result of this rule does not take place while a unit from your army is attacking. In such an event, the increase will take effect after such a unit has finished making its attacks.",
+      "formattedDescription": "For every seven enemy models that have been destroyed, add 2\" to the Contagion Range of units from your army. Note that any increase to the Contagion Range of units from your army as a result of this rule does not take place while a unit from your army is attacking. In such an event, the increase will take effect after such a unit has finished making its attacks."
+    },
+    {
+      "id": "000009407",
+      "name": "Relentless Spread",
+      "legend": "Like a virus seeking fresh hosts, the unclean worshippers of the Plague God spill through the ships corridors on the hunt for untainted souls.",
+      "rawDescription": "Each time a DEATH GUARD unit from your army makes a Consolidation move:It can move up to D3+3\" instead of up to 3\".If it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction.",
+      "formattedDescription": "Each time a DEATH GUARD unit from your army makes a Consolidation move:It can move up to D3+3\" instead of up to 3\".If it cannot end that move within Engagement Range of one or more enemy units that are visible to it (and in Unit Coherency), it can still make that Consolidation move, and when doing so can move in any direction."
+    },
+    {
+      "id": "000009415",
+      "name": "Inescapable Corruption",
+      "legend": "The combined plague blessings of so many champions of the Plague God is universally contagious, a dreadful omnirot that infests flesh, metal and even the minds and souls of its victims.",
+      "rawDescription": "Each time an enemy unit is selected to perform a Tactical Manoeuvre, if that unit is within Contagion Range of one or more units from your army, that enemy unit must take a Leadership test. If that test is failed, that Tactical Manoeuvre has no effect (that enemy unit is still eligible to shoot and declare a charge this turn as normal).In addition, in your Command phase, roll one D6 for each objective marker that is within Contagion Range of one or more units from your army and is Secured by your opponent’s army: on a 5+, that objective marker is no longer Secured by your opponent’s army.",
+      "formattedDescription": "Each time an enemy unit is selected to perform a Tactical Manoeuvre, if that unit is within Contagion Range of one or more units from your army, that enemy unit must take a Leadership test. If that test is failed, that Tactical Manoeuvre has no effect (that enemy unit is still eligible to shoot and declare a charge this turn as normal).In addition, in your Command phase, roll one D6 for each objective marker that is within Contagion Range of one or more units from your army and is Secured by your opponent’s army: on a 5+, that objective marker is no longer Secured by your opponent’s army."
+    },
+    {
+      "id": "000009728",
+      "name": "Verminous Haze",
+      "legend": "A cloud of winged insects descends over Mortarion’s pathogenic sons, obscuring their malodorous ranks and shielding them from the eyes and augurs of the enemy. Beneath thrumming storms of fat-bodied flies, Plague Marines stride towards their wavering foes until they are close enough to unleash punishing volleys of killing fire.",
+      "rawDescription": "DEATH GUARD INFANTRY units from your army that are not embarked within a TRANSPORT have the Scouts 5\" and Stealth abilities.",
+      "formattedDescription": "DEATH GUARD INFANTRY units from your army that are not embarked within a TRANSPORT have the Scouts 5\" and Stealth abilities."
     }
   ]
 }

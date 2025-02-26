@@ -3010,6 +3010,15 @@
           "target": "One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.",
           "effect": "Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.RESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009822",
+          "name": "Methodical Annihilation",
+          "legend": "With their minds entirely focused on the singular mission with which they have been charged, the Kin work to blast a path through the enemy lines with the same tenacity as a Brôkhyr beating metal or a Cthonian miner splitting bedrock.",
+          "rawDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1.",
+          "formattedDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1."
+        }
       ]
     },
     {
@@ -3066,6 +3075,15 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009536",
+          "name": "Wrought in Wrath",
+          "legend": "The Einhyr know that they bear the weight of the ancestors’ expectations in this battle. To live up to them, they must strike with the fury of the very hearth fires of their Hold.",
+          "rawDescription": "Add 1 to Advance and Charge rolls made for LEAGUES OF VOTANN units from your army.",
+          "formattedDescription": "Add 1 to Advance and Charge rolls made for LEAGUES OF VOTANN units from your army."
         }
       ]
     },
@@ -3150,6 +3168,15 @@
           "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack targets your LEAGUES OF VOTANN unit, worsen the Armour Penteration characteristic of that attack by 1."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008497",
+          "name": "Ruthless Efficiency",
+          "legend": "The Kin of an Oathband are skilled warriors and ruthless expansionists, instinctively working together to defeat their foes and efficiently achieve their aims. As with everything, they approach war with a grim, methodical pragmatism that is an inspiration to other Kin.",
+          "rawDescription": "At the start of the battle, select a number of units from your opponent’s army depending on the battle size, as shown below:Incursion: 2 unitsStrike Force: 4 unitsOnslaught: 6 unitsEach of those units start the battle with 2 Judgement tokens (see Eye of the Ancestors).If, at the start of any of your Command phases, any of those units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).Unit destroyed by the start of your first or second Command phase:You gain3CPUnit destroyed by the start of your third or fourth Command phase:You gain2CPUnit destroyed by the start of your fifth Command phase:You gain1CP",
+          "formattedDescription": "At the start of the battle, select a number of units from your opponent’s army depending on the battle size, as shown below:Incursion: 2 unitsStrike Force: 4 unitsOnslaught: 6 unitsEach of those units start the battle with 2 Judgement tokens (see Eye of the Ancestors).If, at the start of any of your Command phases, any of those units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).Unit destroyed by the start of your first or second Command phase:You gain3CPUnit destroyed by the start of your third or fourth Command phase:You gain2CPUnit destroyed by the start of your fifth Command phase:You gain1CP"
+        }
       ]
     },
     {
@@ -3207,7 +3234,46 @@
           "target": "One LEAGUES OF VOTANN unit from your army.",
           "effect": "Select one closed Hatchway on the battlefield and open it.RESTRICTIONS: You can only use this Stratagem once."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009528",
+          "name": "Stalwart Advance",
+          "legend": "The Kin proceed with steadfast determination, exterminating all resistance and securing decks one at a time. Aggressively yet methodically, resistance is swept aside.",
+          "rawDescription": "In your Shooting phase, each time a LEAGUES OF VOTANN unit from your army has shot, if one or more enemy units were destroyed by those attacks and that LEAGUES OF VOTANN unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway.",
+          "formattedDescription": "In your Shooting phase, each time a LEAGUES OF VOTANN unit from your army has shot, if one or more enemy units were destroyed by those attacks and that LEAGUES OF VOTANN unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008497",
+      "name": "Ruthless Efficiency",
+      "legend": "The Kin of an Oathband are skilled warriors and ruthless expansionists, instinctively working together to defeat their foes and efficiently achieve their aims. As with everything, they approach war with a grim, methodical pragmatism that is an inspiration to other Kin.",
+      "rawDescription": "At the start of the battle, select a number of units from your opponent’s army depending on the battle size, as shown below:Incursion: 2 unitsStrike Force: 4 unitsOnslaught: 6 unitsEach of those units start the battle with 2 Judgement tokens (see Eye of the Ancestors).If, at the start of any of your Command phases, any of those units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).Unit destroyed by the start of your first or second Command phase:You gain3CPUnit destroyed by the start of your third or fourth Command phase:You gain2CPUnit destroyed by the start of your fifth Command phase:You gain1CP",
+      "formattedDescription": "At the start of the battle, select a number of units from your opponent’s army depending on the battle size, as shown below:Incursion: 2 unitsStrike Force: 4 unitsOnslaught: 6 unitsEach of those units start the battle with 2 Judgement tokens (see Eye of the Ancestors).If, at the start of any of your Command phases, any of those units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).Unit destroyed by the start of your first or second Command phase:You gain3CPUnit destroyed by the start of your third or fourth Command phase:You gain2CPUnit destroyed by the start of your fifth Command phase:You gain1CP"
+    },
+    {
+      "id": "000009528",
+      "name": "Stalwart Advance",
+      "legend": "The Kin proceed with steadfast determination, exterminating all resistance and securing decks one at a time. Aggressively yet methodically, resistance is swept aside.",
+      "rawDescription": "In your Shooting phase, each time a LEAGUES OF VOTANN unit from your army has shot, if one or more enemy units were destroyed by those attacks and that LEAGUES OF VOTANN unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway.",
+      "formattedDescription": "In your Shooting phase, each time a LEAGUES OF VOTANN unit from your army has shot, if one or more enemy units were destroyed by those attacks and that LEAGUES OF VOTANN unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway."
+    },
+    {
+      "id": "000009536",
+      "name": "Wrought in Wrath",
+      "legend": "The Einhyr know that they bear the weight of the ancestors’ expectations in this battle. To live up to them, they must strike with the fury of the very hearth fires of their Hold.",
+      "rawDescription": "Add 1 to Advance and Charge rolls made for LEAGUES OF VOTANN units from your army.",
+      "formattedDescription": "Add 1 to Advance and Charge rolls made for LEAGUES OF VOTANN units from your army."
+    },
+    {
+      "id": "000009822",
+      "name": "Methodical Annihilation",
+      "legend": "With their minds entirely focused on the singular mission with which they have been charged, the Kin work to blast a path through the enemy lines with the same tenacity as a Brôkhyr beating metal or a Cthonian miner splitting bedrock.",
+      "rawDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1.",
+      "formattedDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1."
     }
   ]
 }

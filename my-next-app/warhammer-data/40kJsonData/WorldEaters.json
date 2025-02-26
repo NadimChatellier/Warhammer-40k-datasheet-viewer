@@ -7528,6 +7528,15 @@
           "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008430",
+          "name": "Relentless Rage",
+          "legend": "The World Eaters fight in a perpetual fury, driven ever onwards to slaughter all who stand in their way. All of their warriors have been subject to horrific psycho-surgery, implanted with crude devices that amplify their aggression, while some also submit to possession by the raging daemons of the Blood God. Whatever drives their berserk rage, these warriors only stop killing when every foe lies in ruin at their feet – and sometimes not even then.",
+          "rawDescription": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.",
+          "formattedDescription": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+        }
       ]
     },
     {
@@ -7585,6 +7594,15 @@
           "target": "One WORLD EATERS unit from your army (excluding JAKHAL units) within Engagement Range of that enemy unit.",
           "effect": "Until the end of the phase, each time that enemy unit Falls Back, models in it must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009707",
+          "name": "Focused Ferocity",
+          "legend": "In the close confines of shipboard warfare, with their battle cries reverberating along corpse-strewn corridors, the charge of World Eaters is an elementally terrifying and seemingly unstoppable force.",
+          "rawDescription": "Each time a WORLD EATERS unit from your army declares a charge, each target of that charge must take a Battle-shock test.",
+          "formattedDescription": "Each time a WORLD EATERS unit from your army declares a charge, each target of that charge must take a Battle-shock test."
+        }
       ]
     },
     {
@@ -7641,6 +7659,15 @@
           "when": "Fight phase.",
           "target": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move upto 6\" instead of up to 3\"."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009715",
+          "name": "Reap the Tally",
+          "legend": "Nothing, not even death, can prevent these ferocious killers from claiming the skulls that are the Blood Gods due.",
+          "rawDescription": "Each time a WORLD EATERS model from your army (excluding KHÂRN THE BETRAYER) is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 5+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "formattedDescription": "Each time a WORLD EATERS model from your army (excluding KHÂRN THE BETRAYER) is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 5+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -7725,7 +7752,46 @@
           "target": "That WORLD EATERS unit.",
           "effect": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009846",
+          "name": "Wrath of Khorne",
+          "legend": "From storied conqueror to obscure squad leader, every Khornate champion treads a personal Path to Glory. However unsung their names, they believe that the Blood God may deign to invest any of these hopefuls with a small measure of his wrath in the expectation that they will not squander it.",
+          "rawDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army.",
+          "formattedDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008430",
+      "name": "Relentless Rage",
+      "legend": "The World Eaters fight in a perpetual fury, driven ever onwards to slaughter all who stand in their way. All of their warriors have been subject to horrific psycho-surgery, implanted with crude devices that amplify their aggression, while some also submit to possession by the raging daemons of the Blood God. Whatever drives their berserk rage, these warriors only stop killing when every foe lies in ruin at their feet – and sometimes not even then.",
+      "rawDescription": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.",
+      "formattedDescription": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+    },
+    {
+      "id": "000009707",
+      "name": "Focused Ferocity",
+      "legend": "In the close confines of shipboard warfare, with their battle cries reverberating along corpse-strewn corridors, the charge of World Eaters is an elementally terrifying and seemingly unstoppable force.",
+      "rawDescription": "Each time a WORLD EATERS unit from your army declares a charge, each target of that charge must take a Battle-shock test.",
+      "formattedDescription": "Each time a WORLD EATERS unit from your army declares a charge, each target of that charge must take a Battle-shock test."
+    },
+    {
+      "id": "000009715",
+      "name": "Reap the Tally",
+      "legend": "Nothing, not even death, can prevent these ferocious killers from claiming the skulls that are the Blood Gods due.",
+      "rawDescription": "Each time a WORLD EATERS model from your army (excluding KHÂRN THE BETRAYER) is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 5+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "formattedDescription": "Each time a WORLD EATERS model from your army (excluding KHÂRN THE BETRAYER) is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 5+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000009846",
+      "name": "Wrath of Khorne",
+      "legend": "From storied conqueror to obscure squad leader, every Khornate champion treads a personal Path to Glory. However unsung their names, they believe that the Blood God may deign to invest any of these hopefuls with a small measure of his wrath in the expectation that they will not squander it.",
+      "rawDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army.",
+      "formattedDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army."
     }
   ]
 }

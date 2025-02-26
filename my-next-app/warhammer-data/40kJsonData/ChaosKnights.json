@@ -3725,12 +3725,12 @@
         {
           "id": "000003849",
           "name": "Cultist Mob",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102144_CultistsLead.jpg"
         },
         {
           "id": "000003851",
           "name": "Accursed Cultists",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102147_AccursedCultistsLead.jpg"
         }
       ]
     },
@@ -3881,12 +3881,12 @@
         {
           "id": "000003849",
           "name": "Cultist Mob",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102144_CultistsLead.jpg"
         },
         {
           "id": "000003851",
           "name": "Accursed Cultists",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102147_AccursedCultistsLead.jpg"
         }
       ]
     },
@@ -4015,7 +4015,7 @@
         {
           "id": "000003853",
           "name": "Traitor Guardsmen Squad",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010699015_ENGBlackstoneFortress05.jpg"
         }
       ],
       "options": [
@@ -4132,12 +4132,12 @@
         {
           "id": "000003857",
           "name": "Renegade Heavy Weapons Squad",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105097_AMCadianHeavyWeaponsSquad01.jpg"
         },
         {
           "id": "000003853",
           "name": "Traitor Guardsmen Squad",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010699015_ENGBlackstoneFortress05.jpg"
         }
       ],
       "options": [
@@ -4258,17 +4258,17 @@
         {
           "id": "000003856",
           "name": "Negavolt Cultists",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010699015_ENGBlackstoneFortress07.jpg"
         },
         {
           "id": "000003849",
           "name": "Cultist Mob",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102144_CultistsLead.jpg"
         },
         {
           "id": "000003851",
           "name": "Accursed Cultists",
-          "unit_img": ""
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102147_AccursedCultistsLead.jpg"
         }
       ],
       "options": [
@@ -5816,6 +5816,15 @@
           "target": "One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.",
           "effect": "Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009764",
+          "name": "Dreaded Masters",
+          "legend": "Mortal thralls and foes alike are sacrificed to empower the fallen nobility.",
+          "rawDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD.",
+          "formattedDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD."
+        }
       ]
     },
     {
@@ -5899,7 +5908,32 @@
           "target": "One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.",
           "effect": "Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008518",
+          "name": "Forged in Terror (Aura)",
+          "legend": "Chaos Knights are servants of shadow and terror; wherever they stride, fear and madness spread.",
+          "rawDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.Designer’s Note: This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength.",
+          "formattedDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.Designer’s Note: This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008518",
+      "name": "Forged in Terror (Aura)",
+      "legend": "Chaos Knights are servants of shadow and terror; wherever they stride, fear and madness spread.",
+      "rawDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.Designer’s Note: This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength.",
+      "formattedDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.Designer’s Note: This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength."
+    },
+    {
+      "id": "000009764",
+      "name": "Dreaded Masters",
+      "legend": "Mortal thralls and foes alike are sacrificed to empower the fallen nobility.",
+      "rawDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD.",
+      "formattedDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD."
     }
   ]
 }

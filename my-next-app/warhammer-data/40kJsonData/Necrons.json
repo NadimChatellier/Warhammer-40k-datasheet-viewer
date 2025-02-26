@@ -9485,6 +9485,15 @@
           "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has just destroyed an enemy unit, or just caused an enemy unit that was not Below Half-strength to become Below Half-strength.",
           "effect": "Your unit’s Reanimation Protocols activate."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008542",
+          "name": "Annihilation Protocol",
+          "legend": "The most murderous Necrons of an Annihilation Legion retain no thought processes beyond destroying anything in reach. They are mechanised death, echoes of the industrialised and brutal processes of bio transference made manifest. Whether soullessly efficient or frenziedly deluded, these killing machines follow protocols that have atrophied into a singular and all-consuming insanity.",
+          "rawDescription": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack.",
+          "formattedDescription": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
+        }
       ]
     },
     {
@@ -9567,6 +9576,15 @@
           "when": "Your Movement phase.",
           "target": "One NECRONS unit from your army.",
           "effect": "Until the end of the turn, ranged weapons equipped by models in your unit have the [ASSAULT] ability. In addition, if a NECRONS CHARACTER is leading your unit, until the end of the phase, you can re-roll Advance rolls made for your unit."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000008370",
+          "name": "Command Protocols",
+          "legend": "The Necron nobility and their high-ranking courtiers make war in a codified and relentless fashion. Their command protocols crackle out across multi-dimensional spectra from carrier-wave projectors, compelling their semi-sentient soldiery into battle one overriding directive at a time",
+          "rawDescription": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+          "formattedDescription": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
         }
       ]
     },
@@ -9651,6 +9669,15 @@
           "target": "One CRYPTEK model from your army.",
           "effect": "Select one objective marker within 18\" of your CRYPTEK model. Until the end of the phase, weapons equipped by friendly NECRONS models have the [IGNORES COVER] ability while targeting units within range of that objective marker."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008545",
+          "name": "Power Matrix",
+          "legend": "Countless worlds across the galaxy harbour quiescent Necron technology, buried beneath the surface or mistaken for mere xenoarchaeological ruins. Whether part of an awakening tomb world’s defences, phased beneath the crust of a planet to empower the Cryptek’s conquest or perhaps the very objects they seek, these strange engines can be roused to wakefulness. Linked in an interdimensional matrix, their ancient energy cores can be vampirically bled to empower the Crypteks’ arcane technologies as well as their artificial and servile constructs.",
+          "rawDescription": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead.",
+          "formattedDescription": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
+        }
       ]
     },
     {
@@ -9708,6 +9735,15 @@
           "target": "One CRYPTEK model from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, your model has a 4+ invulnerable save."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009603",
+          "name": "Retribution Protocols",
+          "legend": "Those Canoptek constructs and Necron Warriors that serve the Crypteks are inloaded with instructions to defend their master. Should a Crypteks physical form be destroyed, a vengeful wrath will awaken within their followers.",
+          "rawDescription": "Each time an enemy unit destroys a CRYPTEK model from your army, until the end of the battle, each time a NECRONS model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll.",
+          "formattedDescription": "Each time an enemy unit destroys a CRYPTEK model from your army, until the end of the battle, each time a NECRONS model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+        }
       ]
     },
     {
@@ -9764,6 +9800,15 @@
           "when": "Your Movement phase.",
           "target": "One NECRONS unit from your army that has not been selected to move this phase.",
           "effect": "Until the end of the phase, if your unit has the FLAYED ONES keyword, each time it moves, models in that unit can move through friendly DESTROYER CULT models as if they were not there. If your unit has the DESTROYER CULT keyword, models in it can move through friendly FLAYED ONES models as if they were not there."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000009595",
+          "name": "Terrifying Charge",
+          "legend": "The murderous onslaughts of the Destroyer Cults and the hideous skin-wearing Flayed Ones are utterly terrifying to their living victims. To witness their bloody advance is an experience that can break the will of even the most hardened veteran.",
+          "rawDescription": "Each time a NECRONS unit from your army declares a charge, each enemy unit that is a target of that charge must take a Leadership test: if failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+          "formattedDescription": "Each time a NECRONS unit from your army declares a charge, each enemy unit that is a target of that charge must take a Leadership test: if failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -9848,6 +9893,15 @@
           "target": "One TITANIC model from your army that was selected as the target of one or more of the attacking unit’s attacks and is within 18\" of the attacking unit.",
           "effect": "Until the end of the phase, weapons equipped by models in the attacking unit have the [HAZARDOUS] ability."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000008553",
+          "name": "Hyperphasing",
+          "legend": "Employing fractal corridors, dolmen gates and ancient translocation science, the Necrons are able to phase in and out of existence. Nowhere is safe for the terrified foe as mechanoid hunters appear from unfolding planar lattices to slaughter or escape retribution into gulfs of darkness, only to materialise elsewhere to kill anew.",
+          "rawDescription": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:BATTLE SIZENUMBER OF UNITSIncursionUp to 1 units Strike ForceUp to 2 units OnslaughtUp to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves.",
+          "formattedDescription": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:BATTLE SIZENUMBER OF UNITSIncursionUp to 1 units Strike ForceUp to 2 units OnslaughtUp to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
+        }
       ]
     },
     {
@@ -9930,6 +9984,15 @@
           "when": "Your Command phase.",
           "target": "One LYCHGUARD or TRIARCH unit from your army.",
           "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. If your unit has the VEHICLE keyword, add 3 to the Objective Control characteristic instead."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000008549",
+          "name": "Worthy Foes",
+          "legend": "With a command transmitted by regal carrier wave, signalled by a glowing glyph or via a haughty gesture with their blade, the ruling nobles mark their chosen enemy. With this declaration are the Triarchal Codes observed, and the ignorant foe doomed. The nobles’ powerful servants and the Triarch’s guardians of tradition march to war obediently, driven to best the mightiest of foes on the battlefield as a demonstration of the dynasty’s honour and a warning to the rest of their enemies’ foolish kind.",
+          "rawDescription": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll.",
+          "formattedDescription": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll."
         }
       ]
     },
@@ -10014,6 +10077,15 @@
           "target": "One NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) from your army that has not been selected to move this phase.",
           "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009748",
+          "name": "Relentless Onslaught",
+          "legend": "The Necrons possess countless terrifying engines of war. When mustered in great number, these instruments of annihilation sweep across the battlefield, seeking to reclaim lost realms and obliterate any foolish enough to trespass upon the territories of their ancient dynasty.",
+          "rawDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.",
+          "formattedDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability."
+        }
       ]
     },
     {
@@ -10071,7 +10143,81 @@
           "target": "That NECRONS unit.",
           "effect": "Roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
         }
+      ],
+      "abilities": [
+        {
+          "id": "000009587",
+          "name": "Conquest Protocols",
+          "legend": "The Necron commander seeks to regain lost ground from their upstart foe. Those who seek to prevent the dynasty from reclaiming that which is rightfully theirs are marked for immediate termination.",
+          "rawDescription": "Each time a NECRONS model from your army makes an attack, if that model is within range of an objective marker or the target of that attack is within range of an objective marker, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+          "formattedDescription": "Each time a NECRONS model from your army makes an attack, if that model is within range of an objective marker or the target of that attack is within range of an objective marker, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        }
       ]
+    }
+  ],
+  "detachmentAbilities": [
+    {
+      "id": "000008370",
+      "name": "Command Protocols",
+      "legend": "The Necron nobility and their high-ranking courtiers make war in a codified and relentless fashion. Their command protocols crackle out across multi-dimensional spectra from carrier-wave projectors, compelling their semi-sentient soldiery into battle one overriding directive at a time",
+      "rawDescription": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+      "formattedDescription": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
+    },
+    {
+      "id": "000008542",
+      "name": "Annihilation Protocol",
+      "legend": "The most murderous Necrons of an Annihilation Legion retain no thought processes beyond destroying anything in reach. They are mechanised death, echoes of the industrialised and brutal processes of bio transference made manifest. Whether soullessly efficient or frenziedly deluded, these killing machines follow protocols that have atrophied into a singular and all-consuming insanity.",
+      "rawDescription": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack.",
+      "formattedDescription": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
+    },
+    {
+      "id": "000008545",
+      "name": "Power Matrix",
+      "legend": "Countless worlds across the galaxy harbour quiescent Necron technology, buried beneath the surface or mistaken for mere xenoarchaeological ruins. Whether part of an awakening tomb world’s defences, phased beneath the crust of a planet to empower the Cryptek’s conquest or perhaps the very objects they seek, these strange engines can be roused to wakefulness. Linked in an interdimensional matrix, their ancient energy cores can be vampirically bled to empower the Crypteks’ arcane technologies as well as their artificial and servile constructs.",
+      "rawDescription": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead.",
+      "formattedDescription": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
+    },
+    {
+      "id": "000008549",
+      "name": "Worthy Foes",
+      "legend": "With a command transmitted by regal carrier wave, signalled by a glowing glyph or via a haughty gesture with their blade, the ruling nobles mark their chosen enemy. With this declaration are the Triarchal Codes observed, and the ignorant foe doomed. The nobles’ powerful servants and the Triarch’s guardians of tradition march to war obediently, driven to best the mightiest of foes on the battlefield as a demonstration of the dynasty’s honour and a warning to the rest of their enemies’ foolish kind.",
+      "rawDescription": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll.",
+      "formattedDescription": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll."
+    },
+    {
+      "id": "000008553",
+      "name": "Hyperphasing",
+      "legend": "Employing fractal corridors, dolmen gates and ancient translocation science, the Necrons are able to phase in and out of existence. Nowhere is safe for the terrified foe as mechanoid hunters appear from unfolding planar lattices to slaughter or escape retribution into gulfs of darkness, only to materialise elsewhere to kill anew.",
+      "rawDescription": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:BATTLE SIZENUMBER OF UNITSIncursionUp to 1 units Strike ForceUp to 2 units OnslaughtUp to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves.",
+      "formattedDescription": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:BATTLE SIZENUMBER OF UNITSIncursionUp to 1 units Strike ForceUp to 2 units OnslaughtUp to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
+    },
+    {
+      "id": "000009587",
+      "name": "Conquest Protocols",
+      "legend": "The Necron commander seeks to regain lost ground from their upstart foe. Those who seek to prevent the dynasty from reclaiming that which is rightfully theirs are marked for immediate termination.",
+      "rawDescription": "Each time a NECRONS model from your army makes an attack, if that model is within range of an objective marker or the target of that attack is within range of an objective marker, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+      "formattedDescription": "Each time a NECRONS model from your army makes an attack, if that model is within range of an objective marker or the target of that attack is within range of an objective marker, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "id": "000009595",
+      "name": "Terrifying Charge",
+      "legend": "The murderous onslaughts of the Destroyer Cults and the hideous skin-wearing Flayed Ones are utterly terrifying to their living victims. To witness their bloody advance is an experience that can break the will of even the most hardened veteran.",
+      "rawDescription": "Each time a NECRONS unit from your army declares a charge, each enemy unit that is a target of that charge must take a Leadership test: if failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+      "formattedDescription": "Each time a NECRONS unit from your army declares a charge, each enemy unit that is a target of that charge must take a Leadership test: if failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009603",
+      "name": "Retribution Protocols",
+      "legend": "Those Canoptek constructs and Necron Warriors that serve the Crypteks are inloaded with instructions to defend their master. Should a Crypteks physical form be destroyed, a vengeful wrath will awaken within their followers.",
+      "rawDescription": "Each time an enemy unit destroys a CRYPTEK model from your army, until the end of the battle, each time a NECRONS model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll.",
+      "formattedDescription": "Each time an enemy unit destroys a CRYPTEK model from your army, until the end of the battle, each time a NECRONS model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+    },
+    {
+      "id": "000009748",
+      "name": "Relentless Onslaught",
+      "legend": "The Necrons possess countless terrifying engines of war. When mustered in great number, these instruments of annihilation sweep across the battlefield, seeking to reclaim lost realms and obliterate any foolish enough to trespass upon the territories of their ancient dynasty.",
+      "rawDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.",
+      "formattedDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability."
     }
   ]
 }
