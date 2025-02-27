@@ -27,6 +27,9 @@ export default function Home() {
   const [selectedSubfaction, setSelectedSubfaction] = useState(null);
   const [showExclusives, setShowExclusives] = useState(false); // State for the checkbox  
   const [abilities, setAbilities] = useState([]);
+  const [selectedTab, setSelectedTab] = useState("Abilities");
+  const [filteredAbilities, setFilteredAbilities] = useState([]);
+
 
 
   useEffect(() => {
@@ -101,16 +104,44 @@ export default function Home() {
   
   useEffect(() => {
     if (detachmentFilter) {
-      // Check if `stratagem.type` contains the selected detachment name
-      const filteredStratagems = stratagems.filter((stratagem) =>
-        stratagem.type?.toLowerCase().includes(detachmentFilter?.toLowerCase())
-      );
-      setFilteredStratagems(filteredStratagems); // ✅ Store filtered results in state
+      // Filter stratagems by detachment type (or modify this to match by name or ID)
+      const filteredStratagems = stratagems.filter((stratagem) => {
+        const isMatch = stratagem.type?.toLowerCase().includes(detachmentFilter?.toLowerCase()) ||
+                        stratagem.name?.toLowerCase().includes(detachmentFilter?.toLowerCase()); // Matching name or type
+        if (isMatch) {
+          console.log(`Stratagem: ${stratagem.name} is part of detachment type: ${stratagem.type}`);
+        }
+        return isMatch;
+      });
+  
+      // Filter abilities by detachment-related keyword or name
+      const filteredAbilities = abilities.filter((ability) => {
+        const isMatch =
+          ability.detachment?.toLowerCase().includes(detachmentFilter?.toLowerCase()) ||
+          ability.rawDescription?.toLowerCase().includes(detachmentFilter?.toLowerCase()) ||
+          ability.legend?.toLowerCase().includes(detachmentFilter?.toLowerCase()); // Match description or name
+        if (isMatch) {
+          console.log(`Ability: ${ability.name} is related to detachment filter: ${detachmentFilter}`);
+        }
+        return isMatch;
+      });
+  
+      // Log filtered data to confirm
+      console.log("Filtered Stratagems:", filteredStratagems);
+      console.log("Filtered Abilities:", filteredAbilities);
+  
+      // Set the filtered results
+      setFilteredStratagems(filteredStratagems);
+      setFilteredAbilities(filteredAbilities);
     } else {
-      // If no filter is selected, show all stratagems
+      // If no detachment filter is selected, show all
       setFilteredStratagems(stratagems);
+      setFilteredAbilities(abilities);
     }
-  }, [detachmentFilter, stratagems]); // Runs when `detachmentFilter` or `stratagems` change
+  }, [detachmentFilter, stratagems, abilities]); // Runs when dependencies change
+  
+  
+  
   
   useEffect(() => {
     if (areStrategemsOpen) {
@@ -260,85 +291,63 @@ const others = filteredUnits.filter(
 
 
       {areStrategemsOpen && (
-  <div
-    className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
-    onClick={() => setAreStrategemsOpen(false)}
-  >
-    {/* Modal Container */}
-    <div
-      className="bg-gray-900 text-white w-full max-w-4xl h-[90vh] rounded-2xl shadow-2xl overflow-hidden flex flex-col"
-      onClick={(e) => e.stopPropagation()}
-    >
-      {/* Modal Header */}
-      <div className="flex justify-between items-center bg-gray-800 p-6">
-        <h2 className="text-3xl font-bold text-yellow-400">Stratagems</h2>
-        <button onClick={() => setAreStrategemsOpen(false)} className="text-white">
-          <FiX size={32} />
-        </button>
-      </div>
-
-      {/* Detachment Filter Buttons */}
-      <div className="flex space-x-4 p-4 overflow-x-auto">
-        <button
-          className={`w-36 px-4 py-2 rounded-lg text-base text-center ${
-            detachmentFilter === null ? "bg-yellow-400 text-black" : "bg-gray-800 hover:bg-gray-700"
-          }`}
-          onClick={() => handleDetachmentFilter(null)}
-        >
-          All Detachments
-        </button>
-        {detachments.map((detachment, index) => (
-          <button
-            key={index}
-            className={`w-36 px-4 py-2 rounded-lg text-base text-center ${
-              detachment === detachmentFilter
-                ? "bg-yellow-400 text-black"
-                : "bg-gray-800 hover:bg-gray-700"
-            }`}
-            onClick={() => handleDetachmentFilter(detachment)}
-          >
-            {detachment}
-          </button>
-        ))}
-      </div>
-
-      {/* Scrollable Content Area */}
-      <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollable-content">
-        {filteredStratagems.length > 0 ? (
-          filteredStratagems.map((stratagem, index) => (
-            <div
-              key={index}
-              className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300"
-            >
-              {/* Stratagem Title */}
-              <h3 className="text-2xl font-bold text-yellow-400">{stratagem.name}</h3>
-
-              {/* Stratagem Meta Info */}
-              <p className="text-lg text-gray-400">{stratagem.cpCost} – {stratagem.type}</p>
-
-              {/* Stratagem Parsed Info */}
-              <div className="mt-3 text-base space-y-2">
-                <p><strong className="text-yellow-400">When:</strong> {stratagem.when}</p>
-                <p><strong className="text-yellow-400">Target:</strong> {stratagem.target}</p>
-                <p><strong className="text-yellow-400">Effect:</strong> {stratagem.effect}</p>
-              </div>
-
-              {/* Full Description (For Debugging) */}
-              <details className="mt-3 bg-gray-700 p-3 rounded-lg">
-                <summary className="cursor-pointer text-yellow-300 font-bold">
-                  Full Description (Debug)
-                </summary>
-                <p className="text-gray-300 text-sm break-words">{stratagem.fullDescription}</p>
-              </details>
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70" onClick={() => setAreStrategemsOpen(false)}>
+          <div className="bg-gray-900 text-white w-full max-w-4xl h-[90vh] rounded-2xl shadow-2xl overflow-hidden flex flex-col" onClick={(e) => e.stopPropagation()}>
+            <div className="flex justify-between items-center bg-gray-800 p-6">
+              <h2 className="text-3xl font-bold text-yellow-400">Stratagems & Abilities</h2>
+              <button onClick={() => setAreStrategemsOpen(false)} className="text-white"><FiX size={32} /></button>
             </div>
-          ))
-        ) : (
-          <p className="text-center text-gray-400 text-lg">No stratagems available.</p>
-        )}
+            
+            <div className="flex space-x-4 p-4 overflow-x-auto">
+              {detachments.map((detachment, index) => (
+                <button key={index} className={`w-36 px-4 py-2 rounded-lg text-center ${detachment === detachmentFilter ? "bg-yellow-400 text-black" : "bg-gray-800 hover:bg-gray-700"}`} onClick={() => setDetachmentFilter(detachment)}>{detachment}</button>
+              ))}
+            </div>
+
+            <div className="flex border-b border-gray-600">
+              {["Abilities", "Stratagems"].map((tab) => (
+                <button key={tab} onClick={() => setSelectedTab(tab)} className={`flex-1 py-3 text-center text-lg font-bold transition-all ${selectedTab === tab ? "bg-yellow-400 text-black" : "bg-gray-800 text-white hover:bg-gray-700"}`}>{tab}</button>
+              ))}
+            </div>
+
+            <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollable-content">
+  {selectedTab === "Abilities" && (filteredAbilities.length > 0 ? filteredAbilities : abilities).length > 0 ? (
+    (filteredAbilities.length > 0 ? filteredAbilities : abilities).map((ability, index) => (
+      <div key={index} className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300">
+    <h3 className="text-2xl font-bold text-yellow-400">
+  {ability.name} 
+  <span className="text-sm text-gray-400 ml-2">
+    ({ability.detachment}) {/* This will show the detachment name */}
+  </span>
+</h3>
+        <p className="text-gray-400 mt-2">{ability.formattedDescription}</p>
       </div>
-    </div>
-  </div>
-)}
+    ))
+  ) : selectedTab === "Stratagems" && filteredStratagems.length > 0 ? (
+    filteredStratagems.map((stratagem, index) => (
+      <div key={index} className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300">
+        {/* Stratagem Title */}
+        <h3 className="text-2xl font-bold text-yellow-400">{stratagem.name}</h3>
+    
+        {/* Stratagem Meta Info */}
+        <p className="text-lg text-gray-400">{stratagem.cpCost} – {stratagem.type}</p>
+    
+        {/* Stratagem Parsed Info */}
+        <div className="mt-3 text-base space-y-2">
+          <p><strong className="text-yellow-400">When:</strong> {stratagem.when}</p>
+          <p><strong className="text-yellow-400">Target:</strong> {stratagem.target}</p>
+          <p><strong className="text-yellow-400">Effect:</strong> {stratagem.effect}</p>
+        </div>
+      </div>
+    ))
+  ) : (
+    <p className="text-center text-gray-400 text-lg">No stratagems available.</p>
+  )}
+</div>
+
+          </div>
+        </div>
+      )}
 
 
       {/* Main Content */}

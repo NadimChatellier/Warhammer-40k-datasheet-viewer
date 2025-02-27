@@ -1049,11 +1049,12 @@ async function parseDetachmentAbilities() {
           // **New:** Clean and structure the description
           const structuredDescription = splitAbilityDescription(cleanText(description));
 
-          // Add ability to detachment
+          // Add detachment name and structured description to the ability
           const abilityData = {
             id,
             name,
             legend,
+            detachment, // Add the detachment name here
             ...structuredDescription, // Spread structured description parts
           };
 
