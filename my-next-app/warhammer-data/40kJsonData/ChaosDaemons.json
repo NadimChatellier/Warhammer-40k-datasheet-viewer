@@ -11304,6 +11304,44 @@
           "rawDescription": "At the end of a phase in which a LEGIONES DAEMONICA KHORNE unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
           "formattedDescription": "At the end of a phase in which a LEGIONES DAEMONICA KHORNE unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009815002",
+          "name": "Slaughterthirst (Aura)",
+          "cost": 35,
+          "legend": "This servant of Khorne is a walking nexus of bloodthirst, its mere presence whetting the keen edges of daemonic blades and appetites alike for slaughter.",
+          "detachment": "Blood Legion",
+          "rawDescription": "LEGIONES DAEMONICA KHORNE model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability.",
+          "formattedDescription": "LEGIONES DAEMONICA KHORNE model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability."
+        },
+        {
+          "id": "000009815003",
+          "name": "Fury’s Cage",
+          "cost": 20,
+          "legend": "The Bloodthirster bound within this weapon offers the wielder immense power but seeks every way to turn its towering wrath upon its jailer.",
+          "detachment": "Blood Legion",
+          "rawDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+          "formattedDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "id": "000009815004",
+          "name": "Brazenmaw",
+          "cost": 15,
+          "legend": "This daemon’s maw and throat are forged from burning brass, transforming its war cries into a deafening clarion that calls the Blood Legion to war.",
+          "detachment": "Blood Legion",
+          "rawDescription": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit.",
+          "formattedDescription": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit."
+        },
+        {
+          "id": "000009815005",
+          "name": "Gateway Unto Damnation",
+          "cost": 10,
+          "legend": "Concealed within this daemon’s form is a portal into the depths of Khorne’s realm. Anointed with gore and thrown wide by the daemon’s corporeal demise, it expands like a bloody singularity to drag everything in reach into the screaming maelstrom of the Warp.",
+          "detachment": "Blood Legion",
+          "rawDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet.",
+          "formattedDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet."
+        }
       ]
     },
     {
@@ -11457,6 +11495,62 @@
           "rawDescription": "LEGIONES DAEMONICA units from your army can perform one of the following Tactical Manoeuvres in a turn in which they Advanced or Fell Back: Secure Site; Set To Defend; Set Overwatch.",
           "formattedDescription": "LEGIONES DAEMONICA units from your army can perform one of the following Tactical Manoeuvres in a turn in which they Advanced or Fell Back: Secure Site; Set To Defend; Set Overwatch."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009547002",
+          "name": "Spite Made Manifest",
+          "cost": 0,
+          "legend": "Simply striking back at the invading daemons under such conditions is an invitation for their spite and hate to manifest in vicious arcs of lethal retributive power.",
+          "detachment": "Daemonic Incursion",
+          "rawDescription": "Each time an enemy unit is selected to fight, melee weapons equipped by models in that unit have the [HAZARDOUS] ability while targeting the bearer’s unit.",
+          "formattedDescription": "Each time an enemy unit is selected to fight, melee weapons equipped by models in that unit have the [HAZARDOUS] ability while targeting the bearer’s unit."
+        },
+        {
+          "id": "000008438002",
+          "name": "A’rgath, the King of Blades",
+          "cost": 20,
+          "legend": "When a daemon is bound within a weapon by its infernal master, it rarely submits willingly to this terrible incarceration. The same cannot be said for A’rgath. A lifetime of slaughter and zealous dedication saw this butcher granted daemonhood. Such was his devotion to Khorne that instead of accepting immortality as a Daemon Prince, he instead chose to take the form of a deadly blade so that he could spill the lifeblood of Khorne’s greatest enemies. Their hand guided by A’rgath’s spirit, this weapon’s wielder becomes nigh on unstoppable. Countless are the rival champions and mortal heroes that have fallen to his power.",
+          "detachment": "Daemonic Incursion",
+          "rawDescription": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
+          "formattedDescription": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead."
+        },
+        {
+          "id": "000009547003",
+          "name": "Geller Breach",
+          "cost": 0,
+          "legend": "Daemonic entities burst from rippling warp rents and directly into the heart of battle.",
+          "detachment": "Daemonic Incursion",
+          "rawDescription": "Al the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\".",
+          "formattedDescription": "Al the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\"."
+        },
+        {
+          "id": "000008438003",
+          "name": "The Everstave",
+          "cost": 25,
+          "legend": "This staff blazes with vibrant warpflame. As soon as its master takes up the eldritch weapon, they too are wreathed in the same daemonic fire. From within this magenta inferno, the Everstave’s daemonic bearer hurls searing gouts of Tzeentch’s pink fire, turning armour to ash and immolating or irrevocably mutating the flesh beneath.",
+          "detachment": "Daemonic Incursion",
+          "rawDescription": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
+          "formattedDescription": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead."
+        },
+        {
+          "id": "000008438004",
+          "name": "The Endless Gift",
+          "cost": 30,
+          "legend": "Only the most accomplished plague daemons are granted the Endless Gift. A disease of unutterable malignancy and repulsive beneficence, it changes form constantly from plague to infestation to malaise. The one constant is its ability to reknit its sufferer’s corporeal form from even the most catastrophic of wounds. One moment, infernal bacteria may multiply like wildfire until their gelid mass fills a fleshy rent with fresh daemon-flesh. The next, pestilential vapours may billow from the daemon’s yawning maw, veiling its ravaged bulk before tattering away to reveal a form healed of its recent hurts.",
+          "detachment": "Daemonic Incursion",
+          "rawDescription": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability. While the bearer is within your army’s Shadow of Chaos, the bearer has the Feel No Pain 4+ ability instead.",
+          "formattedDescription": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability. While the bearer is within your army’s Shadow of Chaos, the bearer has the Feel No Pain 4+ ability instead."
+        },
+        {
+          "id": "000008438005",
+          "name": "Soulstealer",
+          "cost": 15,
+          "legend": "This gluttonous blade gulps down the souls of its victims before invigorating the corporeal form of its wielder. Its greed stems from the starving Keeper of Secrets bound within – an arrogant entity that sought to devour enough Aeldari souls to challenge Slaanesh itself. As punishment for the daemon’s monstrous hubris, Slaanesh trapped it within Soulstealer, condemning the Keeper of Secrets to sustain other daemons with its frenzied appetite while retaining nothing for itself.",
+          "detachment": "Daemonic Incursion",
+          "rawDescription": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound.",
+          "formattedDescription": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound."
+        }
       ]
     },
     {
@@ -11524,6 +11618,26 @@
           "rawDescription": "Each time a SLAANESH INFANTRY LEGIONES DAEMONICA unit from your army makes a Normal, Advance or Fall Back move, models in that unit can move through other models as if they were not there. When doing so, for each SLAANESH model that moves through one or more enemy models, roll one D6: on a 1-2, that models unit suffers 1 mortal wound.",
           "formattedDescription": "Each time a SLAANESH INFANTRY LEGIONES DAEMONICA unit from your army makes a Normal, Advance or Fall Back move, models in that unit can move through other models as if they were not there. When doing so, for each SLAANESH model that moves through one or more enemy models, roll one D6: on a 1-2, that models unit suffers 1 mortal wound."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009572002",
+          "name": "Fatal Caress",
+          "cost": 0,
+          "legend": "To this daemon, the act of murder is an art form. With a precision born of obsession it slaughters its foes in the most gory fashion possible.",
+          "detachment": "Dread Carnival",
+          "rawDescription": "Each time the bearer makes a melee attack, a Critical Wound is scored on an unmodified Wound roll of 5+.",
+          "formattedDescription": "Each time the bearer makes a melee attack, a Critical Wound is scored on an unmodified Wound roll of 5+."
+        },
+        {
+          "id": "000009572003",
+          "name": "Horrifying Visage",
+          "cost": 0,
+          "legend": "This daemons alters its visage from alluring to repulsive at a whim, terrifying those who gaze upon it.",
+          "detachment": "Dread Carnival",
+          "rawDescription": "Once per battle round, when an enemy unit within 9\" of the bearer attempts to perform a Tactical Manoeuvre or attempts to operate a Hatchway within 9\" of the bearer, the bearer can use this ability. If it does, that enemy unit must take a Leadership test, subtracting I from the result: if failed, that unit fails to perform that Tactical Manoeuvre or to operate that Hatchway and, until the start of your opponent’s next turn, that unit cannot perform Tactical Manoeuvres or operate Hatchways.",
+          "formattedDescription": "Once per battle round, when an enemy unit within 9\" of the bearer attempts to perform a Tactical Manoeuvre or attempts to operate a Hatchway within 9\" of the bearer, the bearer can use this ability. If it does, that enemy unit must take a Leadership test, subtracting I from the result: if failed, that unit fails to perform that Tactical Manoeuvre or to operate that Hatchway and, until the start of your opponent’s next turn, that unit cannot perform Tactical Manoeuvres or operate Hatchways."
+        }
       ]
     },
     {
@@ -11590,6 +11704,26 @@
           "detachment": "Infernal Onslaught",
           "rawDescription": "Each time a KHORNE LEGIONES DAEMONICA unit from your army opens a Hatchway, until the end of the battle, that Hatchway cannot be closed. In addition, until the end of the turn, each time that unit declares a charge, if every target of that charge is on the opposite side of that Hatchway from your unit, add 1 to the Charge roll.",
           "formattedDescription": "Each time a KHORNE LEGIONES DAEMONICA unit from your army opens a Hatchway, until the end of the battle, that Hatchway cannot be closed. In addition, until the end of the turn, each time that unit declares a charge, if every target of that charge is on the opposite side of that Hatchway from your unit, add 1 to the Charge roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009555002",
+          "name": "Worthier Skulls",
+          "cost": 0,
+          "legend": "The skulls of cowards who flee from battle have only so much value, and this entity will let them run in favour of hunting for more courageous prey.",
+          "detachment": "Infernal Onslaught",
+          "rawDescription": "Each time an enemy unit within Engagement Range of the bearer Falls Back, after that unit has moved, if the bearer is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
+          "formattedDescription": "Each time an enemy unit within Engagement Range of the bearer Falls Back, after that unit has moved, if the bearer is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "id": "000009555003",
+          "name": "Unholy Fury",
+          "cost": 0,
+          "legend": "So infused with hatred and warlike wrath is this daemon that it can sustain its corporeal shell through fury alone, even should it be terribly damaged.",
+          "detachment": "Infernal Onslaught",
+          "rawDescription": "If the bearer is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 2+, do not remove it from play. Ure destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "formattedDescription": "If the bearer is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 2+, do not remove it from play. Ure destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -11692,6 +11826,44 @@
           "rawDescription": "LEGIONES DAEMONICA SLAANESH units from your army have the following ability:Seductive Gambit: Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
           "formattedDescription": "LEGIONES DAEMONICA SLAANESH units from your army have the following ability:Seductive Gambit: Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009806002",
+          "name": "False Majesty (Aura)",
+          "cost": 30,
+          "legend": "Dripping poisonous finery and stalking across the battlefield with regal arrogance, this daemon evokes in its fellows the jealous need to outshine its magnificence.",
+          "detachment": "Legion of Excess",
+          "rawDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+          "formattedDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "id": "000009806003",
+          "name": "Dreaming Crown (Aura)",
+          "cost": 30,
+          "legend": "This gilded circlet fills mortal minds with waking dreams potent enough to intoxicate and distract even the most disciplined or alien combatants, leaving them easy prey for the daemons of Slaanesh.",
+          "detachment": "Legion of Excess",
+          "rawDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
+          "formattedDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "id": "000009806004",
+          "name": "Avatar of Perfection",
+          "cost": 15,
+          "legend": "This entity is the corporeal embodiment of selfish arrogance, fighting best when it fights alone.",
+          "detachment": "Legion of Excess",
+          "rawDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re-roll Advance rolls made for the bearer; re-roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer.",
+          "formattedDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re-roll Advance rolls made for the bearer; re-roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer."
+        },
+        {
+          "id": "000009806005",
+          "name": "Soul Glutton",
+          "cost": 10,
+          "legend": "This daemon lord guzzles souls, its bloated corporeality reknitting with each fresh morsel.",
+          "detachment": "Legion of Excess",
+          "rawDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds.",
+          "formattedDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds."
+        }
       ]
     },
     {
@@ -11758,6 +11930,26 @@
           "detachment": "Pandaemoniac Inferno",
           "rawDescription": "Each lime a TZEENTCH LEGIONES DAEMONICA unit from your army is selected to shoot, it can target enemy units within Engagement Range of other friendly TZEENTCH LEGIONES DAEMONICA units. Ranged weapons equipped by TZEENTCH LEGIONES DAEMONICA models have the [SUSTAiNED HiTS 1] ability while targeting a unit within Engagement Range of one or more friendly units.",
           "formattedDescription": "Each lime a TZEENTCH LEGIONES DAEMONICA unit from your army is selected to shoot, it can target enemy units within Engagement Range of other friendly TZEENTCH LEGIONES DAEMONICA units. Ranged weapons equipped by TZEENTCH LEGIONES DAEMONICA models have the [SUSTAiNED HiTS 1] ability while targeting a unit within Engagement Range of one or more friendly units."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009580002",
+          "name": "Fulgurating Presence",
+          "cost": 0,
+          "legend": "Warplight dances and glares around this entity, flares of blinding brightness thrown off its warped form as though from the facets of a crooked crystal.",
+          "detachment": "Pandaemoniac Inferno",
+          "rawDescription": "Each time an attack targets the bearer, subtract 1 from the Hit roll.",
+          "formattedDescription": "Each time an attack targets the bearer, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000009580003",
+          "name": "Mutagenic Flames",
+          "cost": 0,
+          "legend": "The warpflame of Tzeentch is fuelled by sanity and soulstuff, and cannot be easily extinguished. Worse, it does not merely burn its victims, but instead distorts and mutates them in ever more hideous ways.",
+          "detachment": "Pandaemoniac Inferno",
+          "rawDescription": "In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "formattedDescription": "In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -11852,6 +12044,44 @@
           "rawDescription": "While an enemy unit is within 9\" of one or more LEGIONES DAEMONICA NURGLE units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test.",
           "formattedDescription": "While an enemy unit is within 9\" of one or more LEGIONES DAEMONICA NURGLE units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009819002",
+          "name": "Cankerblight",
+          "cost": 15,
+          "legend": "The mere presence of this corrosive monstrosity is enough to rot the very stuff of reality and all who inhabit it.",
+          "detachment": "Plague Legion",
+          "rawDescription": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle-shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+          "formattedDescription": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle-shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule."
+        },
+        {
+          "id": "000009819003",
+          "name": "Maggot Maws",
+          "cost": 15,
+          "legend": "This daemon’s flesh is pocked with foul mouths that mumble curses to rot the minds of all who hear them.",
+          "detachment": "Plague Legion",
+          "rawDescription": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle-shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+          "formattedDescription": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle-shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule."
+        },
+        {
+          "id": "000009819004",
+          "name": "Droning Shroud (Aura)",
+          "cost": 35,
+          "legend": "This sentient cowl of daemonic plague flies roars and whirls with cyclonic force, obscuring even the most hulking and bloated daemonic bearer.",
+          "detachment": "Plague Legion",
+          "rawDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\".",
+          "formattedDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "id": "000009819005",
+          "name": "Font of Spores (Aura)",
+          "cost": 20,
+          "legend": "This entity’s foul breath expels clouds of rust pox spores, which gnaw into all they settle upon.",
+          "detachment": "Plague Legion",
+          "rawDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1.",
+          "formattedDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1."
+        }
       ]
     },
     {
@@ -11918,6 +12148,26 @@
           "detachment": "Rotten and Rusted",
           "rawDescription": "While an enemy unit is within 3\" of one or more NURGLE LEGIONES DAEMONICA units from your army, halve the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it. When measuring this distance, Walls and closed Hatchways are ignored.",
           "formattedDescription": "While an enemy unit is within 3\" of one or more NURGLE LEGIONES DAEMONICA units from your army, halve the Move characteristic of models in that unit and subtract 1 from Advance and Charge rolls made for it. When measuring this distance, Walls and closed Hatchways are ignored."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009564002",
+          "name": "Virulent Corruption",
+          "cost": 0,
+          "legend": "To flee from this daemon is to invite an outbreak of spiritual corruption that rots its screaming victims from their souls outward.",
+          "detachment": "Rotten and Rusted",
+          "rawDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+          "formattedDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "id": "000009564003",
+          "name": "Endless Gift",
+          "cost": 0,
+          "legend": "Bounteous and repulsive layers of rancid flab boil from within this entity’s grotesque form, bolstering it against even the most dolorous blows.",
+          "detachment": "Rotten and Rusted",
+          "rawDescription": "Add 2 to the bearers Wounds characteristic.",
+          "formattedDescription": "Add 2 to the bearers Wounds characteristic."
         }
       ]
     },
@@ -12011,6 +12261,44 @@
           "detachment": "Scintillating Legion",
           "rawDescription": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.In your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.Designer’s Note: When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re-roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once.",
           "formattedDescription": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.In your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.Designer’s Note: When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re-roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009810002",
+          "name": "Inescapable Eye",
+          "cost": 10,
+          "legend": "Glinting where the daemon’s eye should be, this fractured gem reveals the myriad paths of the future.",
+          "detachment": "Scintillating Legion",
+          "rawDescription": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.",
+          "formattedDescription": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token."
+        },
+        {
+          "id": "000009810003",
+          "name": "Infernal Puppeteer",
+          "cost": 10,
+          "legend": "To this mighty entity, lesser daemons are but prisms through which its power shines.",
+          "detachment": "Scintillating Legion",
+          "rawDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Each time the bearer is selected to shoot, you can select one other friendly LEGIONES DAEMONICA TZEENTCH unit within 9\" of the bearer. If you do, when selecting targets for ranged weapons equipped by the bearer, you can measure range and determine visibility from one model of your choice in the selected unit instead.",
+          "formattedDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Each time the bearer is selected to shoot, you can select one other friendly LEGIONES DAEMONICA TZEENTCH unit within 9\" of the bearer. If you do, when selecting targets for ranged weapons equipped by the bearer, you can measure range and determine visibility from one model of your choice in the selected unit instead."
+        },
+        {
+          "id": "000009810004",
+          "name": "Neverblade",
+          "cost": 20,
+          "legend": "Shifting its shape tirelessly from sword to staff to glaive, this bizarre daemon weapon makes a mockery of even the most determined defence.",
+          "detachment": "Scintillating Legion",
+          "rawDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
+          "formattedDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "id": "000009810005",
+          "name": "Improbable Shield (Aura)",
+          "cost": 30,
+          "legend": "Complex convolutions of ever-more unlikely fate wind about this entity, confounding the mightiest and most esoteric attacks.",
+          "detachment": "Scintillating Legion",
+          "rawDescription": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly LEGIONES DAEMONICA TZEENTCH unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
+          "formattedDescription": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly LEGIONES DAEMONICA TZEENTCH unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
         }
       ]
     }
@@ -12111,6 +12399,278 @@
       "detachment": "Plague Legion",
       "rawDescription": "While an enemy unit is within 9\" of one or more LEGIONES DAEMONICA NURGLE units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test.",
       "formattedDescription": "While an enemy unit is within 9\" of one or more LEGIONES DAEMONICA NURGLE units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009819002",
+      "name": "Cankerblight",
+      "cost": 15,
+      "legend": "The mere presence of this corrosive monstrosity is enough to rot the very stuff of reality and all who inhabit it.",
+      "detachment": "Plague Legion",
+      "rawDescription": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle-shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+      "formattedDescription": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle-shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule."
+    },
+    {
+      "id": "000009572002",
+      "name": "Fatal Caress",
+      "cost": 0,
+      "legend": "To this daemon, the act of murder is an art form. With a precision born of obsession it slaughters its foes in the most gory fashion possible.",
+      "detachment": "Dread Carnival",
+      "rawDescription": "Each time the bearer makes a melee attack, a Critical Wound is scored on an unmodified Wound roll of 5+.",
+      "formattedDescription": "Each time the bearer makes a melee attack, a Critical Wound is scored on an unmodified Wound roll of 5+."
+    },
+    {
+      "id": "000009564002",
+      "name": "Virulent Corruption",
+      "cost": 0,
+      "legend": "To flee from this daemon is to invite an outbreak of spiritual corruption that rots its screaming victims from their souls outward.",
+      "detachment": "Rotten and Rusted",
+      "rawDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+      "formattedDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+    },
+    {
+      "id": "000009810002",
+      "name": "Inescapable Eye",
+      "cost": 10,
+      "legend": "Glinting where the daemon’s eye should be, this fractured gem reveals the myriad paths of the future.",
+      "detachment": "Scintillating Legion",
+      "rawDescription": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.",
+      "formattedDescription": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token."
+    },
+    {
+      "id": "000009547002",
+      "name": "Spite Made Manifest",
+      "cost": 0,
+      "legend": "Simply striking back at the invading daemons under such conditions is an invitation for their spite and hate to manifest in vicious arcs of lethal retributive power.",
+      "detachment": "Daemonic Incursion",
+      "rawDescription": "Each time an enemy unit is selected to fight, melee weapons equipped by models in that unit have the [HAZARDOUS] ability while targeting the bearer’s unit.",
+      "formattedDescription": "Each time an enemy unit is selected to fight, melee weapons equipped by models in that unit have the [HAZARDOUS] ability while targeting the bearer’s unit."
+    },
+    {
+      "id": "000008438002",
+      "name": "A’rgath, the King of Blades",
+      "cost": 20,
+      "legend": "When a daemon is bound within a weapon by its infernal master, it rarely submits willingly to this terrible incarceration. The same cannot be said for A’rgath. A lifetime of slaughter and zealous dedication saw this butcher granted daemonhood. Such was his devotion to Khorne that instead of accepting immortality as a Daemon Prince, he instead chose to take the form of a deadly blade so that he could spill the lifeblood of Khorne’s greatest enemies. Their hand guided by A’rgath’s spirit, this weapon’s wielder becomes nigh on unstoppable. Countless are the rival champions and mortal heroes that have fallen to his power.",
+      "detachment": "Daemonic Incursion",
+      "rawDescription": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
+      "formattedDescription": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead."
+    },
+    {
+      "id": "000009815002",
+      "name": "Slaughterthirst (Aura)",
+      "cost": 35,
+      "legend": "This servant of Khorne is a walking nexus of bloodthirst, its mere presence whetting the keen edges of daemonic blades and appetites alike for slaughter.",
+      "detachment": "Blood Legion",
+      "rawDescription": "LEGIONES DAEMONICA KHORNE model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability.",
+      "formattedDescription": "LEGIONES DAEMONICA KHORNE model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability."
+    },
+    {
+      "id": "000009580002",
+      "name": "Fulgurating Presence",
+      "cost": 0,
+      "legend": "Warplight dances and glares around this entity, flares of blinding brightness thrown off its warped form as though from the facets of a crooked crystal.",
+      "detachment": "Pandaemoniac Inferno",
+      "rawDescription": "Each time an attack targets the bearer, subtract 1 from the Hit roll.",
+      "formattedDescription": "Each time an attack targets the bearer, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009555002",
+      "name": "Worthier Skulls",
+      "cost": 0,
+      "legend": "The skulls of cowards who flee from battle have only so much value, and this entity will let them run in favour of hunting for more courageous prey.",
+      "detachment": "Infernal Onslaught",
+      "rawDescription": "Each time an enemy unit within Engagement Range of the bearer Falls Back, after that unit has moved, if the bearer is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
+      "formattedDescription": "Each time an enemy unit within Engagement Range of the bearer Falls Back, after that unit has moved, if the bearer is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+    },
+    {
+      "id": "000009806002",
+      "name": "False Majesty (Aura)",
+      "cost": 30,
+      "legend": "Dripping poisonous finery and stalking across the battlefield with regal arrogance, this daemon evokes in its fellows the jealous need to outshine its magnificence.",
+      "detachment": "Legion of Excess",
+      "rawDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+      "formattedDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+    },
+    {
+      "id": "000009806003",
+      "name": "Dreaming Crown (Aura)",
+      "cost": 30,
+      "legend": "This gilded circlet fills mortal minds with waking dreams potent enough to intoxicate and distract even the most disciplined or alien combatants, leaving them easy prey for the daemons of Slaanesh.",
+      "detachment": "Legion of Excess",
+      "rawDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
+      "formattedDescription": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+    },
+    {
+      "id": "000009815003",
+      "name": "Fury’s Cage",
+      "cost": 20,
+      "legend": "The Bloodthirster bound within this weapon offers the wielder immense power but seeks every way to turn its towering wrath upon its jailer.",
+      "detachment": "Blood Legion",
+      "rawDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+      "formattedDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    },
+    {
+      "id": "000009819003",
+      "name": "Maggot Maws",
+      "cost": 15,
+      "legend": "This daemon’s flesh is pocked with foul mouths that mumble curses to rot the minds of all who hear them.",
+      "detachment": "Plague Legion",
+      "rawDescription": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle-shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+      "formattedDescription": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle-shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule."
+    },
+    {
+      "id": "000009564003",
+      "name": "Endless Gift",
+      "cost": 0,
+      "legend": "Bounteous and repulsive layers of rancid flab boil from within this entity’s grotesque form, bolstering it against even the most dolorous blows.",
+      "detachment": "Rotten and Rusted",
+      "rawDescription": "Add 2 to the bearers Wounds characteristic.",
+      "formattedDescription": "Add 2 to the bearers Wounds characteristic."
+    },
+    {
+      "id": "000009810003",
+      "name": "Infernal Puppeteer",
+      "cost": 10,
+      "legend": "To this mighty entity, lesser daemons are but prisms through which its power shines.",
+      "detachment": "Scintillating Legion",
+      "rawDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Each time the bearer is selected to shoot, you can select one other friendly LEGIONES DAEMONICA TZEENTCH unit within 9\" of the bearer. If you do, when selecting targets for ranged weapons equipped by the bearer, you can measure range and determine visibility from one model of your choice in the selected unit instead.",
+      "formattedDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Each time the bearer is selected to shoot, you can select one other friendly LEGIONES DAEMONICA TZEENTCH unit within 9\" of the bearer. If you do, when selecting targets for ranged weapons equipped by the bearer, you can measure range and determine visibility from one model of your choice in the selected unit instead."
+    },
+    {
+      "id": "000009572003",
+      "name": "Horrifying Visage",
+      "cost": 0,
+      "legend": "This daemons alters its visage from alluring to repulsive at a whim, terrifying those who gaze upon it.",
+      "detachment": "Dread Carnival",
+      "rawDescription": "Once per battle round, when an enemy unit within 9\" of the bearer attempts to perform a Tactical Manoeuvre or attempts to operate a Hatchway within 9\" of the bearer, the bearer can use this ability. If it does, that enemy unit must take a Leadership test, subtracting I from the result: if failed, that unit fails to perform that Tactical Manoeuvre or to operate that Hatchway and, until the start of your opponent’s next turn, that unit cannot perform Tactical Manoeuvres or operate Hatchways.",
+      "formattedDescription": "Once per battle round, when an enemy unit within 9\" of the bearer attempts to perform a Tactical Manoeuvre or attempts to operate a Hatchway within 9\" of the bearer, the bearer can use this ability. If it does, that enemy unit must take a Leadership test, subtracting I from the result: if failed, that unit fails to perform that Tactical Manoeuvre or to operate that Hatchway and, until the start of your opponent’s next turn, that unit cannot perform Tactical Manoeuvres or operate Hatchways."
+    },
+    {
+      "id": "000009547003",
+      "name": "Geller Breach",
+      "cost": 0,
+      "legend": "Daemonic entities burst from rippling warp rents and directly into the heart of battle.",
+      "detachment": "Daemonic Incursion",
+      "rawDescription": "Al the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\".",
+      "formattedDescription": "Al the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\"."
+    },
+    {
+      "id": "000009580003",
+      "name": "Mutagenic Flames",
+      "cost": 0,
+      "legend": "The warpflame of Tzeentch is fuelled by sanity and soulstuff, and cannot be easily extinguished. Worse, it does not merely burn its victims, but instead distorts and mutates them in ever more hideous ways.",
+      "detachment": "Pandaemoniac Inferno",
+      "rawDescription": "In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "formattedDescription": "In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009555003",
+      "name": "Unholy Fury",
+      "cost": 0,
+      "legend": "So infused with hatred and warlike wrath is this daemon that it can sustain its corporeal shell through fury alone, even should it be terribly damaged.",
+      "detachment": "Infernal Onslaught",
+      "rawDescription": "If the bearer is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 2+, do not remove it from play. Ure destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "formattedDescription": "If the bearer is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 2+, do not remove it from play. Ure destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000008438003",
+      "name": "The Everstave",
+      "cost": 25,
+      "legend": "This staff blazes with vibrant warpflame. As soon as its master takes up the eldritch weapon, they too are wreathed in the same daemonic fire. From within this magenta inferno, the Everstave’s daemonic bearer hurls searing gouts of Tzeentch’s pink fire, turning armour to ash and immolating or irrevocably mutating the flesh beneath.",
+      "detachment": "Daemonic Incursion",
+      "rawDescription": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
+      "formattedDescription": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead."
+    },
+    {
+      "id": "000009806004",
+      "name": "Avatar of Perfection",
+      "cost": 15,
+      "legend": "This entity is the corporeal embodiment of selfish arrogance, fighting best when it fights alone.",
+      "detachment": "Legion of Excess",
+      "rawDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re-roll Advance rolls made for the bearer; re-roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer.",
+      "formattedDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re-roll Advance rolls made for the bearer; re-roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer."
+    },
+    {
+      "id": "000009819004",
+      "name": "Droning Shroud (Aura)",
+      "cost": 35,
+      "legend": "This sentient cowl of daemonic plague flies roars and whirls with cyclonic force, obscuring even the most hulking and bloated daemonic bearer.",
+      "detachment": "Plague Legion",
+      "rawDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\".",
+      "formattedDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\"."
+    },
+    {
+      "id": "000009810004",
+      "name": "Neverblade",
+      "cost": 20,
+      "legend": "Shifting its shape tirelessly from sword to staff to glaive, this bizarre daemon weapon makes a mockery of even the most determined defence.",
+      "detachment": "Scintillating Legion",
+      "rawDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
+      "formattedDescription": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll."
+    },
+    {
+      "id": "000009815004",
+      "name": "Brazenmaw",
+      "cost": 15,
+      "legend": "This daemon’s maw and throat are forged from burning brass, transforming its war cries into a deafening clarion that calls the Blood Legion to war.",
+      "detachment": "Blood Legion",
+      "rawDescription": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit.",
+      "formattedDescription": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit."
+    },
+    {
+      "id": "000008438004",
+      "name": "The Endless Gift",
+      "cost": 30,
+      "legend": "Only the most accomplished plague daemons are granted the Endless Gift. A disease of unutterable malignancy and repulsive beneficence, it changes form constantly from plague to infestation to malaise. The one constant is its ability to reknit its sufferer’s corporeal form from even the most catastrophic of wounds. One moment, infernal bacteria may multiply like wildfire until their gelid mass fills a fleshy rent with fresh daemon-flesh. The next, pestilential vapours may billow from the daemon’s yawning maw, veiling its ravaged bulk before tattering away to reveal a form healed of its recent hurts.",
+      "detachment": "Daemonic Incursion",
+      "rawDescription": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability. While the bearer is within your army’s Shadow of Chaos, the bearer has the Feel No Pain 4+ ability instead.",
+      "formattedDescription": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability. While the bearer is within your army’s Shadow of Chaos, the bearer has the Feel No Pain 4+ ability instead."
+    },
+    {
+      "id": "000008438005",
+      "name": "Soulstealer",
+      "cost": 15,
+      "legend": "This gluttonous blade gulps down the souls of its victims before invigorating the corporeal form of its wielder. Its greed stems from the starving Keeper of Secrets bound within – an arrogant entity that sought to devour enough Aeldari souls to challenge Slaanesh itself. As punishment for the daemon’s monstrous hubris, Slaanesh trapped it within Soulstealer, condemning the Keeper of Secrets to sustain other daemons with its frenzied appetite while retaining nothing for itself.",
+      "detachment": "Daemonic Incursion",
+      "rawDescription": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound.",
+      "formattedDescription": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound."
+    },
+    {
+      "id": "000009806005",
+      "name": "Soul Glutton",
+      "cost": 10,
+      "legend": "This daemon lord guzzles souls, its bloated corporeality reknitting with each fresh morsel.",
+      "detachment": "Legion of Excess",
+      "rawDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds.",
+      "formattedDescription": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds."
+    },
+    {
+      "id": "000009810005",
+      "name": "Improbable Shield (Aura)",
+      "cost": 30,
+      "legend": "Complex convolutions of ever-more unlikely fate wind about this entity, confounding the mightiest and most esoteric attacks.",
+      "detachment": "Scintillating Legion",
+      "rawDescription": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly LEGIONES DAEMONICA TZEENTCH unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
+      "formattedDescription": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly LEGIONES DAEMONICA TZEENTCH unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+    },
+    {
+      "id": "000009815005",
+      "name": "Gateway Unto Damnation",
+      "cost": 10,
+      "legend": "Concealed within this daemon’s form is a portal into the depths of Khorne’s realm. Anointed with gore and thrown wide by the daemon’s corporeal demise, it expands like a bloody singularity to drag everything in reach into the screaming maelstrom of the Warp.",
+      "detachment": "Blood Legion",
+      "rawDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet.",
+      "formattedDescription": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet."
+    },
+    {
+      "id": "000009819005",
+      "name": "Font of Spores (Aura)",
+      "cost": 20,
+      "legend": "This entity’s foul breath expels clouds of rust pox spores, which gnaw into all they settle upon.",
+      "detachment": "Plague Legion",
+      "rawDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1.",
+      "formattedDescription": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1."
     }
   ]
 }

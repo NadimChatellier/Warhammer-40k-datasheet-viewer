@@ -9495,6 +9495,44 @@
           "rawDescription": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack.",
           "formattedDescription": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008543002",
+          "name": "Eternal Madness",
+          "cost": 25,
+          "legend": "This Necrons sanity suffered during the Great Sleep. Now they are driven by a wrathful zeal, one which has seeped through the carrier waves of their commandments and into their followers.",
+          "detachment": "Annihilation Legion",
+          "rawDescription": "NECRONS model only. In the Fight phase, each time a model in the bearer’s unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking models unit has finished making its attacks, and is then removed from play.",
+          "formattedDescription": "NECRONS model only. In the Fight phase, each time a model in the bearer’s unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking models unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "id": "000008543003",
+          "name": "Ingrained Superiority",
+          "cost": 10,
+          "legend": "An immortal destroyer, this war leaders every victim is etched irrevocably into their cognitive engrams. Every weakness they ever overcame is recalled, frailties they can exploit on each new battlefield.",
+          "detachment": "Annihilation Legion",
+          "rawDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+          "formattedDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "id": "000008543004",
+          "name": "Soulless Reaper",
+          "cost": 20,
+          "legend": "This deathly killer exudes a soul-sapping presence, the promise of lifes’ end so explicit in their chilling gaze that few can muster the strength of will to evade it.",
+          "detachment": "Annihilation Legion",
+          "rawDescription": "DESTROYER CULT model only. Each time an enemy unit within Engagement Range of the bearer’s unit is selected to Fall Back, roll one D6: on a 3+, that unit cannot Fall Back this phase and must Remain Stationary.",
+          "formattedDescription": "DESTROYER CULT model only. Each time an enemy unit within Engagement Range of the bearer’s unit is selected to Fall Back, roll one D6: on a 3+, that unit cannot Fall Back this phase and must Remain Stationary."
+        },
+        {
+          "id": "000008543005",
+          "name": "Eldritch Nightmare",
+          "cost": 15,
+          "legend": "Atavistic fears are summoned from the pits of nightmare and thrust into the minds of all foes near this metal-skinned horror.",
+          "detachment": "Annihilation Legion",
+          "rawDescription": "DESTROYER CULT model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.",
+          "formattedDescription": "DESTROYER CULT model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
+        }
       ]
     },
     {
@@ -9587,6 +9625,44 @@
           "detachment": "Awakened Dynasty",
           "rawDescription": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
           "formattedDescription": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008372002",
+          "name": "Veil of Darkness",
+          "cost": 20,
+          "legend": "With this device the bearer can twist space and time about them, enfolding them in a swirling darkness. When it fades, they have vanished, rematerialising elsewhere through a miracle of arcane science.",
+          "detachment": "Awakened Dynasty",
+          "rawDescription": "NECRONS model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+          "formattedDescription": "NECRONS model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+        },
+        {
+          "id": "000008372003",
+          "name": "Nether-realm Casket",
+          "cost": 20,
+          "legend": "Clouds of hyper-dense particles billow from this small artefact, to obscure and shield the bearer from the foe.",
+          "detachment": "Awakened Dynasty",
+          "rawDescription": "NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability.",
+          "formattedDescription": "NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+        },
+        {
+          "id": "000008372004",
+          "name": "Phasal Subjugator (Aura)",
+          "cost": 35,
+          "legend": "This engraved sigil-circuitry transforms the fierce will of the bearer into a surging lash across every phasal state.",
+          "detachment": "Awakened Dynasty",
+          "rawDescription": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6\" of the bearer, each time a model in that unit makes an attack, add 1 to the Hit roll.",
+          "formattedDescription": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6\" of the bearer, each time a model in that unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "id": "000008372005",
+          "name": "Enaegic Dermal Bond",
+          "cost": 15,
+          "legend": "The bearers living metal mantle is bonded to mirror versions of itself across many dimensional thresholds.",
+          "detachment": "Awakened Dynasty",
+          "rawDescription": "NECRONS model only. The bearer has the Feel No Pain 4+ ability.",
+          "formattedDescription": "NECRONS model only. The bearer has the Feel No Pain 4+ ability."
         }
       ]
     },
@@ -9681,6 +9757,44 @@
           "rawDescription": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead.",
           "formattedDescription": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows: Your deployment zone is always within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix. At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix. Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008546002",
+          "name": "Dimensional Sanctum",
+          "cost": 20,
+          "legend": "This Cryptek has had a personal dimensional pocket reality crafted for them, from which they can emerge into battle at will.",
+          "detachment": "Canoptek Court",
+          "rawDescription": "CRYPTEK model only. Models in the bearer’s unit have the Infiltrators ability.",
+          "formattedDescription": "CRYPTEK model only. Models in the bearer’s unit have the Infiltrators ability."
+        },
+        {
+          "id": "000008546003",
+          "name": "Hyperphasic Fulcrum",
+          "cost": 15,
+          "legend": "With this small orb, its surface shimmering in fractal hues and shifting in multidimensional facets, a Cryptek can bypass the ancient security protocols placed upon the areas dormant machineries. Esoteric data and unusual strands of energy can be accessed, the orb acting as a skeleton key to greater power.",
+          "detachment": "Canoptek Court",
+          "rawDescription": "CRYPTEK model only. While the bearer is leading a unit, if that unit is wholly within your army’s Power Matrix, each time a model in that unit makes an attack, re-roll a Wound roll of 1.",
+          "formattedDescription": "CRYPTEK model only. While the bearer is leading a unit, if that unit is wholly within your army’s Power Matrix, each time a model in that unit makes an attack, re-roll a Wound roll of 1."
+        },
+        {
+          "id": "000008546004",
+          "name": "Autodivinator",
+          "cost": 15,
+          "legend": "This cryptogeometric puzzle box harbours a chronoscarab. The tiny construct creeps forward in time along temporal webs before hauling back a captured net of future moments. Its master can scry these wriggling futures to predict their foe’s strategies, using the knowledge to develop new counter-tactics to ambush the attackers.",
+          "detachment": "Canoptek Court",
+          "rawDescription": "CRYPTEK model only. Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP.",
+          "formattedDescription": "CRYPTEK model only. Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP."
+        },
+        {
+          "id": "000008546005",
+          "name": "Metalodermal Tesla Weave",
+          "cost": 10,
+          "legend": "This microsilicate weave generates a cyclical electrostatic overload that, providing its user triggers it in time, sends arcing lightning leaping out to roast onrushing attackers.",
+          "detachment": "Canoptek Court",
+          "rawDescription": "CRYPTEK model only. Once per phase, when an enemy unit selects the bearer’s unit as a target of a charge, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+          "formattedDescription": "CRYPTEK model only. Once per phase, when an enemy unit selects the bearer’s unit as a target of a charge, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
+        }
       ]
     },
     {
@@ -9748,6 +9862,26 @@
           "rawDescription": "Each time an enemy unit destroys a CRYPTEK model from your army, until the end of the battle, each time a NECRONS model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll.",
           "formattedDescription": "Each time an enemy unit destroys a CRYPTEK model from your army, until the end of the battle, each time a NECRONS model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009604002",
+          "name": "Nanoscarab Reconstitution",
+          "cost": 0,
+          "legend": "This Crypteks living metal form crawls with nanoscarabs, further enhancing its regenerative properties.",
+          "detachment": "Canoptek Harvesters",
+          "rawDescription": "In each player’s Command phase, the bearer regains 1 lost wound.",
+          "formattedDescription": "In each player’s Command phase, the bearer regains 1 lost wound."
+        },
+        {
+          "id": "000009604003",
+          "name": "Impromptu Translocation",
+          "cost": 0,
+          "legend": "Many Necrons make use of dimensional translocation technology to traverse the battlefield. This miniaturised translocator allows a Cryptek to make a single dimensional leap, taking them out of harm’s way.",
+          "detachment": "Canoptek Harvesters",
+          "rawDescription": "Once per battle, after the bearer has shot, it can make a Normal move of up to 6\".",
+          "formattedDescription": "Once per battle, after the bearer has shot, it can make a Normal move of up to 6\"."
+        }
       ]
     },
     {
@@ -9814,6 +9948,26 @@
           "detachment": "Deranged Outcasts",
           "rawDescription": "Each time a NECRONS unit from your army declares a charge, each enemy unit that is a target of that charge must take a Leadership test: if failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
           "formattedDescription": "Each time a NECRONS unit from your army declares a charge, each enemy unit that is a target of that charge must take a Leadership test: if failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009596002",
+          "name": "Inured to Damage",
+          "cost": 0,
+          "legend": "Those who lead the Destroyer Cults will brook no impediment to slaughter. Thus, many of their number bid the Crypteks remove all protective systems, allowing the Destroyer to fight until the very moment their broken form is phased back to their stasis-tomb.",
+          "detachment": "Deranged Outcasts",
+          "rawDescription": "The bearer has the Feel No Pain 6+ ability. Once the bearer has destroyed one or more enemy units, it has the Feel No Pain 5+ ability instead.",
+          "formattedDescription": "The bearer has the Feel No Pain 6+ ability. Once the bearer has destroyed one or more enemy units, it has the Feel No Pain 5+ ability instead."
+        },
+        {
+          "id": "000009596003",
+          "name": "Domineering Presence",
+          "cost": 0,
+          "legend": "This monstrous Lord has long transcended their limiting Necron form and been wrought anew as a monstrously intimidating killing machine.",
+          "detachment": "Deranged Outcasts",
+          "rawDescription": "In your opponent’s Command phase, at the start of the Battle-shock step, select one enemy unit within 3\" of the bearer; that enemy unit must take a Battle-shock test. When doing so, if that enemy unit is Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+          "formattedDescription": "In your opponent’s Command phase, at the start of the Battle-shock step, select one enemy unit within 3\" of the bearer; that enemy unit must take a Battle-shock test. When doing so, if that enemy unit is Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
         }
       ]
     },
@@ -9908,6 +10062,44 @@
           "rawDescription": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:BATTLE SIZENUMBER OF UNITSIncursionUp to 1 units Strike ForceUp to 2 units OnslaughtUp to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves.",
           "formattedDescription": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:BATTLE SIZENUMBER OF UNITSIncursionUp to 1 units Strike ForceUp to 2 units OnslaughtUp to 3 units Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008554002",
+          "name": "Dimensional Overseer",
+          "cost": 25,
+          "legend": "With a mind as labyrinthine as the multi-dimensional tomb itself, this commander directs their servants in complex forays through the tomb’s hyperspatial architecture, catching the witless enemy off guard.",
+          "detachment": "Hypercrypt Legion",
+          "rawDescription": "NECRONS model only. While the bearer is on the battlefield or in Strategic Reserves, add one to the number of units from your army that you can select for the Hyperphasing rule.",
+          "formattedDescription": "NECRONS model only. While the bearer is on the battlefield or in Strategic Reserves, add one to the number of units from your army that you can select for the Hyperphasing rule."
+        },
+        {
+          "id": "000008554003",
+          "name": "Arisen Tyrant",
+          "cost": 25,
+          "legend": "This ancient being will suffer no threats to their rule, stepping imperiously from twisting nightmare dimensions to annihilate any who dare to oppose them.",
+          "detachment": "Hypercrypt Legion",
+          "rawDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. If the bearer’s unit was set up on the battlefield this turn, you can re-roll the Hit roll instead.",
+          "formattedDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. If the bearer’s unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
+        },
+        {
+          "id": "000008554004",
+          "name": "Hyperspatial Transfer Node",
+          "cost": 15,
+          "legend": "Wound with filaments of temporal circuitry, this amulet enables the bearer to accelerate themselves and their closest guardians in stuttering bursts of compressed time.",
+          "detachment": "Hypercrypt Legion",
+          "rawDescription": "NECRONS model only. Each time the bearer’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in the bearer’s unit.",
+          "formattedDescription": "NECRONS model only. Each time the bearer’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in the bearer’s unit."
+        },
+        {
+          "id": "000008554005",
+          "name": "Osteoclave Fulcrum",
+          "cost": 20,
+          "legend": "This hypermaterial key unlocks portals between transpatial dimensions embedded into a tomb’s architecture. Through such limitless doorways, the Necrons can pursue their quarry wherever they hide.",
+          "detachment": "Hypercrypt Legion",
+          "rawDescription": "NECRONS model only. Models in the bearer’s unit have the Deep Strike ability.",
+          "formattedDescription": "NECRONS model only. Models in the bearer’s unit have the Deep Strike ability."
+        }
       ]
     },
     {
@@ -10000,6 +10192,44 @@
           "detachment": "Obeisance Phalanx",
           "rawDescription": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll.",
           "formattedDescription": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008550002",
+          "name": "Honourable Combatant",
+          "cost": 10,
+          "legend": "A strict adherent to the ancient codes, this noble reserves their greatest displays of power to execute the enemy's leaders. Such champions are brought low in ostentatious manner, the inspiration or strategy they once provided severed at a stroke.",
+          "detachment": "Obeisance Phalanx",
+          "rawDescription": "OVERLORD model only. Each time the bearer’s unit destroys an enemy CHARACTER unit, your opponent loses 1CP if they have any.",
+          "formattedDescription": "OVERLORD model only. Each time the bearer’s unit destroys an enemy CHARACTER unit, your opponent loses 1CP if they have any."
+        },
+        {
+          "id": "000008550003",
+          "name": "Unflinching Will",
+          "cost": 20,
+          "legend": "With sheer will this noble drives their warriors into battle against the most malevolent foes. Not from pretenders to nobility, nor marauding beasts, nor titanic machineries will this noble turn; they have faced greater horrors during their long existence.",
+          "detachment": "Obeisance Phalanx",
+          "rawDescription": "OVERLORD model only. The bearer’s melee weapons have the [PRECISION] and [ANTI-INFANTRY 5+] abilities.",
+          "formattedDescription": "OVERLORD model only. The bearer’s melee weapons have the [PRECISION] and [ANTI-INFANTRY 5+] abilities."
+        },
+        {
+          "id": "000008550004",
+          "name": "Warrior Noble",
+          "cost": 15,
+          "legend": "This dynastic scion is an expert in the arts of martial excellence, and their living metal form has been enhanced by their Crypteks. With effortless arrogance, they and their guardians parry or contemptuously swat aside the strikes of those they see as their lessers.",
+          "detachment": "Obeisance Phalanx",
+          "rawDescription": "OVERLORD model only. Each time a melee attack targets the bearer’s unit, subtract 1 from the Hit roll.",
+          "formattedDescription": "OVERLORD model only. Each time a melee attack targets the bearer’s unit, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000008550005",
+          "name": "Eternal Conqueror",
+          "cost": 25,
+          "legend": "This insatiable subjugator sees all before them as theirs for the taking by ancient right of conquest. They wield their legion like an iron gauntlet, using it to seize the battlefield in a demonstration of their power and strength, daring others to try taking it from them.",
+          "detachment": "Obeisance Phalanx",
+          "rawDescription": "OVERLORD model only. Each time a model in the bearer’s unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll.",
+          "formattedDescription": "OVERLORD model only. Each time a model in the bearer’s unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll."
         }
       ]
     },
@@ -10094,6 +10324,44 @@
           "rawDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.",
           "formattedDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009749002",
+          "name": "Dread Majesty (Aura)",
+          "cost": 30,
+          "legend": "When this noble unleashes the might of their cosmic armoury, their followers are left in no doubt as to the importance of the battle at hand. If they do not strive to live up to the lethal effectiveness of the dynasty’s war engines, their Overlord’s wrath will be terrible.",
+          "detachment": "Starshatter Arsenal",
+          "rawDescription": "OVERLORD or CATACOMB COMMAND BARGE model only. While a friendly NECRONS unit (excluding TITANIC units) is within 6\" of the bearer, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+          "formattedDescription": "OVERLORD or CATACOMB COMMAND BARGE model only. While a friendly NECRONS unit (excluding TITANIC units) is within 6\" of the bearer, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "id": "000009749003",
+          "name": "Miniaturised Nebuloscope",
+          "cost": 15,
+          "legend": "Feeding vampirically on datastreams from the dynasty’s war engines, this device enables its owner to track enemies through multiple dimensions, leaving them no hiding place.",
+          "detachment": "Starshatter Arsenal",
+          "rawDescription": "NECRONS model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+          "formattedDescription": "NECRONS model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+        },
+        {
+          "id": "000009749004",
+          "name": "Demanding Leader",
+          "cost": 10,
+          "legend": "This Necron noble is a master of rapid warfare, commanding armoured columns with great precision.",
+          "detachment": "Starshatter Arsenal",
+          "rawDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back.",
+          "formattedDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "id": "000009749005",
+          "name": "Chrono-impedance Fields",
+          "cost": 25,
+          "legend": "When activated, this device wreathes dynastic craft in a time-dilation field that reduces the force of incoming blows and shots.",
+          "detachment": "Starshatter Arsenal",
+          "rawDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack.",
+          "formattedDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack."
+        }
       ]
     },
     {
@@ -10160,6 +10428,26 @@
           "detachment": "Tomb Ship Complement",
           "rawDescription": "Each time a NECRONS model from your army makes an attack, if that model is within range of an objective marker or the target of that attack is within range of an objective marker, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
           "formattedDescription": "Each time a NECRONS model from your army makes an attack, if that model is within range of an objective marker or the target of that attack is within range of an objective marker, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009588002",
+          "name": "Resurrection Protocols",
+          "cost": 0,
+          "legend": "This Necron commanders body has been fitted with a miniaturised resurrection field. This device greatly enhances the bearer’s regenerative abilities.",
+          "detachment": "Tomb Ship Complement",
+          "rawDescription": "The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining.",
+          "formattedDescription": "The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining."
+        },
+        {
+          "id": "000009588003",
+          "name": "Mindshackle Scarabs",
+          "cost": 0,
+          "legend": "Mindshackle scarabs burrow into the brains of a living host and wrest control of their faculties.",
+          "detachment": "Tomb Ship Complement",
+          "rawDescription": "CRYPTEK model only. In your Command phase, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your next Command phase, subtract 2\" from the Move characteristic of models in that enemy unit and subtract 2 from Advance and Charge rolls made for it.",
+          "formattedDescription": "CRYPTEK model only. In your Command phase, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your next Command phase, subtract 2\" from the Move characteristic of models in that enemy unit and subtract 2 from Advance and Charge rolls made for it."
         }
       ]
     }
@@ -10236,6 +10524,278 @@
       "detachment": "Starshatter Arsenal",
       "rawDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.",
       "formattedDescription": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000008546002",
+      "name": "Dimensional Sanctum",
+      "cost": 20,
+      "legend": "This Cryptek has had a personal dimensional pocket reality crafted for them, from which they can emerge into battle at will.",
+      "detachment": "Canoptek Court",
+      "rawDescription": "CRYPTEK model only. Models in the bearer’s unit have the Infiltrators ability.",
+      "formattedDescription": "CRYPTEK model only. Models in the bearer’s unit have the Infiltrators ability."
+    },
+    {
+      "id": "000008372002",
+      "name": "Veil of Darkness",
+      "cost": 20,
+      "legend": "With this device the bearer can twist space and time about them, enfolding them in a swirling darkness. When it fades, they have vanished, rematerialising elsewhere through a miracle of arcane science.",
+      "detachment": "Awakened Dynasty",
+      "rawDescription": "NECRONS model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+      "formattedDescription": "NECRONS model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+    },
+    {
+      "id": "000008554002",
+      "name": "Dimensional Overseer",
+      "cost": 25,
+      "legend": "With a mind as labyrinthine as the multi-dimensional tomb itself, this commander directs their servants in complex forays through the tomb’s hyperspatial architecture, catching the witless enemy off guard.",
+      "detachment": "Hypercrypt Legion",
+      "rawDescription": "NECRONS model only. While the bearer is on the battlefield or in Strategic Reserves, add one to the number of units from your army that you can select for the Hyperphasing rule.",
+      "formattedDescription": "NECRONS model only. While the bearer is on the battlefield or in Strategic Reserves, add one to the number of units from your army that you can select for the Hyperphasing rule."
+    },
+    {
+      "id": "000009604002",
+      "name": "Nanoscarab Reconstitution",
+      "cost": 0,
+      "legend": "This Crypteks living metal form crawls with nanoscarabs, further enhancing its regenerative properties.",
+      "detachment": "Canoptek Harvesters",
+      "rawDescription": "In each player’s Command phase, the bearer regains 1 lost wound.",
+      "formattedDescription": "In each player’s Command phase, the bearer regains 1 lost wound."
+    },
+    {
+      "id": "000008550002",
+      "name": "Honourable Combatant",
+      "cost": 10,
+      "legend": "A strict adherent to the ancient codes, this noble reserves their greatest displays of power to execute the enemy's leaders. Such champions are brought low in ostentatious manner, the inspiration or strategy they once provided severed at a stroke.",
+      "detachment": "Obeisance Phalanx",
+      "rawDescription": "OVERLORD model only. Each time the bearer’s unit destroys an enemy CHARACTER unit, your opponent loses 1CP if they have any.",
+      "formattedDescription": "OVERLORD model only. Each time the bearer’s unit destroys an enemy CHARACTER unit, your opponent loses 1CP if they have any."
+    },
+    {
+      "id": "000009749002",
+      "name": "Dread Majesty (Aura)",
+      "cost": 30,
+      "legend": "When this noble unleashes the might of their cosmic armoury, their followers are left in no doubt as to the importance of the battle at hand. If they do not strive to live up to the lethal effectiveness of the dynasty’s war engines, their Overlord’s wrath will be terrible.",
+      "detachment": "Starshatter Arsenal",
+      "rawDescription": "OVERLORD or CATACOMB COMMAND BARGE model only. While a friendly NECRONS unit (excluding TITANIC units) is within 6\" of the bearer, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "formattedDescription": "OVERLORD or CATACOMB COMMAND BARGE model only. While a friendly NECRONS unit (excluding TITANIC units) is within 6\" of the bearer, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    },
+    {
+      "id": "000009596002",
+      "name": "Inured to Damage",
+      "cost": 0,
+      "legend": "Those who lead the Destroyer Cults will brook no impediment to slaughter. Thus, many of their number bid the Crypteks remove all protective systems, allowing the Destroyer to fight until the very moment their broken form is phased back to their stasis-tomb.",
+      "detachment": "Deranged Outcasts",
+      "rawDescription": "The bearer has the Feel No Pain 6+ ability. Once the bearer has destroyed one or more enemy units, it has the Feel No Pain 5+ ability instead.",
+      "formattedDescription": "The bearer has the Feel No Pain 6+ ability. Once the bearer has destroyed one or more enemy units, it has the Feel No Pain 5+ ability instead."
+    },
+    {
+      "id": "000008543002",
+      "name": "Eternal Madness",
+      "cost": 25,
+      "legend": "This Necrons sanity suffered during the Great Sleep. Now they are driven by a wrathful zeal, one which has seeped through the carrier waves of their commandments and into their followers.",
+      "detachment": "Annihilation Legion",
+      "rawDescription": "NECRONS model only. In the Fight phase, each time a model in the bearer’s unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking models unit has finished making its attacks, and is then removed from play.",
+      "formattedDescription": "NECRONS model only. In the Fight phase, each time a model in the bearer’s unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking models unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000009588002",
+      "name": "Resurrection Protocols",
+      "cost": 0,
+      "legend": "This Necron commanders body has been fitted with a miniaturised resurrection field. This device greatly enhances the bearer’s regenerative abilities.",
+      "detachment": "Tomb Ship Complement",
+      "rawDescription": "The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining.",
+      "formattedDescription": "The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining."
+    },
+    {
+      "id": "000009596003",
+      "name": "Domineering Presence",
+      "cost": 0,
+      "legend": "This monstrous Lord has long transcended their limiting Necron form and been wrought anew as a monstrously intimidating killing machine.",
+      "detachment": "Deranged Outcasts",
+      "rawDescription": "In your opponent’s Command phase, at the start of the Battle-shock step, select one enemy unit within 3\" of the bearer; that enemy unit must take a Battle-shock test. When doing so, if that enemy unit is Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+      "formattedDescription": "In your opponent’s Command phase, at the start of the Battle-shock step, select one enemy unit within 3\" of the bearer; that enemy unit must take a Battle-shock test. When doing so, if that enemy unit is Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
+    },
+    {
+      "id": "000009604003",
+      "name": "Impromptu Translocation",
+      "cost": 0,
+      "legend": "Many Necrons make use of dimensional translocation technology to traverse the battlefield. This miniaturised translocator allows a Cryptek to make a single dimensional leap, taking them out of harm’s way.",
+      "detachment": "Canoptek Harvesters",
+      "rawDescription": "Once per battle, after the bearer has shot, it can make a Normal move of up to 6\".",
+      "formattedDescription": "Once per battle, after the bearer has shot, it can make a Normal move of up to 6\"."
+    },
+    {
+      "id": "000009588003",
+      "name": "Mindshackle Scarabs",
+      "cost": 0,
+      "legend": "Mindshackle scarabs burrow into the brains of a living host and wrest control of their faculties.",
+      "detachment": "Tomb Ship Complement",
+      "rawDescription": "CRYPTEK model only. In your Command phase, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your next Command phase, subtract 2\" from the Move characteristic of models in that enemy unit and subtract 2 from Advance and Charge rolls made for it.",
+      "formattedDescription": "CRYPTEK model only. In your Command phase, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Leadership test, subtracting 1 from the result: if failed, until the start of your next Command phase, subtract 2\" from the Move characteristic of models in that enemy unit and subtract 2 from Advance and Charge rolls made for it."
+    },
+    {
+      "id": "000008543003",
+      "name": "Ingrained Superiority",
+      "cost": 10,
+      "legend": "An immortal destroyer, this war leaders every victim is etched irrevocably into their cognitive engrams. Every weakness they ever overcame is recalled, frailties they can exploit on each new battlefield.",
+      "detachment": "Annihilation Legion",
+      "rawDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+      "formattedDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "id": "000008546003",
+      "name": "Hyperphasic Fulcrum",
+      "cost": 15,
+      "legend": "With this small orb, its surface shimmering in fractal hues and shifting in multidimensional facets, a Cryptek can bypass the ancient security protocols placed upon the areas dormant machineries. Esoteric data and unusual strands of energy can be accessed, the orb acting as a skeleton key to greater power.",
+      "detachment": "Canoptek Court",
+      "rawDescription": "CRYPTEK model only. While the bearer is leading a unit, if that unit is wholly within your army’s Power Matrix, each time a model in that unit makes an attack, re-roll a Wound roll of 1.",
+      "formattedDescription": "CRYPTEK model only. While the bearer is leading a unit, if that unit is wholly within your army’s Power Matrix, each time a model in that unit makes an attack, re-roll a Wound roll of 1."
+    },
+    {
+      "id": "000009749003",
+      "name": "Miniaturised Nebuloscope",
+      "cost": 15,
+      "legend": "Feeding vampirically on datastreams from the dynasty’s war engines, this device enables its owner to track enemies through multiple dimensions, leaving them no hiding place.",
+      "detachment": "Starshatter Arsenal",
+      "rawDescription": "NECRONS model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+      "formattedDescription": "NECRONS model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+    },
+    {
+      "id": "000008372003",
+      "name": "Nether-realm Casket",
+      "cost": 20,
+      "legend": "Clouds of hyper-dense particles billow from this small artefact, to obscure and shield the bearer from the foe.",
+      "detachment": "Awakened Dynasty",
+      "rawDescription": "NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability.",
+      "formattedDescription": "NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+    },
+    {
+      "id": "000008554003",
+      "name": "Arisen Tyrant",
+      "cost": 25,
+      "legend": "This ancient being will suffer no threats to their rule, stepping imperiously from twisting nightmare dimensions to annihilate any who dare to oppose them.",
+      "detachment": "Hypercrypt Legion",
+      "rawDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. If the bearer’s unit was set up on the battlefield this turn, you can re-roll the Hit roll instead.",
+      "formattedDescription": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. If the bearer’s unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
+    },
+    {
+      "id": "000008550003",
+      "name": "Unflinching Will",
+      "cost": 20,
+      "legend": "With sheer will this noble drives their warriors into battle against the most malevolent foes. Not from pretenders to nobility, nor marauding beasts, nor titanic machineries will this noble turn; they have faced greater horrors during their long existence.",
+      "detachment": "Obeisance Phalanx",
+      "rawDescription": "OVERLORD model only. The bearer’s melee weapons have the [PRECISION] and [ANTI-INFANTRY 5+] abilities.",
+      "formattedDescription": "OVERLORD model only. The bearer’s melee weapons have the [PRECISION] and [ANTI-INFANTRY 5+] abilities."
+    },
+    {
+      "id": "000008543004",
+      "name": "Soulless Reaper",
+      "cost": 20,
+      "legend": "This deathly killer exudes a soul-sapping presence, the promise of lifes’ end so explicit in their chilling gaze that few can muster the strength of will to evade it.",
+      "detachment": "Annihilation Legion",
+      "rawDescription": "DESTROYER CULT model only. Each time an enemy unit within Engagement Range of the bearer’s unit is selected to Fall Back, roll one D6: on a 3+, that unit cannot Fall Back this phase and must Remain Stationary.",
+      "formattedDescription": "DESTROYER CULT model only. Each time an enemy unit within Engagement Range of the bearer’s unit is selected to Fall Back, roll one D6: on a 3+, that unit cannot Fall Back this phase and must Remain Stationary."
+    },
+    {
+      "id": "000008546004",
+      "name": "Autodivinator",
+      "cost": 15,
+      "legend": "This cryptogeometric puzzle box harbours a chronoscarab. The tiny construct creeps forward in time along temporal webs before hauling back a captured net of future moments. Its master can scry these wriggling futures to predict their foe’s strategies, using the knowledge to develop new counter-tactics to ambush the attackers.",
+      "detachment": "Canoptek Court",
+      "rawDescription": "CRYPTEK model only. Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP.",
+      "formattedDescription": "CRYPTEK model only. Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP."
+    },
+    {
+      "id": "000008550004",
+      "name": "Warrior Noble",
+      "cost": 15,
+      "legend": "This dynastic scion is an expert in the arts of martial excellence, and their living metal form has been enhanced by their Crypteks. With effortless arrogance, they and their guardians parry or contemptuously swat aside the strikes of those they see as their lessers.",
+      "detachment": "Obeisance Phalanx",
+      "rawDescription": "OVERLORD model only. Each time a melee attack targets the bearer’s unit, subtract 1 from the Hit roll.",
+      "formattedDescription": "OVERLORD model only. Each time a melee attack targets the bearer’s unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009749004",
+      "name": "Demanding Leader",
+      "cost": 10,
+      "legend": "This Necron noble is a master of rapid warfare, commanding armoured columns with great precision.",
+      "detachment": "Starshatter Arsenal",
+      "rawDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back.",
+      "formattedDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+      "id": "000008372004",
+      "name": "Phasal Subjugator (Aura)",
+      "cost": 35,
+      "legend": "This engraved sigil-circuitry transforms the fierce will of the bearer into a surging lash across every phasal state.",
+      "detachment": "Awakened Dynasty",
+      "rawDescription": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6\" of the bearer, each time a model in that unit makes an attack, add 1 to the Hit roll.",
+      "formattedDescription": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6\" of the bearer, each time a model in that unit makes an attack, add 1 to the Hit roll."
+    },
+    {
+      "id": "000008554004",
+      "name": "Hyperspatial Transfer Node",
+      "cost": 15,
+      "legend": "Wound with filaments of temporal circuitry, this amulet enables the bearer to accelerate themselves and their closest guardians in stuttering bursts of compressed time.",
+      "detachment": "Hypercrypt Legion",
+      "rawDescription": "NECRONS model only. Each time the bearer’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in the bearer’s unit.",
+      "formattedDescription": "NECRONS model only. Each time the bearer’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in the bearer’s unit."
+    },
+    {
+      "id": "000008546005",
+      "name": "Metalodermal Tesla Weave",
+      "cost": 10,
+      "legend": "This microsilicate weave generates a cyclical electrostatic overload that, providing its user triggers it in time, sends arcing lightning leaping out to roast onrushing attackers.",
+      "detachment": "Canoptek Court",
+      "rawDescription": "CRYPTEK model only. Once per phase, when an enemy unit selects the bearer’s unit as a target of a charge, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+      "formattedDescription": "CRYPTEK model only. Once per phase, when an enemy unit selects the bearer’s unit as a target of a charge, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
+    },
+    {
+      "id": "000009749005",
+      "name": "Chrono-impedance Fields",
+      "cost": 25,
+      "legend": "When activated, this device wreathes dynastic craft in a time-dilation field that reduces the force of incoming blows and shots.",
+      "detachment": "Starshatter Arsenal",
+      "rawDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack.",
+      "formattedDescription": "NECRONS model only. In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+      "id": "000008543005",
+      "name": "Eldritch Nightmare",
+      "cost": 15,
+      "legend": "Atavistic fears are summoned from the pits of nightmare and thrust into the minds of all foes near this metal-skinned horror.",
+      "detachment": "Annihilation Legion",
+      "rawDescription": "DESTROYER CULT model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.",
+      "formattedDescription": "DESTROYER CULT model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
+    },
+    {
+      "id": "000008554005",
+      "name": "Osteoclave Fulcrum",
+      "cost": 20,
+      "legend": "This hypermaterial key unlocks portals between transpatial dimensions embedded into a tomb’s architecture. Through such limitless doorways, the Necrons can pursue their quarry wherever they hide.",
+      "detachment": "Hypercrypt Legion",
+      "rawDescription": "NECRONS model only. Models in the bearer’s unit have the Deep Strike ability.",
+      "formattedDescription": "NECRONS model only. Models in the bearer’s unit have the Deep Strike ability."
+    },
+    {
+      "id": "000008550005",
+      "name": "Eternal Conqueror",
+      "cost": 25,
+      "legend": "This insatiable subjugator sees all before them as theirs for the taking by ancient right of conquest. They wield their legion like an iron gauntlet, using it to seize the battlefield in a demonstration of their power and strength, daring others to try taking it from them.",
+      "detachment": "Obeisance Phalanx",
+      "rawDescription": "OVERLORD model only. Each time a model in the bearer’s unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll.",
+      "formattedDescription": "OVERLORD model only. Each time a model in the bearer’s unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll."
+    },
+    {
+      "id": "000008372005",
+      "name": "Enaegic Dermal Bond",
+      "cost": 15,
+      "legend": "The bearers living metal mantle is bonded to mirror versions of itself across many dimensional thresholds.",
+      "detachment": "Awakened Dynasty",
+      "rawDescription": "NECRONS model only. The bearer has the Feel No Pain 4+ ability.",
+      "formattedDescription": "NECRONS model only. The bearer has the Feel No Pain 4+ ability."
     }
   ]
 }

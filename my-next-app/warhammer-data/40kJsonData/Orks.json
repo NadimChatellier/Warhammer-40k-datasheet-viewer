@@ -15840,6 +15840,44 @@
           "rawDescription": "At the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for WARBOSS, NOBZ and MEGANOBZ units from your army.",
           "formattedDescription": "At the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for WARBOSS, NOBZ and MEGANOBZ units from your army."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008885002",
+          "name": "Big Gob",
+          "cost": 20,
+          "legend": "This warlords bellowing war cry is so loud that it can be heard over the thickest of fighting, rolling outwards in a terrifying bestial roar.",
+          "detachment": "Bully Boyz",
+          "rawDescription": "INFANTRY WARBOSS model only. At the start of the Fight phase, select one enemy unit within Engagement range of the bearer. That unit must take a Battle-shock test, and when doing so, subtract 1 from the result.",
+          "formattedDescription": "INFANTRY WARBOSS model only. At the start of the Fight phase, select one enemy unit within Engagement range of the bearer. That unit must take a Battle-shock test, and when doing so, subtract 1 from the result."
+        },
+        {
+          "id": "000008885003",
+          "name": "Da Biggest Boss",
+          "cost": 15,
+          "legend": "The bigger the Waaagh!, the bigger the boss must be to exert control. This Ork has countless huge battles under his belt and has grown in stature and aggression to match.",
+          "detachment": "Bully Boyz",
+          "rawDescription": "INFANTRY WARBOSS model only. Add 2 to the bearer’s Wounds characteristic.",
+          "formattedDescription": "INFANTRY WARBOSS model only. Add 2 to the bearer’s Wounds characteristic."
+        },
+        {
+          "id": "000008885004",
+          "name": "’Eadstompa",
+          "cost": 10,
+          "legend": "A solid slab of muscle and aggression, this Ork is living embodiment of the undeniable truth of his enemies’ inferiority.",
+          "detachment": "Bully Boyz",
+          "rawDescription": "INFANTRY WARBOSS model only. Each time the bearer makes an attack that targets a unit that is below its Starting Strength, re-roll a Wound roll of 1. If that unit is Below Half-strength, you can re-roll the Wound roll instead.",
+          "formattedDescription": "INFANTRY WARBOSS model only. Each time the bearer makes an attack that targets a unit that is below its Starting Strength, re-roll a Wound roll of 1. If that unit is Below Half-strength, you can re-roll the Wound roll instead."
+        },
+        {
+          "id": "000008885005",
+          "name": "Tellyporta",
+          "cost": 25,
+          "legend": "Nothing shocks the enemy like an angry mob of the biggest and surliest Orks imaginable suddenly appearing in a blast of green lightning!",
+          "detachment": "Bully Boyz",
+          "rawDescription": "WARBOSS IN MEGA ARMOUR model only. Models in the bearer’s unit have the Deep Strike ability.",
+          "formattedDescription": "WARBOSS IN MEGA ARMOUR model only. Models in the bearer’s unit have the Deep Strike ability."
+        }
       ]
     },
     {
@@ -15932,6 +15970,44 @@
           "detachment": "Da Big Hunt",
           "rawDescription": "At the start of your Command phase, select one MONSTER, VEHICLE or CHARACTER unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:Each time a BEAST SNAGGA unit from your army declares a charge that includes your Prey as one of the targets, you can re-roll the Charge roll.Each time a BEAST SNAGGA model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1.",
           "formattedDescription": "At the start of your Command phase, select one MONSTER, VEHICLE or CHARACTER unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:Each time a BEAST SNAGGA unit from your army declares a charge that includes your Prey as one of the targets, you can re-roll the Charge roll.Each time a BEAST SNAGGA model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008868002",
+          "name": "Glory Hog",
+          "cost": 30,
+          "legend": "Obsessed with being the first to make a kill, this hunter spurs his unruly mount ahead of the warband, coaxing his mob to follow him with the explicit threat of feeding them to his squigosaur if they don’t keep up.",
+          "detachment": "Da Big Hunt",
+          "rawDescription": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9\" ability.",
+          "formattedDescription": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9\" ability."
+        },
+        {
+          "id": "000008868003",
+          "name": "Proper Killy",
+          "cost": 15,
+          "legend": "This Beast Snagga is an unstoppable engine of destructive butchery who has left the brutalised corpses of his huge prey piled in his wake on world after world.",
+          "detachment": "Da Big Hunt",
+          "rawDescription": "BEAST SNAGGA model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer.",
+          "formattedDescription": "BEAST SNAGGA model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer."
+        },
+        {
+          "id": "000008868004",
+          "name": "Skrag Every Stash!",
+          "cost": 25,
+          "legend": "Successful hunt leaders are never short of a kunnin' plan to flush out the prey. This sneaky git has mastered the art of ransacking whatever the prey values, luring the quarry in to retaliate or else ensuring they’re cornered, with no bolthole or gear to fall back on.",
+          "detachment": "Da Big Hunt",
+          "rawDescription": "BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+          "formattedDescription": "BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+          "id": "000008868005",
+          "name": "Surly as a Squiggoth",
+          "cost": 20,
+          "legend": "With a lifetime of leading notoriously deadly Beast Snagga hunts behind them, and gnarled hides thicker than Battlewagon armour, this Ork and his favoured Boyz have survived blows that would fell a Gargant.",
+          "detachment": "Da Big Hunt",
+          "rawDescription": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+          "formattedDescription": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
         }
       ]
     },
@@ -16034,6 +16110,44 @@
           "rawDescription": "GRETCHIN units from your army gain the BATTLELINE keyword.",
           "formattedDescription": "GRETCHIN units from your army gain the BATTLELINE keyword."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008877002",
+          "name": "Gitfinder Googlez",
+          "cost": 10,
+          "legend": "By squinting hard through the mismatched lenses of these goggles, even the sneakiest git can be pinpointed.",
+          "detachment": "Dread Mob",
+          "rawDescription": "MEK model only. Ranged weapons equipped by models in the bearer’s unit have the [ignores cover] ability.",
+          "formattedDescription": "MEK model only. Ranged weapons equipped by models in the bearer’s unit have the [ignores cover] ability."
+        },
+        {
+          "id": "000008877003",
+          "name": "Press It Fasta!",
+          "cost": 35,
+          "legend": "Impatient for better results, this Mek is an avid advocate of the theory that smashing buttons and cranking dials faster makes kustom guns more shooty.",
+          "detachment": "Dread Mob",
+          "rawDescription": "MEK model only. Each time the bearer’s unit is selected to shoot, when rolling to determine which ability that unit’s weapons gain from the Try Dat Button! Detachment rule, roll one additional D6: until the end of the phase, ranged weapons equipped by models in that unit gain both Button Effects generated by those rolls. If a duplicate Button Effect is rolled, it has no additional effect.",
+          "formattedDescription": "MEK model only. Each time the bearer’s unit is selected to shoot, when rolling to determine which ability that unit’s weapons gain from the Try Dat Button! Detachment rule, roll one additional D6: until the end of the phase, ranged weapons equipped by models in that unit gain both Button Effects generated by those rolls. If a duplicate Button Effect is rolled, it has no additional effect."
+        },
+        {
+          "id": "000008877004",
+          "name": "Smoky Gubbinz",
+          "cost": 15,
+          "legend": "This loud, fume-belching device wreathes the bearer and his mates in a thick bank of smoke. This is hard for the enemy to see through, but has little detriment on the Orks’ own accuracy.",
+          "detachment": "Dread Mob",
+          "rawDescription": "MEK model only. Models in the bearer’s unit have the Stealth ability.",
+          "formattedDescription": "MEK model only. Models in the bearer’s unit have the Stealth ability."
+        },
+        {
+          "id": "000008877005",
+          "name": "Supa‑glowy Fing",
+          "cost": 20,
+          "legend": "The Mek cobbled together this strange device in a flash of feverish inventin’. He isn’t sure what it does - and it glows weirdly - but he proudly carries it to battle, eager to know what its big switch will do this time.",
+          "detachment": "Dread Mob",
+          "rawDescription": "MEK model only. In your Command phase, select one enemy unit within 18\" of and visible to the bearer, then roll one D6: on a 1-2, that enemy unit must take a Battle-shock test; on a 3-4, that enemy unit suffers D3 mortal wounds; on a 5-6, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+          "formattedDescription": "MEK model only. In your Command phase, select one enemy unit within 18\" of and visible to the bearer, then roll one D6: on a 1-2, that enemy unit must take a Battle-shock test; on a 3-4, that enemy unit suffers D3 mortal wounds; on a 5-6, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -16127,6 +16241,44 @@
           "rawDescription": "Each time an attack targets a BOYZ unit from your army, models in that unit have a 6+ invulnerable save against that attack. Each time an attack targets a BOYZ unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack.’",
           "formattedDescription": "Each time an attack targets a BOYZ unit from your army, models in that unit have a 6+ invulnerable save against that attack. Each time an attack targets a BOYZ unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack.’"
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008881002",
+          "name": "Bloodthirsty Belligerence",
+          "cost": 15,
+          "legend": "Buoyed on by his chanting ladz and eager to smash into his enemies first, this boss leads the way, racing towards one fight after the next.",
+          "detachment": "Green Tide",
+          "rawDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit. While that unit contains 10 or more models, you can re-roll Charge rolls made for that unit as well.",
+          "formattedDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit. While that unit contains 10 or more models, you can re-roll Charge rolls made for that unit as well."
+        },
+        {
+          "id": "000008881003",
+          "name": "Brutal But Kunnin’",
+          "cost": 25,
+          "legend": "What tactics occasionally pop into this Orks head revolve purely around throwing as many Boyz into the enemy’s face as possible.",
+          "detachment": "Green Tide",
+          "rawDescription": "ORKS INFANTRY model only. In your Command phase, if the bearer is on the battlefield (or is embarked within a TRANSPORT that is on the battlefield), roll one D6, adding 2 to the result if the bearer’s unit contains 10 or more models: on a 5+, you gain 1CP.",
+          "formattedDescription": "ORKS INFANTRY model only. In your Command phase, if the bearer is on the battlefield (or is embarked within a TRANSPORT that is on the battlefield), roll one D6, adding 2 to the result if the bearer’s unit contains 10 or more models: on a 5+, you gain 1CP."
+        },
+        {
+          "id": "000008881004",
+          "name": "Ferocious Show Off",
+          "cost": 10,
+          "legend": "This brutal fighter is even more dangerous with a raucous audience of chanting Orks as he displays his violent abilities as a warning to all.",
+          "detachment": "Green Tide",
+          "rawDescription": "ORKS INFANTRY model only. Each time the bearer fights, while resolving those attacks, add 1 to the Strength characteristic of the bearers melee weapons. If the bearer’s unit contains 10 or more models, while resolving those attacks, add 3 to the Strength characteristic instead.",
+          "formattedDescription": "ORKS INFANTRY model only. Each time the bearer fights, while resolving those attacks, add 1 to the Strength characteristic of the bearers melee weapons. If the bearer’s unit contains 10 or more models, while resolving those attacks, add 3 to the Strength characteristic instead."
+        },
+        {
+          "id": "000008881005",
+          "name": "Raucous Warcaller",
+          "cost": 20,
+          "legend": "This hulking boss is a focal point of violent enthusiasm. Orks flocking to his bosspole feel emboldened, the boss exuding an energetic dynamism that keeps his ladz at the height of rampaging excitement.",
+          "detachment": "Green Tide",
+          "rawDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use.",
+          "formattedDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use."
+        }
       ]
     },
     {
@@ -16193,6 +16345,26 @@
           "detachment": "Kaptin Killers",
           "rawDescription": "In your Movement phase, Desperate Escape tests taken for ORKS models from your army are automatically passed and each time an ORKS unit from your army makes a Normal, Advance or Fall Back move, it can move through other models as if they were not there, provided those other models have a lower Toughness characteristic than it.",
           "formattedDescription": "In your Movement phase, Desperate Escape tests taken for ORKS models from your army are automatically passed and each time an ORKS unit from your army makes a Normal, Advance or Fall Back move, it can move through other models as if they were not there, provided those other models have a lower Toughness characteristic than it."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009623002",
+          "name": "Tellyporta",
+          "cost": 0,
+          "legend": "Employing madcap tellyporta arrays, Ork Meks can beam massively armoured Nobz through the warp and onto an enemy vessel, much to the horror of the defenders.",
+          "detachment": "Kaptin Killers",
+          "rawDescription": "In the Deploy Armies step, select one MEGANOBZ unit from your army. Until the end of the battle, models in that unit have the Deep Strike ability.",
+          "formattedDescription": "In the Deploy Armies step, select one MEGANOBZ unit from your army. Until the end of the battle, models in that unit have the Deep Strike ability."
+        },
+        {
+          "id": "000009623003",
+          "name": "Gnasher Squig Crates",
+          "cost": 0,
+          "legend": "This Warboss has ordered his ladz to bring armoured crates of vicious gnasher squigs aboard. Upended into strategically vital areas, they create a dangerous infestation that enemies will struggle to remove.",
+          "detachment": "Kaptin Killers",
+          "rawDescription": "WARBOSS model only. In your Command phase, you can select one NOBZ or MEGANOBZ unit from your army (excluding Battle-shocked units) that is within 6\" of the bearer and is within range of an objective marker. If there are no enemy models within range of that objective marker, it is Secured by your army.",
+          "formattedDescription": "WARBOSS model only. In your Command phase, you can select one NOBZ or MEGANOBZ unit from your army (excluding Battle-shocked units) that is within 6\" of the bearer and is within range of an objective marker. If there are no enemy models within range of that objective marker, it is Secured by your army."
         }
       ]
     },
@@ -16287,6 +16459,44 @@
           "rawDescription": "SPEED FREEKS units from your army are eligible to shoot in a turn in which they Advanced or Fell Back.",
           "formattedDescription": "SPEED FREEKS units from your army are eligible to shoot in a turn in which they Advanced or Fell Back."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008872002",
+          "name": "Fasta Than Yooz",
+          "cost": 35,
+          "legend": "The thrill-seeking Orks at the head of Speed Freeks warbands lead their Kult of Speed brethren right into enemy lines, leaping from speeding Trukks and Battlewagons if need be to plunge into the fight.",
+          "detachment": "Kult of Speed",
+          "rawDescription": "ORKS INFANTRY model only. Each time the bearer’s unit disembarks from a TRANSPORT after that TRANSPORT has made a Normal move, the bearer’s unit is still eligible to declare a charge this turn.",
+          "formattedDescription": "ORKS INFANTRY model only. Each time the bearer’s unit disembarks from a TRANSPORT after that TRANSPORT has made a Normal move, the bearer’s unit is still eligible to declare a charge this turn."
+        },
+        {
+          "id": "000008872003",
+          "name": "Speed Makes Right",
+          "cost": 25,
+          "legend": "This Orks adrenaline-addled mind lurches from one insight to the next, a bone-shaker whose engine only fires on all cylinders when he is in the thick of the fighting. Once there, however, it revs into overdrive.",
+          "detachment": "Kult of Speed",
+          "rawDescription": "ORKS model only. In your Command phase, if the bearer (or a TRANSPORT the bearer is embarked within is within 9\" of one or more enemy units, roll one D6: on a 3+, you gain 1CP.",
+          "formattedDescription": "ORKS model only. In your Command phase, if the bearer (or a TRANSPORT the bearer is embarked within is within 9\" of one or more enemy units, roll one D6: on a 3+, you gain 1CP."
+        },
+        {
+          "id": "000008872004",
+          "name": "Squig‑hide Tyres",
+          "cost": 15,
+          "legend": "Scaly squig-hide is the perfect material for fast and grippy tyres, able to provide traction even in the mire of blood, guts and oil left over from most Speed Freekfights.",
+          "detachment": "Kult of Speed",
+          "rawDescription": "DEFFKILLA WARTRIKE model only. Each time a model in the bearer’s unit makes a Consolidation move, it can move up to 6\" instead of up to 3\".",
+          "formattedDescription": "DEFFKILLA WARTRIKE model only. Each time a model in the bearer’s unit makes a Consolidation move, it can move up to 6\" instead of up to 3\"."
+        },
+        {
+          "id": "000008872005",
+          "name": "Wazblasta",
+          "cost": 10,
+          "legend": "This warlord’s fanatical devotion to speed is such that he cannot stand being anywhere other than in the hear, of the action and he pushes the ladz around him to crank their throttles in order to close the distance with the enemy as soon as possible.",
+          "detachment": "Kult of Speed",
+          "rawDescription": "DEFFKILLA WARTRIKE model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, it is not eligible to declare a charge.",
+          "formattedDescription": "DEFFKILLA WARTRIKE model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, it is not eligible to declare a charge."
+        }
       ]
     },
     {
@@ -16353,6 +16563,26 @@
           "detachment": "Ramship Raiders",
           "rawDescription": "Each time an attack targets an ORKS unit from your army (excluding GROTS units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that ORKS unit, subtract 1 from the Wound roll.",
           "formattedDescription": "Each time an attack targets an ORKS unit from your army (excluding GROTS units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that ORKS unit, subtract 1 from the Wound roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009615002",
+          "name": "Living Battering Ram",
+          "cost": 0,
+          "legend": "There is something uniquely terrifying to the foe about a nine-foot-tall, four-hundred-pound Ork who prefers to open hatchways with their head while running full tilt and bellowing like a battle tank.",
+          "detachment": "Ramship Raiders",
+          "rawDescription": "Each time the bearer attempts to operate a closed Hatchway, your opponent cannot try to prevent it. In addition, each time the bearer opens a Hatchway, each enemy unit within 6\" of that Hatchway and wholly on the opposite side of it from the bearer must take a Battle-shock test.",
+          "formattedDescription": "Each time the bearer attempts to operate a closed Hatchway, your opponent cannot try to prevent it. In addition, each time the bearer opens a Hatchway, each enemy unit within 6\" of that Hatchway and wholly on the opposite side of it from the bearer must take a Battle-shock test."
+        },
+        {
+          "id": "000009615003",
+          "name": "Scarred Brute",
+          "cost": 0,
+          "legend": "A veteran of many boarding actions, this monstrous Ork has been shot, stabbed and ejected into hard vacuum many times, and has all the toughened scarring and bionik wotnots to show for it.",
+          "detachment": "Ramship Raiders",
+          "rawDescription": "The bearer has the Feel No Pain 5+ ability.",
+          "formattedDescription": "The bearer has the Feel No Pain 5+ ability."
         }
       ]
     },
@@ -16447,6 +16677,44 @@
           "rawDescription": "Once per battle round, in your Command phase or after being set up on the battlefield in your Movement phase, each BOSS SNIKROT, MEK and WARBOSS model in your army can issue Taktiks abilities.To do so, select one or two of the Taktiks abilities below and select one friendly ORKS unit within 6\" of that model to issue them to. If you selected two Taktiks, that model must take a Leadership test: if failed, the selected unit suffers D3 mortal wounds. Until the start of your next Command phase, the selected unit is affected by the selected Taktiks. A unit cannot have Taktiks issued to it in this way more than once per battle round.Taktiks abilities cannot be issued to Battle-shocked units, and if a unit affected by Taktiks becomes Battle-shocked, all Taktiks cease to affect that unit while it is Battle-shocked.Get Stuck In: You can re-roll Charge rolls made for this unit.Get On Wiv It: Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.Sneaky Stalkin’: INFANTRY and MOUNTED models (excluding MEGANOBZ) in this unit have the Stealth ability and each time a ranged attack targets this unit, those models have the Benefit of Cover against that attack.Shoota Drills: Each time an INFANTRY or MOUNTED model in this unit makes a ranged attack, add 1 to the Hit roll.KEYWORDSSTORMBOYZ units from your army gain the BATTLELINE keyword.",
           "formattedDescription": "Once per battle round, in your Command phase or after being set up on the battlefield in your Movement phase, each BOSS SNIKROT, MEK and WARBOSS model in your army can issue Taktiks abilities.To do so, select one or two of the Taktiks abilities below and select one friendly ORKS unit within 6\" of that model to issue them to. If you selected two Taktiks, that model must take a Leadership test: if failed, the selected unit suffers D3 mortal wounds. Until the start of your next Command phase, the selected unit is affected by the selected Taktiks. A unit cannot have Taktiks issued to it in this way more than once per battle round.Taktiks abilities cannot be issued to Battle-shocked units, and if a unit affected by Taktiks becomes Battle-shocked, all Taktiks cease to affect that unit while it is Battle-shocked.Get Stuck In: You can re-roll Charge rolls made for this unit.Get On Wiv It: Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.Sneaky Stalkin’: INFANTRY and MOUNTED models (excluding MEGANOBZ) in this unit have the Stealth ability and each time a ranged attack targets this unit, those models have the Benefit of Cover against that attack.Shoota Drills: Each time an INFANTRY or MOUNTED model in this unit makes a ranged attack, add 1 to the Hit roll.KEYWORDSSTORMBOYZ units from your army gain the BATTLELINE keyword."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009795002",
+          "name": "Skwad Leader",
+          "cost": 15,
+          "legend": "An exemplar of the Blood Axes’ devious arts, this Warboss leads mobs of cunning Kommandos to battle.",
+          "detachment": "Taktikal Brigade",
+          "rawDescription": "WARBOSS model only. During the Declare Battle Formations step, the bearer can be attached to a KOMMANDOS unit. While leading a Kommandos unit, it has the Infiltrators and Stealth abilities.",
+          "formattedDescription": "WARBOSS model only. During the Declare Battle Formations step, the bearer can be attached to a KOMMANDOS unit. While leading a Kommandos unit, it has the Infiltrators and Stealth abilities."
+        },
+        {
+          "id": "000009795003",
+          "name": "Mek Kaptin",
+          "cost": 35,
+          "legend": "Whilst Flash Gitz hate discipline of any sort, particularly militant Meks can keep them in line with a combination of brutal discipline and the promise of shiny gubbinz.",
+          "detachment": "Taktikal Brigade",
+          "rawDescription": "BIG MEK, BIG MEK IN MEGA ARMOUR or BIG MEK WITH SHOKK ATTACK GUN model only. During the Declare Battle Formations step, the bearer can be attached to a FLASH GITZ unit. Each time a model in the bearer’s unit makes a ranged attack, you can re-roll the Hit roll.",
+          "formattedDescription": "BIG MEK, BIG MEK IN MEGA ARMOUR or BIG MEK WITH SHOKK ATTACK GUN model only. During the Declare Battle Formations step, the bearer can be attached to a FLASH GITZ unit. Each time a model in the bearer’s unit makes a ranged attack, you can re-roll the Hit roll."
+        },
+        {
+          "id": "000009795004",
+          "name": "Mork’s Kunnin’",
+          "cost": 15,
+          "legend": "Possessed of an exceptionally keen mind – for an Ork at least – this boss matches wits with his opponents, holding his ladz back until an opportune moment arrives.",
+          "detachment": "Taktikal Brigade",
+          "rawDescription": "ORKS model only. After both players have deployed their armies, select up to three ORKS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "formattedDescription": "ORKS model only. After both players have deployed their armies, select up to three ORKS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "id": "000009795005",
+          "name": "Gob Boomer",
+          "cost": 10,
+          "legend": "Cobbled together from the remains of a humie vox-caster, this device amplifies this Ork’s already booming voice, carrying their bellowed orders further",
+          "detachment": "Taktikal Brigade",
+          "rawDescription": "WARBOSS or MEK model only. Each time the bearer issues Taktiks, it can do so to a friendly ORKS INFANTRY or ORKS MOUNTED unit within 18\", instead of 6\".",
+          "formattedDescription": "WARBOSS or MEK model only. Each time the bearer issues Taktiks, it can do so to a friendly ORKS INFANTRY or ORKS MOUNTED unit within 18\", instead of 6\"."
+        }
       ]
     },
     {
@@ -16540,6 +16808,44 @@
           "rawDescription": "Melee weapons equipped by ORKS models from your army have the [SUSTAINED HITS 1] ability.",
           "formattedDescription": "Melee weapons equipped by ORKS models from your army have the [SUSTAINED HITS 1] ability."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008367002",
+          "name": "Follow Me Ladz",
+          "cost": 25,
+          "legend": "Always found at the forefront of an assault, this Ork likes to be the first into the fray.",
+          "detachment": "War Horde",
+          "rawDescription": "ORKS model only. While the bearer is leading a unit, add 2\" to the Move characteristic of models in that unit.",
+          "formattedDescription": "ORKS model only. While the bearer is leading a unit, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "id": "000008367003",
+          "name": "Headwoppa’s Killchoppa",
+          "cost": 20,
+          "legend": "Grand Warboss Headwoppa and his tribe were last seen charging headlong into a horde of Khornate daemons, but legend speaks of a blood-slick choppa that still turns up occasionally. Though this weapon looks normal, a dark voice is said to growl in the mind of its wielder, driving them on to ever greater excesses of violence.",
+          "detachment": "War Horde",
+          "rawDescription": "ORKS model only. Melee weapons equipped by the bearer (excluding Extra Attacks weapons) have the [DEVASTATING WOUNDS] ability.",
+          "formattedDescription": "ORKS model only. Melee weapons equipped by the bearer (excluding Extra Attacks weapons) have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "id": "000008367004",
+          "name": "Kunnin’ But Brutal",
+          "cost": 15,
+          "legend": "Feigning weakness, this greenskin allows his foes to close in before delivering a brutal flurry of attacks.",
+          "detachment": "War Horde",
+          "rawDescription": "ORKS model only. While the bearer is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+          "formattedDescription": "ORKS model only. While the bearer is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "id": "000008367005",
+          "name": "Supa-Cybork Body",
+          "cost": 15,
+          "legend": "The original owner of this one-of-a-kind endoskeleton became the envy of every Warboss around, and was soon gutted and stripped for parts by a stronger rival. The Supa-Cybork Body has been retransplanted several times since then, filling its new owner with confidence, resilience and a belated hope that the Painboyz gave it a quick clean before shoving it back in place…",
+          "detachment": "War Horde",
+          "rawDescription": "ORKS model only. The bearer has the Feel No Pain 4+ ability.",
+          "formattedDescription": "ORKS model only. The bearer has the Feel No Pain 4+ ability."
+        }
       ]
     }
   ],
@@ -16623,6 +16929,296 @@
       "detachment": "Taktikal Brigade",
       "rawDescription": "Once per battle round, in your Command phase or after being set up on the battlefield in your Movement phase, each BOSS SNIKROT, MEK and WARBOSS model in your army can issue Taktiks abilities.To do so, select one or two of the Taktiks abilities below and select one friendly ORKS unit within 6\" of that model to issue them to. If you selected two Taktiks, that model must take a Leadership test: if failed, the selected unit suffers D3 mortal wounds. Until the start of your next Command phase, the selected unit is affected by the selected Taktiks. A unit cannot have Taktiks issued to it in this way more than once per battle round.Taktiks abilities cannot be issued to Battle-shocked units, and if a unit affected by Taktiks becomes Battle-shocked, all Taktiks cease to affect that unit while it is Battle-shocked.Get Stuck In: You can re-roll Charge rolls made for this unit.Get On Wiv It: Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.Sneaky Stalkin’: INFANTRY and MOUNTED models (excluding MEGANOBZ) in this unit have the Stealth ability and each time a ranged attack targets this unit, those models have the Benefit of Cover against that attack.Shoota Drills: Each time an INFANTRY or MOUNTED model in this unit makes a ranged attack, add 1 to the Hit roll.KEYWORDSSTORMBOYZ units from your army gain the BATTLELINE keyword.",
       "formattedDescription": "Once per battle round, in your Command phase or after being set up on the battlefield in your Movement phase, each BOSS SNIKROT, MEK and WARBOSS model in your army can issue Taktiks abilities.To do so, select one or two of the Taktiks abilities below and select one friendly ORKS unit within 6\" of that model to issue them to. If you selected two Taktiks, that model must take a Leadership test: if failed, the selected unit suffers D3 mortal wounds. Until the start of your next Command phase, the selected unit is affected by the selected Taktiks. A unit cannot have Taktiks issued to it in this way more than once per battle round.Taktiks abilities cannot be issued to Battle-shocked units, and if a unit affected by Taktiks becomes Battle-shocked, all Taktiks cease to affect that unit while it is Battle-shocked.Get Stuck In: You can re-roll Charge rolls made for this unit.Get On Wiv It: Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.Sneaky Stalkin’: INFANTRY and MOUNTED models (excluding MEGANOBZ) in this unit have the Stealth ability and each time a ranged attack targets this unit, those models have the Benefit of Cover against that attack.Shoota Drills: Each time an INFANTRY or MOUNTED model in this unit makes a ranged attack, add 1 to the Hit roll.KEYWORDSSTORMBOYZ units from your army gain the BATTLELINE keyword."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009615002",
+      "name": "Living Battering Ram",
+      "cost": 0,
+      "legend": "There is something uniquely terrifying to the foe about a nine-foot-tall, four-hundred-pound Ork who prefers to open hatchways with their head while running full tilt and bellowing like a battle tank.",
+      "detachment": "Ramship Raiders",
+      "rawDescription": "Each time the bearer attempts to operate a closed Hatchway, your opponent cannot try to prevent it. In addition, each time the bearer opens a Hatchway, each enemy unit within 6\" of that Hatchway and wholly on the opposite side of it from the bearer must take a Battle-shock test.",
+      "formattedDescription": "Each time the bearer attempts to operate a closed Hatchway, your opponent cannot try to prevent it. In addition, each time the bearer opens a Hatchway, each enemy unit within 6\" of that Hatchway and wholly on the opposite side of it from the bearer must take a Battle-shock test."
+    },
+    {
+      "id": "000008367002",
+      "name": "Follow Me Ladz",
+      "cost": 25,
+      "legend": "Always found at the forefront of an assault, this Ork likes to be the first into the fray.",
+      "detachment": "War Horde",
+      "rawDescription": "ORKS model only. While the bearer is leading a unit, add 2\" to the Move characteristic of models in that unit.",
+      "formattedDescription": "ORKS model only. While the bearer is leading a unit, add 2\" to the Move characteristic of models in that unit."
+    },
+    {
+      "id": "000008885002",
+      "name": "Big Gob",
+      "cost": 20,
+      "legend": "This warlords bellowing war cry is so loud that it can be heard over the thickest of fighting, rolling outwards in a terrifying bestial roar.",
+      "detachment": "Bully Boyz",
+      "rawDescription": "INFANTRY WARBOSS model only. At the start of the Fight phase, select one enemy unit within Engagement range of the bearer. That unit must take a Battle-shock test, and when doing so, subtract 1 from the result.",
+      "formattedDescription": "INFANTRY WARBOSS model only. At the start of the Fight phase, select one enemy unit within Engagement range of the bearer. That unit must take a Battle-shock test, and when doing so, subtract 1 from the result."
+    },
+    {
+      "id": "000008877002",
+      "name": "Gitfinder Googlez",
+      "cost": 10,
+      "legend": "By squinting hard through the mismatched lenses of these goggles, even the sneakiest git can be pinpointed.",
+      "detachment": "Dread Mob",
+      "rawDescription": "MEK model only. Ranged weapons equipped by models in the bearer’s unit have the [ignores cover] ability.",
+      "formattedDescription": "MEK model only. Ranged weapons equipped by models in the bearer’s unit have the [ignores cover] ability."
+    },
+    {
+      "id": "000009795002",
+      "name": "Skwad Leader",
+      "cost": 15,
+      "legend": "An exemplar of the Blood Axes’ devious arts, this Warboss leads mobs of cunning Kommandos to battle.",
+      "detachment": "Taktikal Brigade",
+      "rawDescription": "WARBOSS model only. During the Declare Battle Formations step, the bearer can be attached to a KOMMANDOS unit. While leading a Kommandos unit, it has the Infiltrators and Stealth abilities.",
+      "formattedDescription": "WARBOSS model only. During the Declare Battle Formations step, the bearer can be attached to a KOMMANDOS unit. While leading a Kommandos unit, it has the Infiltrators and Stealth abilities."
+    },
+    {
+      "id": "000008868002",
+      "name": "Glory Hog",
+      "cost": 30,
+      "legend": "Obsessed with being the first to make a kill, this hunter spurs his unruly mount ahead of the warband, coaxing his mob to follow him with the explicit threat of feeding them to his squigosaur if they don’t keep up.",
+      "detachment": "Da Big Hunt",
+      "rawDescription": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9\" ability.",
+      "formattedDescription": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9\" ability."
+    },
+    {
+      "id": "000009623002",
+      "name": "Tellyporta",
+      "cost": 0,
+      "legend": "Employing madcap tellyporta arrays, Ork Meks can beam massively armoured Nobz through the warp and onto an enemy vessel, much to the horror of the defenders.",
+      "detachment": "Kaptin Killers",
+      "rawDescription": "In the Deploy Armies step, select one MEGANOBZ unit from your army. Until the end of the battle, models in that unit have the Deep Strike ability.",
+      "formattedDescription": "In the Deploy Armies step, select one MEGANOBZ unit from your army. Until the end of the battle, models in that unit have the Deep Strike ability."
+    },
+    {
+      "id": "000008881002",
+      "name": "Bloodthirsty Belligerence",
+      "cost": 15,
+      "legend": "Buoyed on by his chanting ladz and eager to smash into his enemies first, this boss leads the way, racing towards one fight after the next.",
+      "detachment": "Green Tide",
+      "rawDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit. While that unit contains 10 or more models, you can re-roll Charge rolls made for that unit as well.",
+      "formattedDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit. While that unit contains 10 or more models, you can re-roll Charge rolls made for that unit as well."
+    },
+    {
+      "id": "000008872002",
+      "name": "Fasta Than Yooz",
+      "cost": 35,
+      "legend": "The thrill-seeking Orks at the head of Speed Freeks warbands lead their Kult of Speed brethren right into enemy lines, leaping from speeding Trukks and Battlewagons if need be to plunge into the fight.",
+      "detachment": "Kult of Speed",
+      "rawDescription": "ORKS INFANTRY model only. Each time the bearer’s unit disembarks from a TRANSPORT after that TRANSPORT has made a Normal move, the bearer’s unit is still eligible to declare a charge this turn.",
+      "formattedDescription": "ORKS INFANTRY model only. Each time the bearer’s unit disembarks from a TRANSPORT after that TRANSPORT has made a Normal move, the bearer’s unit is still eligible to declare a charge this turn."
+    },
+    {
+      "id": "000008877003",
+      "name": "Press It Fasta!",
+      "cost": 35,
+      "legend": "Impatient for better results, this Mek is an avid advocate of the theory that smashing buttons and cranking dials faster makes kustom guns more shooty.",
+      "detachment": "Dread Mob",
+      "rawDescription": "MEK model only. Each time the bearer’s unit is selected to shoot, when rolling to determine which ability that unit’s weapons gain from the Try Dat Button! Detachment rule, roll one additional D6: until the end of the phase, ranged weapons equipped by models in that unit gain both Button Effects generated by those rolls. If a duplicate Button Effect is rolled, it has no additional effect.",
+      "formattedDescription": "MEK model only. Each time the bearer’s unit is selected to shoot, when rolling to determine which ability that unit’s weapons gain from the Try Dat Button! Detachment rule, roll one additional D6: until the end of the phase, ranged weapons equipped by models in that unit gain both Button Effects generated by those rolls. If a duplicate Button Effect is rolled, it has no additional effect."
+    },
+    {
+      "id": "000008881003",
+      "name": "Brutal But Kunnin’",
+      "cost": 25,
+      "legend": "What tactics occasionally pop into this Orks head revolve purely around throwing as many Boyz into the enemy’s face as possible.",
+      "detachment": "Green Tide",
+      "rawDescription": "ORKS INFANTRY model only. In your Command phase, if the bearer is on the battlefield (or is embarked within a TRANSPORT that is on the battlefield), roll one D6, adding 2 to the result if the bearer’s unit contains 10 or more models: on a 5+, you gain 1CP.",
+      "formattedDescription": "ORKS INFANTRY model only. In your Command phase, if the bearer is on the battlefield (or is embarked within a TRANSPORT that is on the battlefield), roll one D6, adding 2 to the result if the bearer’s unit contains 10 or more models: on a 5+, you gain 1CP."
+    },
+    {
+      "id": "000008868003",
+      "name": "Proper Killy",
+      "cost": 15,
+      "legend": "This Beast Snagga is an unstoppable engine of destructive butchery who has left the brutalised corpses of his huge prey piled in his wake on world after world.",
+      "detachment": "Da Big Hunt",
+      "rawDescription": "BEAST SNAGGA model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer.",
+      "formattedDescription": "BEAST SNAGGA model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer."
+    },
+    {
+      "id": "000009615003",
+      "name": "Scarred Brute",
+      "cost": 0,
+      "legend": "A veteran of many boarding actions, this monstrous Ork has been shot, stabbed and ejected into hard vacuum many times, and has all the toughened scarring and bionik wotnots to show for it.",
+      "detachment": "Ramship Raiders",
+      "rawDescription": "The bearer has the Feel No Pain 5+ ability.",
+      "formattedDescription": "The bearer has the Feel No Pain 5+ ability."
+    },
+    {
+      "id": "000009795003",
+      "name": "Mek Kaptin",
+      "cost": 35,
+      "legend": "Whilst Flash Gitz hate discipline of any sort, particularly militant Meks can keep them in line with a combination of brutal discipline and the promise of shiny gubbinz.",
+      "detachment": "Taktikal Brigade",
+      "rawDescription": "BIG MEK, BIG MEK IN MEGA ARMOUR or BIG MEK WITH SHOKK ATTACK GUN model only. During the Declare Battle Formations step, the bearer can be attached to a FLASH GITZ unit. Each time a model in the bearer’s unit makes a ranged attack, you can re-roll the Hit roll.",
+      "formattedDescription": "BIG MEK, BIG MEK IN MEGA ARMOUR or BIG MEK WITH SHOKK ATTACK GUN model only. During the Declare Battle Formations step, the bearer can be attached to a FLASH GITZ unit. Each time a model in the bearer’s unit makes a ranged attack, you can re-roll the Hit roll."
+    },
+    {
+      "id": "000009623003",
+      "name": "Gnasher Squig Crates",
+      "cost": 0,
+      "legend": "This Warboss has ordered his ladz to bring armoured crates of vicious gnasher squigs aboard. Upended into strategically vital areas, they create a dangerous infestation that enemies will struggle to remove.",
+      "detachment": "Kaptin Killers",
+      "rawDescription": "WARBOSS model only. In your Command phase, you can select one NOBZ or MEGANOBZ unit from your army (excluding Battle-shocked units) that is within 6\" of the bearer and is within range of an objective marker. If there are no enemy models within range of that objective marker, it is Secured by your army.",
+      "formattedDescription": "WARBOSS model only. In your Command phase, you can select one NOBZ or MEGANOBZ unit from your army (excluding Battle-shocked units) that is within 6\" of the bearer and is within range of an objective marker. If there are no enemy models within range of that objective marker, it is Secured by your army."
+    },
+    {
+      "id": "000008367003",
+      "name": "Headwoppa’s Killchoppa",
+      "cost": 20,
+      "legend": "Grand Warboss Headwoppa and his tribe were last seen charging headlong into a horde of Khornate daemons, but legend speaks of a blood-slick choppa that still turns up occasionally. Though this weapon looks normal, a dark voice is said to growl in the mind of its wielder, driving them on to ever greater excesses of violence.",
+      "detachment": "War Horde",
+      "rawDescription": "ORKS model only. Melee weapons equipped by the bearer (excluding Extra Attacks weapons) have the [DEVASTATING WOUNDS] ability.",
+      "formattedDescription": "ORKS model only. Melee weapons equipped by the bearer (excluding Extra Attacks weapons) have the [DEVASTATING WOUNDS] ability."
+    },
+    {
+      "id": "000008872003",
+      "name": "Speed Makes Right",
+      "cost": 25,
+      "legend": "This Orks adrenaline-addled mind lurches from one insight to the next, a bone-shaker whose engine only fires on all cylinders when he is in the thick of the fighting. Once there, however, it revs into overdrive.",
+      "detachment": "Kult of Speed",
+      "rawDescription": "ORKS model only. In your Command phase, if the bearer (or a TRANSPORT the bearer is embarked within is within 9\" of one or more enemy units, roll one D6: on a 3+, you gain 1CP.",
+      "formattedDescription": "ORKS model only. In your Command phase, if the bearer (or a TRANSPORT the bearer is embarked within is within 9\" of one or more enemy units, roll one D6: on a 3+, you gain 1CP."
+    },
+    {
+      "id": "000008885003",
+      "name": "Da Biggest Boss",
+      "cost": 15,
+      "legend": "The bigger the Waaagh!, the bigger the boss must be to exert control. This Ork has countless huge battles under his belt and has grown in stature and aggression to match.",
+      "detachment": "Bully Boyz",
+      "rawDescription": "INFANTRY WARBOSS model only. Add 2 to the bearer’s Wounds characteristic.",
+      "formattedDescription": "INFANTRY WARBOSS model only. Add 2 to the bearer’s Wounds characteristic."
+    },
+    {
+      "id": "000008367004",
+      "name": "Kunnin’ But Brutal",
+      "cost": 15,
+      "legend": "Feigning weakness, this greenskin allows his foes to close in before delivering a brutal flurry of attacks.",
+      "detachment": "War Horde",
+      "rawDescription": "ORKS model only. While the bearer is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "formattedDescription": "ORKS model only. While the bearer is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "id": "000009795004",
+      "name": "Mork’s Kunnin’",
+      "cost": 15,
+      "legend": "Possessed of an exceptionally keen mind – for an Ork at least – this boss matches wits with his opponents, holding his ladz back until an opportune moment arrives.",
+      "detachment": "Taktikal Brigade",
+      "rawDescription": "ORKS model only. After both players have deployed their armies, select up to three ORKS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "ORKS model only. After both players have deployed their armies, select up to three ORKS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "id": "000008868004",
+      "name": "Skrag Every Stash!",
+      "cost": 25,
+      "legend": "Successful hunt leaders are never short of a kunnin' plan to flush out the prey. This sneaky git has mastered the art of ransacking whatever the prey values, luring the quarry in to retaliate or else ensuring they’re cornered, with no bolthole or gear to fall back on.",
+      "detachment": "Da Big Hunt",
+      "rawDescription": "BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "formattedDescription": "BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    },
+    {
+      "id": "000008872004",
+      "name": "Squig‑hide Tyres",
+      "cost": 15,
+      "legend": "Scaly squig-hide is the perfect material for fast and grippy tyres, able to provide traction even in the mire of blood, guts and oil left over from most Speed Freekfights.",
+      "detachment": "Kult of Speed",
+      "rawDescription": "DEFFKILLA WARTRIKE model only. Each time a model in the bearer’s unit makes a Consolidation move, it can move up to 6\" instead of up to 3\".",
+      "formattedDescription": "DEFFKILLA WARTRIKE model only. Each time a model in the bearer’s unit makes a Consolidation move, it can move up to 6\" instead of up to 3\"."
+    },
+    {
+      "id": "000008877004",
+      "name": "Smoky Gubbinz",
+      "cost": 15,
+      "legend": "This loud, fume-belching device wreathes the bearer and his mates in a thick bank of smoke. This is hard for the enemy to see through, but has little detriment on the Orks’ own accuracy.",
+      "detachment": "Dread Mob",
+      "rawDescription": "MEK model only. Models in the bearer’s unit have the Stealth ability.",
+      "formattedDescription": "MEK model only. Models in the bearer’s unit have the Stealth ability."
+    },
+    {
+      "id": "000008881004",
+      "name": "Ferocious Show Off",
+      "cost": 10,
+      "legend": "This brutal fighter is even more dangerous with a raucous audience of chanting Orks as he displays his violent abilities as a warning to all.",
+      "detachment": "Green Tide",
+      "rawDescription": "ORKS INFANTRY model only. Each time the bearer fights, while resolving those attacks, add 1 to the Strength characteristic of the bearers melee weapons. If the bearer’s unit contains 10 or more models, while resolving those attacks, add 3 to the Strength characteristic instead.",
+      "formattedDescription": "ORKS INFANTRY model only. Each time the bearer fights, while resolving those attacks, add 1 to the Strength characteristic of the bearers melee weapons. If the bearer’s unit contains 10 or more models, while resolving those attacks, add 3 to the Strength characteristic instead."
+    },
+    {
+      "id": "000008885004",
+      "name": "’Eadstompa",
+      "cost": 10,
+      "legend": "A solid slab of muscle and aggression, this Ork is living embodiment of the undeniable truth of his enemies’ inferiority.",
+      "detachment": "Bully Boyz",
+      "rawDescription": "INFANTRY WARBOSS model only. Each time the bearer makes an attack that targets a unit that is below its Starting Strength, re-roll a Wound roll of 1. If that unit is Below Half-strength, you can re-roll the Wound roll instead.",
+      "formattedDescription": "INFANTRY WARBOSS model only. Each time the bearer makes an attack that targets a unit that is below its Starting Strength, re-roll a Wound roll of 1. If that unit is Below Half-strength, you can re-roll the Wound roll instead."
+    },
+    {
+      "id": "000008868005",
+      "name": "Surly as a Squiggoth",
+      "cost": 20,
+      "legend": "With a lifetime of leading notoriously deadly Beast Snagga hunts behind them, and gnarled hides thicker than Battlewagon armour, this Ork and his favoured Boyz have survived blows that would fell a Gargant.",
+      "detachment": "Da Big Hunt",
+      "rawDescription": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+      "formattedDescription": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+    },
+    {
+      "id": "000008877005",
+      "name": "Supa‑glowy Fing",
+      "cost": 20,
+      "legend": "The Mek cobbled together this strange device in a flash of feverish inventin’. He isn’t sure what it does - and it glows weirdly - but he proudly carries it to battle, eager to know what its big switch will do this time.",
+      "detachment": "Dread Mob",
+      "rawDescription": "MEK model only. In your Command phase, select one enemy unit within 18\" of and visible to the bearer, then roll one D6: on a 1-2, that enemy unit must take a Battle-shock test; on a 3-4, that enemy unit suffers D3 mortal wounds; on a 5-6, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+      "formattedDescription": "MEK model only. In your Command phase, select one enemy unit within 18\" of and visible to the bearer, then roll one D6: on a 1-2, that enemy unit must take a Battle-shock test; on a 3-4, that enemy unit suffers D3 mortal wounds; on a 5-6, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000008885005",
+      "name": "Tellyporta",
+      "cost": 25,
+      "legend": "Nothing shocks the enemy like an angry mob of the biggest and surliest Orks imaginable suddenly appearing in a blast of green lightning!",
+      "detachment": "Bully Boyz",
+      "rawDescription": "WARBOSS IN MEGA ARMOUR model only. Models in the bearer’s unit have the Deep Strike ability.",
+      "formattedDescription": "WARBOSS IN MEGA ARMOUR model only. Models in the bearer’s unit have the Deep Strike ability."
+    },
+    {
+      "id": "000008367005",
+      "name": "Supa-Cybork Body",
+      "cost": 15,
+      "legend": "The original owner of this one-of-a-kind endoskeleton became the envy of every Warboss around, and was soon gutted and stripped for parts by a stronger rival. The Supa-Cybork Body has been retransplanted several times since then, filling its new owner with confidence, resilience and a belated hope that the Painboyz gave it a quick clean before shoving it back in place…",
+      "detachment": "War Horde",
+      "rawDescription": "ORKS model only. The bearer has the Feel No Pain 4+ ability.",
+      "formattedDescription": "ORKS model only. The bearer has the Feel No Pain 4+ ability."
+    },
+    {
+      "id": "000008881005",
+      "name": "Raucous Warcaller",
+      "cost": 20,
+      "legend": "This hulking boss is a focal point of violent enthusiasm. Orks flocking to his bosspole feel emboldened, the boss exuding an energetic dynamism that keeps his ladz at the height of rampaging excitement.",
+      "detachment": "Green Tide",
+      "rawDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use.",
+      "formattedDescription": "ORKS INFANTRY model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use."
+    },
+    {
+      "id": "000008872005",
+      "name": "Wazblasta",
+      "cost": 10,
+      "legend": "This warlord’s fanatical devotion to speed is such that he cannot stand being anywhere other than in the hear, of the action and he pushes the ladz around him to crank their throttles in order to close the distance with the enemy as soon as possible.",
+      "detachment": "Kult of Speed",
+      "rawDescription": "DEFFKILLA WARTRIKE model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, it is not eligible to declare a charge.",
+      "formattedDescription": "DEFFKILLA WARTRIKE model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, it is not eligible to declare a charge."
+    },
+    {
+      "id": "000009795005",
+      "name": "Gob Boomer",
+      "cost": 10,
+      "legend": "Cobbled together from the remains of a humie vox-caster, this device amplifies this Ork’s already booming voice, carrying their bellowed orders further",
+      "detachment": "Taktikal Brigade",
+      "rawDescription": "WARBOSS or MEK model only. Each time the bearer issues Taktiks, it can do so to a friendly ORKS INFANTRY or ORKS MOUNTED unit within 18\", instead of 6\".",
+      "formattedDescription": "WARBOSS or MEK model only. Each time the bearer issues Taktiks, it can do so to a friendly ORKS INFANTRY or ORKS MOUNTED unit within 18\", instead of 6\"."
     }
   ]
 }

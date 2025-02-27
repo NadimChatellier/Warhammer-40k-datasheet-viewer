@@ -1074,6 +1074,101 @@ async function parseDetachmentAbilities() {
   });
 }
 
+async function parseEnhancements() {
+  return new Promise((resolve, reject) => {
+    let buffer = "";
+
+    // Define file path for enhancements CSV
+    const enhancementsFilePath = path.join(__dirname, "warhammer-csvs", "enhancements.csv");
+    console.log(`📂 Reading Enhancements from: ${enhancementsFilePath}`);
+
+    // Read entire CSV file into a buffer
+    fs.createReadStream(enhancementsFilePath, { encoding: "utf8" })
+      .on("data", (chunk) => {
+        buffer += chunk;
+      })
+      .on("end", () => {
+        const rows = buffer.split("\r\n").filter((row) => row.trim() !== "");
+
+        // Process each row from CSV
+        rows.forEach((line) => {
+          const fields = line.split("|").map((f) => f.trim());
+
+          if (fields.length < 6) {
+            console.log("⚠️ Skipping malformed enhancement row:", line);
+            return;
+          }
+
+          const [id, faction_id, name, cost, detachment, legend, description] = fields;
+
+          console.log(`🔍 Processing enhancement "${name}" for faction_id: ${faction_id}, detachment: ${detachment}`);
+
+          // Find the faction by faction_id
+          const foundFactionData = findFactionById(faction_id);
+          if (!foundFactionData) {
+            console.log(`⚠️ Skipping: No faction found with faction_id: ${faction_id}`);
+            return;
+          }
+
+          const { faction, factionKey } = foundFactionData;
+
+          // Ensure faction has enhancements key
+          if (!faction.enhancements) {
+            faction.enhancements = [];
+          }
+
+          // Ensure the detachments key exists in the faction
+          if (!faction.detachments) {
+            faction.detachments = [];
+          }
+
+          // Find or create the detachment
+          let detachmentObj = faction.detachments.find((det) => det.name === detachment);
+          if (!detachmentObj) {
+            detachmentObj = { name: detachment, enhancements: [] };
+            faction.detachments.push(detachmentObj);
+          }
+
+          // Ensure the enhancements key exists in the detachment
+          if (!detachmentObj.enhancements) {
+            detachmentObj.enhancements = [];
+          }
+
+          // Prevent duplicate enhancements
+          const isDuplicate = detachmentObj.enhancements.some((existingEnhancement) => existingEnhancement.id === id);
+          if (isDuplicate) {
+            console.log(`⚠️ Duplicate enhancement "${name}" found in detachment "${detachment}", skipping...`);
+            return;
+          }
+
+          // **New:** Clean and structure the description
+          const structuredDescription = splitAbilityDescription(cleanText(description));
+
+          // Add enhancement data
+          const enhancementData = {
+            id,
+            name,
+            cost: parseInt(cost, 10) || 0, // Ensure cost is a number
+            legend,
+            detachment, // Include detachment name
+            ...structuredDescription, // Spread structured description parts
+          };
+
+          detachmentObj.enhancements.push(enhancementData);
+          faction.enhancements.push(enhancementData); // Also store at faction level for global access
+
+          console.log(`✅ Added enhancement "${name}" to detachment "${detachment}" for faction "${factionKey}"`);
+        });
+
+        console.log("🎉 All enhancements successfully parsed and assigned.");
+        resolve();
+      })
+      .on("error", (err) => {
+        console.error(`❌ Error reading enhancements file: ${err.message}`);
+        reject(err);
+      });
+  });
+}
 
 
 /**
@@ -1094,6 +1189,7 @@ async function processWarhammerData() {
     await parseUnitOptions();
     await parseStratagems();
     await parseDetachmentAbilities();
+    await parseEnhancements();
     await writeFactionFiles();
   } catch (error) {
     console.error('❌ Process failed:', error);

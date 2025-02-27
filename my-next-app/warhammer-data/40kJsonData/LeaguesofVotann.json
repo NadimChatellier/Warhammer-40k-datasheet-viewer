@@ -3020,6 +3020,44 @@
           "rawDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1.",
           "formattedDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009823002",
+          "name": "Bastion Shield",
+          "cost": 20,
+          "legend": "The exceptional technologies contained within this heraldic crest radiate a dome of ablative weavewërke shielding that robs the force from enemy projectiles.",
+          "detachment": "Hearthband",
+          "rawDescription": "LEAGUES OF VOTANN model only. Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1.",
+          "formattedDescription": "LEAGUES OF VOTANN model only. Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "id": "000009823003",
+          "name": "Quake Multigenerator",
+          "cost": 15,
+          "legend": "Extremely rare and costly to manufacture, this darkstar-powered coil enables a weapon to initiate tremendously powerful reverberations. The resultant shock waves are enough to pitch foes from their feet.",
+          "detachment": "Hearthband",
+          "rawDescription": "KÂHL model only. In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "formattedDescription": "KÂHL model only. In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000009823004",
+          "name": "Ironskein",
+          "cost": 10,
+          "legend": "A rare cloneskein threads this warrior’s bone structure and epidermis with metallic fibres, rendering them remarkably resilient to harm.",
+          "detachment": "Hearthband",
+          "rawDescription": "LEAGUES OF VOTANN model only. Add 2 to the bearer’s Wounds characteristic.",
+          "formattedDescription": "LEAGUES OF VOTANN model only. Add 2 to the bearer’s Wounds characteristic."
+        },
+        {
+          "id": "000009823005",
+          "name": "High Kâhl",
+          "cost": 30,
+          "legend": "As the foremost martial leader in their kindred, this warrior’s value is only too well known by their comrades. Those Kin sworn to defend them will fight to their last breath rather than fail in this duty.",
+          "detachment": "Hearthband",
+          "rawDescription": "KÂHL model only. Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "formattedDescription": "KÂHL model only. Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
       ]
     },
     {
@@ -3086,6 +3124,26 @@
           "detachment": "Hearthfire Strike",
           "rawDescription": "Add 1 to Advance and Charge rolls made for LEAGUES OF VOTANN units from your army.",
           "formattedDescription": "Add 1 to Advance and Charge rolls made for LEAGUES OF VOTANN units from your army."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009537002",
+          "name": "Celebrated Folk Hero",
+          "cost": 0,
+          "legend": "The exploits of this Einhyr Champion have fuelled many a Bru-fuelled celebration, and the Hearthguard compete to fight at their side. To see them laid low fires the wrath of their comrades.",
+          "detachment": "Hearthfire Strike",
+          "rawDescription": "The first time the bearer is destroyed, each enemy unit on the battlefield gains 1 Judgement token.",
+          "formattedDescription": "The first time the bearer is destroyed, each enemy unit on the battlefield gains 1 Judgement token."
+        },
+        {
+          "id": "000009537003",
+          "name": "Gûlyk’s Stars",
+          "cost": 0,
+          "legend": "A set of mass driver accelerators crafted by the master Brokhyr Gulyk, these potent devices can be worked into an Einhyr Champions exo-armour. Named stars for their ferocious energy output, they propel the wearer forward like an unstoppable battering rani.",
+          "detachment": "Hearthfire Strike",
+          "rawDescription": "Each time the bearer ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds. If this results in one or more enemy models being destroyed, you can select one closed Hatchway within 6\" of the bearer and open it.",
+          "formattedDescription": "Each time the bearer ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds. If this results in one or more enemy models being destroyed, you can select one closed Hatchway within 6\" of the bearer and open it."
         }
       ]
     },
@@ -3180,6 +3238,44 @@
           "rawDescription": "At the start of the battle, select a number of units from your opponent’s army depending on the battle size, as shown below:Incursion: 2 unitsStrike Force: 4 unitsOnslaught: 6 unitsEach of those units start the battle with 2 Judgement tokens (see Eye of the Ancestors).If, at the start of any of your Command phases, any of those units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).Unit destroyed by the start of your first or second Command phase:You gain3CPUnit destroyed by the start of your third or fourth Command phase:You gain2CPUnit destroyed by the start of your fifth Command phase:You gain1CP",
           "formattedDescription": "At the start of the battle, select a number of units from your opponent’s army depending on the battle size, as shown below:Incursion: 2 unitsStrike Force: 4 unitsOnslaught: 6 unitsEach of those units start the battle with 2 Judgement tokens (see Eye of the Ancestors).If, at the start of any of your Command phases, any of those units have been destroyed, you gain a number of CP depending on how early in the battle you destroyed it, as shown below (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).Unit destroyed by the start of your first or second Command phase:You gain3CPUnit destroyed by the start of your third or fourth Command phase:You gain2CPUnit destroyed by the start of your fifth Command phase:You gain1CP"
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008500002",
+          "name": "APPRAISING GLARE",
+          "cost": 20,
+          "legend": "Few Kin can cast the Eye of the Ancestors with the swiftness and grim efficiency of this venerable leader. Where their merciless gaze falls, the strengths and weaknesses of the enemy are laid bare, and there their warriors strike hardest.",
+          "detachment": "Oathband",
+          "rawDescription": "LEAGUES OF VOTANN model only. In your Command phase, you can select one objective marker your opponent controls. Until the start of your next Command phase, while an enemy unit is within range of that objective marker, it counts as having one more Judgement token than it actually has (to a maximum of 2).",
+          "formattedDescription": "LEAGUES OF VOTANN model only. In your Command phase, you can select one objective marker your opponent controls. Until the start of your next Command phase, while an enemy unit is within range of that objective marker, it counts as having one more Judgement token than it actually has (to a maximum of 2)."
+        },
+        {
+          "id": "000008500003",
+          "name": "A LONG LIST",
+          "cost": 15,
+          "legend": "This warrior holds the majority of the galaxy’s races in contempt, and seeks out their many nemeses with a keen and inescapable eye. No sooner have they settled a Grudge against one foe, than they move to the next name on their list.",
+          "detachment": "Oathband",
+          "rawDescription": "LEAGUES OF VOTANN model only. Each time the bearer’s unit destroys an enemy unit, if that enemy unit has one or more Judgement tokens, you can select one other enemy unit that is visible to the bearer. That other unit gains one Judgement token.",
+          "formattedDescription": "LEAGUES OF VOTANN model only. Each time the bearer’s unit destroys an enemy unit, if that enemy unit has one or more Judgement tokens, you can select one other enemy unit that is visible to the bearer. That other unit gains one Judgement token."
+        },
+        {
+          "id": "000008500004",
+          "name": "GRIM DEMEANOUR",
+          "cost": 20,
+          "legend": "This warlord’s grim countenance is legendary, and they are rumoured to have never smiled. Such a demeanour is, of course, an outward sign of how seriously they undertake their solemn tasks, and under their stern gaze no Kin will be found wanting.",
+          "detachment": "Oathband",
+          "rawDescription": "LEAGUES OF VOTANN model only. You can re-roll Battle-shock tests taken for the bearer’s unit, and models in that unit can ignore any or all modifiers to their characteristics and/or to any rolls or tests made for them (excluding modifiers to saving throws).",
+          "formattedDescription": "LEAGUES OF VOTANN model only. You can re-roll Battle-shock tests taken for the bearer’s unit, and models in that unit can ignore any or all modifiers to their characteristics and/or to any rolls or tests made for them (excluding modifiers to saving throws)."
+        },
+        {
+          "id": "000008500005",
+          "name": "WAYFARER’S GRACE",
+          "cost": 25,
+          "legend": "This one-of-a-kind void suit was crafted for the famed Hernkyn adventurer Sîmmka Farstryd as thanks for her saving the Hold world of Hyvôk’s Kindred. Incorporating ancient technological secrets interpreted from Votannic lore, Wayfarer’s Grace acts as a life-support system for its wearer. Monitoring their vital statistics constantly, the suit provides medical support and can even restart its wearer’s stopped heart in extremis.",
+          "detachment": "Oathband",
+          "rawDescription": "LEAGUES OF VOTANN model only. The first time the bearer is destroyed, after placing a Judgement token next to the unit that destroyed it, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.",
+          "formattedDescription": "LEAGUES OF VOTANN model only. The first time the bearer is destroyed, after placing a Judgement token next to the unit that destroyed it, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+        }
       ]
     },
     {
@@ -3247,6 +3343,26 @@
           "rawDescription": "In your Shooting phase, each time a LEAGUES OF VOTANN unit from your army has shot, if one or more enemy units were destroyed by those attacks and that LEAGUES OF VOTANN unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway.",
           "formattedDescription": "In your Shooting phase, each time a LEAGUES OF VOTANN unit from your army has shot, if one or more enemy units were destroyed by those attacks and that LEAGUES OF VOTANN unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009529002",
+          "name": "Masterful Construction",
+          "cost": 0,
+          "legend": "The weapons utilised by the Kin are wrought by expert craftsmen and are as versatile as they are deadly.",
+          "detachment": "Void Salvagers",
+          "rawDescription": "Each time the bearer is selected to shoot or fight, you can select one of the following weapon abilities: [DEVASTATING WOUNDS]; [LETHAL HITS]; [SUSTAINED HITS 1]. Until the end of the phase, weapons equipped by the bearer (excluding Psychic weapons) have that ability.",
+          "formattedDescription": "Each time the bearer is selected to shoot or fight, you can select one of the following weapon abilities: [DEVASTATING WOUNDS]; [LETHAL HITS]; [SUSTAINED HITS 1]. Until the end of the phase, weapons equipped by the bearer (excluding Psychic weapons) have that ability."
+        },
+        {
+          "id": "000009529003",
+          "name": "Obsessive Drive",
+          "cost": 0,
+          "legend": "The bearer seeks a specific item that lies in the hands of the foe and they will not rest until it has been secured. Those foes foolish enough to block the path are targeted for priority destruction.",
+          "detachment": "Void Salvagers",
+          "rawDescription": "At the start of the first battle round, select one objective marker. While the bearer is on the battlefield, each time a LEAGUES OF VOTANN unit from your army is selected to shoot or fight, each enemy unit within range of that objective marker is considered to have 1 additional Judgement token while resolving those attacks.",
+          "formattedDescription": "At the start of the first battle round, select one objective marker. While the bearer is on the battlefield, each time a LEAGUES OF VOTANN unit from your army is selected to shoot or fight, each enemy unit within range of that objective marker is considered to have 1 additional Judgement token while resolving those attacks."
+        }
       ]
     }
   ],
@@ -3282,6 +3398,116 @@
       "detachment": "Hearthband",
       "rawDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1.",
       "formattedDescription": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:Re-roll a Hit roll of 1.If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000008500002",
+      "name": "APPRAISING GLARE",
+      "cost": 20,
+      "legend": "Few Kin can cast the Eye of the Ancestors with the swiftness and grim efficiency of this venerable leader. Where their merciless gaze falls, the strengths and weaknesses of the enemy are laid bare, and there their warriors strike hardest.",
+      "detachment": "Oathband",
+      "rawDescription": "LEAGUES OF VOTANN model only. In your Command phase, you can select one objective marker your opponent controls. Until the start of your next Command phase, while an enemy unit is within range of that objective marker, it counts as having one more Judgement token than it actually has (to a maximum of 2).",
+      "formattedDescription": "LEAGUES OF VOTANN model only. In your Command phase, you can select one objective marker your opponent controls. Until the start of your next Command phase, while an enemy unit is within range of that objective marker, it counts as having one more Judgement token than it actually has (to a maximum of 2)."
+    },
+    {
+      "id": "000009823002",
+      "name": "Bastion Shield",
+      "cost": 20,
+      "legend": "The exceptional technologies contained within this heraldic crest radiate a dome of ablative weavewërke shielding that robs the force from enemy projectiles.",
+      "detachment": "Hearthband",
+      "rawDescription": "LEAGUES OF VOTANN model only. Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "formattedDescription": "LEAGUES OF VOTANN model only. Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "id": "000009529002",
+      "name": "Masterful Construction",
+      "cost": 0,
+      "legend": "The weapons utilised by the Kin are wrought by expert craftsmen and are as versatile as they are deadly.",
+      "detachment": "Void Salvagers",
+      "rawDescription": "Each time the bearer is selected to shoot or fight, you can select one of the following weapon abilities: [DEVASTATING WOUNDS]; [LETHAL HITS]; [SUSTAINED HITS 1]. Until the end of the phase, weapons equipped by the bearer (excluding Psychic weapons) have that ability.",
+      "formattedDescription": "Each time the bearer is selected to shoot or fight, you can select one of the following weapon abilities: [DEVASTATING WOUNDS]; [LETHAL HITS]; [SUSTAINED HITS 1]. Until the end of the phase, weapons equipped by the bearer (excluding Psychic weapons) have that ability."
+    },
+    {
+      "id": "000009537002",
+      "name": "Celebrated Folk Hero",
+      "cost": 0,
+      "legend": "The exploits of this Einhyr Champion have fuelled many a Bru-fuelled celebration, and the Hearthguard compete to fight at their side. To see them laid low fires the wrath of their comrades.",
+      "detachment": "Hearthfire Strike",
+      "rawDescription": "The first time the bearer is destroyed, each enemy unit on the battlefield gains 1 Judgement token.",
+      "formattedDescription": "The first time the bearer is destroyed, each enemy unit on the battlefield gains 1 Judgement token."
+    },
+    {
+      "id": "000009529003",
+      "name": "Obsessive Drive",
+      "cost": 0,
+      "legend": "The bearer seeks a specific item that lies in the hands of the foe and they will not rest until it has been secured. Those foes foolish enough to block the path are targeted for priority destruction.",
+      "detachment": "Void Salvagers",
+      "rawDescription": "At the start of the first battle round, select one objective marker. While the bearer is on the battlefield, each time a LEAGUES OF VOTANN unit from your army is selected to shoot or fight, each enemy unit within range of that objective marker is considered to have 1 additional Judgement token while resolving those attacks.",
+      "formattedDescription": "At the start of the first battle round, select one objective marker. While the bearer is on the battlefield, each time a LEAGUES OF VOTANN unit from your army is selected to shoot or fight, each enemy unit within range of that objective marker is considered to have 1 additional Judgement token while resolving those attacks."
+    },
+    {
+      "id": "000008500003",
+      "name": "A LONG LIST",
+      "cost": 15,
+      "legend": "This warrior holds the majority of the galaxy’s races in contempt, and seeks out their many nemeses with a keen and inescapable eye. No sooner have they settled a Grudge against one foe, than they move to the next name on their list.",
+      "detachment": "Oathband",
+      "rawDescription": "LEAGUES OF VOTANN model only. Each time the bearer’s unit destroys an enemy unit, if that enemy unit has one or more Judgement tokens, you can select one other enemy unit that is visible to the bearer. That other unit gains one Judgement token.",
+      "formattedDescription": "LEAGUES OF VOTANN model only. Each time the bearer’s unit destroys an enemy unit, if that enemy unit has one or more Judgement tokens, you can select one other enemy unit that is visible to the bearer. That other unit gains one Judgement token."
+    },
+    {
+      "id": "000009823003",
+      "name": "Quake Multigenerator",
+      "cost": 15,
+      "legend": "Extremely rare and costly to manufacture, this darkstar-powered coil enables a weapon to initiate tremendously powerful reverberations. The resultant shock waves are enough to pitch foes from their feet.",
+      "detachment": "Hearthband",
+      "rawDescription": "KÂHL model only. In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "formattedDescription": "KÂHL model only. In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009537003",
+      "name": "Gûlyk’s Stars",
+      "cost": 0,
+      "legend": "A set of mass driver accelerators crafted by the master Brokhyr Gulyk, these potent devices can be worked into an Einhyr Champions exo-armour. Named stars for their ferocious energy output, they propel the wearer forward like an unstoppable battering rani.",
+      "detachment": "Hearthfire Strike",
+      "rawDescription": "Each time the bearer ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds. If this results in one or more enemy models being destroyed, you can select one closed Hatchway within 6\" of the bearer and open it.",
+      "formattedDescription": "Each time the bearer ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds. If this results in one or more enemy models being destroyed, you can select one closed Hatchway within 6\" of the bearer and open it."
+    },
+    {
+      "id": "000008500004",
+      "name": "GRIM DEMEANOUR",
+      "cost": 20,
+      "legend": "This warlord’s grim countenance is legendary, and they are rumoured to have never smiled. Such a demeanour is, of course, an outward sign of how seriously they undertake their solemn tasks, and under their stern gaze no Kin will be found wanting.",
+      "detachment": "Oathband",
+      "rawDescription": "LEAGUES OF VOTANN model only. You can re-roll Battle-shock tests taken for the bearer’s unit, and models in that unit can ignore any or all modifiers to their characteristics and/or to any rolls or tests made for them (excluding modifiers to saving throws).",
+      "formattedDescription": "LEAGUES OF VOTANN model only. You can re-roll Battle-shock tests taken for the bearer’s unit, and models in that unit can ignore any or all modifiers to their characteristics and/or to any rolls or tests made for them (excluding modifiers to saving throws)."
+    },
+    {
+      "id": "000009823004",
+      "name": "Ironskein",
+      "cost": 10,
+      "legend": "A rare cloneskein threads this warrior’s bone structure and epidermis with metallic fibres, rendering them remarkably resilient to harm.",
+      "detachment": "Hearthband",
+      "rawDescription": "LEAGUES OF VOTANN model only. Add 2 to the bearer’s Wounds characteristic.",
+      "formattedDescription": "LEAGUES OF VOTANN model only. Add 2 to the bearer’s Wounds characteristic."
+    },
+    {
+      "id": "000008500005",
+      "name": "WAYFARER’S GRACE",
+      "cost": 25,
+      "legend": "This one-of-a-kind void suit was crafted for the famed Hernkyn adventurer Sîmmka Farstryd as thanks for her saving the Hold world of Hyvôk’s Kindred. Incorporating ancient technological secrets interpreted from Votannic lore, Wayfarer’s Grace acts as a life-support system for its wearer. Monitoring their vital statistics constantly, the suit provides medical support and can even restart its wearer’s stopped heart in extremis.",
+      "detachment": "Oathband",
+      "rawDescription": "LEAGUES OF VOTANN model only. The first time the bearer is destroyed, after placing a Judgement token next to the unit that destroyed it, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.",
+      "formattedDescription": "LEAGUES OF VOTANN model only. The first time the bearer is destroyed, after placing a Judgement token next to the unit that destroyed it, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+    },
+    {
+      "id": "000009823005",
+      "name": "High Kâhl",
+      "cost": 30,
+      "legend": "As the foremost martial leader in their kindred, this warrior’s value is only too well known by their comrades. Those Kin sworn to defend them will fight to their last breath rather than fail in this duty.",
+      "detachment": "Hearthband",
+      "rawDescription": "KÂHL model only. Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "formattedDescription": "KÂHL model only. Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
     }
   ]
 }

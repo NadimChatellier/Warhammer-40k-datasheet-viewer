@@ -24466,6 +24466,44 @@
           "rawDescription": "Each time a MILITARUM TEMPESTUS model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a TRANSPORT, add 1 to the Wound roll.",
           "formattedDescription": "Each time a MILITARUM TEMPESTUS model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a TRANSPORT, add 1 to the Wound roll."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009801002",
+          "name": "Bombast-class Vox-array",
+          "cost": 25,
+          "legend": "This device is a precious example of an omni-frequency master vox-array manufactured on the long-lost forge world of Urvax. It facilitates the rapid dissemination of orders throughout the entire strike force.",
+          "detachment": "Bridgehead Strike",
+          "rawDescription": "MILITARUM TEMPESTUS OFFICER model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different REGIMENT units, instead of only one.",
+          "formattedDescription": "MILITARUM TEMPESTUS OFFICER model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different REGIMENT units, instead of only one."
+        },
+        {
+          "id": "000009801003",
+          "name": "Priority-drop Beacon",
+          "cost": 30,
+          "legend": "Locked to the designator runes of this officer’s dropship and heavily warded against interference, this predeployed beacon ensures they land swiftly and on target.",
+          "detachment": "Bridgehead Strike",
+          "rawDescription": "MILITARUM TEMPESTUS OFFICER model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+          "formattedDescription": "MILITARUM TEMPESTUS OFFICER model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        },
+        {
+          "id": "000009801004",
+          "name": "Shroud Projector",
+          "cost": 15,
+          "legend": "Believed to be the roost of protective machine spirits, this small tech-ossuary is worn on a chain around the neck and obfuscates the bearer and their comrades when moving.",
+          "detachment": "Bridgehead Strike",
+          "rawDescription": "MILITARUM TEMPESTUS OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+          "formattedDescription": "MILITARUM TEMPESTUS OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+        },
+        {
+          "id": "000009801005",
+          "name": "Advance Augury",
+          "cost": 15,
+          "legend": "This tactically astute officer insists on orbital sensor sweeps and psy-scrying ahead of the operation’s commencement, providing vital intelligence.",
+          "detachment": "Bridgehead Strike",
+          "rawDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, select up to three REGIMENT units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "formattedDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, select up to three REGIMENT units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        }
       ]
     },
     {
@@ -24559,6 +24597,44 @@
           "rawDescription": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
           "formattedDescription": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.Each time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008380002",
+          "name": "Death Mask of Ollanius",
+          "cost": 10,
+          "legend": "This mask depicts in obsidian and void-fired bronze the agonised visage of Saint Ollanius. Soldiers in the ancient artefacts presence are gifted the determination and endurance of the famous martyr himself.",
+          "detachment": "Combined Arms",
+          "rawDescription": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.",
+          "formattedDescription": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0."
+        },
+        {
+          "id": "000008380003",
+          "name": "Drill Commander",
+          "cost": 20,
+          "legend": "This officer has spent countless hours putting their soldiers through ceaseless firing drills. In the heat of combat, the worth of this training reveals itself.",
+          "detachment": "Combined Arms",
+          "rawDescription": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
+          "formattedDescription": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
+        },
+        {
+          "id": "000008380004",
+          "name": "Grand Strategist",
+          "cost": 15,
+          "legend": "This commander can precisely anticipate the ebb and flow of war, their seemingly reactive tactics often prepared far in advance.",
+          "detachment": "Combined Arms",
+          "rawDescription": "OFFICER model only. In your Command phase, the bearer can issue one additional Order.",
+          "formattedDescription": "OFFICER model only. In your Command phase, the bearer can issue one additional Order."
+        },
+        {
+          "id": "000008380005",
+          "name": "Reactive Command",
+          "cost": 15,
+          "legend": "A natural tactician, this officer responds to their opponent’s manoeuvres in swift and decisive fashion, never allowing the foe to dictate the battle.",
+          "detachment": "Combined Arms",
+          "rawDescription": "OFFICER model only. Each time an enemy unit is set up within 9\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
+          "formattedDescription": "OFFICER model only. Each time an enemy unit is set up within 9\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round."
+        }
       ]
     },
     {
@@ -24625,6 +24701,26 @@
           "detachment": "Embarked Regiment",
           "rawDescription": "Each time an ASTRA MILITARUM unit from your army is selected to shoot, you can select one other friendly ASTRA MILITARUM unit (excluding OGRYN units). Until the end of the phase, models in the attacking unit can ignore models in that friendly unit for the purposes of determining visibility.",
           "formattedDescription": "Each time an ASTRA MILITARUM unit from your army is selected to shoot, you can select one other friendly ASTRA MILITARUM unit (excluding OGRYN units). Until the end of the phase, models in the attacking unit can ignore models in that friendly unit for the purposes of determining visibility."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009380002",
+          "name": "Rigged Blind Grenades",
+          "cost": 0,
+          "legend": "Whether intending to defend some contraband stash or as a precaution to slow down enemy boarding parties, the Imperial Guardsmen have booby trapped this hatch with a bundle of blind grenades.",
+          "detachment": "Embarked Regiment",
+          "rawDescription": "Once per battle, when an enemy unit opens a Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 2+, that enemy unit is Battle-shocked.",
+          "formattedDescription": "Once per battle, when an enemy unit opens a Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 2+, that enemy unit is Battle-shocked."
+        },
+        {
+          "id": "000009380003",
+          "name": "Shipboard Veteran",
+          "cost": 0,
+          "legend": "This officer has coordinated more than their fair share of boarding actions and voidship defence actions, and knows precisely which strategic gambits will bring them victory in such conditions.",
+          "detachment": "Embarked Regiment",
+          "rawDescription": "Each time you target an ASTRA MILITARUM unit from your army with a Stratagem, if that unit is visible to the bearer, roll one D6: on a 4+, you gain 1CP.",
+          "formattedDescription": "Each time you target an ASTRA MILITARUM unit from your army with a Stratagem, if that unit is visible to the bearer, roll one D6: on a 4+, you gain 1CP."
         }
       ]
     },
@@ -24719,6 +24815,44 @@
           "rawDescription": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models.",
           "formattedDescription": "Each time a SQUADRON unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009865002",
+          "name": "Calm Under Fire",
+          "cost": 15,
+          "legend": "In clipped tones, this officer issues clear and precise orders to the vehicles under their command - regardless of the bloodshed.",
+          "detachment": "Hammer of the Emperor",
+          "rawDescription": "VEHICLE OFFICER model only. Once per turn, after the bearer issues an Order to a SQUADRON unit from your army, it can issue the same Order to another SQUADRON unit from your army.",
+          "formattedDescription": "VEHICLE OFFICER model only. Once per turn, after the bearer issues an Order to a SQUADRON unit from your army, it can issue the same Order to another SQUADRON unit from your army."
+        },
+        {
+          "id": "000009865003",
+          "name": "Indomitable Steed",
+          "cost": 15,
+          "legend": "This officer goes to war in a favoured vehicle that - whether by fortune or apparent divine intervention - has survived dozens of battles despite suffering heavy damage on multiple occasions.",
+          "detachment": "Hammer of the Emperor",
+          "rawDescription": "VEHICLE OFFICER model only. The bearer has the Feel No Pain 6+ ability.",
+          "formattedDescription": "VEHICLE OFFICER model only. The bearer has the Feel No Pain 6+ ability."
+        },
+        {
+          "id": "000009865004",
+          "name": "Regimental Banner",
+          "cost": 20,
+          "legend": "A regimental banner flies from this command vehicle, its colours displaying the might of the Astra Militarum for all to see.",
+          "detachment": "Hammer of the Emperor",
+          "rawDescription": "VEHICLE OFFICER model only. Add 3 to the bearer’s Objective Control characteristic.",
+          "formattedDescription": "VEHICLE OFFICER model only. Add 3 to the bearer’s Objective Control characteristic."
+        },
+        {
+          "id": "000009865005",
+          "name": "Veteran Crew",
+          "cost": 20,
+          "legend": "Drilled endlessly by the officer in command, the crew of this tank are crack shots who know how to make every shell count.",
+          "detachment": "Hammer of the Emperor",
+          "rawDescription": "VEHICLE OFFICER model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1.",
+          "formattedDescription": "VEHICLE OFFICER model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1."
+        }
       ]
     },
     {
@@ -24811,6 +24945,44 @@
           "detachment": "Recon Element",
           "rawDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+).",
           "formattedDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+)."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009869002",
+          "name": "Guerrilla Honours",
+          "cost": 25,
+          "legend": "This officer is a specialist in covert warfare, their experience ensuring they know exactly when to redeploy their forces and close the jaws of their pre-prepared trap.",
+          "detachment": "Recon Element",
+          "rawDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+          "formattedDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "id": "000009869003",
+          "name": "Scare Gas Grenades",
+          "cost": 5,
+          "legend": "Filled with powerful hallucinogens, these grenades overwhelm the senses of those who breathe their fumes, causing them to panic and flee their positions.",
+          "detachment": "Recon Element",
+          "rawDescription": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test.",
+          "formattedDescription": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test."
+        },
+        {
+          "id": "000009869004",
+          "name": "Survival Gear",
+          "cost": 5,
+          "legend": "Whether equipped with climbing gear, machetes or snow shoes, this unit moves swiftly across inhospitable terrain to engage the enemy.",
+          "detachment": "Recon Element",
+          "rawDescription": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6\" ability.",
+          "formattedDescription": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6\" ability."
+        },
+        {
+          "id": "000009869005",
+          "name": "Tripwires",
+          "cost": 20,
+          "legend": "Carefully placed tripwires detonate booby traps as the enemy advance, the resulting explosions causing the foe to halt in their tracks.",
+          "detachment": "Recon Element",
+          "rawDescription": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 9\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "formattedDescription": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 9\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -24905,6 +25077,44 @@
           "rawDescription": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a TRANSPORT, add 1 to the Wound roll.",
           "formattedDescription": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a TRANSPORT, add 1 to the Wound roll."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009861002",
+          "name": "Bold Leadership",
+          "cost": 25,
+          "legend": "This officer’s aggressive command style sees them lead the advance personally, planting the regiment’s colours on seized objectives and leaving following troops to defend the ground they have gained.",
+          "detachment": "Mechanised Assault",
+          "rawDescription": "INFANTRY OFFICER model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+          "formattedDescription": "INFANTRY OFFICER model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+          "id": "000009861003",
+          "name": "Sacred Unguents",
+          "cost": 10,
+          "legend": "Regimental Tech-Priests bless the vehicles under their charge with holy prayer and sacred oils.",
+          "detachment": "Mechanised Assault",
+          "rawDescription": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. At the start of your Shooting phase, select one TRANSPORT from your army (excluding AIRCRAFT and TITANIC units) within 3\" of the bearer. Until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll.",
+          "formattedDescription": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. At the start of your Shooting phase, select one TRANSPORT from your army (excluding AIRCRAFT and TITANIC units) within 3\" of the bearer. Until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "id": "000009861004",
+          "name": "Smoke Grenades",
+          "cost": 10,
+          "legend": "Smokescreens provide cover for the infantry advance and enable troops to disembark safely.",
+          "detachment": "Mechanised Assault",
+          "rawDescription": "INFANTRY OFFICER model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3\" of one or more friendly TRANSPORT models.",
+          "formattedDescription": "INFANTRY OFFICER model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3\" of one or more friendly TRANSPORT models."
+        },
+        {
+          "id": "000009861005",
+          "name": "Vanguard Honours",
+          "cost": 15,
+          "legend": "Decorated veteran officers know when and where to press home the assault, ensuring their squad disembarks in the optimum position.",
+          "detachment": "Mechanised Assault",
+          "rawDescription": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
+          "formattedDescription": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+        }
       ]
     },
     {
@@ -24998,6 +25208,44 @@
           "rawDescription": "At the start of the battle round, select one of the following types of artillery support.Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.BATTLE SIZEMAXIMUM NUMBER OF UNITSIncursion2Strike Force3Onslaught4",
           "formattedDescription": "At the start of the battle round, select one of the following types of artillery support.Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.BATTLE SIZEMAXIMUM NUMBER OF UNITSIncursion2Strike Force3Onslaught4"
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009857002",
+          "name": "Eager Advance",
+          "cost": 20,
+          "legend": "This officer relishes serving in the vanguard and seeks to take up a forward position to be closer to the foe when the firing begins.",
+          "detachment": "Siege Regiment",
+          "rawDescription": "INFANTRY OFFICER model only. While the bearer is leading a REGIMENT unit, that unit has the Scouts 6\" ability.",
+          "formattedDescription": "INFANTRY OFFICER model only. While the bearer is leading a REGIMENT unit, that unit has the Scouts 6\" ability."
+        },
+        {
+          "id": "000009857003",
+          "name": "Flash Grenades",
+          "cost": 20,
+          "legend": "These grenades emit loud bangs and bright flashes of light, disorienting defenders and allowing the officer and their bodyguard to press home their assault.",
+          "detachment": "Siege Regiment",
+          "rawDescription": "INFANTRY OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+          "formattedDescription": "INFANTRY OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+        },
+        {
+          "id": "000009857004",
+          "name": "Legacy Sidearm",
+          "cost": 10,
+          "legend": "Handed down by a mentor, this officer’s pistol is an artificer-crafted example of its type, and is all the deadlier for it.",
+          "detachment": "Siege Regiment",
+          "rawDescription": "INFANTRY OFFICER model only. Add 2 to the Attacks characteristics of the bearers Pistols.",
+          "formattedDescription": "INFANTRY OFFICER model only. Add 2 to the Attacks characteristics of the bearers Pistols."
+        },
+        {
+          "id": "000009857005",
+          "name": "Stalwart’s Honours",
+          "cost": 15,
+          "legend": "Such is this officer’s aura of confidence that the soldiers under their command march into battle heedless of incoming fire, trusting in that old adage of the faithful - the Emperor protects.",
+          "detachment": "Siege Regiment",
+          "rawDescription": "OFFICER model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order.",
+          "formattedDescription": "OFFICER model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order."
+        }
       ]
     },
     {
@@ -25064,6 +25312,26 @@
           "detachment": "Tempestus Boarding Regiment",
           "rawDescription": "Each time a MILITARUM TEMPESTUS unit from your army is selected to shoot, if one or more models in that unit are within 1\" of an open Hatchway and every model in that unit is on the same side of that Hatchway, select one enemy unit on the opposite side of that Hatchway from that unit. Until the end of the phase, ranged weapons equipped by models in that unit have the [LETHAL HiTS] ability while targeting that enemy unit.",
           "formattedDescription": "Each time a MILITARUM TEMPESTUS unit from your army is selected to shoot, if one or more models in that unit are within 1\" of an open Hatchway and every model in that unit is on the same side of that Hatchway, select one enemy unit on the opposite side of that Hatchway from that unit. Until the end of the phase, ranged weapons equipped by models in that unit have the [LETHAL HiTS] ability while targeting that enemy unit."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009389002",
+          "name": "Covert Breach",
+          "cost": 0,
+          "legend": "Moving with stealth and urgency, these Scions have already bypassed the enemy’s outer defences before their presence is even detected.",
+          "detachment": "Tempestus Boarding Regiment",
+          "rawDescription": "At the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\".",
+          "formattedDescription": "At the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\"."
+        },
+        {
+          "id": "000009389003",
+          "name": "Elimination Force",
+          "cost": 0,
+          "legend": "Tasked with the destruction of a specific enemy asset, the Tempestus Scions focus their most lethal attentions against it as per their explicit orders.",
+          "detachment": "Tempestus Boarding Regiment",
+          "rawDescription": "At the start of the first battle round, select one enemy unit. Each time a model in the bearer’s unit makes an attack that targets that enemy unit, if the Strength characteristic of that attack is less than the Toughness characteristic of that enemy unit, add 1 to the Wound roll.",
+          "formattedDescription": "At the start of the first battle round, select one enemy unit. Each time a model in the bearer’s unit makes an attack that targets that enemy unit, if the Strength characteristic of that attack is less than the Toughness characteristic of that enemy unit, add 1 to the Wound roll."
         }
       ]
     }
@@ -25140,6 +25408,260 @@
       "detachment": "Recon Element",
       "rawDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+).",
       "formattedDescription": "ASTRA MILITARUM WALKER and REGIMENT models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because it is wholly within a RUIN), improve the Save characteristic of that model by 1 (to a maximum of 3+)."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009801002",
+      "name": "Bombast-class Vox-array",
+      "cost": 25,
+      "legend": "This device is a precious example of an omni-frequency master vox-array manufactured on the long-lost forge world of Urvax. It facilitates the rapid dissemination of orders throughout the entire strike force.",
+      "detachment": "Bridgehead Strike",
+      "rawDescription": "MILITARUM TEMPESTUS OFFICER model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different REGIMENT units, instead of only one.",
+      "formattedDescription": "MILITARUM TEMPESTUS OFFICER model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different REGIMENT units, instead of only one."
+    },
+    {
+      "id": "000009857002",
+      "name": "Eager Advance",
+      "cost": 20,
+      "legend": "This officer relishes serving in the vanguard and seeks to take up a forward position to be closer to the foe when the firing begins.",
+      "detachment": "Siege Regiment",
+      "rawDescription": "INFANTRY OFFICER model only. While the bearer is leading a REGIMENT unit, that unit has the Scouts 6\" ability.",
+      "formattedDescription": "INFANTRY OFFICER model only. While the bearer is leading a REGIMENT unit, that unit has the Scouts 6\" ability."
+    },
+    {
+      "id": "000009869002",
+      "name": "Guerrilla Honours",
+      "cost": 25,
+      "legend": "This officer is a specialist in covert warfare, their experience ensuring they know exactly when to redeploy their forces and close the jaws of their pre-prepared trap.",
+      "detachment": "Recon Element",
+      "rawDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "id": "000009865002",
+      "name": "Calm Under Fire",
+      "cost": 15,
+      "legend": "In clipped tones, this officer issues clear and precise orders to the vehicles under their command - regardless of the bloodshed.",
+      "detachment": "Hammer of the Emperor",
+      "rawDescription": "VEHICLE OFFICER model only. Once per turn, after the bearer issues an Order to a SQUADRON unit from your army, it can issue the same Order to another SQUADRON unit from your army.",
+      "formattedDescription": "VEHICLE OFFICER model only. Once per turn, after the bearer issues an Order to a SQUADRON unit from your army, it can issue the same Order to another SQUADRON unit from your army."
+    },
+    {
+      "id": "000008380002",
+      "name": "Death Mask of Ollanius",
+      "cost": 10,
+      "legend": "This mask depicts in obsidian and void-fired bronze the agonised visage of Saint Ollanius. Soldiers in the ancient artefacts presence are gifted the determination and endurance of the famous martyr himself.",
+      "detachment": "Combined Arms",
+      "rawDescription": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0.",
+      "formattedDescription": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0."
+    },
+    {
+      "id": "000009389002",
+      "name": "Covert Breach",
+      "cost": 0,
+      "legend": "Moving with stealth and urgency, these Scions have already bypassed the enemy’s outer defences before their presence is even detected.",
+      "detachment": "Tempestus Boarding Regiment",
+      "rawDescription": "At the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\".",
+      "formattedDescription": "At the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\"."
+    },
+    {
+      "id": "000009861002",
+      "name": "Bold Leadership",
+      "cost": 25,
+      "legend": "This officer’s aggressive command style sees them lead the advance personally, planting the regiment’s colours on seized objectives and leaving following troops to defend the ground they have gained.",
+      "detachment": "Mechanised Assault",
+      "rawDescription": "INFANTRY OFFICER model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "formattedDescription": "INFANTRY OFFICER model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    },
+    {
+      "id": "000009380002",
+      "name": "Rigged Blind Grenades",
+      "cost": 0,
+      "legend": "Whether intending to defend some contraband stash or as a precaution to slow down enemy boarding parties, the Imperial Guardsmen have booby trapped this hatch with a bundle of blind grenades.",
+      "detachment": "Embarked Regiment",
+      "rawDescription": "Once per battle, when an enemy unit opens a Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 2+, that enemy unit is Battle-shocked.",
+      "formattedDescription": "Once per battle, when an enemy unit opens a Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 2+, that enemy unit is Battle-shocked."
+    },
+    {
+      "id": "000009869003",
+      "name": "Scare Gas Grenades",
+      "cost": 5,
+      "legend": "Filled with powerful hallucinogens, these grenades overwhelm the senses of those who breathe their fumes, causing them to panic and flee their positions.",
+      "detachment": "Recon Element",
+      "rawDescription": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test.",
+      "formattedDescription": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test."
+    },
+    {
+      "id": "000009865003",
+      "name": "Indomitable Steed",
+      "cost": 15,
+      "legend": "This officer goes to war in a favoured vehicle that - whether by fortune or apparent divine intervention - has survived dozens of battles despite suffering heavy damage on multiple occasions.",
+      "detachment": "Hammer of the Emperor",
+      "rawDescription": "VEHICLE OFFICER model only. The bearer has the Feel No Pain 6+ ability.",
+      "formattedDescription": "VEHICLE OFFICER model only. The bearer has the Feel No Pain 6+ ability."
+    },
+    {
+      "id": "000009857003",
+      "name": "Flash Grenades",
+      "cost": 20,
+      "legend": "These grenades emit loud bangs and bright flashes of light, disorienting defenders and allowing the officer and their bodyguard to press home their assault.",
+      "detachment": "Siege Regiment",
+      "rawDescription": "INFANTRY OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+      "formattedDescription": "INFANTRY OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+    },
+    {
+      "id": "000009389003",
+      "name": "Elimination Force",
+      "cost": 0,
+      "legend": "Tasked with the destruction of a specific enemy asset, the Tempestus Scions focus their most lethal attentions against it as per their explicit orders.",
+      "detachment": "Tempestus Boarding Regiment",
+      "rawDescription": "At the start of the first battle round, select one enemy unit. Each time a model in the bearer’s unit makes an attack that targets that enemy unit, if the Strength characteristic of that attack is less than the Toughness characteristic of that enemy unit, add 1 to the Wound roll.",
+      "formattedDescription": "At the start of the first battle round, select one enemy unit. Each time a model in the bearer’s unit makes an attack that targets that enemy unit, if the Strength characteristic of that attack is less than the Toughness characteristic of that enemy unit, add 1 to the Wound roll."
+    },
+    {
+      "id": "000008380003",
+      "name": "Drill Commander",
+      "cost": 20,
+      "legend": "This officer has spent countless hours putting their soldiers through ceaseless firing drills. In the heat of combat, the worth of this training reveals itself.",
+      "detachment": "Combined Arms",
+      "rawDescription": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
+      "formattedDescription": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
+    },
+    {
+      "id": "000009801003",
+      "name": "Priority-drop Beacon",
+      "cost": 30,
+      "legend": "Locked to the designator runes of this officer’s dropship and heavily warded against interference, this predeployed beacon ensures they land swiftly and on target.",
+      "detachment": "Bridgehead Strike",
+      "rawDescription": "MILITARUM TEMPESTUS OFFICER model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+      "formattedDescription": "MILITARUM TEMPESTUS OFFICER model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    },
+    {
+      "id": "000009380003",
+      "name": "Shipboard Veteran",
+      "cost": 0,
+      "legend": "This officer has coordinated more than their fair share of boarding actions and voidship defence actions, and knows precisely which strategic gambits will bring them victory in such conditions.",
+      "detachment": "Embarked Regiment",
+      "rawDescription": "Each time you target an ASTRA MILITARUM unit from your army with a Stratagem, if that unit is visible to the bearer, roll one D6: on a 4+, you gain 1CP.",
+      "formattedDescription": "Each time you target an ASTRA MILITARUM unit from your army with a Stratagem, if that unit is visible to the bearer, roll one D6: on a 4+, you gain 1CP."
+    },
+    {
+      "id": "000009861003",
+      "name": "Sacred Unguents",
+      "cost": 10,
+      "legend": "Regimental Tech-Priests bless the vehicles under their charge with holy prayer and sacred oils.",
+      "detachment": "Mechanised Assault",
+      "rawDescription": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. At the start of your Shooting phase, select one TRANSPORT from your army (excluding AIRCRAFT and TITANIC units) within 3\" of the bearer. Until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll.",
+      "formattedDescription": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. At the start of your Shooting phase, select one TRANSPORT from your army (excluding AIRCRAFT and TITANIC units) within 3\" of the bearer. Until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll."
+    },
+    {
+      "id": "000009869004",
+      "name": "Survival Gear",
+      "cost": 5,
+      "legend": "Whether equipped with climbing gear, machetes or snow shoes, this unit moves swiftly across inhospitable terrain to engage the enemy.",
+      "detachment": "Recon Element",
+      "rawDescription": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6\" ability.",
+      "formattedDescription": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6\" ability."
+    },
+    {
+      "id": "000009857004",
+      "name": "Legacy Sidearm",
+      "cost": 10,
+      "legend": "Handed down by a mentor, this officer’s pistol is an artificer-crafted example of its type, and is all the deadlier for it.",
+      "detachment": "Siege Regiment",
+      "rawDescription": "INFANTRY OFFICER model only. Add 2 to the Attacks characteristics of the bearers Pistols.",
+      "formattedDescription": "INFANTRY OFFICER model only. Add 2 to the Attacks characteristics of the bearers Pistols."
+    },
+    {
+      "id": "000009865004",
+      "name": "Regimental Banner",
+      "cost": 20,
+      "legend": "A regimental banner flies from this command vehicle, its colours displaying the might of the Astra Militarum for all to see.",
+      "detachment": "Hammer of the Emperor",
+      "rawDescription": "VEHICLE OFFICER model only. Add 3 to the bearer’s Objective Control characteristic.",
+      "formattedDescription": "VEHICLE OFFICER model only. Add 3 to the bearer’s Objective Control characteristic."
+    },
+    {
+      "id": "000008380004",
+      "name": "Grand Strategist",
+      "cost": 15,
+      "legend": "This commander can precisely anticipate the ebb and flow of war, their seemingly reactive tactics often prepared far in advance.",
+      "detachment": "Combined Arms",
+      "rawDescription": "OFFICER model only. In your Command phase, the bearer can issue one additional Order.",
+      "formattedDescription": "OFFICER model only. In your Command phase, the bearer can issue one additional Order."
+    },
+    {
+      "id": "000009801004",
+      "name": "Shroud Projector",
+      "cost": 15,
+      "legend": "Believed to be the roost of protective machine spirits, this small tech-ossuary is worn on a chain around the neck and obfuscates the bearer and their comrades when moving.",
+      "detachment": "Bridgehead Strike",
+      "rawDescription": "MILITARUM TEMPESTUS OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+      "formattedDescription": "MILITARUM TEMPESTUS OFFICER model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+    },
+    {
+      "id": "000009861004",
+      "name": "Smoke Grenades",
+      "cost": 10,
+      "legend": "Smokescreens provide cover for the infantry advance and enable troops to disembark safely.",
+      "detachment": "Mechanised Assault",
+      "rawDescription": "INFANTRY OFFICER model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3\" of one or more friendly TRANSPORT models.",
+      "formattedDescription": "INFANTRY OFFICER model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3\" of one or more friendly TRANSPORT models."
+    },
+    {
+      "id": "000009801005",
+      "name": "Advance Augury",
+      "cost": 15,
+      "legend": "This tactically astute officer insists on orbital sensor sweeps and psy-scrying ahead of the operation’s commencement, providing vital intelligence.",
+      "detachment": "Bridgehead Strike",
+      "rawDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, select up to three REGIMENT units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "INFANTRY OFFICER model only. After both players have deployed their armies, select up to three REGIMENT units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "id": "000009869005",
+      "name": "Tripwires",
+      "cost": 20,
+      "legend": "Carefully placed tripwires detonate booby traps as the enemy advance, the resulting explosions causing the foe to halt in their tracks.",
+      "detachment": "Recon Element",
+      "rawDescription": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 9\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "formattedDescription": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 9\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009861005",
+      "name": "Vanguard Honours",
+      "cost": 15,
+      "legend": "Decorated veteran officers know when and where to press home the assault, ensuring their squad disembarks in the optimum position.",
+      "detachment": "Mechanised Assault",
+      "rawDescription": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
+      "formattedDescription": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+    },
+    {
+      "id": "000009865005",
+      "name": "Veteran Crew",
+      "cost": 20,
+      "legend": "Drilled endlessly by the officer in command, the crew of this tank are crack shots who know how to make every shell count.",
+      "detachment": "Hammer of the Emperor",
+      "rawDescription": "VEHICLE OFFICER model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1.",
+      "formattedDescription": "VEHICLE OFFICER model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1."
+    },
+    {
+      "id": "000008380005",
+      "name": "Reactive Command",
+      "cost": 15,
+      "legend": "A natural tactician, this officer responds to their opponent’s manoeuvres in swift and decisive fashion, never allowing the foe to dictate the battle.",
+      "detachment": "Combined Arms",
+      "rawDescription": "OFFICER model only. Each time an enemy unit is set up within 9\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
+      "formattedDescription": "OFFICER model only. Each time an enemy unit is set up within 9\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round."
+    },
+    {
+      "id": "000009857005",
+      "name": "Stalwart’s Honours",
+      "cost": 15,
+      "legend": "Such is this officer’s aura of confidence that the soldiers under their command march into battle heedless of incoming fire, trusting in that old adage of the faithful - the Emperor protects.",
+      "detachment": "Siege Regiment",
+      "rawDescription": "OFFICER model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order.",
+      "formattedDescription": "OFFICER model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order."
     }
   ]
 }

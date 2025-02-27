@@ -15464,6 +15464,44 @@
           "rawDescription": "Ranged weapons equipped by AELDARI VEHICLE models from your army have the [ASSAULT] ability and you can re-roll Advance rolls made for AELDARI VEHICLE FLY units from your army.",
           "formattedDescription": "Ranged weapons equipped by AELDARI VEHICLE models from your army have the [ASSAULT] ability and you can re-roll Advance rolls made for AELDARI VEHICLE FLY units from your army."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009769002",
+          "name": "Guiding Presence",
+          "cost": 25,
+          "legend": "This seer is closely attuned to their craftworld’s vehicles. Communicating with the souls inhabiting hull-mounted spirit stones can sharpen the tactical awareness of spirits and crew.",
+          "detachment": "Armoured Warhost",
+          "rawDescription": "AELDARI PSYKER model only. At the start of your Shooting phase, select one friendly AELDARI VEHICLE model within 9\" of the bearer. Until the end of the phase, each time that model makes an attack, add 1 to the Hit roll.",
+          "formattedDescription": "AELDARI PSYKER model only. At the start of your Shooting phase, select one friendly AELDARI VEHICLE model within 9\" of the bearer. Until the end of the phase, each time that model makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "id": "000009769003",
+          "name": "Harmonisation Matrix",
+          "cost": 30,
+          "legend": "When activated by its bearer, this crystalline device enables them to interface with Aeldari war machines, issuing orders and receiving combat reports at the speed of thought.",
+          "detachment": "Armoured Warhost",
+          "rawDescription": "AELDARI model only. In your Command phase, if the bearer (or any TRANSPORT it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP.",
+          "formattedDescription": "AELDARI model only. In your Command phase, if the bearer (or any TRANSPORT it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP."
+        },
+        {
+          "id": "000009769004",
+          "name": "Spirit Stone of Raelyth",
+          "cost": 20,
+          "legend": "This spirit stone contains the essence of the Bonesinger Raelyth. Those Asuryani psykers who bear this item to battle can draw upon the fallen artisan’s talents.",
+          "detachment": "Armoured Warhost",
+          "rawDescription": "AELDARI PSYKER model only. While the bearer is within 3\" of one or more friendly AELDARI VEHICLE units, the bearer has the Lone Operative ability. In your Command phase, you can select one friendly AELDARI VEHICLE model within 3\" of the bearer. That model regains up to D3 lost wounds.",
+          "formattedDescription": "AELDARI PSYKER model only. While the bearer is within 3\" of one or more friendly AELDARI VEHICLE units, the bearer has the Lone Operative ability. In your Command phase, you can select one friendly AELDARI VEHICLE model within 3\" of the bearer. That model regains up to D3 lost wounds."
+        },
+        {
+          "id": "000009769005",
+          "name": "Guileful Strategist",
+          "cost": 15,
+          "legend": "An expert in vehicular warfare, this commander is always one step ahead of the foe.",
+          "detachment": "Armoured Warhost",
+          "rawDescription": "AELDARI model only. If your army includes the bearer, after both players have deployed their armies, select up to three AELDARI VEHICLE units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "formattedDescription": "AELDARI model only. If your army includes the bearer, after both players have deployed their armies, select up to three AELDARI VEHICLE units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        }
       ]
     },
     {
@@ -15557,6 +15595,44 @@
           "rawDescription": "Each time an AELDARI unit from your army is selected to shoot or fight, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks.",
           "formattedDescription": "Each time an AELDARI unit from your army is selected to shoot or fight, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008448002",
+          "name": "The Phoenix Gem",
+          "cost": 35,
+          "legend": "At the height of the War in Heaven, Isha drew down the heat of a hundred stars into a glittering gem to save Asuryan. It is said that the Phoenix Gem is the only surviving fragment of this ancient stone, and still retains the power to return life to the fallen.",
+          "detachment": "Battle Host",
+          "rawDescription": "AELDARI model only. The first time the bearer is destroyed, roll one D6: on a 2+, keep it to one side. At the end of the phase, set the bearer back up again, as close as possible to its previous position and not within Engagement Range of any enemy models, with its full wounds remaining.",
+          "formattedDescription": "AELDARI model only. The first time the bearer is destroyed, roll one D6: on a 2+, keep it to one side. At the end of the phase, set the bearer back up again, as close as possible to its previous position and not within Engagement Range of any enemy models, with its full wounds remaining."
+        },
+        {
+          "id": "000008448003",
+          "name": "The Weeping Stones",
+          "cost": 15,
+          "legend": "Carved from psychoactive rubies, these runic stones resemble the beads of blood that drip from the hand of Khaine. In battle, these stones rearrange themselves, revealing elements of the future.",
+          "detachment": "Battle Host",
+          "rawDescription": "AELDARI model only. Each time the bearer’s unit destroys an enemy unit, roll one D6 and add it to your Fate dice pool displaying the result you just rolled.",
+          "formattedDescription": "AELDARI model only. Each time the bearer’s unit destroys an enemy unit, roll one D6 and add it to your Fate dice pool displaying the result you just rolled."
+        },
+        {
+          "id": "000008448004",
+          "name": "Reader of the Runes",
+          "cost": 20,
+          "legend": "Using their prescience to discern the enemy commander’s intentions, this psyker can react before the foe’s plans even come into action.",
+          "detachment": "Battle Host",
+          "rawDescription": "AELDARI PSYKER model only. In your Command phase, you can select one dice in your Fate dice pool, re-roll it, then add it back to your Fate dice pool displaying the result you just rolled.",
+          "formattedDescription": "AELDARI PSYKER model only. In your Command phase, you can select one dice in your Fate dice pool, re-roll it, then add it back to your Fate dice pool displaying the result you just rolled."
+        },
+        {
+          "id": "000008448005",
+          "name": "Fate’s Messenger",
+          "cost": 15,
+          "legend": "The strands of fate coil and twist around this warrior, the paths of destiny manipulated to keep them from harm so that they might strike back at their foes.",
+          "detachment": "Battle Host",
+          "rawDescription": "AELDARI model only. Once per turn, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead.",
+          "formattedDescription": "AELDARI model only. Once per turn, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead."
+        }
       ]
     },
     {
@@ -15623,6 +15699,26 @@
           "detachment": "Khaine’s Arrow",
           "rawDescription": "In your Movement phase, each time an AELDARI unit from your army makes a Normal move, while making that move it can attempt to operate a closed Hatchway that is within 1\" of it at any point during that move, provided there are no enemy units within 1\" of that Hatchway. If that AELDARI unit does attempt to operate that Hatchway, reduce the distance each model in that unit can move this phase by 2\" (if this makes it impossible for that unit to gel within 1\" of that Hatchway it wishes to operate, then it cannot attempt to do so), and it cannot operate a Hatchway again this turn.",
           "formattedDescription": "In your Movement phase, each time an AELDARI unit from your army makes a Normal move, while making that move it can attempt to operate a closed Hatchway that is within 1\" of it at any point during that move, provided there are no enemy units within 1\" of that Hatchway. If that AELDARI unit does attempt to operate that Hatchway, reduce the distance each model in that unit can move this phase by 2\" (if this makes it impossible for that unit to gel within 1\" of that Hatchway it wishes to operate, then it cannot attempt to do so), and it cannot operate a Hatchway again this turn."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009325002",
+          "name": "Runes of Sanctuary (Psychic)",
+          "cost": 0,
+          "legend": "Before battle was even joined the runes were cast, and this forces safest and truest passage through their foes predicted then committed to heart.",
+          "detachment": "Khaine’s Arrow",
+          "rawDescription": "PSYKER model only. Once per turn, in your opponents Shooting phase, when a friendly AELDARI unit within 9\" of and visible to the bearer is selected as the target of a ranged attack, the bearer can use this Enhancement. If it does, until the end of the phase, each time an attack targets that friendly AELDARI unit, worsen the Armour Penetration characteristic of that attack by 1.",
+          "formattedDescription": "PSYKER model only. Once per turn, in your opponents Shooting phase, when a friendly AELDARI unit within 9\" of and visible to the bearer is selected as the target of a ranged attack, the bearer can use this Enhancement. If it does, until the end of the phase, each time an attack targets that friendly AELDARI unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "id": "000009325003",
+          "name": "Shieldmaster",
+          "cost": 0,
+          "legend": "This warrior exploits every detail of their environment to stave off pursuing or encircling foes.",
+          "detachment": "Khaine’s Arrow",
+          "rawDescription": "Once per turn, in your Movement phase, after the bearer has moved, you can close one open Hatchway it moved through this phase (this can be done in addition to operating a Hatchway using the Unerring Strike Detachment rule).",
+          "formattedDescription": "Once per turn, in your Movement phase, after the bearer has moved, you can close one open Hatchway it moved through this phase (this can be done in addition to operating a Hatchway using the Unerring Strike Detachment rule)."
         }
       ]
     },
@@ -15691,6 +15787,26 @@
           "rawDescription": "Each time an attack targets a GUARDIANS or DIRE AVENGERS unit from your army, if that unit is within range of an objective marker, add 1 to any armour saving throw made against that attack.",
           "formattedDescription": "Each time an attack targets a GUARDIANS or DIRE AVENGERS unit from your army, if that unit is within range of an objective marker, add 1 to any armour saving throw made against that attack."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009334002",
+          "name": "Grace of Khaine",
+          "cost": 0,
+          "legend": "Fighting with lethal agility and perfect balance, this warrior places their every blow to inflict the maximum damage and scythe their enemies' every defence.",
+          "detachment": "Protector Host",
+          "rawDescription": "Each time the bearer makes an attack, re-roll a Hit roll of 1, re-roll a Wound roll of 1 and re-roll a Damage roll of 1.",
+          "formattedDescription": "Each time the bearer makes an attack, re-roll a Hit roll of 1, re-roll a Wound roll of 1 and re-roll a Damage roll of 1."
+        },
+        {
+          "id": "000009334003",
+          "name": "Rallying Cry",
+          "cost": 0,
+          "legend": "With well-chosen inspirational words, this war leader swiftly mobilises the Aeldari defence forces to protect their vessel.",
+          "detachment": "Protector Host",
+          "rawDescription": "In the Deploy Armies step, when the bearer is set up in an Entry Zone, you can set up two friendly GUARDIANS units within that Entry Zone instead of any other units.",
+          "formattedDescription": "In the Deploy Armies step, when the bearer is set up in an Entry Zone, you can set up two friendly GUARDIANS units within that Entry Zone instead of any other units."
+        }
       ]
     },
     {
@@ -15757,6 +15873,26 @@
           "detachment": "Star-dancer Masque",
           "rawDescription": "Each time an AELDARI model from your army is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
           "formattedDescription": "Each time an AELDARI model from your army is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009351002",
+          "name": "Prismatic Garb",
+          "cost": 0,
+          "legend": "In the close confines of shipboard war, the bewildering effect of this Harlequin’s domino field is redoubled.",
+          "detachment": "Star-dancer Masque",
+          "rawDescription": "Enemy units cannot fire Overwatch at the bearer.",
+          "formattedDescription": "Enemy units cannot fire Overwatch at the bearer."
+        },
+        {
+          "id": "000009351003",
+          "name": "Path of Eldanesh",
+          "cost": 0,
+          "legend": "Following the steps of the Path of Eldanesh, this player moves through their foes like a bladed wind, swift and unstoppable as that hero of myth.",
+          "detachment": "Star-dancer Masque",
+          "rawDescription": "The bearer has the Fights First ability and, each time the bearer opens a Hatchway, until the end of the turn, improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1.",
+          "formattedDescription": "The bearer has the Fights First ability and, each time the bearer opens a Hatchway, until the end of the turn, improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1."
         }
       ]
     },
@@ -15825,6 +15961,26 @@
           "rawDescription": "In your Command phase, you can select one AELDARI unit from your army within range of an objective marker you control. That unit must take a Leadership test, subtracting 2 from the result if it has the WRAITH CONSTRUCT keyword: if passed, that objective marker is Secured by your army.",
           "formattedDescription": "In your Command phase, you can select one AELDARI unit from your army within range of an objective marker you control. That unit must take a Leadership test, subtracting 2 from the result if it has the WRAITH CONSTRUCT keyword: if passed, that objective marker is Secured by your army."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009342002",
+          "name": "Direct Guidance",
+          "cost": 0,
+          "legend": "Practised in the arts of warfare amidst tangled corridors and chambers, this seer knows how best to guide their spirit warriors to victory.",
+          "detachment": "Wraiths of the Void",
+          "rawDescription": "At the end of your Movement phase, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Until the end of the turn, that WRAITH CONSTRUCT unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+          "formattedDescription": "At the end of your Movement phase, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Until the end of the turn, that WRAITH CONSTRUCT unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "id": "000009342003",
+          "name": "Song of Renewal",
+          "cost": 0,
+          "legend": "Employing their potent arts, this seer is able to guide ghost warriors back from the very brink of oblivion.",
+          "detachment": "Wraiths of the Void",
+          "rawDescription": "In your Command phase, the bearer can use this Enhancement. If it does, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Return one destroyed model to that WRAITH CONSTRUCT unit with its full wounds remaining.The bearer can only use this Enhancement up to two times.",
+          "formattedDescription": "In your Command phase, the bearer can use this Enhancement. If it does, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Return one destroyed model to that WRAITH CONSTRUCT unit with its full wounds remaining.The bearer can only use this Enhancement up to two times."
+        }
       ]
     }
   ],
@@ -15876,6 +16032,152 @@
       "detachment": "Armoured Warhost",
       "rawDescription": "Ranged weapons equipped by AELDARI VEHICLE models from your army have the [ASSAULT] ability and you can re-roll Advance rolls made for AELDARI VEHICLE FLY units from your army.",
       "formattedDescription": "Ranged weapons equipped by AELDARI VEHICLE models from your army have the [ASSAULT] ability and you can re-roll Advance rolls made for AELDARI VEHICLE FLY units from your army."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009342002",
+      "name": "Direct Guidance",
+      "cost": 0,
+      "legend": "Practised in the arts of warfare amidst tangled corridors and chambers, this seer knows how best to guide their spirit warriors to victory.",
+      "detachment": "Wraiths of the Void",
+      "rawDescription": "At the end of your Movement phase, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Until the end of the turn, that WRAITH CONSTRUCT unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "formattedDescription": "At the end of your Movement phase, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Until the end of the turn, that WRAITH CONSTRUCT unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "id": "000008448002",
+      "name": "The Phoenix Gem",
+      "cost": 35,
+      "legend": "At the height of the War in Heaven, Isha drew down the heat of a hundred stars into a glittering gem to save Asuryan. It is said that the Phoenix Gem is the only surviving fragment of this ancient stone, and still retains the power to return life to the fallen.",
+      "detachment": "Battle Host",
+      "rawDescription": "AELDARI model only. The first time the bearer is destroyed, roll one D6: on a 2+, keep it to one side. At the end of the phase, set the bearer back up again, as close as possible to its previous position and not within Engagement Range of any enemy models, with its full wounds remaining.",
+      "formattedDescription": "AELDARI model only. The first time the bearer is destroyed, roll one D6: on a 2+, keep it to one side. At the end of the phase, set the bearer back up again, as close as possible to its previous position and not within Engagement Range of any enemy models, with its full wounds remaining."
+    },
+    {
+      "id": "000009351002",
+      "name": "Prismatic Garb",
+      "cost": 0,
+      "legend": "In the close confines of shipboard war, the bewildering effect of this Harlequin’s domino field is redoubled.",
+      "detachment": "Star-dancer Masque",
+      "rawDescription": "Enemy units cannot fire Overwatch at the bearer.",
+      "formattedDescription": "Enemy units cannot fire Overwatch at the bearer."
+    },
+    {
+      "id": "000009334002",
+      "name": "Grace of Khaine",
+      "cost": 0,
+      "legend": "Fighting with lethal agility and perfect balance, this warrior places their every blow to inflict the maximum damage and scythe their enemies' every defence.",
+      "detachment": "Protector Host",
+      "rawDescription": "Each time the bearer makes an attack, re-roll a Hit roll of 1, re-roll a Wound roll of 1 and re-roll a Damage roll of 1.",
+      "formattedDescription": "Each time the bearer makes an attack, re-roll a Hit roll of 1, re-roll a Wound roll of 1 and re-roll a Damage roll of 1."
+    },
+    {
+      "id": "000009325002",
+      "name": "Runes of Sanctuary (Psychic)",
+      "cost": 0,
+      "legend": "Before battle was even joined the runes were cast, and this forces safest and truest passage through their foes predicted then committed to heart.",
+      "detachment": "Khaine’s Arrow",
+      "rawDescription": "PSYKER model only. Once per turn, in your opponents Shooting phase, when a friendly AELDARI unit within 9\" of and visible to the bearer is selected as the target of a ranged attack, the bearer can use this Enhancement. If it does, until the end of the phase, each time an attack targets that friendly AELDARI unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "formattedDescription": "PSYKER model only. Once per turn, in your opponents Shooting phase, when a friendly AELDARI unit within 9\" of and visible to the bearer is selected as the target of a ranged attack, the bearer can use this Enhancement. If it does, until the end of the phase, each time an attack targets that friendly AELDARI unit, worsen the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "id": "000009769002",
+      "name": "Guiding Presence",
+      "cost": 25,
+      "legend": "This seer is closely attuned to their craftworld’s vehicles. Communicating with the souls inhabiting hull-mounted spirit stones can sharpen the tactical awareness of spirits and crew.",
+      "detachment": "Armoured Warhost",
+      "rawDescription": "AELDARI PSYKER model only. At the start of your Shooting phase, select one friendly AELDARI VEHICLE model within 9\" of the bearer. Until the end of the phase, each time that model makes an attack, add 1 to the Hit roll.",
+      "formattedDescription": "AELDARI PSYKER model only. At the start of your Shooting phase, select one friendly AELDARI VEHICLE model within 9\" of the bearer. Until the end of the phase, each time that model makes an attack, add 1 to the Hit roll."
+    },
+    {
+      "id": "000009334003",
+      "name": "Rallying Cry",
+      "cost": 0,
+      "legend": "With well-chosen inspirational words, this war leader swiftly mobilises the Aeldari defence forces to protect their vessel.",
+      "detachment": "Protector Host",
+      "rawDescription": "In the Deploy Armies step, when the bearer is set up in an Entry Zone, you can set up two friendly GUARDIANS units within that Entry Zone instead of any other units.",
+      "formattedDescription": "In the Deploy Armies step, when the bearer is set up in an Entry Zone, you can set up two friendly GUARDIANS units within that Entry Zone instead of any other units."
+    },
+    {
+      "id": "000009325003",
+      "name": "Shieldmaster",
+      "cost": 0,
+      "legend": "This warrior exploits every detail of their environment to stave off pursuing or encircling foes.",
+      "detachment": "Khaine’s Arrow",
+      "rawDescription": "Once per turn, in your Movement phase, after the bearer has moved, you can close one open Hatchway it moved through this phase (this can be done in addition to operating a Hatchway using the Unerring Strike Detachment rule).",
+      "formattedDescription": "Once per turn, in your Movement phase, after the bearer has moved, you can close one open Hatchway it moved through this phase (this can be done in addition to operating a Hatchway using the Unerring Strike Detachment rule)."
+    },
+    {
+      "id": "000009342003",
+      "name": "Song of Renewal",
+      "cost": 0,
+      "legend": "Employing their potent arts, this seer is able to guide ghost warriors back from the very brink of oblivion.",
+      "detachment": "Wraiths of the Void",
+      "rawDescription": "In your Command phase, the bearer can use this Enhancement. If it does, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Return one destroyed model to that WRAITH CONSTRUCT unit with its full wounds remaining.The bearer can only use this Enhancement up to two times.",
+      "formattedDescription": "In your Command phase, the bearer can use this Enhancement. If it does, select one friendly WRAITH CONSTRUCT unit within 6\" of and visible to the bearer. Return one destroyed model to that WRAITH CONSTRUCT unit with its full wounds remaining.The bearer can only use this Enhancement up to two times."
+    },
+    {
+      "id": "000008448003",
+      "name": "The Weeping Stones",
+      "cost": 15,
+      "legend": "Carved from psychoactive rubies, these runic stones resemble the beads of blood that drip from the hand of Khaine. In battle, these stones rearrange themselves, revealing elements of the future.",
+      "detachment": "Battle Host",
+      "rawDescription": "AELDARI model only. Each time the bearer’s unit destroys an enemy unit, roll one D6 and add it to your Fate dice pool displaying the result you just rolled.",
+      "formattedDescription": "AELDARI model only. Each time the bearer’s unit destroys an enemy unit, roll one D6 and add it to your Fate dice pool displaying the result you just rolled."
+    },
+    {
+      "id": "000009351003",
+      "name": "Path of Eldanesh",
+      "cost": 0,
+      "legend": "Following the steps of the Path of Eldanesh, this player moves through their foes like a bladed wind, swift and unstoppable as that hero of myth.",
+      "detachment": "Star-dancer Masque",
+      "rawDescription": "The bearer has the Fights First ability and, each time the bearer opens a Hatchway, until the end of the turn, improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1.",
+      "formattedDescription": "The bearer has the Fights First ability and, each time the bearer opens a Hatchway, until the end of the turn, improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1."
+    },
+    {
+      "id": "000009769003",
+      "name": "Harmonisation Matrix",
+      "cost": 30,
+      "legend": "When activated by its bearer, this crystalline device enables them to interface with Aeldari war machines, issuing orders and receiving combat reports at the speed of thought.",
+      "detachment": "Armoured Warhost",
+      "rawDescription": "AELDARI model only. In your Command phase, if the bearer (or any TRANSPORT it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP.",
+      "formattedDescription": "AELDARI model only. In your Command phase, if the bearer (or any TRANSPORT it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP."
+    },
+    {
+      "id": "000009769004",
+      "name": "Spirit Stone of Raelyth",
+      "cost": 20,
+      "legend": "This spirit stone contains the essence of the Bonesinger Raelyth. Those Asuryani psykers who bear this item to battle can draw upon the fallen artisan’s talents.",
+      "detachment": "Armoured Warhost",
+      "rawDescription": "AELDARI PSYKER model only. While the bearer is within 3\" of one or more friendly AELDARI VEHICLE units, the bearer has the Lone Operative ability. In your Command phase, you can select one friendly AELDARI VEHICLE model within 3\" of the bearer. That model regains up to D3 lost wounds.",
+      "formattedDescription": "AELDARI PSYKER model only. While the bearer is within 3\" of one or more friendly AELDARI VEHICLE units, the bearer has the Lone Operative ability. In your Command phase, you can select one friendly AELDARI VEHICLE model within 3\" of the bearer. That model regains up to D3 lost wounds."
+    },
+    {
+      "id": "000008448004",
+      "name": "Reader of the Runes",
+      "cost": 20,
+      "legend": "Using their prescience to discern the enemy commander’s intentions, this psyker can react before the foe’s plans even come into action.",
+      "detachment": "Battle Host",
+      "rawDescription": "AELDARI PSYKER model only. In your Command phase, you can select one dice in your Fate dice pool, re-roll it, then add it back to your Fate dice pool displaying the result you just rolled.",
+      "formattedDescription": "AELDARI PSYKER model only. In your Command phase, you can select one dice in your Fate dice pool, re-roll it, then add it back to your Fate dice pool displaying the result you just rolled."
+    },
+    {
+      "id": "000008448005",
+      "name": "Fate’s Messenger",
+      "cost": 15,
+      "legend": "The strands of fate coil and twist around this warrior, the paths of destiny manipulated to keep them from harm so that they might strike back at their foes.",
+      "detachment": "Battle Host",
+      "rawDescription": "AELDARI model only. Once per turn, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead.",
+      "formattedDescription": "AELDARI model only. Once per turn, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead."
+    },
+    {
+      "id": "000009769005",
+      "name": "Guileful Strategist",
+      "cost": 15,
+      "legend": "An expert in vehicular warfare, this commander is always one step ahead of the foe.",
+      "detachment": "Armoured Warhost",
+      "rawDescription": "AELDARI model only. If your army includes the bearer, after both players have deployed their armies, select up to three AELDARI VEHICLE units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "AELDARI model only. If your army includes the bearer, after both players have deployed their armies, select up to three AELDARI VEHICLE units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
     }
   ]
 }

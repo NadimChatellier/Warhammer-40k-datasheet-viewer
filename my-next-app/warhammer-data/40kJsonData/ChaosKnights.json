@@ -5826,6 +5826,44 @@
           "rawDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD.",
           "formattedDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009765002",
+          "name": "Profane Altar",
+          "cost": 20,
+          "legend": "This ancient and thoroughly corrupted Knight suit is a walking idol of the Dark Gods and a conduit for their malign powers. As servile thralls bleed and die, so do its weapons seethe with unholy power.",
+          "detachment": "Iconoclast Fiefdom",
+          "rawDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1].",
+          "formattedDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1]."
+        },
+        {
+          "id": "000009765003",
+          "name": "Pave the Way",
+          "cost": 15,
+          "legend": "This callous Noble dispatches teeming hordes of mutants and mortal devotees to map the path ahead and scout the battlefield for prey.",
+          "detachment": "Iconoclast Fiefdom",
+          "rawDescription": "CHAOS KNIGHTS model only. At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6\" ability.",
+          "formattedDescription": "CHAOS KNIGHTS model only. At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6\" ability."
+        },
+        {
+          "id": "000009765004",
+          "name": "Tyrant’s Banner",
+          "cost": 5,
+          "legend": "A tyrannical butcher, this Noble’s Knight suit bears their corrupted house’s tattered and gore-flecked banner. This icon of depravity flutters overhead, inspiring mortal devotees to acts of sickening violence.",
+          "detachment": "Iconoclast Fiefdom",
+          "rawDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6\".",
+          "formattedDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6\"."
+        },
+        {
+          "id": "000009765005",
+          "name": "Diabolical Resilience",
+          "cost": 35,
+          "legend": "With its pilot consumed by imperious arrogance and its systems clotted with malefic corruption, this venerable war suit refuses to yield, contemptuously shrugging off the incoming fire.",
+          "detachment": "Iconoclast Fiefdom",
+          "rawDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it.",
+          "formattedDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it."
+        }
       ]
     },
     {
@@ -5919,6 +5957,44 @@
           "rawDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.Designer’s Note: This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength.",
           "formattedDescription": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of a CHAOS KNIGHTS model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.Designer’s Note: This means that all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008516002",
+          "name": "Lord of Dread",
+          "cost": 15,
+          "legend": "This tyrannical Knight is the epitome of dread power, instilling as much fear in their minions as they do over the enemy, ensuring unwavering obedience.",
+          "detachment": "Traitoris Lance",
+          "rawDescription": "CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test.",
+          "formattedDescription": "CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test."
+        },
+        {
+          "id": "000008516003",
+          "name": "Aura of Terror",
+          "cost": 25,
+          "legend": "This towering Knight is wreathed in tendrils of warp energy that caress the minds of any enemy who draws near, driving those touched into a state of abject fear. Wherever this Knight treads, this aura of terror permeates and corrupts the land until it can be cleansed.",
+          "detachment": "Traitoris Lance",
+          "rawDescription": "CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, while an objective marker is Tainted and under your control, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battleshock and Leadership tests taken for enemy units within 12\" of it).",
+          "formattedDescription": "CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, while an objective marker is Tainted and under your control, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battleshock and Leadership tests taken for enemy units within 12\" of it)."
+        },
+        {
+          "id": "000008516004",
+          "name": "The Traitor’s Mark",
+          "cost": 30,
+          "legend": "The dark deeds and bloodstained heraldry of this Chaos Knight are whispered far and wide. Rumours spread that to confront it is to face a painful death. Each blazon borne upon its hull proclaims the unholy atrocities committed by the bearer, and even to look upon these loathsome sigils is to be gripped by unnatural terror and beset by swarming nightmares.",
+          "detachment": "Traitoris Lance",
+          "rawDescription": "CHAOS KNIGHTS model only. In your Movement phase, select one enemy unit within 12\" of the bearer. That enemy unit must take a Battle-shock test.",
+          "formattedDescription": "CHAOS KNIGHTS model only. In your Movement phase, select one enemy unit within 12\" of the bearer. That enemy unit must take a Battle-shock test."
+        },
+        {
+          "id": "000008516005",
+          "name": "Panoply of the Cursed Knight",
+          "cost": 40,
+          "legend": "Borne within an unmarked casket by an order of silent Idolators, this collection of tattered pennants, chain-strung charms and armour scraps represent the last remains of the Knight Carnivus Grymm. It is said that festooning one’s Knight suit with these charms instils the legendary fortitude of that doomed war engine. Yet it is whispered that doing so also invites the attentions of the same dread curse that eventually led to Carnivus Grymm’s ghastly end.",
+          "detachment": "Traitoris Lance",
+          "rawDescription": "CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration characteristic of that attack.",
+          "formattedDescription": "CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration characteristic of that attack."
+        }
       ]
     }
   ],
@@ -5938,6 +6014,80 @@
       "detachment": "Iconoclast Fiefdom",
       "rawDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD.",
       "formattedDescription": "TITANIC CHAOS KNIGHTS units from your army have the following abilities:Dread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.CHAOS KNIGHTS units from your army have the following abilities:Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your CHAOS KNIGHTS unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].WRETCHED THRALLSYou can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo DAMNED models from your army can be your WARLORD."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009765002",
+      "name": "Profane Altar",
+      "cost": 20,
+      "legend": "This ancient and thoroughly corrupted Knight suit is a walking idol of the Dark Gods and a conduit for their malign powers. As servile thralls bleed and die, so do its weapons seethe with unholy power.",
+      "detachment": "Iconoclast Fiefdom",
+      "rawDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1].",
+      "formattedDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1]."
+    },
+    {
+      "id": "000008516002",
+      "name": "Lord of Dread",
+      "cost": 15,
+      "legend": "This tyrannical Knight is the epitome of dread power, instilling as much fear in their minions as they do over the enemy, ensuring unwavering obedience.",
+      "detachment": "Traitoris Lance",
+      "rawDescription": "CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test.",
+      "formattedDescription": "CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test."
+    },
+    {
+      "id": "000009765003",
+      "name": "Pave the Way",
+      "cost": 15,
+      "legend": "This callous Noble dispatches teeming hordes of mutants and mortal devotees to map the path ahead and scout the battlefield for prey.",
+      "detachment": "Iconoclast Fiefdom",
+      "rawDescription": "CHAOS KNIGHTS model only. At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6\" ability.",
+      "formattedDescription": "CHAOS KNIGHTS model only. At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6\" ability."
+    },
+    {
+      "id": "000008516003",
+      "name": "Aura of Terror",
+      "cost": 25,
+      "legend": "This towering Knight is wreathed in tendrils of warp energy that caress the minds of any enemy who draws near, driving those touched into a state of abject fear. Wherever this Knight treads, this aura of terror permeates and corrupts the land until it can be cleansed.",
+      "detachment": "Traitoris Lance",
+      "rawDescription": "CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, while an objective marker is Tainted and under your control, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battleshock and Leadership tests taken for enemy units within 12\" of it).",
+      "formattedDescription": "CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, while an objective marker is Tainted and under your control, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battleshock and Leadership tests taken for enemy units within 12\" of it)."
+    },
+    {
+      "id": "000008516004",
+      "name": "The Traitor’s Mark",
+      "cost": 30,
+      "legend": "The dark deeds and bloodstained heraldry of this Chaos Knight are whispered far and wide. Rumours spread that to confront it is to face a painful death. Each blazon borne upon its hull proclaims the unholy atrocities committed by the bearer, and even to look upon these loathsome sigils is to be gripped by unnatural terror and beset by swarming nightmares.",
+      "detachment": "Traitoris Lance",
+      "rawDescription": "CHAOS KNIGHTS model only. In your Movement phase, select one enemy unit within 12\" of the bearer. That enemy unit must take a Battle-shock test.",
+      "formattedDescription": "CHAOS KNIGHTS model only. In your Movement phase, select one enemy unit within 12\" of the bearer. That enemy unit must take a Battle-shock test."
+    },
+    {
+      "id": "000009765004",
+      "name": "Tyrant’s Banner",
+      "cost": 5,
+      "legend": "A tyrannical butcher, this Noble’s Knight suit bears their corrupted house’s tattered and gore-flecked banner. This icon of depravity flutters overhead, inspiring mortal devotees to acts of sickening violence.",
+      "detachment": "Iconoclast Fiefdom",
+      "rawDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6\".",
+      "formattedDescription": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6\"."
+    },
+    {
+      "id": "000008516005",
+      "name": "Panoply of the Cursed Knight",
+      "cost": 40,
+      "legend": "Borne within an unmarked casket by an order of silent Idolators, this collection of tattered pennants, chain-strung charms and armour scraps represent the last remains of the Knight Carnivus Grymm. It is said that festooning one’s Knight suit with these charms instils the legendary fortitude of that doomed war engine. Yet it is whispered that doing so also invites the attentions of the same dread curse that eventually led to Carnivus Grymm’s ghastly end.",
+      "detachment": "Traitoris Lance",
+      "rawDescription": "CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration characteristic of that attack.",
+      "formattedDescription": "CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration characteristic of that attack."
+    },
+    {
+      "id": "000009765005",
+      "name": "Diabolical Resilience",
+      "cost": 35,
+      "legend": "With its pilot consumed by imperious arrogance and its systems clotted with malefic corruption, this venerable war suit refuses to yield, contemptuously shrugging off the incoming fire.",
+      "detachment": "Iconoclast Fiefdom",
+      "rawDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it.",
+      "formattedDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it."
     }
   ]
 }

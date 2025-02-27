@@ -29,11 +29,14 @@ export default function Home() {
   const [abilities, setAbilities] = useState([]);
   const [selectedTab, setSelectedTab] = useState("Abilities");
   const [filteredAbilities, setFilteredAbilities] = useState([]);
+  const [enhancements, setEnhancements] = useState([]);
+  const [selectedEnhancement, setSelectedEnhancement] = useState(null);
+  const [filteredEnhancements, setFilteredEnhancements] = useState([]);
 
 
 
   useEffect(() => {
-    async function fetchStratagemsData() {
+    async function fetchFactionData() {
       try {
         const factionData = await import(
           `../../warhammer-data/40kJsonData/${selectedFaction}.json`
@@ -41,39 +44,30 @@ export default function Home() {
   
         function getUniqueSubfactions(units) {
           const keywordCount = {};
-        
+  
           // Count occurrences of each keyword (subfaction)
           units.forEach((unit) => {
-            const unitKeywords = unit.keywords?.faction || []; // Use faction as keywords
+            const unitKeywords = unit.keywords?.faction || [];
             unitKeywords.forEach((keyword) => {
               keywordCount[keyword] = (keywordCount[keyword] || 0) + 1;
             });
           });
-        
-          // Find the most common keyword (subfaction) that exists in all units
+  
+          // Find subfactions that appear in every unit
           const totalUnits = units.length;
-          const subfactionsToExclude = [];
-        
-          // Mark the keywords that appear in all units
-          for (const [keyword, count] of Object.entries(keywordCount)) {
-            if (count === totalUnits) {
-              subfactionsToExclude.push(keyword); // This subfaction appears in every unit
-            }
-          }
-        
-          // Create a list of all unique keywords, excluding the ones that appear in all units
-          const uniqueSubfactions = Object.keys(keywordCount).filter(
-            (keyword) => !subfactionsToExclude.includes(keyword)
+          const subfactionsToExclude = Object.keys(keywordCount).filter(
+            (keyword) => keywordCount[keyword] === totalUnits
           );
-        
-          return uniqueSubfactions;
+  
+          // Return unique subfactions excluding the common ones
+          return Object.keys(keywordCount).filter((keyword) => !subfactionsToExclude.includes(keyword));
         }
-        
   
         const faction = factionData;
   
         const stratagemsList = [];
         const abilitiesList = [];
+        const enhancementsList = [];
         const detachmentsList = [];
   
         faction.detachments?.forEach((detachment) => {
@@ -83,24 +77,27 @@ export default function Home() {
           if (detachment.abilities && Array.isArray(detachment.abilities)) {
             abilitiesList.push(...detachment.abilities);
           }
+          if (detachment.enhancements && Array.isArray(detachment.enhancements)) {
+            enhancementsList.push(...detachment.enhancements);
+          }
           detachmentsList.push(detachment.name);
         });
   
-        // Set the units
+        // Set state variables
         setUnits(faction.units || []);
-  
-        // Get unique subfactions and set them in state
         setSubFactions(getUniqueSubfactions(faction.units || []));
         setAbilities(abilitiesList);
         setStratagems(stratagemsList);
+        setEnhancements(enhancementsList);
         setDetachments(detachmentsList);
       } catch (error) {
-        console.error("Error loading stratagem data:", error);
+        console.error("Error loading faction data:", error);
       }
     }
   
-    fetchStratagemsData();
+    fetchFactionData();
   }, [selectedFaction]);
+  
   
   useEffect(() => {
     if (detachmentFilter) {
@@ -125,18 +122,32 @@ export default function Home() {
         }
         return isMatch;
       });
+
+      // Filter abilities by detachment-related keyword or name
+      const filteredEnhancements = enhancements.filter((enhancement) => {
+        const isMatch =
+          enhancement.detachment?.toLowerCase().includes(detachmentFilter?.toLowerCase()) ||
+          enhancement.rawDescription?.toLowerCase().includes(detachmentFilter?.toLowerCase()) ||
+          enhancement.legend?.toLowerCase().includes(detachmentFilter?.toLowerCase()); // Match description or name
+        if (isMatch) {
+          console.log(`Ability: ${enhancement.name} is related to detachment filter: ${detachmentFilter}`);
+        }
+        return isMatch;
+      });
   
       // Log filtered data to confirm
       console.log("Filtered Stratagems:", filteredStratagems);
       console.log("Filtered Abilities:", filteredAbilities);
   
       // Set the filtered results
+      setFilteredEnhancements(filteredEnhancements);
       setFilteredStratagems(filteredStratagems);
       setFilteredAbilities(filteredAbilities);
     } else {
       // If no detachment filter is selected, show all
       setFilteredStratagems(stratagems);
       setFilteredAbilities(abilities);
+      setFilteredEnhancements(enhancements);
     }
   }, [detachmentFilter, stratagems, abilities]); // Runs when dependencies change
   
@@ -294,7 +305,7 @@ const others = filteredUnits.filter(
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70" onClick={() => setAreStrategemsOpen(false)}>
           <div className="bg-gray-900 text-white w-full max-w-4xl h-[90vh] rounded-2xl shadow-2xl overflow-hidden flex flex-col" onClick={(e) => e.stopPropagation()}>
             <div className="flex justify-between items-center bg-gray-800 p-6">
-              <h2 className="text-3xl font-bold text-yellow-400">Stratagems & Abilities</h2>
+              <h2 className="text-3xl font-bold text-yellow-400">{selectedFaction} detachments</h2>
               <button onClick={() => setAreStrategemsOpen(false)} className="text-white"><FiX size={32} /></button>
             </div>
             
@@ -305,34 +316,31 @@ const others = filteredUnits.filter(
             </div>
 
             <div className="flex border-b border-gray-600">
-              {["Abilities", "Stratagems"].map((tab) => (
+              {["Abilities", "Stratagems", "Enhancements"].map((tab) => (
                 <button key={tab} onClick={() => setSelectedTab(tab)} className={`flex-1 py-3 text-center text-lg font-bold transition-all ${selectedTab === tab ? "bg-yellow-400 text-black" : "bg-gray-800 text-white hover:bg-gray-700"}`}>{tab}</button>
               ))}
             </div>
 
             <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollable-content">
+  {/* Abilities Section */}
   {selectedTab === "Abilities" && (filteredAbilities.length > 0 ? filteredAbilities : abilities).length > 0 ? (
     (filteredAbilities.length > 0 ? filteredAbilities : abilities).map((ability, index) => (
       <div key={index} className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300">
-    <h3 className="text-2xl font-bold text-yellow-400">
-  {ability.name} 
-  <span className="text-sm text-gray-400 ml-2">
-    ({ability.detachment}) {/* This will show the detachment name */}
-  </span>
-</h3>
+        <h3 className="text-2xl font-bold text-yellow-400">
+          {ability.name}
+          <span className="text-sm text-gray-400 ml-2">({ability.detachment})</span>
+        </h3>
         <p className="text-gray-400 mt-2">{ability.formattedDescription}</p>
       </div>
     ))
   ) : selectedTab === "Stratagems" && filteredStratagems.length > 0 ? (
+    /* Stratagems Section */
     filteredStratagems.map((stratagem, index) => (
       <div key={index} className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300">
-        {/* Stratagem Title */}
         <h3 className="text-2xl font-bold text-yellow-400">{stratagem.name}</h3>
-    
-        {/* Stratagem Meta Info */}
-        <p className="text-lg text-gray-400">{stratagem.cpCost} – {stratagem.type}</p>
-    
-        {/* Stratagem Parsed Info */}
+        <p className="text-lg text-gray-400">
+          <strong className="text-2xl font-bold text-yellow-400">{stratagem.cpCost}CP</strong> – {stratagem.type}
+        </p>
         <div className="mt-3 text-base space-y-2">
           <p><strong className="text-yellow-400">When:</strong> {stratagem.when}</p>
           <p><strong className="text-yellow-400">Target:</strong> {stratagem.target}</p>
@@ -340,10 +348,25 @@ const others = filteredUnits.filter(
         </div>
       </div>
     ))
+  ) : selectedTab === "Enhancements" && (filteredEnhancements.length > 0 ? filteredEnhancements : enhancements).length > 0 ? (
+    /* Enhancements Section */
+    (filteredEnhancements?.length > 0 ? filteredEnhancements : enhancements).map((enhancement, index) => (
+      <div key={index} className="p-6 bg-gray-800 rounded-xl shadow-lg hover:bg-gray-700 transition duration-300">
+        <h3 className="text-2xl font-bold text-green-400">
+          {enhancement.name}
+          <span className="text-sm text-gray-400 ml-2">({enhancement.detachment})</span>
+        </h3>
+        <p className="text-lg text-gray-400">
+          <strong>Cost:</strong> {enhancement.cost} points
+        </p>
+        <p className="text-gray-400 mt-2">{enhancement.formattedDescription}</p>
+      </div>
+    ))
   ) : (
-    <p className="text-center text-gray-400 text-lg">No stratagems available.</p>
+    <p className="text-center text-gray-400 text-lg">No data available.</p>
   )}
 </div>
+
 
           </div>
         </div>

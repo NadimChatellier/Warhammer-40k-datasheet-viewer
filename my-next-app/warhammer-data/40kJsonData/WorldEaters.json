@@ -7538,6 +7538,44 @@
           "rawDescription": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.",
           "formattedDescription": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008432002",
+          "name": "Favoured of Khorne",
+          "cost": 20,
+          "legend": "This warrior has the favour of Khorne; the Blood God seems to aid him in his slaughter with a portion of his own power.",
+          "detachment": "Berzerker Warband",
+          "rawDescription": "WORLD EATERS model only. Once per battle, when you make a Blessings of Khorne roll, before doing anything else, the bearer can use this Enhancement. If it does, discard all of the dice from that roll and make a new Blessings of Khorne roll. This new roll does not count as a re-roll, so any rules that enable you to re-roll or manipulate individual dice (e.g. Icon of Khorne) can still be used.",
+          "formattedDescription": "WORLD EATERS model only. Once per battle, when you make a Blessings of Khorne roll, before doing anything else, the bearer can use this Enhancement. If it does, discard all of the dice from that roll and make a new Blessings of Khorne roll. This new roll does not count as a re-roll, so any rules that enable you to re-roll or manipulate individual dice (e.g. Icon of Khorne) can still be used."
+        },
+        {
+          "id": "000008432003",
+          "name": "Berzerker Glaive",
+          "cost": 25,
+          "legend": "The bearer of this daemon-infested weapon is driven to a state of apoplectic frenzy by the proximity of its red-hot steel.",
+          "detachment": "Berzerker Warband",
+          "rawDescription": "WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer.",
+          "formattedDescription": "WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "id": "000008432004",
+          "name": "Battle-lust",
+          "cost": 15,
+          "legend": "This veteran killer’s lust for battle draws him into any and all fights, his thirst driving him to new heights of battlefield frenzy.",
+          "detachment": "Berzerker Warband",
+          "rawDescription": "WORLD EATERS model only. You can select the bearer’s unit for the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+          "formattedDescription": "WORLD EATERS model only. You can select the bearer’s unit for the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "id": "000008432005",
+          "name": "Helm of Brazen Ire",
+          "cost": 25,
+          "legend": "This helm is forged from unbreakable brass from the Blood God’s own throne. Any who seek to take the bearer’s skull find that their blades break upon it.",
+          "detachment": "Berzerker Warband",
+          "rawDescription": "WORLD EATERS model only. Each time an attack  is allocated to the bearer, halve the Damage characteristic of that attack.",
+          "formattedDescription": "WORLD EATERS model only. Each time an attack  is allocated to the bearer, halve the Damage characteristic of that attack."
+        }
       ]
     },
     {
@@ -7605,6 +7643,26 @@
           "rawDescription": "Each time a WORLD EATERS unit from your army declares a charge, each target of that charge must take a Battle-shock test.",
           "formattedDescription": "Each time a WORLD EATERS unit from your army declares a charge, each target of that charge must take a Battle-shock test."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009708002",
+          "name": "Chosen of Khorne",
+          "cost": 0,
+          "legend": "Many are the skulls this warrior has taken and offered up in the Blood God’s name, which has its rewards.",
+          "detachment": "Boarding Butchers",
+          "rawDescription": "Once the bearer has destroyed one or more enemy units, until the end of the battle, each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll all of the dice (if you do, you must re-roll every dice).",
+          "formattedDescription": "Once the bearer has destroyed one or more enemy units, until the end of the battle, each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll all of the dice (if you do, you must re-roll every dice)."
+        },
+        {
+          "id": "000009708003",
+          "name": "Battle Lust",
+          "cost": 0,
+          "legend": "Foes attempting to gun this warrior down only stoke his berserk rage still higher.",
+          "detachment": "Boarding Butchers",
+          "rawDescription": "Each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was the target of one or more of those attacks, it can make a Battle Lust move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, the bearer can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+          "formattedDescription": "Each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was the target of one or more of those attacks, it can make a Battle Lust move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, the bearer can be moved within Engagement Range of that enemy unit, but only that enemy unit."
+        }
       ]
     },
     {
@@ -7671,6 +7729,26 @@
           "detachment": "Skullsworn",
           "rawDescription": "Each time a WORLD EATERS model from your army (excluding KHÂRN THE BETRAYER) is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 5+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
           "formattedDescription": "Each time a WORLD EATERS model from your army (excluding KHÂRN THE BETRAYER) is destroyed by a melee attack and it has not fought this phase, roll one D6: on a 5+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009716002",
+          "name": "Frenzied",
+          "cost": 0,
+          "legend": "So gripped is this warrior by the need to kill and kill again in Khornes name, that they never for even a moment pause in their endless hunt for fresh victims.",
+          "detachment": "Skullsworn",
+          "rawDescription": "You can re-roll Advance and Charge rolls made for the bearer, and the bearer is eligible to declare a charge in a turn in which it Advanced.",
+          "formattedDescription": "You can re-roll Advance and Charge rolls made for the bearer, and the bearer is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "id": "000009716003",
+          "name": "Carmine Corona",
+          "cost": 0,
+          "legend": "As this murderous champion butchers his foes, so a blazing crown of rage, hate and agony blazes to life about his brows. None can look upon this ghastly spectacle without their eyes bleeding and a bleak despair gripping their hearts.",
+          "detachment": "Skullsworn",
+          "rawDescription": "When the bearer destroys an enemy unit for the first time, until the end of the battle, the bearer has an Objective Control characteristic of 5.",
+          "formattedDescription": "When the bearer destroys an enemy unit for the first time, until the end of the battle, the bearer has an Objective Control characteristic of 5."
         }
       ]
     },
@@ -7765,6 +7843,44 @@
           "rawDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army.",
           "formattedDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009847002",
+          "name": "Archslaughterer",
+          "cost": 25,
+          "legend": "This gifted killer channels the fullness of his rage into every weapon swing – doubly so when the Blood God’s gaze is upon him.",
+          "detachment": "Vessels of Wrath",
+          "rawDescription": "WORLD EATERS model only. Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a VESSEL OF WRATH , improve the Damage characteristic of those weapons by 1 as well.",
+          "formattedDescription": "WORLD EATERS model only. Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a VESSEL OF WRATH , improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "id": "000009847003",
+          "name": "Vox-diabolus",
+          "cost": 20,
+          "legend": "Anointed with the vitae of the freshly slain, this champion’s triumphant roars are supernaturally amplified until they echo into the Warp.",
+          "detachment": "Vessels of Wrath",
+          "rawDescription": "WORLD EATERS model only. Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH : on a 4+, you gain 1CP.",
+          "formattedDescription": "WORLD EATERS model only. Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH : on a 4+, you gain 1CP."
+        },
+        {
+          "id": "000009847004",
+          "name": "Avenger’s Crown",
+          "cost": 15,
+          "legend": "This circlet of black iron is said to grant its wearer a surge of vengeful violence when their doom becomes inescapable.",
+          "detachment": "Vessels of Wrath",
+          "rawDescription": "WORLD EATERS model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "formattedDescription": "WORLD EATERS model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "id": "000009847005",
+          "name": "Gateways to Glory",
+          "cost": 10,
+          "legend": "Like an axe swept through defenceless flesh, some patron daemons of Khorne rip portals in reality for this favoured servant to surge through.",
+          "detachment": "Vessels of Wrath",
+          "rawDescription": "WORLD EATERS DAEMON PRINCE or WORLD EATERS MOUNTED model only. Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them.",
+          "formattedDescription": "WORLD EATERS DAEMON PRINCE or WORLD EATERS MOUNTED model only. Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        }
       ]
     }
   ],
@@ -7800,6 +7916,116 @@
       "detachment": "Vessels of Wrath",
       "rawDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army.",
       "formattedDescription": "At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within TRANSPORTS):WORLD EATERS CHARACTER (excluding EPIC HEROES)Eightbound ChampionExalted Eightbound ChampionKhorne Berzerkers ChampionWorld Eaters Terminator ChampionYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:INCURSION:2 MODELSSTRIKE FORCE:3 MODELSONSLAUGHT:4 MODELSUntil the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009708002",
+      "name": "Chosen of Khorne",
+      "cost": 0,
+      "legend": "Many are the skulls this warrior has taken and offered up in the Blood God’s name, which has its rewards.",
+      "detachment": "Boarding Butchers",
+      "rawDescription": "Once the bearer has destroyed one or more enemy units, until the end of the battle, each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll all of the dice (if you do, you must re-roll every dice).",
+      "formattedDescription": "Once the bearer has destroyed one or more enemy units, until the end of the battle, each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll all of the dice (if you do, you must re-roll every dice)."
+    },
+    {
+      "id": "000009716002",
+      "name": "Frenzied",
+      "cost": 0,
+      "legend": "So gripped is this warrior by the need to kill and kill again in Khornes name, that they never for even a moment pause in their endless hunt for fresh victims.",
+      "detachment": "Skullsworn",
+      "rawDescription": "You can re-roll Advance and Charge rolls made for the bearer, and the bearer is eligible to declare a charge in a turn in which it Advanced.",
+      "formattedDescription": "You can re-roll Advance and Charge rolls made for the bearer, and the bearer is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "id": "000008432002",
+      "name": "Favoured of Khorne",
+      "cost": 20,
+      "legend": "This warrior has the favour of Khorne; the Blood God seems to aid him in his slaughter with a portion of his own power.",
+      "detachment": "Berzerker Warband",
+      "rawDescription": "WORLD EATERS model only. Once per battle, when you make a Blessings of Khorne roll, before doing anything else, the bearer can use this Enhancement. If it does, discard all of the dice from that roll and make a new Blessings of Khorne roll. This new roll does not count as a re-roll, so any rules that enable you to re-roll or manipulate individual dice (e.g. Icon of Khorne) can still be used.",
+      "formattedDescription": "WORLD EATERS model only. Once per battle, when you make a Blessings of Khorne roll, before doing anything else, the bearer can use this Enhancement. If it does, discard all of the dice from that roll and make a new Blessings of Khorne roll. This new roll does not count as a re-roll, so any rules that enable you to re-roll or manipulate individual dice (e.g. Icon of Khorne) can still be used."
+    },
+    {
+      "id": "000009847002",
+      "name": "Archslaughterer",
+      "cost": 25,
+      "legend": "This gifted killer channels the fullness of his rage into every weapon swing – doubly so when the Blood God’s gaze is upon him.",
+      "detachment": "Vessels of Wrath",
+      "rawDescription": "WORLD EATERS model only. Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a VESSEL OF WRATH , improve the Damage characteristic of those weapons by 1 as well.",
+      "formattedDescription": "WORLD EATERS model only. Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a VESSEL OF WRATH , improve the Damage characteristic of those weapons by 1 as well."
+    },
+    {
+      "id": "000009708003",
+      "name": "Battle Lust",
+      "cost": 0,
+      "legend": "Foes attempting to gun this warrior down only stoke his berserk rage still higher.",
+      "detachment": "Boarding Butchers",
+      "rawDescription": "Each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was the target of one or more of those attacks, it can make a Battle Lust move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, the bearer can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+      "formattedDescription": "Each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was the target of one or more of those attacks, it can make a Battle Lust move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but must end that move as close as possible to the attacking unit. When doing so, the bearer can be moved within Engagement Range of that enemy unit, but only that enemy unit."
+    },
+    {
+      "id": "000008432003",
+      "name": "Berzerker Glaive",
+      "cost": 25,
+      "legend": "The bearer of this daemon-infested weapon is driven to a state of apoplectic frenzy by the proximity of its red-hot steel.",
+      "detachment": "Berzerker Warband",
+      "rawDescription": "WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer.",
+      "formattedDescription": "WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+    },
+    {
+      "id": "000009716003",
+      "name": "Carmine Corona",
+      "cost": 0,
+      "legend": "As this murderous champion butchers his foes, so a blazing crown of rage, hate and agony blazes to life about his brows. None can look upon this ghastly spectacle without their eyes bleeding and a bleak despair gripping their hearts.",
+      "detachment": "Skullsworn",
+      "rawDescription": "When the bearer destroys an enemy unit for the first time, until the end of the battle, the bearer has an Objective Control characteristic of 5.",
+      "formattedDescription": "When the bearer destroys an enemy unit for the first time, until the end of the battle, the bearer has an Objective Control characteristic of 5."
+    },
+    {
+      "id": "000009847003",
+      "name": "Vox-diabolus",
+      "cost": 20,
+      "legend": "Anointed with the vitae of the freshly slain, this champion’s triumphant roars are supernaturally amplified until they echo into the Warp.",
+      "detachment": "Vessels of Wrath",
+      "rawDescription": "WORLD EATERS model only. Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH : on a 4+, you gain 1CP.",
+      "formattedDescription": "WORLD EATERS model only. Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH : on a 4+, you gain 1CP."
+    },
+    {
+      "id": "000009847004",
+      "name": "Avenger’s Crown",
+      "cost": 15,
+      "legend": "This circlet of black iron is said to grant its wearer a surge of vengeful violence when their doom becomes inescapable.",
+      "detachment": "Vessels of Wrath",
+      "rawDescription": "WORLD EATERS model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "formattedDescription": "WORLD EATERS model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000008432004",
+      "name": "Battle-lust",
+      "cost": 15,
+      "legend": "This veteran killer’s lust for battle draws him into any and all fights, his thirst driving him to new heights of battlefield frenzy.",
+      "detachment": "Berzerker Warband",
+      "rawDescription": "WORLD EATERS model only. You can select the bearer’s unit for the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "formattedDescription": "WORLD EATERS model only. You can select the bearer’s unit for the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "id": "000008432005",
+      "name": "Helm of Brazen Ire",
+      "cost": 25,
+      "legend": "This helm is forged from unbreakable brass from the Blood God’s own throne. Any who seek to take the bearer’s skull find that their blades break upon it.",
+      "detachment": "Berzerker Warband",
+      "rawDescription": "WORLD EATERS model only. Each time an attack  is allocated to the bearer, halve the Damage characteristic of that attack.",
+      "formattedDescription": "WORLD EATERS model only. Each time an attack  is allocated to the bearer, halve the Damage characteristic of that attack."
+    },
+    {
+      "id": "000009847005",
+      "name": "Gateways to Glory",
+      "cost": 10,
+      "legend": "Like an axe swept through defenceless flesh, some patron daemons of Khorne rip portals in reality for this favoured servant to surge through.",
+      "detachment": "Vessels of Wrath",
+      "rawDescription": "WORLD EATERS DAEMON PRINCE or WORLD EATERS MOUNTED model only. Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them.",
+      "formattedDescription": "WORLD EATERS DAEMON PRINCE or WORLD EATERS MOUNTED model only. Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
     }
   ]
 }

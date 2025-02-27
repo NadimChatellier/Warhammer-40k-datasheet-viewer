@@ -5175,6 +5175,53 @@
           "rawDescription": "All IMPERIAL KNIGHTS models from your army have the Feel No Pain 6+ ability. If your army is Honoured, those models have the Feel No Pain 5+ ability.",
           "formattedDescription": "All IMPERIAL KNIGHTS models from your army have the Feel No Pain 6+ ability. If your army is Honoured, those models have the Feel No Pain 5+ ability."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008464002",
+          "name": "Revered Knight (Aura)",
+          "cost": 15,
+          "legend": "Never hesitating before tyrannical invaders, this Knight is beheld as the very epitome of honour – a monolithic incarnation of the Imperium. While they stand, courage is inviolate and victory is assured.",
+          "detachment": "Noble Lance",
+          "rawDescription": "IMPERIAL KNIGHTS model only. While a friendly IMPERIAL KNIGHTS model is within 6\" of the bearer, improve that model’s Leadership characteristic by 1. If your army is Honoured, increase the range of this Aura ability to 12\".",
+          "formattedDescription": "IMPERIAL KNIGHTS model only. While a friendly IMPERIAL KNIGHTS model is within 6\" of the bearer, improve that model’s Leadership characteristic by 1. If your army is Honoured, increase the range of this Aura ability to 12\"."
+        },
+        {
+          "id": "000008464003",
+          "name": "Mysterious Guardian",
+          "cost": 25,
+          "legend": "Manifesting as though from nowhere, this Noble’s titanic steed is an elemental force of vengeance against the Emperor of Mankind’s foes. At battle’s end, it disappears as mysteriously as it arrived.",
+          "detachment": "Noble Lance",
+          "rawDescription": "IMPERIAL KNIGHTS model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of any enemy units, it can fade away. If it does, remove it from the battlefield then, in the Reinforcements step of your subsequent Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and the bearer is not on the battlefield, it is destroyed.",
+          "formattedDescription": "IMPERIAL KNIGHTS model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of any enemy units, it can fade away. If it does, remove it from the battlefield then, in the Reinforcements step of your subsequent Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and the bearer is not on the battlefield, it is destroyed."
+        },
+        {
+          "id": "000008464004",
+          "name": "Mythic Hero",
+          "cost": 25,
+          "legend": "This warrior is a legendary figure who embodies the Code Chivalric, and tales of their deeds have spread far and wide. To be a Bondsman to such a warrior is a great honour indeed.",
+          "detachment": "Noble Lance",
+          "rawDescription": "QUESTORIS model with a Bondsman ability only. Each time the bearer uses its Bondsman ability, you can select one additional friendly ARMIGER model within 12\" of the bearer that is not already being affected by a Bondsman ability. Until the start of your next Command phase, that model is also affected by that Bondsman ability.",
+          "formattedDescription": "QUESTORIS model with a Bondsman ability only. Each time the bearer uses its Bondsman ability, you can select one additional friendly ARMIGER model within 12\" of the bearer that is not already being affected by a Bondsman ability. Until the start of your next Command phase, that model is also affected by that Bondsman ability."
+        },
+        {
+          "id": "000008464005",
+          "name": "Banner of Macharius Triumphant",
+          "cost": 30,
+          "legend": "A gift from Lord Solar Macharius himself to honour the noble houses that accompanied his crusade, legend has it that this banner has never seen defeat: every time a Knight has carried it to war, a great victory has been won.",
+          "detachment": "Noble Lance",
+          "rawDescription": "IMPERIAL KNIGHTS model only. If you control an objective marker at the end of your Command phase and the bearer is within range of that objective marker, that objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+          "formattedDescription": "IMPERIAL KNIGHTS model only. If you control an objective marker at the end of your Command phase and the bearer is within range of that objective marker, that objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+          "id": "000008464006",
+          "name": "Unyielding Paragon",
+          "cost": 40,
+          "legend": "This Knight is an unyielding army unto themselves, capable of engaging entire enemy forces and holding their ground, emerging through the fiercest firestorms bloodied, but unbowed.",
+          "detachment": "Noble Lance",
+          "rawDescription": "QUESTORIS model only. Each time an attack is allocated to the bearer, worsen the Armour Penetration characteristic of that attack by 1.",
+          "formattedDescription": "QUESTORIS model only. Each time an attack is allocated to the bearer, worsen the Armour Penetration characteristic of that attack by 1."
+        }
       ]
     },
     {
@@ -5268,6 +5315,44 @@
           "rawDescription": "IMPERIAL KNIGHTS units from your army have the following the ability:Sacristan Pledge: In your Command phase, one model in this unit regains 1 lost wound. If this unit is within 3\" of one or more friendly TECH-PRIEST models, one model in this unit regains up to D3 lost wounds instead.ADEPTUS MECHANICUS units from your army have the following ability:Divine Inspiration: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If this unit is within 6\" of one or more friendly IMPERIAL KNIGHTS units, re-roll a Wound roll of 1 as well.FORGE WORLD ALLIESYou can include the following ADEPTUS MECHANICUS units in your army: TECH-PRIEST DOMINUS; TECH-PRIEST MANIPULUS; SKITARII MARSHAL; SKITARII RANGERS; SKITARII VANGUARD. The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo ADEPTUS MECHANICUS models from your army can be your WARLORD.",
           "formattedDescription": "IMPERIAL KNIGHTS units from your army have the following the ability:Sacristan Pledge: In your Command phase, one model in this unit regains 1 lost wound. If this unit is within 3\" of one or more friendly TECH-PRIEST models, one model in this unit regains up to D3 lost wounds instead.ADEPTUS MECHANICUS units from your army have the following ability:Divine Inspiration: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If this unit is within 6\" of one or more friendly IMPERIAL KNIGHTS units, re-roll a Wound roll of 1 as well.FORGE WORLD ALLIESYou can include the following ADEPTUS MECHANICUS units in your army: TECH-PRIEST DOMINUS; TECH-PRIEST MANIPULUS; SKITARII MARSHAL; SKITARII RANGERS; SKITARII VANGUARD. The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo ADEPTUS MECHANICUS models from your army can be your WARLORD."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009761002",
+          "name": "Omnissian Champion",
+          "cost": 30,
+          "legend": "The Omnissian priesthood has thrice blessed this champion of the Machine God and their Knight suit’s core; it burns with a zeal that cannot be quenched.",
+          "detachment": "Questor Forgepact",
+          "rawDescription": "IMPERIAL KNIGHTS model only. Add 4 to the bearer’s Wounds characteristic.",
+          "formattedDescription": "IMPERIAL KNIGHTS model only. Add 4 to the bearer’s Wounds characteristic."
+        },
+        {
+          "id": "000009761003",
+          "name": "Knight of the Opus Machina",
+          "cost": 20,
+          "legend": "A devotee of the Omnissian creed, this Noble is inspired by the presence of the Adeptus Mechanicus, fighting with greater zeal and vigour in their holy presence.",
+          "detachment": "Questor Forgepact",
+          "rawDescription": "IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, if the bearer is within 6\" of one or more friendly ADEPTUS MECHANICUS units, re-roll a Hit roll of 1.",
+          "formattedDescription": "IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, if the bearer is within 6\" of one or more friendly ADEPTUS MECHANICUS units, re-roll a Hit roll of 1."
+        },
+        {
+          "id": "000009761004",
+          "name": "Magos Questoris",
+          "cost": 35,
+          "legend": "An expert in the intricate mechanisms and weapons systems of Imperial Knights, this Tech-Priest taught Sacristans their craft. They now walk in the shadow of these war machines and make field repairs in the midst of battle.",
+          "detachment": "Questor Forgepact",
+          "rawDescription": "TECH-PRIEST model only. While the bearer is within 3\" of one or more friendly IMPERIAL KNIGHTS units, it has the Lone Operative ability. In your Command phase, select one friendly Imperial Knights model within 3\" of the bearer. That model regains up to 2 lost wounds.",
+          "formattedDescription": "TECH-PRIEST model only. While the bearer is within 3\" of one or more friendly IMPERIAL KNIGHTS units, it has the Lone Operative ability. In your Command phase, select one friendly Imperial Knights model within 3\" of the bearer. That model regains up to 2 lost wounds."
+        },
+        {
+          "id": "000009761005",
+          "name": "Vocifer Magnificat (Aura)",
+          "cost": 15,
+          "legend": "This titanic war machine’s carapace bristles with vox-grilles and laud hailers that project binharic prayers to the Machine God; these static chants serve both to unnerve the foe and fill the faithful of the Omnissiah with holy fervour.",
+          "detachment": "Questor Forgepact",
+          "rawDescription": "IMPERIAL KNIGHTS model only. While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly ADEPTUS MECHANICUS unit is within 6\" of the bearer, improve the Leadership characteristic of 1 models in that ADEPTUS MECHANICUS unit by 1.",
+          "formattedDescription": "IMPERIAL KNIGHTS model only. While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly ADEPTUS MECHANICUS unit is within 6\" of the bearer, improve the Leadership characteristic of 1 models in that ADEPTUS MECHANICUS unit by 1."
+        }
       ]
     }
   ],
@@ -5287,6 +5372,89 @@
       "detachment": "Questor Forgepact",
       "rawDescription": "IMPERIAL KNIGHTS units from your army have the following the ability:Sacristan Pledge: In your Command phase, one model in this unit regains 1 lost wound. If this unit is within 3\" of one or more friendly TECH-PRIEST models, one model in this unit regains up to D3 lost wounds instead.ADEPTUS MECHANICUS units from your army have the following ability:Divine Inspiration: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If this unit is within 6\" of one or more friendly IMPERIAL KNIGHTS units, re-roll a Wound roll of 1 as well.FORGE WORLD ALLIESYou can include the following ADEPTUS MECHANICUS units in your army: TECH-PRIEST DOMINUS; TECH-PRIEST MANIPULUS; SKITARII MARSHAL; SKITARII RANGERS; SKITARII VANGUARD. The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo ADEPTUS MECHANICUS models from your army can be your WARLORD.",
       "formattedDescription": "IMPERIAL KNIGHTS units from your army have the following the ability:Sacristan Pledge: In your Command phase, one model in this unit regains 1 lost wound. If this unit is within 3\" of one or more friendly TECH-PRIEST models, one model in this unit regains up to D3 lost wounds instead.ADEPTUS MECHANICUS units from your army have the following ability:Divine Inspiration: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If this unit is within 6\" of one or more friendly IMPERIAL KNIGHTS units, re-roll a Wound roll of 1 as well.FORGE WORLD ALLIESYou can include the following ADEPTUS MECHANICUS units in your army: TECH-PRIEST DOMINUS; TECH-PRIEST MANIPULUS; SKITARII MARSHAL; SKITARII RANGERS; SKITARII VANGUARD. The combined points cost of such units depends on your battle size:Incursion: Up to 250 ptsStrike Force: Up to 500 ptsOnslaught: Up to 750 ptsNo ADEPTUS MECHANICUS models from your army can be your WARLORD."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000008464002",
+      "name": "Revered Knight (Aura)",
+      "cost": 15,
+      "legend": "Never hesitating before tyrannical invaders, this Knight is beheld as the very epitome of honour – a monolithic incarnation of the Imperium. While they stand, courage is inviolate and victory is assured.",
+      "detachment": "Noble Lance",
+      "rawDescription": "IMPERIAL KNIGHTS model only. While a friendly IMPERIAL KNIGHTS model is within 6\" of the bearer, improve that model’s Leadership characteristic by 1. If your army is Honoured, increase the range of this Aura ability to 12\".",
+      "formattedDescription": "IMPERIAL KNIGHTS model only. While a friendly IMPERIAL KNIGHTS model is within 6\" of the bearer, improve that model’s Leadership characteristic by 1. If your army is Honoured, increase the range of this Aura ability to 12\"."
+    },
+    {
+      "id": "000009761002",
+      "name": "Omnissian Champion",
+      "cost": 30,
+      "legend": "The Omnissian priesthood has thrice blessed this champion of the Machine God and their Knight suit’s core; it burns with a zeal that cannot be quenched.",
+      "detachment": "Questor Forgepact",
+      "rawDescription": "IMPERIAL KNIGHTS model only. Add 4 to the bearer’s Wounds characteristic.",
+      "formattedDescription": "IMPERIAL KNIGHTS model only. Add 4 to the bearer’s Wounds characteristic."
+    },
+    {
+      "id": "000008464003",
+      "name": "Mysterious Guardian",
+      "cost": 25,
+      "legend": "Manifesting as though from nowhere, this Noble’s titanic steed is an elemental force of vengeance against the Emperor of Mankind’s foes. At battle’s end, it disappears as mysteriously as it arrived.",
+      "detachment": "Noble Lance",
+      "rawDescription": "IMPERIAL KNIGHTS model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of any enemy units, it can fade away. If it does, remove it from the battlefield then, in the Reinforcements step of your subsequent Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and the bearer is not on the battlefield, it is destroyed.",
+      "formattedDescription": "IMPERIAL KNIGHTS model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of any enemy units, it can fade away. If it does, remove it from the battlefield then, in the Reinforcements step of your subsequent Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and the bearer is not on the battlefield, it is destroyed."
+    },
+    {
+      "id": "000009761003",
+      "name": "Knight of the Opus Machina",
+      "cost": 20,
+      "legend": "A devotee of the Omnissian creed, this Noble is inspired by the presence of the Adeptus Mechanicus, fighting with greater zeal and vigour in their holy presence.",
+      "detachment": "Questor Forgepact",
+      "rawDescription": "IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, if the bearer is within 6\" of one or more friendly ADEPTUS MECHANICUS units, re-roll a Hit roll of 1.",
+      "formattedDescription": "IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, if the bearer is within 6\" of one or more friendly ADEPTUS MECHANICUS units, re-roll a Hit roll of 1."
+    },
+    {
+      "id": "000009761004",
+      "name": "Magos Questoris",
+      "cost": 35,
+      "legend": "An expert in the intricate mechanisms and weapons systems of Imperial Knights, this Tech-Priest taught Sacristans their craft. They now walk in the shadow of these war machines and make field repairs in the midst of battle.",
+      "detachment": "Questor Forgepact",
+      "rawDescription": "TECH-PRIEST model only. While the bearer is within 3\" of one or more friendly IMPERIAL KNIGHTS units, it has the Lone Operative ability. In your Command phase, select one friendly Imperial Knights model within 3\" of the bearer. That model regains up to 2 lost wounds.",
+      "formattedDescription": "TECH-PRIEST model only. While the bearer is within 3\" of one or more friendly IMPERIAL KNIGHTS units, it has the Lone Operative ability. In your Command phase, select one friendly Imperial Knights model within 3\" of the bearer. That model regains up to 2 lost wounds."
+    },
+    {
+      "id": "000008464004",
+      "name": "Mythic Hero",
+      "cost": 25,
+      "legend": "This warrior is a legendary figure who embodies the Code Chivalric, and tales of their deeds have spread far and wide. To be a Bondsman to such a warrior is a great honour indeed.",
+      "detachment": "Noble Lance",
+      "rawDescription": "QUESTORIS model with a Bondsman ability only. Each time the bearer uses its Bondsman ability, you can select one additional friendly ARMIGER model within 12\" of the bearer that is not already being affected by a Bondsman ability. Until the start of your next Command phase, that model is also affected by that Bondsman ability.",
+      "formattedDescription": "QUESTORIS model with a Bondsman ability only. Each time the bearer uses its Bondsman ability, you can select one additional friendly ARMIGER model within 12\" of the bearer that is not already being affected by a Bondsman ability. Until the start of your next Command phase, that model is also affected by that Bondsman ability."
+    },
+    {
+      "id": "000008464005",
+      "name": "Banner of Macharius Triumphant",
+      "cost": 30,
+      "legend": "A gift from Lord Solar Macharius himself to honour the noble houses that accompanied his crusade, legend has it that this banner has never seen defeat: every time a Knight has carried it to war, a great victory has been won.",
+      "detachment": "Noble Lance",
+      "rawDescription": "IMPERIAL KNIGHTS model only. If you control an objective marker at the end of your Command phase and the bearer is within range of that objective marker, that objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "formattedDescription": "IMPERIAL KNIGHTS model only. If you control an objective marker at the end of your Command phase and the bearer is within range of that objective marker, that objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    },
+    {
+      "id": "000009761005",
+      "name": "Vocifer Magnificat (Aura)",
+      "cost": 15,
+      "legend": "This titanic war machine’s carapace bristles with vox-grilles and laud hailers that project binharic prayers to the Machine God; these static chants serve both to unnerve the foe and fill the faithful of the Omnissiah with holy fervour.",
+      "detachment": "Questor Forgepact",
+      "rawDescription": "IMPERIAL KNIGHTS model only. While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly ADEPTUS MECHANICUS unit is within 6\" of the bearer, improve the Leadership characteristic of 1 models in that ADEPTUS MECHANICUS unit by 1.",
+      "formattedDescription": "IMPERIAL KNIGHTS model only. While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. While a friendly ADEPTUS MECHANICUS unit is within 6\" of the bearer, improve the Leadership characteristic of 1 models in that ADEPTUS MECHANICUS unit by 1."
+    },
+    {
+      "id": "000008464006",
+      "name": "Unyielding Paragon",
+      "cost": 40,
+      "legend": "This Knight is an unyielding army unto themselves, capable of engaging entire enemy forces and holding their ground, emerging through the fiercest firestorms bloodied, but unbowed.",
+      "detachment": "Noble Lance",
+      "rawDescription": "QUESTORIS model only. Each time an attack is allocated to the bearer, worsen the Armour Penetration characteristic of that attack by 1.",
+      "formattedDescription": "QUESTORIS model only. Each time an attack is allocated to the bearer, worsen the Armour Penetration characteristic of that attack by 1."
     }
   ]
 }

@@ -16756,6 +16756,44 @@
           "rawDescription": "Add 1 to Charge rolls made for ABERRANTS, BIOPHAGUS and PURESTRAIN GENESTEALERS units from your army. In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.",
           "formattedDescription": "Add 1 to Charge rolls made for ABERRANTS, BIOPHAGUS and PURESTRAIN GENESTEALERS units from your army. In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009075002",
+          "name": "Predatory Instincts",
+          "cost": 20,
+          "legend": "With alien senses and instincts augmented with hyper-adaptive gene-strands, this chosen of the cult leads the way deep into enemy lines, like a toxic barb working its way to the heart.",
+          "detachment": "Biosanctic Broodsurge",
+          "rawDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. Models in the bearer’s unit have the Infiltrators ability and, once per battle round, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+          "formattedDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. Models in the bearer’s unit have the Infiltrators ability and, once per battle round, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "id": "000009075003",
+          "name": "Biomorph Adaptation",
+          "cost": 25,
+          "legend": "The power of the Star Children flows through this creatures veins, their physiology showing unnatural gifts and lethal enhancements.",
+          "detachment": "Biosanctic Broodsurge",
+          "rawDescription": "ABOMINANT or PATRIARCH model only. Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1.",
+          "formattedDescription": "ABOMINANT or PATRIARCH model only. Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "id": "000009075004",
+          "name": "Mutagenic Regeneration",
+          "cost": 10,
+          "legend": "Though the truth may lie with cocktails of alchemical enzymes or xenos hormones triggering ferocious metabolic renewal, the cult’s masses see this nigh-immortal leader as a vessel of divine favour.",
+          "detachment": "Biosanctic Broodsurge",
+          "rawDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. In each Command phase, one model in the bearer’s unit regains 1 lost wound.",
+          "formattedDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. In each Command phase, one model in the bearer’s unit regains 1 lost wound."
+        },
+        {
+          "id": "000009075005",
+          "name": "Alien Majesty",
+          "cost": 15,
+          "legend": "An aura of palpable grandeur surrounds this individual, their mere presence a powerful stimulant to the nerve of their followers and a cowing nimbus to subjugate tyrannical foes.",
+          "detachment": "Biosanctic Broodsurge",
+          "rawDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1).",
+          "formattedDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1)."
+        }
       ]
     },
     {
@@ -16857,6 +16895,44 @@
           "rawDescription": "You can include ASTRA MILITARUM units in your army, even though they do not have the GENESTEALER CULTS Faction keyword. The combined points cost of such units you can include in your army is:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsA GENESTEALER CULTS model must be your WARLORD, and ASTRA MILITARUM models from your army lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: AIRCRAFT; COMMISSAR; EPIC HERO; MILITARUM TEMPESTUS; OGRYN; RATLING; TECH-PRIEST ENGINSEER; MINISTORUM PRIEST.",
           "formattedDescription": "You can include ASTRA MILITARUM units in your army, even though they do not have the GENESTEALER CULTS Faction keyword. The combined points cost of such units you can include in your army is:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsA GENESTEALER CULTS model must be your WARLORD, and ASTRA MILITARUM models from your army lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: AIRCRAFT; COMMISSAR; EPIC HERO; MILITARUM TEMPESTUS; OGRYN; RATLING; TECH-PRIEST ENGINSEER; MINISTORUM PRIEST."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009084002",
+          "name": "Martial Espionage",
+          "cost": 25,
+          "legend": "With access to Imperial data-logs and servo-scry records, this cult leader feeds the stolen information to their professional allies, enabling them to immediately exploit weak points in the enemy.",
+          "detachment": "Brood Brother Auxilia",
+          "rawDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, when a friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit within 9\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1.",
+          "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, when a friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit within 9\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
+        },
+        {
+          "id": "000009084003",
+          "name": "Adaptive Reprisal",
+          "cost": 15,
+          "legend": "Whether through intensive cross-training with tainted officers or some symbiotic neuro-mimicry, this insurrectionist is adept in daring tactical manoeuvres.",
+          "detachment": "Brood Brother Auxilia",
+          "rawDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, you can target a friendly GENESTEALER CULTS unit within 9\" of the bearer with the Heroic Intervention Stratagem for 0CP.",
+          "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, you can target a friendly GENESTEALER CULTS unit within 9\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "id": "000009084004",
+          "name": "The Hero Returned",
+          "cost": 20,
+          "legend": "Hidden for years within a xeno-tainted regiment, this feted commander has returned to lead their guerrillas, donning once more the garb of the insurgent. Respected with reverent awe, they instil a disciplined professionalism and focus in their cult comrades.",
+          "detachment": "Brood Brother Auxilia",
+          "rawDescription": "GENESTEALER CULTS INFANTRY model only. Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1.",
+          "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1."
+        },
+        {
+          "id": "000009084005",
+          "name": "Firepoint Commander",
+          "cost": 10,
+          "legend": "Taking a righteous vindication in turning the oppressor’s tactics against them, this war leader coordinates their broodkins last-second fire into effective volleys to drive back the foe.",
+          "detachment": "Brood Brother Auxilia",
+          "rawDescription": "GENESTEALER CULTS INFANTRY model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+.",
+          "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+        }
       ]
     },
     {
@@ -16923,6 +16999,26 @@
           "detachment": "Cult Unveiled",
           "rawDescription": "At the encl of your Shooting phase, you can select one GENESTEALER CULTS unit from your army that is not within Engagement Range of one or more enemy units. If you do, that unit can attempt to operate one open Hatchway it is within 1\" of (if there is one), and can then make a Normal move of up to 3\" (regardless of whether it attempted to operate a Hatchway or not). Until the end of the turn, that unit is not eligible to declare a charge.",
           "formattedDescription": "At the encl of your Shooting phase, you can select one GENESTEALER CULTS unit from your army that is not within Engagement Range of one or more enemy units. If you do, that unit can attempt to operate one open Hatchway it is within 1\" of (if there is one), and can then make a Normal move of up to 3\" (regardless of whether it attempted to operate a Hatchway or not). Until the end of the turn, that unit is not eligible to declare a charge."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009460002",
+          "name": "Master Saboteur",
+          "cost": 0,
+          "legend": "This cult leader is skilled in the arts of covert sabotage, and has pre-emptively employed these skills against a key strategic target on this deck.",
+          "detachment": "Cult Unveiled",
+          "rawDescription": "The first lime in the battle that your opponent’s army Secures an objective marker while the bearer is on the battlefield, roll one D6: on a 3+, that objective marker is not Secured by your opponent’s army.",
+          "formattedDescription": "The first lime in the battle that your opponent’s army Secures an objective marker while the bearer is on the battlefield, roll one D6: on a 3+, that objective marker is not Secured by your opponent’s army."
+        },
+        {
+          "id": "000009460003",
+          "name": "Primary Detonator",
+          "cost": 0,
+          "legend": "A chunky technological device with a deviant machine spirit and an array of triggers, this jury-rigged detonator connects to multiple explosive charges laced through this deck. By pumping one of the triggers, its wielder can set off a powerful detonation.",
+          "detachment": "Cult Unveiled",
+          "rawDescription": "Once per battle, when an enemy unit opens a closed Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds.",
+          "formattedDescription": "Once per battle, when an enemy unit opens a closed Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
         }
       ]
     },
@@ -17017,6 +17113,44 @@
           "rawDescription": "At the end of your Movement phase, for each TYRANIDS SYNAPSE unit from your army, you can select one friendly GENESTEALER CULTS unit (excluding PURESTRAIN GENESTEALER and PATRIARCH units) and one friendly TYRANIDS unit each within 9\" of and visible to that SYNAPSE unit. If you do, that GENESTEALER CULTS unit from your army suffers D3+1 mortal wounds and one model in the selected TYRANIDS unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected TYRANIDS unit makes an attack, add 1 to the Hit roll.TYRANIDS units from your army have the following ability:Catalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, add 1 to the Hit roll.The Star Children’s BlessingsYou can include TYRANIDS VANGUARD INVADER units (excluding AIRCRAFT, BROODLORD and GENESTEALERS units) in your army. The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo TYRANIDS models from your army can be your WARLORD.",
           "formattedDescription": "At the end of your Movement phase, for each TYRANIDS SYNAPSE unit from your army, you can select one friendly GENESTEALER CULTS unit (excluding PURESTRAIN GENESTEALER and PATRIARCH units) and one friendly TYRANIDS unit each within 9\" of and visible to that SYNAPSE unit. If you do, that GENESTEALER CULTS unit from your army suffers D3+1 mortal wounds and one model in the selected TYRANIDS unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected TYRANIDS unit makes an attack, add 1 to the Hit roll.TYRANIDS units from your army have the following ability:Catalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, add 1 to the Hit roll.The Star Children’s BlessingsYou can include TYRANIDS VANGUARD INVADER units (excluding AIRCRAFT, BROODLORD and GENESTEALERS units) in your army. The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo TYRANIDS models from your army can be your WARLORD."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009827002",
+          "name": "Synaptic Auger",
+          "cost": 15,
+          "legend": "Invisible psionic tendrils drift around this bioform’s cranium, stabbing out to force alien demands into fragmenting hybrid minds and suck the bioenergy from them in merciless draughts.",
+          "detachment": "Final Day",
+          "rawDescription": "TYRANIDS model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead.",
+          "formattedDescription": "TYRANIDS model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead."
+        },
+        {
+          "id": "000009827003",
+          "name": "Enraptured Damnation",
+          "cost": 10,
+          "legend": "Though hollowing them out like acid, the insidious power of the Hive Mind blazes from this delirious fanatic and forces their enemies to recoil.",
+          "detachment": "Final Day",
+          "rawDescription": "GENESTEALER CULTS model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+          "formattedDescription": "GENESTEALER CULTS model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+        },
+        {
+          "id": "000009827004",
+          "name": "Vanguard Tyrant",
+          "cost": 25,
+          "legend": "Adapted by the Hive Mind to lead the first invasion swarms, this leader organism’s bioweapons emphasise vicious shock assault and maximum bloodshed.",
+          "detachment": "Final Day",
+          "rawDescription": "WINGED HIVE TYRANT model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1.",
+          "formattedDescription": "WINGED HIVE TYRANT model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "id": "000009827005",
+          "name": "Inhuman Integration",
+          "cost": 20,
+          "legend": "This cult leader’s powerful psyche has withstood Hive Mind integration better than most, at least for now. It even relays a crude approximation of synaptic signals to their underlings. Of course, this only makes them and their followers more selflessly obedient drones.",
+          "detachment": "Final Day",
+          "rawDescription": "GENESTEALER CULTS model only. Weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly TYRANIDS units.",
+          "formattedDescription": "GENESTEALER CULTS model only. Weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly TYRANIDS units."
+        }
       ]
     },
     {
@@ -17083,6 +17217,26 @@
           "detachment": "Genespawn Onslaught",
           "rawDescription": "Each time an enemy unit declares a charge that targets one or more GENESTEALER CULTS units from your army, that enemy unit must take a Leadership test. If failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
           "formattedDescription": "Each time an enemy unit declares a charge that targets one or more GENESTEALER CULTS units from your army, that enemy unit must take a Leadership test. If failed, until the end of the turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009468002",
+          "name": "Spiteful Imp",
+          "cost": 0,
+          "legend": "This Abominant’s familiar is of an especially vicious breed. Not content to lead its lumpen companion into the fight, it also exploits enemies’fearful distraction to strike barbed blows of its own.",
+          "detachment": "Genespawn Onslaught",
+          "rawDescription": "ABOMINANT model only. Each time an enemy unit opens a Hatchway, if the bearer is within 1\" of that Hatchway, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds.",
+          "formattedDescription": "ABOMINANT model only. Each time an enemy unit opens a Hatchway, if the bearer is within 1\" of that Hatchway, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
+        },
+        {
+          "id": "000009468003",
+          "name": "Miasmic Fumes",
+          "cost": 0,
+          "legend": "So potent are the bubbling toxins and tinctures carried into battle by the Biophagus that they choke the ship’s corridors with gene-corrosive fumes that choke foes and obscure their bearer from view.",
+          "detachment": "Genespawn Onslaught",
+          "rawDescription": "BIOPHAGUS model only. Each time an attack targets the bearer, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
+          "formattedDescription": "BIOPHAGUS model only. Each time an attack targets the bearer, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
         }
       ]
     },
@@ -17177,6 +17331,44 @@
           "rawDescription": "Each time a GENESTEALER CULTS unit from your army is set up on the battlefield as Reinforcements, until the end of your next Fight phase, weapons equipped by models in that unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
           "formattedDescription": "Each time a GENESTEALER CULTS unit from your army is set up on the battlefield as Reinforcements, until the end of your next Fight phase, weapons equipped by models in that unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009067002",
+          "name": "Prowling Agitant",
+          "cost": 15,
+          "legend": "No matter how often the oppressors seek to trap or silence this leader, they always find themselves left empty-handed and foolish, their elusive quarry long gone.",
+          "detachment": "Host of Ascension",
+          "rawDescription": "GENESTEALER CULTS model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\".",
+          "formattedDescription": "GENESTEALER CULTS model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\"."
+        },
+        {
+          "id": "000009067003",
+          "name": "A Chink in Their Armour",
+          "cost": 20,
+          "legend": "Every oppressor has a weak spot. This savant of tactical analysis pinpoints fractured armour plates, exposed cabling or unshielded flesh with a glance and directs the cults fire to shatter the enemy’s greatest assets.",
+          "detachment": "Host of Ascension",
+          "rawDescription": "GENESTEALER CULTS model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped by models in the bearer’s unit have the [LETHAL HITS] ability.",
+          "formattedDescription": "GENESTEALER CULTS model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped by models in the bearer’s unit have the [LETHAL HITS] ability."
+        },
+        {
+          "id": "000009067004",
+          "name": "Our Time Is Nigh",
+          "cost": 20,
+          "legend": "Infused with transcendent zeal, this insurrectionist and their chosen cultists are assured by telepathic whispers that they are the Star Childrens avatars and that now is the moment to strike.",
+          "detachment": "Host of Ascension",
+          "rawDescription": "GENESTEALER CULTS model only. Once per battle, when the bearer’s unit declares a charge, the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer’s unit.",
+          "formattedDescription": "GENESTEALER CULTS model only. Once per battle, when the bearer’s unit declares a charge, the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer’s unit."
+        },
+        {
+          "id": "000009067005",
+          "name": "Assassination Edict",
+          "cost": 15,
+          "legend": "With an impulse of the Broodmind pulsing in their brain, this holy avenger stalks the battlefield, seeking to slay generals, preachers and all those the foe looks to for salvation and inspiration.",
+          "detachment": "Host of Ascension",
+          "rawDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll",
+          "formattedDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll"
+        }
       ]
     },
     {
@@ -17243,6 +17435,26 @@
           "detachment": "Infestation Swarm",
           "rawDescription": "Each time a ranged attack targets a GREAT DEVOURER unit from your army, if the attacking model is not within 6\" of that unit, subtract 1 from the Hit roll.",
           "formattedDescription": "Each time a ranged attack targets a GREAT DEVOURER unit from your army, if the attacking model is not within 6\" of that unit, subtract 1 from the Hit roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009476002",
+          "name": "Stalking Menace",
+          "cost": 0,
+          "legend": "Soon after this nightmarish predator vanishes from sight, its victims feel the hot reek of its breath upon the napes of their necks in the instant before it strikes.",
+          "detachment": "Infestation Swarm",
+          "rawDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge.",
+          "formattedDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge."
+        },
+        {
+          "id": "000009476003",
+          "name": "Psi-spoor Sensitivity",
+          "cost": 0,
+          "legend": "Able to taste its prey’s terrified mental signatures like pheromones, there is nowhere to hide from this beast.",
+          "detachment": "Infestation Swarm",
+          "rawDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it.",
+          "formattedDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it."
         }
       ]
     },
@@ -17337,6 +17549,44 @@
           "rawDescription": "While a GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE model from your army is not Battle-shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more ATALAN JACKALS units from your army are within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
           "formattedDescription": "While a GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE model from your army is not Battle-shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more ATALAN JACKALS units from your army are within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009079002",
+          "name": "Serpentine Tactics",
+          "cost": 10,
+          "legend": "With a chilling focus enabling them to identify ideal firing positions at a glance, this frontier assassin leads their brood in a coiling evasion from their enemies that suddenly changes into a lunging strike back.",
+          "detachment": "Outlander Claw",
+          "rawDescription": "GENESTEALER CULTS MOUNTED model only. The bearer’s unit is eligible to shoot in a turn in which it Fell Back.",
+          "formattedDescription": "GENESTEALER CULTS MOUNTED model only. The bearer’s unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "id": "000009079003",
+          "name": "Cartographic Data-leech",
+          "cost": 10,
+          "legend": "This parasitic, cybernetic implant allows its host to tap into the survey augurs and proximity detectors of the cults industrial transports. They use this leeched data to guide their comrades’ fire from vision slits and hatches, even at high speed.",
+          "detachment": "Outlander Claw",
+          "rawDescription": "GENESTEALER CULTS model only. While the bearer is embarked within a TRANSPORT, each time that TRANSPORT is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that TRANSPORT as a result of the Firing Deck ability by 1.",
+          "formattedDescription": "GENESTEALER CULTS model only. While the bearer is embarked within a TRANSPORT, each time that TRANSPORT is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that TRANSPORT as a result of the Firing Deck ability by 1."
+        },
+        {
+          "id": "000009079004",
+          "name": "Starfall Shells",
+          "cost": 10,
+          "legend": "When they hit, these hand-crafted sniper bullets radiate with a supernatural aura redolent of the void’s numbing chill. Muscles seize, fingers cramp and thought slows as the sinister saturation takes effect.",
+          "detachment": "Outlander Claw",
+          "rawDescription": "GENESTEALER CULTS MOUNTED model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+          "formattedDescription": "GENESTEALER CULTS MOUNTED model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000009079005",
+          "name": "Assault Commando",
+          "cost": 15,
+          "legend": "An expert in rapid attacks from speeding vehicles, this veteran has drilled their insurrectionist cell, readying them to leap into the fray with stolen weapons blazing.",
+          "detachment": "Outlander Claw",
+          "rawDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes a ranged attack, if it disembarked from a TRANSPORT this turn, you can re-roll the Hit roll.",
+          "formattedDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes a ranged attack, if it disembarked from a TRANSPORT this turn, you can re-roll the Hit roll."
+        }
       ]
     },
     {
@@ -17430,6 +17680,44 @@
           "rawDescription": "For each ACOLYTE HYBRIDS, HYBRID METAMORPHS and NEOPHYTE HYBRIDS unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it. If that CHARACTER model is a MAGUS, PRIMUS or ACOLYTE ICONWARD, that model has the Feel No Pain 3+ ability while leading that unit.",
           "formattedDescription": "For each ACOLYTE HYBRIDS, HYBRID METAMORPHS and NEOPHYTE HYBRIDS unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it. If that CHARACTER model is a MAGUS, PRIMUS or ACOLYTE ICONWARD, that model has the Feel No Pain 3+ ability while leading that unit."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009071002",
+          "name": "Gene-sire’s Reliquant",
+          "cost": 5,
+          "legend": "This war leader carries a gift from their Patriarch: a talismanic shard of a chitinous claw, a vial of the liquid that seeps into the genesis pools or a psionic growth within the chosen one’s brain. Its form matters less than its effect, for it radiates an inspirational wave of the Broodmind that focuses the minds of the faithful on their duties to the cult above all else.",
+          "detachment": "Xenocreed Congregation",
+          "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You can re-roll Battle-shock tests taken for the bearer’s unit.",
+          "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You can re-roll Battle-shock tests taken for the bearer’s unit."
+        },
+        {
+          "id": "000009071003",
+          "name": "Denunciator of Tyrants",
+          "cost": 25,
+          "legend": "With vitriol and passion do the cult’s leaders castigate the foe’s champions, casting them as the most hated architects of oppression and inciting their comrades to murderous intent.",
+          "detachment": "Xenocreed Congregation",
+          "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+          "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "id": "000009071004",
+          "name": "Deeds That Speak to the Masses",
+          "cost": 25,
+          "legend": "This agent of the Star Children is a living legend known amongst the entire cult. Their reputation as a spiritual orator, undefeated liberator or sanctified warden is mythic, and their very presence draws the faithful to their side for a chance to fight alongside them.",
+          "detachment": "Xenocreed Congregation",
+          "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points.",
+          "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points."
+        },
+        {
+          "id": "000009071005",
+          "name": "Incendiary Inspiration",
+          "cost": 15,
+          "legend": "This insurgent is a font of aggressive encouragement. As some supernatural vitality their broodkin feel in their souls, the leader’s words and deeds rouse them with fresh energy and stir them to charge forth in blind fury.",
+          "detachment": "Xenocreed Congregation",
+          "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced.",
+          "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
+        }
       ]
     }
   ],
@@ -17513,6 +17801,278 @@
       "detachment": "Final Day",
       "rawDescription": "At the end of your Movement phase, for each TYRANIDS SYNAPSE unit from your army, you can select one friendly GENESTEALER CULTS unit (excluding PURESTRAIN GENESTEALER and PATRIARCH units) and one friendly TYRANIDS unit each within 9\" of and visible to that SYNAPSE unit. If you do, that GENESTEALER CULTS unit from your army suffers D3+1 mortal wounds and one model in the selected TYRANIDS unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected TYRANIDS unit makes an attack, add 1 to the Hit roll.TYRANIDS units from your army have the following ability:Catalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, add 1 to the Hit roll.The Star Children’s BlessingsYou can include TYRANIDS VANGUARD INVADER units (excluding AIRCRAFT, BROODLORD and GENESTEALERS units) in your army. The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo TYRANIDS models from your army can be your WARLORD.",
       "formattedDescription": "At the end of your Movement phase, for each TYRANIDS SYNAPSE unit from your army, you can select one friendly GENESTEALER CULTS unit (excluding PURESTRAIN GENESTEALER and PATRIARCH units) and one friendly TYRANIDS unit each within 9\" of and visible to that SYNAPSE unit. If you do, that GENESTEALER CULTS unit from your army suffers D3+1 mortal wounds and one model in the selected TYRANIDS unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected TYRANIDS unit makes an attack, add 1 to the Hit roll.TYRANIDS units from your army have the following ability:Catalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, add 1 to the Hit roll.The Star Children’s BlessingsYou can include TYRANIDS VANGUARD INVADER units (excluding AIRCRAFT, BROODLORD and GENESTEALERS units) in your army. The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo TYRANIDS models from your army can be your WARLORD."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009827002",
+      "name": "Synaptic Auger",
+      "cost": 15,
+      "legend": "Invisible psionic tendrils drift around this bioform’s cranium, stabbing out to force alien demands into fragmenting hybrid minds and suck the bioenergy from them in merciless draughts.",
+      "detachment": "Final Day",
+      "rawDescription": "TYRANIDS model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead.",
+      "formattedDescription": "TYRANIDS model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead."
+    },
+    {
+      "id": "000009067002",
+      "name": "Prowling Agitant",
+      "cost": 15,
+      "legend": "No matter how often the oppressors seek to trap or silence this leader, they always find themselves left empty-handed and foolish, their elusive quarry long gone.",
+      "detachment": "Host of Ascension",
+      "rawDescription": "GENESTEALER CULTS model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\".",
+      "formattedDescription": "GENESTEALER CULTS model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\"."
+    },
+    {
+      "id": "000009071002",
+      "name": "Gene-sire’s Reliquant",
+      "cost": 5,
+      "legend": "This war leader carries a gift from their Patriarch: a talismanic shard of a chitinous claw, a vial of the liquid that seeps into the genesis pools or a psionic growth within the chosen one’s brain. Its form matters less than its effect, for it radiates an inspirational wave of the Broodmind that focuses the minds of the faithful on their duties to the cult above all else.",
+      "detachment": "Xenocreed Congregation",
+      "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You can re-roll Battle-shock tests taken for the bearer’s unit.",
+      "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You can re-roll Battle-shock tests taken for the bearer’s unit."
+    },
+    {
+      "id": "000009460002",
+      "name": "Master Saboteur",
+      "cost": 0,
+      "legend": "This cult leader is skilled in the arts of covert sabotage, and has pre-emptively employed these skills against a key strategic target on this deck.",
+      "detachment": "Cult Unveiled",
+      "rawDescription": "The first lime in the battle that your opponent’s army Secures an objective marker while the bearer is on the battlefield, roll one D6: on a 3+, that objective marker is not Secured by your opponent’s army.",
+      "formattedDescription": "The first lime in the battle that your opponent’s army Secures an objective marker while the bearer is on the battlefield, roll one D6: on a 3+, that objective marker is not Secured by your opponent’s army."
+    },
+    {
+      "id": "000009079002",
+      "name": "Serpentine Tactics",
+      "cost": 10,
+      "legend": "With a chilling focus enabling them to identify ideal firing positions at a glance, this frontier assassin leads their brood in a coiling evasion from their enemies that suddenly changes into a lunging strike back.",
+      "detachment": "Outlander Claw",
+      "rawDescription": "GENESTEALER CULTS MOUNTED model only. The bearer’s unit is eligible to shoot in a turn in which it Fell Back.",
+      "formattedDescription": "GENESTEALER CULTS MOUNTED model only. The bearer’s unit is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+      "id": "000009084002",
+      "name": "Martial Espionage",
+      "cost": 25,
+      "legend": "With access to Imperial data-logs and servo-scry records, this cult leader feeds the stolen information to their professional allies, enabling them to immediately exploit weak points in the enemy.",
+      "detachment": "Brood Brother Auxilia",
+      "rawDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, when a friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit within 9\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1.",
+      "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, when a friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit within 9\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
+    },
+    {
+      "id": "000009468002",
+      "name": "Spiteful Imp",
+      "cost": 0,
+      "legend": "This Abominant’s familiar is of an especially vicious breed. Not content to lead its lumpen companion into the fight, it also exploits enemies’fearful distraction to strike barbed blows of its own.",
+      "detachment": "Genespawn Onslaught",
+      "rawDescription": "ABOMINANT model only. Each time an enemy unit opens a Hatchway, if the bearer is within 1\" of that Hatchway, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds.",
+      "formattedDescription": "ABOMINANT model only. Each time an enemy unit opens a Hatchway, if the bearer is within 1\" of that Hatchway, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
+    },
+    {
+      "id": "000009075002",
+      "name": "Predatory Instincts",
+      "cost": 20,
+      "legend": "With alien senses and instincts augmented with hyper-adaptive gene-strands, this chosen of the cult leads the way deep into enemy lines, like a toxic barb working its way to the heart.",
+      "detachment": "Biosanctic Broodsurge",
+      "rawDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. Models in the bearer’s unit have the Infiltrators ability and, once per battle round, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "formattedDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. Models in the bearer’s unit have the Infiltrators ability and, once per battle round, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "id": "000009476002",
+      "name": "Stalking Menace",
+      "cost": 0,
+      "legend": "Soon after this nightmarish predator vanishes from sight, its victims feel the hot reek of its breath upon the napes of their necks in the instant before it strikes.",
+      "detachment": "Infestation Swarm",
+      "rawDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge.",
+      "formattedDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge."
+    },
+    {
+      "id": "000009071003",
+      "name": "Denunciator of Tyrants",
+      "cost": 25,
+      "legend": "With vitriol and passion do the cult’s leaders castigate the foe’s champions, casting them as the most hated architects of oppression and inciting their comrades to murderous intent.",
+      "detachment": "Xenocreed Congregation",
+      "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll."
+    },
+    {
+      "id": "000009075003",
+      "name": "Biomorph Adaptation",
+      "cost": 25,
+      "legend": "The power of the Star Children flows through this creatures veins, their physiology showing unnatural gifts and lethal enhancements.",
+      "detachment": "Biosanctic Broodsurge",
+      "rawDescription": "ABOMINANT or PATRIARCH model only. Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1.",
+      "formattedDescription": "ABOMINANT or PATRIARCH model only. Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1."
+    },
+    {
+      "id": "000009468003",
+      "name": "Miasmic Fumes",
+      "cost": 0,
+      "legend": "So potent are the bubbling toxins and tinctures carried into battle by the Biophagus that they choke the ship’s corridors with gene-corrosive fumes that choke foes and obscure their bearer from view.",
+      "detachment": "Genespawn Onslaught",
+      "rawDescription": "BIOPHAGUS model only. Each time an attack targets the bearer, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
+      "formattedDescription": "BIOPHAGUS model only. Each time an attack targets the bearer, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+    },
+    {
+      "id": "000009067003",
+      "name": "A Chink in Their Armour",
+      "cost": 20,
+      "legend": "Every oppressor has a weak spot. This savant of tactical analysis pinpoints fractured armour plates, exposed cabling or unshielded flesh with a glance and directs the cults fire to shatter the enemy’s greatest assets.",
+      "detachment": "Host of Ascension",
+      "rawDescription": "GENESTEALER CULTS model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped by models in the bearer’s unit have the [LETHAL HITS] ability.",
+      "formattedDescription": "GENESTEALER CULTS model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped by models in the bearer’s unit have the [LETHAL HITS] ability."
+    },
+    {
+      "id": "000009084003",
+      "name": "Adaptive Reprisal",
+      "cost": 15,
+      "legend": "Whether through intensive cross-training with tainted officers or some symbiotic neuro-mimicry, this insurrectionist is adept in daring tactical manoeuvres.",
+      "detachment": "Brood Brother Auxilia",
+      "rawDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, you can target a friendly GENESTEALER CULTS unit within 9\" of the bearer with the Heroic Intervention Stratagem for 0CP.",
+      "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Once per turn, you can target a friendly GENESTEALER CULTS unit within 9\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+    },
+    {
+      "id": "000009827003",
+      "name": "Enraptured Damnation",
+      "cost": 10,
+      "legend": "Though hollowing them out like acid, the insidious power of the Hive Mind blazes from this delirious fanatic and forces their enemies to recoil.",
+      "detachment": "Final Day",
+      "rawDescription": "GENESTEALER CULTS model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+      "formattedDescription": "GENESTEALER CULTS model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+    },
+    {
+      "id": "000009460003",
+      "name": "Primary Detonator",
+      "cost": 0,
+      "legend": "A chunky technological device with a deviant machine spirit and an array of triggers, this jury-rigged detonator connects to multiple explosive charges laced through this deck. By pumping one of the triggers, its wielder can set off a powerful detonation.",
+      "detachment": "Cult Unveiled",
+      "rawDescription": "Once per battle, when an enemy unit opens a closed Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds.",
+      "formattedDescription": "Once per battle, when an enemy unit opens a closed Hatchway, if the bearer is on the battlefield, it can use this Enhancement. If it does, roll one D6: on a 3-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
+    },
+    {
+      "id": "000009476003",
+      "name": "Psi-spoor Sensitivity",
+      "cost": 0,
+      "legend": "Able to taste its prey’s terrified mental signatures like pheromones, there is nowhere to hide from this beast.",
+      "detachment": "Infestation Swarm",
+      "rawDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it.",
+      "formattedDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it."
+    },
+    {
+      "id": "000009079003",
+      "name": "Cartographic Data-leech",
+      "cost": 10,
+      "legend": "This parasitic, cybernetic implant allows its host to tap into the survey augurs and proximity detectors of the cults industrial transports. They use this leeched data to guide their comrades’ fire from vision slits and hatches, even at high speed.",
+      "detachment": "Outlander Claw",
+      "rawDescription": "GENESTEALER CULTS model only. While the bearer is embarked within a TRANSPORT, each time that TRANSPORT is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that TRANSPORT as a result of the Firing Deck ability by 1.",
+      "formattedDescription": "GENESTEALER CULTS model only. While the bearer is embarked within a TRANSPORT, each time that TRANSPORT is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that TRANSPORT as a result of the Firing Deck ability by 1."
+    },
+    {
+      "id": "000009071004",
+      "name": "Deeds That Speak to the Masses",
+      "cost": 25,
+      "legend": "This agent of the Star Children is a living legend known amongst the entire cult. Their reputation as a spiritual orator, undefeated liberator or sanctified warden is mythic, and their very presence draws the faithful to their side for a chance to fight alongside them.",
+      "detachment": "Xenocreed Congregation",
+      "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points.",
+      "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points."
+    },
+    {
+      "id": "000009067004",
+      "name": "Our Time Is Nigh",
+      "cost": 20,
+      "legend": "Infused with transcendent zeal, this insurrectionist and their chosen cultists are assured by telepathic whispers that they are the Star Childrens avatars and that now is the moment to strike.",
+      "detachment": "Host of Ascension",
+      "rawDescription": "GENESTEALER CULTS model only. Once per battle, when the bearer’s unit declares a charge, the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer’s unit.",
+      "formattedDescription": "GENESTEALER CULTS model only. Once per battle, when the bearer’s unit declares a charge, the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer’s unit."
+    },
+    {
+      "id": "000009084004",
+      "name": "The Hero Returned",
+      "cost": 20,
+      "legend": "Hidden for years within a xeno-tainted regiment, this feted commander has returned to lead their guerrillas, donning once more the garb of the insurgent. Respected with reverent awe, they instil a disciplined professionalism and focus in their cult comrades.",
+      "detachment": "Brood Brother Auxilia",
+      "rawDescription": "GENESTEALER CULTS INFANTRY model only. Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1.",
+      "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1."
+    },
+    {
+      "id": "000009075004",
+      "name": "Mutagenic Regeneration",
+      "cost": 10,
+      "legend": "Though the truth may lie with cocktails of alchemical enzymes or xenos hormones triggering ferocious metabolic renewal, the cult’s masses see this nigh-immortal leader as a vessel of divine favour.",
+      "detachment": "Biosanctic Broodsurge",
+      "rawDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. In each Command phase, one model in the bearer’s unit regains 1 lost wound.",
+      "formattedDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. In each Command phase, one model in the bearer’s unit regains 1 lost wound."
+    },
+    {
+      "id": "000009079004",
+      "name": "Starfall Shells",
+      "cost": 10,
+      "legend": "When they hit, these hand-crafted sniper bullets radiate with a supernatural aura redolent of the void’s numbing chill. Muscles seize, fingers cramp and thought slows as the sinister saturation takes effect.",
+      "detachment": "Outlander Claw",
+      "rawDescription": "GENESTEALER CULTS MOUNTED model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+      "formattedDescription": "GENESTEALER CULTS MOUNTED model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009827004",
+      "name": "Vanguard Tyrant",
+      "cost": 25,
+      "legend": "Adapted by the Hive Mind to lead the first invasion swarms, this leader organism’s bioweapons emphasise vicious shock assault and maximum bloodshed.",
+      "detachment": "Final Day",
+      "rawDescription": "WINGED HIVE TYRANT model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1.",
+      "formattedDescription": "WINGED HIVE TYRANT model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1."
+    },
+    {
+      "id": "000009075005",
+      "name": "Alien Majesty",
+      "cost": 15,
+      "legend": "An aura of palpable grandeur surrounds this individual, their mere presence a powerful stimulant to the nerve of their followers and a cowing nimbus to subjugate tyrannical foes.",
+      "detachment": "Biosanctic Broodsurge",
+      "rawDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1).",
+      "formattedDescription": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1)."
+    },
+    {
+      "id": "000009067005",
+      "name": "Assassination Edict",
+      "cost": 15,
+      "legend": "With an impulse of the Broodmind pulsing in their brain, this holy avenger stalks the battlefield, seeking to slay generals, preachers and all those the foe looks to for salvation and inspiration.",
+      "detachment": "Host of Ascension",
+      "rawDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll",
+      "formattedDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll"
+    },
+    {
+      "id": "000009079005",
+      "name": "Assault Commando",
+      "cost": 15,
+      "legend": "An expert in rapid attacks from speeding vehicles, this veteran has drilled their insurrectionist cell, readying them to leap into the fray with stolen weapons blazing.",
+      "detachment": "Outlander Claw",
+      "rawDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes a ranged attack, if it disembarked from a TRANSPORT this turn, you can re-roll the Hit roll.",
+      "formattedDescription": "GENESTEALER CULTS model only. Each time a model in the bearer’s unit makes a ranged attack, if it disembarked from a TRANSPORT this turn, you can re-roll the Hit roll."
+    },
+    {
+      "id": "000009084005",
+      "name": "Firepoint Commander",
+      "cost": 10,
+      "legend": "Taking a righteous vindication in turning the oppressor’s tactics against them, this war leader coordinates their broodkins last-second fire into effective volleys to drive back the foe.",
+      "detachment": "Brood Brother Auxilia",
+      "rawDescription": "GENESTEALER CULTS INFANTRY model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+.",
+      "formattedDescription": "GENESTEALER CULTS INFANTRY model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+    },
+    {
+      "id": "000009071005",
+      "name": "Incendiary Inspiration",
+      "cost": 15,
+      "legend": "This insurgent is a font of aggressive encouragement. As some supernatural vitality their broodkin feel in their souls, the leader’s words and deeds rouse them with fresh energy and stir them to charge forth in blind fury.",
+      "detachment": "Xenocreed Congregation",
+      "rawDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced.",
+      "formattedDescription": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "id": "000009827005",
+      "name": "Inhuman Integration",
+      "cost": 20,
+      "legend": "This cult leader’s powerful psyche has withstood Hive Mind integration better than most, at least for now. It even relays a crude approximation of synaptic signals to their underlings. Of course, this only makes them and their followers more selflessly obedient drones.",
+      "detachment": "Final Day",
+      "rawDescription": "GENESTEALER CULTS model only. Weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly TYRANIDS units.",
+      "formattedDescription": "GENESTEALER CULTS model only. Weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly TYRANIDS units."
     }
   ]
 }

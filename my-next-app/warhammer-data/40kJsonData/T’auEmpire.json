@@ -11794,6 +11794,44 @@
           "rawDescription": "KROOT and VESPID STINGWINGS units from your army have the following ability:Targeting Triangulation (Aura): While an enemy unit is within 9\" of and visible to this unit, each time a ranged attack made by a friendly T’AU EMPIRE model (excluding KROOT, VESPID STINGWINGS and TITANIC models) targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.T’AU EMPIRE units (excluding KROOT and VESPID STINGWINGS units) from your army have the following ability:Localised Stealth Projectors (Aura): While a friendly KROOT or VESPID STINGWINGS unit is wholly within 6\" of and visible to this unit, that KROOT or VESPID STINGWINGS unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
           "formattedDescription": "KROOT and VESPID STINGWINGS units from your army have the following ability:Targeting Triangulation (Aura): While an enemy unit is within 9\" of and visible to this unit, each time a ranged attack made by a friendly T’AU EMPIRE model (excluding KROOT, VESPID STINGWINGS and TITANIC models) targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.T’AU EMPIRE units (excluding KROOT and VESPID STINGWINGS units) from your army have the following ability:Localised Stealth Projectors (Aura): While a friendly KROOT or VESPID STINGWINGS unit is wholly within 6\" of and visible to this unit, that KROOT or VESPID STINGWINGS unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009839002",
+          "name": "Student of Kauyon",
+          "cost": 15,
+          "legend": "This Shaper has not only studied the Code of Fire but has also adapted it to best suit their people’s skills.",
+          "detachment": "Auxiliary Cadre",
+          "rawDescription": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three KROOT CARNIVORES or KROOT FARSTALKERS units from your army. Models in those units have the Deep Strike ability.",
+          "formattedDescription": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three KROOT CARNIVORES or KROOT FARSTALKERS units from your army. Models in those units have the Deep Strike ability."
+        },
+        {
+          "id": "000009839003",
+          "name": "Admired Leader",
+          "cost": 20,
+          "legend": "Having proven themselves to their alien charges, this T’au has won their fierce loyalty and become an iconic folk hero to them.",
+          "detachment": "Auxiliary Cadre",
+          "rawDescription": "T’AU EMPIRE model (excluding KROOT models) only. In your Command phase, you can select one KROOT or VESPID STINGWINGS unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit.",
+          "formattedDescription": "T’AU EMPIRE model (excluding KROOT models) only. In your Command phase, you can select one KROOT or VESPID STINGWINGS unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        },
+        {
+          "id": "000009839004",
+          "name": "Fanatical Convert",
+          "cost": 10,
+          "legend": "This true believer strives to embody the T’au’va even more entirely than the T’au themselves.",
+          "detachment": "Auxiliary Cadre",
+          "rawDescription": "KROOT model only. The bearer’s unit has the For the Greater Good ability.",
+          "formattedDescription": "KROOT model only. The bearer’s unit has the For the Greater Good ability."
+        },
+        {
+          "id": "000009839005",
+          "name": "Transponder Lock Module",
+          "cost": 25,
+          "legend": "This system detects transponders borne deep into the field by alien auxiliaries and guides its user unerringly in on their positions.",
+          "detachment": "Auxiliary Cadre",
+          "rawDescription": "T’AU EMPIRE WALKER model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. During your first Movement phase, when you set up the bearer’s unit, it must be set up within 12\" of one or more friendly KROOT or VESPID STINGWINGS units and not within 9\" horizontally of one or more enemy units.",
+          "formattedDescription": "T’AU EMPIRE WALKER model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. During your first Movement phase, when you set up the bearer’s unit, it must be set up within 12\" of one or more friendly KROOT or VESPID STINGWINGS units and not within 9\" horizontally of one or more enemy units."
+        }
       ]
     },
     {
@@ -11886,6 +11924,44 @@
           "detachment": "Kauyon",
           "rawDescription": "From the third battle round onwards, all ranged weapons equipped by T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability, or the [SUSTAINED HITS 2] ability instead while targeting their unit’s Spotted unit.",
           "formattedDescription": "From the third battle round onwards, all ranged weapons equipped by T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability, or the [SUSTAINED HITS 2] ability instead while targeting their unit’s Spotted unit."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008442002",
+          "name": "Exemplar of the Kauyon",
+          "cost": 20,
+          "legend": "Long meditation upon the tenets of the Patient Hunter has seen this warrior master the application of this cunning ambush strategy. When they take to the battlefield, they embody the teachings of the Kauyon, much to the dismay of their luckless prey.",
+          "detachment": "Kauyon",
+          "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of from the third.",
+          "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of from the third."
+        },
+        {
+          "id": "000008442003",
+          "name": "Precision of the Patient Hunter",
+          "cost": 15,
+          "legend": "This warrior prowls the battlefield like a high-tech predator, stalking and assessing their quarry before they strike. When they do launch their assault, their every shot and blow is informed by careful observations, perfectly aimed where they will do the greatest harm.",
+          "detachment": "Kauyon",
+          "rawDescription": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well.",
+          "formattedDescription": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well."
+        },
+        {
+          "id": "000008442004",
+          "name": "Solid-image Projection Unit",
+          "cost": 30,
+          "legend": "This holowave-emitter drone projects beams of so-called heavy light, forming convincing illusory images while simultaneously masking the true locations of its allies with advanced refraction fields.",
+          "detachment": "Kauyon",
+          "rawDescription": "T’AU EMPIRE model only. After both players have deployed their armies, select up to three T’AU EMPIRE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+          "formattedDescription": "T’AU EMPIRE model only. After both players have deployed their armies, select up to three T’AU EMPIRE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "id": "000008442005",
+          "name": "Through Unity, Devastation",
+          "cost": 25,
+          "legend": "Under their calm tutelage of this leader, warriors of the Fire caste maximise every shot they fire, creating a blizzard of deadly energy.",
+          "detachment": "Kauyon",
+          "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit.",
+          "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit."
         }
       ]
     },
@@ -11996,6 +12072,44 @@
           "rawDescription": "If you select this Detachment, KROOT CARNIVORE units from your army have the Battleline keyword.",
           "formattedDescription": "If you select this Detachment, KROOT CARNIVORE units from your army have the Battleline keyword."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008821002",
+          "name": "Borthrod Gland",
+          "cost": 15,
+          "legend": "The Kroot found the flesh of the Borthrod so irresistible they hunted them to extinction. This preserved gland still exudes pheromones that drive nearby Kroot into a ravenous frenzy.",
+          "detachment": "Kroot Hunting Pack",
+          "rawDescription": "Kroot Flesh Shaper only. While the bearer is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+          "formattedDescription": "Kroot Flesh Shaper only. While the bearer is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "id": "000008821003",
+          "name": "Kroothawk Flock",
+          "cost": 10,
+          "legend": "This leader has painstakingly established a deep-seated bond with a small flock of Kroothawks. The avian creatures circle on high, spying out and revealing the hiding places of the prey or warning of ambushing enemies with wing-dips, diving stoops and harsh shrieks.",
+          "detachment": "Kroot Hunting Pack",
+          "rawDescription": "KROOT model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer.",
+          "formattedDescription": "KROOT model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer."
+        },
+        {
+          "id": "000008821004",
+          "name": "Nomadic Hunter",
+          "cost": 20,
+          "legend": "This Shaper’s followers have become adept at the loping pursuit, snapping off harassing fire as they tirelessly and mercilessly run their victims to ground.",
+          "detachment": "Kroot Hunting Pack",
+          "rawDescription": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+          "formattedDescription": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+        },
+        {
+          "id": "000008821005",
+          "name": "Root-carved Weapons",
+          "cost": 10,
+          "legend": "Just as the Kroot venerate the so-called Roots from which their culture derives, so they prize the traditional forms of Root-carved weapons and must perform exceptional deeds to be permitted to wield them in war.",
+          "detachment": "Kroot Hunting Pack",
+          "rawDescription": "Kroot War Shaper model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities.",
+          "formattedDescription": "Kroot War Shaper model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+        }
       ]
     },
     {
@@ -12062,6 +12176,26 @@
           "detachment": "Kroot Raiding Party",
           "rawDescription": "Each time an enemy unit is selected to fire Overwatch, roll one D6: on a 4+, until the end of the turn, that unit cannot make Overwatch attacks that target KROOT units from your army.",
           "formattedDescription": "Each time an enemy unit is selected to fire Overwatch, roll one D6: on a 4+, until the end of the turn, that unit cannot make Overwatch attacks that target KROOT units from your army."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009645002",
+          "name": "Experienced Leader",
+          "cost": 0,
+          "legend": "This Shaper has defeated - and quite possibly devoured - such foes before. They are well able to advise their warriors on how to fight them.",
+          "detachment": "Kroot Raiding Party",
+          "rawDescription": "At the start of the first battle round, select one enemy unit on the battlefield. Until the end of the battle, each time a KROOT model from your army makes an attack that targets that enemy unit, if the bearer is on the battlefield, you can re-roll the Wound roll.",
+          "formattedDescription": "At the start of the first battle round, select one enemy unit on the battlefield. Until the end of the battle, each time a KROOT model from your army makes an attack that targets that enemy unit, if the bearer is on the battlefield, you can re-roll the Wound roll."
+        },
+        {
+          "id": "000009645003",
+          "name": "Quill Marker",
+          "cost": 0,
+          "legend": "Subtly adapted through careful shaping, this warrior can use their pheromone dart-quills to mark prey that their raiding party then descend upon with predatory fury.",
+          "detachment": "Kroot Raiding Party",
+          "rawDescription": "At the start of your Charge phase, select one enemy unit within 12\" of the bearer. Until the end of the phase, each time a KROOT unit from your army declares a charge, if it is within 6\" of that enemy unit, it can include that enemy unit as a target of that charge, even if it is not visible to it.",
+          "formattedDescription": "At the start of your Charge phase, select one enemy unit within 12\" of the bearer. Until the end of the phase, each time a KROOT unit from your army declares a charge, if it is within 6\" of that enemy unit, it can include that enemy unit as a target of that charge, even if it is not visible to it."
         }
       ]
     },
@@ -12156,6 +12290,44 @@
           "rawDescription": "During the first, second and third battle rounds, ranged weapons equipped by T’AU EMPIRE models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit, its ranged weapons have the [LETHAL HITS] ability.",
           "formattedDescription": "During the first, second and third battle rounds, ranged weapons equipped by T’AU EMPIRE models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit, its ranged weapons have the [LETHAL HITS] ability."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008811002",
+          "name": "Coordinated Exploitation",
+          "cost": 20,
+          "legend": "This leader eschews their own martial glory in favour of seeking out an advanced vantage point then exploiting it to guide in the firepower of their fellows.",
+          "detachment": "Mont’ka",
+          "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [sustained hits 1] ability while targeting their Spotted unit.",
+          "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [sustained hits 1] ability while targeting their Spotted unit."
+        },
+        {
+          "id": "000008811003",
+          "name": "Exemplar of the Mont’ka",
+          "cost": 10,
+          "legend": "This warrior has perfected the art of the Killing Blow, formulating swift and decisive battle plans and leading their cadres from the front in aggressive strikes.",
+          "detachment": "Mont’ka",
+          "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well.",
+          "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well."
+        },
+        {
+          "id": "000008811004",
+          "name": "Strategic Conqueror",
+          "cost": 15,
+          "legend": "A wise commander appreciates the strategic value of seizing a vital battlefield asset swiftly to establish a foothold, employing it as a jumping off point for further assaults or a rallying post for a swift retreat.",
+          "detachment": "Mont’ka",
+          "rawDescription": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic.",
+          "formattedDescription": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic."
+        },
+        {
+          "id": "000008811005",
+          "name": "Strike Swiftly",
+          "cost": 25,
+          "legend": "This commander knows victory is best assured by taking the fight to the enemy as soon as battle is joined.",
+          "detachment": "Mont’ka",
+          "rawDescription": "T’AU EMPIRE model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6\" of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.",
+          "formattedDescription": "T’AU EMPIRE model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6\" of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability."
+        }
       ]
     },
     {
@@ -12249,6 +12421,44 @@
           "rawDescription": "Each time a T’AU EMPIRE BATTLESUIT model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1 as well.",
           "formattedDescription": "Each time a T’AU EMPIRE BATTLESUIT model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1 as well."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008815002",
+          "name": "Internal Grenade Racks",
+          "cost": 20,
+          "legend": "These thigh plates house deployment rails of high-explosive bomblets. As the pilot jets over the foe, the racks can be triggered to dispense a rain of death.",
+          "detachment": "Retaliation Cadre",
+          "rawDescription": "T’AU EMPIRE BATTLESUIT model only. The bearer has the Grenades keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+          "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. The bearer has the Grenades keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "id": "000008815003",
+          "name": "Prototype Weapon System",
+          "cost": 15,
+          "legend": "Famed battlesuit pilots are often more than willing to assist Earth caste scientists infield-testing the latest in experimental weapons technology.",
+          "detachment": "Retaliation Cadre",
+          "rawDescription": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is selected to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the selected ability.",
+          "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is selected to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the selected ability."
+        },
+        {
+          "id": "000008815004",
+          "name": "Puretide Engram Neurochip",
+          "cost": 25,
+          "legend": "Commander Puretide was the most gifted T’au war leader of all time. Upon his death, his memories were stored in a neurochip. When implanted into the brain, the bearer can access much of this wisdom.",
+          "detachment": "Retaliation Cadre",
+          "rawDescription": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
+          "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "id": "000008815005",
+          "name": "Starflare Ignition System",
+          "cost": 20,
+          "legend": "The ignition thrusters on selected battlesuits are augmented with optional feed-selectors, allowing the pilot to release a jet of enriched accelerant upon take-off and sending the pilots streaking skywards.",
+          "detachment": "Retaliation Cadre",
+          "rawDescription": "T’AU EMPIRE BATTLESUIT model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves.",
+          "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+        }
       ]
     },
     {
@@ -12315,6 +12525,26 @@
           "detachment": "Starfire Cadre",
           "rawDescription": "Each time a T’AU EMPIRE unit from your army (excluding KROOT units) is selected to shoot, ranged weapons equipped by models in your unit have their Ballistic Skill characteristic improved by 1 and have the [SUSTAINED HITS 1] ability while targeting an enemy unit that is visible to one or more friendly MARKERLIGHT units that are not within Engagement Range of one or more enemy models.",
           "formattedDescription": "Each time a T’AU EMPIRE unit from your army (excluding KROOT units) is selected to shoot, ranged weapons equipped by models in your unit have their Ballistic Skill characteristic improved by 1 and have the [SUSTAINED HITS 1] ability while targeting an enemy unit that is visible to one or more friendly MARKERLIGHT units that are not within Engagement Range of one or more enemy models."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009636002",
+          "name": "Target Optimisation Microdrones",
+          "cost": 0,
+          "legend": "A swarm of tiny experimental drones swarm about this warrior, analysing weaknesses in enemy wargear.",
+          "detachment": "Starfire Cadre",
+          "rawDescription": "CADRE FIREBLADE model only. Once per turn, in your Shooting phase, when a friendly FIRE WARRIOR, PATHFINDER TEAM or CADRE FIREBLADE unit within 6\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1.",
+          "formattedDescription": "CADRE FIREBLADE model only. Once per turn, in your Shooting phase, when a friendly FIRE WARRIOR, PATHFINDER TEAM or CADRE FIREBLADE unit within 6\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
+        },
+        {
+          "id": "000009636003",
+          "name": "Duty’s Echo",
+          "cost": 0,
+          "legend": "This tech-inlaid stave glows with the light of the T’au’va, inspiring nearby warriors to greater efforts.",
+          "detachment": "Starfire Cadre",
+          "rawDescription": "ETHEREAL model only. At the end of your Shooting phase, you can select one friendly FIRE WARRIOR or PATHFINDER TEAM unit within 6\" of the bearer. If you do, that unit can make a Normal move of up to 3\" and then counts as having performed the Set Overwatch Tactical Manoeuvre this turn.",
+          "formattedDescription": "ETHEREAL model only. At the end of your Shooting phase, you can select one friendly FIRE WARRIOR or PATHFINDER TEAM unit within 6\" of the bearer. If you do, that unit can make a Normal move of up to 3\" and then counts as having performed the Set Overwatch Tactical Manoeuvre this turn."
         }
       ]
     }
@@ -12391,6 +12621,224 @@
       "detachment": "Auxiliary Cadre",
       "rawDescription": "KROOT and VESPID STINGWINGS units from your army have the following ability:Targeting Triangulation (Aura): While an enemy unit is within 9\" of and visible to this unit, each time a ranged attack made by a friendly T’AU EMPIRE model (excluding KROOT, VESPID STINGWINGS and TITANIC models) targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.T’AU EMPIRE units (excluding KROOT and VESPID STINGWINGS units) from your army have the following ability:Localised Stealth Projectors (Aura): While a friendly KROOT or VESPID STINGWINGS unit is wholly within 6\" of and visible to this unit, that KROOT or VESPID STINGWINGS unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
       "formattedDescription": "KROOT and VESPID STINGWINGS units from your army have the following ability:Targeting Triangulation (Aura): While an enemy unit is within 9\" of and visible to this unit, each time a ranged attack made by a friendly T’AU EMPIRE model (excluding KROOT, VESPID STINGWINGS and TITANIC models) targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.T’AU EMPIRE units (excluding KROOT and VESPID STINGWINGS units) from your army have the following ability:Localised Stealth Projectors (Aura): While a friendly KROOT or VESPID STINGWINGS unit is wholly within 6\" of and visible to this unit, that KROOT or VESPID STINGWINGS unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000008442002",
+      "name": "Exemplar of the Kauyon",
+      "cost": 20,
+      "legend": "Long meditation upon the tenets of the Patient Hunter has seen this warrior master the application of this cunning ambush strategy. When they take to the battlefield, they embody the teachings of the Kauyon, much to the dismay of their luckless prey.",
+      "detachment": "Kauyon",
+      "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of from the third.",
+      "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of from the third."
+    },
+    {
+      "id": "000008811002",
+      "name": "Coordinated Exploitation",
+      "cost": 20,
+      "legend": "This leader eschews their own martial glory in favour of seeking out an advanced vantage point then exploiting it to guide in the firepower of their fellows.",
+      "detachment": "Mont’ka",
+      "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [sustained hits 1] ability while targeting their Spotted unit.",
+      "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [sustained hits 1] ability while targeting their Spotted unit."
+    },
+    {
+      "id": "000008815002",
+      "name": "Internal Grenade Racks",
+      "cost": 20,
+      "legend": "These thigh plates house deployment rails of high-explosive bomblets. As the pilot jets over the foe, the racks can be triggered to dispense a rain of death.",
+      "detachment": "Retaliation Cadre",
+      "rawDescription": "T’AU EMPIRE BATTLESUIT model only. The bearer has the Grenades keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. The bearer has the Grenades keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+    },
+    {
+      "id": "000009636002",
+      "name": "Target Optimisation Microdrones",
+      "cost": 0,
+      "legend": "A swarm of tiny experimental drones swarm about this warrior, analysing weaknesses in enemy wargear.",
+      "detachment": "Starfire Cadre",
+      "rawDescription": "CADRE FIREBLADE model only. Once per turn, in your Shooting phase, when a friendly FIRE WARRIOR, PATHFINDER TEAM or CADRE FIREBLADE unit within 6\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1.",
+      "formattedDescription": "CADRE FIREBLADE model only. Once per turn, in your Shooting phase, when a friendly FIRE WARRIOR, PATHFINDER TEAM or CADRE FIREBLADE unit within 6\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
+    },
+    {
+      "id": "000008821002",
+      "name": "Borthrod Gland",
+      "cost": 15,
+      "legend": "The Kroot found the flesh of the Borthrod so irresistible they hunted them to extinction. This preserved gland still exudes pheromones that drive nearby Kroot into a ravenous frenzy.",
+      "detachment": "Kroot Hunting Pack",
+      "rawDescription": "Kroot Flesh Shaper only. While the bearer is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+      "formattedDescription": "Kroot Flesh Shaper only. While the bearer is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+    },
+    {
+      "id": "000009645002",
+      "name": "Experienced Leader",
+      "cost": 0,
+      "legend": "This Shaper has defeated - and quite possibly devoured - such foes before. They are well able to advise their warriors on how to fight them.",
+      "detachment": "Kroot Raiding Party",
+      "rawDescription": "At the start of the first battle round, select one enemy unit on the battlefield. Until the end of the battle, each time a KROOT model from your army makes an attack that targets that enemy unit, if the bearer is on the battlefield, you can re-roll the Wound roll.",
+      "formattedDescription": "At the start of the first battle round, select one enemy unit on the battlefield. Until the end of the battle, each time a KROOT model from your army makes an attack that targets that enemy unit, if the bearer is on the battlefield, you can re-roll the Wound roll."
+    },
+    {
+      "id": "000009839002",
+      "name": "Student of Kauyon",
+      "cost": 15,
+      "legend": "This Shaper has not only studied the Code of Fire but has also adapted it to best suit their people’s skills.",
+      "detachment": "Auxiliary Cadre",
+      "rawDescription": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three KROOT CARNIVORES or KROOT FARSTALKERS units from your army. Models in those units have the Deep Strike ability.",
+      "formattedDescription": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three KROOT CARNIVORES or KROOT FARSTALKERS units from your army. Models in those units have the Deep Strike ability."
+    },
+    {
+      "id": "000008442003",
+      "name": "Precision of the Patient Hunter",
+      "cost": 15,
+      "legend": "This warrior prowls the battlefield like a high-tech predator, stalking and assessing their quarry before they strike. When they do launch their assault, their every shot and blow is informed by careful observations, perfectly aimed where they will do the greatest harm.",
+      "detachment": "Kauyon",
+      "rawDescription": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well.",
+      "formattedDescription": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well."
+    },
+    {
+      "id": "000009839003",
+      "name": "Admired Leader",
+      "cost": 20,
+      "legend": "Having proven themselves to their alien charges, this T’au has won their fierce loyalty and become an iconic folk hero to them.",
+      "detachment": "Auxiliary Cadre",
+      "rawDescription": "T’AU EMPIRE model (excluding KROOT models) only. In your Command phase, you can select one KROOT or VESPID STINGWINGS unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit.",
+      "formattedDescription": "T’AU EMPIRE model (excluding KROOT models) only. In your Command phase, you can select one KROOT or VESPID STINGWINGS unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+    },
+    {
+      "id": "000008811003",
+      "name": "Exemplar of the Mont’ka",
+      "cost": 10,
+      "legend": "This warrior has perfected the art of the Killing Blow, formulating swift and decisive battle plans and leading their cadres from the front in aggressive strikes.",
+      "detachment": "Mont’ka",
+      "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well.",
+      "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well."
+    },
+    {
+      "id": "000008815003",
+      "name": "Prototype Weapon System",
+      "cost": 15,
+      "legend": "Famed battlesuit pilots are often more than willing to assist Earth caste scientists infield-testing the latest in experimental weapons technology.",
+      "detachment": "Retaliation Cadre",
+      "rawDescription": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is selected to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the selected ability.",
+      "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is selected to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the selected ability."
+    },
+    {
+      "id": "000009636003",
+      "name": "Duty’s Echo",
+      "cost": 0,
+      "legend": "This tech-inlaid stave glows with the light of the T’au’va, inspiring nearby warriors to greater efforts.",
+      "detachment": "Starfire Cadre",
+      "rawDescription": "ETHEREAL model only. At the end of your Shooting phase, you can select one friendly FIRE WARRIOR or PATHFINDER TEAM unit within 6\" of the bearer. If you do, that unit can make a Normal move of up to 3\" and then counts as having performed the Set Overwatch Tactical Manoeuvre this turn.",
+      "formattedDescription": "ETHEREAL model only. At the end of your Shooting phase, you can select one friendly FIRE WARRIOR or PATHFINDER TEAM unit within 6\" of the bearer. If you do, that unit can make a Normal move of up to 3\" and then counts as having performed the Set Overwatch Tactical Manoeuvre this turn."
+    },
+    {
+      "id": "000008821003",
+      "name": "Kroothawk Flock",
+      "cost": 10,
+      "legend": "This leader has painstakingly established a deep-seated bond with a small flock of Kroothawks. The avian creatures circle on high, spying out and revealing the hiding places of the prey or warning of ambushing enemies with wing-dips, diving stoops and harsh shrieks.",
+      "detachment": "Kroot Hunting Pack",
+      "rawDescription": "KROOT model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer.",
+      "formattedDescription": "KROOT model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer."
+    },
+    {
+      "id": "000009645003",
+      "name": "Quill Marker",
+      "cost": 0,
+      "legend": "Subtly adapted through careful shaping, this warrior can use their pheromone dart-quills to mark prey that their raiding party then descend upon with predatory fury.",
+      "detachment": "Kroot Raiding Party",
+      "rawDescription": "At the start of your Charge phase, select one enemy unit within 12\" of the bearer. Until the end of the phase, each time a KROOT unit from your army declares a charge, if it is within 6\" of that enemy unit, it can include that enemy unit as a target of that charge, even if it is not visible to it.",
+      "formattedDescription": "At the start of your Charge phase, select one enemy unit within 12\" of the bearer. Until the end of the phase, each time a KROOT unit from your army declares a charge, if it is within 6\" of that enemy unit, it can include that enemy unit as a target of that charge, even if it is not visible to it."
+    },
+    {
+      "id": "000008442004",
+      "name": "Solid-image Projection Unit",
+      "cost": 30,
+      "legend": "This holowave-emitter drone projects beams of so-called heavy light, forming convincing illusory images while simultaneously masking the true locations of its allies with advanced refraction fields.",
+      "detachment": "Kauyon",
+      "rawDescription": "T’AU EMPIRE model only. After both players have deployed their armies, select up to three T’AU EMPIRE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "T’AU EMPIRE model only. After both players have deployed their armies, select up to three T’AU EMPIRE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "id": "000008811004",
+      "name": "Strategic Conqueror",
+      "cost": 15,
+      "legend": "A wise commander appreciates the strategic value of seizing a vital battlefield asset swiftly to establish a foothold, employing it as a jumping off point for further assaults or a rallying post for a swift retreat.",
+      "detachment": "Mont’ka",
+      "rawDescription": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic.",
+      "formattedDescription": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic."
+    },
+    {
+      "id": "000009839004",
+      "name": "Fanatical Convert",
+      "cost": 10,
+      "legend": "This true believer strives to embody the T’au’va even more entirely than the T’au themselves.",
+      "detachment": "Auxiliary Cadre",
+      "rawDescription": "KROOT model only. The bearer’s unit has the For the Greater Good ability.",
+      "formattedDescription": "KROOT model only. The bearer’s unit has the For the Greater Good ability."
+    },
+    {
+      "id": "000008815004",
+      "name": "Puretide Engram Neurochip",
+      "cost": 25,
+      "legend": "Commander Puretide was the most gifted T’au war leader of all time. Upon his death, his memories were stored in a neurochip. When implanted into the brain, the bearer can access much of this wisdom.",
+      "detachment": "Retaliation Cadre",
+      "rawDescription": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
+      "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP."
+    },
+    {
+      "id": "000008821004",
+      "name": "Nomadic Hunter",
+      "cost": 20,
+      "legend": "This Shaper’s followers have become adept at the loping pursuit, snapping off harassing fire as they tirelessly and mercilessly run their victims to ground.",
+      "detachment": "Kroot Hunting Pack",
+      "rawDescription": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+      "formattedDescription": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+    },
+    {
+      "id": "000008442005",
+      "name": "Through Unity, Devastation",
+      "cost": 25,
+      "legend": "Under their calm tutelage of this leader, warriors of the Fire caste maximise every shot they fire, creating a blizzard of deadly energy.",
+      "detachment": "Kauyon",
+      "rawDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit.",
+      "formattedDescription": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit."
+    },
+    {
+      "id": "000009839005",
+      "name": "Transponder Lock Module",
+      "cost": 25,
+      "legend": "This system detects transponders borne deep into the field by alien auxiliaries and guides its user unerringly in on their positions.",
+      "detachment": "Auxiliary Cadre",
+      "rawDescription": "T’AU EMPIRE WALKER model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. During your first Movement phase, when you set up the bearer’s unit, it must be set up within 12\" of one or more friendly KROOT or VESPID STINGWINGS units and not within 9\" horizontally of one or more enemy units.",
+      "formattedDescription": "T’AU EMPIRE WALKER model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. During your first Movement phase, when you set up the bearer’s unit, it must be set up within 12\" of one or more friendly KROOT or VESPID STINGWINGS units and not within 9\" horizontally of one or more enemy units."
+    },
+    {
+      "id": "000008811005",
+      "name": "Strike Swiftly",
+      "cost": 25,
+      "legend": "This commander knows victory is best assured by taking the fight to the enemy as soon as battle is joined.",
+      "detachment": "Mont’ka",
+      "rawDescription": "T’AU EMPIRE model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6\" of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.",
+      "formattedDescription": "T’AU EMPIRE model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6\" of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability."
+    },
+    {
+      "id": "000008815005",
+      "name": "Starflare Ignition System",
+      "cost": 20,
+      "legend": "The ignition thrusters on selected battlesuits are augmented with optional feed-selectors, allowing the pilot to release a jet of enriched accelerant upon take-off and sending the pilots streaking skywards.",
+      "detachment": "Retaliation Cadre",
+      "rawDescription": "T’AU EMPIRE BATTLESUIT model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves.",
+      "formattedDescription": "T’AU EMPIRE BATTLESUIT model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+    },
+    {
+      "id": "000008821005",
+      "name": "Root-carved Weapons",
+      "cost": 10,
+      "legend": "Just as the Kroot venerate the so-called Roots from which their culture derives, so they prize the traditional forms of Root-carved weapons and must perform exceptional deeds to be permitted to wield them in war.",
+      "detachment": "Kroot Hunting Pack",
+      "rawDescription": "Kroot War Shaper model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities.",
+      "formattedDescription": "Kroot War Shaper model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities."
     }
   ]
 }

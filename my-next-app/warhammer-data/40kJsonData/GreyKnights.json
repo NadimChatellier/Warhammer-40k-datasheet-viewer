@@ -6599,6 +6599,26 @@
           "rawDescription": "In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge.",
           "formattedDescription": "In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009493002",
+          "name": "Shield of Admonishment",
+          "cost": 0,
+          "legend": "This ancient and heavily warded pauldron gleams with searing light in a range of enipyric spectra that blind not only a foes physical sight, but also its intangible senses.",
+          "detachment": "Baneslayer Strike",
+          "rawDescription": "Each time a melee attack targets the bearer, subtract 1 from the Hit roll.",
+          "formattedDescription": "Each time a melee attack targets the bearer, subtract 1 from the Hit roll."
+        },
+        {
+          "id": "000009493003",
+          "name": "Close and Sanction",
+          "cost": 0,
+          "legend": "Focused on closing the distance to their quarry, this warrior surges forward through enemy fire.",
+          "detachment": "Baneslayer Strike",
+          "rawDescription": "In your opponents Shooting phase, each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was hit by one or more of those attacks, the bearer can make a Dash move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but it must finish that move as close as possible to the closest visible enemy unit. When doing so, it can be moved within Engagement Range of that enemy unit. The bearer can only make one Dash move per phase.",
+          "formattedDescription": "In your opponents Shooting phase, each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was hit by one or more of those attacks, the bearer can make a Dash move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but it must finish that move as close as possible to the closest visible enemy unit. When doing so, it can be moved within Engagement Range of that enemy unit. The bearer can only make one Dash move per phase."
+        }
       ]
     },
     {
@@ -6692,6 +6712,44 @@
           "rawDescription": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can FLY.",
           "formattedDescription": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can FLY."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008456002",
+          "name": "First to the Fray",
+          "cost": 35,
+          "legend": "Whether braving premature teleportation assaults or leaping from the hatch of a transport still aglow from atmospheric entry, this sanctified commander frequently makes the first strike in battle, and ever from an unexpected quarter. Inspired by such zealous bravery, his battle-brothers are never far behind.",
+          "detachment": "Teleport Strike Force",
+          "rawDescription": "GREY KNIGHTS model with the Deep Strike ability only. The bearer’s unit must start the battle in Reserves, but neither it, nor any TRANSPORT it is embarked within, is counted towards any limits the mission places on the number of Strategic Reserves units you can have. That unit can be set up using its Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+          "formattedDescription": "GREY KNIGHTS model with the Deep Strike ability only. The bearer’s unit must start the battle in Reserves, but neither it, nor any TRANSPORT it is embarked within, is counted towards any limits the mission places on the number of Strategic Reserves units you can have. That unit can be set up using its Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        },
+        {
+          "id": "000008456003",
+          "name": "Domina Liber Daemonica",
+          "cost": 20,
+          "legend": "This tome is said to be a relic of Supreme Grand Master Janus, he who mastered all six hundred and sixty-six words of banishment, each one painstakingly recorded on its pages. In times of need a hero of the Chapter will carry this book into battle, its bindings crackling with arcane energy as the words repel warp entities and send daemons howling back into the warp.",
+          "detachment": "Teleport Strike Force",
+          "rawDescription": "GREY KNIGHTS model only. Each time the bearer makes a melee attack add 1 to the Wound roll and, if that attack targets a DAEMON unit, add 1 to the Damage characteristic of that attack as well.",
+          "formattedDescription": "GREY KNIGHTS model only. Each time the bearer makes a melee attack add 1 to the Wound roll and, if that attack targets a DAEMON unit, add 1 to the Damage characteristic of that attack as well."
+        },
+        {
+          "id": "000008456004",
+          "name": "Sigil of Exigence",
+          "cost": 30,
+          "legend": "Forged by the Techmarine Dorvel urThann, this small chor-bronze icon contains a powerful teleport matrix and a trio of vigilant machine spirits. Their pre-cogitative psyroutines guard against attacks from afar, spiriting their host and his allies away from danger in a blaze of light.",
+          "detachment": "Teleport Strike Force",
+          "rawDescription": "GREY KNIGHTS model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the bearer is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit.",
+          "formattedDescription": "GREY KNIGHTS model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the bearer is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit."
+        },
+        {
+          "id": "000008456005",
+          "name": "Inescapable Wrath",
+          "cost": 15,
+          "legend": "When this warrior leads his battle-brothers into the foe, they strike like silver lances of lightning. By focusing his powers upon a pivotal moment, he connects himself via a tether of inevitability to his enemies. Drawn by the tether, he bears down upon them with incredible speed, ensuring none escape his and his warriors’ wrath.",
+          "detachment": "Teleport Strike Force",
+          "rawDescription": "GREY KNIGHTS model only. Add 1 to Charge rolls made for the bearer’s unit.",
+          "formattedDescription": "GREY KNIGHTS model only. Add 1 to Charge rolls made for the bearer’s unit."
+        }
       ]
     },
     {
@@ -6758,6 +6816,26 @@
           "detachment": "Void Purge Force",
           "rawDescription": "Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army.",
           "formattedDescription": "Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009485002",
+          "name": "Sigil of Warding",
+          "cost": 0,
+          "legend": "This minute silver icon contains a personal teleport matrix and a vigilant machine spirit. Its precogitative psyroutines carefully watch for attacks from a distance, and at the sign of danger it transports its bearer away in a crack of energy.",
+          "detachment": "Void Purge Force",
+          "rawDescription": "Once per battle, al the end of your Shooting phase, the bearer can use this Enhancement. If it does, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway. The bearer is then not eligible to declare a charge this turn.",
+          "formattedDescription": "Once per battle, al the end of your Shooting phase, the bearer can use this Enhancement. If it does, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway. The bearer is then not eligible to declare a charge this turn."
+        },
+        {
+          "id": "000009485003",
+          "name": "Tactical Haruspexy",
+          "cost": 0,
+          "legend": "Sanctioned psychic foretelling has determined the future whereabouts of this warrior’s primary target at a precise moment in time. It is a rendezvous only one will survive.",
+          "detachment": "Void Purge Force",
+          "rawDescription": "Once per battle, when the bearer declares a charge, it can use this Enhancement. If it does, it can select units that are not visible to it as targets of that charge, provided they are within 9\" of it.",
+          "formattedDescription": "Once per battle, when the bearer declares a charge, it can use this Enhancement. If it does, it can select units that are not visible to it as targets of that charge, provided they are within 9\" of it."
         }
       ]
     },
@@ -6852,6 +6930,44 @@
           "rawDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead.",
           "formattedDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009777002",
+          "name": "Mandulian Reliquary",
+          "cost": 20,
+          "legend": "This reliquary contains a single finger bone taken from the body of the feted former Grand Master, Mandulis. It serves as a symbol of unity and duty.",
+          "detachment": "Warpbane Task Force",
+          "rawDescription": "GREY KNIGHTS model only. While the bearer’s unit is not Battle-shocked, add 3 to the bearer’s Objective Control characteristic.",
+          "formattedDescription": "GREY KNIGHTS model only. While the bearer’s unit is not Battle-shocked, add 3 to the bearer’s Objective Control characteristic."
+        },
+        {
+          "id": "000009777003",
+          "name": "Radiant Champion",
+          "cost": 15,
+          "legend": "This warrior is a master slayer whose blade has found the cursed hearts of countless corrupted foes. When fighting within realms cleansed by eldritch power, his psychic might manifests in a nimbus of searing light, and his strikes inflict terrible wounds upon flesh and soul.",
+          "detachment": "Warpbane Task Force",
+          "rawDescription": "GREY KNIGHTS INFANTRY model only. The bearer’s melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage.",
+          "formattedDescription": "GREY KNIGHTS INFANTRY model only. The bearer’s melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
+        },
+        {
+          "id": "000009777004",
+          "name": "Phial of the Abyss",
+          "cost": 25,
+          "legend": "Gifted by the Prognosticars of the Augurium, this ampoule contains cosmic energies syphoned from the event horizon of a Warp singularity. At the prophesied hour, the vial shatters, its contents swirling around the bearer and wreathing them in a localised field of time and light distortion.",
+          "detachment": "Warpbane Task Force",
+          "rawDescription": "GREY KNIGHTS INFANTRY model only. Models in the bearer’s unit have the Stealth ability.",
+          "formattedDescription": "GREY KNIGHTS INFANTRY model only. Models in the bearer’s unit have the Stealth ability."
+        },
+        {
+          "id": "000009777005",
+          "name": "Paragon of Sanctity",
+          "cost": 10,
+          "legend": "This warrior sorcerer lends their spiritual strength to allies fighting amidst unholy corruption, bolstering their spiritual resolve.",
+          "detachment": "Warpbane Task Force",
+          "rawDescription": "GREY KNIGHTS model only. Once per battle, at the start of any phase, the bearer can select one friendly GREY KNIGHTS unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground.",
+          "formattedDescription": "GREY KNIGHTS model only. Once per battle, at the start of any phase, the bearer can select one friendly GREY KNIGHTS unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground."
+        }
       ]
     }
   ],
@@ -6887,6 +7003,116 @@
       "detachment": "Warpbane Task Force",
       "rawDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead.",
       "formattedDescription": "Certain areas of the battlefield are within your army’s Hallowed Ground, as follows:Your deployment zone is always within your army’s Hallowed Ground.The area of the battlefield within 6\" of one or more PURIFIER SQUAD units from your army is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.Each time a model in a GREY KNIGHTS unit from your army makes an attack, re-roll a Hit roll of 1. If that unit is a PURIFIER SQUAD and/or is wholly within your army’s Hallowed Ground, you can re-roll the Hit roll instead."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000009777002",
+      "name": "Mandulian Reliquary",
+      "cost": 20,
+      "legend": "This reliquary contains a single finger bone taken from the body of the feted former Grand Master, Mandulis. It serves as a symbol of unity and duty.",
+      "detachment": "Warpbane Task Force",
+      "rawDescription": "GREY KNIGHTS model only. While the bearer’s unit is not Battle-shocked, add 3 to the bearer’s Objective Control characteristic.",
+      "formattedDescription": "GREY KNIGHTS model only. While the bearer’s unit is not Battle-shocked, add 3 to the bearer’s Objective Control characteristic."
+    },
+    {
+      "id": "000009485002",
+      "name": "Sigil of Warding",
+      "cost": 0,
+      "legend": "This minute silver icon contains a personal teleport matrix and a vigilant machine spirit. Its precogitative psyroutines carefully watch for attacks from a distance, and at the sign of danger it transports its bearer away in a crack of energy.",
+      "detachment": "Void Purge Force",
+      "rawDescription": "Once per battle, al the end of your Shooting phase, the bearer can use this Enhancement. If it does, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway. The bearer is then not eligible to declare a charge this turn.",
+      "formattedDescription": "Once per battle, al the end of your Shooting phase, the bearer can use this Enhancement. If it does, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway. The bearer is then not eligible to declare a charge this turn."
+    },
+    {
+      "id": "000008456002",
+      "name": "First to the Fray",
+      "cost": 35,
+      "legend": "Whether braving premature teleportation assaults or leaping from the hatch of a transport still aglow from atmospheric entry, this sanctified commander frequently makes the first strike in battle, and ever from an unexpected quarter. Inspired by such zealous bravery, his battle-brothers are never far behind.",
+      "detachment": "Teleport Strike Force",
+      "rawDescription": "GREY KNIGHTS model with the Deep Strike ability only. The bearer’s unit must start the battle in Reserves, but neither it, nor any TRANSPORT it is embarked within, is counted towards any limits the mission places on the number of Strategic Reserves units you can have. That unit can be set up using its Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+      "formattedDescription": "GREY KNIGHTS model with the Deep Strike ability only. The bearer’s unit must start the battle in Reserves, but neither it, nor any TRANSPORT it is embarked within, is counted towards any limits the mission places on the number of Strategic Reserves units you can have. That unit can be set up using its Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    },
+    {
+      "id": "000009493002",
+      "name": "Shield of Admonishment",
+      "cost": 0,
+      "legend": "This ancient and heavily warded pauldron gleams with searing light in a range of enipyric spectra that blind not only a foes physical sight, but also its intangible senses.",
+      "detachment": "Baneslayer Strike",
+      "rawDescription": "Each time a melee attack targets the bearer, subtract 1 from the Hit roll.",
+      "formattedDescription": "Each time a melee attack targets the bearer, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000009777003",
+      "name": "Radiant Champion",
+      "cost": 15,
+      "legend": "This warrior is a master slayer whose blade has found the cursed hearts of countless corrupted foes. When fighting within realms cleansed by eldritch power, his psychic might manifests in a nimbus of searing light, and his strikes inflict terrible wounds upon flesh and soul.",
+      "detachment": "Warpbane Task Force",
+      "rawDescription": "GREY KNIGHTS INFANTRY model only. The bearer’s melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage.",
+      "formattedDescription": "GREY KNIGHTS INFANTRY model only. The bearer’s melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
+    },
+    {
+      "id": "000009493003",
+      "name": "Close and Sanction",
+      "cost": 0,
+      "legend": "Focused on closing the distance to their quarry, this warrior surges forward through enemy fire.",
+      "detachment": "Baneslayer Strike",
+      "rawDescription": "In your opponents Shooting phase, each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was hit by one or more of those attacks, the bearer can make a Dash move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but it must finish that move as close as possible to the closest visible enemy unit. When doing so, it can be moved within Engagement Range of that enemy unit. The bearer can only make one Dash move per phase.",
+      "formattedDescription": "In your opponents Shooting phase, each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was hit by one or more of those attacks, the bearer can make a Dash move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but it must finish that move as close as possible to the closest visible enemy unit. When doing so, it can be moved within Engagement Range of that enemy unit. The bearer can only make one Dash move per phase."
+    },
+    {
+      "id": "000009485003",
+      "name": "Tactical Haruspexy",
+      "cost": 0,
+      "legend": "Sanctioned psychic foretelling has determined the future whereabouts of this warrior’s primary target at a precise moment in time. It is a rendezvous only one will survive.",
+      "detachment": "Void Purge Force",
+      "rawDescription": "Once per battle, when the bearer declares a charge, it can use this Enhancement. If it does, it can select units that are not visible to it as targets of that charge, provided they are within 9\" of it.",
+      "formattedDescription": "Once per battle, when the bearer declares a charge, it can use this Enhancement. If it does, it can select units that are not visible to it as targets of that charge, provided they are within 9\" of it."
+    },
+    {
+      "id": "000008456003",
+      "name": "Domina Liber Daemonica",
+      "cost": 20,
+      "legend": "This tome is said to be a relic of Supreme Grand Master Janus, he who mastered all six hundred and sixty-six words of banishment, each one painstakingly recorded on its pages. In times of need a hero of the Chapter will carry this book into battle, its bindings crackling with arcane energy as the words repel warp entities and send daemons howling back into the warp.",
+      "detachment": "Teleport Strike Force",
+      "rawDescription": "GREY KNIGHTS model only. Each time the bearer makes a melee attack add 1 to the Wound roll and, if that attack targets a DAEMON unit, add 1 to the Damage characteristic of that attack as well.",
+      "formattedDescription": "GREY KNIGHTS model only. Each time the bearer makes a melee attack add 1 to the Wound roll and, if that attack targets a DAEMON unit, add 1 to the Damage characteristic of that attack as well."
+    },
+    {
+      "id": "000009777004",
+      "name": "Phial of the Abyss",
+      "cost": 25,
+      "legend": "Gifted by the Prognosticars of the Augurium, this ampoule contains cosmic energies syphoned from the event horizon of a Warp singularity. At the prophesied hour, the vial shatters, its contents swirling around the bearer and wreathing them in a localised field of time and light distortion.",
+      "detachment": "Warpbane Task Force",
+      "rawDescription": "GREY KNIGHTS INFANTRY model only. Models in the bearer’s unit have the Stealth ability.",
+      "formattedDescription": "GREY KNIGHTS INFANTRY model only. Models in the bearer’s unit have the Stealth ability."
+    },
+    {
+      "id": "000008456004",
+      "name": "Sigil of Exigence",
+      "cost": 30,
+      "legend": "Forged by the Techmarine Dorvel urThann, this small chor-bronze icon contains a powerful teleport matrix and a trio of vigilant machine spirits. Their pre-cogitative psyroutines guard against attacks from afar, spiriting their host and his allies away from danger in a blaze of light.",
+      "detachment": "Teleport Strike Force",
+      "rawDescription": "GREY KNIGHTS model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the bearer is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit.",
+      "formattedDescription": "GREY KNIGHTS model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the bearer is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit."
+    },
+    {
+      "id": "000008456005",
+      "name": "Inescapable Wrath",
+      "cost": 15,
+      "legend": "When this warrior leads his battle-brothers into the foe, they strike like silver lances of lightning. By focusing his powers upon a pivotal moment, he connects himself via a tether of inevitability to his enemies. Drawn by the tether, he bears down upon them with incredible speed, ensuring none escape his and his warriors’ wrath.",
+      "detachment": "Teleport Strike Force",
+      "rawDescription": "GREY KNIGHTS model only. Add 1 to Charge rolls made for the bearer’s unit.",
+      "formattedDescription": "GREY KNIGHTS model only. Add 1 to Charge rolls made for the bearer’s unit."
+    },
+    {
+      "id": "000009777005",
+      "name": "Paragon of Sanctity",
+      "cost": 10,
+      "legend": "This warrior sorcerer lends their spiritual strength to allies fighting amidst unholy corruption, bolstering their spiritual resolve.",
+      "detachment": "Warpbane Task Force",
+      "rawDescription": "GREY KNIGHTS model only. Once per battle, at the start of any phase, the bearer can select one friendly GREY KNIGHTS unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground.",
+      "formattedDescription": "GREY KNIGHTS model only. Once per battle, at the start of any phase, the bearer can select one friendly GREY KNIGHTS unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground."
     }
   ]
 }

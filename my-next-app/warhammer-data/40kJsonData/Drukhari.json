@@ -6297,6 +6297,26 @@
           "rawDescription": "Each time a DRUKHARI unit from your army destroys an enemy unit, if that enemy unit was within range of an objective marker controlled by your opponent at the start of the phase, you gain 1 Pain token. In addition, in your Command phase, you can select one objective marker you control that has one or more KABAL units from your army within range of it, then expend 1 Pain token from your Pain token pool. If you do, that objective marker is Secured by your army.",
           "formattedDescription": "Each time a DRUKHARI unit from your army destroys an enemy unit, if that enemy unit was within range of an objective marker controlled by your opponent at the start of the phase, you gain 1 Pain token. In addition, in your Command phase, you can select one objective marker you control that has one or more KABAL units from your army within range of it, then expend 1 Pain token from your Pain token pool. If you do, that objective marker is Secured by your army."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009433002",
+          "name": "Dark Charisma",
+          "cost": 0,
+          "legend": "The masters of such piratical Kabals lead by example, spitting scorn upon peril, standing tall as avatars of malevolent elan, and overcoming the odds with devilish daring time and again.",
+          "detachment": "Kabalite Corsairs",
+          "rawDescription": "The bearer has an Objective Control characteristic of 5 and you can re-roll Battle-shock tests taken for the bearer.",
+          "formattedDescription": "The bearer has an Objective Control characteristic of 5 and you can re-roll Battle-shock tests taken for the bearer."
+        },
+        {
+          "id": "000009433003",
+          "name": "Malevolent Cunning",
+          "cost": 0,
+          "legend": "Having fought countless bloody battles aboard the voidships of their prey, this warrior knows well how to turn such environments against their prey. Swiftly deployed booby traps and devious ruses staged with inhuman speed and skill confound the foe at every turn.",
+          "detachment": "Kabalite Corsairs",
+          "rawDescription": "The first time in each battle round that your opponent targets a unit from their army that is within 3\" of the bearer with a Stratagem, increase that Stratagems cost by 1CP for that usage.",
+          "formattedDescription": "The first time in each battle round that your opponent targets a unit from their army that is within 3\" of the bearer with a Stratagem, increase that Stratagems cost by 1CP for that usage."
+        }
       ]
     },
     {
@@ -6363,6 +6383,26 @@
           "detachment": "Painbringers",
           "rawDescription": "Each time four or more Feel No Pain rolls are successful for HAEMONCULUS COVENS models from your army in a single phase, you gain 1 Pain token. In addition, each battle round, the first time a HAEMONCULUS COVENS unit from your army becomes Empowered in that battle round, roll one D6: on a 2-5, one model in that unit regains 1 lost wound or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining; on a 6, one model in that unit regains up to 2 lost wounds or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining.",
           "formattedDescription": "Each time four or more Feel No Pain rolls are successful for HAEMONCULUS COVENS models from your army in a single phase, you gain 1 Pain token. In addition, each battle round, the first time a HAEMONCULUS COVENS unit from your army becomes Empowered in that battle round, roll one D6: on a 2-5, one model in that unit regains 1 lost wound or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining; on a 6, one model in that unit regains up to 2 lost wounds or, if that unit has the WRACKS keyword, one destroyed model is returned to it with its full wounds remaining."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009450002",
+          "name": "Rending Chain-Flails",
+          "cost": 0,
+          "legend": "This Haemonculus fleshcrafter has adorned their grotesque form with bladed chain-flails with which to ensnare fleeing foes and tear them to bloody shreds.",
+          "detachment": "Painbringers",
+          "rawDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds.",
+          "formattedDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
+        },
+        {
+          "id": "000009450003",
+          "name": "Vile Surgeon",
+          "cost": 0,
+          "legend": "This cruel chirurgeon seeks out particularly worthy subjects upon whom to practice the most agonising surgical experiments.",
+          "detachment": "Painbringers",
+          "rawDescription": "The bearers Haemonculus tools and scissorhands have a Damage characteristic of 3 while targeting CHARACTER units.",
+          "formattedDescription": "The bearers Haemonculus tools and scissorhands have a Damage characteristic of 3 while targeting CHARACTER units."
         }
       ]
     },
@@ -6457,6 +6497,44 @@
           "rawDescription": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:One or more ARCHON modelsOne or more SUCCUBUS modelsOne or more HAEMONCULUS modelsDesigner’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3 Pain tokens.",
           "formattedDescription": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:One or more ARCHON modelsOne or more SUCCUBUS modelsOne or more HAEMONCULUS modelsDesigner’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3 Pain tokens."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008511002",
+          "name": "Crucible of Malediction",
+          "cost": 10,
+          "legend": "When opened, the souls of tortured psykers spew outward, driving any nearby warp-wielders insane.",
+          "detachment": "Realspace Raiders",
+          "rawDescription": "HAEMONCULUS model only. Once per battle, at the start of any Shooting phase, the bearer can use this Enhancement. When it does, every enemy unit within 12\" must take a Battle-shock test, subtracting 1 from that test if the bearer’s unit is currently Empowered. Each time a PSYKER unit fails this test, it suffers D3 mortal wounds.",
+          "formattedDescription": "HAEMONCULUS model only. Once per battle, at the start of any Shooting phase, the bearer can use this Enhancement. When it does, every enemy unit within 12\" must take a Battle-shock test, subtracting 1 from that test if the bearer’s unit is currently Empowered. Each time a PSYKER unit fails this test, it suffers D3 mortal wounds."
+        },
+        {
+          "id": "000008511003",
+          "name": "Labyrinthine Cunning",
+          "cost": 30,
+          "legend": "This Archon has a mind like steel traps, assimilating every detail of a situation.",
+          "detachment": "Realspace Raiders",
+          "rawDescription": "Archon model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 3 to the result if the Stratagem being used is Alliance of Agony. On a 4+, you gain 1 Command Point.",
+          "formattedDescription": "Archon model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 3 to the result if the Stratagem being used is Alliance of Agony. On a 4+, you gain 1 Command Point."
+        },
+        {
+          "id": "000008511004",
+          "name": "Blood Dancer",
+          "cost": 20,
+          "legend": "This Succubus is renowned for their expertise at close-quarters combat within the arenas of Commorragh. The skills they display before the baying crowds on the blood-soaked sands are equally deadly on the battlefield.",
+          "detachment": "Realspace Raiders",
+          "rawDescription": "SUCCUBUS model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead.",
+          "formattedDescription": "SUCCUBUS model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+        },
+        {
+          "id": "000008511005",
+          "name": "The Art of Pain",
+          "cost": 25,
+          "legend": "Some Drukhari elevate their battle plans to another level by creating a spectacle of torment that maims and cripples every foe in order to draw out the moment of the kill, heightening the pleasure they derive before the fatal blow falls.",
+          "detachment": "Realspace Raiders",
+          "rawDescription": "DRUKHARI model only. In your Command phase, if the bearer is on the battlefield, you gain 1 Pain token.",
+          "formattedDescription": "DRUKHARI model only. In your Command phase, if the bearer is on the battlefield, you gain 1 Pain token."
+        }
       ]
     },
     {
@@ -6550,6 +6628,44 @@
           "rawDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD.",
           "formattedDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009781002",
+          "name": "Archraider",
+          "cost": 15,
+          "legend": "A veteran of countless realspace raids or vehicular saedaths, this warrior champion utilises the speed of their sleek anti-grav craft to surprise their enemies.",
+          "detachment": "Reaper’s Wager",
+          "rawDescription": "HARLEQUINS or DRUKHARI model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9\" ability.",
+          "formattedDescription": "HARLEQUINS or DRUKHARI model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9\" ability."
+        },
+        {
+          "id": "000009781003",
+          "name": "Webway Walker",
+          "cost": 15,
+          "legend": "This elite combatant possesses intricate knowledge of the Webway’s hidden paths and employs them to enhance this dreadful performance.",
+          "detachment": "Reaper’s Wager",
+          "rawDescription": "HARLEQUINS or DRUKHARI model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re-roll Charge rolls made for that unit.",
+          "formattedDescription": "HARLEQUINS or DRUKHARI model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re-roll Charge rolls made for that unit."
+        },
+        {
+          "id": "000009781004",
+          "name": "Reaper’s Cowl",
+          "cost": 25,
+          "legend": "This ebon cloak contains a shadow field generator, which shrouds the bearer in a field of umbral darkness.",
+          "detachment": "Reaper’s Wager",
+          "rawDescription": "HARLEQUINS model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities.",
+          "formattedDescription": "HARLEQUINS model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities."
+        },
+        {
+          "id": "000009781005",
+          "name": "Conductor of Torment",
+          "cost": 20,
+          "legend": "This cruel champion of Commorragh seeks only to bathe in the agony of the foe. To them, the outcome of any wager is secondary to the symphony of suffering.",
+          "detachment": "Reaper’s Wager",
+          "rawDescription": "DRUKHARI model only. In your Command phase, youcan do one of the following:If your DRUKHARI units are currently losing the wager, you can gain 1 Pain token. If you do, DRUKHARI units from your army are now winning the wager.If your DRUKHARI units are currently winning the wager, you can discard 1 Pain token. If you do, HARLEQUINS units from your army are now winning the wager.",
+          "formattedDescription": "DRUKHARI model only. In your Command phase, youcan do one of the following:If your DRUKHARI units are currently losing the wager, you can gain 1 Pain token. If you do, DRUKHARI units from your army are now winning the wager.If your DRUKHARI units are currently winning the wager, you can discard 1 Pain token. If you do, HARLEQUINS units from your army are now winning the wager."
+        }
       ]
     },
     {
@@ -6616,6 +6732,26 @@
           "detachment": "Ship-killer Cult",
           "rawDescription": "In the Fight phase, if two or more enemy units were destroyed by DRUKHARI units from your army that phase, you gain 1 Pain token. In addition, each time a WYCH CULT unit from your army becomes Empowered in the Fight phase, until the end of the phase, melee weapons equipped by models in that unit have the [ANTi-iNFANTRY 4+] ability.",
           "formattedDescription": "In the Fight phase, if two or more enemy units were destroyed by DRUKHARI units from your army that phase, you gain 1 Pain token. In addition, each time a WYCH CULT unit from your army becomes Empowered in the Fight phase, until the end of the phase, melee weapons equipped by models in that unit have the [ANTi-iNFANTRY 4+] ability."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000009441002",
+          "name": "Stimm-Fervour",
+          "cost": 0,
+          "legend": "Propelled like a living missile through the voidship’s corridors by a near-toxic cocktail of combat stimms, this Wych strikes like dark lightning and fights with blistering savagery.",
+          "detachment": "Ship-killer Cult",
+          "rawDescription": "The bearer is eligible to declare a charge in a turn in which it Advanced.",
+          "formattedDescription": "The bearer is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "id": "000009441003",
+          "name": "Blood-Drenched Champion",
+          "cost": 0,
+          "legend": "This murderous star of the arenas delights in graphically and agonisingly taking their enemies to pieces, much to the delight of their audiences and the abject terror of surrounding foes.",
+          "detachment": "Ship-killer Cult",
+          "rawDescription": "In the Battle-shock step of your opponents Command phase, for each enemy unit that is below its Starting Strength and is within Engagement Range of the bearer, that unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+          "formattedDescription": "In the Battle-shock step of your opponents Command phase, for each enemy unit that is below its Starting Strength and is within Engagement Range of the bearer, that unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
         }
       ]
     },
@@ -6710,6 +6846,44 @@
           "rawDescription": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s melee weapons have the [LANCE] ability.",
           "formattedDescription": "Each time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s melee weapons have the [LANCE] ability."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000008715002",
+          "name": "Phantasmal Smoke",
+          "cost": 20,
+          "legend": "Phantasm grenade launchers, elegantly worked into the curved hull plates of their Raiders, discharge in covering patterns. Hallucinogenic vapours conceal the advancing Drukhari and confuse their foes’ aim.",
+          "detachment": "Skysplinter Assault",
+          "rawDescription": "DRUKHARI model only. While the bearer’s unit is wholly within 6\" of a friendly DRUKHARI TRANSPORT, models in the bearer’s unit have the Benefit of Cover and the Stealth ability.",
+          "formattedDescription": "DRUKHARI model only. While the bearer’s unit is wholly within 6\" of a friendly DRUKHARI TRANSPORT, models in the bearer’s unit have the Benefit of Cover and the Stealth ability."
+        },
+        {
+          "id": "000008715003",
+          "name": "Sadistic Fulcrum",
+          "cost": 15,
+          "legend": "Witnessing this murderous warrior wreaking havoc, the sadistic crew of the Drukhari anti-grav transports are filled with the vigour only the suffering of others can provide",
+          "detachment": "Skysplinter Assault",
+          "rawDescription": "DRUKHARI model only. Each time you expend a Pain token to Empower the bearer’s unit in the Shooting phase, you can select one friendly DRUKHARI TRANSPORT within 3\" of the bearer’s unit; until the end of the phase, that TRANSPORT is also Empowered.",
+          "formattedDescription": "DRUKHARI model only. Each time you expend a Pain token to Empower the bearer’s unit in the Shooting phase, you can select one friendly DRUKHARI TRANSPORT within 3\" of the bearer’s unit; until the end of the phase, that TRANSPORT is also Empowered."
+        },
+        {
+          "id": "000008715004",
+          "name": "Spiteful Raider",
+          "cost": 10,
+          "legend": "This cruel realspace raider knows the best reason to take something from the foe is for the simple spite of denying them that which they most desire to keep.",
+          "detachment": "Skysplinter Assault",
+          "rawDescription": "DRUKHARI model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token.",
+          "formattedDescription": "DRUKHARI model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token."
+        },
+        {
+          "id": "000008715005",
+          "name": "Nightmare Shroud",
+          "cost": 20,
+          "legend": "This strange Drukhari artefact wreathes its bearer and their allies in a cloying cloud of unnatural shadow. Flitting into battle under cover of this pall, they are nigh impossible for the prey to see coming.",
+          "detachment": "Skysplinter Assault",
+          "rawDescription": "DRUKHARI model only. Each time the bearer’s unit disembarks from a TRANSPORT, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+          "formattedDescription": "DRUKHARI model only. Each time the bearer’s unit disembarks from a TRANSPORT, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+        }
       ]
     },
     {
@@ -6777,6 +6951,26 @@
           "rawDescription": "Each time a DRUKHARI CHARACTER model from your army destroys an enemy CHARACTER unit, you gain 1 Pain token. In addition, each time you use the Battlefield Command Stratagem, you can expend 1 Pain token from your Pain token pool. If you do, decrease that Stratagems cost by 1CP for that usage.",
           "formattedDescription": "Each time a DRUKHARI CHARACTER model from your army destroys an enemy CHARACTER unit, you gain 1 Pain token. In addition, each time you use the Battlefield Command Stratagem, you can expend 1 Pain token from your Pain token pool. If you do, decrease that Stratagems cost by 1CP for that usage."
         }
+      ],
+      "enhancements": [
+        {
+          "id": "000009425002",
+          "name": "Power and Greed",
+          "cost": 0,
+          "legend": "This warrior is addicted to the heady rush of battle and suffering, each fresh taste driving them to crave more.",
+          "detachment": "Space Lane Raiders",
+          "rawDescription": "The first lime in each turn that the bearer is Empowered, roll one D6: on a 3+, you gain 1 Pain token.",
+          "formattedDescription": "The first lime in each turn that the bearer is Empowered, roll one D6: on a 3+, you gain 1 Pain token."
+        },
+        {
+          "id": "000009425003",
+          "name": "Spiteful Demise",
+          "cost": 0,
+          "legend": "Knowing all too well that the carnage they cause during this void battle may be all that pays for their revivification by the Haemonculi, this warrior strikes out viciously until their very last breath.",
+          "detachment": "Space Lane Raiders",
+          "rawDescription": "When the bearer is destroyed, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The bearer can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "formattedDescription": "When the bearer is destroyed, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The bearer can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
       ]
     }
   ],
@@ -6836,6 +7030,188 @@
       "detachment": "Reaper’s Wager",
       "rawDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD.",
       "formattedDescription": "At the start of the battle, DRUKHARI units from your army are winning the wager.Each time a DRUKHARI unit from your army destroys an enemy unit, DRUKHARI units from your army are winning the wager.Each time a HARLEQUINS unit from your army destroys an enemy unit, HARLEQUIN units from your army are winning the wager.While DRUKHARI units from your army are winning the wager, HARLEQUIN units from your army are losing the wager, and vice versa.Each time a DRUKHARI or HARLEQUINS model from your army makes an attack, if that model’s unit is losing the wager, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.HARLEQUINSYou can include HARLEQUINS units in your army (see Index: Aeldari). The combined points cost of such units depends on your battle size:Incursion: Up to 500 ptsStrike Force: Up to 1000 ptsOnslaught: Up to 1500 ptsNo HARLEQUINS models from your army can be your WARLORD."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "000008511002",
+      "name": "Crucible of Malediction",
+      "cost": 10,
+      "legend": "When opened, the souls of tortured psykers spew outward, driving any nearby warp-wielders insane.",
+      "detachment": "Realspace Raiders",
+      "rawDescription": "HAEMONCULUS model only. Once per battle, at the start of any Shooting phase, the bearer can use this Enhancement. When it does, every enemy unit within 12\" must take a Battle-shock test, subtracting 1 from that test if the bearer’s unit is currently Empowered. Each time a PSYKER unit fails this test, it suffers D3 mortal wounds.",
+      "formattedDescription": "HAEMONCULUS model only. Once per battle, at the start of any Shooting phase, the bearer can use this Enhancement. When it does, every enemy unit within 12\" must take a Battle-shock test, subtracting 1 from that test if the bearer’s unit is currently Empowered. Each time a PSYKER unit fails this test, it suffers D3 mortal wounds."
+    },
+    {
+      "id": "000009441002",
+      "name": "Stimm-Fervour",
+      "cost": 0,
+      "legend": "Propelled like a living missile through the voidship’s corridors by a near-toxic cocktail of combat stimms, this Wych strikes like dark lightning and fights with blistering savagery.",
+      "detachment": "Ship-killer Cult",
+      "rawDescription": "The bearer is eligible to declare a charge in a turn in which it Advanced.",
+      "formattedDescription": "The bearer is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "id": "000008715002",
+      "name": "Phantasmal Smoke",
+      "cost": 20,
+      "legend": "Phantasm grenade launchers, elegantly worked into the curved hull plates of their Raiders, discharge in covering patterns. Hallucinogenic vapours conceal the advancing Drukhari and confuse their foes’ aim.",
+      "detachment": "Skysplinter Assault",
+      "rawDescription": "DRUKHARI model only. While the bearer’s unit is wholly within 6\" of a friendly DRUKHARI TRANSPORT, models in the bearer’s unit have the Benefit of Cover and the Stealth ability.",
+      "formattedDescription": "DRUKHARI model only. While the bearer’s unit is wholly within 6\" of a friendly DRUKHARI TRANSPORT, models in the bearer’s unit have the Benefit of Cover and the Stealth ability."
+    },
+    {
+      "id": "000009425002",
+      "name": "Power and Greed",
+      "cost": 0,
+      "legend": "This warrior is addicted to the heady rush of battle and suffering, each fresh taste driving them to crave more.",
+      "detachment": "Space Lane Raiders",
+      "rawDescription": "The first lime in each turn that the bearer is Empowered, roll one D6: on a 3+, you gain 1 Pain token.",
+      "formattedDescription": "The first lime in each turn that the bearer is Empowered, roll one D6: on a 3+, you gain 1 Pain token."
+    },
+    {
+      "id": "000009433002",
+      "name": "Dark Charisma",
+      "cost": 0,
+      "legend": "The masters of such piratical Kabals lead by example, spitting scorn upon peril, standing tall as avatars of malevolent elan, and overcoming the odds with devilish daring time and again.",
+      "detachment": "Kabalite Corsairs",
+      "rawDescription": "The bearer has an Objective Control characteristic of 5 and you can re-roll Battle-shock tests taken for the bearer.",
+      "formattedDescription": "The bearer has an Objective Control characteristic of 5 and you can re-roll Battle-shock tests taken for the bearer."
+    },
+    {
+      "id": "000009450002",
+      "name": "Rending Chain-Flails",
+      "cost": 0,
+      "legend": "This Haemonculus fleshcrafter has adorned their grotesque form with bladed chain-flails with which to ensnare fleeing foes and tear them to bloody shreds.",
+      "detachment": "Painbringers",
+      "rawDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds.",
+      "formattedDescription": "Each time an enemy unit within Engagement Range of the bearer is selected to Fall Back, roll one D6: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
+    },
+    {
+      "id": "000009781002",
+      "name": "Archraider",
+      "cost": 15,
+      "legend": "A veteran of countless realspace raids or vehicular saedaths, this warrior champion utilises the speed of their sleek anti-grav craft to surprise their enemies.",
+      "detachment": "Reaper’s Wager",
+      "rawDescription": "HARLEQUINS or DRUKHARI model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9\" ability.",
+      "formattedDescription": "HARLEQUINS or DRUKHARI model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9\" ability."
+    },
+    {
+      "id": "000009441003",
+      "name": "Blood-Drenched Champion",
+      "cost": 0,
+      "legend": "This murderous star of the arenas delights in graphically and agonisingly taking their enemies to pieces, much to the delight of their audiences and the abject terror of surrounding foes.",
+      "detachment": "Ship-killer Cult",
+      "rawDescription": "In the Battle-shock step of your opponents Command phase, for each enemy unit that is below its Starting Strength and is within Engagement Range of the bearer, that unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.",
+      "formattedDescription": "In the Battle-shock step of your opponents Command phase, for each enemy unit that is below its Starting Strength and is within Engagement Range of the bearer, that unit must take a Battle-shock test. If that enemy unit is also Below Half-strength, subtract 1 from that test. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase."
+    },
+    {
+      "id": "000009433003",
+      "name": "Malevolent Cunning",
+      "cost": 0,
+      "legend": "Having fought countless bloody battles aboard the voidships of their prey, this warrior knows well how to turn such environments against their prey. Swiftly deployed booby traps and devious ruses staged with inhuman speed and skill confound the foe at every turn.",
+      "detachment": "Kabalite Corsairs",
+      "rawDescription": "The first time in each battle round that your opponent targets a unit from their army that is within 3\" of the bearer with a Stratagem, increase that Stratagems cost by 1CP for that usage.",
+      "formattedDescription": "The first time in each battle round that your opponent targets a unit from their army that is within 3\" of the bearer with a Stratagem, increase that Stratagems cost by 1CP for that usage."
+    },
+    {
+      "id": "000009781003",
+      "name": "Webway Walker",
+      "cost": 15,
+      "legend": "This elite combatant possesses intricate knowledge of the Webway’s hidden paths and employs them to enhance this dreadful performance.",
+      "detachment": "Reaper’s Wager",
+      "rawDescription": "HARLEQUINS or DRUKHARI model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re-roll Charge rolls made for that unit.",
+      "formattedDescription": "HARLEQUINS or DRUKHARI model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re-roll Charge rolls made for that unit."
+    },
+    {
+      "id": "000009425003",
+      "name": "Spiteful Demise",
+      "cost": 0,
+      "legend": "Knowing all too well that the carnage they cause during this void battle may be all that pays for their revivification by the Haemonculi, this warrior strikes out viciously until their very last breath.",
+      "detachment": "Space Lane Raiders",
+      "rawDescription": "When the bearer is destroyed, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The bearer can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "formattedDescription": "When the bearer is destroyed, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The bearer can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "000008715003",
+      "name": "Sadistic Fulcrum",
+      "cost": 15,
+      "legend": "Witnessing this murderous warrior wreaking havoc, the sadistic crew of the Drukhari anti-grav transports are filled with the vigour only the suffering of others can provide",
+      "detachment": "Skysplinter Assault",
+      "rawDescription": "DRUKHARI model only. Each time you expend a Pain token to Empower the bearer’s unit in the Shooting phase, you can select one friendly DRUKHARI TRANSPORT within 3\" of the bearer’s unit; until the end of the phase, that TRANSPORT is also Empowered.",
+      "formattedDescription": "DRUKHARI model only. Each time you expend a Pain token to Empower the bearer’s unit in the Shooting phase, you can select one friendly DRUKHARI TRANSPORT within 3\" of the bearer’s unit; until the end of the phase, that TRANSPORT is also Empowered."
+    },
+    {
+      "id": "000009450003",
+      "name": "Vile Surgeon",
+      "cost": 0,
+      "legend": "This cruel chirurgeon seeks out particularly worthy subjects upon whom to practice the most agonising surgical experiments.",
+      "detachment": "Painbringers",
+      "rawDescription": "The bearers Haemonculus tools and scissorhands have a Damage characteristic of 3 while targeting CHARACTER units.",
+      "formattedDescription": "The bearers Haemonculus tools and scissorhands have a Damage characteristic of 3 while targeting CHARACTER units."
+    },
+    {
+      "id": "000008511003",
+      "name": "Labyrinthine Cunning",
+      "cost": 30,
+      "legend": "This Archon has a mind like steel traps, assimilating every detail of a situation.",
+      "detachment": "Realspace Raiders",
+      "rawDescription": "Archon model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 3 to the result if the Stratagem being used is Alliance of Agony. On a 4+, you gain 1 Command Point.",
+      "formattedDescription": "Archon model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 3 to the result if the Stratagem being used is Alliance of Agony. On a 4+, you gain 1 Command Point."
+    },
+    {
+      "id": "000008511004",
+      "name": "Blood Dancer",
+      "cost": 20,
+      "legend": "This Succubus is renowned for their expertise at close-quarters combat within the arenas of Commorragh. The skills they display before the baying crowds on the blood-soaked sands are equally deadly on the battlefield.",
+      "detachment": "Realspace Raiders",
+      "rawDescription": "SUCCUBUS model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead.",
+      "formattedDescription": "SUCCUBUS model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+    },
+    {
+      "id": "000008715004",
+      "name": "Spiteful Raider",
+      "cost": 10,
+      "legend": "This cruel realspace raider knows the best reason to take something from the foe is for the simple spite of denying them that which they most desire to keep.",
+      "detachment": "Skysplinter Assault",
+      "rawDescription": "DRUKHARI model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token.",
+      "formattedDescription": "DRUKHARI model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token."
+    },
+    {
+      "id": "000009781004",
+      "name": "Reaper’s Cowl",
+      "cost": 25,
+      "legend": "This ebon cloak contains a shadow field generator, which shrouds the bearer in a field of umbral darkness.",
+      "detachment": "Reaper’s Wager",
+      "rawDescription": "HARLEQUINS model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities.",
+      "formattedDescription": "HARLEQUINS model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities."
+    },
+    {
+      "id": "000009781005",
+      "name": "Conductor of Torment",
+      "cost": 20,
+      "legend": "This cruel champion of Commorragh seeks only to bathe in the agony of the foe. To them, the outcome of any wager is secondary to the symphony of suffering.",
+      "detachment": "Reaper’s Wager",
+      "rawDescription": "DRUKHARI model only. In your Command phase, youcan do one of the following:If your DRUKHARI units are currently losing the wager, you can gain 1 Pain token. If you do, DRUKHARI units from your army are now winning the wager.If your DRUKHARI units are currently winning the wager, you can discard 1 Pain token. If you do, HARLEQUINS units from your army are now winning the wager.",
+      "formattedDescription": "DRUKHARI model only. In your Command phase, youcan do one of the following:If your DRUKHARI units are currently losing the wager, you can gain 1 Pain token. If you do, DRUKHARI units from your army are now winning the wager.If your DRUKHARI units are currently winning the wager, you can discard 1 Pain token. If you do, HARLEQUINS units from your army are now winning the wager."
+    },
+    {
+      "id": "000008715005",
+      "name": "Nightmare Shroud",
+      "cost": 20,
+      "legend": "This strange Drukhari artefact wreathes its bearer and their allies in a cloying cloud of unnatural shadow. Flitting into battle under cover of this pall, they are nigh impossible for the prey to see coming.",
+      "detachment": "Skysplinter Assault",
+      "rawDescription": "DRUKHARI model only. Each time the bearer’s unit disembarks from a TRANSPORT, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+      "formattedDescription": "DRUKHARI model only. Each time the bearer’s unit disembarks from a TRANSPORT, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+    },
+    {
+      "id": "000008511005",
+      "name": "The Art of Pain",
+      "cost": 25,
+      "legend": "Some Drukhari elevate their battle plans to another level by creating a spectacle of torment that maims and cripples every foe in order to draw out the moment of the kill, heightening the pleasure they derive before the fatal blow falls.",
+      "detachment": "Realspace Raiders",
+      "rawDescription": "DRUKHARI model only. In your Command phase, if the bearer is on the battlefield, you gain 1 Pain token.",
+      "formattedDescription": "DRUKHARI model only. In your Command phase, if the bearer is on the battlefield, you gain 1 Pain token."
     }
   ]
 }
