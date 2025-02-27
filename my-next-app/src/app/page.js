@@ -316,10 +316,19 @@ const others = filteredUnits.filter(
             </div>
 
             <div className="flex border-b border-gray-600">
-              {["Abilities", "Stratagems", "Enhancements"].map((tab) => (
-                <button key={tab} onClick={() => setSelectedTab(tab)} className={`flex-1 py-3 text-center text-lg font-bold transition-all ${selectedTab === tab ? "bg-yellow-400 text-black" : "bg-gray-800 text-white hover:bg-gray-700"}`}>{tab}</button>
-              ))}
-            </div>
+  {["Abilities", "Stratagems", "Enhancements"].map((tab) => (
+    <button
+      key={tab}
+      onClick={() => setSelectedTab(selectedTab === tab ? null : tab)} // Toggle logic
+      className={`flex-1 py-3 text-center text-lg font-bold transition-all ${
+        selectedTab === tab ? "bg-yellow-400 text-black" : "bg-gray-800 text-white hover:bg-gray-700"
+      }`}
+    >
+      {tab}
+    </button>
+  ))}
+</div>
+
 
             <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollable-content">
   {/* Abilities Section */}
