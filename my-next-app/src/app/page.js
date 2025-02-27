@@ -310,25 +310,27 @@ const others = filteredUnits.filter(
             </div>
             
             <div className="flex space-x-4 p-4 overflow-x-auto">
-              {detachments.map((detachment, index) => (
-                <button key={index} className={`w-36 px-4 py-2 rounded-lg text-center ${detachment === detachmentFilter ? "bg-yellow-400 text-black" : "bg-gray-800 hover:bg-gray-700"}`} onClick={() => setDetachmentFilter(detachment)}>{detachment}</button>
-              ))}
-            </div>
-
-            <div className="flex border-b border-gray-600">
-  {["Abilities", "Stratagems", "Enhancements"].map((tab) => (
+  {detachments.map((detachment, index) => (
     <button
-      key={tab}
-      onClick={() => setSelectedTab(selectedTab === tab ? null : tab)} // Toggle logic
-      className={`flex-1 py-3 text-center text-lg font-bold transition-all ${
-        selectedTab === tab ? "bg-yellow-400 text-black" : "bg-gray-800 text-white hover:bg-gray-700"
+      key={index}
+      className={`w-36 px-4 py-2 rounded-lg text-center transition-all ${
+        detachment === detachmentFilter
+          ? "bg-yellow-400 text-black" // Selected state
+          : "bg-gray-800 hover:bg-gray-700" // Default state
       }`}
+      onClick={() => setDetachmentFilter(detachmentFilter === detachment ? null : detachment)} // Toggle logic
     >
-      {tab}
+      {detachment}
     </button>
   ))}
 </div>
 
+
+            <div className="flex border-b border-gray-600">
+              {["Abilities", "Stratagems", "Enhancements"].map((tab) => (
+                <button key={tab} onClick={() => setSelectedTab(tab)} className={`flex-1 py-3 text-center text-lg font-bold transition-all ${selectedTab === tab ? "bg-yellow-400 text-black" : "bg-gray-800 text-white hover:bg-gray-700"}`}>{tab}</button>
+              ))}
+            </div>
 
             <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollable-content">
   {/* Abilities Section */}
