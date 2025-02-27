@@ -26,6 +26,7 @@ export default function Home() {
   const [subFactions, setSubFactions] = useState([]);
   const [selectedSubfaction, setSelectedSubfaction] = useState(null);
   const [showExclusives, setShowExclusives] = useState(false); // State for the checkbox  
+  const [abilities, setAbilities] = useState([]);
 
 
   useEffect(() => {
@@ -69,11 +70,15 @@ export default function Home() {
         const faction = factionData;
   
         const stratagemsList = [];
+        const abilitiesList = [];
         const detachmentsList = [];
   
         faction.detachments?.forEach((detachment) => {
           if (detachment.stratagems && Array.isArray(detachment.stratagems)) {
             stratagemsList.push(...detachment.stratagems);
+          }
+          if (detachment.abilities && Array.isArray(detachment.abilities)) {
+            abilitiesList.push(...detachment.abilities);
           }
           detachmentsList.push(detachment.name);
         });
@@ -83,6 +88,7 @@ export default function Home() {
   
         // Get unique subfactions and set them in state
         setSubFactions(getUniqueSubfactions(faction.units || []));
+        setAbilities(abilitiesList);
         setStratagems(stratagemsList);
         setDetachments(detachmentsList);
       } catch (error) {
@@ -93,15 +99,13 @@ export default function Home() {
     fetchStratagemsData();
   }, [selectedFaction]);
   
-  console.log(subFactions);
-  
   useEffect(() => {
     if (detachmentFilter) {
       // Check if `stratagem.type` contains the selected detachment name
-      const filtered = stratagems.filter((stratagem) =>
+      const filteredStratagems = stratagems.filter((stratagem) =>
         stratagem.type?.toLowerCase().includes(detachmentFilter?.toLowerCase())
       );
-      setFilteredStratagems(filtered); // ✅ Store filtered results in state
+      setFilteredStratagems(filteredStratagems); // ✅ Store filtered results in state
     } else {
       // If no filter is selected, show all stratagems
       setFilteredStratagems(stratagems);
