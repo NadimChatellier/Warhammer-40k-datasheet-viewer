@@ -38,7 +38,7 @@ export default function SignIn() {
         setLoading(false);
         return;
       }
-
+      // Sign Up successful
       // Log user to see what is returned
       console.log('User created:', user);
 
