@@ -6,7 +6,7 @@ import UnitCard from "./UnitCard";
 import UnitModal from "./UnitModal";
 import SearchBar from "./Searchbar";
 import { FiMenu, FiX, FiChevronLeft, FiChevronRight  } from "react-icons/fi";
-
+import Link from "next/link";
 
 
 export default function Home() {
@@ -389,7 +389,12 @@ const others = filteredUnits.filter(
         <h1 className="text-4xl font-bold text-white p-4">
           {formatFactionName(selectedFaction)}
         </h1>
-       
+        <Link href="/signIn">
+        <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg">
+          Sign In
+        </button>
+      </Link>
+
 
       
            {/* Search Bar Component */}
