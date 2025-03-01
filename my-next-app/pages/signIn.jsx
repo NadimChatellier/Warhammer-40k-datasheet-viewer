@@ -1,24 +1,81 @@
 import { useState } from 'react';
 import { Lock, Mail } from 'lucide-react';
 import 'tailwindcss/tailwind.css';
+import supabase from "../src/lib/supabase.js";
 
 export default function SignIn() {
   const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const [isSignUp, setIsSignUp] = useState(false);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
-  const [isSignUp, setIsSignUp] = useState(false); // State to toggle between sign-in and sign-up
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError(null);
+    setLoading(true);
+
     if (isSignUp) {
+      // Check if passwords match
       if (password !== confirmPassword) {
-        alert('Passwords do not match!');
+        setError('Passwords do not match!');
+        setLoading(false);
         return;
       }
+
+      // Sign Up logic with Supabase Auth
+      const { user, error: signUpError } = await supabase.auth.signUp({
+        email,
+        password,
+      });
+
+      if (signUpError) {
+        console.error('SignUp Error:', signUpError.message);
+        setError(signUpError.message);
+        setLoading(false);
+        return;
+      }
+
+      // Log user to see what is returned
+      console.log('User created:', user);
+
+      // Insert email and username into the 'users' table after sign-up (if user is authenticated)
+      if (user) {
+        // Insert into the users table
+        const { data, error: insertError } = await supabase
+          .from('users') // Assuming you have a users table
+          .insert([
+            {
+              username,  // Save the username in the 'users' table
+              email,     // Save the email as well
+            }
+          ]);
+
+        if (insertError) {
+          console.error('Error inserting user data:', insertError.message);
+          setError(insertError.message);
+        } else {
+          console.log('User data inserted:', data);
+        }
+      }
+    } else {
+      // Sign In logic with Supabase Auth
+      const { user, error: signInError } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+
+      if (signInError) {
+        setError(signInError.message);
+      } else {
+        console.log('User signed in:', user);
+      }
     }
-    console.log({ email, password, rememberMe });
-    // Add your logic here for sign-up or sign-in action
+
+    setLoading(false);
   };
 
   return (
@@ -28,7 +85,23 @@ export default function SignIn() {
           <h2 className="text-2xl font-bold">{isSignUp ? 'Sign Up' : 'Sign In'}</h2>
         </div>
         <div className="p-6">
+          {error && <div className="text-red-500 text-center mb-4">{error}</div>}
           <form onSubmit={handleSubmit} className="space-y-4">
+            {isSignUp && (
+              <div>
+                <label className="block text-sm font-medium">Username</label>
+                <div className="relative mt-1">
+                  <input
+                    type="text"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    required
+                    className="pl-10 bg-gray-700 border border-gray-600 text-white w-full py-2 px-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+              </div>
+            )}
+
             <div>
               <label className="block text-sm font-medium">Email</label>
               <div className="relative mt-1">
@@ -89,8 +162,9 @@ export default function SignIn() {
             <button
               type="submit"
               className="w-full bg-blue-600 hover:bg-blue-700 py-2 mt-2 rounded-lg text-white"
+              disabled={loading}
             >
-              {isSignUp ? 'Sign Up' : 'Sign In'}
+              {loading ? 'Loading...' : isSignUp ? 'Sign Up' : 'Sign In'}
             </button>
           </form>
 
