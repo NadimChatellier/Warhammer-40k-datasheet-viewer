@@ -7,6 +7,7 @@ import UnitModal from "./UnitModal";
 import SearchBar from "./Searchbar";
 import { FiMenu, FiX, FiChevronLeft, FiChevronRight  } from "react-icons/fi";
 import Link from "next/link";
+import Taskbar from "./Taskbar";
 
 
 export default function Home() {
@@ -231,6 +232,7 @@ const others = filteredUnits.filter(
  
 
       <>
+      <Taskbar/>
       {/* Sidebar Button */}
       <button
         onClick={() => setIsSidebarOpen(true)}

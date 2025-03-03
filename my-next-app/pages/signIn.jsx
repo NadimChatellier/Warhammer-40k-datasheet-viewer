@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';  // Import useRouter
 import { Lock, Mail } from 'lucide-react';
 import 'tailwindcss/tailwind.css';
 import supabase from "../src/lib/supabase.js";
 
 export default function SignIn() {
+  const router = useRouter();  // Initialize useRouter
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -19,51 +21,36 @@ export default function SignIn() {
     setLoading(true);
 
     if (isSignUp) {
-      // Check if passwords match
       if (password !== confirmPassword) {
         setError('Passwords do not match!');
         setLoading(false);
         return;
       }
 
-      // Sign Up logic with Supabase Auth
       const { user, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
       });
 
       if (signUpError) {
-        console.error('SignUp Error:', signUpError.message);
         setError(signUpError.message);
         setLoading(false);
         return;
       }
-      // Sign Up successful
-      // Log user to see what is returned
-      console.log('User created:', user);
 
-      // Insert email and username into the 'users' table after sign-up (if user is authenticated)
       if (user) {
-        // Insert into the users table
-        const { data, error: insertError } = await supabase
-          .from('users') // Assuming you have a users table
-          .insert([
-            {
-              username,  // Save the username in the 'users' table
-              email,     // Save the email as well
-            }
-          ]);
+        const { error: insertError } = await supabase.from('users').insert([
+          { username, email },
+        ]);
 
         if (insertError) {
-          console.error('Error inserting user data:', insertError.message);
           setError(insertError.message);
         } else {
-          console.log('User data inserted:', data);
+          router.push("/");  // Redirect to base URL after sign-up
         }
       }
     } else {
-      // Sign In logic with Supabase Auth
-      const { user, error: signInError } = await supabase.auth.signInWithPassword({
+      const { error: signInError } = await supabase.auth.signInWithPassword({
         email,
         password,
       });
@@ -71,7 +58,7 @@ export default function SignIn() {
       if (signInError) {
         setError(signInError.message);
       } else {
-        console.log('User signed in:', user);
+        router.push("/");  // Redirect to base URL after sign-in
       }
     }
 
