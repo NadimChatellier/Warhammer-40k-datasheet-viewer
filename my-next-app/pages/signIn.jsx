@@ -19,30 +19,32 @@ export default function SignIn() {
     e.preventDefault();
     setError(null);
     setLoading(true);
-
+  
     if (isSignUp) {
       if (password !== confirmPassword) {
         setError('Passwords do not match!');
         setLoading(false);
         return;
       }
-
+  
       const { user, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
       });
-
+  
       if (signUpError) {
         setError(signUpError.message);
         setLoading(false);
+        console.log("Sign Up Error:", signUpError);
         return;
       }
-
+  
       if (user) {
+        console.log("Sign Up Success - User:", user);
         const { error: insertError } = await supabase.from('users').insert([
           { username, email },
         ]);
-
+  
         if (insertError) {
           setError(insertError.message);
         } else {
@@ -50,21 +52,34 @@ export default function SignIn() {
         }
       }
     } else {
-      const { error: signInError } = await supabase.auth.signInWithPassword({
+      const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
         email,
         password,
       });
-
+      
+      console.log("Sign In Data:", signInData); // Log the full response object
+      console.log("Sign In Error:", signInError); // Log any errors
+      
       if (signInError) {
         setError(signInError.message);
+        setLoading(false);
+        return;
+      }
+      
+      const { user } = signInData; // Assuming the structure contains user like this
+      console.log("User after sign-in:", user);
+      
+      if (user) {
+        console.log("Sign In Success - User:", user);
+        router.push("/");  // Redirect to home page after successful sign-in
       } else {
-        router.push("/");  // Redirect to base URL after sign-in
+        setError("User authentication failed.");
       }
     }
-
+  
     setLoading(false);
   };
-
+  
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white p-4">
       <div className="w-full max-w-md bg-gray-800 border border-gray-700 rounded-2xl shadow-xl">

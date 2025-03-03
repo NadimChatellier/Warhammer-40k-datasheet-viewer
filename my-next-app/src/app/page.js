@@ -6,8 +6,8 @@ import UnitCard from "./UnitCard";
 import UnitModal from "./UnitModal";
 import SearchBar from "./Searchbar";
 import { FiMenu, FiX, FiChevronLeft, FiChevronRight  } from "react-icons/fi";
-import Link from "next/link";
 import Taskbar from "./Taskbar";
+import { useUser, useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
 
 
 export default function Home() {
@@ -33,7 +33,6 @@ export default function Home() {
   const [enhancements, setEnhancements] = useState([]);
   const [selectedEnhancement, setSelectedEnhancement] = useState(null);
   const [filteredEnhancements, setFilteredEnhancements] = useState([]);
-
 
 
   useEffect(() => {
@@ -153,8 +152,6 @@ export default function Home() {
   }, [detachmentFilter, stratagems, abilities]); // Runs when dependencies change
   
   
-  
-  
   useEffect(() => {
     if (areStrategemsOpen) {
       document.body.style.overflow = "hidden"; // Disable background scrolling
@@ -166,6 +163,7 @@ export default function Home() {
       document.body.style.overflow = "auto"; // Cleanup when unmounting
     };
   }, [areStrategemsOpen]);
+
   const openModal = (unit) => {
     setSelectedUnit(unit);
     setIsOpen(true);
@@ -232,7 +230,7 @@ const others = filteredUnits.filter(
  
 
       <>
-      <Taskbar/>
+    
       {/* Sidebar Button */}
       <button
         onClick={() => setIsSidebarOpen(true)}
@@ -388,14 +386,11 @@ const others = filteredUnits.filter(
 
       {/* Main Content */}
       <div className="flex flex-col items-center w-full min-h-screen bg-gray-900 p-6">
+      <Taskbar/>
         <h1 className="text-4xl font-bold text-white p-4">
           {formatFactionName(selectedFaction)}
         </h1>
-        <Link href="/signIn">
-        <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg">
-          Sign In
-        </button>
-      </Link>
+        
 
 
       
