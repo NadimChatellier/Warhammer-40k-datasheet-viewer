@@ -9,6 +9,7 @@ import { FiMenu, FiX, FiChevronLeft, FiChevronRight  } from "react-icons/fi";
 import Taskbar from "./Taskbar";
 import { useUser, useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
 import supabase from "../../src/lib/supabase";
+import ArmyListModal from "./ArmyListModal";
 
 
 export default function Home() {
@@ -34,12 +35,13 @@ export default function Home() {
   const [enhancements, setEnhancements] = useState([]);
   const [selectedEnhancement, setSelectedEnhancement] = useState(null);
   const [filteredEnhancements, setFilteredEnhancements] = useState([]);
+  const [isArmyListModalOpen, setIsArmyListModalOpen] = useState(false);
 
 
   useEffect(() => {
     async function fetchFactionData() {
       const user = await supabase.auth.getUser() // THIS IS THE USER OBJECT
-      
+
       console.log(user)
       try {
         const factionData = await import(
@@ -227,7 +229,7 @@ const others = filteredUnits.filter(
   (unit) => unit.role !== "Characters" && unit.role !== "Battleline"
 );
 
-
+  //test
   // Function to format faction names properly
   const formatFactionName = (name) =>
     name.replace(/([A-Z][a-z])/g, " $1").trim();
@@ -397,7 +399,19 @@ const others = filteredUnits.filter(
           {formatFactionName(selectedFaction)}
         </h1>
         
+        <div className="text-center p-6">
+      <button
+        onClick={() => setIsArmyListModalOpen(true)}
+        className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg"
+      >
+        Create Army List
+      </button>
 
+      <ArmyListModal
+        isOpen={isArmyListModalOpen}
+        onClose={() => setIsArmyListModalOpen(false)}
+      />
+    </div>
 
       
            {/* Search Bar Component */}
