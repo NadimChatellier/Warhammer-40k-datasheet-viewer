@@ -39,8 +39,8 @@ export default function Home() {
   useEffect(() => {
     async function fetchFactionData() {
       const user = await supabase.auth.getUser() // THIS IS THE USER OBJECT
-
-      console.log(user); 
+      
+      console.log(user)
       try {
         const factionData = await import(
           `../../warhammer-data/40kJsonData/${selectedFaction}.json`

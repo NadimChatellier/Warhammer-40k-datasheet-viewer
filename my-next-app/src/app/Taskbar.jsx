@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { User } from "lucide-react";
 import Link from "next/link";
+
 export default function Taskbar() {
+
   return (
     <div className="fixed top-5 right-5 w-full text-white p-2 flex justify-between items-center shadow-lg">
 
