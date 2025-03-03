@@ -85,8 +85,15 @@ export default function ArmyListModal({ isOpen, onClose }) {
               className="w-full bg-gray-700 border border-gray-600 text-white py-2 px-3 rounded-lg"
             />
           </div>
-
-          {imageUrl && <img src={imageUrl} alt="Army Preview" className="w-full h-auto rounded-lg" />}
+          {imageUrl && (
+  <img
+    src={imageUrl}
+    alt="Army Preview"
+    className="rounded-lg overflow-hidden shadow-xl bg-black 
+              w-[100%] h-[70%] 
+            items-center"
+  />
+)}
 
           <div className="flex justify-end space-x-2">
             <button type="button" onClick={onClose} className="bg-gray-600 py-2 px-4 rounded-lg">
