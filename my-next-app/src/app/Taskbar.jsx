@@ -8,14 +8,13 @@ export default function Taskbar() {
       {/* Right Side - System Tray */}
       <div className="flex space-x-4 items-center bg-gray-800 p-2 rounded-lg">
         {/* This button is absolutely positioned */}
-        <Link href="/signIn">
-        
+        <Link href="/signIn">      
         <Button 
           variant="ghost" 
           className="absolute top-0 right-0 bg-green-500 text-white hover:bg-green-600"
         >
           <User size={24} />
-          <span className="ml-2">Sign In</span>
+           <span className="ml-2">Sign In</span>
         </Button>
         </Link>
       </div>

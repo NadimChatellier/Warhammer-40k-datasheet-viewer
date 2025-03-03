@@ -8,6 +8,7 @@ import SearchBar from "./Searchbar";
 import { FiMenu, FiX, FiChevronLeft, FiChevronRight  } from "react-icons/fi";
 import Taskbar from "./Taskbar";
 import { useUser, useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
+import supabase from "../../src/lib/supabase";
 
 
 export default function Home() {
@@ -37,10 +38,15 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchFactionData() {
+      const user = await supabase.auth.getUser() // THIS IS THE USER OBJECT
+
+      console.log(user); 
       try {
         const factionData = await import(
           `../../warhammer-data/40kJsonData/${selectedFaction}.json`
         );
+
+        
   
         function getUniqueSubfactions(units) {
           const keywordCount = {};
@@ -151,7 +157,7 @@ export default function Home() {
     }
   }, [detachmentFilter, stratagems, abilities]); // Runs when dependencies change
   
-  
+
   useEffect(() => {
     if (areStrategemsOpen) {
       document.body.style.overflow = "hidden"; // Disable background scrolling
