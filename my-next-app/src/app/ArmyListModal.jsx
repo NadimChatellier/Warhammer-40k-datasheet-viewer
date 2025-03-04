@@ -5,11 +5,11 @@ export default function ArmyListModal({ isOpen, onClose }) {
   const [user, setUser] = useState(null);
   const [armyName, setArmyName] = useState("");
   const [description, setDescription] = useState("");
-  const [imageUrl, setImageUrl] = useState(""); // Store the image URL directly
+  const [imageUrl, setImageUrl] = useState(""); 
+  const [points, setPoints] = useState(""); // New state for points
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Fetch user on mount
   useEffect(() => {
     const fetchUser = async () => {
       const { data: { user }, error } = await supabase.auth.getUser();
@@ -22,7 +22,6 @@ export default function ArmyListModal({ isOpen, onClose }) {
   if (!isOpen) return null;
   if (!user) return <p className="text-white">Please sign in to create an army list.</p>;
 
-  // Save Army List
   const handleSubmit = async (e) => {
     e.preventDefault();
     setUploading(true);
@@ -30,8 +29,8 @@ export default function ArmyListModal({ isOpen, onClose }) {
 
     const { error: dbError } = await supabase.from("army_lists").insert([{
       user_id: user.id,
-      army: { name: armyName, description },
-      Image: imageUrl, // Store the image URL from user input
+      army: { name: armyName, description: description, points: points }, // Include points
+      Image: imageUrl, 
     }]);
 
     if (dbError) {
@@ -39,7 +38,8 @@ export default function ArmyListModal({ isOpen, onClose }) {
     } else {
       setArmyName("");
       setDescription("");
-      setImageUrl(""); // Clear image URL input after submission
+      setImageUrl("");
+      setPoints(""); // Clear points input
       onClose();
     }
 
@@ -76,6 +76,30 @@ export default function ArmyListModal({ isOpen, onClose }) {
           </div>
 
           <div>
+            <label className="block text-sm font-medium">Points</label>
+            <div className="flex space-x-2 mb-2">
+              {[500, 1000, 1500, 2000].map((value) => (
+                <button
+                  key={value}
+                  type="button"
+                  onClick={() => setPoints(value)}
+                  className={`px-4 py-2 rounded-lg ${points == value ? "bg-blue-600" : "bg-gray-600"} hover:bg-blue-700`}
+                >
+                  {value}
+                </button>
+              ))}
+            </div>
+            <input
+              type="number"
+              value={points}
+              onChange={(e) => setPoints(e.target.value)}
+              required
+              placeholder="Enter custom points"
+              className="w-full bg-gray-700 border border-gray-600 text-white py-2 px-3 rounded-lg"
+            />
+          </div>
+
+          <div>
             <label className="block text-sm font-medium">Image URL</label>
             <input
               type="url"
@@ -85,15 +109,16 @@ export default function ArmyListModal({ isOpen, onClose }) {
               className="w-full bg-gray-700 border border-gray-600 text-white py-2 px-3 rounded-lg"
             />
           </div>
+
           {imageUrl && (
-  <img
-    src={imageUrl}
-    alt="Army Preview"
-    className="rounded-lg overflow-hidden shadow-xl bg-black 
-              w-[100%] h-[70%] 
-            items-center"
-  />
-)}
+            <img
+              src={imageUrl}
+              alt="Army Preview"
+              className="rounded-lg overflow-hidden shadow-xl bg-black 
+                        w-[100%] h-[70%] 
+                        items-center"
+            />
+          )}
 
           <div className="flex justify-end space-x-2">
             <button type="button" onClick={onClose} className="bg-gray-600 py-2 px-4 rounded-lg">
