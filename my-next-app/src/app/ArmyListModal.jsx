@@ -29,7 +29,7 @@ export default function ArmyListModal({ isOpen, onClose }) {
 
     const { error: dbError } = await supabase.from("army_lists").insert([{
       user_id: user.id,
-      army: { name: armyName, description: description, points: points }, // Include points
+      army: { name: armyName, description: description, points: points, list: [] }, // Include points
       Image: imageUrl, 
     }]);
 
@@ -38,6 +38,7 @@ export default function ArmyListModal({ isOpen, onClose }) {
     } else {
       setArmyName("");
       setDescription("");
+      
       setImageUrl("");
       setPoints(""); // Clear points input
       onClose();

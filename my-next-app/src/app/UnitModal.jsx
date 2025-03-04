@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { CiBookmarkPlus } from "react-icons/ci";
+import ArmyModal from "./ArmyModal";
 
 export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
   const [isImageFull, setIsImageFull] = useState(false);
@@ -8,10 +9,12 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
   const [rangedWeaponsOpen, setRangedWeaponsOpen] = useState(false);
   const [showMore, setShowMore] = useState(false);
   const [isGridView, setIsGridView] = useState(true); // State to toggle view
+  const [isArmyModalOpen, setIsArmyModalOpen] = useState(false);
 
   const toggleView = () => {
     setIsGridView(!isGridView); // Toggle between grid and list views
   };
+
 
   if (!isOpen || !selectedUnit) return null;
 
@@ -57,13 +60,19 @@ export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
   )}
 </AnimatePresence>
 
-            {/* Header for the modal */}
-            <div className="absolute top-2 right-2 flex items-center cursor-pointer group z-[1000]">
-              <span className="absolute right-10 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-0 translate-x-2 transition-all duration-200 ease-in-out text-gray-400 text-sm whitespace-nowrap">
-                Add to army list
-              </span>
-              <CiBookmarkPlus className="text-4xl text-gray-100 hover:text-red-500" />
-            </div>
+            {/* Open Modal Button */}
+      <div
+        className="absolute top-2 right-2 flex items-center cursor-pointer group z-[1000]"
+        onClick={() => setIsArmyModalOpen(true)}
+      >
+        <span className="absolute right-10 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-0 translate-x-2 transition-all duration-200 ease-in-out text-gray-400 text-sm whitespace-nowrap">
+          Add to army list
+        </span>
+        <CiBookmarkPlus className="text-4xl text-gray-100 hover:text-red-500" />
+      </div>
+
+      {/* Army List Modal */}
+      <ArmyModal isArmyModalOpen={isArmyModalOpen} closeArmyModal={() => setIsArmyModalOpen(false)} selectedUnit={selectedUnit}/>
       
             <div className="relative z-10 flex flex-col md:flex-row gap-4 h-[40vh] md:h-[28vh] p-4 bg-gray-900 rounded-lg">
         {/* Profile Image */}
