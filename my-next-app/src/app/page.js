@@ -36,12 +36,13 @@ export default function Home() {
   const [selectedEnhancement, setSelectedEnhancement] = useState(null);
   const [filteredEnhancements, setFilteredEnhancements] = useState([]);
   const [isArmyListModalOpen, setIsArmyListModalOpen] = useState(false);
-
+  const [user, setUser] = useState(null);
+  
 
   useEffect(() => {
     async function fetchFactionData() {
-      const user = await supabase.auth.getUser() // THIS IS THE USER OBJECT
-
+      const loggedUser = await supabase.auth.getUser() // THIS IS THE USER OBJECT
+      setUser(loggedUser)
       console.log(user)
       try {
         const factionData = await import(
@@ -400,15 +401,18 @@ const others = filteredUnits.filter(
         </h1>
         
         <div className="text-center p-6">
-      <button
-        onClick={() => setIsArmyListModalOpen(true)}
-        className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg"
-      >
-        Create Army List
-      </button>
+        {user && (
+        <button
+          onClick={() => setIsArmyListModalOpen(true)}
+          className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg"
+        >
+          Create Army List
+        </button>
+      )}
 
       <ArmyListModal
         isOpen={isArmyListModalOpen}
+        selectedFaction={selectedFaction}
         onClose={() => setIsArmyListModalOpen(false)}
       />
     </div>

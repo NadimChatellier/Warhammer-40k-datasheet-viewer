@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import supabase from "../lib/supabase";
 
-export default function ArmyListModal({ isOpen, onClose }) {
+export default function ArmyListModal({ isOpen, onClose}) {
   const [user, setUser] = useState(null);
   const [armyName, setArmyName] = useState("");
   const [description, setDescription] = useState("");
@@ -9,6 +9,7 @@ export default function ArmyListModal({ isOpen, onClose }) {
   const [points, setPoints] = useState(""); // New state for points
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState(null);
+
 
   useEffect(() => {
     const fetchUser = async () => {

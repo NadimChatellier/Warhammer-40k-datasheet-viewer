@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { CiBookmarkPlus } from "react-icons/ci";
 import ArmyModal from "./ArmyModal";
+  // src/app/UnitModal.js
 
 export default function UnitModal({ isOpen, selectedUnit, closeModal }) {
   const [isImageFull, setIsImageFull] = useState(false);
