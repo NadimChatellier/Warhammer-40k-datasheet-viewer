@@ -96,9 +96,9 @@ export default function ArmyLists() {
         </div>
   
         {/* Unit Modal */}
-    
+        {isModalOpen && <UnitModal isOpen={isModalOpen} selectedUnit={selectedUnit} closeModal={closeModal} />}
       </div>
-      {isModalOpen && <UnitModal isOpen={isModalOpen} selectedUnit={selectedUnit} closeModal={closeModal} />}
+      
         </>
      
     );

@@ -39,6 +39,8 @@ export default function Home() {
   const [user, setUser] = useState(null);
   
 
+  
+
   useEffect(() => {
     async function fetchFactionData() {
       const loggedUser = await supabase.auth.getUser() // THIS IS THE USER OBJECT

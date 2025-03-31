@@ -1,15 +1,44 @@
 import { useState, useEffect } from "react";
 import supabase from "../lib/supabase";
+import factions from "../../warhammer-data/40kJsonData/FactionsSummary"; // Import faction data
 
-export default function ArmyListModal({ isOpen, onClose}) {
+export default function ArmyListModal({ isOpen, onClose }) {
   const [user, setUser] = useState(null);
   const [armyName, setArmyName] = useState("");
-  const [description, setDescription] = useState("");
-  const [imageUrl, setImageUrl] = useState(""); 
-  const [points, setPoints] = useState(""); // New state for points
+
+  const [imageUrl, setImageUrl] = useState("");
+  const [points, setPoints] = useState("");
+  const [selectedFaction, setSelectedFaction] = useState(""); // Selected faction
+  const [selectedDetachment, setSelectedDetachment] = useState(""); // Selected detachment
+  const [detachmentOptions, setDetachmentOptions] = useState([]); // Detachments list
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState(null);
 
+  useEffect(() => {
+    const fetchDetachments = async () => {
+      if (selectedFaction) {
+        try {
+          const formattedFaction = selectedFaction.replace(/\s+/g, '');
+          const factionData = await import(`../../warhammer-data/40kJsonData/${formattedFaction}.json`);
+          
+          console.log("Fetched Faction Data:", factionData); // Debugging
+  
+          // Access `default` to get actual JSON content
+          setDetachmentOptions(factionData.default?.detachments || []);
+          setSelectedDetachment(""); // Reset when faction changes
+        } catch (error) {
+          console.error("Error loading faction data:", error);
+          setDetachmentOptions([]);
+        }
+      } else {
+        setDetachmentOptions([]);
+      }
+    };
+  
+    fetchDetachments();
+  }, [selectedFaction]);
+  
+  
 
   useEffect(() => {
     const fetchUser = async () => {
@@ -20,6 +49,19 @@ export default function ArmyListModal({ isOpen, onClose}) {
     fetchUser();
   }, []);
 
+  useEffect(() => {
+    if (selectedFaction) {
+      // Fetch detachments based on faction
+      const factionData = factions.find((f) => f.name === selectedFaction);
+      if (factionData) {
+        setDetachmentOptions(factionData.detachments || []);
+        setSelectedDetachment(""); // Reset detachment when faction changes
+      }
+    } else {
+      setDetachmentOptions([]);
+    }
+  }, [selectedFaction]);
+
   if (!isOpen) return null;
   if (!user) return <p className="text-white">Please sign in to create an army list.</p>;
 
@@ -28,20 +70,28 @@ export default function ArmyListModal({ isOpen, onClose}) {
     setUploading(true);
     setError(null);
 
-    const { error: dbError } = await supabase.from("army_lists").insert([{
-      user_id: user.id,
-      army: { name: armyName, description: description, points: points, list: [] }, // Include points
-      Image: imageUrl, 
-    }]);
+    const { error: dbError } = await supabase.from("army_lists").insert([
+      {
+        user_id: user.id,
+        army: {
+          name: armyName,
+          points,
+          faction: selectedFaction,
+          detachment: selectedDetachment,
+          list: [],
+        },
+        Image: imageUrl,
+      },
+    ]);
 
     if (dbError) {
       setError("Failed to create army list.");
     } else {
       setArmyName("");
-      setDescription("");
-      
       setImageUrl("");
-      setPoints(""); // Clear points input
+      setPoints("");
+      setSelectedFaction("");
+      setSelectedDetachment("");
       onClose();
     }
 
@@ -67,15 +117,43 @@ export default function ArmyListModal({ isOpen, onClose}) {
             />
           </div>
 
+        
+
           <div>
-            <label className="block text-sm font-medium">Description</label>
-            <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
+            <label className="block text-sm font-medium">Faction</label>
+            <select
+              value={selectedFaction}
+              onChange={(e) => setSelectedFaction(e.target.value)}
               required
               className="w-full bg-gray-700 border border-gray-600 text-white py-2 px-3 rounded-lg"
-            />
+            >
+              <option value="">Select Faction</option>
+              {factions.map((faction) => (
+                <option key={faction.id} value={faction.name}>
+                  {faction.name}
+                </option>
+              ))}
+            </select>
           </div>
+
+          {selectedFaction && (
+            <div>
+              <label className="block text-sm font-medium">Detachment</label>
+              <select
+                value={selectedDetachment}
+                onChange={(e) => setSelectedDetachment(e.target.value)}
+                required
+                className="w-full bg-gray-700 border border-gray-600 text-white py-2 px-3 rounded-lg"
+              >
+                <option value="">Select Detachment</option>
+                {detachmentOptions.map((detachment, index) => (
+                  <option key={index} value={detachment.name}>
+                    {detachment.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           <div>
             <label className="block text-sm font-medium">Points</label>
@@ -116,9 +194,7 @@ export default function ArmyListModal({ isOpen, onClose}) {
             <img
               src={imageUrl}
               alt="Army Preview"
-              className="rounded-lg overflow-hidden shadow-xl bg-black 
-                        w-[100%] h-[70%] 
-                        items-center"
+              className="rounded-lg overflow-hidden shadow-xl bg-black w-[100%] h-[70%] items-center"
             />
           )}
 
