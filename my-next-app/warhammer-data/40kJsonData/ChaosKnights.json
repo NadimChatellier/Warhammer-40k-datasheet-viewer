@@ -10,17 +10,17 @@
       "loadout": "This model is equipped with: Acheron flame cannon; twin heavy bolter; reaper chainfist.",
       "role": "Characters",
       "transport": "",
-      "damaged_w": "1-8",
-      "damaged_description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-10",
+      "damaged_description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "Chaos Cerastus Knight Acheron",
           "movement": "12\"",
-          "toughness": "12",
+          "toughness": "11",
           "save": "3+",
           "invulnerable_save": "5",
           "invulnerable_description": "* Against ranged attacks only",
-          "wounds": "25",
+          "wounds": "28",
           "leadership": "6+",
           "objective_control": "10",
           "base_size": "170 x 109mm",
@@ -149,7 +149,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 420
+          "cost": 355
         }
       ],
       "keywords": {
@@ -157,14 +157,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Vehicle",
-          "Walker",
           "Character",
           "Titanic",
           "Towering",
-          "Chaos",
           "Cerastus",
-          "Knight Acheron"
+          "Knight Acheron",
+          "Chaos",
+          "Vehicle",
+          "Walker"
         ]
       },
       "options": [
@@ -182,17 +182,17 @@
       "loadout": "This model is equipped with: Cerastus shock lance.",
       "role": "Characters",
       "transport": "",
-      "damaged_w": "1-8",
-      "damaged_description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-10",
+      "damaged_description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "Chaos Cerastus Knight Lancer",
           "movement": "14\"",
-          "toughness": "12",
+          "toughness": "11",
           "save": "3+",
           "invulnerable_save": "4",
           "invulnerable_description": "",
-          "wounds": "25",
+          "wounds": "28",
           "leadership": "6+",
           "objective_control": "10",
           "base_size": "170 x 109mm",
@@ -309,7 +309,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 420
+          "cost": 355
         }
       ],
       "keywords": {
@@ -317,14 +317,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Towering",
-          "Chaos",
-          "Cerastus",
           "Knight Lancer",
-          "Vehicle",
-          "Walker",
+          "Cerastus",
+          "Towering",
+          "Titanic",
           "Character",
-          "Titanic"
+          "Walker",
+          "Vehicle",
+          "Chaos"
         ]
       },
       "options": [
@@ -342,17 +342,17 @@
       "loadout": "This model is equipped with: Castigator bolt cannon; tempest warblade.",
       "role": "Characters",
       "transport": "",
-      "damaged_w": "1-8",
-      "damaged_description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-10",
+      "damaged_description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "Chaos Cerastus Knight Castigator",
           "movement": "12\"",
-          "toughness": "12",
+          "toughness": "11",
           "save": "3+",
           "invulnerable_save": "5",
           "invulnerable_description": "* Against ranged attacks only",
-          "wounds": "25",
+          "wounds": "28",
           "leadership": "6+",
           "objective_control": "10",
           "base_size": "170 x 109mm",
@@ -466,7 +466,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 445
+          "cost": 355
         }
       ],
       "keywords": {
@@ -474,14 +474,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Titanic",
-          "Vehicle",
-          "Walker",
           "Chaos",
-          "Knight Castigator",
           "Towering",
           "Cerastus",
-          "Character"
+          "Titanic",
+          "Character",
+          "Vehicle",
+          "Walker",
+          "Knight Castigator"
         ]
       },
       "options": [
@@ -499,17 +499,17 @@
       "loadout": "This model is equipped with: Atrapos lascutter; graviton singularity cannon.",
       "role": "Characters",
       "transport": "",
-      "damaged_w": "1-8",
-      "damaged_description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-10",
+      "damaged_description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "Chaos Cerastus Knight Atrapos",
           "movement": "12\"",
-          "toughness": "12",
+          "toughness": "11",
           "save": "3+",
           "invulnerable_save": "5",
           "invulnerable_description": "",
-          "wounds": "25",
+          "wounds": "28",
           "leadership": "6+",
           "objective_control": "10",
           "base_size": "170 x 109mm",
@@ -668,7 +668,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 420
+          "cost": 355
         }
       ],
       "keywords": {
@@ -676,14 +676,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Chaos",
-          "Character",
-          "Towering",
-          "Titanic",
           "Vehicle",
           "Walker",
-          "Knight Atrapos",
-          "Cerastus"
+          "Character",
+          "Titanic",
+          "Towering",
+          "Chaos",
+          "Cerastus",
+          "Knight Atrapos"
         ]
       },
       "options": [
@@ -701,17 +701,17 @@
       "loadout": "This model is equipped with: lightning cannon; phased plasma-fusil; reaper chainsword.",
       "role": "Characters",
       "transport": "",
-      "damaged_w": "1-7",
-      "damaged_description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-9",
+      "damaged_description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "Chaos Questoris Knight Magaera",
           "movement": "10\"",
-          "toughness": "12",
+          "toughness": "11",
           "save": "3+",
           "invulnerable_save": "5",
           "invulnerable_description": "",
-          "wounds": "22",
+          "wounds": "26",
           "leadership": "6+",
           "objective_control": "10",
           "base_size": "120 x 92mm",
@@ -845,8 +845,8 @@
             "datasheet_id": "000001098",
             "line": "4",
             "ability_id": "",
-            "name": "Repair Auto-simulacra",
-            "description": "At the end of your Command phase, this model regains up to D3 lost wounds.",
+            "name": "Huntmaster (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [ASSAULT] ability.",
             "type": "datasheet",
             "parameter": ""
           },
@@ -854,8 +854,8 @@
             "datasheet_id": "000001098",
             "line": "5",
             "ability_id": "",
-            "name": "Huntmaster (Aura)",
-            "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.",
+            "name": "Repair Auto-simulacra",
+            "description": "At the end of your Command phase, this model regains up to D3 lost wounds.",
             "type": "datasheet",
             "parameter": ""
           }
@@ -876,7 +876,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 435
+          "cost": 345
         }
       ],
       "keywords": {
@@ -884,14 +884,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Towering",
-          "Titanic",
-          "Character",
-          "Walker",
           "Vehicle",
+          "Walker",
+          "Character",
+          "Titanic",
+          "Towering",
           "Chaos",
-          "Abhorrent",
-          "Knight Magaera"
+          "Knight Magaera",
+          "Abhorrent"
         ]
       },
       "options": [
@@ -1073,13 +1073,13 @@
           "Chaos Knights"
         ],
         "other": [
-          "Chaos",
           "Towering",
-          "Acastus",
-          "Knight Porphyrion",
-          "Vehicle",
+          "Titanic",
           "Walker",
-          "Titanic"
+          "Vehicle",
+          "Chaos",
+          "Acastus",
+          "Knight Porphyrion"
         ]
       },
       "options": [
@@ -1101,17 +1101,17 @@
       "loadout": "This model is equipped with: graviton crusher; volkite chierovile; reaper chainsword.",
       "role": "Characters",
       "transport": "",
-      "damaged_w": "1-7",
-      "damaged_description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic  and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-9",
+      "damaged_description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic  and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "Chaos Questoris Knight Styrix",
           "movement": "10\"",
-          "toughness": "12",
+          "toughness": "11",
           "save": "3+",
           "invulnerable_save": "5",
           "invulnerable_description": "",
-          "wounds": "22",
+          "wounds": "26",
           "leadership": "6+",
           "objective_control": "10",
           "base_size": "120 x 92mm",
@@ -1156,7 +1156,7 @@
           ],
           "range": "30",
           "type": "Ranged",
-          "A": "9",
+          "A": "12",
           "BS_WS": "3",
           "S": "12",
           "AP": "0",
@@ -1246,8 +1246,8 @@
             "datasheet_id": "000001100",
             "line": "4",
             "ability_id": "",
-            "name": "Huntmaster (Aura)",
-            "description": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or to the Hit roll.",
+            "name": "Preysight (Aura)",
+            "description": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [IGNORES COVER] ability.",
             "type": "datasheet",
             "parameter": ""
           },
@@ -1256,7 +1256,7 @@
             "line": "5",
             "ability_id": "",
             "name": "Grav-pinned",
-            "description": "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit.",
+            "description": "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit.",
             "type": "datasheet",
             "parameter": ""
           }
@@ -1277,7 +1277,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 430
+          "cost": 345
         }
       ],
       "keywords": {
@@ -1285,14 +1285,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Knight Styrix",
-          "Vehicle",
           "Character",
+          "Vehicle",
           "Walker",
+          "Titanic",
           "Towering",
           "Chaos",
           "Abhorrent",
-          "Titanic"
+          "Knight Styrix"
         ]
       },
       "options": [
@@ -1572,7 +1572,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 415
+          "cost": 400
         }
       ],
       "keywords": {
@@ -1580,14 +1580,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Towering",
-          "Titanic",
-          "Walker",
           "Vehicle",
-          "Chaos",
-          "Character",
+          "Titanic",
+          "Towering",
           "Abhorrent",
-          "Knight Despoiler"
+          "Character",
+          "Chaos",
+          "Knight Despoiler",
+          "Walker"
         ]
       },
       "options": [
@@ -1828,7 +1828,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 510
+          "cost": 480
         }
       ],
       "keywords": {
@@ -1837,11 +1837,11 @@
         ],
         "other": [
           "Chaos",
-          "Knight Tyrant",
           "Vehicle",
           "Walker",
           "Titanic",
           "Towering",
+          "Knight Tyrant",
           "Character"
         ]
       },
@@ -2021,7 +2021,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 410
+          "cost": 400
         }
       ],
       "keywords": {
@@ -2029,14 +2029,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Towering",
-          "Abhorrent",
           "Knight Desecrator",
-          "Walker",
+          "Towering",
           "Titanic",
+          "Character",
+          "Abhorrent",
+          "Walker",
           "Vehicle",
-          "Chaos",
-          "Character"
+          "Chaos"
         ]
       },
       "options": [
@@ -2208,14 +2208,14 @@
           "Chaos Knights"
         ],
         "other": [
-          "Vehicle",
-          "Knight Rampager",
-          "Chaos",
           "Character",
-          "Abhorrent",
-          "Towering",
+          "Chaos",
+          "Knight Rampager",
           "Titanic",
-          "Walker"
+          "Walker",
+          "Vehicle",
+          "Towering",
+          "Abhorrent"
         ]
       },
       "options": [
@@ -2386,13 +2386,13 @@
           "Chaos Knights"
         ],
         "other": [
-          "Titanic",
-          "Towering",
-          "Chaos",
-          "Knight Asterius",
-          "Vehicle",
           "Acastus",
-          "Walker"
+          "Towering",
+          "Titanic",
+          "Walker",
+          "Vehicle",
+          "Chaos",
+          "Knight Asterius"
         ]
       },
       "options": [
@@ -2408,10 +2408,10 @@
       "faction_id": "QT",
       "unit_img": "https://www.warhammer.com/app/resources/catalog/product/threeSixty/99560108211_KnightMoiraxLightningLocks360/01.jpg",
       "loadout": "This model is equipped with: graviton pulsar; volkite veuglaire; armoured feet.",
-      "role": "Battleline",
+      "role": "Other",
       "transport": "",
-      "damaged_w": "1-4",
-      "damaged_description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "damaged_w": "1-5",
+      "damaged_description": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "profiles": [
         {
           "name": "War Dog Moirax",
@@ -2582,7 +2582,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 160
+          "cost": 150
         }
       ],
       "keywords": {
@@ -2591,7 +2591,6 @@
         ],
         "other": [
           "Walker",
-          "Battleline",
           "Chaos",
           "War Dog",
           "Vehicle",
@@ -2744,12 +2743,12 @@
           "Chaos Knights"
         ],
         "other": [
-          "Chaos",
-          "Vehicle",
-          "Walker",
-          "Battleline",
+          "Executioner",
           "War Dog",
-          "Executioner"
+          "Chaos",
+          "Battleline",
+          "Walker",
+          "Vehicle"
         ]
       },
       "options": [
@@ -2931,12 +2930,12 @@
         ],
         "other": [
           "Character",
-          "Chaos",
-          "War Dog",
           "Stalker",
-          "Vehicle",
+          "War Dog",
+          "Chaos",
+          "Battleline",
           "Walker",
-          "Battleline"
+          "Vehicle"
         ]
       },
       "options": [
@@ -3101,12 +3100,12 @@
           "Chaos Knights"
         ],
         "other": [
-          "Vehicle",
-          "Walker",
-          "Chaos",
-          "War Dog",
           "Karnivore",
-          "Battleline"
+          "Vehicle",
+          "War Dog",
+          "Chaos",
+          "Battleline",
+          "Walker"
         ]
       },
       "options": [
@@ -3265,12 +3264,12 @@
           "Chaos Knights"
         ],
         "other": [
-          "Vehicle",
-          "Brigand",
           "War Dog",
           "Chaos",
           "Battleline",
-          "Walker"
+          "Walker",
+          "Vehicle",
+          "Brigand"
         ]
       },
       "options": [
@@ -3428,12 +3427,12 @@
           "Chaos Knights"
         ],
         "other": [
-          "Walker",
-          "Battleline",
           "War Dog",
+          "Battleline",
           "Chaos",
-          "Vehicle",
-          "Huntsman"
+          "Huntsman",
+          "Walker",
+          "Vehicle"
         ]
       },
       "options": [
@@ -3600,15 +3599,15 @@
           "Chaos Knights"
         ],
         "other": [
-          "Chaos",
-          "Knight Abominant",
           "Vehicle",
-          "Walker",
           "Titanic",
           "Towering",
+          "Knight Abominant",
+          "Chaos",
+          "Psyker",
+          "Walker",
           "Abhorrent",
-          "Character",
-          "Psyker"
+          "Character"
         ]
       },
       "options": [
@@ -3709,16 +3708,16 @@
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
-          "Cultist Firebrand",
-          "Infantry",
-          "Character",
-          "Grenades",
           "Damned",
-          "Chaos"
+          "Grenades",
+          "Character",
+          "Chaos",
+          "Infantry",
+          "Cultist Firebrand"
         ]
       },
       "leads": [
@@ -3863,18 +3862,18 @@
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
-          "Grenades",
           "Cult Demagogue",
           "Character",
-          "Infantry",
-          "Chaos",
-          "Damned",
           "Dark Commune",
-          "Psyker"
+          "Damned",
+          "Chaos",
+          "Psyker",
+          "Grenades",
+          "Infantry"
         ]
       },
       "leads": [
@@ -3994,7 +3993,7 @@
         {
           "line": "1",
           "description": "2 models",
-          "cost": 65
+          "cost": 55
         }
       ],
       "keywords": {
@@ -4003,11 +4002,11 @@
           "Chaos Knights"
         ],
         "other": [
-          "Traitor Enforcer",
-          "Character",
-          "Damned",
           "Grenades",
+          "Damned",
           "Chaos",
+          "Character",
+          "Traitor Enforcer",
           "Infantry"
         ]
       },
@@ -4120,24 +4119,24 @@
           "Chaos Knights"
         ],
         "other": [
-          "Chaos",
-          "Infantry",
           "Damned",
-          "Renegade Enforcer",
+          "Infantry",
+          "Grenades",
           "Character",
-          "Grenades"
+          "Renegade Enforcer",
+          "Chaos"
         ]
       },
       "leads": [
         {
-          "id": "000003857",
-          "name": "Renegade Heavy Weapons Squad",
-          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105097_AMCadianHeavyWeaponsSquad01.jpg"
-        },
-        {
           "id": "000003853",
           "name": "Traitor Guardsmen Squad",
           "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010699015_ENGBlackstoneFortress05.jpg"
+        },
+        {
+          "id": "000003857",
+          "name": "Renegade Heavy Weapons Squad",
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105097_AMCadianHeavyWeaponsSquad01.jpg"
         }
       ],
       "options": [
@@ -4242,16 +4241,16 @@
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
-          "Chaos",
-          "Rogue Psyker",
           "Infantry",
           "Character",
           "Psyker",
-          "Damned"
+          "Damned",
+          "Rogue Psyker",
+          "Chaos"
         ]
       },
       "leads": [
@@ -4360,16 +4359,16 @@
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
-          "Grenades",
-          "Infantry",
-          "Battleline",
-          "Chaos",
+          "Cultist Mob",
           "Damned",
-          "Cultist Mob"
+          "Chaos",
+          "Grenades",
+          "Battleline",
+          "Infantry"
         ]
       },
       "options": [
@@ -4461,15 +4460,15 @@
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
-          "Battleline",
+          "Chaos",
           "Damned",
           "Cultist Mob with Firearms",
           "Grenades",
-          "Chaos",
+          "Battleline",
           "Infantry"
         ]
       },
@@ -4614,10 +4613,10 @@
           "Heretic Astartes"
         ],
         "other": [
+          "Infantry",
           "Chaos",
           "Damned",
-          "Accursed Cultists",
-          "Infantry"
+          "Accursed Cultists"
         ]
       }
     },
@@ -4693,19 +4692,19 @@
         {
           "line": "1",
           "description": "10 models",
-          "cost": 85
+          "cost": 70
         }
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
+          "Damned",
           "Infantry",
           "Grenades",
           "Chaos",
-          "Damned",
           "Fellgor Beastmen"
         ]
       },
@@ -4805,11 +4804,11 @@
           "Heretic Astartes"
         ],
         "other": [
-          "Grenades",
-          "Chaos",
-          "Damned",
+          "Infantry",
           "Traitor Guardsmen Squad",
-          "Infantry"
+          "Chaos",
+          "Grenades",
+          "Damned"
         ]
       },
       "options": [
@@ -4931,11 +4930,11 @@
           "Heretic Astartes"
         ],
         "other": [
-          "Infantry",
-          "Chaos",
           "Gellerpox Infected",
           "Nurgle",
-          "Damned"
+          "Damned",
+          "Chaos",
+          "Infantry"
         ]
       },
       "options": [
@@ -5027,15 +5026,15 @@
       ],
       "keywords": {
         "faction": [
-          "Heretic Astartes",
-          "Chaos Knights"
+          "Chaos Knights",
+          "Heretic Astartes"
         ],
         "other": [
+          "Nurgle",
           "Damned",
-          "Swarm",
           "Chaos",
-          "Mutoid Vermin",
-          "Nurgle"
+          "Swarm",
+          "Mutoid Vermin"
         ]
       },
       "options": [
@@ -5137,14 +5136,14 @@
       ],
       "keywords": {
         "faction": [
-          "Chaos Knights",
-          "Heretic Astartes"
+          "Heretic Astartes",
+          "Chaos Knights"
         ],
         "other": [
+          "Negavolt Cultists",
           "Damned",
-          "Infantry",
           "Chaos",
-          "Negavolt Cultists"
+          "Infantry"
         ]
       },
       "options": [
@@ -5240,10 +5239,10 @@
           "Heretic Astartes"
         ],
         "other": [
-          "Grenades",
           "Damned",
-          "Chaos",
           "Infantry",
+          "Chaos",
+          "Grenades",
           "Renegade Heavy Weapons Squad"
         ]
       },
@@ -5353,10 +5352,10 @@
           "Heretic Astartes"
         ],
         "other": [
-          "Renegade Ogryn Beast Handler",
-          "Damned",
+          "Beasts",
           "Chaos",
-          "Beasts"
+          "Damned",
+          "Renegade Ogryn Beast Handler"
         ]
       },
       "options": [
@@ -5452,10 +5451,10 @@
           "Heretic Astartes"
         ],
         "other": [
-          "Renegade Ogryn Brutes",
-          "Infantry",
           "Chaos",
-          "Damned"
+          "Infantry",
+          "Damned",
+          "Renegade Ogryn Brutes"
         ]
       },
       "options": [
@@ -5561,11 +5560,11 @@
           "Heretic Astartes"
         ],
         "other": [
-          "Infantry",
           "Chaos",
           "Damned",
+          "Renegade Plague Ogryns",
           "Nurgle",
-          "Renegade Plague Ogryns"
+          "Infantry"
         ]
       },
       "options": [
@@ -5604,19 +5603,6 @@
       "effect": "If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead."
     },
     {
-      "id": "000009766002",
-      "name": "AVENGE THE MASTERS!",
-      "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
-      "turn": "Either player’s turn",
-      "phase": "Any phase",
-      "fullDescription": "WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
-      "when": "Any phase.",
-      "target": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-      "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
-    },
-    {
       "id": "000009766005",
       "name": "UNRESTRAINED RAGE",
       "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
@@ -5628,6 +5614,19 @@
       "when": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.",
       "target": "That CHAOS KNIGHTS unit.",
       "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "id": "000009766002",
+      "name": "AVENGE THE MASTERS!",
+      "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
+      "when": "Any phase.",
+      "target": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+      "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
     },
     {
       "id": "000009766006",
@@ -5656,19 +5655,6 @@
       "effect": "Select one DAMNED unit from your army that is not Battle-shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move."
     },
     {
-      "id": "000008517002",
-      "name": "DREAD HOUNDS",
-      "type": "Traitoris Lance – Battle Tactic Stratagem",
-      "cpCost": 1,
-      "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
-      "turn": "Either player’s turn",
-      "phase": "Shooting or Fight phase",
-      "fullDescription": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
-      "when": "The start of your Shooting phase or the start of the Fight phase.",
-      "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
-      "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit."
-    },
-    {
       "id": "000008517003",
       "name": "DISDAIN FOR THE WEAK",
       "type": "Traitoris Lance – Battle Tactic Stratagem",
@@ -5680,6 +5666,19 @@
       "when": "Fight phase, just after an enemy unit has selected its targets.",
       "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
       "effect": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models."
+    },
+    {
+      "id": "000008517002",
+      "name": "DREAD HOUNDS",
+      "type": "Traitoris Lance – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
+      "turn": "Either player’s turn",
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
+      "when": "The start of your Shooting phase or the start of the Fight phase.",
+      "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
+      "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit."
     },
     {
       "id": "000008517006",
@@ -5765,19 +5764,6 @@
           "effect": "If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle-shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead."
         },
         {
-          "id": "000009766002",
-          "name": "AVENGE THE MASTERS!",
-          "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "fullDescription": "WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
-          "when": "Any phase.",
-          "target": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
-        },
-        {
           "id": "000009766005",
           "name": "UNRESTRAINED RAGE",
           "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
@@ -5789,6 +5775,19 @@
           "when": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.",
           "target": "That CHAOS KNIGHTS unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+        },
+        {
+          "id": "000009766002",
+          "name": "AVENGE THE MASTERS!",
+          "type": "Iconoclast Fiefdom – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "fullDescription": "WHEN: Any phase.TARGET: One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
+          "when": "Any phase.",
+          "target": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
         },
         {
           "id": "000009766006",
@@ -5861,27 +5860,14 @@
           "cost": 35,
           "legend": "With its pilot consumed by imperious arrogance and its systems clotted with malefic corruption, this venerable war suit refuses to yield, contemptuously shrugging off the incoming fire.",
           "detachment": "Iconoclast Fiefdom",
-          "rawDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it.",
-          "formattedDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it."
+          "rawDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it.",
+          "formattedDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it."
         }
       ]
     },
     {
       "name": "Traitoris Lance",
       "stratagems": [
-        {
-          "id": "000008517002",
-          "name": "DREAD HOUNDS",
-          "type": "Traitoris Lance – Battle Tactic Stratagem",
-          "cpCost": 1,
-          "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "fullDescription": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
-          "when": "The start of your Shooting phase or the start of the Fight phase.",
-          "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
-          "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit."
-        },
         {
           "id": "000008517003",
           "name": "DISDAIN FOR THE WEAK",
@@ -5894,6 +5880,19 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models."
+        },
+        {
+          "id": "000008517002",
+          "name": "DREAD HOUNDS",
+          "type": "Traitoris Lance – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "fullDescription": "WHEN: The start of your Shooting phase or the start of the Fight phase.TARGET: Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.EFFECT: Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
+          "when": "The start of your Shooting phase or the start of the Fight phase.",
+          "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
+          "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
           "id": "000008517006",
@@ -6086,8 +6085,8 @@
       "cost": 35,
       "legend": "With its pilot consumed by imperious arrogance and its systems clotted with malefic corruption, this venerable war suit refuses to yield, contemptuously shrugging off the incoming fire.",
       "detachment": "Iconoclast Fiefdom",
-      "rawDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it.",
-      "formattedDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any 1 Advance or Charge rolls made for it."
+      "rawDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it.",
+      "formattedDescription": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it."
     }
   ]
 }

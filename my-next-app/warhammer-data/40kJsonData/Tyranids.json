@@ -130,7 +130,7 @@
             "line": "5",
             "ability_id": "",
             "name": "Will of the Hive Mind",
-            "description": "Once per turn, one friendly TYRANIDS unit within 12\" of one or more models with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+            "description": "Once per battle round, one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.",
             "type": "datasheet",
             "parameter": ""
           },
@@ -160,7 +160,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 235
+          "cost": 195
         }
       ],
       "keywords": {
@@ -168,12 +168,12 @@
           "Tyranids"
         ],
         "other": [
+          "Hive Tyrant",
           "Synapse",
-          "Great Devourer",
           "Psyker",
           "Character",
           "Monster",
-          "Hive Tyrant"
+          "Great Devourer"
         ]
       },
       "leads": [
@@ -340,7 +340,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 240
+          "cost": 220
         }
       ],
       "keywords": {
@@ -348,14 +348,14 @@
           "Tyranids"
         ],
         "other": [
+          "Psyker",
+          "Synapse",
           "Hive Tyrant",
-          "Great Devourer",
+          "The Swarmlord",
           "Epic Hero",
           "Character",
           "Monster",
-          "Synapse",
-          "Psyker",
-          "The Swarmlord"
+          "Great Devourer"
         ]
       },
       "leads": [
@@ -492,11 +492,11 @@
           "Tyranids"
         ],
         "other": [
-          "Old One Eye",
-          "Great Devourer",
-          "Epic Hero",
+          "Monster",
           "Character",
-          "Monster"
+          "Great Devourer",
+          "Old One Eye",
+          "Epic Hero"
         ]
       },
       "leads": [
@@ -634,13 +634,13 @@
           "Tyranids"
         ],
         "other": [
-          "Broodlord",
-          "Vanguard Invader",
-          "Synapse",
+          "Infantry",
           "Great Devourer",
+          "Synapse",
+          "Vanguard Invader",
+          "Broodlord",
           "Psyker",
-          "Character",
-          "Infantry"
+          "Character"
         ]
       },
       "leads": [
@@ -800,12 +800,12 @@
           "Tyranids"
         ],
         "other": [
-          "Synapse",
-          "Tervigon",
-          "Psyker",
-          "Character",
           "Monster",
-          "Great Devourer"
+          "Character",
+          "Psyker",
+          "Great Devourer",
+          "Synapse",
+          "Tervigon"
         ]
       },
       "options": [
@@ -917,10 +917,10 @@
           "Tyranids"
         ],
         "other": [
-          "Genestealers",
           "Vanguard Invader",
-          "Great Devourer",
-          "Infantry"
+          "Genestealers",
+          "Infantry",
+          "Great Devourer"
         ]
       }
     },
@@ -929,7 +929,7 @@
       "name": "Termagants",
       "faction_id": "TYR",
       "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106066_Termagaunts2.jpg",
-      "loadout": "Every model is equipped with: fleshborer; xenos claws and teeth.",
+      "loadout": "Every model is equipped with: fleshborer; chitinous claws and teeth.",
       "role": "Battleline",
       "transport": "",
       "damaged_w": "",
@@ -1098,11 +1098,11 @@
           "Tyranids"
         ],
         "other": [
-          "Great Devourer",
-          "Infantry",
+          "Endless Multitude",
           "Termagants",
+          "Great Devourer",
           "Battleline",
-          "Endless Multitude"
+          "Infantry"
         ]
       },
       "options": [
@@ -1221,10 +1221,10 @@
         ],
         "other": [
           "Endless Multitude",
-          "Infantry",
           "Hormagaunts",
           "Great Devourer",
-          "Battleline"
+          "Battleline",
+          "Infantry"
         ]
       }
     },
@@ -1481,8 +1481,8 @@
         ],
         "other": [
           "Tyrant Guard",
-          "Great Devourer",
-          "Infantry"
+          "Infantry",
+          "Great Devourer"
         ]
       },
       "options": [
@@ -1599,12 +1599,12 @@
         {
           "line": "1",
           "description": "3 models",
-          "cost": 100
+          "cost": 90
         },
         {
           "line": "2",
           "description": "6 models",
-          "cost": 200
+          "cost": 180
         }
       ],
       "keywords": {
@@ -1612,9 +1612,9 @@
           "Tyranids"
         ],
         "other": [
-          "Hive Guard",
           "Infantry",
-          "Great Devourer"
+          "Great Devourer",
+          "Hive Guard"
         ]
       },
       "options": [
@@ -1759,8 +1759,8 @@
           "Tyranids"
         ],
         "other": [
-          "Great Devourer",
           "Infantry",
+          "Great Devourer",
           "Vanguard Invader",
           "Lictor"
         ]
@@ -1899,10 +1899,10 @@
         ],
         "other": [
           "Monster",
-          "Psyker",
-          "Great Devourer",
           "Synapse",
-          "Maleceptor"
+          "Great Devourer",
+          "Maleceptor",
+          "Psyker"
         ]
       }
     },
@@ -2050,11 +2050,11 @@
           "Tyranids"
         ],
         "other": [
-          "Fly",
-          "Great Devourer",
           "Synapse",
           "Zoanthropes",
           "Infantry",
+          "Fly",
+          "Great Devourer",
           "Psyker"
         ]
       }
@@ -2163,10 +2163,10 @@
           "Tyranids"
         ],
         "other": [
-          "Fly",
+          "Infantry",
           "Venomthropes",
           "Great Devourer",
-          "Infantry"
+          "Fly"
         ]
       }
     },
@@ -2293,10 +2293,10 @@
           "Tyranids"
         ],
         "other": [
-          "Harvester",
-          "Great Devourer",
           "Infantry",
-          "Pyrovores"
+          "Pyrovores",
+          "Harvester",
+          "Great Devourer"
         ]
       }
     },
@@ -2424,10 +2424,10 @@
           "Tyranids"
         ],
         "other": [
+          "Monster",
           "Great Devourer",
           "Harvester",
-          "Haruspex",
-          "Monster"
+          "Haruspex"
         ]
       }
     },
@@ -2576,12 +2576,12 @@
           "Tyranids"
         ],
         "other": [
-          "Deathleaper",
+          "Vanguard Invader",
+          "Great Devourer",
+          "Character",
           "Epic Hero",
           "Infantry",
-          "Character",
-          "Great Devourer",
-          "Vanguard Invader"
+          "Deathleaper"
         ]
       }
     },
@@ -2590,7 +2590,7 @@
       "name": "Raveners",
       "faction_id": "TYR",
       "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106016_RavenorBroodNEW01.jpg",
-      "loadout": "Every model is equipped with: thoracic bio-weapon; Ravener claws and talons.",
+      "loadout": "Every model is equipped with: Ravener claws and talons.",
       "role": "Other",
       "transport": "",
       "damaged_w": "",
@@ -2600,7 +2600,7 @@
           "name": "Raveners",
           "movement": "10\"",
           "toughness": "5",
-          "save": "5+",
+          "save": "4+",
           "invulnerable_save": "-",
           "invulnerable_description": "",
           "wounds": "3",
@@ -2610,21 +2610,7 @@
           "base_size_description": ""
         }
       ],
-      "ranged_weapons": [
-        {
-          "name": "Thoracic bio-weapon",
-          "special_rules": [
-            "assault"
-          ],
-          "range": "12",
-          "type": "Ranged",
-          "A": "3",
-          "BS_WS": "4",
-          "S": "4",
-          "AP": "0",
-          "D": "1"
-        }
-      ],
+      "ranged_weapons": [],
       "melee_weapons": [
         {
           "name": "Ravener claws and talons",
@@ -2633,11 +2619,11 @@
           ],
           "range": "Melee",
           "type": "Melee",
-          "A": "7",
+          "A": "3",
           "BS_WS": "3",
           "S": "5",
-          "AP": "-1",
-          "D": "1"
+          "AP": "-2",
+          "D": "2"
         }
       ],
       "abilities": {
@@ -2674,17 +2660,7 @@
             "parameter": ""
           }
         ],
-        "wargear": [
-          {
-            "datasheet_id": "000000482",
-            "line": "4",
-            "ability_id": "",
-            "name": "Armoured Thorax",
-            "description": "The bearer has a Save characteristic of 4+.",
-            "type": "wargear",
-            "parameter": ""
-          }
-        ],
+        "wargear": [],
         "special": [],
         "fortification": [],
         "primarch": []
@@ -2692,20 +2668,15 @@
       "compositions": [
         {
           "compositionIndex": "1",
-          "description": "3-6 Raveners",
+          "description": "5 Raveners",
           "extra": ""
         }
       ],
       "costs": [
         {
           "line": "1",
-          "description": "3 models",
-          "cost": 75
-        },
-        {
-          "line": "2",
-          "description": "6 models",
-          "cost": 150
+          "description": "5 models",
+          "cost": 125
         }
       ],
       "keywords": {
@@ -2713,16 +2684,17 @@
           "Tyranids"
         ],
         "other": [
-          "Raveners",
           "Infantry",
           "Great Devourer",
-          "Vanguard Invader"
+          "Vanguard Invader",
+          "Burrowers",
+          "Raveners"
         ]
       },
       "options": [
         {
           "line": 1,
-          "description": "All models in this unit can each have their thoracic bio-weapon replaced with 1 armoured thorax."
+          "description": "None"
         }
       ]
     },
@@ -2839,10 +2811,10 @@
           "Tyranids"
         ],
         "other": [
-          "Fly",
           "Great Devourer",
-          "Swarm",
-          "Sky-slasher Swarms"
+          "Sky-slasher Swarms",
+          "Fly",
+          "Swarm"
         ]
       },
       "options": [
@@ -2968,12 +2940,12 @@
           "Tyranids"
         ],
         "other": [
-          "Great Devourer",
-          "Endless Multitude",
           "Vanguard Invader",
+          "Endless Multitude",
           "Gargoyles",
           "Battleline",
           "Fly",
+          "Great Devourer",
           "Infantry"
         ]
       }
@@ -3124,12 +3096,12 @@
           "Tyranids"
         ],
         "other": [
-          "Aircraft",
+          "Great Devourer",
           "Monster",
           "Fly",
-          "Harpy",
+          "Aircraft",
           "Vanguard Invader",
-          "Great Devourer"
+          "Harpy"
         ]
       },
       "options": [
@@ -3298,12 +3270,12 @@
           "Tyranids"
         ],
         "other": [
-          "Aircraft",
+          "Hive Crone",
           "Monster",
           "Fly",
+          "Aircraft",
           "Great Devourer",
-          "Vanguard Invader",
-          "Hive Crone"
+          "Vanguard Invader"
         ]
       }
     },
@@ -3406,9 +3378,9 @@
           "Tyranids"
         ],
         "other": [
-          "Beast",
-          "Fly",
           "Great Devourer",
+          "Fly",
+          "Beast",
           "Mucolid Spores"
         ]
       }
@@ -3512,8 +3484,8 @@
           "Tyranids"
         ],
         "other": [
-          "Fly",
           "Beast",
+          "Fly",
           "Great Devourer",
           "Spore Mines"
         ]
@@ -3637,13 +3609,13 @@
           "Tyranids"
         ],
         "other": [
-          "Dedicated Transport",
           "Great Devourer",
-          "Tyrannocyte",
-          "Vanguard Invader",
+          "Dedicated Transport",
           "Fly",
           "Monster",
-          "Transport"
+          "Transport",
+          "Tyrannocyte",
+          "Vanguard Invader"
         ]
       }
     },
@@ -3861,8 +3833,8 @@
         ],
         "other": [
           "Monster",
-          "Great Devourer",
-          "Carnifexes"
+          "Carnifexes",
+          "Great Devourer"
         ]
       },
       "options": [
@@ -4009,8 +3981,8 @@
         ],
         "other": [
           "Great Devourer",
-          "Biovores",
-          "Infantry"
+          "Infantry",
+          "Biovores"
         ]
       }
     },
@@ -4117,7 +4089,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 150
+          "cost": 140
         }
       ],
       "keywords": {
@@ -4126,8 +4098,9 @@
         ],
         "other": [
           "Trygon",
-          "Great Devourer",
           "Monster",
+          "Burrower",
+          "Great Devourer",
           "Vanguard Invader"
         ]
       }
@@ -4244,10 +4217,11 @@
           "Tyranids"
         ],
         "other": [
-          "Great Devourer",
-          "Vanguard Invader",
+          "Burrower",
           "Mawloc",
-          "Monster"
+          "Vanguard Invader",
+          "Monster",
+          "Great Devourer"
         ]
       }
     },
@@ -4355,7 +4329,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 135
+          "cost": 140
         }
       ],
       "keywords": {
@@ -4363,9 +4337,9 @@
           "Tyranids"
         ],
         "other": [
+          "Exocrine",
           "Great Devourer",
-          "Monster",
-          "Exocrine"
+          "Monster"
         ]
       }
     },
@@ -4511,7 +4485,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 190
+          "cost": 200
         }
       ],
       "keywords": {
@@ -4520,8 +4494,8 @@
         ],
         "other": [
           "Tyrannofex",
-          "Great Devourer",
-          "Monster"
+          "Monster",
+          "Great Devourer"
         ]
       },
       "options": [
@@ -4653,8 +4627,8 @@
           "Tyranids"
         ],
         "other": [
-          "Toxicrene",
           "Great Devourer",
+          "Toxicrene",
           "Monster"
         ]
       }
@@ -4907,11 +4881,11 @@
           "Tyranids"
         ],
         "other": [
-          "Fly",
+          "Synapse",
           "Infantry",
           "Character",
+          "Fly",
           "Great Devourer",
-          "Synapse",
           "Malanthrope"
         ]
       },
@@ -5151,9 +5125,9 @@
           "Tyranids"
         ],
         "other": [
-          "Monster",
           "Barbed Hierodule",
-          "Great Devourer"
+          "Great Devourer",
+          "Monster"
         ]
       },
       "options": [
@@ -5283,13 +5257,13 @@
           "Tyranids"
         ],
         "other": [
+          "Fly",
+          "Titanic",
+          "Monster",
+          "Harridan",
           "Great Devourer",
           "Transport",
-          "Fly",
-          "Harridan",
-          "Aircraft",
-          "Monster",
-          "Titanic"
+          "Aircraft"
         ]
       },
       "options": [
@@ -5446,11 +5420,11 @@
           "Tyranids"
         ],
         "other": [
-          "Great Devourer",
           "Monster",
           "Titanic",
           "Towering",
           "Transport",
+          "Great Devourer",
           "Hierophant"
         ]
       },
@@ -5573,8 +5547,8 @@
         ],
         "other": [
           "Scythed Hierodule",
-          "Great Devourer",
-          "Monster"
+          "Monster",
+          "Great Devourer"
         ]
       },
       "options": [
@@ -5723,7 +5697,7 @@
             "line": "5",
             "ability_id": "",
             "name": "Will of the Hive Mind",
-            "description": "Once per turn, one friendly TYRANIDS unit within 12\" of one or more models with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+            "description": "Once per battle round, one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.",
             "type": "datasheet",
             "parameter": ""
           },
@@ -5753,7 +5727,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 200
+          "cost": 170
         }
       ],
       "keywords": {
@@ -5761,13 +5735,13 @@
           "Tyranids"
         ],
         "other": [
-          "Synapse",
           "Winged Hive Tyrant",
           "Character",
+          "Monster",
           "Psyker",
           "Fly",
-          "Monster",
           "Great Devourer",
+          "Synapse",
           "Vanguard Invader",
           "Hive Tyrant"
         ]
@@ -5917,12 +5891,12 @@
           "Tyranids"
         ],
         "other": [
+          "Fly",
           "Synapse",
+          "Great Devourer",
+          "Vanguard Invader",
           "Parasite of Mortrex",
           "Infantry",
-          "Vanguard Invader",
-          "Great Devourer",
-          "Fly",
           "Character"
         ]
       }
@@ -6034,9 +6008,9 @@
           "Tyranids"
         ],
         "other": [
-          "Infantry",
           "Barbgaunts",
-          "Great Devourer"
+          "Great Devourer",
+          "Infantry"
         ]
       }
     },
@@ -6137,10 +6111,10 @@
           "Tyranids"
         ],
         "other": [
+          "Neurogaunts",
           "Endless Multitude",
           "Great Devourer",
-          "Infantry",
-          "Neurogaunts"
+          "Infantry"
         ]
       }
     },
@@ -6284,25 +6258,25 @@
           "Tyranids"
         ],
         "other": [
-          "Character",
-          "Monster",
-          "Psyker",
-          "Great Devourer",
-          "Synapse",
+          "Fly",
           "Neurotyrant",
-          "Fly"
+          "Synapse",
+          "Great Devourer",
+          "Psyker",
+          "Character",
+          "Monster"
         ]
       },
       "leads": [
         {
-          "id": "000000475",
-          "name": "Zoanthropes",
-          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106057_NeurothropesLead.jpg"
-        },
-        {
           "id": "000000471",
           "name": "Tyrant Guard",
           "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106055_TYRHiveGuardLeadALT.jpg"
+        },
+        {
+          "id": "000000475",
+          "name": "Zoanthropes",
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106057_NeurothropesLead.jpg"
         },
         {
           "id": "000002687",
@@ -6330,7 +6304,7 @@
       "profiles": [
         {
           "name": "Psychophage",
-          "movement": "8\"",
+          "movement": "12\"",
           "toughness": "9",
           "save": "3+",
           "invulnerable_save": "-",
@@ -6367,10 +6341,10 @@
           ],
           "range": "Melee",
           "type": "Melee",
-          "A": "D6+1",
+          "A": "6",
           "BS_WS": "3",
           "S": "6",
-          "AP": "-1",
+          "AP": "-2",
           "D": "2"
         }
       ],
@@ -6411,8 +6385,8 @@
             "datasheet_id": "000002689",
             "line": "4",
             "ability_id": "",
-            "name": "Bio-stimulus (Aura)",
-            "description": "While a friendly TYRANIDS unit is within 6\" of this model, models in that unit have the Feel No Pain 6+ ability.",
+            "name": "Bio-stimulus",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly TYRANIDS unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn.",
             "type": "datasheet",
             "parameter": ""
           },
@@ -6442,7 +6416,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 95
+          "cost": 110
         }
       ],
       "keywords": {
@@ -6450,10 +6424,11 @@
           "Tyranids"
         ],
         "other": [
-          "Monster",
-          "Great Devourer",
+          "Psychophage",
+          "Smoke",
           "Harvester",
-          "Psychophage"
+          "Monster",
+          "Great Devourer"
         ]
       }
     },
@@ -6561,7 +6536,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 145
+          "cost": 135
         }
       ],
       "keywords": {
@@ -6569,9 +6544,9 @@
           "Tyranids"
         ],
         "other": [
-          "Screamer-Killer",
+          "Great Devourer",
           "Monster",
-          "Great Devourer"
+          "Screamer-Killer"
         ]
       }
     },
@@ -6684,9 +6659,9 @@
         ],
         "other": [
           "Infantry",
+          "Great Devourer",
           "Synapse",
-          "Tyranid Warriors with Melee Bio-weapons",
-          "Great Devourer"
+          "Tyranid Warriors with Melee Bio-weapons"
         ]
       }
     },
@@ -6860,9 +6835,9 @@
           "Tyranids"
         ],
         "other": [
-          "Synapse",
           "Great Devourer",
           "Infantry",
+          "Synapse",
           "Tyranid Warriors with Ranged Bio-weapons"
         ]
       },
@@ -7001,10 +6976,10 @@
           "Tyranids"
         ],
         "other": [
-          "Infantry",
-          "Great Devourer",
+          "Von Ryan’s Leapers",
           "Vanguard Invader",
-          "Von Ryan’s Leapers"
+          "Great Devourer",
+          "Infantry"
         ]
       }
     },
@@ -7132,20 +7107,20 @@
           "Tyranids"
         ],
         "other": [
+          "Infantry",
+          "Character",
+          "Fly",
           "Great Devourer",
           "Synapse",
           "Vanguard Invader",
-          "Infantry",
-          "Fly",
-          "Character",
           "Winged Tyranid Prime"
         ]
       },
       "leads": [
         {
-          "id": "000002692",
-          "name": "Tyranid Warriors With Ranged Bio-weapons",
-          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/threeSixty/99120106058_TyrWarriorsOTT2360/01-01.jpg"
+          "id": "000000484",
+          "name": "Gargoyles",
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106052_TYRGargoylesLead.jpg"
         },
         {
           "id": "000002691",
@@ -7153,9 +7128,9 @@
           "unit_img": "https://www.warhammer.com/app/resources/catalog/product/threeSixty/99120106058_TyrWarriorsOTT3360/01-01.jpg"
         },
         {
-          "id": "000000484",
-          "name": "Gargoyles",
-          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106052_TYRGargoylesLead.jpg"
+          "id": "000002692",
+          "name": "Tyranid Warriors With Ranged Bio-weapons",
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/threeSixty/99120106058_TyrWarriorsOTT2360/01-01.jpg"
         }
       ],
       "options": [
@@ -7336,11 +7311,11 @@
           "Tyranids"
         ],
         "other": [
-          "Monster",
+          "Psyker",
           "Great Devourer",
           "Synapse",
           "Norn Emissary",
-          "Psyker"
+          "Monster"
         ]
       }
     },
@@ -7496,11 +7471,11 @@
           "Tyranids"
         ],
         "other": [
-          "Norn Assimilator",
-          "Harvester",
-          "Great Devourer",
           "Monster",
-          "Synapse"
+          "Great Devourer",
+          "Synapse",
+          "Harvester",
+          "Norn Assimilator"
         ]
       }
     },
@@ -7640,7 +7615,7 @@
         {
           "line": "1",
           "description": "1 model",
-          "cost": 90
+          "cost": 80
         }
       ],
       "keywords": {
@@ -7649,12 +7624,206 @@
         ],
         "other": [
           "Infantry",
-          "Great Devourer",
           "Vanguard Invader",
-          "Neurolictor",
-          "Synapse"
+          "Great Devourer",
+          "Synapse",
+          "Neurolictor"
         ]
       }
+    },
+    {
+      "id": "000004117",
+      "name": "Hyperadapted Raveners",
+      "faction_id": "TYR",
+      "unit_img": "",
+      "loadout": "The Ravener Prime is equipped with: Prime claws and talons.3 Raveners are equipped with: Ravener heavy claws and talons.1 Ravener is equipped with: venom bolt; Ravener heavy claws and talons.",
+      "role": "Characters",
+      "transport": "",
+      "damaged_w": "",
+      "damaged_description": "",
+      "profiles": [
+        {
+          "name": "Ravener Prime",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "6",
+          "leadership": "7+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        },
+        {
+          "name": "Raveners",
+          "movement": "10\"",
+          "toughness": "5",
+          "save": "4+",
+          "invulnerable_save": "-",
+          "invulnerable_description": "",
+          "wounds": "3",
+          "leadership": "8+",
+          "objective_control": "1",
+          "base_size": "40mm",
+          "base_size_description": ""
+        }
+      ],
+      "ranged_weapons": [
+        {
+          "name": "Venom bolt",
+          "special_rules": [
+            "assault",
+            "ignores cover",
+            "torrent"
+          ],
+          "range": "12",
+          "type": "Ranged",
+          "A": "D6+3",
+          "BS_WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        }
+      ],
+      "melee_weapons": [
+        {
+          "name": "Prime claws and talons",
+          "special_rules": [
+            "anti-monster 5+",
+            "anti-vehicle 5+",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Ravener heavy claws and talons",
+          "special_rules": [
+            "anti-monster 5+",
+            "anti-vehicle 5+",
+            "twin-linked"
+          ],
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": {
+        "core": [
+          {
+            "datasheet_id": "000004117",
+            "line": "1",
+            "ability_id": "000008343",
+            "name": "Deep Strike",
+            "description": "Some units make their way to battle via tunnelling, teleportation, high-altitude descent or other extraordinary means that allow them to appear suddenly in the thick of the fighting.During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability. Unit can be set up in Reserves instead of on the battlefield.Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models.",
+            "type": "core",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000004117",
+            "line": "2",
+            "ability_id": "000008346",
+            "name": "Leader",
+            "description": "Mighty heroes fight at the forefront of battle.Some CHARACTER units have ‘Leader’ listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead – known as their Bodyguard units – are listed on their datasheet.During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader’s Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it.While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed, it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit.Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks.Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit is no longer part of an Attached unit. It becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.Example: If you only destroy the Bodyguard unit that is part of an Attached unit, you have not destroyed a CHARACTER unit. If you only destroy the CHARACTER unit that is part of an Attached unit, or if you destroy the whole Attached unit, you have destroyed one CHARACTER unit.Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.Attached units can only contain one Leader.Attacks cannot be allocated to CHARACTER models in Attached units.",
+            "type": "core",
+            "parameter": ""
+          }
+        ],
+        "faction": [
+          {
+            "datasheet_id": "000004117",
+            "line": "3",
+            "ability_id": "000000707",
+            "name": "Shadow in the Warp",
+            "description": "If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more SYNAPSE units from your army, subtract 1 from that test.",
+            "type": "faction",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000004117",
+            "line": "4",
+            "ability_id": "000000705",
+            "name": "Synapse",
+            "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly SYNAPSE models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+            "type": "faction",
+            "parameter": ""
+          }
+        ],
+        "datasheet": [
+          {
+            "datasheet_id": "000004117",
+            "line": "5",
+            "ability_id": "",
+            "name": "Alpha Invader",
+            "description": "Weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.",
+            "type": "datasheet",
+            "parameter": ""
+          },
+          {
+            "datasheet_id": "000004117",
+            "line": "6",
+            "ability_id": "",
+            "name": "Hypersensory Arra",
+            "description": "Once per battle round, you can target this unit with the Rapid Ingress or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.",
+            "type": "datasheet",
+            "parameter": ""
+          }
+        ],
+        "wargear": [],
+        "special": [],
+        "fortification": [],
+        "primarch": []
+      },
+      "compositions": [
+        {
+          "compositionIndex": "1",
+          "description": "1 Ravener Prime",
+          "extra": ""
+        },
+        {
+          "compositionIndex": "2",
+          "description": "4 Raveners",
+          "extra": ""
+        }
+      ],
+      "costs": [
+        {
+          "line": "1",
+          "description": "5 models",
+          "cost": 165
+        }
+      ],
+      "keywords": {
+        "faction": [
+          "Tyranids"
+        ],
+        "other": [
+          "Hyperadapted Raveners",
+          "Character",
+          "Synapse",
+          "Vanguard Invader",
+          "Burrowers",
+          "Infantry",
+          "Great Devourer"
+        ]
+      },
+      "leads": [
+        {
+          "id": "000000482",
+          "name": "Raveners",
+          "unit_img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106016_RavenorBroodNEW01.jpg"
+        }
+      ]
     }
   ],
   "stratagems": [
@@ -7698,19 +7867,6 @@
       "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead."
     },
     {
-      "id": "000008413004",
-      "name": "TYRANNOFORMED",
-      "type": "Assimilation Swarm – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-      "turn": "Either player’s turn",
-      "phase": "Command phase",
-      "fullDescription": "WHEN: Command phase.TARGET: One HARVESTER unit from your army that is within range of an objective marker you control.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-      "when": "Command phase.",
-      "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-      "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-    },
-    {
       "id": "000008413003",
       "name": "RECLAIM BIOMASS",
       "type": "Assimilation Swarm – Strategic Ploy Stratagem",
@@ -7722,6 +7878,19 @@
       "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
       "target": "One HARVESTER unit from your army that is within 6\" of that destroyed unit.",
       "effect": "Regenerate one friendly TYRANIDS unit within 6\" of your HARVESTER unit (See Feed the Swarm)."
+    },
+    {
+      "id": "000008413004",
+      "name": "TYRANNOFORMED",
+      "type": "Assimilation Swarm – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
+      "turn": "Either player’s turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Command phase.TARGET: One HARVESTER unit from your army that is within range of an objective marker you control.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "when": "Command phase.",
+      "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
+      "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
     },
     {
       "id": "000008413006",
@@ -7737,19 +7906,6 @@
       "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well."
     },
     {
-      "id": "000009700004",
-      "name": "SWARM HUNTERS",
-      "type": "Biotide – Battle Tactic Stratagem",
-      "cpCost": 1,
-      "legend": "These Termagants act like a single, many-limbed, many-weaponed organism, squirming around one another to level the most firepower possible.",
-      "turn": "Your turn",
-      "phase": "Shooting phase",
-      "fullDescription": "WHEN: Your Shooting phase.TARGET: One TERMAGANTS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
-      "when": "Your Shooting phase.",
-      "target": "One TERMAGANTS unit from your army that has not been selected to shoot this phase.",
-      "effect": "Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll."
-    },
-    {
       "id": "000009700005",
       "name": "ONRUSHING HORDE",
       "type": "Biotide – Battle Tactic Stratagem",
@@ -7763,17 +7919,17 @@
       "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
     },
     {
-      "id": "000009700002",
-      "name": "LIVING AVALANCHE",
-      "type": "Biotide – Strategic Ploy Stratagem",
+      "id": "000009700004",
+      "name": "SWARM HUNTERS",
+      "type": "Biotide – Battle Tactic Stratagem",
       "cpCost": 1,
-      "legend": "This hatchway does not so much slide open as burst asunder like a breached dam, warrior organisms spilling forth from it in a heaving mass.",
+      "legend": "These Termagants act like a single, many-limbed, many-weaponed organism, squirming around one another to level the most firepower possible.",
       "turn": "Your turn",
-      "phase": "Movement phase",
-      "fullDescription": "WHEN: Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.TARGET: That TYRANIDS unit.EFFECT: Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units.",
-      "when": "Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.",
-      "target": "That TYRANIDS unit.",
-      "effect": "Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units."
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One TERMAGANTS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+      "when": "Your Shooting phase.",
+      "target": "One TERMAGANTS unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll."
     },
     {
       "id": "000009700003",
@@ -7789,6 +7945,19 @@
       "effect": "Until the end of the phase, models in your unit have the Deep Strike ability and, when setting them upon the battlefield using that ability, they can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, provided they are also within Synapse Range of your army.RESTRICTIONS: You can only use this Stratagem once and, until the end of the turn, your unit is not eligible to declare a charge."
     },
     {
+      "id": "000009700002",
+      "name": "LIVING AVALANCHE",
+      "type": "Biotide – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "This hatchway does not so much slide open as burst asunder like a breached dam, warrior organisms spilling forth from it in a heaving mass.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.TARGET: That TYRANIDS unit.EFFECT: Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units.",
+      "when": "Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.",
+      "target": "That TYRANIDS unit.",
+      "effect": "Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units."
+    },
+    {
       "id": "000009691002",
       "name": "LITHE KILLERS",
       "type": "Boarding Swarm – Battle Tactic Stratagem",
@@ -7800,32 +7969,6 @@
       "when": "Fight phase, just after an enemy unit has selected its targets.",
       "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
       "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save."
-    },
-    {
-      "id": "000009691003",
-      "name": "ADRENALISED SLAUGHTER",
-      "type": "Boarding Swarm – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "These organisms contain additional adrenal biomorphs, which send them into a final killing frenzy just before death.",
-      "turn": "Either player’s turn",
-      "phase": "Fight phase",
-      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
-      "when": "Fight phase, just after an enemy unit has selected its targets.",
-      "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-      "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
-    },
-    {
-      "id": "000009691004",
-      "name": "TALON-TIP SWARM",
-      "type": "Boarding Swarm – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "As they break the prey's lines, these organisms seek key strategic sites to tear apart.",
-      "turn": "Either player’s turn",
-      "phase": "Fight phase",
-      "fullDescription": "WHEN: Fight phase, just after a TYRANIDS unit from your army destroys an enemy unit.TARGET: That TYRANIDS unit.EFFECT: If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\". After that move, if your unit is within range of an objective marker and no enemy units are within range of that objective marker, that objective marker is Secured by your army.",
-      "when": "Fight phase, just after a TYRANIDS unit from your army destroys an enemy unit.",
-      "target": "That TYRANIDS unit.",
-      "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\". After that move, if your unit is within range of an objective marker and no enemy units are within range of that objective marker, that objective marker is Secured by your army."
     },
     {
       "id": "000009691005",
@@ -7841,17 +7984,30 @@
       "effect": "Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move as close as possible to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit."
     },
     {
-      "id": "000008422006",
-      "name": "SWARM-GUIDED SALVOES",
-      "type": "Crusher Stampede – Battle Tactic Stratagem",
+      "id": "000009691004",
+      "name": "TALON-TIP SWARM",
+      "type": "Boarding Swarm – Strategic Ploy Stratagem",
       "cpCost": 1,
-      "legend": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
-      "turn": "Your turn",
-      "phase": "Shooting phase",
-      "fullDescription": "WHEN: Your Shooting phase.TARGET: One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
-      "when": "Your Shooting phase.",
-      "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
-      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
+      "legend": "As they break the prey's lines, these organisms seek key strategic sites to tear apart.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after a TYRANIDS unit from your army destroys an enemy unit.TARGET: That TYRANIDS unit.EFFECT: If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\". After that move, if your unit is within range of an objective marker and no enemy units are within range of that objective marker, that objective marker is Secured by your army.",
+      "when": "Fight phase, just after a TYRANIDS unit from your army destroys an enemy unit.",
+      "target": "That TYRANIDS unit.",
+      "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\". After that move, if your unit is within range of an objective marker and no enemy units are within range of that objective marker, that objective marker is Secured by your army."
+    },
+    {
+      "id": "000009691003",
+      "name": "ADRENALISED SLAUGHTER",
+      "type": "Boarding Swarm – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "These organisms contain additional adrenal biomorphs, which send them into a final killing frenzy just before death.",
+      "turn": "Either player’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "when": "Fight phase, just after an enemy unit has selected its targets.",
+      "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
     },
     {
       "id": "000008422003",
@@ -7878,6 +8034,19 @@
       "when": "Fight phase, just after an enemy unit has selected its targets.",
       "target": "One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
       "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well."
+    },
+    {
+      "id": "000008422006",
+      "name": "SWARM-GUIDED SALVOES",
+      "type": "Crusher Stampede – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
+      "turn": "Your turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your Shooting phase.TARGET: One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+      "when": "Your Shooting phase.",
+      "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
+      "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
     },
     {
       "id": "000008422007",
@@ -7932,19 +8101,6 @@
       "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
     },
     {
-      "id": "000009725004",
-      "name": "HUNTING GROUNDS",
-      "type": "Infestation Swarm – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "Genestealers on the hunt are relentless, squirming through hatches before they have even half opened.",
-      "turn": "Your turn",
-      "phase": "Movement phase",
-      "fullDescription": "WHEN: Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.TARGET: That GREAT DEVOURER unit.EFFECT: Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it.",
-      "when": "Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.",
-      "target": "That GREAT DEVOURER unit.",
-      "effect": "Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it."
-    },
-    {
       "id": "000009725003",
       "name": "PERVASIVE DREAD",
       "type": "Infestation Swarm – Strategic Ploy Stratagem",
@@ -7956,6 +8112,19 @@
       "when": "Fight phase, just after the enemy WARLORD is destroyed (and is not returned to the battlefield) by a GREAT DEVOURER unit from your army.",
       "target": "That GREAT DEVOURER unit.",
       "effect": "In your opponent’s next Command phase, each enemy unit on the battlefield must take a Battle-shock test, subtracting 1 from the result. This Stratagem cannot cause a unit to take two Battle-shock tests in the same phase."
+    },
+    {
+      "id": "000009725004",
+      "name": "HUNTING GROUNDS",
+      "type": "Infestation Swarm – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Genestealers on the hunt are relentless, squirming through hatches before they have even half opened.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.TARGET: That GREAT DEVOURER unit.EFFECT: Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it.",
+      "when": "Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.",
+      "target": "That GREAT DEVOURER unit.",
+      "effect": "Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it."
     },
     {
       "id": "000009725005",
@@ -8049,6 +8218,84 @@
       "effect": "You can return up to D3+3 destroyed models to each of the selected units."
     },
     {
+      "id": "000010148006",
+      "name": "SWARMING ASSAULT",
+      "type": "Subterranean Assault – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "A hive fleet’s vanguard organisms favour mobility and aggression, keeping the foe on the back foot with repeated coordinated assaults.",
+      "turn": "Your turn",
+      "phase": "Charge phase",
+      "fullDescription": "WHEN: Your Charge phase.TARGET: One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.EFFECT: Until the end of the phase, friendly TYRANIDS units within 6\" of your unit can re-roll Charge rolls.",
+      "when": "Your Charge phase.",
+      "target": "One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.",
+      "effect": "Until the end of the phase, friendly TYRANIDS units within 6\" of your unit can re-roll Charge rolls."
+    },
+    {
+      "id": "000010148007",
+      "name": "RETREAT BELOW",
+      "type": "Subterranean Assault – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "The network of tunnels beneath the battlefield enables Tyranid organisms to retreat from the foe and prepare further ambushes.",
+      "turn": "Opponent’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: End of your opponent’s Fight phase.TARGET: One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
+      "when": "End of your opponent’s Fight phase.",
+      "target": "One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.",
+      "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+    },
+    {
+      "id": "000010148004",
+      "name": "ENFILADING EMERGENCE",
+      "type": "Subterranean Assault – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Emerging from the depths, Tyranid bioforms level their weapon morphs and spit hissing volleys of living ammunition into the exposed backs of outflanked prey.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: End of your Movement phase.TARGET: One TYRANIDS unit from your army that was set up as Reinforcements this turn.EFFECT: Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
+      "when": "End of your Movement phase.",
+      "target": "One TYRANIDS unit from your army that was set up as Reinforcements this turn.",
+      "effect": "Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+    },
+    {
+      "id": "000010148005",
+      "name": "TUNNEL NETWORK",
+      "type": "Subterranean Assault – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "Taking advantage of freshly burrowed tunnels, Tyranid bioforms move swiftly across the landscape, emerging in unexpected locations.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: End of your Movement phase.TARGET: One TYRANIDS unit from your army that is wholly within 9\" of one or more of your Tunnel Markers.EFFECT: Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units.",
+      "when": "End of your Movement phase.",
+      "target": "One TYRANIDS unit from your army that is wholly within 9\" of one or more of your Tunnel Markers.",
+      "effect": "Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units."
+    },
+    {
+      "id": "000010148002",
+      "name": "ADAPTIVE OPTIMISATION",
+      "type": "Subterranean Assault – Wargear Stratagem",
+      "cpCost": 1,
+      "legend": "On occasions where subterranean assaults are deemed tactically useful, the hive mind may spontaneously alter its burrowing organisms, enabling them to act as beacons for its will.",
+      "turn": "Either player’s turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Command phase.TARGET: One MAWLOC or TRYGON unit from your army.EFFECT: Until the start of your next Command phase, your unit has the SYNAPSE keyword.",
+      "when": "Command phase.",
+      "target": "One MAWLOC or TRYGON unit from your army.",
+      "effect": "Until the start of your next Command phase, your unit has the SYNAPSE keyword."
+    },
+    {
+      "id": "000010148003",
+      "name": "REPLENISHING SWARMS",
+      "type": "Subterranean Assault – Wargear Stratagem",
+      "cpCost": 1,
+      "legend": "Scrambling through the tunnels come endless multitudes of warrior-beasts and harvester bioforms, spilling out of the depths to reinforce the teeming masses.",
+      "turn": "Your turn",
+      "phase": "Movement phase",
+      "fullDescription": "WHEN: Your Movement phase.TARGET: One TYRANIDS unit from your army, wholly within 9\" of one or more Tunnel Markers you placed.EFFECT: One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead.",
+      "when": "Your Movement phase.",
+      "target": "One TYRANIDS unit from your army, wholly within 9\" of one or more Tunnel Markers you placed.",
+      "effect": "One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead."
+    },
+    {
       "id": "000008556005",
       "name": "REINFORCED HIVE NODE",
       "type": "Synaptic Nexus – Battle Tactic Stratagem",
@@ -8060,19 +8307,6 @@
       "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
       "target": "One SYNAPSE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-    },
-    {
-      "id": "000008556003",
-      "name": "SYNAPTIC CHANNELLING",
-      "type": "Synaptic Nexus – Battle Tactic Stratagem",
-      "cpCost": 1,
-      "legend": "Tyranids are one with the Hive Mind; individuality is a disadvantage that they surpass.",
-      "turn": "Either player’s turn",
-      "phase": "Command phase",
-      "fullDescription": "WHEN: Command phase.TARGET: One SYNAPSE unit from your army.EFFECT: Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army.",
-      "when": "Command phase.",
-      "target": "One SYNAPSE unit from your army.",
-      "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army."
     },
     {
       "id": "000008556004",
@@ -8088,17 +8322,17 @@
       "effect": "Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6\" of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
     },
     {
-      "id": "000008556006",
-      "name": "IMPERATIVE DOMINANCE",
-      "type": "Synaptic Nexus – Strategic Ploy Stratagem",
+      "id": "000008556003",
+      "name": "SYNAPTIC CHANNELLING",
+      "type": "Synaptic Nexus – Battle Tactic Stratagem",
       "cpCost": 1,
-      "legend": "At need, the focused will of the Tyranid leader-beasts can goad warrior organisms to exhibit strategically beneficial behaviours at the instant they are needed most.",
-      "turn": "Your turn",
+      "legend": "Tyranids are one with the Hive Mind; individuality is a disadvantage that they surpass.",
+      "turn": "Either player’s turn",
       "phase": "Command phase",
-      "fullDescription": "WHEN: Your Command phase.TARGET: One TYRANIDS unit from your army that is within Synapse Range of your army.EFFECT: Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
-      "when": "Your Command phase.",
-      "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
-      "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
+      "fullDescription": "WHEN: Command phase.TARGET: One SYNAPSE unit from your army.EFFECT: Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army.",
+      "when": "Command phase.",
+      "target": "One SYNAPSE unit from your army.",
+      "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army."
     },
     {
       "id": "000008556002",
@@ -8112,6 +8346,19 @@
       "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
       "target": "One SYNAPSE unit from your army within 12\" of that enemy unit.",
       "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound."
+    },
+    {
+      "id": "000008556006",
+      "name": "IMPERATIVE DOMINANCE",
+      "type": "Synaptic Nexus – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "At need, the focused will of the Tyranid leader-beasts can goad warrior organisms to exhibit strategically beneficial behaviours at the instant they are needed most.",
+      "turn": "Your turn",
+      "phase": "Command phase",
+      "fullDescription": "WHEN: Your Command phase.TARGET: One TYRANIDS unit from your army that is within Synapse Range of your army.EFFECT: Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
+      "when": "Your Command phase.",
+      "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
+      "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
     },
     {
       "id": "000008556007",
@@ -8140,19 +8387,6 @@
       "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability."
     },
     {
-      "id": "000009682005",
-      "name": "HIVE SIGHT",
-      "type": "Tyranid Attack – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "It is whispered amongst the fearful prey species that if one Tyranid can see you, they all can...",
-      "turn": "Your turn",
-      "phase": "Charge phase",
-      "fullDescription": "WHEN: Your Charge phase.TARGET: One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.EFFECT: Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll.",
-      "when": "Your Charge phase.",
-      "target": "One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.",
-      "effect": "Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll."
-    },
-    {
       "id": "000009682004",
       "name": "EXPENDABLE BIOMASS",
       "type": "Tyranid Attack – Strategic Ploy Stratagem",
@@ -8164,6 +8398,19 @@
       "when": "Your Shooting phase.",
       "target": "One TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit from your army that has not been selected to shoot this phase.",
       "effect": "Select one enemy unit that is visible to your unit and within Engagement Range of one or more friendly ENDLESS MULTITUDE or RIPPER SWARMS units. Until the end of the phase, your unit is eligible to make ranged attacks against that enemy unit as if it was not within Engagement Range of those friendly units. When doing so, each time a model in your unit makes a ranged attack, subtract 1 from the Hit roll and, after your unit has finished making its attacks, each of those friendly units that started the phase within Engagement Range of that enemy unit suffers D3 mortal wounds."
+    },
+    {
+      "id": "000009682005",
+      "name": "HIVE SIGHT",
+      "type": "Tyranid Attack – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "It is whispered amongst the fearful prey species that if one Tyranid can see you, they all can...",
+      "turn": "Your turn",
+      "phase": "Charge phase",
+      "fullDescription": "WHEN: Your Charge phase.TARGET: One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.EFFECT: Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll.",
+      "when": "Your Charge phase.",
+      "target": "One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.",
+      "effect": "Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll."
     },
     {
       "id": "000009682003",
@@ -8231,6 +8478,19 @@
       "effect": "When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply."
     },
     {
+      "id": "000008409003",
+      "name": "UNENDING WAVES",
+      "type": "Unending Swarm – Strategic Ploy Stratagem",
+      "cpCost": 2,
+      "legend": "No matter how many warrior organisms are slain, more are already surging forward over their corpses.",
+      "turn": "Either player’s turn",
+      "phase": "Any phase",
+      "fullDescription": "WHEN: Any phase.TARGET: One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.RESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle.",
+      "when": "Any phase.",
+      "target": "One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+      "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.RESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle."
+    },
+    {
       "id": "000008409007",
       "name": "PRESERVATION IMPERATIVE",
       "type": "Unending Swarm – Strategic Ploy Stratagem",
@@ -8244,17 +8504,17 @@
       "effect": "Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability."
     },
     {
-      "id": "000008409003",
-      "name": "UNENDING WAVES",
-      "type": "Unending Swarm – Strategic Ploy Stratagem",
-      "cpCost": 2,
-      "legend": "No matter how many warrior organisms are slain, more are already surging forward over their corpses.",
+      "id": "000008418002",
+      "name": "SURPRISE ASSAULT",
+      "type": "Vanguard Onslaught – Battle Tactic Stratagem",
+      "cpCost": 1,
+      "legend": "Vanguard organisms strike from unexpected quarters with calculated and emotionless alien savagery that is appalling to behold.",
       "turn": "Either player’s turn",
-      "phase": "Any phase",
-      "fullDescription": "WHEN: Any phase.TARGET: One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.EFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.RESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle.",
-      "when": "Any phase.",
-      "target": "One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-      "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.RESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle."
+      "phase": "Shooting or Fight phase",
+      "fullDescription": "WHEN: Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.TARGET: That VANGUARD INVADER unit.EFFECT: Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
+      "when": "Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.",
+      "target": "That VANGUARD INVADER unit.",
+      "effect": "Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
     },
     {
       "id": "000008418003",
@@ -8270,17 +8530,17 @@
       "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability."
     },
     {
-      "id": "000008418002",
-      "name": "SURPRISE ASSAULT",
-      "type": "Vanguard Onslaught – Battle Tactic Stratagem",
+      "id": "000008418007",
+      "name": "INVISIBLE HUNTER",
+      "type": "Vanguard Onslaught – Strategic Ploy Stratagem",
       "cpCost": 1,
-      "legend": "Vanguard organisms strike from unexpected quarters with calculated and emotionless alien savagery that is appalling to behold.",
-      "turn": "Either player’s turn",
-      "phase": "Shooting or Fight phase",
-      "fullDescription": "WHEN: Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.TARGET: That VANGUARD INVADER unit.EFFECT: Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
-      "when": "Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.",
-      "target": "That VANGUARD INVADER unit.",
-      "effect": "Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
+      "legend": "Hunter-slayer organisms can melt away before the eyes of their foes, only to strike from a new direction.",
+      "turn": "Opponent’s turn",
+      "phase": "Fight phase",
+      "fullDescription": "WHEN: End of your opponent’s Fight phase.TARGET: Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.EFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units.",
+      "when": "End of your opponent’s Fight phase.",
+      "target": "Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.",
+      "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units."
     },
     {
       "id": "000008418004",
@@ -8322,19 +8582,6 @@
       "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks."
     },
     {
-      "id": "000008418007",
-      "name": "INVISIBLE HUNTER",
-      "type": "Vanguard Onslaught – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "Hunter-slayer organisms can melt away before the eyes of their foes, only to strike from a new direction.",
-      "turn": "Opponent’s turn",
-      "phase": "Fight phase",
-      "fullDescription": "WHEN: End of your opponent’s Fight phase.TARGET: Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.EFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units.",
-      "when": "End of your opponent’s Fight phase.",
-      "target": "Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.",
-      "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units."
-    },
-    {
       "id": "000009738006",
       "name": "PARASITIC PAYLOAD",
       "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
@@ -8361,6 +8608,19 @@
       "effect": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
     },
     {
+      "id": "000009738007",
+      "name": "SYNAPTIC SHIELD",
+      "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
+      "cpCost": 1,
+      "legend": "By focusing the psionic energies of the Hive Mind, these leader‑beasts shield the teeming bioforms under their command.",
+      "turn": "Opponent’s turn",
+      "phase": "Shooting phase",
+      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+      "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+      "target": "One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+      "effect": "If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+    },
+    {
       "id": "000009738004",
       "name": "RESTORATIVE IMPULSE",
       "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
@@ -8385,19 +8645,6 @@
       "when": "Your Shooting phase or the Fight phase.",
       "target": "One TYRANIDS unit from your army that has not been selected to shoot or fight this phase.",
       "effect": "If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a model in those units makes an attack, re-roll a Wound roll of 1, and, if it is a TYRANID WARRIORS unit, re-roll a Hit roll of 1 as well."
-    },
-    {
-      "id": "000009738007",
-      "name": "SYNAPTIC SHIELD",
-      "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
-      "cpCost": 1,
-      "legend": "By focusing the psionic energies of the Hive Mind, these leader‑beasts shield the teeming bioforms under their command.",
-      "turn": "Opponent’s turn",
-      "phase": "Shooting phase",
-      "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
-      "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-      "target": "One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-      "effect": "If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
     },
     {
       "id": "000009738003",
@@ -8457,19 +8704,6 @@
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead."
         },
         {
-          "id": "000008413004",
-          "name": "TYRANNOFORMED",
-          "type": "Assimilation Swarm – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "fullDescription": "WHEN: Command phase.TARGET: One HARVESTER unit from your army that is within range of an objective marker you control.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-          "when": "Command phase.",
-          "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-        },
-        {
           "id": "000008413003",
           "name": "RECLAIM BIOMASS",
           "type": "Assimilation Swarm – Strategic Ploy Stratagem",
@@ -8481,6 +8715,19 @@
           "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
           "target": "One HARVESTER unit from your army that is within 6\" of that destroyed unit.",
           "effect": "Regenerate one friendly TYRANIDS unit within 6\" of your HARVESTER unit (See Feed the Swarm)."
+        },
+        {
+          "id": "000008413004",
+          "name": "TYRANNOFORMED",
+          "type": "Assimilation Swarm – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "fullDescription": "WHEN: Command phase.TARGET: One HARVESTER unit from your army that is within range of an objective marker you control.EFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+          "when": "Command phase.",
+          "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
+          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
         },
         {
           "id": "000008413006",
@@ -8549,19 +8796,6 @@
       "name": "Biotide",
       "stratagems": [
         {
-          "id": "000009700004",
-          "name": "SWARM HUNTERS",
-          "type": "Biotide – Battle Tactic Stratagem",
-          "cpCost": 1,
-          "legend": "These Termagants act like a single, many-limbed, many-weaponed organism, squirming around one another to level the most firepower possible.",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "fullDescription": "WHEN: Your Shooting phase.TARGET: One TERMAGANTS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
-          "when": "Your Shooting phase.",
-          "target": "One TERMAGANTS unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll."
-        },
-        {
           "id": "000009700005",
           "name": "ONRUSHING HORDE",
           "type": "Biotide – Battle Tactic Stratagem",
@@ -8575,17 +8809,17 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
-          "id": "000009700002",
-          "name": "LIVING AVALANCHE",
-          "type": "Biotide – Strategic Ploy Stratagem",
+          "id": "000009700004",
+          "name": "SWARM HUNTERS",
+          "type": "Biotide – Battle Tactic Stratagem",
           "cpCost": 1,
-          "legend": "This hatchway does not so much slide open as burst asunder like a breached dam, warrior organisms spilling forth from it in a heaving mass.",
+          "legend": "These Termagants act like a single, many-limbed, many-weaponed organism, squirming around one another to level the most firepower possible.",
           "turn": "Your turn",
-          "phase": "Movement phase",
-          "fullDescription": "WHEN: Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.TARGET: That TYRANIDS unit.EFFECT: Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units.",
-          "when": "Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.",
-          "target": "That TYRANIDS unit.",
-          "effect": "Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units."
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One TERMAGANTS unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+          "when": "Your Shooting phase.",
+          "target": "One TERMAGANTS unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll."
         },
         {
           "id": "000009700003",
@@ -8599,6 +8833,19 @@
           "when": "Your Movement phase, at the start of the Reinforcements step.",
           "target": "One ENDLESS MULTITUDE unit from your army that is in Reserves.",
           "effect": "Until the end of the phase, models in your unit have the Deep Strike ability and, when setting them upon the battlefield using that ability, they can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, provided they are also within Synapse Range of your army.RESTRICTIONS: You can only use this Stratagem once and, until the end of the turn, your unit is not eligible to declare a charge."
+        },
+        {
+          "id": "000009700002",
+          "name": "LIVING AVALANCHE",
+          "type": "Biotide – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "This hatchway does not so much slide open as burst asunder like a breached dam, warrior organisms spilling forth from it in a heaving mass.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.TARGET: That TYRANIDS unit.EFFECT: Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units.",
+          "when": "Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.",
+          "target": "That TYRANIDS unit.",
+          "effect": "Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units."
         }
       ],
       "abilities": [
@@ -8649,17 +8896,17 @@
           "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save."
         },
         {
-          "id": "000009691003",
-          "name": "ADRENALISED SLAUGHTER",
+          "id": "000009691005",
+          "name": "PREDATORY POUNCE",
           "type": "Boarding Swarm – Strategic Ploy Stratagem",
           "cpCost": 1,
-          "legend": "These organisms contain additional adrenal biomorphs, which send them into a final killing frenzy just before death.",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+          "legend": "The internal hatchways of prey voidships make excellent ambush sites for vanguard organisms.",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.TARGET: One TYRANIDS unit from your army that is within 3\" of that Hatchway and is not within Engagement Range of one or more enemy units.EFFECT: Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move as close as possible to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
+          "when": "Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.",
+          "target": "One TYRANIDS unit from your army that is within 3\" of that Hatchway and is not within Engagement Range of one or more enemy units.",
+          "effect": "Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move as close as possible to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit."
         },
         {
           "id": "000009691004",
@@ -8675,17 +8922,17 @@
           "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\". After that move, if your unit is within range of an objective marker and no enemy units are within range of that objective marker, that objective marker is Secured by your army."
         },
         {
-          "id": "000009691005",
-          "name": "PREDATORY POUNCE",
+          "id": "000009691003",
+          "name": "ADRENALISED SLAUGHTER",
           "type": "Boarding Swarm – Strategic Ploy Stratagem",
           "cpCost": 1,
-          "legend": "The internal hatchways of prey voidships make excellent ambush sites for vanguard organisms.",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "fullDescription": "WHEN: Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.TARGET: One TYRANIDS unit from your army that is within 3\" of that Hatchway and is not within Engagement Range of one or more enemy units.EFFECT: Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move as close as possible to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit.",
-          "when": "Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.",
-          "target": "One TYRANIDS unit from your army that is within 3\" of that Hatchway and is not within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move as close as possible to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit."
+          "legend": "These organisms contain additional adrenal biomorphs, which send them into a final killing frenzy just before death.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: Fight phase, just after an enemy unit has selected its targets.TARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ],
       "abilities": [
@@ -8714,19 +8961,6 @@
       "name": "Crusher Stampede",
       "stratagems": [
         {
-          "id": "000008422006",
-          "name": "SWARM-GUIDED SALVOES",
-          "type": "Crusher Stampede – Battle Tactic Stratagem",
-          "cpCost": 1,
-          "legend": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "fullDescription": "WHEN: Your Shooting phase.TARGET: One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
-          "when": "Your Shooting phase.",
-          "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
-        },
-        {
           "id": "000008422003",
           "name": "RAMPAGING MONSTROSITIES",
           "type": "Crusher Stampede – Battle Tactic Stratagem",
@@ -8751,6 +8985,19 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well."
+        },
+        {
+          "id": "000008422006",
+          "name": "SWARM-GUIDED SALVOES",
+          "type": "Crusher Stampede – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your Shooting phase.TARGET: One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+          "when": "Your Shooting phase.",
+          "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
         },
         {
           "id": "000008422007",
@@ -8858,19 +9105,6 @@
           "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
         },
         {
-          "id": "000009725004",
-          "name": "HUNTING GROUNDS",
-          "type": "Infestation Swarm – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "Genestealers on the hunt are relentless, squirming through hatches before they have even half opened.",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "fullDescription": "WHEN: Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.TARGET: That GREAT DEVOURER unit.EFFECT: Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it.",
-          "when": "Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.",
-          "target": "That GREAT DEVOURER unit.",
-          "effect": "Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it."
-        },
-        {
           "id": "000009725003",
           "name": "PERVASIVE DREAD",
           "type": "Infestation Swarm – Strategic Ploy Stratagem",
@@ -8882,6 +9116,19 @@
           "when": "Fight phase, just after the enemy WARLORD is destroyed (and is not returned to the battlefield) by a GREAT DEVOURER unit from your army.",
           "target": "That GREAT DEVOURER unit.",
           "effect": "In your opponent’s next Command phase, each enemy unit on the battlefield must take a Battle-shock test, subtracting 1 from the result. This Stratagem cannot cause a unit to take two Battle-shock tests in the same phase."
+        },
+        {
+          "id": "000009725004",
+          "name": "HUNTING GROUNDS",
+          "type": "Infestation Swarm – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Genestealers on the hunt are relentless, squirming through hatches before they have even half opened.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.TARGET: That GREAT DEVOURER unit.EFFECT: Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it.",
+          "when": "Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.",
+          "target": "That GREAT DEVOURER unit.",
+          "effect": "Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it."
         },
         {
           "id": "000009725005",
@@ -9060,6 +9307,137 @@
       ]
     },
     {
+      "name": "Subterranean Assault",
+      "stratagems": [
+        {
+          "id": "000010148006",
+          "name": "SWARMING ASSAULT",
+          "type": "Subterranean Assault – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "A hive fleet’s vanguard organisms favour mobility and aggression, keeping the foe on the back foot with repeated coordinated assaults.",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "fullDescription": "WHEN: Your Charge phase.TARGET: One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.EFFECT: Until the end of the phase, friendly TYRANIDS units within 6\" of your unit can re-roll Charge rolls.",
+          "when": "Your Charge phase.",
+          "target": "One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.",
+          "effect": "Until the end of the phase, friendly TYRANIDS units within 6\" of your unit can re-roll Charge rolls."
+        },
+        {
+          "id": "000010148007",
+          "name": "RETREAT BELOW",
+          "type": "Subterranean Assault – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "The network of tunnels beneath the battlefield enables Tyranid organisms to retreat from the foe and prepare further ambushes.",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: End of your opponent’s Fight phase.TARGET: One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "id": "000010148004",
+          "name": "ENFILADING EMERGENCE",
+          "type": "Subterranean Assault – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Emerging from the depths, Tyranid bioforms level their weapon morphs and spit hissing volleys of living ammunition into the exposed backs of outflanked prey.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: End of your Movement phase.TARGET: One TYRANIDS unit from your army that was set up as Reinforcements this turn.EFFECT: Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
+          "when": "End of your Movement phase.",
+          "target": "One TYRANIDS unit from your army that was set up as Reinforcements this turn.",
+          "effect": "Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+        },
+        {
+          "id": "000010148005",
+          "name": "TUNNEL NETWORK",
+          "type": "Subterranean Assault – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Taking advantage of freshly burrowed tunnels, Tyranid bioforms move swiftly across the landscape, emerging in unexpected locations.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: End of your Movement phase.TARGET: One TYRANIDS unit from your army that is wholly within 9\" of one or more of your Tunnel Markers.EFFECT: Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units.",
+          "when": "End of your Movement phase.",
+          "target": "One TYRANIDS unit from your army that is wholly within 9\" of one or more of your Tunnel Markers.",
+          "effect": "Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units."
+        },
+        {
+          "id": "000010148002",
+          "name": "ADAPTIVE OPTIMISATION",
+          "type": "Subterranean Assault – Wargear Stratagem",
+          "cpCost": 1,
+          "legend": "On occasions where subterranean assaults are deemed tactically useful, the hive mind may spontaneously alter its burrowing organisms, enabling them to act as beacons for its will.",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "fullDescription": "WHEN: Command phase.TARGET: One MAWLOC or TRYGON unit from your army.EFFECT: Until the start of your next Command phase, your unit has the SYNAPSE keyword.",
+          "when": "Command phase.",
+          "target": "One MAWLOC or TRYGON unit from your army.",
+          "effect": "Until the start of your next Command phase, your unit has the SYNAPSE keyword."
+        },
+        {
+          "id": "000010148003",
+          "name": "REPLENISHING SWARMS",
+          "type": "Subterranean Assault – Wargear Stratagem",
+          "cpCost": 1,
+          "legend": "Scrambling through the tunnels come endless multitudes of warrior-beasts and harvester bioforms, spilling out of the depths to reinforce the teeming masses.",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "fullDescription": "WHEN: Your Movement phase.TARGET: One TYRANIDS unit from your army, wholly within 9\" of one or more Tunnel Markers you placed.EFFECT: One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead.",
+          "when": "Your Movement phase.",
+          "target": "One TYRANIDS unit from your army, wholly within 9\" of one or more Tunnel Markers you placed.",
+          "effect": "One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead."
+        }
+      ],
+      "abilities": [
+        {
+          "id": "000010146",
+          "name": "Surprise Assault",
+          "legend": "Burrowing Tyranid bioforms burst from the ground in all their horror.",
+          "detachment": "Subterranean Assault",
+          "rawDescription": "Each time a TYRANIDS model from your army makes an attack, re-roll a Hit roll of 1.Each time a BURROWER unit from your army is set up on the battlefield from Reserves, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.In the Reinforcements step of your Movement phase, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.If an enemy model (excluding AIRCRAFT) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield.KEYWORDSMAWLOC and TRYGON units from your army have the BURROWER keyword.In the Muster Armies step, you can select up to 2 TRYGON models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.",
+          "formattedDescription": "Each time a TYRANIDS model from your army makes an attack, re-roll a Hit roll of 1.Each time a BURROWER unit from your army is set up on the battlefield from Reserves, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.In the Reinforcements step of your Movement phase, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.If an enemy model (excluding AIRCRAFT) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield.KEYWORDSMAWLOC and TRYGON units from your army have the BURROWER keyword.In the Muster Armies step, you can select up to 2 TRYGON models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000010147002",
+          "name": "Synaptic Strategy",
+          "cost": 15,
+          "legend": "Possessing an exceptionally acute connection to the hive mind, this creature benefits from a constant influx of sensory data, enabling it to traverse the battlefield and emerge at the place and time of maximum impact.",
+          "detachment": "Subterranean Assault",
+          "rawDescription": "TYRANIDS model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+          "formattedDescription": "TYRANIDS model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "id": "000010147003",
+          "name": "Tremor Senses",
+          "cost": 20,
+          "legend": "From its concealed position beneath the battlefield, this bioform picks up on subtle traces of movement from the enemy force, impelling its fellow organisms to reposition themselves in preparation for a coordinated assault.",
+          "detachment": "Subterranean Assault",
+          "rawDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three friendly TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "formattedDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three friendly TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "id": "000010147004",
+          "name": "Vanguard Intellect",
+          "cost": 15,
+          "legend": "This bioform uses its own keen senses and predatory intellect to burrow into position and strike before the enemy can react.",
+          "detachment": "Subterranean Assault",
+          "rawDescription": "TYRANIDS model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+          "formattedDescription": "TYRANIDS model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        },
+        {
+          "id": "000010147005",
+          "name": "Trygon Prime",
+          "cost": 20,
+          "legend": "Only rarely manifested by the hive fleets, the Trygon Prime possesses a greatly enhanced synaptic network within its neural cortex, enabling it to more precisely coordinate the assaults of burrowing Tyranid creatures.",
+          "detachment": "Subterranean Assault",
+          "rawDescription": "TRYGON model only. The bearer gains the SYNAPSE keyword. Improve the Strength and Weapon Skill characteristics of melee weapons equipped by the bearer by 1.",
+          "formattedDescription": "TRYGON model only. The bearer gains the SYNAPSE keyword. Improve the Strength and Weapon Skill characteristics of melee weapons equipped by the bearer by 1."
+        }
+      ]
+    },
+    {
       "name": "Synaptic Nexus",
       "stratagems": [
         {
@@ -9076,19 +9454,6 @@
           "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
-          "id": "000008556003",
-          "name": "SYNAPTIC CHANNELLING",
-          "type": "Synaptic Nexus – Battle Tactic Stratagem",
-          "cpCost": 1,
-          "legend": "Tyranids are one with the Hive Mind; individuality is a disadvantage that they surpass.",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "fullDescription": "WHEN: Command phase.TARGET: One SYNAPSE unit from your army.EFFECT: Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army.",
-          "when": "Command phase.",
-          "target": "One SYNAPSE unit from your army.",
-          "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army."
-        },
-        {
           "id": "000008556004",
           "name": "IRRESISTIBLE WILL",
           "type": "Synaptic Nexus – Battle Tactic Stratagem",
@@ -9102,17 +9467,17 @@
           "effect": "Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6\" of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
         },
         {
-          "id": "000008556006",
-          "name": "IMPERATIVE DOMINANCE",
-          "type": "Synaptic Nexus – Strategic Ploy Stratagem",
+          "id": "000008556003",
+          "name": "SYNAPTIC CHANNELLING",
+          "type": "Synaptic Nexus – Battle Tactic Stratagem",
           "cpCost": 1,
-          "legend": "At need, the focused will of the Tyranid leader-beasts can goad warrior organisms to exhibit strategically beneficial behaviours at the instant they are needed most.",
-          "turn": "Your turn",
+          "legend": "Tyranids are one with the Hive Mind; individuality is a disadvantage that they surpass.",
+          "turn": "Either player’s turn",
           "phase": "Command phase",
-          "fullDescription": "WHEN: Your Command phase.TARGET: One TYRANIDS unit from your army that is within Synapse Range of your army.EFFECT: Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
-          "when": "Your Command phase.",
-          "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
-          "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
+          "fullDescription": "WHEN: Command phase.TARGET: One SYNAPSE unit from your army.EFFECT: Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army.",
+          "when": "Command phase.",
+          "target": "One SYNAPSE unit from your army.",
+          "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army."
         },
         {
           "id": "000008556002",
@@ -9126,6 +9491,19 @@
           "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
           "target": "One SYNAPSE unit from your army within 12\" of that enemy unit.",
           "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "id": "000008556006",
+          "name": "IMPERATIVE DOMINANCE",
+          "type": "Synaptic Nexus – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "At need, the focused will of the Tyranid leader-beasts can goad warrior organisms to exhibit strategically beneficial behaviours at the instant they are needed most.",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "fullDescription": "WHEN: Your Command phase.TARGET: One TYRANIDS unit from your army that is within Synapse Range of your army.EFFECT: Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
+          "when": "Your Command phase.",
+          "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
+          "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
         },
         {
           "id": "000008556007",
@@ -9207,19 +9585,6 @@
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability."
         },
         {
-          "id": "000009682005",
-          "name": "HIVE SIGHT",
-          "type": "Tyranid Attack – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "It is whispered amongst the fearful prey species that if one Tyranid can see you, they all can...",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "fullDescription": "WHEN: Your Charge phase.TARGET: One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.EFFECT: Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll.",
-          "when": "Your Charge phase.",
-          "target": "One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.",
-          "effect": "Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll."
-        },
-        {
           "id": "000009682004",
           "name": "EXPENDABLE BIOMASS",
           "type": "Tyranid Attack – Strategic Ploy Stratagem",
@@ -9231,6 +9596,19 @@
           "when": "Your Shooting phase.",
           "target": "One TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit from your army that has not been selected to shoot this phase.",
           "effect": "Select one enemy unit that is visible to your unit and within Engagement Range of one or more friendly ENDLESS MULTITUDE or RIPPER SWARMS units. Until the end of the phase, your unit is eligible to make ranged attacks against that enemy unit as if it was not within Engagement Range of those friendly units. When doing so, each time a model in your unit makes a ranged attack, subtract 1 from the Hit roll and, after your unit has finished making its attacks, each of those friendly units that started the phase within Engagement Range of that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "id": "000009682005",
+          "name": "HIVE SIGHT",
+          "type": "Tyranid Attack – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "It is whispered amongst the fearful prey species that if one Tyranid can see you, they all can...",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "fullDescription": "WHEN: Your Charge phase.TARGET: One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.EFFECT: Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll.",
+          "when": "Your Charge phase.",
+          "target": "One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.",
+          "effect": "Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll."
         },
         {
           "id": "000009682003",
@@ -9333,19 +9711,6 @@
           "effect": "When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply."
         },
         {
-          "id": "000008409007",
-          "name": "PRESERVATION IMPERATIVE",
-          "type": "Unending Swarm – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "Triggered by incoming projectile fire, a synaptic pulse spurs the danger-senses of lesser warrior organisms and causes them to scatter like a shoal evading predators. Only once the explosions have stopped and the dust cleared do the bioforms bunch up once again.",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability.",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability."
-        },
-        {
           "id": "000008409003",
           "name": "UNENDING WAVES",
           "type": "Unending Swarm – Strategic Ploy Stratagem",
@@ -9357,6 +9722,19 @@
           "when": "Any phase.",
           "target": "One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
           "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.RESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle."
+        },
+        {
+          "id": "000008409007",
+          "name": "PRESERVATION IMPERATIVE",
+          "type": "Unending Swarm – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "Triggered by incoming projectile fire, a synaptic pulse spurs the danger-senses of lesser warrior organisms and causes them to scatter like a shoal evading predators. Only once the explosions have stopped and the dust cleared do the bioforms bunch up once again.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability."
         }
       ],
       "abilities": [
@@ -9412,6 +9790,19 @@
       "name": "Vanguard Onslaught",
       "stratagems": [
         {
+          "id": "000008418002",
+          "name": "SURPRISE ASSAULT",
+          "type": "Vanguard Onslaught – Battle Tactic Stratagem",
+          "cpCost": 1,
+          "legend": "Vanguard organisms strike from unexpected quarters with calculated and emotionless alien savagery that is appalling to behold.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "fullDescription": "WHEN: Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.TARGET: That VANGUARD INVADER unit.EFFECT: Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
+          "when": "Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.",
+          "target": "That VANGUARD INVADER unit.",
+          "effect": "Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
+        },
+        {
           "id": "000008418003",
           "name": "ASSASSIN BEASTS",
           "type": "Vanguard Onslaught – Battle Tactic Stratagem",
@@ -9425,17 +9816,17 @@
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability."
         },
         {
-          "id": "000008418002",
-          "name": "SURPRISE ASSAULT",
-          "type": "Vanguard Onslaught – Battle Tactic Stratagem",
+          "id": "000008418007",
+          "name": "INVISIBLE HUNTER",
+          "type": "Vanguard Onslaught – Strategic Ploy Stratagem",
           "cpCost": 1,
-          "legend": "Vanguard organisms strike from unexpected quarters with calculated and emotionless alien savagery that is appalling to behold.",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "fullDescription": "WHEN: Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.TARGET: That VANGUARD INVADER unit.EFFECT: Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
-          "when": "Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.",
-          "target": "That VANGUARD INVADER unit.",
-          "effect": "Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
+          "legend": "Hunter-slayer organisms can melt away before the eyes of their foes, only to strike from a new direction.",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "fullDescription": "WHEN: End of your opponent’s Fight phase.TARGET: Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.EFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units.",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.",
+          "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units."
         },
         {
           "id": "000008418004",
@@ -9475,19 +9866,6 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks."
-        },
-        {
-          "id": "000008418007",
-          "name": "INVISIBLE HUNTER",
-          "type": "Vanguard Onslaught – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "Hunter-slayer organisms can melt away before the eyes of their foes, only to strike from a new direction.",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "fullDescription": "WHEN: End of your opponent’s Fight phase.TARGET: Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.EFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units.",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.",
-          "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.RESTRICTIONS: The targeted units must be more than 3\" away from all enemy units."
         }
       ],
       "abilities": [
@@ -9569,6 +9947,19 @@
           "effect": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
+          "id": "000009738007",
+          "name": "SYNAPTIC SHIELD",
+          "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
+          "cpCost": 1,
+          "legend": "By focusing the psionic energies of the Hive Mind, these leader‑beasts shield the teeming bioforms under their command.",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
           "id": "000009738004",
           "name": "RESTORATIVE IMPULSE",
           "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
@@ -9593,19 +9984,6 @@
           "when": "Your Shooting phase or the Fight phase.",
           "target": "One TYRANIDS unit from your army that has not been selected to shoot or fight this phase.",
           "effect": "If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a model in those units makes an attack, re-roll a Wound roll of 1, and, if it is a TYRANID WARRIORS unit, re-roll a Hit roll of 1 as well."
-        },
-        {
-          "id": "000009738007",
-          "name": "SYNAPTIC SHIELD",
-          "type": "Warrior Bioform Onslaught – Strategic Ploy Stratagem",
-          "cpCost": 1,
-          "legend": "By focusing the psionic energies of the Hive Mind, these leader‑beasts shield the teeming bioforms under their command.",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "fullDescription": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.TARGET: One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.EFFECT: If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
         },
         {
           "id": "000009738003",
@@ -9759,9 +10137,35 @@
       "detachment": "Warrior Bioform Onslaught",
       "rawDescription": "TYRANID WARRIORS (see below) and WINGED TYRANID PRIME units from your army have a 5+ invulnerable save.KEYWORDSTYRANID WARRIORS WITH RANGED BIO-WEAPONS and TYRANID WARRIORS WITH MELEE BIO-WEAPONS units from your army gain the TYRANID WARRIORS and BATTLELINE keywords, and while such a unit is not Battle-shocked, TYRANID WARRIORS models in that unit have an Objective Control characteristic of 3.",
       "formattedDescription": "TYRANID WARRIORS (see below) and WINGED TYRANID PRIME units from your army have a 5+ invulnerable save.KEYWORDSTYRANID WARRIORS WITH RANGED BIO-WEAPONS and TYRANID WARRIORS WITH MELEE BIO-WEAPONS units from your army gain the TYRANID WARRIORS and BATTLELINE keywords, and while such a unit is not Battle-shocked, TYRANID WARRIORS models in that unit have an Objective Control characteristic of 3."
+    },
+    {
+      "id": "000010146",
+      "name": "Surprise Assault",
+      "legend": "Burrowing Tyranid bioforms burst from the ground in all their horror.",
+      "detachment": "Subterranean Assault",
+      "rawDescription": "Each time a TYRANIDS model from your army makes an attack, re-roll a Hit roll of 1.Each time a BURROWER unit from your army is set up on the battlefield from Reserves, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.In the Reinforcements step of your Movement phase, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.If an enemy model (excluding AIRCRAFT) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield.KEYWORDSMAWLOC and TRYGON units from your army have the BURROWER keyword.In the Muster Armies step, you can select up to 2 TRYGON models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.",
+      "formattedDescription": "Each time a TYRANIDS model from your army makes an attack, re-roll a Hit roll of 1.Each time a BURROWER unit from your army is set up on the battlefield from Reserves, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.In the Reinforcements step of your Movement phase, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.If an enemy model (excluding AIRCRAFT) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield.KEYWORDSMAWLOC and TRYGON units from your army have the BURROWER keyword.In the Muster Armies step, you can select up to 2 TRYGON models from your army. The selected units gain the CHARACTER keyword.Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD."
     }
   ],
   "enhancements": [
+    {
+      "id": "000009690002",
+      "name": "Monoform Predators",
+      "cost": 0,
+      "legend": "These hunter organisms are already perfectly tailored to their task. The Hive Mind does not waste biomass in altering them further.",
+      "detachment": "Boarding Swarm",
+      "rawDescription": "TYRANIDS models in this Detachment cannot be given Enhancements.",
+      "formattedDescription": "TYRANIDS models in this Detachment cannot be given Enhancements."
+    },
+    {
+      "id": "000008421002",
+      "name": "Power of the Hive Mind",
+      "cost": 10,
+      "legend": "The Hive Mind channels lethal energy through its synaptic bioforms.",
+      "detachment": "Synaptic Nexus",
+      "rawDescription": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1.",
+      "formattedDescription": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1."
+    },
     {
       "id": "000008417002",
       "name": "Hunting Grounds",
@@ -9772,6 +10176,51 @@
       "formattedDescription": "TYRANIDS model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+, that unit must take a Battle-shock test."
     },
     {
+      "id": "000009737002",
+      "name": "Synaptic Tyrant",
+      "cost": 10,
+      "legend": "This Neurotyrant has been integrated into the synaptic web, maximising its control over the lesser bioforms and providing an additional layer of protection.",
+      "detachment": "Warrior Bioform Onslaught",
+      "rawDescription": "Neurotyrant model only. During the Declare Battle Formations step, the bearer can be attached to a TYRANID WARRIORS unit.",
+      "formattedDescription": "Neurotyrant model only. During the Declare Battle Formations step, the bearer can be attached to a TYRANID WARRIORS unit."
+    },
+    {
+      "id": "000010147002",
+      "name": "Synaptic Strategy",
+      "cost": 15,
+      "legend": "Possessing an exceptionally acute connection to the hive mind, this creature benefits from a constant influx of sensory data, enabling it to traverse the battlefield and emerge at the place and time of maximum impact.",
+      "detachment": "Subterranean Assault",
+      "rawDescription": "TYRANIDS model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "formattedDescription": "TYRANIDS model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "id": "000008348002",
+      "name": "Alien Cunning",
+      "cost": 30,
+      "legend": "This leader-beast possesses highly sophisticated neural pathways, allowing it to identify priority strategic assets and adapt the disposition of its warriors to seize them before the foe even recognise their value.",
+      "detachment": "Invasion Fleet",
+      "rawDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "id": "000008404002",
+      "name": "Ominous Presence",
+      "cost": 15,
+      "legend": "The crushing menace of the Hive Mind rolls off this monstrous creature in waves, causing it to loom even larger in the minds of its quailing prey and lending it absolute dominance of the battlefield.",
+      "detachment": "Crusher Stampede",
+      "rawDescription": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic.",
+      "formattedDescription": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic."
+    },
+    {
+      "id": "000009724002",
+      "name": "Stalking Menace",
+      "cost": 0,
+      "legend": "Soon after this nightmarish predator vanishes from sight, its victims feel the hot reek of its breath upon the napes of their necks in the instant before it strikes.",
+      "detachment": "Infestation Swarm",
+      "rawDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge.",
+      "formattedDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge."
+    },
+    {
       "id": "000009681002",
       "name": "Synaptic Goad",
       "cost": 0,
@@ -9779,15 +10228,6 @@
       "detachment": "Tyranid Attack",
       "rawDescription": "In your Command phase, select one friendly TYRANID WARRIORS WITH MELEE BIO-WEAPONS or TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit within 6\" of the bearer. Until the end of the turn, add 2\" to the Move characteristic of models in that unit.",
       "formattedDescription": "In your Command phase, select one friendly TYRANID WARRIORS WITH MELEE BIO-WEAPONS or TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit within 6\" of the bearer. Until the end of the turn, add 2\" to the Move characteristic of models in that unit."
-    },
-    {
-      "id": "000008408002",
-      "name": "Relentless Hunger",
-      "cost": 20,
-      "legend": "An overriding need to sink their fangs into the flesh of their prey drives these creatures toward the foe.",
-      "detachment": "Unending Swarm",
-      "rawDescription": "TYRANIDS model only. Add 2\" to the Move characteristic of models in the bearer’s unit.",
-      "formattedDescription": "TYRANIDS model only. Add 2\" to the Move characteristic of models in the bearer’s unit."
     },
     {
       "id": "000009699002",
@@ -9808,112 +10248,13 @@
       "formattedDescription": "TYRANIDS model only (excluding MONSTERS models). The bearer’s unit can be regenerated up to twice per phase, instead of once."
     },
     {
-      "id": "000008421002",
-      "name": "Power of the Hive Mind",
-      "cost": 10,
-      "legend": "The Hive Mind channels lethal energy through its synaptic bioforms.",
-      "detachment": "Synaptic Nexus",
-      "rawDescription": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1.",
-      "formattedDescription": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1."
-    },
-    {
-      "id": "000008404002",
-      "name": "Ominous Presence",
-      "cost": 15,
-      "legend": "The crushing menace of the Hive Mind rolls off this monstrous creature in waves, causing it to loom even larger in the minds of its quailing prey and lending it absolute dominance of the battlefield.",
-      "detachment": "Crusher Stampede",
-      "rawDescription": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic.",
-      "formattedDescription": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic."
-    },
-    {
-      "id": "000008348002",
-      "name": "Alien Cunning",
-      "cost": 30,
-      "legend": "This leader-beast possesses highly sophisticated neural pathways, allowing it to identify priority strategic assets and adapt the disposition of its warriors to seize them before the foe even recognise their value.",
-      "detachment": "Invasion Fleet",
-      "rawDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
-      "formattedDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
-    },
-    {
-      "id": "000009724002",
-      "name": "Stalking Menace",
-      "cost": 0,
-      "legend": "Soon after this nightmarish predator vanishes from sight, its victims feel the hot reek of its breath upon the napes of their necks in the instant before it strikes.",
-      "detachment": "Infestation Swarm",
-      "rawDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge.",
-      "formattedDescription": "Once per battle, at the end of your opponent’s Fight phase, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase as if it had the Deep Strike ability. If this is not possible, the bearer is destroyed. When the bearer is set back up on the battlefield, until the end of the turn, it cannot declare a charge."
-    },
-    {
-      "id": "000009737002",
-      "name": "Synaptic Tyrant",
-      "cost": 10,
-      "legend": "This Neurotyrant has been integrated into the synaptic web, maximising its control over the lesser bioforms and providing an additional layer of protection.",
-      "detachment": "Warrior Bioform Onslaught",
-      "rawDescription": "Neurotyrant model only. During the Declare Battle Formations step, the bearer can be attached to a TYRANID WARRIORS unit.",
-      "formattedDescription": "Neurotyrant model only. During the Declare Battle Formations step, the bearer can be attached to a TYRANID WARRIORS unit."
-    },
-    {
-      "id": "000009690002",
-      "name": "Monoform Predators",
-      "cost": 0,
-      "legend": "These hunter organisms are already perfectly tailored to their task. The Hive Mind does not waste biomass in altering them further.",
-      "detachment": "Boarding Swarm",
-      "rawDescription": "TYRANIDS models in this Detachment cannot be given Enhancements.",
-      "formattedDescription": "TYRANIDS models in this Detachment cannot be given Enhancements."
-    },
-    {
-      "id": "000008421003",
-      "name": "Psychostatic Disruption",
-      "cost": 30,
-      "legend": "A maelstrom of psychostatic disruption boils about this bioform. It degrades artificial and biological cognition alike, causing teleport signals to fluctuate, geopositioning cogitators to spew contradictory data, and onrushing enemy warriors to reel in confusion.",
-      "detachment": "Synaptic Nexus",
-      "rawDescription": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn.",
-      "formattedDescription": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn."
-    },
-    {
-      "id": "000008348003",
-      "name": "Perfectly Adapted",
-      "cost": 15,
-      "legend": "This creature was created for one purpose: to completely eradicate the defenders of the target prey world.",
-      "detachment": "Invasion Fleet",
-      "rawDescription": "TYRANIDS model only. Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for the bearer.",
-      "formattedDescription": "TYRANIDS model only. Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for the bearer."
-    },
-    {
-      "id": "000009724003",
-      "name": "Psi-spoor Sensitivity",
-      "cost": 0,
-      "legend": "Able to taste its prey’s terrified mental signatures like pheromones, there is nowhere to hide from this beast.",
-      "detachment": "Infestation Swarm",
-      "rawDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it.",
-      "formattedDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it."
-    },
-    {
-      "id": "000008412003",
-      "name": "Instinctive Defence",
-      "cost": 15,
-      "legend": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
-      "detachment": "Assimilation Swarm",
-      "rawDescription": "TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability.",
-      "formattedDescription": "TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability."
-    },
-    {
-      "id": "000009681003",
-      "name": "Reinforced Carapace",
-      "cost": 0,
-      "legend": "Threaded with molecular veins of absorbed alloys and minerals, this bioforms chitinous carapace has a dull glint that hints at its formidable resilience.",
-      "detachment": "Tyranid Attack",
-      "rawDescription": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack (note that if given to a TYRANID PRIME model, this only affects that model and not other models in its unit).",
-      "formattedDescription": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack (note that if given to a TYRANID PRIME model, this only affects that model and not other models in its unit)."
-    },
-    {
-      "id": "000008408003",
-      "name": "Naturalised Camouflage",
-      "cost": 30,
-      "legend": "These warrior organisms possess limited chameleonic properties that conceal their advance. The benefits of such deceptions decrease as they approach their prey, but can be enough to bring them safely into range to strike.",
+      "id": "000008408002",
+      "name": "Relentless Hunger",
+      "cost": 20,
+      "legend": "An overriding need to sink their fangs into the flesh of their prey drives these creatures toward the foe.",
       "detachment": "Unending Swarm",
-      "rawDescription": "TYRANIDS model only. At the start of the first battle round, select up to three friendly ENDLESS MULTITUDE units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack.",
-      "formattedDescription": "TYRANIDS model only. At the start of the first battle round, select up to three friendly ENDLESS MULTITUDE units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack."
+      "rawDescription": "TYRANIDS model only. Add 2\" to the Move characteristic of models in the bearer’s unit.",
+      "formattedDescription": "TYRANIDS model only. Add 2\" to the Move characteristic of models in the bearer’s unit."
     },
     {
       "id": "000009699003",
@@ -9943,6 +10284,24 @@
       "formattedDescription": "WINGED TYRANID PRIME model only. Each time a model in the bearer’s unit makes an attack, add 1 to the Hit roll."
     },
     {
+      "id": "000009724003",
+      "name": "Psi-spoor Sensitivity",
+      "cost": 0,
+      "legend": "Able to taste its prey’s terrified mental signatures like pheromones, there is nowhere to hide from this beast.",
+      "detachment": "Infestation Swarm",
+      "rawDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it.",
+      "formattedDescription": "Each time the bearer declares a charge, it can target enemy units that are not visible to it."
+    },
+    {
+      "id": "000009681003",
+      "name": "Reinforced Carapace",
+      "cost": 0,
+      "legend": "Threaded with molecular veins of absorbed alloys and minerals, this bioforms chitinous carapace has a dull glint that hints at its formidable resilience.",
+      "detachment": "Tyranid Attack",
+      "rawDescription": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack (note that if given to a TYRANID PRIME model, this only affects that model and not other models in its unit).",
+      "formattedDescription": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack (note that if given to a TYRANID PRIME model, this only affects that model and not other models in its unit)."
+    },
+    {
       "id": "000008417003",
       "name": "Chameleonic",
       "cost": 15,
@@ -9950,6 +10309,78 @@
       "detachment": "Vanguard Onslaught",
       "rawDescription": "VANGUARD INVADER model only. The bearer has the Stealth ability and each time a ranged attack targets the bearer’s unit, models in that unit have the Benefit of Cover against that attack.",
       "formattedDescription": "VANGUARD INVADER model only. The bearer has the Stealth ability and each time a ranged attack targets the bearer’s unit, models in that unit have the Benefit of Cover against that attack."
+    },
+    {
+      "id": "000008348003",
+      "name": "Perfectly Adapted",
+      "cost": 15,
+      "legend": "This creature was created for one purpose: to completely eradicate the defenders of the target prey world.",
+      "detachment": "Invasion Fleet",
+      "rawDescription": "TYRANIDS model only. Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for the bearer.",
+      "formattedDescription": "TYRANIDS model only. Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for the bearer."
+    },
+    {
+      "id": "000008412003",
+      "name": "Instinctive Defence",
+      "cost": 15,
+      "legend": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
+      "detachment": "Assimilation Swarm",
+      "rawDescription": "TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability.",
+      "formattedDescription": "TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability."
+    },
+    {
+      "id": "000008421003",
+      "name": "Psychostatic Disruption",
+      "cost": 30,
+      "legend": "A maelstrom of psychostatic disruption boils about this bioform. It degrades artificial and biological cognition alike, causing teleport signals to fluctuate, geopositioning cogitators to spew contradictory data, and onrushing enemy warriors to reel in confusion.",
+      "detachment": "Synaptic Nexus",
+      "rawDescription": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn.",
+      "formattedDescription": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn."
+    },
+    {
+      "id": "000008408003",
+      "name": "Naturalised Camouflage",
+      "cost": 30,
+      "legend": "These warrior organisms possess limited chameleonic properties that conceal their advance. The benefits of such deceptions decrease as they approach their prey, but can be enough to bring them safely into range to strike.",
+      "detachment": "Unending Swarm",
+      "rawDescription": "TYRANIDS model only. At the start of the first battle round, select up to three friendly ENDLESS MULTITUDE units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack.",
+      "formattedDescription": "TYRANIDS model only. At the start of the first battle round, select up to three friendly ENDLESS MULTITUDE units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack."
+    },
+    {
+      "id": "000010147003",
+      "name": "Tremor Senses",
+      "cost": 20,
+      "legend": "From its concealed position beneath the battlefield, this bioform picks up on subtle traces of movement from the enemy force, impelling its fellow organisms to reposition themselves in preparation for a coordinated assault.",
+      "detachment": "Subterranean Assault",
+      "rawDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three friendly TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "TYRANIDS model only. After both players have deployed their armies, select up to three friendly TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "id": "000008417004",
+      "name": "Stalker",
+      "cost": 10,
+      "legend": "This hunter seeks vital priority prey that has been pheromonally marked for swift slaughter.",
+      "detachment": "Vanguard Onslaught",
+      "rawDescription": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "formattedDescription": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+    },
+    {
+      "id": "000009737004",
+      "name": "Sensory Assimilation",
+      "cost": 20,
+      "legend": "The Hive Mind feeds accumulated sensory data to this leader‑beast, providing it with forewarning of incoming attacks long before the foe can land a blow.",
+      "detachment": "Warrior Bioform Onslaught",
+      "rawDescription": "WINGED TYRANID PRIME model only. Each time an attack targets the bearer’s unit, subtract 1 from the Hit roll.",
+      "formattedDescription": "WINGED TYRANID PRIME model only. Each time an attack targets the bearer’s unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "000008412004",
+      "name": "Biophagic Flow (Aura)",
+      "cost": 10,
+      "legend": "Parasitised biomass and revivifying fluids flow through the Assimilation Swarm like lifeblood.",
+      "detachment": "Assimilation Swarm",
+      "rawDescription": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" of it, instead of one within 6\".",
+      "formattedDescription": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" of it, instead of one within 6\"."
     },
     {
       "id": "000008408004",
@@ -9970,6 +10401,15 @@
       "formattedDescription": "TYRANIDS MONSTER model only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks."
     },
     {
+      "id": "000010147004",
+      "name": "Vanguard Intellect",
+      "cost": 15,
+      "legend": "This bioform uses its own keen senses and predatory intellect to burrow into position and strike before the enemy can react.",
+      "detachment": "Subterranean Assault",
+      "rawDescription": "TYRANIDS model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+      "formattedDescription": "TYRANIDS model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    },
+    {
       "id": "000008348004",
       "name": "Synaptic Linchpin",
       "cost": 20,
@@ -9977,15 +10417,6 @@
       "detachment": "Invasion Fleet",
       "rawDescription": "TYRANIDS model only. While a friendly TYRANIDS unit is within 9\" of the bearer, that unit is within Synapse Range of your army.",
       "formattedDescription": "TYRANIDS model only. While a friendly TYRANIDS unit is within 9\" of the bearer, that unit is within Synapse Range of your army."
-    },
-    {
-      "id": "000008417004",
-      "name": "Stalker",
-      "cost": 10,
-      "legend": "This hunter seeks vital priority prey that has been pheromonally marked for swift slaughter.",
-      "detachment": "Vanguard Onslaught",
-      "rawDescription": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll.",
-      "formattedDescription": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
     },
     {
       "id": "000008421004",
@@ -9997,22 +10428,13 @@
       "formattedDescription": "TYRANIDS SYNAPSE model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
     },
     {
-      "id": "000008412004",
-      "name": "Biophagic Flow (Aura)",
-      "cost": 10,
-      "legend": "Parasitised biomass and revivifying fluids flow through the Assimilation Swarm like lifeblood.",
+      "id": "000008412005",
+      "name": "Parasitic Biomorphology",
+      "cost": 25,
+      "legend": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
       "detachment": "Assimilation Swarm",
-      "rawDescription": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" of it, instead of one within 6\".",
-      "formattedDescription": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" of it, instead of one within 6\"."
-    },
-    {
-      "id": "000009737004",
-      "name": "Sensory Assimilation",
-      "cost": 20,
-      "legend": "The Hive Mind feeds accumulated sensory data to this leader‑beast, providing it with forewarning of incoming attacks long before the foe can land a blow.",
-      "detachment": "Warrior Bioform Onslaught",
-      "rawDescription": "WINGED TYRANID PRIME model only. Each time an attack targets the bearer’s unit, subtract 1 from the Hit roll.",
-      "formattedDescription": "WINGED TYRANID PRIME model only. Each time an attack targets the bearer’s unit, subtract 1 from the Hit roll."
+      "rawDescription": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit.",
+      "formattedDescription": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
     },
     {
       "id": "000009737005",
@@ -10022,6 +10444,42 @@
       "detachment": "Warrior Bioform Onslaught",
       "rawDescription": "TYRANIDS model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced.",
       "formattedDescription": "TYRANIDS model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "id": "000008408005",
+      "name": "Adrenalised Onslaught",
+      "cost": 15,
+      "legend": "Biostimulants course through the bodies of these warrior organisms, combining with goading synaptic impulses to lend them an unholy turn of speed.",
+      "detachment": "Unending Swarm",
+      "rawDescription": "TYRANIDS model only. Each time the bearer’s unit Piles In or Consolidates, models in this unit can move an additional 3\".",
+      "formattedDescription": "TYRANIDS model only. Each time the bearer’s unit Piles In or Consolidates, models in this unit can move an additional 3\"."
+    },
+    {
+      "id": "000008421005",
+      "name": "The Dirgeheart of Kharis (Aura)",
+      "cost": 15,
+      "legend": "This grotesque biomorphic symbiote buries itself in its hosts thorax and emits a droning psychic note. The longer prey are exposed to the sound, the worse their atavistic terror response becomes...",
+      "detachment": "Synaptic Nexus",
+      "rawDescription": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9\" of the bearer, worsen that units Leadership characteristic by 1.",
+      "formattedDescription": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9\" of the bearer, worsen that units Leadership characteristic by 1."
+    },
+    {
+      "id": "000010147005",
+      "name": "Trygon Prime",
+      "cost": 20,
+      "legend": "Only rarely manifested by the hive fleets, the Trygon Prime possesses a greatly enhanced synaptic network within its neural cortex, enabling it to more precisely coordinate the assaults of burrowing Tyranid creatures.",
+      "detachment": "Subterranean Assault",
+      "rawDescription": "TRYGON model only. The bearer gains the SYNAPSE keyword. Improve the Strength and Weapon Skill characteristics of melee weapons equipped by the bearer by 1.",
+      "formattedDescription": "TRYGON model only. The bearer gains the SYNAPSE keyword. Improve the Strength and Weapon Skill characteristics of melee weapons equipped by the bearer by 1."
+    },
+    {
+      "id": "000008417005",
+      "name": "Neuronode",
+      "cost": 20,
+      "legend": "While no true synapse beast, this bioform has been grafted with a limited synaptic symbiote, the influence of which increases its host’s ability to formulate and enforce large-scale predatory strategies.",
+      "detachment": "Vanguard Onslaught",
+      "rawDescription": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "formattedDescription": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
     },
     {
       "id": "000008348005",
@@ -10040,42 +10498,6 @@
       "detachment": "Crusher Stampede",
       "rawDescription": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll.",
       "formattedDescription": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll."
-    },
-    {
-      "id": "000008408005",
-      "name": "Adrenalised Onslaught",
-      "cost": 15,
-      "legend": "Biostimulants course through the bodies of these warrior organisms, combining with goading synaptic impulses to lend them an unholy turn of speed.",
-      "detachment": "Unending Swarm",
-      "rawDescription": "TYRANIDS model only. Each time the bearer’s unit Piles In or Consolidates, models in this unit can move an additional 3\".",
-      "formattedDescription": "TYRANIDS model only. Each time the bearer’s unit Piles In or Consolidates, models in this unit can move an additional 3\"."
-    },
-    {
-      "id": "000008412005",
-      "name": "Parasitic Biomorphology",
-      "cost": 25,
-      "legend": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
-      "detachment": "Assimilation Swarm",
-      "rawDescription": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit.",
-      "formattedDescription": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
-    },
-    {
-      "id": "000008421005",
-      "name": "The Dirgeheart of Kharis (Aura)",
-      "cost": 15,
-      "legend": "This grotesque biomorphic symbiote buries itself in its hosts thorax and emits a droning psychic note. The longer prey are exposed to the sound, the worse their atavistic terror response becomes...",
-      "detachment": "Synaptic Nexus",
-      "rawDescription": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9\" of the bearer, worsen that units Leadership characteristic by 1.",
-      "formattedDescription": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9\" of the bearer, worsen that units Leadership characteristic by 1."
-    },
-    {
-      "id": "000008417005",
-      "name": "Neuronode",
-      "cost": 20,
-      "legend": "While no true synapse beast, this bioform has been grafted with a limited synaptic symbiote, the influence of which increases its host’s ability to formulate and enforce large-scale predatory strategies.",
-      "detachment": "Vanguard Onslaught",
-      "rawDescription": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
-      "formattedDescription": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
     }
   ]
 }

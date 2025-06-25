@@ -1181,7 +1181,7 @@ async function processWarhammerData() {
     await readDatasheets();
     await parseUnitProfiles();
     await parseUnitWeapons();
-    await parseUnitAbilities(); // <-- Add this step
+    await parseUnitAbilities(); 
     await parseUnitCompositions();
     await parseUnitCosts();
     await parseUnitKeywords()
